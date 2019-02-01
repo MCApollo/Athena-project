@@ -1,0 +1,21 @@
+# gocryptfs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gocryptfs.rb
+# Converted on 02-01-2019
+
+name='gocryptfs'
+url=('https://github.com/rfjakob/gocryptfs/releases/download/v1.6.1/gocryptfs_v1.6.1_src-deps.tar.gz')
+description='Encrypted overlay filesystem written in Go'
+version='1.6.1' # Guessed version.
+priority='optional'
+homepage='https://nuetzlich.net/gocryptfs/'
+depends=('openssl' ':osxfuse')
+makedepends=('go' 'pkg-config')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/rfjakob/gocryptfs").install buildpath.children
+# cd "src/github.com/rfjakob/gocryptfs" do
+# system "./build.bash"
+# bin.install "gocryptfs"
+# prefix.install_metafiles
+# end

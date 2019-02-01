@@ -1,0 +1,13 @@
+# stormssh-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stormssh-completion.rb
+# Converted on 02-01-2019
+
+name='stormsshcompletion'
+url=('https://github.com/vigo/stormssh-completion/archive/0.1.1.tar.gz')
+description='Completion for storm-ssh'
+version='0.1.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/vigo/stormssh-completion'
+
+###### Install ######
+# bash_completion.install "stormssh"

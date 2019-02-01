@@ -1,0 +1,21 @@
+# packmol.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/packmol.rb
+# Converted on 02-01-2019
+
+name='packmol'
+url=('https://github.com/leandromartinez98/packmol/archive/18.169.tar.gz')
+description='Packing optimization for molecular dynamics simulations'
+version='18.169' # Guessed version.
+priority='optional'
+homepage='https://www.ime.unicamp.br/~martinez/packmol/'
+depends=('gcc')
+
+###### Resource ######
+# examples: https://www.ime.unicamp.br/~martinez/packmol/examples/examples.tar.gz
+
+###### Install ######
+# system "./configure"
+# system "make"
+# bin.install("packmol")
+# pkgshare.install "solvate.tcl"
+# (pkgshare/"examples").install resource("examples")

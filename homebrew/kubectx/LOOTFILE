@@ -1,0 +1,12 @@
+# kubectx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kubectx.rb
+# Converted on 02-01-2019
+
+name='kubectx'
+url=('https://github.com/ahmetb/kubectx/archive/v0.6.3.tar.gz')
+description='Tool that can switch between kubectl contexts easily and create aliases'
+version='0.6.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/ahmetb/kubectx'
+
+###### Install ######

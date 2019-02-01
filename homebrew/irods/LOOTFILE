@@ -1,0 +1,21 @@
+# irods.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/irods.rb
+# Converted on 02-01-2019
+
+name='irods'
+url=('https://github.com/irods/irods-legacy/archive/3.3.1.tar.gz')
+description='Integrated data grid software solution'
+version='3.3.1' # Guessed version.
+priority='optional'
+homepage='https://irods.org/'
+depends=('openssl')
+makedepends=('')
+
+###### Install ######
+# cd "iRODS" do
+# system "./scripts/configure"
+# inreplace "config/config.mk", "
+# inreplace "config/config.mk", "
+# system "make"
+# bin.install Dir["clients/icommands/bin/*"].select { |f| File.executable? f }
+# end

@@ -1,0 +1,16 @@
+# cmus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cmus.rb
+# Converted on 02-01-2019
+
+name='cmus'
+url=('https://github.com/cmus/cmus/archive/v2.7.1.tar.gz')
+description='Music player with an ncurses based interface'
+version='2.7.1' # Guessed version.
+priority='optional'
+homepage='https://cmus.github.io/'
+depends=('faad2' 'flac' 'libao' 'libcue' 'libogg' 'libvorbis' 'mad' 'mp4v2')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "prefix=#{prefix}", "mandir=#{man}"
+# system "make", "install"

@@ -1,0 +1,14 @@
+# betty.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/betty.rb
+# Converted on 02-01-2019
+
+name='betty'
+url=('https://github.com/pickhardt/betty/archive/v0.1.7.tar.gz')
+description='English-like interface for the command-line'
+version='0.1.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/pickhardt/betty'
+
+###### Install ######
+# libexec.install "lib", "main.rb" => "betty"
+# bin.write_exec_script libexec/"betty"

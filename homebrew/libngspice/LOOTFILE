@@ -1,0 +1,17 @@
+# libngspice.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libngspice.rb
+# Converted on 02-01-2019
+
+name='libngspice'
+url=('https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/28/ngspice-28.tar.gz')
+description='Spice circuit simulator as shared library'
+version=' '
+priority='optional'
+homepage='https://ngspice.sourceforge.io/'
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--prefix=#{prefix}", "--disable-debug",
+# "--disable-dependency-tracking", "--with-ngshared", "--enable-cider",
+# "--enable-xspice"
+# system "make", "install"

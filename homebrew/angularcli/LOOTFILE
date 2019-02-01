@@ -1,0 +1,15 @@
+# angular-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/angular-cli.rb
+# Converted on 02-01-2019
+
+name='angularcli'
+url=('https://registry.npmjs.org/@angular/cli/-/cli-7.2.3.tgz')
+description='CLI tool for Angular'
+version='7.2.3' # Guessed version.
+priority='optional'
+homepage='https://cli.angular.io/'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

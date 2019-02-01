@@ -1,0 +1,14 @@
+# selenium-server-standalone.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/selenium-server-standalone.rb
+# Converted on 02-01-2019
+
+name='seleniumserverstandalone'
+url=('https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar')
+description='Browser automation for testing purposes'
+version='3.141.59' # Guessed version.
+priority='optional'
+homepage='https://www.seleniumhq.org/'
+
+###### Install ######
+# libexec.install "selenium-server-standalone-#{version}.jar"
+# bin.write_jar_script libexec/"selenium-server-standalone-#{version}.jar", "selenium-server"

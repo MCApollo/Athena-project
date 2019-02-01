@@ -1,0 +1,30 @@
+# trr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/trr.rb
+# Converted on 02-01-2019
+
+name='trr'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/trr22/trr22_0.99-5.tar.gz')
+description='Type training program for emacs users'
+version='0.99' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/trr22/'
+depends=('apel')
+makedepends=('nkf')
+
+###### Install ######
+# system "make", "clean"
+# cp Dir["#{Formula["apel"].opt_elisp}/**/*.el"], buildpath
+# system "nkf", "-w", "--overwrite", buildpath/"CONTENTS"
+# inreplace buildpath/"CONTENTS", "EmacsLisp", "Elisp_programs"
+# system "make", "clean"
+# cp Dir["#{Formula["apel"].opt_elisp}/**/*.elc"], buildpath
+# texts = "The_Constitution_Of_JAPAN Constitution_of_the_USA Iccad_90 C_programs Elisp_programs Java_programs Ocaml_programs Python_programs"
+# inreplace buildpath/"Makefile", "japanese = t", "japanese = nil"
+# system "make", "install",
+# "CC=#{ENV.cc}",
+# "TRRDIR=#{prefix}",
+# "INFODIR=#{info}",
+# "BINDIR=#{bin}",
+# "TEXTS=#{texts}",
+# "LISPDIR=#{elisp}"
+# (prefix/"record").install Dir["record/*"]

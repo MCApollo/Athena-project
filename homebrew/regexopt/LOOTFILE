@@ -1,0 +1,14 @@
+# regex-opt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/regex-opt.rb
+# Converted on 02-01-2019
+
+name='regexopt'
+url=('https://bisqwit.iki.fi/src/arch/regex-opt-1.2.4.tar.gz')
+description='Perl-compatible regular expression optimizer'
+version='1.2.4' # Guessed version.
+priority='optional'
+homepage='https://bisqwit.iki.fi/source/regexopt.html'
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}", "CXX=#{ENV.cxx}"
+# bin.install "regex-opt"

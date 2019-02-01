@@ -1,0 +1,12 @@
+# pyenv-pip-migrate.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pyenv-pip-migrate.rb
+# Converted on 02-01-2019
+
+name='pyenvpipmigrate'
+url=('https://github.com/pyenv/pyenv-pip-migrate/archive/v20130527.tar.gz')
+description='Migrate pip packages from one Python version to another'
+version=' '
+priority='optional'
+homepage='https://github.com/pyenv/pyenv-pip-migrate'
+
+###### Install ######

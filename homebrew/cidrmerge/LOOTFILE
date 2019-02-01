@@ -1,0 +1,14 @@
+# cidrmerge.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cidrmerge.rb
+# Converted on 02-01-2019
+
+name='cidrmerge'
+url=('https://downloads.sourceforge.net/project/cidrmerge/cidrmerge/cidrmerge-1.5.3/cidrmerge-1.5.3.tar.gz')
+description='CIDR merging with white listing (network exclusion)'
+version='1.5.3' # Guessed version.
+priority='optional'
+homepage='https://cidrmerge.sourceforge.io'
+
+###### Install ######
+# system "make"
+# bin.install "cidrmerge"

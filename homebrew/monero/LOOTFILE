@@ -1,0 +1,24 @@
+# monero.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/monero.rb
+# Converted on 02-01-2019
+
+name='monero'
+url=('https://github.com/monero-project/monero.git')
+description='Official monero wallet and cpu miner'
+version=' '
+priority='optional'
+homepage='https://getmonero.org/'
+depends=('boost' 'libsodium' 'openssl' 'readline' 'unbound' 'zeromq')
+makedepends=('cmake' 'pkg-config')
+
+###### Resource ######
+# cppzmq: https://github.com/zeromq/cppzmq/archive/v4.3.0.tar.gz
+
+###### Install ######
+# (buildpath/"cppzmq").install resource("cppzmq")
+# system "cmake", ".", "-DZMQ_INCLUDE_PATH=#{buildpath}/cppzmq",
+# "-DReadline_ROOT_DIR=#{Formula["readline"].opt_prefix}",
+# *std_cmake_args
+# system "make", "install"
+# rm lib/"libminiupnpc.a"
+# rm_rf include/"miniupnpc"

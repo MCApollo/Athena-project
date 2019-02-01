@@ -1,0 +1,16 @@
+# dvdbackup.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dvdbackup.rb
+# Converted on 02-01-2019
+
+name='dvdbackup'
+url=('https://downloads.sourceforge.net/dvdbackup/dvdbackup-0.4.2.tar.gz')
+description='Rip DVD'\''s from the command-line'
+version='0.4.2' # Guessed version.
+priority='optional'
+homepage='https://dvdbackup.sourceforge.io'
+depends=('libdvdread')
+
+###### Install ######
+# system "./configure", "--mandir=#{man}",
+# "--prefix=#{prefix}"
+# system "make", "install"

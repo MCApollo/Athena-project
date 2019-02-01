@@ -1,0 +1,19 @@
+# exodriver.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/exodriver.rb
+# Converted on 02-01-2019
+
+name='exodriver'
+url=('https://github.com/labjack/exodriver/archive/v2.5.3.tar.gz')
+description='Thin interface to LabJack devices'
+version='2.5.3' # Guessed version.
+priority='optional'
+homepage='https://labjack.com/support/linux-and-mac-os-x-drivers'
+depends=('libusb')
+
+###### Install ######
+# system "make", "-C", "liblabjackusb", "install",
+# "HEADER_DESTINATION=#{include}", "DESTINATION=#{lib}"
+# ENV.prepend "CPPFLAGS", "-I#{include}"
+# ENV.prepend "LDFLAGS", "-L#{lib}"
+# system "make", "-C", "examples/Modbus"
+# pkgshare.install "examples/Modbus/testModbusFunctions"

@@ -1,0 +1,16 @@
+# proguard.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/proguard.rb
+# Converted on 02-01-2019
+
+name='proguard'
+url=('https://downloads.sourceforge.net/project/proguard/proguard/6.0/proguard6.0.3.tar.gz')
+description='Java class file shrinker, optimizer, and obfuscator'
+version='6.0.3' # Guessed version.
+priority='optional'
+homepage='https://proguard.sourceforge.io/'
+
+###### Install ######
+# libexec.install "lib/proguard.jar"
+# libexec.install "lib/proguardgui.jar"
+# bin.write_jar_script libexec/"proguard.jar", "proguard"
+# bin.write_jar_script libexec/"proguardgui.jar", "proguardgui"

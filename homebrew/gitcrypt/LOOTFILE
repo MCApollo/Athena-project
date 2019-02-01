@@ -1,0 +1,15 @@
+# git-crypt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-crypt.rb
+# Converted on 02-01-2019
+
+name='gitcrypt'
+url=('https://www.agwa.name/projects/git-crypt/downloads/git-crypt-0.6.0.tar.gz')
+description='Enable transparent encryption/decryption of files in a git repo'
+version='0.6.0' # Guessed version.
+priority='optional'
+homepage='https://www.agwa.name/projects/git-crypt/'
+depends=('openssl')
+
+###### Install ######
+# system "make"
+# bin.install "git-crypt"

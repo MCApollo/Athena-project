@@ -1,0 +1,21 @@
+# aide.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aide.rb
+# Converted on 02-01-2019
+
+name='aide'
+url=('https://downloads.sourceforge.net/project/aide/aide/0.16/aide-0.16.tar.gz')
+description='File and directory integrity checker'
+version='0.16' # Guessed version.
+priority='optional'
+homepage='https://aide.sourceforge.io/'
+depends=('libgcrypt' 'libgpg-error' 'pcre')
+
+###### Install ######
+# system "sh", "./autogen.sh" if build.head?
+# system "./configure", "--disable-lfs",
+# "--disable-static",
+# "--with-curl",
+# "--with-zlib",
+# "--sysconfdir=#{etc}",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,21 @@
+# gst-libav.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gst-libav.rb
+# Converted on 02-01-2019
+
+name='gstlibav'
+url=('https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.14.4.tar.xz')
+description='GStreamer plugins for Libav (a fork of FFmpeg)'
+version='1.14.4' # Guessed version.
+priority='optional'
+homepage='https://gstreamer.freedesktop.org/'
+depends=('gst-plugins-base' 'xz')
+makedepends=('pkg-config' 'yasm')
+
+###### Install ######
+# if build.head?
+# ENV["NOCONFIGURE"] = "yes"
+# system "./autogen.sh"
+# end
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking"
+# system "make"
+# system "make", "install"

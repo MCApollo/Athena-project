@@ -1,0 +1,22 @@
+# aws-es-proxy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-es-proxy.rb
+# Converted on 02-01-2019
+
+name='awsesproxy'
+url=('https://github.com/abutaha/aws-es-proxy/archive/v0.9.tar.gz')
+description='Small proxy between HTTP client and AWS Elasticsearch'
+version='0.9' # Guessed version.
+priority='optional'
+homepage='https://github.com/abutaha/aws-es-proxy'
+makedepends=('glide' 'go')
+
+###### Install ######
+# ENV["GLIDE_HOME"] = buildpath/"glide_home"
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/abutaha/aws-es-proxy").install buildpath.children
+# cd "src/github.com/abutaha/aws-es-proxy" do
+# system "glide", "install"
+# system "go", "build", "-o", "aws-es-proxy"
+# bin.install "aws-es-proxy"
+# prefix.install_metafiles
+# end

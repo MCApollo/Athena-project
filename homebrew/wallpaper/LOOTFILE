@@ -1,0 +1,15 @@
+# wallpaper.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wallpaper.rb
+# Converted on 02-01-2019
+
+name='wallpaper'
+url=('https://github.com/sindresorhus/macos-wallpaper/archive/v2.0.0.tar.gz')
+description='Manage the desktop wallpaper'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/sindresorhus/macos-wallpaper'
+depends=(':xcode' ':macos')
+
+###### Install ######
+# system "swift", "build", "-c", "release", "-Xswiftc", "-static-stdlib", "--disable-sandbox"
+# bin.install ".build/release/wallpaper"

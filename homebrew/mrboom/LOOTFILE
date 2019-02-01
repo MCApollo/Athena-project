@@ -1,0 +1,16 @@
+# mrboom.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mrboom.rb
+# Converted on 02-01-2019
+
+name='mrboom'
+url=('https://github.com/Javanaise/mrboom-libretro/archive/4.5.tar.gz')
+description='Eight player Bomberman clone'
+version='4.5' # Guessed version.
+priority='optional'
+homepage='http://mrboom.mumblecore.org/'
+depends=('libmodplug' 'minizip' 'sdl2' 'sdl2_mixer')
+makedepends=('cmake')
+
+###### Install ######
+# system "make", "mrboom", "LIBSDL2=1"
+# system "make", "install", "PREFIX=#{prefix}"

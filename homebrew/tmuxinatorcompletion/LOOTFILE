@@ -1,0 +1,12 @@
+# tmuxinator-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tmuxinator-completion.rb
+# Converted on 02-01-2019
+
+name='tmuxinatorcompletion'
+url=('https://github.com/tmuxinator/tmuxinator/archive/v0.15.0.tar.gz')
+description='Shell completion for Tmuxinator'
+version='0.15.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/tmuxinator/tmuxinator'
+
+###### Install ######

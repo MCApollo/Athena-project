@@ -1,0 +1,16 @@
+# hivemind.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hivemind.rb
+# Converted on 02-01-2019
+
+name='hivemind'
+url=('https://github.com/DarthSim/hivemind/archive/v1.0.4.tar.gz')
+description='The mind to rule processes of your development environment'
+version='1.0.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/DarthSim/hivemind'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/DarthSim/hivemind/").install Dir["*"]
+# system "go", "build", "-o", "#{bin}/hivemind", "-v", "github.com/DarthSim/hivemind/"

@@ -1,0 +1,40 @@
+# coreutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/coreutils.rb
+# Converted on 02-01-2019
+
+name='coreutils'
+url=('https://ftp.gnu.org/gnu/coreutils/coreutils-8.30.tar.xz')
+description='GNU File, Shell, and Text utilities'
+version='8.30' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/coreutils'
+makedepends=('')
+
+###### Install ######
+# if MacOS.version == :el_capitan
+# ENV["gl_cv_func_getcwd_abort_bug"] = "no"
+# inreplace "lib/renameat2.c", "defined RENAME_EXCL", "defined UNDEFINED_GIBBERISH"
+# end
+# system "./bootstrap" if build.head?
+# args = %W[
+# --prefix=#{prefix}
+# --program-prefix=g
+# --without-gmp
+# ]
+# system "./configure", *args
+# system "make", "install"
+# coreutils_filenames(bin).each do |cmd|
+# (libexec/"gnubin").install_symlink bin/"g#{cmd}" => cmd
+# end
+# coreutils_filenames(man1).each do |cmd|
+# (libexec/"gnuman"/"man1").install_symlink man1/"g#{cmd}" => cmd
+# end
+# libexec.install_symlink "gnuman" => "man"
+# no_conflict = %w[
+# b2sum base32 chcon hostid md5sum nproc numfmt pinky ptx realpath runcon
+# sha1sum sha224sum sha256sum sha384sum sha512sum shred shuf stdbuf tac timeout truncate
+# ]
+# no_conflict.each do |cmd|
+# bin.install_symlink "g#{cmd}" => cmd
+# man1.install_symlink "g#{cmd}.1" => "#{cmd}.1"
+# end

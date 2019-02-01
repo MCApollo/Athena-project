@@ -1,0 +1,18 @@
+# libgpg-error.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgpg-error.rb
+# Converted on 02-01-2019
+
+name='libgpgerror'
+url=('https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.35.tar.bz2')
+description='Common error values for all GnuPG components'
+version='1.35' # Guessed version.
+priority='optional'
+homepage='https://www.gnupg.org/related_software/libgpg-error/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--enable-static"
+# system "make", "install"
+# inreplace bin/"gpg-error-config", prefix, opt_prefix

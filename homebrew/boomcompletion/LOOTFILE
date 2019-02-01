@@ -1,0 +1,12 @@
+# boom-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/boom-completion.rb
+# Converted on 02-01-2019
+
+name='boomcompletion'
+url=('https://github.com/holman/boom/archive/v0.5.0.tar.gz')
+description='Bash and Zsh completion for Boom'
+version='0.5.0' # Guessed version.
+priority='optional'
+homepage='https://zachholman.com/boom'
+
+###### Install ######

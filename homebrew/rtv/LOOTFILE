@@ -1,0 +1,18 @@
+# rtv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rtv.rb
+# Converted on 02-01-2019
+
+name='rtv'
+url=('https://github.com/michael-lazar/rtv/archive/v1.24.0.tar.gz')
+description='Command-line Reddit client'
+version='1.24.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/michael-lazar/rtv'
+depends=('python')
+
+###### Install ######
+# venv = virtualenv_create(libexec, "python3")
+# system libexec/"bin/pip", "install", "-v", "--no-binary", ":all:",
+# "--ignore-installed", buildpath
+# system libexec/"bin/pip", "uninstall", "-y", name
+# venv.pip_install_and_link buildpath

@@ -1,0 +1,16 @@
+# clpbar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/clpbar.rb
+# Converted on 02-01-2019
+
+name='clpbar'
+url=('https://downloads.sourceforge.net/project/clpbar/clpbar/bar-1.11.1/bar_1.11.1.tar.gz')
+description='Command-line progress bar'
+version='1.11.1' # Guessed version.
+priority='optional'
+homepage='https://clpbar.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--program-prefix='clp'"
+# system "make", "install"

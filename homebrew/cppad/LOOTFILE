@@ -1,0 +1,19 @@
+# cppad.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cppad.rb
+# Converted on 02-01-2019
+
+name='cppad'
+url=('https://github.com/coin-or/CppAD/archive/20180000.0.tar.gz')
+description='Differentiation of C++ Algorithms'
+version='20180000.0' # Guessed version.
+priority='optional'
+homepage='https://www.coin-or.org/CppAD'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args,
+# "-Dcppad_prefix=#{prefix}"
+# system "make", "install"
+# end
+# pkgshare.install "example"

@@ -1,0 +1,15 @@
+# picocom.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/picocom.rb
+# Converted on 02-01-2019
+
+name='picocom'
+url=('https://github.com/npat-efault/picocom/archive/3.1.tar.gz')
+description='Minimal dumb-terminal emulation program'
+version='3.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/npat-efault/picocom'
+
+###### Install ######
+# system "make"
+# bin.install "picocom"
+# man1.install "picocom.1"

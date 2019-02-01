@@ -1,0 +1,18 @@
+# par.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/par.rb
+# Converted on 02-01-2019
+
+name='par'
+url=('http://www.nicemice.net/par/Par152.tar.gz')
+description='Paragraph reflow for email'
+version=' '
+priority='optional'
+homepage='http://www.nicemice.net/par/'
+makedepends=('')
+# Patches
+url+=('http://sysmic.org/dl/par/par-1.52-i18n.4.patch')
+
+###### Install ######
+# system "make", "-f", "protoMakefile"
+# bin.install "par"
+# man1.install gzip("par.1")

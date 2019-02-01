@@ -1,0 +1,15 @@
+# procyon-decompiler.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/procyon-decompiler.rb
+# Converted on 02-01-2019
+
+name='procyondecompiler'
+url=('https://bitbucket.org/mstrobel/procyon/downloads/procyon-decompiler-0.5.30.jar')
+description='Modern decompiler for Java 5 and beyond'
+version='0.5.30' # Guessed version.
+priority='optional'
+homepage='https://bitbucket.org/mstrobel/procyon/wiki/Java%20Decompiler'
+depends=(':java')
+
+###### Install ######
+# libexec.install "procyon-decompiler-#{version}.jar"
+# bin.write_jar_script libexec/"procyon-decompiler-#{version}.jar", "procyon-decompiler"

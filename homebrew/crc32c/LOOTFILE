@@ -1,0 +1,18 @@
+# crc32c.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/crc32c.rb
+# Converted on 02-01-2019
+
+name='crc32c'
+url=('https://github.com/google/crc32c/archive/1.0.6.tar.gz')
+description='CRC32C implementation with CPU-specific acceleration'
+version='1.0.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/crc32c'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", "-DCRC32C_BUILD_TESTS=0", "-DCRC32C_BUILD_BENCHMARKS=0", "-DCRC32C_USE_GLOG=0", *std_cmake_args
+# system "make", "install"
+# system "make", "clean"
+# system "cmake", ".", "-DBUILD_SHARED_LIBS=ON", "-DCRC32C_BUILD_TESTS=0", "-DCRC32C_BUILD_BENCHMARKS=0", "-DCRC32C_USE_GLOG=0", *std_cmake_args
+# system "make", "install"

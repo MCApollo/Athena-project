@@ -1,0 +1,22 @@
+# coq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/coq.rb
+# Converted on 02-01-2019
+
+name='coq'
+url=('https://github.com/coq/coq/archive/V8.8.2.tar.gz')
+description='Proof assistant for higher-order logic'
+version='8.8.2' # Guessed version.
+priority='optional'
+homepage='https://coq.inria.fr/'
+depends=('camlp5' 'ocaml' 'ocaml-num')
+makedepends=('ocaml-findlib')
+
+###### Install ######
+# system "./configure", "-prefix", prefix,
+# "-mandir", man,
+# "-emacslib", elisp,
+# "-coqdocdir", "#{pkgshare}/latex",
+# "-coqide", "no",
+# "-with-doc", "no"
+# system "make", "world"
+# ENV.deparallelize { system "make", "install" }

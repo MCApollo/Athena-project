@@ -1,0 +1,65 @@
+# smlnj.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/smlnj.rb
+# Converted on 02-01-2019
+
+name='smlnj'
+url=('http://smlnj.cs.uchicago.edu/dist/working/110.84/config.tgz')
+description='Standard ML of New Jersey'
+version=' '
+priority='optional'
+homepage='https://www.smlnj.org/'
+depends=(':maximum_macos')
+
+###### Resource ######
+# cm: https://www.smlnj.org/dist/working/110.84/cm.tgz
+# compiler: https://www.smlnj.org/dist/working/110.84/compiler.tgz
+# runtime: https://www.smlnj.org/dist/working/110.84/runtime.tgz
+# system: https://www.smlnj.org/dist/working/110.84/system.tgz
+# bootstrap: https://www.smlnj.org/dist/working/110.84/boot.x86-unix.tgz
+# mlrisc: https://www.smlnj.org/dist/working/110.84/MLRISC.tgz
+# lib: https://www.smlnj.org/dist/working/110.84/smlnj-lib.tgz
+# ckit: https://www.smlnj.org/dist/working/110.84/ckit.tgz
+# nlffi: https://www.smlnj.org/dist/working/110.84/nlffi.tgz
+# cml: https://www.smlnj.org/dist/working/110.84/cml.tgz
+# exene: https://www.smlnj.org/dist/working/110.84/eXene.tgz
+# ml-lpt: https://www.smlnj.org/dist/working/110.84/ml-lpt.tgz
+# ml-lex: https://www.smlnj.org/dist/working/110.84/ml-lex.tgz
+# ml-yacc: https://www.smlnj.org/dist/working/110.84/ml-yacc.tgz
+# ml-burg: https://www.smlnj.org/dist/working/110.84/ml-burg.tgz
+# pgraph: https://www.smlnj.org/dist/working/110.84/pgraph.tgz
+# trace-debug-profile: https://www.smlnj.org/dist/working/110.84/trace-debug-profile.tgz
+# heap2asm: https://www.smlnj.org/dist/working/110.84/heap2asm.tgz
+# c: https://www.smlnj.org/dist/working/110.84/smlnj-c.tgz
+
+###### Install ######
+# ENV.deparallelize
+# ENV.m32
+# root = prefix/"SMLNJ_HOME"
+# root.mkpath
+# cp_r buildpath, root/"config"
+# rm root/"config/targets"
+# (root/"config/targets").write targets
+# %w[cm compiler runtime system].each do |name|
+# resource(name).stage { cp_r pwd, root/"base" }
+# end
+# %w[
+# bootstrap mlrisc lib ckit nlffi
+# cml exene ml-lpt ml-lex ml-yacc ml-burg pgraph
+# trace-debug-profile heap2asm c
+# ].each do |name|
+# resource(name).stage { cp_r pwd, root }
+# end
+# inreplace root/"base/runtime/objs/mk.x86-darwin", "/usr/bin/as", "as"
+# inreplace root/"base/runtime/config/gen-posix-names.sh" do |s|
+# s.gsub! "PATH=/bin:/usr/bin", "
+# s.gsub! "/usr/include", "#{MacOS.sdk_path}/usr/include" unless MacOS::CLT.installed?
+# end
+# inreplace root/"config/_arch-n-opsys", "16*) OPSYS=darwin", "1*) OPSYS=darwin"
+# cd root do
+# system "config/install.sh"
+# end
+# %w[
+# sml heap2asm heap2exec ml-antlr
+# ml-build ml-burg ml-lex ml-makedepend
+# ml-nlffigen ml-ulex ml-yacc
+# ].each { |e| bin.install_symlink root/"bin/#{e}" }

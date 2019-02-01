@@ -1,0 +1,18 @@
+# qpid-proton.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qpid-proton.rb
+# Converted on 02-01-2019
+
+name='qpidproton'
+url=('https://www.apache.org/dyn/closer.lua?path=qpid/proton/0.26.0/qpid-proton-0.26.0.tar.gz')
+description='High-performance, lightweight AMQP 1.0 messaging library'
+version='0.26.0' # Guessed version.
+priority='optional'
+homepage='https://qpid.apache.org/proton/'
+depends=('libuv' 'openssl')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", "-DBUILD_BINDINGS=",
+# "-DLIB_INSTALL_DIR=#{lib}",
+# *std_cmake_args
+# system "make", "install"

@@ -1,0 +1,15 @@
+# hostdb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hostdb.rb
+# Converted on 02-01-2019
+
+name='hostdb'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/hostdb/hostdb-1.004.tgz')
+description='Generate DNS zones and DHCP configuration from hostlist.txt'
+version='1.004' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/hostdb/'
+
+###### Install ######
+# bin.install Dir["bin/*"]
+# doc.install Dir["docs/*"]
+# pkgshare.install "examples"

@@ -1,0 +1,16 @@
+# udunits.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/udunits.rb
+# Converted on 02-01-2019
+
+name='udunits'
+url=('ftp://ftp.unidata.ucar.edu/pub/udunits/udunits-2.2.26.tar.gz')
+description='Unidata unit conversion library'
+version='2.2.26' # Guessed version.
+priority='optional'
+homepage='https://www.unidata.ucar.edu/software/udunits/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,23 @@
+# analog.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/analog.rb
+# Converted on 02-01-2019
+
+name='analog'
+url=('https://deb.debian.org/debian/pool/main/a/analog/analog_6.0.orig.tar.gz')
+description='Logfile analyzer'
+version='6.0' # Guessed version.
+priority='optional'
+homepage='https://tracker.debian.org/pkg/analog'
+depends=('gd' 'jpeg' 'libpng')
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}",
+# "CFLAGS=#{ENV.cflags}",
+# "DEFS='-DLANGDIR=\"#{pkgshare}/lang/\"' -DHAVE_ZLIB",
+# "LIBS=-lz",
+# "OS=OSX"
+# bin.install "analog"
+# pkgshare.install "examples", "how-to", "images", "lang"
+# pkgshare.install "analog.cfg" => "analog.cfg-dist"
+# (pkgshare/"examples").install "logfile.log"
+# man1.install "analog.man" => "analog.1"

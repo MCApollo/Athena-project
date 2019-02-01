@@ -1,0 +1,15 @@
+# vilistextum.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vilistextum.rb
+# Converted on 02-01-2019
+
+name='vilistextum'
+url=('https://bhaak.net/vilistextum/vilistextum-2.6.9.tar.gz')
+description='HTML to text converter'
+version='2.6.9' # Guessed version.
+priority='optional'
+homepage='https://bhaak.net/vilistextum/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make", "install"

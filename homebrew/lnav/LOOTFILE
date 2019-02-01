@@ -1,0 +1,19 @@
+# lnav.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lnav.rb
+# Converted on 02-01-2019
+
+name='lnav'
+url=('https://github.com/tstack/lnav/releases/download/v0.8.4/lnav-0.8.4.tar.gz')
+description='Curses-based tool for viewing and analyzing log files'
+version='0.8.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/tstack/lnav'
+depends=('pcre' 'readline' 'sqlite')
+
+###### Install ######
+# ENV.delete("SDKROOT")
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-readline=#{Formula["readline"].opt_prefix}"
+# system "make", "install"

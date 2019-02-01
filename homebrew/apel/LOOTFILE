@@ -1,0 +1,14 @@
+# apel.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/apel.rb
+# Converted on 02-01-2019
+
+name='apel'
+url=('http://git.chise.org/elisp/dist/apel/apel-10.8.tar.gz')
+description='Emacs Lisp library to help write portable Emacs programs'
+version='10.8' # Guessed version.
+priority='optional'
+homepage='http://git.chise.org/elisp/apel/'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}",
+# "LISPDIR=#{elisp}", "VERSION_SPECIFIC_LISPDIR=#{elisp}"

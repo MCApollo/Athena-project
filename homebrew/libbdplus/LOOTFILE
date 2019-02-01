@@ -1,0 +1,17 @@
+# libbdplus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbdplus.rb
+# Converted on 02-01-2019
+
+name='libbdplus'
+url=('https://download.videolan.org/pub/videolan/libbdplus/0.1.2/libbdplus-0.1.2.tar.bz2')
+description='Implements the BD+ System Specifications'
+version='0.1.2' # Guessed version.
+priority='optional'
+homepage='https://www.videolan.org/developers/libbdplus.html'
+depends=('libgcrypt')
+
+###### Install ######
+# system "./bootstrap" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

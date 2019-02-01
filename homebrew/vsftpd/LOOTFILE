@@ -1,0 +1,23 @@
+# vsftpd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vsftpd.rb
+# Converted on 02-01-2019
+
+name='vsftpd'
+url=('https://security.appspot.com/downloads/vsftpd-3.0.3.tar.gz')
+description='Secure FTP server for UNIX'
+version='3.0.3' # Guessed version.
+priority='optional'
+homepage='https://security.appspot.com/vsftpd.html'
+
+# A diff file was written to vsftpd.diff
+# --> Patch the file before building.
+
+###### Install ######
+# inreplace "defs.h", "/etc/vsftpd.conf", "#{etc}/vsftpd.conf"
+# inreplace "tunables.c", "/etc", etc
+# inreplace "tunables.c", "/var", var
+# system "make"
+# sbin.install "vsftpd"
+# etc.install "vsftpd.conf"
+# man5.install "vsftpd.conf.5"
+# man8.install "vsftpd.8"

@@ -1,0 +1,21 @@
+# librest.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/librest.rb
+# Converted on 02-01-2019
+
+name='librest'
+url=('https://download.gnome.org/sources/rest/0.8/rest-0.8.1.tar.xz')
+description='Library to access RESTful web services'
+version='0.8.1' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/Projects/Librest'
+depends=('glib' 'libsoup')
+makedepends=('gobject-introspection' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--without-gnome",
+# "--without-ca-certificates",
+# "--enable-introspection=yes"
+# system "make", "install"

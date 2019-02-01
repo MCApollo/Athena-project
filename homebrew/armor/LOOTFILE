@@ -1,0 +1,21 @@
+# armor.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/armor.rb
+# Converted on 02-01-2019
+
+name='armor'
+url=('https://github.com/labstack/armor/archive/v0.4.13.tar.gz')
+description='Uncomplicated, modern HTTP server'
+version='0.4.13' # Guessed version.
+priority='optional'
+homepage='https://github.com/labstack/armor'
+makedepends=('go')
+
+###### Install ######
+# ENV["GO111MODULE"] = "on"
+# ENV["GOPATH"] = buildpath
+# armorpath = buildpath/"src/github.com/labstack/armor"
+# armorpath.install buildpath.children
+# cd armorpath do
+# system "go", "build", "-o", bin/"armor", "cmd/armor/main.go"
+# prefix.install_metafiles
+# end

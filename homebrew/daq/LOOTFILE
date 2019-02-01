@@ -1,0 +1,18 @@
+# daq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/daq.rb
+# Converted on 02-01-2019
+
+name='daq'
+url=('https://www.mirrorservice.org/sites/distfiles.macports.org/daq/daq-2.0.6.tar.gz')
+description='Network intrusion prevention and detection system'
+version='2.0.6' # Guessed version.
+priority='optional'
+homepage='https://www.snort.org/'
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/b345dac/daq/patch-pcap-version.diff')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

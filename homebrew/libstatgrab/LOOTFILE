@@ -1,0 +1,17 @@
+# libstatgrab.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libstatgrab.rb
+# Converted on 02-01-2019
+
+name='libstatgrab'
+url=('https://ftp.i-scream.org/pub/i-scream/libstatgrab/libstatgrab-0.91.tar.gz')
+description='Provides cross-platform access to statistics about the system'
+version='0.91' # Guessed version.
+priority='optional'
+homepage='https://www.i-scream.org/libstatgrab/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

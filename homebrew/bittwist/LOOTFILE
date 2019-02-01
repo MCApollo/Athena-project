@@ -1,0 +1,14 @@
+# bittwist.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bittwist.rb
+# Converted on 02-01-2019
+
+name='bittwist'
+url=('https://downloads.sourceforge.net/project/bittwist/Mac%20OS%20X/Bit-Twist%202.0/bittwist-macosx-2.0.tar.gz')
+description='Libcap-based Ethernet packet generator'
+version='2.0' # Guessed version.
+priority='optional'
+homepage='https://bittwist.sourceforge.io'
+
+###### Install ######
+# system "make"
+# system "make", "install", "prefix=#{prefix}"

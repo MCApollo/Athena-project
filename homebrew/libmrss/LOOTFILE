@@ -1,0 +1,18 @@
+# libmrss.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmrss.rb
+# Converted on 02-01-2019
+
+name='libmrss'
+url=('https://www.autistici.org/bakunin/libmrss/libmrss-0.19.2.tar.gz')
+description='C library for RSS files or streams'
+version='0.19.2' # Guessed version.
+priority='optional'
+homepage='https://www.autistici.org/bakunin/libmrss/'
+depends=('libnxml')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

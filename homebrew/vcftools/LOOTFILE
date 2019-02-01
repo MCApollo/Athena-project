@@ -1,0 +1,20 @@
+# vcftools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vcftools.rb
+# Converted on 02-01-2019
+
+name='vcftools'
+url=('https://github.com/vcftools/vcftools/releases/download/v0.1.16/vcftools-0.1.16.tar.gz')
+description='Tools for working with VCF files'
+version='0.1.16' # Guessed version.
+priority='optional'
+homepage='https://vcftools.github.io/'
+depends=('htslib')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--with-pmdir=lib/perl5/site_perl"
+# system "make", "install"
+# bin.env_script_all_files(libexec/"bin", :PERL5LIB => lib/"perl5/site_perl")

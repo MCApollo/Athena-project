@@ -1,0 +1,23 @@
+# rtmpdump.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rtmpdump.rb
+# Converted on 02-01-2019
+
+name='rtmpdump'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/r/rtmpdump/rtmpdump_2.4+20151223.gitfa8646d.1.orig.tar.gz')
+description='Tool for downloading RTMP streaming media'
+version='2.4' # Guessed version.
+priority='optional'
+homepage='https://rtmpdump.mplayerhq.hu/'
+depends=('openssl')
+makedepends=('')
+
+###### Install ######
+# ENV.deparallelize
+# system "make", "CC=#{ENV.cc}",
+# "XCFLAGS=#{ENV.cflags}",
+# "XLDFLAGS=#{ENV.ldflags}",
+# "MANDIR=#{man}",
+# "SYS=darwin",
+# "prefix=#{prefix}",
+# "sbindir=#{bin}",
+# "install"

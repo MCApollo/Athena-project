@@ -1,0 +1,17 @@
+# ical-buddy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ical-buddy.rb
+# Converted on 02-01-2019
+
+name='icalbuddy'
+url=('https://github.com/ali-rantakari/icalBuddy/archive/v1.8.10.tar.gz')
+description='Get events and tasks from the macOS calendar database'
+version='1.8.10' # Guessed version.
+priority='optional'
+homepage='https://hasseg.org/icalBuddy/'
+
+###### Install ######
+# args = %W[icalBuddy icalBuddy.1 icalBuddyLocalization.1
+# icalBuddyConfig.1 COMPILER=#{ENV.cc}]
+# system "make", *args
+# bin.install "icalBuddy"
+# man1.install Dir["*.1"]

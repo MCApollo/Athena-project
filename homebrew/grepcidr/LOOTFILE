@@ -1,0 +1,15 @@
+# grepcidr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/grepcidr.rb
+# Converted on 02-01-2019
+
+name='grepcidr'
+url=('http://www.pc-tools.net/files/unix/grepcidr-2.0.tar.gz')
+description='Filter IP addresses matching IPv4 CIDR/network specification'
+version='2.0' # Guessed version.
+priority='optional'
+homepage='http://www.pc-tools.net/unix/grepcidr/'
+
+###### Install ######
+# system "make"
+# bin.install "grepcidr"
+# man1.install "grepcidr.1"

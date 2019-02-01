@@ -1,0 +1,18 @@
+# flowgrind.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/flowgrind.rb
+# Converted on 02-01-2019
+
+name='flowgrind'
+url=('https://launchpad.net/flowgrind/trunk/flowgrind-0.8.0/+download/flowgrind-0.8.0.tar.bz2')
+description='TCP measurement tool, similar to iperf or netperf'
+version='0.8.0' # Guessed version.
+priority='optional'
+homepage='https://launchpad.net/flowgrind'
+depends=('gsl' 'xmlrpc-c')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,17 @@
+# hevea.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hevea.rb
+# Converted on 02-01-2019
+
+name='hevea'
+url=('http://hevea.inria.fr/old/hevea-2.32.tar.gz')
+description='LaTeX-to-HTML translator'
+version='2.32' # Guessed version.
+priority='optional'
+homepage='http://hevea.inria.fr/'
+depends=('ocaml')
+makedepends=('ocamlbuild')
+
+###### Install ######
+# ENV["PREFIX"] = prefix
+# system "make"
+# system "make", "install"

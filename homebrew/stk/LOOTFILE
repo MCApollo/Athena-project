@@ -1,0 +1,21 @@
+# stk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stk.rb
+# Converted on 02-01-2019
+
+name='stk'
+url=('https://ccrma.stanford.edu/software/stk/release/stk-4.6.0.tar.gz')
+description='Sound Synthesis Toolkit'
+version='4.6.0' # Guessed version.
+priority='optional'
+homepage='https://ccrma.stanford.edu/software/stk/'
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--prefix=#{prefix}", "--disable-debug"
+# system "make"
+# lib.install "src/libstk.a"
+# bin.install "bin/treesed"
+# (include/"stk").install Dir["include/*"]
+# doc.install Dir["doc/*"]
+# pkgshare.install "src", "projects", "rawwaves"

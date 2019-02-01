@@ -1,0 +1,18 @@
+# cd-discid.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cd-discid.rb
+# Converted on 02-01-2019
+
+name='cddiscid'
+url=('')
+description='Read CD and get CDDB discid information'
+version=' '
+priority='optional'
+homepage='http://linukz.org/cd-discid.shtml'
+
+# A diff file was written to cddiscid.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}"
+# bin.install "cd-discid"
+# man1.install "cd-discid.1"

@@ -1,0 +1,31 @@
+# gtkglext.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtkglext.rb
+# Converted on 02-01-2019
+
+name='gtkglext'
+url=('https://download.gnome.org/sources/gtkglext/1.2/gtkglext-1.2.0.tar.gz')
+description='OpenGL extension to GTK+'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://projects.gnome.org/gtkglext/'
+depends=('glib' 'gtk+')
+makedepends=('pkg-config')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/21e7e01/gtkglext/patch-configure.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/21e7e01/gtkglext/patch-examples-pixmap-mixed.c.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/21e7e01/gtkglext/patch-examples-pixmap.c.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/21e7e01/gtkglext/patch-gdk-gdkglglext.h.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/21e7e01/gtkglext/patch-gdk-gdkglquery.c.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/21e7e01/gtkglext/patch-gdk-gdkglshapes.c.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/21e7e01/gtkglext/patch-gdk-makefile.in.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/21e7e01/gtkglext/patch-gtk-gtkglwidget.c.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/21e7e01/gtkglext/patch-gtk-makefile.in.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/21e7e01/gtkglext/patch-makefile.in.diff')
+url+=('https://trac.macports.org/raw-attachment/ticket/56260/patch-index-gdkglshapes-osx.diff')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--without-x"
+# system "make", "install"

@@ -1,0 +1,12 @@
+# autoenv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/autoenv.rb
+# Converted on 02-01-2019
+
+name='autoenv'
+url=('https://github.com/kennethreitz/autoenv/archive/v0.2.1.tar.gz')
+description='Per-project, per-directory shell environments'
+version='0.2.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/kennethreitz/autoenv'
+
+###### Install ######

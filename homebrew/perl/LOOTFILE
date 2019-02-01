@@ -1,0 +1,33 @@
+# perl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/perl.rb
+# Converted on 02-01-2019
+
+name='perl'
+url=('https://www.cpan.org/src/5.0/perl-5.28.1.tar.gz')
+description='Highly capable, feature-rich programming language'
+version='5.28.1' # Guessed version.
+priority='optional'
+homepage='https://www.perl.org/'
+
+###### Install ######
+# args = %W[
+# -des
+# -Dprefix=#{prefix}
+# -Dprivlib=#{lib}/perl5/#{version}
+# -Dsitelib=#{lib}/perl5/site_perl/#{version}
+# -Dotherlibdirs=#{HOMEBREW_PREFIX}/lib/perl5/site_perl/#{version}
+# -Dperlpath=#{opt_bin}/perl
+# -Dstartperl=#!#{opt_bin}/perl
+# -Dman1dir=#{man1}
+# -Dman3dir=#{man3}
+# -Duseshrplib
+# -Duselargefiles
+# -Dusethreads
+# ]
+# args << "-Dusedevel" if build.head?
+# system "./Configure", *args
+# (lib/"perl5/#{version}/darwin-thread-multi-2level/CORE").install_symlink buildpath/"libperl.dylib"
+# system "make"
+# system "make", "test"
+# rm lib/"perl5/#{version}/darwin-thread-multi-2level/CORE/libperl.dylib"
+# system "make", "install"

@@ -1,0 +1,20 @@
+# dmtx-utils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dmtx-utils.rb
+# Converted on 02-01-2019
+
+name='dmtxutils'
+url=('https://github.com/dmtx/dmtx-utils/archive/v0.7.6.tar.gz')
+description='Read and write data matrix barcodes'
+version='0.7.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/dmtx/dmtx-utils'
+depends=('imagemagick' 'libdmtx' 'libtool')
+makedepends=('autoconf' 'automake' 'pkg-config')
+
+###### Resource ######
+# test_image12: https://raw.githubusercontent.com/dmtx/libdmtx/ca9313f/test/rotate_test/images/test_image12.png
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,14 @@
+# tmux-cssh.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tmux-cssh.rb
+# Converted on 02-01-2019
+
+name='tmuxcssh'
+url=('https://github.com/dennishafemann/tmux-cssh/archive/1.0.6-0.tar.gz')
+description='-like behavior'
+version='1.0.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/dennishafemann/tmux-cssh'
+depends=('tmux')
+
+###### Install ######
+# bin.install "tmux-cssh"

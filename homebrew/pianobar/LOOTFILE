@@ -1,0 +1,20 @@
+# pianobar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pianobar.rb
+# Converted on 02-01-2019
+
+name='pianobar'
+url=('https://6xq.net/pianobar/pianobar-2018.06.22.tar.bz2')
+description='Command-line player for https://pandora.com'
+version='2018.06.22' # Guessed version.
+priority='optional'
+homepage='https://github.com/PromyLOPh/pianobar/'
+depends=('faad2' 'ffmpeg' 'gnutls' 'json-c' 'libao' 'libgcrypt' 'mad')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV["CFLAGS"] = "-O2 -DNDEBUG " +
+# "-std=c99 " +
+# "#{ENV.cppflags} #{ENV.ldflags}"
+# system "make", "PREFIX=#{prefix}"
+# system "make", "install", "PREFIX=#{prefix}"
+# prefix.install "contrib"

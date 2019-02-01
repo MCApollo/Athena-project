@@ -1,0 +1,15 @@
+# enca.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/enca.rb
+# Converted on 02-01-2019
+
+name='enca'
+url=('https://dl.cihar.com/enca/enca-1.19.tar.gz')
+description='Charset analyzer and converter'
+version='1.19' # Guessed version.
+priority='optional'
+homepage='https://cihar.com/software/enca/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

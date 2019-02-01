@@ -1,0 +1,25 @@
+# ibex.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ibex.rb
+# Converted on 02-01-2019
+
+name='ibex'
+url=('https://github.com/ibex-team/ibex-lib/archive/ibex-2.7.4.tar.gz')
+description='C++ library for constraint processing over real numbers'
+version='2.7.4' # Guessed version.
+priority='optional'
+homepage='http://www.ibex-lib.org/'
+depends=('pkg-config')
+makedepends=('bison' 'flex')
+
+###### Install ######
+# ENV.cxx11
+# ENV.deparallelize
+# system "./waf", "configure", "--prefix=#{prefix}",
+# "--enable-shared",
+# "--lp-lib=soplex",
+# "--with-optim"
+# system "./waf", "install"
+# pkgshare.install %w[examples plugins/solver/benchs]
+# (pkgshare/"examples/symb01.txt").write <<~EOS
+# function f(x)
+# return ((2*x,-x);(-x,3*x));

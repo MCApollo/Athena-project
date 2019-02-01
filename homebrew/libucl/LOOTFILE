@@ -1,0 +1,23 @@
+# libucl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libucl.rb
+# Converted on 02-01-2019
+
+name='libucl'
+url=('https://github.com/vstakhov/libucl/archive/0.8.1.tar.gz')
+description='Universal configuration library parser'
+version='0.8.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/vstakhov/libucl'
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# system "./autogen.sh"
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --enable-utils
+# --prefix=#{prefix}
+# ]
+# system "./configure", *args
+# system "make", "install"

@@ -1,0 +1,15 @@
+# macosvpn.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/macosvpn.rb
+# Converted on 02-01-2019
+
+name='macosvpn'
+url=('https://github.com/halo/macosvpn/archive/0.3.5.tar.gz')
+description='Create Mac OS VPNs programmatically'
+version='0.3.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/halo/macosvpn'
+depends=(':xcode')
+
+###### Install ######
+# xcodebuild "SYMROOT=build"
+# bin.install "build/Release/macosvpn"

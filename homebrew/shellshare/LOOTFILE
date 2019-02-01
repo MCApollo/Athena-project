@@ -1,0 +1,13 @@
+# shellshare.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shellshare.rb
+# Converted on 02-01-2019
+
+name='shellshare'
+url=('https://github.com/vitorbaptista/shellshare/archive/v1.0.3.tar.gz')
+description='Live Terminal Broadcast'
+version='1.0.3' # Guessed version.
+priority='optional'
+homepage='https://shellshare.net'
+
+###### Install ######
+# bin.install "public/bin/shellshare"

@@ -1,0 +1,33 @@
+# thrift@0.9.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/thrift@0.9.rb
+# Converted on 02-01-2019
+
+name='thriftat09'
+url=('https://archive.apache.org/dist/thrift/0.9.3/thrift-0.9.3.tar.gz')
+description='Framework for scalable cross-language services development'
+version='0.9.3' # Guessed version.
+priority='optional'
+homepage='https://thrift.apache.org'
+depends=('boost' 'openssl')
+makedepends=('autoconf' 'automake' 'bison' 'libtool' 'pkg-config')
+
+###### Install ######
+# args = %w[
+# --without-erlang
+# --without-haskell
+# --without-java
+# --without-perl
+# --without-php
+# --without-php_extension
+# --without-python
+# --without-ruby
+# --without-tests
+# ]
+# ENV.cxx11 if ENV.compiler == :clang
+# ENV["JAVA_PREFIX"] = pkgshare/"java"
+# system "./configure", "--disable-debug",
+# "--prefix=#{prefix}",
+# "--libdir=#{lib}",
+# *args
+# ENV.deparallelize
+# system "make", "install"

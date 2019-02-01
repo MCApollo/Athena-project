@@ -1,0 +1,16 @@
+# websocat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/websocat.rb
+# Converted on 02-01-2019
+
+name='websocat'
+url=('https://github.com/vi/websocat/archive/v1.2.0.tar.gz')
+description='Command-line client for WebSockets'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/vi/websocat'
+makedepends=('pkg-config' 'rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix,
+# "--path", ".",
+# "--features", "ssl"

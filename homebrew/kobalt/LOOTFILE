@@ -1,0 +1,17 @@
+# kobalt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kobalt.rb
+# Converted on 02-01-2019
+
+name='kobalt'
+url=('https://github.com/cbeust/kobalt/releases/download/1.0.122/kobalt-1.0.122.zip')
+description='Build system'
+version='1.0.122' # Guessed version.
+priority='optional'
+homepage='https://beust.com/kobalt/'
+
+###### Install ######
+# libexec.install "kobalt-#{version}/kobalt"
+# (bin/"kobaltw").write <<~EOS
+# #!/bin/bash
+# java -jar #{libexec}/kobalt/wrapper/kobalt-wrapper.jar $*
+# EOS

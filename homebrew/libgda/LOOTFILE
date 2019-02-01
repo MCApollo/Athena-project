@@ -1,0 +1,25 @@
+# libgda.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgda.rb
+# Converted on 02-01-2019
+
+name='libgda'
+url=('https://download.gnome.org/sources/libgda/5.2/libgda-5.2.8.tar.xz')
+description='Provides unified data access to the GNOME project'
+version='5.2.8' # Guessed version.
+priority='optional'
+homepage='http://www.gnome-db.org/'
+depends=('gettext' 'glib' 'libgcrypt' 'libgee' 'openssl' 'readline')
+makedepends=('gobject-introspection' 'intltool' 'itstool' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--disable-binreloc",
+# "--disable-gtk-doc",
+# "--without-java",
+# "--enable-introspection",
+# "--enable-system-sqlite=no"
+# system "make"
+# system "make", "install"

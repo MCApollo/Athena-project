@@ -1,0 +1,15 @@
+# dscanner.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dscanner.rb
+# Converted on 02-01-2019
+
+name='dscanner'
+url=('https://github.com/dlang-community/D-Scanner.git')
+description='Analyses e.g. the style and syntax of D code'
+version=' '
+priority='optional'
+homepage='https://github.com/dlang-community/D-Scanner'
+makedepends=('dmd')
+
+###### Install ######
+# system "make", "dmdbuild"
+# bin.install "bin/dscanner"

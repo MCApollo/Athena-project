@@ -1,0 +1,16 @@
+# mpdscribble.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpdscribble.rb
+# Converted on 02-01-2019
+
+name='mpdscribble'
+url=('https://www.musicpd.org/download/mpdscribble/0.22/mpdscribble-0.22.tar.gz')
+description='Last.fm reporting client for mpd'
+version='0.22' # Guessed version.
+priority='optional'
+homepage='https://mpd.wikia.com/wiki/Client:Mpdscribble'
+depends=('glib' 'libmpdclient')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--sysconfdir=#{etc}"
+# system "make", "install"

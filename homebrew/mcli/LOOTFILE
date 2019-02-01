@@ -1,0 +1,12 @@
+# m-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/m-cli.rb
+# Converted on 02-01-2019
+
+name='mcli'
+url=('https://github.com/rgcr/m-cli/archive/v0.2.5.tar.gz')
+description='Swiss Army Knife for macOS'
+version='0.2.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/rgcr/m-cli'
+
+###### Install ######

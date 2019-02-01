@@ -1,0 +1,20 @@
+# cmark-gfm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cmark-gfm.rb
+# Converted on 02-01-2019
+
+name='cmarkgfm'
+url=('https://github.com/github/cmark-gfm/archive/0.28.3.gfm.19.tar.gz')
+description='C implementation of GitHub Flavored Markdown'
+version='0.28.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/github/cmark-gfm'
+makedepends=('cmake' 'python')
+makedepends=('cmake' 'python')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make"
+# system "make", "test"
+# system "make", "install"
+# end

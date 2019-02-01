@@ -1,0 +1,26 @@
+# ntopng.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ntopng.rb
+# Converted on 02-01-2019
+
+name='ntopng'
+url=('https://github.com/ntop/ntopng/archive/3.6.1.tar.gz')
+description='Next generation version of the original ntop'
+version='3.6.1' # Guessed version.
+priority='optional'
+homepage='https://www.ntop.org/products/traffic-analysis/ntop/'
+depends=('geoip' 'json-c' 'libmaxminddb' 'lua' 'mysql-client' 'redis' 'rrdtool')
+makedepends=('autoconf' 'automake' 'gnutls' 'json-glib' 'libtool' 'pkg-config' 'zeromq')
+
+###### Resource ######
+# nDPI: https://github.com/ntop/nDPI/archive/2.4.tar.gz
+
+###### Install ######
+# resource("nDPI").stage do
+# system "./autogen.sh"
+# system "make"
+# (buildpath/"nDPI").install Dir["*"]
+# end
+# system "./autogen.sh"
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

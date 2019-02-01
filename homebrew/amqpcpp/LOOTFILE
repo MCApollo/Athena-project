@@ -1,0 +1,21 @@
+# amqp-cpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/amqp-cpp.rb
+# Converted on 02-01-2019
+
+name='amqpcpp'
+url=('https://github.com/CopernicaMarketingSoftware/AMQP-CPP/archive/v4.1.1.tar.gz')
+description='C++ library for communicating with a RabbitMQ message broker'
+version='4.1.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/CopernicaMarketingSoftware/AMQP-CPP'
+depends=('openssl')
+makedepends=('cmake')
+
+###### Install ######
+# ENV.cxx11
+# system "cmake", "-DBUILD_SHARED=ON",
+# "-DCMAKE_MACOSX_RPATH=1",
+# "-DAMQP-CPP_LINUX_TCP=ON",
+# *std_cmake_args
+# system "make"
+# system "make", "install"

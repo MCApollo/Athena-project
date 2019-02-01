@@ -1,0 +1,22 @@
+# libmwaw.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmwaw.rb
+# Converted on 02-01-2019
+
+name='libmwaw'
+url=('https://downloads.sourceforge.net/project/libmwaw/libmwaw/libmwaw-0.3.14/libmwaw-0.3.14.tar.xz')
+description='Library for converting legacy Mac document formats'
+version='0.3.14' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/p/libmwaw/wiki/Home/'
+depends=('librevenge')
+makedepends=('pkg-config')
+
+###### Resource ######
+# test_document: https://github.com/openpreserve/format-corpus/raw/825c8a5af012a93cf7aac408b0396e03a4575850/office-examples/Old%20Word%20file/NEWSSLID.DOC
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

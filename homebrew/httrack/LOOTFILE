@@ -1,0 +1,17 @@
+# httrack.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/httrack.rb
+# Converted on 02-01-2019
+
+name='httrack'
+url=('https://mirror.httrack.com/historical/httrack-3.49.2.tar.gz')
+description='Website copier/offline browser'
+version='3.49.2' # Guessed version.
+priority='optional'
+homepage='https://www.httrack.com/'
+depends=('openssl')
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"
+# rm_rf Dir["#{share}/{applications,pixmaps}"]

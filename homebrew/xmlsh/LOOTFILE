@@ -1,0 +1,20 @@
+# xmlsh.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmlsh.rb
+# Converted on 02-01-2019
+
+name='xmlsh'
+url=('https://downloads.sourceforge.net/project/xmlsh/xmlsh/1.2.5/xmlsh_1_2_5.zip')
+description='XML shell'
+version=' '
+priority='optional'
+homepage='http://www.xmlsh.org'
+
+###### Install ######
+# rm_rf %w[win32 cygwin]
+# libexec.install Dir["*"]
+# chmod 0755, "#{libexec}/unix/xmlsh"
+# (bin/"xmlsh").write <<~EOS
+# #!/bin/bash
+# export XMLSH=#{libexec}
+# exec #{libexec}/unix/xmlsh "$@"
+# EOS

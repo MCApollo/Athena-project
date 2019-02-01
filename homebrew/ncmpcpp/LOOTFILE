@@ -1,0 +1,32 @@
+# ncmpcpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ncmpcpp.rb
+# Converted on 02-01-2019
+
+name='ncmpcpp'
+url=('https://rybczak.net/ncmpcpp/stable/ncmpcpp-0.8.2.tar.bz2')
+description='Ncurses-based client for the Music Player Daemon'
+version='0.8.2' # Guessed version.
+priority='optional'
+homepage='https://rybczak.net/ncmpcpp/'
+depends=('boost' 'fftw' 'libmpdclient' 'ncurses' 'readline' 'taglib')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# ENV.append "LDFLAGS", "-liconv"
+# ENV.append "BOOST_LIB_SUFFIX", "-mt"
+# ENV.append "CXXFLAGS", "-D_XOPEN_SOURCE_EXTENDED"
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --enable-clock
+# --enable-outputs
+# --enable-unicode
+# --enable-visualizer
+# --with-curl
+# --with-taglib
+# ]
+# system "./autogen.sh" if build.head?
+# system "./configure", *args
+# system "make"
+# system "make", "install"

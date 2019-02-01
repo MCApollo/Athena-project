@@ -1,0 +1,16 @@
+# avro-cpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/avro-cpp.rb
+# Converted on 02-01-2019
+
+name='avrocpp'
+url=('https://www.apache.org/dyn/closer.cgi?path=avro/avro-1.8.2/cpp/avro-cpp-1.8.2.tar.gz')
+description='Data serialization system'
+version='1.8.2' # Guessed version.
+priority='optional'
+homepage='https://avro.apache.org/'
+depends=('boost')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

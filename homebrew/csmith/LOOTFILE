@@ -1,0 +1,18 @@
+# csmith.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/csmith.rb
+# Converted on 02-01-2019
+
+name='csmith'
+url=('https://embed.cs.utah.edu/csmith/csmith-2.3.0.tar.gz')
+description='Generates random C programs conforming to the C99 standard'
+version='2.3.0' # Guessed version.
+priority='optional'
+homepage='https://embed.cs.utah.edu/csmith/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"
+# mv "#{bin}/compiler_test.in", share
+# (include/"csmith-#{version}/runtime").install Dir["runtime/*.h"]

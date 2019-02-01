@@ -1,0 +1,14 @@
+# c2048.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/c2048.rb
+# Converted on 02-01-2019
+
+name='c2048'
+url=('578a5f314e1ce31b57e645a8c0a2c9d9d5539cde')
+description='Console version of 2048'
+version=' '
+priority='optional'
+homepage='https://github.com/mevdschee/2048.c'
+
+###### Install ######
+# system "make"
+# bin.install "2048"

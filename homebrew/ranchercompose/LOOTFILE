@@ -1,0 +1,20 @@
+# rancher-compose.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rancher-compose.rb
+# Converted on 02-01-2019
+
+name='ranchercompose'
+url=('https://github.com/rancher/rancher-compose/archive/v0.12.5.tar.gz')
+description='Docker Compose compatible client to deploy to Rancher'
+version='0.12.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/rancher/rancher-compose'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/rancher/rancher-compose").install Dir["*"]
+# system "go", "build", "-ldflags",
+# "-w -X github.com/rancher/rancher-compose/version.VERSION=#{version}",
+# "-o", "#{bin}/rancher-compose",
+# "-v", "github.com/rancher/rancher-compose"
+# prefix.install_metafiles "src/github.com/rancher/rancher-compose"

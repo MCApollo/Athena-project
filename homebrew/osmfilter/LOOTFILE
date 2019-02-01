@@ -1,0 +1,19 @@
+# osmfilter.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/osmfilter.rb
+# Converted on 02-01-2019
+
+name='osmfilter'
+url=('https://gitlab.com/osm-c-tools/osmctools.git')
+description='Command-line tool to filter OpenStreetMap files for specific tags'
+version=' '
+priority='optional'
+homepage='https://wiki.openstreetmap.org/wiki/Osmfilter'
+makedepends=('autoconf' 'automake')
+
+###### Resource ######
+# pbf: https://download.gisgraphy.com/openstreetmap/pbf/AD.tar.bz2
+
+###### Install ######
+# system "autoreconf", "-v", "-i"
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,18 @@
+# fifechan.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fifechan.rb
+# Converted on 02-01-2019
+
+name='fifechan'
+url=('https://github.com/fifengine/fifechan/archive/0.1.4.tar.gz')
+description='C++ GUI library designed for games'
+version='0.1.4' # Guessed version.
+priority='optional'
+homepage='https://fifengine.github.io/fifechan/'
+depends=('allegro' 'sdl2' 'sdl2_image' 'sdl2_ttf')
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", "-DENABLE_SDL_CONTRIB=ON", *std_cmake_args
+# system "make", "install"
+# end

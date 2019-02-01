@@ -1,0 +1,19 @@
+# mydumper.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mydumper.rb
+# Converted on 02-01-2019
+
+name='mydumper'
+url=('https://launchpad.net/mydumper/0.9/0.9.1/+download/mydumper-0.9.1.tar.gz')
+description='How MySQL DBA & support engineer would imagine '\''mysqldump'\'' ;-)'
+version='0.9.1' # Guessed version.
+priority='optional'
+homepage='https://launchpad.net/mydumper'
+depends=('glib' 'mysql-client' 'openssl' 'pcre')
+makedepends=('cmake' 'pkg-config' 'sphinx-doc')
+
+# A diff file was written to mydumper.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

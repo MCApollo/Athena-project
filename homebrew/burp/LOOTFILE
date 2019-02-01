@@ -1,0 +1,29 @@
+# burp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/burp.rb
+# Converted on 02-01-2019
+
+name='burp'
+url=('https://downloads.sourceforge.net/project/burp/burp-2.1.32/burp-2.1.32.tar.bz2')
+description='Network backup and restore'
+version='2.1.32' # Guessed version.
+priority='optional'
+homepage='https://burp.grke.org/'
+depends=('librsync' 'openssl')
+makedepends=('pkg-config')
+
+###### Resource ######
+# uthash: https://github.com/troydhanson/uthash.git
+
+###### Install ######
+# resource("uthash").stage do
+# (buildpath/"uthash/include").install "src/uthash.h"
+# end
+# ENV.prepend "CPPFLAGS", "-I#{buildpath}/uthash/include"
+# system "autoreconf", "-fiv" if build.head?
+# system "./configure", "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}/burp",
+# "--sbindir=#{bin}",
+# "--localstatedir=#{var}"
+# system "make", "install-all"
+# (var/"run").mkpath
+# (var/"spool/burp").mkpath

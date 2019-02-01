@@ -1,0 +1,16 @@
+# dnsperf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dnsperf.rb
+# Converted on 02-01-2019
+
+name='dnsperf'
+url=('https://www.dns-oarc.net/files/dnsperf/dnsperf-2.2.1.tar.gz')
+description='Measure DNS performance by simulating network conditions'
+version='2.2.1' # Guessed version.
+priority='optional'
+homepage='https://www.dns-oarc.net/tools/dnsperf'
+depends=('bind' 'libxml2')
+
+###### Install ######
+# ENV["SDKROOT"] = MacOS.sdk_path if MacOS.version == :sierra
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

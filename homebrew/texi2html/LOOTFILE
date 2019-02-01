@@ -1,0 +1,17 @@
+# texi2html.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/texi2html.rb
+# Converted on 02-01-2019
+
+name='texi2html'
+url=('https://download.savannah.gnu.org/releases/texi2html/texi2html-5.0.tar.gz')
+description='Convert TeXinfo files to HTML'
+version='5.0' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/texi2html/'
+depends=('gettext')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}",
+# "--mandir=#{man}", "--infodir=#{info}"
+# chmod 0755, "./install-sh"
+# system "make", "install"

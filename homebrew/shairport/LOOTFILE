@@ -1,0 +1,16 @@
+# shairport.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shairport.rb
+# Converted on 02-01-2019
+
+name='shairport'
+url=('https://github.com/abrasive/shairport/archive/1.1.1.tar.gz')
+description='Airtunes emulator'
+version='1.1.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/abrasive/shairport'
+depends=('openssl')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure"
+# system "make", "install", "PREFIX=#{prefix}"

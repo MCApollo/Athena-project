@@ -1,0 +1,16 @@
+# jshon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jshon.rb
+# Converted on 02-01-2019
+
+name='jshon'
+url=('https://github.com/keenerd/jshon/archive/20131105.tar.gz')
+description='Parse, read, and create JSON from the shell'
+version=' '
+priority='optional'
+homepage='http://kmkeen.com/jshon/'
+depends=('jansson')
+
+###### Install ######
+# system "make"
+# bin.install "jshon"
+# man1.install "jshon.1"

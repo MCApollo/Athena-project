@@ -1,0 +1,22 @@
+# apgdiff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/apgdiff.rb
+# Converted on 02-01-2019
+
+name='apgdiff'
+url=('https://www.apgdiff.com/download/apgdiff-2.4-bin.zip')
+description='Another PostgreSQL diff tool'
+version='2.4' # Guessed version.
+priority='optional'
+homepage='https://www.apgdiff.com/'
+
+###### Install ######
+# jar = "apgdiff-#{version}.jar"
+# if build.head?
+# system "ant"
+# cd "dist" do
+# jar = Dir["apgdiff-*.jar"].first
+# mv jar, ".."
+# end
+# end
+# libexec.install jar
+# bin.write_jar_script libexec/jar, "apgdiff"

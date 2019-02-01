@@ -1,0 +1,18 @@
+# mfcuk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mfcuk.rb
+# Converted on 02-01-2019
+
+name='mfcuk'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mfcuk/mfcuk-0.3.8.tar.gz')
+description='MiFare Classic Universal toolKit'
+version='0.3.8' # Guessed version.
+priority='optional'
+homepage='https://github.com/nfc-tools/mfcuk'
+depends=('libnfc' 'libusb')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

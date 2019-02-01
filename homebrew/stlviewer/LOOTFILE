@@ -1,0 +1,14 @@
+# stlviewer.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stlviewer.rb
+# Converted on 02-01-2019
+
+name='stlviewer'
+url=('https://github.com/vishpat/stlviewer/archive/release-0.1.tar.gz')
+description='View stl files'
+version='0.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/vishpat/stlviewer#readme'
+
+###### Install ######
+# system "./compile.py"
+# bin.install "stlviewer"

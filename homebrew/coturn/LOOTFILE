@@ -1,0 +1,19 @@
+# coturn.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/coturn.rb
+# Converted on 02-01-2019
+
+name='coturn'
+url=('http://turnserver.open-sys.org/downloads/v4.5.0.7/turnserver-4.5.0.7.tar.gz')
+description='Free open source implementation of TURN and STUN Server'
+version='4.5.0.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/coturn/coturn'
+depends=('libevent')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--mandir=#{man}",
+# "--prefix=#{prefix}"
+# system "make", "install"

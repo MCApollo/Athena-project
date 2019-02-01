@@ -1,0 +1,17 @@
+# gnatsd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnatsd.rb
+# Converted on 02-01-2019
+
+name='gnatsd'
+url=('https://github.com/nats-io/gnatsd/archive/v1.4.0.tar.gz')
+description='Lightweight cloud messaging system'
+version='1.4.0' # Guessed version.
+priority='optional'
+homepage='https://nats.io'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# mkdir_p "src/github.com/nats-io"
+# ln_s buildpath, "src/github.com/nats-io/gnatsd"
+# system "go", "build", "-o", bin/"gnatsd", "main.go"

@@ -1,0 +1,14 @@
+# duply.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/duply.rb
+# Converted on 02-01-2019
+
+name='duply'
+url=('https://downloads.sourceforge.net/project/ftplicity/duply%20%28simple%20duplicity%29/2.1.x/duply_2.1.tgz')
+description='Frontend to the duplicity backup system'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/ftplicity/'
+depends=('duplicity')
+
+###### Install ######
+# bin.install "duply"

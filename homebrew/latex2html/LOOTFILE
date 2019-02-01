@@ -1,0 +1,17 @@
+# latex2html.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/latex2html.rb
+# Converted on 02-01-2019
+
+name='latex2html'
+url=('http://mirrors.ctan.org/support/latex2html/latex2html-2018.tar.gz')
+description='LaTeX-to-HTML translator'
+version=' '
+priority='optional'
+homepage='https://www.ctan.org/pkg/latex2html'
+depends=('ghostscript' 'netpbm')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--without-mktexlsr",
+# "--with-texpath=#{share}/texmf/tex/latex/html"
+# system "make", "install"

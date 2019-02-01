@@ -1,0 +1,17 @@
+# zola.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zola.rb
+# Converted on 02-01-2019
+
+name='zola'
+url=('https://github.com/getzola/zola/archive/v0.5.1.tar.gz')
+description='Fast static site generator in a single binary with everything built-in'
+version='0.5.1' # Guessed version.
+priority='optional'
+homepage='https://www.getzola.org/'
+makedepends=('cmake' 'rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."
+# bash_completion.install "completions/zola.bash"
+# zsh_completion.install "completions/_zola"
+# fish_completion.install "completions/zola.fish"

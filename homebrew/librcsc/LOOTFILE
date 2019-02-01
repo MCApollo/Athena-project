@@ -1,0 +1,16 @@
+# librcsc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/librcsc.rb
+# Converted on 02-01-2019
+
+name='librcsc'
+url=('https://dotsrc.dl.osdn.net/osdn/rctools/51941/librcsc-4.1.0.tar.gz')
+description='RoboCup Soccer Simulator library'
+version='4.1.0' # Guessed version.
+priority='optional'
+homepage='https://osdn.net/projects/rctools/'
+depends=('boost')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--prefix=#{prefix}"
+# system "make", "install"

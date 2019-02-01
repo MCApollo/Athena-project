@@ -1,0 +1,18 @@
+# pinentry-mac.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pinentry-mac.rb
+# Converted on 02-01-2019
+
+name='pinentrymac'
+url=('https://github.com/GPGTools/pinentry-mac/archive/v0.9.4.tar.gz')
+description='Pinentry for GPG on Mac'
+version='0.9.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/GPGTools/pinentry-mac'
+makedepends=(':xcode')
+# Patches
+url+=('https://github.com/GPGTools/pinentry-mac/pull/7.patch?full_index=1')
+
+###### Install ######
+# system "make"
+# prefix.install "build/Release/pinentry-mac.app"
+# bin.write_exec_script "#{prefix}/pinentry-mac.app/Contents/MacOS/pinentry-mac"

@@ -1,0 +1,21 @@
+# xmrig.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmrig.rb
+# Converted on 02-01-2019
+
+name='xmrig'
+url=('https://github.com/xmrig/xmrig/archive/v2.8.3.tar.gz')
+description='Monero (XMR) CPU miner'
+version='2.8.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/xmrig/xmrig'
+depends=('libmicrohttpd' 'libuv' 'openssl')
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", "-DUV_LIBRARY=#{Formula["libuv"].opt_lib}/libuv.dylib",
+# *std_cmake_args
+# system "make"
+# bin.install "xmrig"
+# end
+# pkgshare.install "src/config.json"

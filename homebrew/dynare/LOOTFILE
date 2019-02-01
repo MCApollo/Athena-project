@@ -1,0 +1,35 @@
+# dynare.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dynare.rb
+# Converted on 02-01-2019
+
+name='dynare'
+url=('https://www.dynare.org/release/source/dynare-4.5.6.tar.xz')
+description='Platform for economic models, particularly DSGE and OLG models'
+version='4.5.6' # Guessed version.
+priority='optional'
+homepage='https://www.dynare.org/'
+depends=('fftw' 'gcc' 'gsl' 'hdf5' 'libmatio' 'metis' 'octave' 'suite-sparse' 'veclibfort')
+makedepends=('boost' 'cweb')
+
+###### Resource ######
+# slicot: https://mirrors.ocf.berkeley.edu/debian/pool/main/s/slicot/slicot_5.0+20101122.orig.tar.gz
+
+###### Install ######
+# ENV.cxx11
+# resource("slicot").stage do
+# system "make", "lib", "OPTS=-fPIC", "SLICOTLIB=../libslicot_pic.a",
+# "FORTRAN=gfortran", "LOADER=gfortran"
+# system "make", "clean"
+# system "make", "lib", "OPTS=-fPIC -fdefault-integer-8",
+# "FORTRAN=gfortran", "LOADER=gfortran",
+# "SLICOTLIB=../libslicot64_pic.a"
+# (buildpath/"slicot").install "libslicot_pic.a", "libslicot64_pic.a"
+# end
+# system "autoreconf", "-fvi" if build.head?
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--disable-matlab",
+# "--with-slicot=#{buildpath}/slicot"
+# system "make", "install"

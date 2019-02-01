@@ -1,0 +1,14 @@
+# git-fixup.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-fixup.rb
+# Converted on 02-01-2019
+
+name='gitfixup'
+url=('https://github.com/keis/git-fixup/archive/v1.1.2.tar.gz')
+description='Alias for git commit --fixup <ref>'
+version='1.1.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/keis/git-fixup'
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "install"
+# zsh_completion.install "completion.zsh" => "_git-fixup"

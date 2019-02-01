@@ -1,0 +1,23 @@
+# wcslib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wcslib.rb
+# Converted on 02-01-2019
+
+name='wcslib'
+url=('https://www.atnf.csiro.au/pub/software/wcslib/wcslib-6.2.tar.bz2')
+description='Library and utilities for the FITS World Coordinate System'
+version='6.2' # Guessed version.
+priority='optional'
+homepage='https://www.atnf.csiro.au/people/mcalabre/WCS/'
+depends=('cfitsio')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-cfitsiolib=#{Formula["cfitsio"].opt_lib}",
+# "--with-cfitsioinc=#{Formula["cfitsio"].opt_include}",
+# "--without-pgplot",
+# "--disable-fortran"
+# ENV.deparallelize
+# system "make"
+# system "make", "install"

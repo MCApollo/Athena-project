@@ -1,0 +1,17 @@
+# fluent-bit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fluent-bit.rb
+# Converted on 02-01-2019
+
+name='fluentbit'
+url=('https://github.com/fluent/fluent-bit/archive/v0.14.9.tar.gz')
+description='Data Collector for IoT'
+version='0.14.9' # Guessed version.
+priority='optional'
+homepage='https://github.com/fluent/fluent-bit'
+makedepends=('cmake')
+makedepends=('cmake')
+
+###### Install ######
+# ENV["MACOSX_DEPLOYMENT_TARGET"] = MacOS.version
+# system "cmake", ".", "-DWITH_IN_MEM=OFF", *std_cmake_args
+# system "make", "install"

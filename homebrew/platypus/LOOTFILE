@@ -1,0 +1,24 @@
+# platypus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/platypus.rb
+# Converted on 02-01-2019
+
+name='platypus'
+url=('https://sveinbjorn.org/files/software/platypus/platypus5.2.src.zip')
+description='Create macOS applications from {Perl,Ruby,sh,Python} scripts'
+version='5.2' # Guessed version.
+priority='optional'
+homepage='https://sveinbjorn.org/platypus'
+depends=(':xcode')
+
+###### Install ######
+# xcodebuild "SYMROOT=build", "DSTROOT=#{buildpath}/dst",
+# "-project", "Platypus.xcodeproj",
+# "-target", "platypus",
+# "-target", "ScriptExec",
+# "clean",
+# "install"
+# man1.install "CommandLineTool/man/platypus.1"
+# bin.install "dst/platypus_clt" => "platypus"
+# cd "build/UninstalledProducts/macosx/ScriptExec.app/Contents" do
+# pkgshare.install "Resources/MainMenu.nib", "MacOS/ScriptExec"
+# end

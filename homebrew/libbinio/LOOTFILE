@@ -1,0 +1,15 @@
+# libbinio.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbinio.rb
+# Converted on 02-01-2019
+
+name='libbinio'
+url=('https://downloads.sourceforge.net/project/libbinio/libbinio/1.4/libbinio-1.4.tar.bz2')
+description='Binary I/O stream class library'
+version='1.4' # Guessed version.
+priority='optional'
+homepage='https://libbinio.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

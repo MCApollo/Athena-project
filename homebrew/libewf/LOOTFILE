@@ -1,0 +1,26 @@
+# libewf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libewf.rb
+# Converted on 02-01-2019
+
+name='libewf'
+url=('https://deb.debian.org/debian/pool/main/libe/libewf/libewf_20140608.orig.tar.gz')
+description='Library for support of the Expert Witness Compression Format'
+version=' '
+priority='optional'
+homepage='https://github.com/libyal/libewf'
+depends=('openssl')
+makedepends=('pkg-config')
+
+###### Install ######
+# if build.head?
+# system "./synclibs.sh"
+# system "./autogen.sh"
+# end
+# args = %W[
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --with-libfuse=no
+# ]
+# system "./configure", *args
+# system "make", "install"

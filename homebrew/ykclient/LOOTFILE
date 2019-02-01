@@ -1,0 +1,17 @@
+# ykclient.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ykclient.rb
+# Converted on 02-01-2019
+
+name='ykclient'
+url=('https://developers.yubico.com/yubico-c-client/Releases/ykclient-2.15.tar.gz')
+description='Library to validate YubiKey OTPs against YubiCloud'
+version='2.15' # Guessed version.
+priority='optional'
+homepage='https://developers.yubico.com/yubico-c-client/'
+makedepends=('help2man' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "-iv" if build.head?
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"
+# system "make", "check"

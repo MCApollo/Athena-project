@@ -1,0 +1,18 @@
+# gron.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gron.rb
+# Converted on 02-01-2019
+
+name='gron'
+url=('https://github.com/tomnomnom/gron/archive/v0.6.0.tar.gz')
+description='Make JSON greppable'
+version='0.6.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/tomnomnom/gron'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/tomnomnom").mkpath
+# ln_s buildpath, buildpath/"src/github.com/tomnomnom/gron"
+# Language::Go.stage_deps resources, buildpath/"src"
+# system "go", "build", "-o", bin/"gron"

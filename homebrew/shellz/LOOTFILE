@@ -1,0 +1,21 @@
+# shellz.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shellz.rb
+# Converted on 02-01-2019
+
+name='shellz'
+url=('https://github.com/evilsocket/shellz/archive/v1.4.0.tar.gz')
+description='Small utility to track and control custom shellz'
+version='1.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/evilsocket/shellz'
+makedepends=('dep' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/evilsocket/shellz").install buildpath.children
+# cd "src/github.com/evilsocket/shellz" do
+# system "dep", "ensure", "-vendor-only"
+# system "make", "build"
+# bin.install "shellz"
+# prefix.install_metafiles
+# end

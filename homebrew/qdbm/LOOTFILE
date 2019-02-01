@@ -1,0 +1,20 @@
+# qdbm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qdbm.rb
+# Converted on 02-01-2019
+
+name='qdbm'
+url=('https://fallabs.com/qdbm/qdbm-1.8.78.tar.gz')
+description='Library of routines for managing a database'
+version='1.8.78' # Guessed version.
+priority='optional'
+homepage='https://fallabs.com/qdbm/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--prefix=#{prefix}",
+# "--enable-bzip",
+# "--enable-zlib",
+# "--enable-iconv"
+# system "make", "mac"
+# system "make", "check-mac"
+# system "make", "install-mac"

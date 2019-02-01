@@ -1,0 +1,17 @@
+# nasm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nasm.rb
+# Converted on 02-01-2019
+
+name='nasm'
+url=('https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/nasm-2.14.02.tar.xz')
+description='Netwide Assembler (NASM) is an 80x86 assembler'
+version='2.14.02' # Guessed version.
+priority='optional'
+homepage='https://www.nasm.us/'
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "manpages" if build.head?
+# system "make", "rdf"
+# system "make", "install", "install_rdf"

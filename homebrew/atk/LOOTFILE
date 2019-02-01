@@ -1,0 +1,23 @@
+# atk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/atk.rb
+# Converted on 02-01-2019
+
+name='atk'
+url=('https://download.gnome.org/sources/atk/2.30/atk-2.30.0.tar.xz')
+description='GNOME accessibility toolkit'
+version='2.30.0' # Guessed version.
+priority='optional'
+homepage='https://library.gnome.org/devel/atk/'
+depends=('glib')
+makedepends=('gobject-introspection' 'meson-internal' 'ninja' 'pkg-config')
+
+# A diff file was written to atk.diff
+# --> Patch the file before building.
+
+###### Install ######
+# ENV.refurbish_args
+# mkdir "build" do
+# system "meson", "--prefix=#{prefix}", ".."
+# system "ninja"
+# system "ninja", "install"
+# end

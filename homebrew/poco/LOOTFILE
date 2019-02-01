@@ -1,0 +1,20 @@
+# poco.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/poco.rb
+# Converted on 02-01-2019
+
+name='poco'
+url=('https://pocoproject.org/releases/poco-1.9.0/poco-1.9.0-all.tar.gz')
+description='C++ class libraries for building network and internet-based applications'
+version='1.9.0' # Guessed version.
+priority='optional'
+homepage='https://pocoproject.org/'
+depends=('openssl')
+makedepends=('cmake')
+
+###### Install ######
+# ENV.cxx11
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args, "-DENABLE_DATA_MYSQL=OFF",
+# "-DENABLE_DATA_ODBC=OFF"
+# system "make", "install"
+# end

@@ -1,0 +1,18 @@
+# mesalib-glw.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mesalib-glw.rb
+# Converted on 02-01-2019
+
+name='mesalibglw'
+url=('https://mesa.freedesktop.org/archive/glw/glw-8.0.0.tar.bz2')
+description='Open-source implementation of the OpenGL specification'
+version='8.0.0' # Guessed version.
+priority='optional'
+homepage='https://www.mesa3d.org'
+depends=(':x11')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

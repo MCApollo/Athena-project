@@ -1,0 +1,15 @@
+# blazegraph.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/blazegraph.rb
+# Converted on 02-01-2019
+
+name='blazegraph'
+url=('https://downloads.sourceforge.net/project/bigdata/bigdata/2.1.4/blazegraph.jar')
+description='Graph database supporting RDF data model, Sesame, and Blueprint APIs'
+version=' '
+priority='optional'
+homepage='https://www.blazegraph.com/'
+depends=(':java')
+
+###### Install ######
+# libexec.install "blazegraph.jar"
+# bin.write_jar_script libexec/"blazegraph.jar", "blazegraph"

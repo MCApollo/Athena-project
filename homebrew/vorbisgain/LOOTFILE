@@ -1,0 +1,15 @@
+# vorbisgain.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vorbisgain.rb
+# Converted on 02-01-2019
+
+name='vorbisgain'
+url=('https://sjeng.org/ftp/vorbis/vorbisgain-0.37.tar.gz')
+description='Add Replay Gain volume tags to Ogg Vorbis files'
+version='0.37' # Guessed version.
+priority='optional'
+homepage='https://sjeng.org/vorbisgain.html'
+depends=('libogg' 'libvorbis')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make", "install"

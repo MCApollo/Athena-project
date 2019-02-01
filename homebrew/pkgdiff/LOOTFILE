@@ -1,0 +1,14 @@
+# pkgdiff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pkgdiff.rb
+# Converted on 02-01-2019
+
+name='pkgdiff'
+url=('https://github.com/lvc/pkgdiff/archive/1.7.2.tar.gz')
+description='Tool for analyzing changes in software packages (e.g. RPM, DEB, TAR.GZ)'
+version='1.7.2' # Guessed version.
+priority='optional'
+homepage='https://lvc.github.io/pkgdiff/'
+depends=('binutils' 'gawk' 'wdiff')
+
+###### Install ######
+# system "perl", "Makefile.pl", "--install", "--prefix=#{prefix}"

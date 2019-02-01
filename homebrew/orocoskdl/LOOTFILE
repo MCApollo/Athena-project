@@ -1,0 +1,19 @@
+# orocos-kdl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/orocos-kdl.rb
+# Converted on 02-01-2019
+
+name='orocoskdl'
+url=('https://github.com/orocos/orocos_kinematics_dynamics/archive/v1.4.0.tar.gz')
+description='Orocos Kinematics and Dynamics C++ library'
+version='1.4.0' # Guessed version.
+priority='optional'
+homepage='http://www.orocos.org/kdl'
+depends=('eigen')
+makedepends=('cmake')
+
+###### Install ######
+# cd "orocos_kdl" do
+# system "cmake", ".", "-DEIGEN3_INCLUDE_DIR=#{Formula["eigen"].opt_include}/eigen3",
+# *std_cmake_args
+# system "make", "install"
+# end

@@ -1,0 +1,28 @@
+# mcrypt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mcrypt.rb
+# Converted on 02-01-2019
+
+name='mcrypt'
+url=('https://downloads.sourceforge.net/project/mcrypt/MCrypt/2.6.8/mcrypt-2.6.8.tar.gz')
+description='Replacement for the old crypt package and crypt(1) command'
+version='2.6.8' # Guessed version.
+priority='optional'
+homepage='https://mcrypt.sourceforge.io'
+depends=('mhash')
+
+# A diff file was written to mcrypt.diff
+# --> Patch the file before building.
+
+###### Resource ######
+# libmcrypt: https://downloads.sourceforge.net/project/mcrypt/Libmcrypt/2.5.8/libmcrypt-2.5.8.tar.gz
+
+###### Install ######
+# resource("libmcrypt").stage do
+# system "./configure", "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"
+# end
+# system "./configure", "--prefix=#{prefix}",
+# "--with-libmcrypt-prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

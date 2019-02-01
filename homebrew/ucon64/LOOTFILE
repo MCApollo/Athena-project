@@ -1,0 +1,26 @@
+# ucon64.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ucon64.rb
+# Converted on 02-01-2019
+
+name='ucon64'
+url=('https://downloads.sourceforge.net/ucon64/ucon64-2.1.0-src.tar.gz')
+description='ROM backup tool and emulator'\''s Swiss Army knife program'
+version='2.1.0' # Guessed version.
+priority='optional'
+homepage='https://ucon64.sourceforge.io/'
+
+###### Resource ######
+# super_bat_puncher_demo: http://morphcat.de/superbatpuncher/Super%20Bat%20Puncher%20Demo.zip
+
+###### Install ######
+# inreplace "src/ucon64_misc.c", 'PROPERTY_MODE_DIR ("ucon64") "discmage.dylib"',
+# "\"#{opt_prefix}/libexec/libdiscmage.dylib\""
+# cd "src" do
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make"
+# bin.install "ucon64"
+# libexec.install "libdiscmage/discmage.so" => "libdiscmage.dylib"
+# end

@@ -1,0 +1,19 @@
+# guetzli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/guetzli.rb
+# Converted on 02-01-2019
+
+name='guetzli'
+url=('https://github.com/google/guetzli/archive/v1.0.1.tar.gz')
+description='Perceptual JPEG encoder'
+version='1.0.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/guetzli'
+depends=('libpng')
+makedepends=('pkg-config')
+
+###### Resource ######
+# test_image: https://github.com/google/guetzli/releases/download/v1.0/bees.png
+
+###### Install ######
+# system "make"
+# bin.install "bin/Release/guetzli"

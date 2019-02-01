@@ -1,0 +1,35 @@
+# exiv2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/exiv2.rb
+# Converted on 02-01-2019
+
+name='exiv2'
+url=('http://www.exiv2.org/builds/exiv2-0.27.0a-Source.tar.gz')
+description='EXIF and IPTC metadata manipulation library and tools'
+version='0.27.0' # Guessed version.
+priority='optional'
+homepage='http://www.exiv2.org/'
+depends=('gettext' 'libssh')
+makedepends=('cmake')
+
+###### Install ######
+# args = std_cmake_args
+# args += %W[
+# -DEXIV2_ENABLE_XMP=ON
+# -DEXIV2_ENABLE_VIDEO=ON
+# -DEXIV2_ENABLE_PNG=ON
+# -DEXIV2_ENABLE_NLS=ON
+# -DEXIV2_ENABLE_PRINTUCS2=ON
+# -DEXIV2_ENABLE_LENSDATA=ON
+# -DEXIV2_ENABLE_VIDEO=ON
+# -DEXIV2_ENABLE_WEBREADY=ON
+# -DEXIV2_ENABLE_CURL=ON
+# -DEXIV2_ENABLE_SSH=ON
+# -DEXIV2_BUILD_SAMPLES=OFF
+# -DSSH_LIBRARY=#{Formula["libssh"].opt_lib}/libssh.dylib
+# -DSSH_INCLUDE_DIR=#{Formula["libssh"].opt_include}
+# ..
+# ]
+# mkdir "build.cmake" do
+# system "cmake", "-G", "Unix Makefiles", ".", *args
+# system "make", "install"
+# end

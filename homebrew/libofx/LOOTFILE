@@ -1,0 +1,19 @@
+# libofx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libofx.rb
+# Converted on 02-01-2019
+
+name='libofx'
+url=('https://downloads.sourceforge.net/project/libofx/libofx/libofx-0.9.13.tar.gz')
+description='Library to support OFX command responses'
+version='0.9.13' # Guessed version.
+priority='optional'
+homepage='https://libofx.sourceforge.io'
+depends=('open-sp')
+
+###### Install ######
+# opensp = Formula["open-sp"]
+# system "./configure", "--disable-dependency-tracking",
+# "--with-opensp-includes=#{opensp.opt_include}/OpenSP",
+# "--with-opensp-libs=#{opensp.opt_lib}",
+# "--prefix=#{prefix}"
+# system "make", "install"

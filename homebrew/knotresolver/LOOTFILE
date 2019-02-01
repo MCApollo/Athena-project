@@ -1,0 +1,27 @@
+# knot-resolver.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/knot-resolver.rb
+# Converted on 02-01-2019
+
+name='knotresolver'
+url=('https://secure.nic.cz/files/knot-resolver/knot-resolver-3.2.1.tar.xz')
+description='Minimalistic, caching, DNSSEC-validating DNS resolver'
+version='3.2.1' # Guessed version.
+priority='optional'
+homepage='https://www.knot-resolver.cz'
+depends=('gnutls' 'knot' 'libuv' 'lmdb' 'luajit' 'nettle')
+makedepends=('cmocka' 'pkg-config')
+
+###### Install ######
+# cp "etc/root.hints", buildpath
+# (etc/"kresd").install "root.hints"
+# %w[all lib-install daemon-install client-install modules-install
+# check].each do |target|
+# system "make", target, "PREFIX=#{prefix}", "ETCDIR=#{etc}/kresd"
+# end
+# cp "etc/config.personal", "config"
+# inreplace "config", /^\s*user\(/, "-- user("
+# (etc/"kresd").install "config"
+# (etc/"kresd").install "etc/root.hints"
+# (etc/"kresd").install "etc/icann-ca.pem"
+# (buildpath/"root.keys").write(root_keys)
+# (var/"kresd").install "root.keys"

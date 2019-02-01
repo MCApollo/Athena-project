@@ -1,0 +1,13 @@
+# libxlsxwriter.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxlsxwriter.rb
+# Converted on 02-01-2019
+
+name='libxlsxwriter'
+url=('https://github.com/jmcnamara/libxlsxwriter/archive/RELEASE_0.8.4.tar.gz')
+description='C library for creating Excel XLSX files'
+version='0.8.4' # Guessed version.
+priority='optional'
+homepage='https://libxlsxwriter.github.io/'
+
+###### Install ######
+# system "make", "install", "INSTALL_DIR=#{prefix}", "V=1"

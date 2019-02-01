@@ -1,0 +1,17 @@
+# xclip.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xclip.rb
+# Converted on 02-01-2019
+
+name='xclip'
+url=('https://github.com/astrand/xclip/archive/0.13.tar.gz')
+description='Command-line utility that is designed to run on any system with an X11'
+version='0.13' # Guessed version.
+priority='optional'
+homepage='https://github.com/astrand/xclip'
+depends=(':x11')
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,35 @@
+# couchdb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/couchdb.rb
+# Converted on 02-01-2019
+
+name='couchdb'
+url=('https://www.apache.org/dyn/closer.cgi?path=/couchdb/source/1.7.1/apache-couchdb-1.7.1.tar.gz')
+description='Document database server'
+version='1.7.1' # Guessed version.
+priority='optional'
+homepage='https://couchdb.apache.org/'
+depends=('erlang@19' 'icu4c' 'spidermonkey')
+
+###### Install ######
+# inreplace "etc/couchdb/default.ini.tpl.in" do |s|
+# s.gsub! "%package_author_name%", "Homebrew"
+# s.gsub! "%version%", pkg_version
+# end
+# unless build.stable?
+# touch "THANKS"
+# system "./bootstrap"
+# end
+# system "./configure", "--prefix=#{prefix}",
+# "--localstatedir=#{var}",
+# "--sysconfdir=#{prefix}/etc",
+# "--disable-init",
+# "--with-erlang=#{Formula["erlang@19"].opt_lib}/erlang/usr/include",
+# "--with-js-include=#{HOMEBREW_PREFIX}/include/js",
+# "--with-js-lib=#{HOMEBREW_PREFIX}/lib"
+# system "make"
+# system "make", "install"
+# (prefix/"Library/LaunchDaemons/org.apache.couchdb.plist").delete
+# (lib/"couchdb/bin/couchjs").chmod 0755
+# (var/"lib/couchdb").mkpath
+# (var/"log/couchdb").mkpath
+# (var/"run/couchdb").mkpath

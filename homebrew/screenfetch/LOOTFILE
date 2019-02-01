@@ -1,0 +1,14 @@
+# screenfetch.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/screenfetch.rb
+# Converted on 02-01-2019
+
+name='screenfetch'
+url=('https://github.com/KittyKatt/screenFetch/archive/v3.8.0.tar.gz')
+description='Generate ASCII art with terminal, shell, and OS info'
+version='3.8.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/KittyKatt/screenFetch'
+
+###### Install ######
+# bin.install "screenfetch-dev" => "screenfetch"
+# man1.install "screenfetch.1"

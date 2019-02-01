@@ -1,0 +1,16 @@
+# taglib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/taglib.rb
+# Converted on 02-01-2019
+
+name='taglib'
+url=('https://taglib.github.io/releases/taglib-1.11.1.tar.gz')
+description='Audio metadata library'
+version='1.11.1' # Guessed version.
+priority='optional'
+homepage='https://taglib.github.io/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", "-DWITH_MP4=ON", "-DWITH_ASF=ON", "-DBUILD_SHARED_LIBS=ON",
+# *std_cmake_args
+# system "make", "install"

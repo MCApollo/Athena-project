@@ -1,0 +1,16 @@
+# titan-server.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/titan-server.rb
+# Converted on 02-01-2019
+
+name='titanserver'
+url=('http://s3.thinkaurelius.com/downloads/titan/titan-1.0.0-hadoop1.zip')
+description='Distributed graph database'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://thinkaurelius.github.io/titan/'
+
+###### Install ######
+# libexec.install %w[bin conf data ext javadocs lib log scripts]
+# bin.install_symlink libexec/"bin/titan.sh" => "titan"
+# bin.install_symlink libexec/"bin/gremlin.sh" => "titan-gremlin"
+# bin.install_symlink libexec/"bin/gremlin-server.sh" => "titan-gremlin-server"

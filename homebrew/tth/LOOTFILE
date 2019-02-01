@@ -1,0 +1,15 @@
+# tth.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tth.rb
+# Converted on 02-01-2019
+
+name='tth'
+url=('http://hutchinson.belmont.ma.us/tth/tth_distribution/tth_4.12.tgz')
+description='TeX/LaTeX to HTML converter'
+version='4.12' # Guessed version.
+priority='optional'
+homepage='http://hutchinson.belmont.ma.us/tth/'
+
+###### Install ######
+# system ENV.cc, "-o", "tth", "tth.c"
+# bin.install %w[tth latex2gif ps2gif ps2png]
+# man1.install "tth.1"

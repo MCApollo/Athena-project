@@ -1,0 +1,29 @@
+# cryfs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cryfs.rb
+# Converted on 02-01-2019
+
+name='cryfs'
+url=('https://github.com/cryfs/cryfs/releases/download/0.9.10/cryfs-0.9.10.tar.xz')
+description='Encrypts your files so you can safely store them in Dropbox, iCloud, etc.'
+version='0.9.10' # Guessed version.
+priority='optional'
+homepage='https://www.cryfs.org'
+depends=('boost' 'cryptopp' 'openssl' ':osxfuse')
+makedepends=('cmake')
+
+###### Install ######
+# configure_args = [
+# "-DBUILD_TESTING=off",
+# ]
+# if build.head?
+# libomp = Formula["libomp"]
+# configure_args.concat(
+# [
+# "-DOpenMP_CXX_FLAGS='-Xpreprocessor -fopenmp -I#{libomp.include}'",
+# "-DOpenMP_CXX_LIB_NAMES=omp",
+# "-DOpenMP_omp_LIBRARY=#{libomp.lib}/libomp.dylib",
+# ],
+# )
+# end
+# system "cmake", ".", *configure_args, *std_cmake_args
+# system "make", "install"

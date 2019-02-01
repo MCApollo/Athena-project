@@ -1,0 +1,19 @@
+# paps.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/paps.rb
+# Converted on 02-01-2019
+
+name='paps'
+url=('https://github.com/dov/paps/archive/0.7.0.tar.gz')
+description='Pango to PostScript converter'
+version='0.7.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/dov/paps'
+depends=('fontconfig' 'freetype' 'gettext' 'glib' 'pango')
+makedepends=('autoconf' 'automake' 'pkg-config')
+
+###### Install ######
+# system "./autogen.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# pkgshare.install "examples"

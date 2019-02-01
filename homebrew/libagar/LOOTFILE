@@ -1,0 +1,17 @@
+# libagar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libagar.rb
+# Converted on 02-01-2019
+
+name='libagar'
+url=('http://stable.hypertriton.com/agar/agar-1.5.0.tar.gz')
+description='Cross-platform GUI toolkit'
+version='1.5.0' # Guessed version.
+priority='optional'
+homepage='http://libagar.org/'
+depends=('freetype' 'jpeg' 'libpng' 'sdl')
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install", "MANDIR=

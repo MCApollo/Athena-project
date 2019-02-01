@@ -1,0 +1,12 @@
+# elixir-build.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/elixir-build.rb
+# Converted on 02-01-2019
+
+name='elixirbuild'
+url=('https://github.com/mururu/elixir-build/archive/v20141001.tar.gz')
+description='Elixir version of ruby-build'
+version=' '
+priority='optional'
+homepage='https://github.com/mururu/elixir-build'
+
+###### Install ######

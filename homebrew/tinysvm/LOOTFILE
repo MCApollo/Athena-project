@@ -1,0 +1,22 @@
+# tinysvm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tinysvm.rb
+# Converted on 02-01-2019
+
+name='tinysvm'
+url=('http://chasen.org/~taku/software/TinySVM/src/TinySVM-0.09.tar.gz')
+description='Support vector machine library for pattern recognition'
+version='0.09' # Guessed version.
+priority='optional'
+homepage='http://chasen.org/~taku/software/TinySVM/'
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/838f605/tinysvm/patch-configure.diff')
+
+###### Install ######
+# ENV.append_to_cflags "-D__GNU_LIBRARY__"
+# inreplace "configure", "-O9", ""
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--disable-shared"
+# system "make", "install"

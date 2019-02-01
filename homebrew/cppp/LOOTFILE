@@ -1,0 +1,14 @@
+# cppp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cppp.rb
+# Converted on 02-01-2019
+
+name='cppp'
+url=('https://www.muppetlabs.com/~breadbox/pub/software/cppp-2.6.tar.gz')
+description='Partial Preprocessor for C'
+version='2.6' # Guessed version.
+priority='optional'
+homepage='https://www.muppetlabs.com/~breadbox/software/cppp.html'
+
+###### Install ######
+# system "make"
+# bin.install "cppp"

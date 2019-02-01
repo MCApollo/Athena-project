@@ -1,0 +1,16 @@
+# libestr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libestr.rb
+# Converted on 02-01-2019
+
+name='libestr'
+url=('http://libestr.adiscon.com/files/download/libestr-0.1.10.tar.gz')
+description='C library for string handling (and a bit more)'
+version='0.1.10' # Guessed version.
+priority='optional'
+homepage='http://libestr.adiscon.com'
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

@@ -1,0 +1,16 @@
+# libffi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libffi.rb
+# Converted on 02-01-2019
+
+name='libffi'
+url=('https://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz')
+description='Portable Foreign Function Interface library'
+version='3.2.1' # Guessed version.
+priority='optional'
+homepage='https://sourceware.org/libffi/'
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

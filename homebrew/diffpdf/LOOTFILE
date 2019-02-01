@@ -1,0 +1,20 @@
+# diff-pdf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/diff-pdf.rb
+# Converted on 02-01-2019
+
+name='diffpdf'
+url=('https://github.com/vslavik/diff-pdf/archive/v0.2.tar.gz')
+description='Visually compare two PDF files'
+version='0.2' # Guessed version.
+priority='optional'
+homepage='https://vslavik.github.io/diff-pdf/'
+depends=('cairo' 'poppler' 'wxmac' ':x11')
+makedepends=('autoconf' 'automake' 'pkg-config')
+
+###### Install ######
+# system "./bootstrap"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

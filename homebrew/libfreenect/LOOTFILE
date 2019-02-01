@@ -1,0 +1,19 @@
+# libfreenect.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libfreenect.rb
+# Converted on 02-01-2019
+
+name='libfreenect'
+url=('https://github.com/OpenKinect/libfreenect/archive/v0.5.7.tar.gz')
+description='Drivers and libraries for the Xbox Kinect device'
+version='0.5.7' # Guessed version.
+priority='optional'
+homepage='https://openkinect.org/'
+depends=('libusb')
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args,
+# "-DBUILD_OPENNI2_DRIVER=ON"
+# system "make", "install"
+# end

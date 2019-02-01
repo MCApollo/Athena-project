@@ -1,0 +1,21 @@
+# qrupdate.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qrupdate.rb
+# Converted on 02-01-2019
+
+name='qrupdate'
+url=('https://downloads.sourceforge.net/qrupdate/qrupdate-1.1.2.tar.gz')
+description='Fast updates of QR and Cholesky decompositions'
+version='1.1.2' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/qrupdate/'
+depends=('gcc' 'veclibfort')
+
+###### Install ######
+# ENV.deparallelize
+# system "make", "lib", "solib",
+# "BLAS=-L#{Formula["veclibfort"].opt_lib} -lvecLibFort"
+# rm "INSTALL"
+# inreplace "src/Makefile", "install -D", "install"
+# lib.mkpath
+# system "make", "install", "PREFIX=#{prefix}"
+# pkgshare.install "test/tch1dn.f", "test/utils.f"

@@ -1,0 +1,15 @@
+# prettyping.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/prettyping.rb
+# Converted on 02-01-2019
+
+name='prettyping'
+url=('https://github.com/denilsonsa/prettyping/archive/v1.0.1.tar.gz')
+description='Wrapper to colorize and simplify ping'\''s output'
+version='1.0.1' # Guessed version.
+priority='optional'
+homepage='https://denilsonsa.github.io/prettyping/'
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/6ecea23/prettyping/ipv6.patch')
+
+###### Install ######
+# bin.install "prettyping"

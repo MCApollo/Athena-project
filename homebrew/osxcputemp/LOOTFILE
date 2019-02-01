@@ -1,0 +1,14 @@
+# osx-cpu-temp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/osx-cpu-temp.rb
+# Converted on 02-01-2019
+
+name='osxcputemp'
+url=('https://github.com/lavoiesl/osx-cpu-temp/archive/1.1.0.tar.gz')
+description='Outputs current CPU temperature for OSX'
+version='1.1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/lavoiesl/osx-cpu-temp'
+
+###### Install ######
+# system "make"
+# bin.install "osx-cpu-temp"

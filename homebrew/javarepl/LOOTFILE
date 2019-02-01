@@ -1,0 +1,17 @@
+# javarepl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/javarepl.rb
+# Converted on 02-01-2019
+
+name='javarepl'
+url=('https://github.com/albertlatacz/java-repl/releases/download/428/javarepl-428.jar')
+description='Read Eval Print Loop (REPL) for Java'
+version=' '
+priority='optional'
+homepage='https://github.com/albertlatacz/java-repl'
+depends=(':java')
+
+###### Install ######
+# libexec.install "javarepl-#{version}.jar"
+# (libexec/"bin").write_jar_script libexec/"javarepl-#{version}.jar", "javarepl"
+# (libexec/"bin/javarepl").chmod 0755
+# (bin/"javarepl").write_env_script libexec/"bin/javarepl", Language::Java.java_home_env("1.8")

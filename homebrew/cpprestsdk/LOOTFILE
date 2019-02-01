@@ -1,0 +1,16 @@
+# cpprestsdk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cpprestsdk.rb
+# Converted on 02-01-2019
+
+name='cpprestsdk'
+url=('https://github.com/Microsoft/cpprestsdk.git')
+description='C++ libraries for cloud-based client-server communication'
+version=' '
+priority='optional'
+homepage='https://github.com/Microsoft/cpprestsdk'
+depends=('boost' 'openssl')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", "-DBUILD_SAMPLES=OFF", "-DBUILD_TESTS=OFF", "Release", *std_cmake_args
+# system "make", "install"

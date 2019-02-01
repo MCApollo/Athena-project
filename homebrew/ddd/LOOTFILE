@@ -1,0 +1,26 @@
+# ddd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ddd.rb
+# Converted on 02-01-2019
+
+name='ddd'
+url=('https://ftp.gnu.org/gnu/ddd/ddd-3.3.12.tar.gz')
+description='Graphical front-end for command-line debuggers'
+version='3.3.12' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/s/ddd/'
+depends=('openmotif' ':x11')
+# Patches
+url+=('https://savannah.gnu.org/patch/download.php?file_id=29114')
+url+=('https://savannah.gnu.org/patch/download.php?file_id=31132')
+url+=('https://raw.githubusercontent.com/macports/macports-ports/a71fa9f4/devel/ddd/files/patch-unknown-type-name-a_class.diff')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--enable-builtin-app-defaults",
+# "--enable-builtin-manual",
+# "--prefix=#{prefix}"
+# system "make", "EXEEXT=exe"
+# ENV.deparallelize
+# system "make", "install", "EXEEXT=exe"
+# mv bin/"dddexe", bin/"ddd"

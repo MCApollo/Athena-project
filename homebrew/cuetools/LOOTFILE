@@ -1,0 +1,19 @@
+# cuetools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cuetools.rb
+# Converted on 02-01-2019
+
+name='cuetools'
+url=('https://github.com/svend/cuetools/archive/1.4.1.tar.gz')
+description='Utilities for .cue and .toc files'
+version='1.4.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/svend/cuetools'
+makedepends=('autoconf' 'automake' 'libtool')
+
+# A diff file was written to cuetools.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "autoreconf", "-i"
+# system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make", "install"

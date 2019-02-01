@@ -1,0 +1,21 @@
+# git-remote-hg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-remote-hg.rb
+# Converted on 02-01-2019
+
+name='gitremotehg'
+url=('https://github.com/felipec/git-remote-hg/archive/v0.3.tar.gz')
+description='Transparent bidirectional bridge between Git and Mercurial'
+version='0.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/felipec/git-remote-hg'
+depends=('mercurial' 'python@2')
+makedepends=('')
+
+###### Resource ######
+# hg: https://mercurial-scm.org/release/mercurial-4.1.3.tar.gz
+
+###### Install ######
+# venv = virtualenv_create(libexec)
+# venv.pip_install resource("hg")
+# inreplace "git-remote-hg", /#!.*/, "#!#{libexec}/bin/python"
+# system "make", "install", "prefix=#{prefix}"

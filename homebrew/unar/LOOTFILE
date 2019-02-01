@@ -1,0 +1,33 @@
+# unar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/unar.rb
+# Converted on 02-01-2019
+
+name='unar'
+url=('https://wakaba.c3.cx/releases/TheUnarchiver/unar1.10.1_src.zip')
+description='Command-line unarchiving tools supporting multiple formats'
+version='1.10.1' # Guessed version.
+priority='optional'
+homepage='https://unarchiver.c3.cx/commandline'
+makedepends=(':xcode')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/a94f6f/unar/xcode10.diff')
+
+###### Install ######
+# mv Dir["The Unarchiver/*"], "."
+# args = %W[
+# -project ./XADMaster/XADMaster.xcodeproj
+# SYMROOT=..
+# -configuration Release
+# MACOSX_DEPLOYMENT_TARGET=#{MacOS.version}
+# ]
+# xcodebuild "-target", "XADMaster", *args
+# xcodebuild "-target", "unar", *args
+# xcodebuild "-target", "lsar", *args
+# bin.install "./Release/unar", "./Release/lsar"
+# lib.install "./Release/libXADMaster.a"
+# frameworks.install "./Release/XADMaster.framework"
+# (include/"libXADMaster").install_symlink Dir["#{frameworks}/XADMaster.framework/Headers/*"]
+# cd "./Extra" do
+# man1.install "lsar.1", "unar.1"
+# bash_completion.install "unar.bash_completion", "lsar.bash_completion"
+# end

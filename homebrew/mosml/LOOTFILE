@@ -1,0 +1,17 @@
+# mosml.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mosml.rb
+# Converted on 02-01-2019
+
+name='mosml'
+url=('https://github.com/kfl/mosml/archive/ver-2.10.1.tar.gz')
+description='Moscow ML'
+version='2.10.1' # Guessed version.
+priority='optional'
+homepage='http://mosml.org'
+depends=('gmp')
+
+###### Install ######
+# cd "src" do
+# system "make", "PREFIX=#{prefix}", "CC=#{ENV.cc}", "world"
+# system "make", "PREFIX=#{prefix}", "CC=#{ENV.cc}", "install"
+# end

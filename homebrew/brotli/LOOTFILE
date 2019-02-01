@@ -1,0 +1,17 @@
+# brotli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/brotli.rb
+# Converted on 02-01-2019
+
+name='brotli'
+url=('https://github.com/google/brotli/archive/v1.0.7.tar.gz')
+description='Generic-purpose lossless compression algorithm by Google'
+version='1.0.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/brotli'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "VERBOSE=1"
+# system "ctest", "-V"
+# system "make", "install"

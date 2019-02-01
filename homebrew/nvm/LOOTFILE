@@ -1,0 +1,12 @@
+# nvm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nvm.rb
+# Converted on 02-01-2019
+
+name='nvm'
+url=('https://github.com/creationix/nvm/archive/v0.34.0.tar.gz')
+description='Manage multiple Node.js versions'
+version='0.34.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/creationix/nvm'
+
+###### Install ######

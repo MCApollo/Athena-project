@@ -1,0 +1,15 @@
+# dps8m.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dps8m.rb
+# Converted on 02-01-2019
+
+name='dps8m'
+url=('https://downloads.sourceforge.net/project/dps8m/Release%201.0/source.tgz')
+description='Simulator for the Multics dps-8/m mainframe'
+version=' '
+priority='optional'
+homepage='https://ringzero.wikidot.com'
+depends=('libuv')
+
+###### Install ######
+# bin.mkpath
+# system "make", "INSTALL_ROOT=#{prefix}", "install"

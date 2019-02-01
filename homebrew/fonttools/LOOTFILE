@@ -1,0 +1,14 @@
+# fonttools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fonttools.rb
+# Converted on 02-01-2019
+
+name='fonttools'
+url=('https://github.com/fonttools/fonttools/releases/download/3.37.0/fonttools-3.37.0.zip')
+description='Library for manipulating fonts'
+version='3.37.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/fonttools/fonttools'
+depends=('python')
+
+###### Install ######
+# virtualenv_install_with_resources

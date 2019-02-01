@@ -1,0 +1,16 @@
+# gtk-chtheme.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtk-chtheme.rb
+# Converted on 02-01-2019
+
+name='gtkchtheme'
+url=('http://plasmasturm.org/code/gtk-chtheme/gtk-chtheme-0.3.1.tar.bz2')
+description='GTK+ 2.0 theme changer GUI'
+version='0.3.1' # Guessed version.
+priority='optional'
+homepage='http://plasmasturm.org/code/gtk-chtheme/'
+depends=('gettext' 'gtk+')
+makedepends=('pkg-config')
+
+###### Install ######
+# inreplace "Makefile", "-DGTK_DISABLE_DEPRECATED", ""
+# system "make", "PREFIX=#{prefix}", "install"

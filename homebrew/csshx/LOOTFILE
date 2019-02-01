@@ -1,0 +1,12 @@
+# csshx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/csshx.rb
+# Converted on 02-01-2019
+
+name='csshx'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/csshx/csshX-0.74.tgz')
+description='Cluster ssh tool for Terminal.app'
+version='0.74' # Guessed version.
+priority='optional'
+homepage='https://github.com/brockgr/csshx'
+
+###### Install ######

@@ -1,0 +1,20 @@
+# sloccount.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sloccount.rb
+# Converted on 02-01-2019
+
+name='sloccount'
+url=('https://www.dwheeler.com/sloccount/sloccount-2.26.tar.gz')
+description='Count lines of code in many languages'
+version='2.26' # Guessed version.
+priority='optional'
+homepage='https://www.dwheeler.com/sloccount/'
+depends=('md5sha1sum')
+
+# A diff file was written to sloccount.diff
+# --> Patch the file before building.
+
+###### Install ######
+# rm "makefile.orig"
+# bin.mkpath
+# system "make", "install", "PREFIX=#{prefix}"
+# (bin+"erlang_count").write "#!/bin/sh\ngeneric_count '%' $@"

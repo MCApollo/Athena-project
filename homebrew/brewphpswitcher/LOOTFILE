@@ -1,0 +1,12 @@
+# brew-php-switcher.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/brew-php-switcher.rb
+# Converted on 02-01-2019
+
+name='brewphpswitcher'
+url=('https://github.com/philcook/brew-php-switcher/archive/v2.1.tar.gz')
+description='Switch Apache / Valet / CLI configs between PHP versions'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/philcook/php-switcher'
+
+###### Install ######

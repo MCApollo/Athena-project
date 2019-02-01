@@ -1,0 +1,14 @@
+# runcocoa.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/runcocoa.rb
+# Converted on 02-01-2019
+
+name='runcocoa'
+url=('https://github.com/michaeltyson/Commandline-Cocoa/archive/834f73b4b5d0d2be0d336c9869973f5f0db55949.tar.gz')
+description='Tools to run Cocoa/Objective-C and C code from the command-line'
+version=' '
+priority='optional'
+homepage='https://github.com/michaeltyson/Commandline-Cocoa'
+
+###### Install ######
+# bin.install "runcocoa.sh" => "runcocoa"
+# bin.install "runc.sh" => "runc"

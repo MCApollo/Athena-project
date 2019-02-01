@@ -1,0 +1,13 @@
+# git-vendor.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-vendor.rb
+# Converted on 02-01-2019
+
+name='gitvendor'
+url=('https://github.com/brettlangdon/git-vendor/archive/v1.1.2.tar.gz')
+description='Command for managing git vendored dependencies'
+version='1.1.2' # Guessed version.
+priority='optional'
+homepage='https://brettlangdon.github.io/git-vendor'
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "install"

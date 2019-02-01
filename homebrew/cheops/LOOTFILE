@@ -1,0 +1,15 @@
+# cheops.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cheops.rb
+# Converted on 02-01-2019
+
+name='cheops'
+url=('https://files.nothingisreal.com/software/cheops/cheops-1.3.tar.bz2')
+description='CHEss OPponent Simulator'
+version='1.3' # Guessed version.
+priority='optional'
+homepage='https://logological.org/cheops'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

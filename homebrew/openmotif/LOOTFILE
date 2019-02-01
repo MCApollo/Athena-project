@@ -1,0 +1,21 @@
+# openmotif.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/openmotif.rb
+# Converted on 02-01-2019
+
+name='openmotif'
+url=('https://downloads.sourceforge.net/project/motif/Motif%202.3.8%20Source%20Code/motif-2.3.8.tar.gz')
+description='LGPL release of the Motif toolkit'
+version='2.3.8' # Guessed version.
+priority='optional'
+homepage='https://motif.ics.com/motif'
+depends=('fontconfig' 'freetype' 'jpeg' 'libpng' ':x11')
+makedepends=('pkg-config')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules"
+# system "make"
+# system "make", "install"
+# mv man3/"Core.3", man3/"openmotif-Core.3"

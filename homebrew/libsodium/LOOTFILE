@@ -1,0 +1,17 @@
+# libsodium.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsodium.rb
+# Converted on 02-01-2019
+
+name='libsodium'
+url=('https://github.com/jedisct1/libsodium/releases/download/1.0.17/libsodium-1.0.17.tar.gz')
+description='NaCl networking and cryptography library'
+version='1.0.17' # Guessed version.
+priority='optional'
+homepage='https://github.com/jedisct1/libsodium/'
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "check"
+# system "make", "install"

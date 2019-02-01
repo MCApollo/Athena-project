@@ -1,0 +1,26 @@
+# open-tyrian.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/open-tyrian.rb
+# Converted on 02-01-2019
+
+name='opentyrian'
+url=('https://www.camanis.net/opentyrian/releases/opentyrian-2.1.20130907-src.tar.gz')
+description='Open-source port of Tyrian'
+version='2.1.20130907' # Guessed version.
+priority='optional'
+homepage='https://bitbucket.org/opentyrian/opentyrian'
+depends=('sdl' 'sdl_net')
+
+###### Resource ######
+# data: https://camanis.net/tyrian/tyrian21.zip
+
+###### Install ######
+# datadir = pkgshare/"data"
+# datadir.install resource("data")
+# args = []
+# if build.head?
+# args << "TYRIAN_DIR=#{datadir}"
+# else
+# inreplace "src/file.c", "/usr/share/opentyrian/data", datadir
+# end
+# system "make", *args
+# bin.install "opentyrian"

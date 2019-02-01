@@ -1,0 +1,15 @@
+# eless.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/eless.rb
+# Converted on 02-01-2019
+
+name='eless'
+url=('https://github.com/kaushalmodi/eless/archive/v0.5.tar.gz')
+description='Better `less` using Emacs view-mode and Bash'
+version='0.5' # Guessed version.
+priority='optional'
+homepage='https://eless.scripter.co/'
+depends=('emacs')
+
+###### Install ######
+# bin.install "eless"
+# info.install "docs/eless.info"

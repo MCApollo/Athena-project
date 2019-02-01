@@ -1,0 +1,20 @@
+# hadoop.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hadoop.rb
+# Converted on 02-01-2019
+
+name='hadoop'
+url=('https://www.apache.org/dyn/closer.cgi?path=hadoop/common/hadoop-3.1.1/hadoop-3.1.1.tar.gz')
+description='Framework for distributed processing of large data sets'
+version='3.1.1' # Guessed version.
+priority='optional'
+homepage='https://hadoop.apache.org/'
+depends=(':java')
+makedepends=('')
+
+###### Install ######
+# rm_f Dir["bin/*.cmd", "sbin/*.cmd", "libexec/*.cmd", "etc/hadoop/*.cmd"]
+# libexec.install %w[bin sbin libexec share etc]
+# bin.write_exec_script Dir["#{libexec}/bin/*"]
+# sbin.write_exec_script Dir["#{libexec}/sbin/*"]
+# libexec.write_exec_script Dir["#{libexec}/libexec/*.sh"]
+# chmod 0755, Dir["#{libexec}/*.sh"]

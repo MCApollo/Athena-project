@@ -1,0 +1,18 @@
+# colortail.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/colortail.rb
+# Converted on 02-01-2019
+
+name='colortail'
+url=('https://github.com/joakim666/colortail.git')
+description='Like tail(1), but with various colors for specified output'
+version=' '
+priority='optional'
+homepage='https://github.com/joakim666/colortail'
+makedepends=('autoconf' 'automake')
+# Patches
+url+=('https://github.com/joakim666/colortail/commit/36dd0437bb364fd1493934bdb618cc102a29d0a5.diff?full_index=1')
+
+###### Install ######
+# system "./autogen.sh", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

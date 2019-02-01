@@ -1,0 +1,15 @@
+# libpointing.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpointing.rb
+# Converted on 02-01-2019
+
+name='libpointing'
+url=('https://github.com/INRIA/libpointing/releases/download/v1.0.7/libpointing-mac-1.0.7.tar.gz')
+description='Provides direct access to HID pointing devices'
+version='1.0.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/INRIA/libpointing'
+
+###### Install ######
+# ENV.cxx11
+# system "make"
+# system "make", "install", "PREFIX=#{prefix}"

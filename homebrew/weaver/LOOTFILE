@@ -1,0 +1,14 @@
+# weaver.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/weaver.rb
+# Converted on 02-01-2019
+
+name='weaver'
+url=('https://github.com/scribd/Weaver/archive/0.11.1.tar.gz')
+description='Command-line tool for Weaver'
+version='0.11.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/scribd/Weaver'
+depends=(':xcode')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

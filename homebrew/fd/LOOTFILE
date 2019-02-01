@@ -1,0 +1,19 @@
+# fd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fd.rb
+# Converted on 02-01-2019
+
+name='fd'
+url=('https://github.com/sharkdp/fd/archive/v7.2.0.tar.gz')
+description='Simple, fast and user-friendly alternative to find'
+version='7.2.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/sharkdp/fd'
+makedepends=('rust')
+
+###### Install ######
+# ENV["SHELL_COMPLETIONS_DIR"] = buildpath
+# system "cargo", "install", "--root", prefix, "--path", "."
+# man1.install "doc/fd.1"
+# bash_completion.install "fd.bash"
+# fish_completion.install "fd.fish"
+# zsh_completion.install "_fd"

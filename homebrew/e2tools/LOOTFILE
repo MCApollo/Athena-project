@@ -1,0 +1,18 @@
+# e2tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/e2tools.rb
+# Converted on 02-01-2019
+
+name='e2tools'
+url=('http://home.earthlink.net/~k_sheff/sw/e2tools/e2tools-0.0.16.tar.gz')
+description='Utilities to read, write, and manipulate files in ext2/3/4 filesystems'
+version='0.0.16' # Guessed version.
+priority='optional'
+homepage='http://home.earthlink.net/~k_sheff/sw/e2tools/'
+depends=('e2fsprogs')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

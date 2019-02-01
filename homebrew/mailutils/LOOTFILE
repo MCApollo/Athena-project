@@ -1,0 +1,18 @@
+# mailutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mailutils.rb
+# Converted on 02-01-2019
+
+name='mailutils'
+url=('https://ftp.gnu.org/gnu/mailutils/mailutils-3.4.tar.gz')
+description='Swiss Army knife of email handling'
+version='3.4' # Guessed version.
+priority='optional'
+homepage='https://mailutils.org/'
+depends=('gnutls' 'gsasl' 'libtool' 'readline')
+
+###### Install ######
+# system "./configure", "--disable-mh",
+# "--prefix=#{prefix}",
+# "--without-guile",
+# "--without-tokyocabinet"
+# system "make", "PYTHON_LIBS=-undefined dynamic_lookup", "install"

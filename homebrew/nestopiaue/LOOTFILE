@@ -1,0 +1,21 @@
+# nestopia-ue.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nestopia-ue.rb
+# Converted on 02-01-2019
+
+name='nestopiaue'
+url=('https://downloads.sourceforge.net/project/nestopiaue/1.49/nestopia-1.49.tgz')
+description='Nestopia UE (Undead Edition): NES emulator'
+version='1.49' # Guessed version.
+priority='optional'
+homepage='http://0ldsk00l.ca/nestopia/'
+depends=('libao' 'libarchive' 'libepoxy' 'sdl2')
+makedepends=('autoconf' 'autoconf-archive' 'automake' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--datarootdir=#{pkgshare}"
+# system "make", "install"

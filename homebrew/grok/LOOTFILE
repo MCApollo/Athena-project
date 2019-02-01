@@ -1,0 +1,16 @@
+# grok.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/grok.rb
+# Converted on 02-01-2019
+
+name='grok'
+url=('https://github.com/jordansissel/grok/archive/v0.9.2.tar.gz')
+description='Powerful pattern-matching/reacting too'
+version='0.9.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/jordansissel/grok'
+depends=('libevent' 'pcre' 'tokyo-cabinet')
+
+###### Install ######
+# ENV.deparallelize
+# system "make", "grok"
+# system "make", "install", "PREFIX=#{prefix}"

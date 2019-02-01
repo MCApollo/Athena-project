@@ -1,0 +1,35 @@
+# mlton.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mlton.rb
+# Converted on 02-01-2019
+
+name='mlton'
+url=('https://downloads.sourceforge.net/project/mlton/mlton/20180207/mlton-20180207.src.tgz')
+description='Whole-program, optimizing compiler for Standard ML'
+version=' '
+priority='optional'
+homepage='http://mlton.org'
+depends=('gmp')
+
+###### Resource ######
+# bootstrap: https://downloads.sourceforge.net/project/mlton/mlton/20180207/mlton-20180207-1.amd64-darwin.gmp-static.tgz
+
+###### Install ######
+# bootstrap = buildpath/"bootstrap"
+# resource("bootstrap").stage do
+# args = %W[
+# WITH_GMP=#{Formula["gmp"].opt_prefix}
+# PREFIX=#{bootstrap}
+# MAN_PREFIX_EXTRA=/share
+# ]
+# system "make", *(args + ["install"])
+# end
+# ENV.prepend_path "PATH", bootstrap/"bin"
+# ENV.deparallelize
+# args = %W[
+# WITH_GMP=#{Formula["gmp"].opt_prefix}
+# DESTDIR=
+# PREFIX=#{prefix}
+# MAN_PREFIX_EXTRA=/share
+# ]
+# system "make", *(args + ["all"])
+# system "make", *(args + ["install"])

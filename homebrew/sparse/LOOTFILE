@@ -1,0 +1,14 @@
+# sparse.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sparse.rb
+# Converted on 02-01-2019
+
+name='sparse'
+url=('https://www.kernel.org/pub/software/devel/sparse/dist/sparse-0.5.2.tar.xz')
+description='Static C code analysis tool'
+version='0.5.2' # Guessed version.
+priority='optional'
+homepage='https://sparse.wiki.kernel.org/'
+
+###### Install ######
+# inreplace "Makefile", /PREFIX=\$\(HOME\)/, "PREFIX=#{prefix}"
+# system "make", "install"

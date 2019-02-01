@@ -1,0 +1,16 @@
+# kstart.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kstart.rb
+# Converted on 02-01-2019
+
+name='kstart'
+url=('https://archives.eyrie.org/software/kerberos/kstart-4.2.tar.gz')
+description='Modified version of kinit that can use keytabs to authenticate'
+version='4.2' # Guessed version.
+priority='optional'
+homepage='https://www.eyrie.org/~eagle/software/kstart/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

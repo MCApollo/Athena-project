@@ -1,0 +1,18 @@
+# compface.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/compface.rb
+# Converted on 02-01-2019
+
+name='compface'
+url=('https://mirrorservice.org/sites/ftp.xemacs.org/pub/xemacs/aux/compface-1.5.2.tar.gz')
+description='Convert to and from the X-Face format'
+version='1.5.2' # Guessed version.
+priority='optional'
+homepage='https://web.archive.org/web/20170720045032/freecode.com/projects/compface'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

@@ -1,0 +1,23 @@
+# density.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/density.rb
+# Converted on 02-01-2019
+
+name='density'
+url=('https://github.com/centaurean/density/archive/density-0.14.2.tar.gz')
+description='Superfast compression library'
+version='0.14.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/centaurean/density'
+
+###### Resource ######
+# cputime: https://github.com/centaurean/cputime.git
+# spookyhash: https://github.com/centaurean/spookyhash/archive/spookyhash-1.0.6.tar.gz
+
+###### Install ######
+# (buildpath/"benchmark/libs/cputime").install resource("cputime")
+# (buildpath/"benchmark/libs/spookyhash").install resource("spookyhash")
+# system "make"
+# include.install "src/density_api.h"
+# pkgshare.install "build/benchmark"
+# lib.install "build/libdensity.a"
+# lib.install "build/libdensity.dylib"

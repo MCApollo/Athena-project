@@ -1,0 +1,17 @@
+# gflags.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gflags.rb
+# Converted on 02-01-2019
+
+name='gflags'
+url=('https://github.com/gflags/gflags/archive/v2.2.2.tar.gz')
+description='Library for processing command-line flags'
+version='2.2.2' # Guessed version.
+priority='optional'
+homepage='https://gflags.github.io/gflags/'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "buildroot" do
+# system "cmake", "..", *std_cmake_args, "-DBUILD_SHARED_LIBS=ON"
+# system "make", "install"
+# end

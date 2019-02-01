@@ -1,0 +1,16 @@
+# nuttcp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nuttcp.rb
+# Converted on 02-01-2019
+
+name='nuttcp'
+url=('https://www.nuttcp.net/nuttcp/nuttcp-8.1.4.tar.bz2')
+description='Network performance measurement tool'
+version='8.1.4' # Guessed version.
+priority='optional'
+homepage='https://www.nuttcp.net/nuttcp'
+
+###### Install ######
+# system "make", "APP=nuttcp",
+# "CC=#{ENV.cc}", "CFLAGS=#{ENV.cflags}"
+# bin.install "nuttcp"
+# man8.install "nuttcp.cat" => "nuttcp.8"

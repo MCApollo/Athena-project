@@ -1,0 +1,16 @@
+# libpoker-eval.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpoker-eval.rb
+# Converted on 02-01-2019
+
+name='libpokereval'
+url=('https://mirrorservice.org/sites/ftp.debian.org/debian/pool/main/p/poker-eval/poker-eval_138.0.orig.tar.gz')
+description='C library to evaluate poker hands'
+version='138.0' # Guessed version.
+priority='optional'
+homepage='https://pokersource.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-debug",
+# "--disable-dependency-tracking"
+# system "make", "install"

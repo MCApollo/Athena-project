@@ -1,0 +1,13 @@
+# envchain.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/envchain.rb
+# Converted on 02-01-2019
+
+name='envchain'
+url=('https://github.com/sorah/envchain/archive/v1.0.1.tar.gz')
+description='Secure your credentials in environment variables'
+version='1.0.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/sorah/envchain'
+
+###### Install ######
+# system "make", "DESTDIR=#{prefix}", "install"

@@ -1,0 +1,17 @@
+# scmpuff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scmpuff.rb
+# Converted on 02-01-2019
+
+name='scmpuff'
+url=('https://github.com/mroth/scmpuff/archive/v0.2.1.tar.gz')
+description='Adds numbered shortcuts for common git commands'
+version='0.2.1' # Guessed version.
+priority='optional'
+homepage='https://mroth.github.io/scmpuff/'
+makedepends=('go')
+
+###### Install ######
+# mkdir_p buildpath/"src/github.com/mroth"
+# ln_s buildpath, buildpath/"src/github.com/mroth/scmpuff"
+# ENV["GOPATH"] = buildpath
+# system "go", "build", "-o", "#{bin}/scmpuff", "-ldflags", "-X main.VERSION=#{version}", "./src/github.com/mroth/scmpuff"

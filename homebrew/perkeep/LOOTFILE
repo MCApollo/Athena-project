@@ -1,0 +1,21 @@
+# perkeep.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/perkeep.rb
+# Converted on 02-01-2019
+
+name='perkeep'
+url=('https://github.com/perkeep/perkeep.git')
+description='Lets you permanently keep your stuff, for life'
+version=' '
+priority='optional'
+homepage='https://perkeep.org/'
+makedepends=('go' 'pkg-config')
+makedepends=('go' 'pkg-config')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/perkeep.org").install buildpath.children
+# cd "src/perkeep.org" do
+# system "go", "run", "make.go"
+# prefix.install_metafiles
+# end
+# bin.install Dir["bin/*"].select { |f| File.executable? f }

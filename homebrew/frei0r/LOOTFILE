@@ -1,0 +1,16 @@
+# frei0r.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/frei0r.rb
+# Converted on 02-01-2019
+
+name='frei0r'
+url=('https://files.dyne.org/frei0r/releases/frei0r-plugins-1.6.1.tar.gz')
+description='Minimalistic plugin API for video effects'
+version='1.6.1' # Guessed version.
+priority='optional'
+homepage='https://frei0r.dyne.org/'
+makedepends=('autoconf' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

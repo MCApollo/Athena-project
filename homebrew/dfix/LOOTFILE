@@ -1,0 +1,17 @@
+# dfix.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dfix.rb
+# Converted on 02-01-2019
+
+name='dfix'
+url=('https://github.com/dlang-community/dfix.git')
+description='Auto-upgrade tool for D source code'
+version=' '
+priority='optional'
+homepage='https://github.com/dlang-community/dfix'
+makedepends=('dmd')
+
+###### Install ######
+# system "make"
+# system "make", "test"
+# bin.install "bin/dfix"
+# pkgshare.install "test/testfile_expected.d", "test/testfile_master.d"

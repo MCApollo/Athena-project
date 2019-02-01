@@ -1,0 +1,20 @@
+# orbit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/orbit.rb
+# Converted on 02-01-2019
+
+name='orbit'
+url=('https://download.gnome.org/sources/ORBit2/2.14/ORBit2-2.14.19.tar.bz2')
+description='CORBA 2.4-compliant object request broker (ORB)'
+version='2.14.19' # Guessed version.
+priority='optional'
+homepage='https://projects.gnome.org/ORBit2'
+depends=('glib' 'libidl')
+makedepends=('pkg-config')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/6b7eaf2b/orbit/patch-linc2-src-Makefile.in.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/6b7eaf2b/orbit/patch-configure.diff')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,17 @@
+# yaml-cpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yaml-cpp.rb
+# Converted on 02-01-2019
+
+name='yamlcpp'
+url=('https://github.com/jbeder/yaml-cpp/archive/yaml-cpp-0.6.2.tar.gz')
+description='C++ YAML parser and emitter for YAML 1.2 spec'
+version='0.6.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/jbeder/yaml-cpp'
+makedepends=('cmake')
+# Patches
+url+=('https://github.com/jbeder/yaml-cpp/commit/5e79f5eed3d86125468681116e92814d2cf40067.patch?full_index=1')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args, "-DBUILD_SHARED_LIBS=ON"
+# system "make", "install"

@@ -1,0 +1,17 @@
+# libsvg-cairo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsvg-cairo.rb
+# Converted on 02-01-2019
+
+name='libsvgcairo'
+url=('https://cairographics.org/snapshots/libsvg-cairo-0.1.6.tar.gz')
+description='SVG rendering library using Cairo'
+version='0.1.6' # Guessed version.
+priority='optional'
+homepage='https://cairographics.org/'
+depends=('cairo' 'libpng' 'libsvg')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--disable-debug",
+# "--prefix=#{prefix}"
+# system "make", "install"

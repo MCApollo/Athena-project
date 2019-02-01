@@ -1,0 +1,20 @@
+# up.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/up.rb
+# Converted on 02-01-2019
+
+name='up'
+url=('https://github.com/akavel/up/archive/v0.3.2.tar.gz')
+description='Tool for writing command-line pipes with instant live preview'
+version='0.3.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/akavel/up'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = HOMEBREW_CACHE/"go_cache"
+# dir = buildpath/"src/github.com/akavel/up"
+# dir.install buildpath.children
+# cd dir do
+# system "go", "build", "-o", bin/"up", "up.go"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,18 @@
+# rebar3.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rebar3.rb
+# Converted on 02-01-2019
+
+name='rebar3'
+url=('https://github.com/erlang/rebar3/archive/3.8.0.tar.gz')
+description='Erlang build tool'
+version='3.8.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/erlang/rebar3'
+depends=('erlang')
+
+###### Install ######
+# system "./bootstrap"
+# bin.install "rebar3"
+# bash_completion.install "priv/shell-completion/bash/rebar3"
+# zsh_completion.install "priv/shell-completion/zsh/_rebar3"
+# fish_completion.install "priv/shell-completion/fish/rebar3.fish"

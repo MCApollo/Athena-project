@@ -1,0 +1,28 @@
+# distcc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/distcc.rb
+# Converted on 02-01-2019
+
+name='distcc'
+url=('https://github.com/distcc/distcc/releases/download/v3.3.2/distcc-3.3.2.tar.gz')
+description='Distributed compiler client and server'
+version='3.3.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/distcc/distcc/'
+depends=('python')
+makedepends=('autoconf' 'automake')
+
+###### Resource ######
+# libiberty: https://mirrors.ocf.berkeley.edu/debian/pool/main/libi/libiberty/libiberty_20180614.orig.tar.xz
+
+###### Install ######
+# buildpath.install resource("libiberty")
+# cd "libiberty" do
+# system "./configure"
+# system "make"
+# end
+# ENV.append "LDFLAGS", "-L#{buildpath}/libiberty"
+# ENV.append_to_cflags "-I#{buildpath}/include"
+# inreplace "Makefile.in", '--root="$$DESTDIR"', ""
+# system "./autogen.sh"
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

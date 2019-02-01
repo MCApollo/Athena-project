@@ -1,0 +1,17 @@
+# libev.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libev.rb
+# Converted on 02-01-2019
+
+name='libev'
+url=('http://dist.schmorp.de/libev/Attic/libev-4.24.tar.gz')
+description='Asynchronous event library'
+version='4.24' # Guessed version.
+priority='optional'
+homepage='http://software.schmorp.de/pkg/libev.html'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"
+# (include/"event.h").unlink

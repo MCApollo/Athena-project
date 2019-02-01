@@ -1,0 +1,42 @@
+# dc3dd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dc3dd.rb
+# Converted on 02-01-2019
+
+name='dc3dd'
+url=('https://downloads.sourceforge.net/project/dc3dd/dc3dd/7.2.646/dc3dd%207.2.646/dc3dd-7.2.646.zip')
+description='Patched GNU dd that is intended for forensic acquisition of data'
+version='7.2.646' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/dc3dd/'
+depends=('gettext')
+
+###### Resource ######
+# gettext-pm: https://cpan.metacpan.org/authors/id/P/PV/PVANDRY/gettext-1.07.tar.gz
+
+###### Install ######
+# system "unzip dc3dd-#{version}.zip ; true"
+# cd "dc3dd-#{version}" do
+# ENV.prepend_create_path "PERL5LIB", buildpath/"gettext-pm/lib/perl5"
+# resource("gettext-pm").stage do
+# inreplace "Makefile.PL", "$libs = \"-lintl\"",
+# "$libs = \"-L/usr/local/opt/gettext/lib -lintl\""
+# system "perl", "Makefile.PL", "INSTALL_BASE=#{buildpath}/gettext-pm"
+# system "make"
+# system "make", "install"
+# end
+# inreplace "lib/vasnprintf.c",
+# "
+# "
+# chmod 0555, ["build-aux/install-sh", "configure"]
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --infodir=#{info}
+# gl_cv_func_stpncpy=yes
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# prefix.install %w[Options_Reference.txt Sample_Commands.txt]
+# end

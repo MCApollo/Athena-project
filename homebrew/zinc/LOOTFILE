@@ -1,0 +1,15 @@
+# zinc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zinc.rb
+# Converted on 02-01-2019
+
+name='zinc'
+url=('https://downloads.typesafe.com/zinc/0.3.15/zinc-0.3.15.tgz')
+description='Stand-alone version of sbt'\''s Scala incremental compiler'
+version='0.3.15' # Guessed version.
+priority='optional'
+homepage='https://github.com/typesafehub/zinc'
+
+###### Install ######
+# rm_f Dir["bin/ng/{linux,win}*"]
+# libexec.install Dir["*"]
+# bin.install_symlink libexec/"bin/zinc"

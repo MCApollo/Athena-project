@@ -1,0 +1,133 @@
+# sdf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdf.rb
+# Converted on 02-01-2019
+
+name='sdf'
+url=('http://www.meta-environment.org/releases/sdf-2.6.3.tar.gz')
+description='Syntax Definition Formalism: high-level description of grammars'
+version='2.6.3' # Guessed version.
+priority='optional'
+homepage='https://strategoxt.org/Sdf/WebHome'
+depends=('aterm')
+makedepends=('pkg-config')
+
+###### Resource ######
+# c-library: http://www.meta-environment.org/releases/c-library-1.2.tar.gz
+# toolbuslib: http://www.meta-environment.org/releases/toolbuslib-1.1.tar.gz
+# error-support: http://www.meta-environment.org/releases/error-support-1.6.tar.gz
+# pt-support: http://www.meta-environment.org/releases/pt-support-2.4.tar.gz
+# sdf-support: http://www.meta-environment.org/releases/sdf-support-2.5.tar.gz
+# asf-support: http://www.meta-environment.org/releases/asf-support-1.8.tar.gz
+# tide-support: http://www.meta-environment.org/releases/tide-support-1.3.1.tar.gz
+# rstore-support: http://www.meta-environment.org/releases/rstore-support-1.0.tar.gz
+# config-support: http://www.meta-environment.org/releases/config-support-1.4.tar.gz
+# ptable-support: http://www.meta-environment.org/releases/ptable-support-1.2.tar.gz
+# sglr: http://www.meta-environment.org/releases/sglr-4.5.3.tar.gz
+# asc-support: http://www.meta-environment.org/releases/asc-support-2.6.tar.gz
+# pgen: http://www.meta-environment.org/releases/pgen-2.8.1.tar.gz
+# pandora: http://www.meta-environment.org/releases/pandora-1.6.tar.gz
+
+###### Install ######
+# ENV.deparallelize
+# ENV.append "CFLAGS", "-std=gnu89 -fbracket-depth=1024" if ENV.compiler == :clang
+# resource("c-library").stage do
+# system "./configure", "--prefix=#{libexec}/c-library"
+# system "make", "install"
+# end
+# resource("toolbuslib").stage do
+# system "./configure", "--prefix=#{libexec}/toolbuslib"
+# system "make", "install"
+# end
+# resource("error-support").stage do
+# system "./configure", "--prefix=#{libexec}/error-support",
+# "--with-toolbuslib=#{libexec}/toolbuslib"
+# system "make", "install"
+# end
+# resource("pt-support").stage do
+# system "./configure", "--prefix=#{libexec}/pt-support",
+# "--with-toolbuslib=#{libexec}/toolbuslib",
+# "--with-error-support=#{libexec}/error-support"
+# system "make", "install"
+# end
+# resource("sdf-support").stage do
+# system "./configure", "--prefix=#{libexec}/sdf-support",
+# "--with-toolbuslib=#{libexec}/toolbuslib",
+# "--with-error-support=#{libexec}/error-support",
+# "--with-pt-support=#{libexec}/pt-support"
+# system "make", "install"
+# end
+# resource("asf-support").stage do
+# system "./configure", "--prefix=#{libexec}/asf-support",
+# "--with-error-support=#{libexec}/error-support",
+# "--with-pt-support=#{libexec}/pt-support"
+# system "make", "install"
+# end
+# resource("tide-support").stage do
+# system "./configure", "--prefix=#{libexec}/tide-support",
+# "--with-toolbuslib=#{libexec}/toolbuslib"
+# system "make", "install"
+# end
+# resource("rstore-support").stage do
+# system "./configure", "--prefix=#{libexec}/rstore-support",
+# "--with-toolbuslib=#{libexec}/toolbuslib"
+# system "make", "install"
+# end
+# resource("config-support").stage do
+# system "./configure", "--prefix=#{libexec}/config-support"
+# system "make", "install"
+# end
+# resource("ptable-support").stage do
+# system "./configure", "--prefix=#{libexec}/ptable-support",
+# "--with-pt-support=#{libexec}/pt-support"
+# system "make", "install"
+# end
+# resource("sglr").stage do
+# system "./configure", "--prefix=#{libexec}/sglr",
+# "--with-toolbuslib=#{libexec}/toolbuslib",
+# "--with-error-support=#{libexec}/error-support",
+# "--with-pt-support=#{libexec}/pt-support",
+# "--with-ptable-support=#{libexec}/ptable-support",
+# "--with-config-support=#{libexec}/config-support",
+# "--with-c-library=#{libexec}/c-library"
+# system "make", "install"
+# end
+# resource("asc-support").stage do
+# system "./configure", "--prefix=#{libexec}/asc-support",
+# "--with-toolbuslib=#{libexec}/toolbuslib",
+# "--with-error-support=#{libexec}/error-support",
+# "--with-pt-support=#{libexec}/pt-support",
+# "--with-ptable-support=#{libexec}/ptable-support",
+# "--with-config-support=#{libexec}/config-support",
+# "--with-c-library=#{libexec}/c-library",
+# "--with-tide-support=#{libexec}/tide-support",
+# "--with-rstore-support=#{libexec}/rstore-support",
+# "--with-asf-support=#{libexec}/asf-support",
+# "--with-rstore-support=#{libexec}/rstore-support",
+# "--with-sglr=#{libexec}/sglr"
+# system "make", "install"
+# end
+# resource("pgen").stage do
+# system "./configure", "--prefix=#{libexec}/pgen",
+# "--with-toolbuslib=#{libexec}/toolbuslib",
+# "--with-error-support=#{libexec}/error-support",
+# "--with-pt-support=#{libexec}/pt-support",
+# "--with-ptable-support=#{libexec}/ptable-support",
+# "--with-config-support=#{libexec}/config-support",
+# "--with-c-library=#{libexec}/c-library",
+# "--with-sglr=#{libexec}/sglr",
+# "--with-sdf-support=#{libexec}/sdf-support",
+# "--with-asc-support=#{libexec}/asc-support"
+# system "make", "install"
+# end
+# resource("pandora").stage do
+# system "./configure", "--prefix=#{libexec}/pandora",
+# "--with-toolbuslib=#{libexec}/toolbuslib",
+# "--with-pt-support=#{libexec}/pt-support",
+# "--with-asc-support=#{libexec}/asc-support"
+# system "make", "install"
+# end
+# system "./configure", "--prefix=#{prefix}",
+# "--with-sglr=#{libexec}/sglr",
+# "--with-pgen=#{libexec}/pgen",
+# "--with-pandora=#{libexec}/pandora"
+# system "make", "install"

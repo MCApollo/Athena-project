@@ -1,0 +1,15 @@
+# tinyxml2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tinyxml2.rb
+# Converted on 02-01-2019
+
+name='tinyxml2'
+url=('https://github.com/leethomason/tinyxml2/archive/7.0.1.tar.gz')
+description='Improved tinyxml (in memory efficiency and size)'
+version='7.0.1' # Guessed version.
+priority='optional'
+homepage='http://grinninglizard.com/tinyxml2'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

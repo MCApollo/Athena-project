@@ -1,0 +1,14 @@
+# libvterm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libvterm.rb
+# Converted on 02-01-2019
+
+name='libvterm'
+url=('http://www.leonerd.org.uk/code/libvterm/libvterm-0+bzr726.tar.gz')
+description='C99 library which implements a VT220 or xterm terminal emulator'
+version=' '
+priority='optional'
+homepage='http://www.leonerd.org.uk/code/libvterm/'
+makedepends=('libtool')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

@@ -1,0 +1,19 @@
+# calcurse.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/calcurse.rb
+# Converted on 02-01-2019
+
+name='calcurse'
+url=('https://calcurse.org/files/calcurse-4.3.0.tar.gz')
+description='Text-based personal organizer'
+version='4.3.0' # Guessed version.
+priority='optional'
+homepage='https://calcurse.org/'
+depends=('gettext')
+makedepends=('asciidoc' 'autoconf' 'automake')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "XML_CATALOG_FILES=/usr/local/etc/xml/catalog"
+# system "make", "install"

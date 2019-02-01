@@ -1,0 +1,28 @@
+# nzbget.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nzbget.rb
+# Converted on 02-01-2019
+
+name='nzbget'
+url=('https://github.com/nzbget/nzbget/releases/download/v20.0/nzbget-20.0-src.tar.gz')
+description='Binary newsgrabber for nzb files'
+version='20.0' # Guessed version.
+priority='optional'
+homepage='https://nzbget.net/'
+depends=('gcc' 'openssl')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# (buildpath/"brew_include").install_symlink MacOS.sdk_path/"usr/include/ncurses.h"
+# ENV["ncurses_CFLAGS"] = "-I#{buildpath}/brew_include"
+# ENV["ncurses_LIBS"] = "-L/usr/lib -lncurses"
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-tlslib=OpenSSL"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"
+# pkgshare.install_symlink "nzbget.conf" => "webui/nzbget.conf"
+# inreplace "nzbget.conf", "DirectWrite=yes", "DirectWrite=no"
+# inreplace "nzbget.conf", "ArticleCache=0", "ArticleCache=700"
+# etc.install "nzbget.conf"

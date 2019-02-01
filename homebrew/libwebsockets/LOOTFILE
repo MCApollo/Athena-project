@@ -1,0 +1,24 @@
+# libwebsockets.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libwebsockets.rb
+# Converted on 02-01-2019
+
+name='libwebsockets'
+url=('https://github.com/warmcat/libwebsockets/archive/v3.1.0.tar.gz')
+description='C websockets server library'
+version='3.1.0' # Guessed version.
+priority='optional'
+homepage='https://libwebsockets.org'
+depends=('libevent' 'libuv' 'openssl')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args,
+# "-DLWS_IPV6=ON",
+# "-DLWS_WITH_HTTP2=ON",
+# "-DLWS_WITH_LIBEVENT=ON",
+# "-DLWS_WITH_LIBUV=ON",
+# "-DLWS_WITH_PLUGINS=ON",
+# "-DLWS_WITHOUT_TESTAPPS=ON",
+# "-DLWS_UNIX_SOCK=ON"
+# system "make"
+# system "make", "install"

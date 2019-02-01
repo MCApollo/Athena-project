@@ -1,0 +1,16 @@
+# yadm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yadm.rb
+# Converted on 02-01-2019
+
+name='yadm'
+url=('https://github.com/TheLocehiliosan/yadm/archive/1.12.0.tar.gz')
+description='Yet Another Dotfiles Manager'
+version='1.12.0' # Guessed version.
+priority='optional'
+homepage='https://thelocehiliosan.github.io/yadm/'
+
+###### Install ######
+# bin.install "yadm"
+# man1.install "yadm.1"
+# bash_completion.install "completion/yadm.bash_completion"
+# zsh_completion.install  "completion/yadm.zsh_completion" => "_yadm"

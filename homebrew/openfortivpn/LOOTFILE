@@ -1,0 +1,19 @@
+# openfortivpn.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/openfortivpn.rb
+# Converted on 02-01-2019
+
+name='openfortivpn'
+url=('https://github.com/adrienverge/openfortivpn/archive/v1.8.1.tar.gz')
+description='Open Fortinet client for PPP+SSL VPN tunnel services'
+version='1.8.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/adrienverge/openfortivpn'
+depends=('openssl')
+makedepends=('autoconf' 'automake' 'pkg-config')
+
+###### Install ######
+# system "./autogen.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

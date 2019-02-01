@@ -1,0 +1,27 @@
+# pcre++.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pcre++.rb
+# Converted on 02-01-2019
+
+name='pcrexx'
+url=('https://www.daemon.de/idisk/Apps/pcre++/pcre++-0.9.5.tar.gz')
+description='C++ wrapper for the Perl Compatible Regular Expressions'
+version='0.9.5' # Guessed version.
+priority='optional'
+homepage='https://www.daemon.de/PCRE'
+depends=('pcre')
+makedepends=('autoconf' 'automake' 'libtool')
+
+# A diff file was written to pcrexx.diff
+# --> Patch the file before building.
+
+###### Install ######
+# pcre = Formula["pcre"]
+# system "autoreconf", "-fvi"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--with-pcre-lib=#{pcre.opt_lib}",
+# "--with-pcre-include=#{pcre.opt_include}"
+# system "make", "install"
+# mv man3/"Pcre.3", man3/"pcre++.3"

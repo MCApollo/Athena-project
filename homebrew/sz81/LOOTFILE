@@ -1,0 +1,19 @@
+# sz81.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sz81.rb
+# Converted on 02-01-2019
+
+name='sz81'
+url=('https://downloads.sourceforge.net/project/sz81/sz81/2.1.7/sz81-2.1.7-source.tar.gz')
+description='ZX80/81 emulator'
+version='2.1.7' # Guessed version.
+priority='optional'
+homepage='https://sz81.sourceforge.io/'
+depends=('sdl')
+
+###### Install ######
+# args = %W[
+# PREFIX=#{prefix}
+# BINDIR=#{bin}
+# ]
+# system "make", *args
+# system "make", "install", *args

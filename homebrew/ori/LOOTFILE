@@ -1,0 +1,16 @@
+# ori.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ori.rb
+# Converted on 02-01-2019
+
+name='ori'
+url=('https://bitbucket.org/orifs/ori/downloads/ori-0.8.1.tgz')
+description='Secure distributed file system'
+version='0.8.1' # Guessed version.
+priority='optional'
+homepage='http://ori.scs.stanford.edu/'
+depends=('boost@1.60' 'libevent' 'openssl' ':osxfuse')
+makedepends=('pkg-config' 'scons')
+
+###### Install ######
+# system "scons", "BUILDTYPE=RELEASE"
+# system "scons", "install", "PREFIX=#{prefix}"

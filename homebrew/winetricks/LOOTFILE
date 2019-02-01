@@ -1,0 +1,12 @@
+# winetricks.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/winetricks.rb
+# Converted on 02-01-2019
+
+name='winetricks'
+url=('https://github.com/Winetricks/winetricks/archive/20181203.tar.gz')
+description='Download and install various runtime libraries'
+version=' '
+priority='optional'
+homepage='https://github.com/Winetricks/winetricks'
+
+###### Install ######

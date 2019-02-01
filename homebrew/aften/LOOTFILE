@@ -1,0 +1,20 @@
+# aften.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aften.rb
+# Converted on 02-01-2019
+
+name='aften'
+url=('https://downloads.sourceforge.net/aften/aften-0.0.8.tar.bz2')
+description='Audio encoder which generates ATSC A/52 compressed audio streams'
+version='0.0.8' # Guessed version.
+priority='optional'
+homepage='https://aften.sourceforge.io/'
+makedepends=('cmake')
+
+###### Resource ######
+# sample_wav: https://www.mediacollege.com/audio/tone/files/1kHz_44100Hz_16bit_05sec.wav
+
+###### Install ######
+# mkdir "default" do
+# system "cmake", "-DSHARED=ON", "..", *std_cmake_args
+# system "make", "install"
+# end

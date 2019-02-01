@@ -1,0 +1,14 @@
+# whirr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/whirr.rb
+# Converted on 02-01-2019
+
+name='whirr'
+url=('https://archive.apache.org/dist/whirr/whirr-0.8.2/whirr-0.8.2.tar.gz')
+description='Set of libraries for running cloud services'
+version='0.8.2' # Guessed version.
+priority='optional'
+homepage='https://whirr.apache.org/'
+
+###### Install ######
+# libexec.install %w[bin conf lib]
+# bin.write_exec_script libexec/"bin/whirr"

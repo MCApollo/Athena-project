@@ -1,0 +1,25 @@
+# vowpal-wabbit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vowpal-wabbit.rb
+# Converted on 02-01-2019
+
+name='vowpalwabbit'
+url=('https://github.com/JohnLangford/vowpal_wabbit/archive/8.6.1.tar.gz')
+description='Online learning algorithm'
+version='8.6.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/JohnLangford/vowpal_wabbit'
+depends=('boost')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# ENV.cxx11
+# ENV["AC_PATH"] = "#{HOMEBREW_PREFIX}/share"
+# system "./autogen.sh", "--prefix=#{prefix}",
+# "--with-boost=#{Formula["boost"].opt_prefix}"
+# system "make"
+# system "make", "install"
+# bin.install Dir["utl/*"]
+# rm bin/"active_interactor.py"
+# rm bin/"new_version"
+# rm bin/"vw-validate.html"
+# rm bin/"release.ps1"

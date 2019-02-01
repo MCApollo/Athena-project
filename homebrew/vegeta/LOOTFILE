@@ -1,0 +1,21 @@
+# vegeta.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vegeta.rb
+# Converted on 02-01-2019
+
+name='vegeta'
+url=('https://github.com/tsenart/vegeta.git')
+description='HTTP load testing tool and library'
+version=' '
+priority='optional'
+homepage='https://github.com/tsenart/vegeta'
+makedepends=('dep' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# src = buildpath/"src/github.com/tsenart/vegeta"
+# src.install buildpath.children
+# src.cd do
+# system "make", "vegeta"
+# bin.install "vegeta"
+# prefix.install_metafiles
+# end

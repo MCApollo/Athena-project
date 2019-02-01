@@ -1,0 +1,19 @@
+# opendetex.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/opendetex.rb
+# Converted on 02-01-2019
+
+name='opendetex'
+url=('https://github.com/pkubowicz/opendetex/archive/v2.8.4.tar.gz')
+description='Tool to strip TeX or LaTeX commands from documents'
+version='2.8.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/pkubowicz/opendetex'
+
+# A diff file was written to opendetex.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "make"
+# bin.install "detex"
+# bin.install "delatex"
+# man1.install "detex.1l" => "detex.1"

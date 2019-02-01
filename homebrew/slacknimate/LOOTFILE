@@ -1,0 +1,21 @@
+# slacknimate.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/slacknimate.rb
+# Converted on 02-01-2019
+
+name='slacknimate'
+url=('https://github.com/mroth/slacknimate/archive/v1.0.1.tar.gz')
+description='Text animation for Slack messages'
+version='1.0.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/mroth/slacknimate'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# pkgpath = buildpath/"src/github.com/mroth"
+# pkgpath.install Dir["*"]
+# cd pkgpath do
+# system "make"
+# bin.install "bin/slacknimate"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,18 @@
+# bundletool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bundletool.rb
+# Converted on 02-01-2019
+
+name='bundletool'
+url=('https://github.com/google/bundletool/releases/download/0.8.0/bundletool-all-0.8.0.jar')
+description='Command-line tool to manipulate Android App Bundles'
+version='0.8.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/bundletool'
+depends=(':java')
+
+###### Resource ######
+# bundle: https://gist.githubusercontent.com/raw/ca85ede7ac072a44f48c658be55ff0d3/sample.aab
+
+###### Install ######
+# libexec.install "bundletool-all-#{version}.jar"
+# bin.write_jar_script libexec/"bundletool-all-#{version}.jar", "bundletool"

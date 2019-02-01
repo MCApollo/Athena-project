@@ -1,0 +1,15 @@
+# chadwick.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/chadwick.rb
+# Converted on 02-01-2019
+
+name='chadwick'
+url=('https://downloads.sourceforge.net/project/chadwick/chadwick-0.6/chadwick-0.6.5/chadwick-0.6.5.tar.gz')
+description='Tools for parsing Retrosheet MLB play-by-play files'
+version='0.6.5' # Guessed version.
+priority='optional'
+homepage='https://chadwick.sourceforge.io'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-debug", "--disable-dependency-tracking"
+# system "make"
+# system "make", "install"

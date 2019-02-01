@@ -1,0 +1,15 @@
+# blackbox.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/blackbox.rb
+# Converted on 02-01-2019
+
+name='blackbox'
+url=('https://github.com/StackExchange/blackbox/archive/v1.20181219.tar.gz')
+description='Safely store secrets in Git/Mercurial/Subversion'
+version='1.20181219' # Guessed version.
+priority='optional'
+homepage='https://github.com/StackExchange/blackbox'
+depends=('gnupg')
+
+###### Install ######
+# libexec.install Dir["bin/*"]
+# bin.write_exec_script Dir[libexec/"*"].select { |f| File.executable? f }

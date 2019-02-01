@@ -1,0 +1,24 @@
+# gegl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gegl.rb
+# Converted on 02-01-2019
+
+name='gegl'
+url=('https://download.gimp.org/pub/gegl/0.4/gegl-0.4.12.tar.bz2')
+description='Graph based image processing framework'
+version='0.4.12' # Guessed version.
+priority='optional'
+homepage='http://www.gegl.org/'
+depends=('babl' 'gettext' 'glib' 'jpeg' 'json-glib' 'libpng')
+makedepends=('intltool' 'pkg-config')
+makedepends=('intltool' 'pkg-config')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--disable-docs",
+# "--without-cairo",
+# "--without-jasper",
+# "--without-umfpack"
+# system "make", "install"

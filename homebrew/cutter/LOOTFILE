@@ -1,0 +1,21 @@
+# cutter.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cutter.rb
+# Converted on 02-01-2019
+
+name='cutter'
+url=('https://downloads.sourceforge.net/project/cutter/cutter/1.2.6/cutter-1.2.6.tar.gz')
+description='Unit Testing Framework for C and C++'
+version='1.2.6' # Guessed version.
+priority='optional'
+homepage='https://cutter.sourceforge.io/'
+depends=('gettext' 'glib')
+makedepends=('intltool' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-glibtest",
+# "--disable-goffice",
+# "--disable-gstreamer",
+# "--disable-libsoup"
+# system "make"
+# system "make", "install"

@@ -1,0 +1,15 @@
+# msgpuck.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/msgpuck.rb
+# Converted on 02-01-2019
+
+name='msgpuck'
+url=('https://github.com/rtsisyk/msgpuck/archive/2.0.tar.gz')
+description='A simple and efficient MsgPack binary serialization library'
+version='2.0' # Guessed version.
+priority='optional'
+homepage='https://rtsisyk.github.io/msgpuck/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

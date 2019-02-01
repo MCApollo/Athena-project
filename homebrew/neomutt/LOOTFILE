@@ -1,0 +1,25 @@
+# neomutt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/neomutt.rb
+# Converted on 02-01-2019
+
+name='neomutt'
+url=('https://github.com/neomutt/neomutt/archive/neomutt-20180716.tar.gz')
+description='E-mail reader with support for Notmuch, NNTP and much more'
+version=' '
+priority='optional'
+homepage='https://neomutt.org/'
+depends=('gettext' 'gpgme' 'libidn' 'lmdb' 'notmuch' 'openssl' 'tokyo-cabinet')
+makedepends=('docbook-xsl')
+
+###### Install ######
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
+# system "./configure", "--prefix=#{prefix}",
+# "--enable-gpgme",
+# "--gss",
+# "--lmdb",
+# "--notmuch",
+# "--sasl",
+# "--tokyocabinet",
+# "--with-ssl=#{Formula["openssl"].opt_prefix}",
+# "--with-ui=ncurses"
+# system "make", "install"

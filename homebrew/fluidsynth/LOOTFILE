@@ -1,0 +1,25 @@
+# fluid-synth.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fluid-synth.rb
+# Converted on 02-01-2019
+
+name='fluidsynth'
+url=('https://github.com/FluidSynth/fluidsynth/archive/v2.0.3.tar.gz')
+description='Real-time software synthesizer based on the SoundFont 2 specs'
+version='2.0.3' # Guessed version.
+priority='optional'
+homepage='http://www.fluidsynth.org'
+depends=('glib' 'libsndfile' 'portaudio')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# args = std_cmake_args + %w[
+# -Denable-framework=OFF
+# -Denable-portaudio=ON
+# -DLIB_SUFFIX=
+# -Denable-dbus=OFF
+# -Denable-sdl2=OFF
+# ]
+# mkdir "build" do
+# system "cmake", "..", *args
+# system "make", "install"
+# end

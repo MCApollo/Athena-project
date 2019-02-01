@@ -1,0 +1,25 @@
+# geeqie.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/geeqie.rb
+# Converted on 02-01-2019
+
+name='geeqie'
+url=('https://github.com/BestImageViewer/geeqie.git')
+description='Lightweight Gtk+ based image viewer'
+version=' '
+priority='optional'
+homepage='http://www.geeqie.org/'
+depends=('adwaita-icon-theme' 'atk' 'cairo' 'exiv2' 'gdk-pixbuf' 'gettext' 'glib' 'gtk+3' 'imagemagick' 'jpeg' 'libtiff' 'little-cms2' 'pango')
+makedepends=('autoconf' 'automake' 'intltool' 'pkg-config')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/patches/9cacfd49be1db430d7a956132d6521e23fc85f77/geeqie/wexitstatus_fix.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/9226ec07329457300c7af68986661f26f965436b/geeqie/exiv2_fix.diff?full_index=1')
+
+###### Install ######
+# ENV["NOCONFIGURE"] = "yes"
+# system "./autogen.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--disable-glibtest",
+# "--disable-gtktest",
+# "--enable-gtk3"
+# system "make", "install"

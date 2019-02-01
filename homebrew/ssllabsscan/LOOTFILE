@@ -1,0 +1,16 @@
+# ssllabs-scan.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ssllabs-scan.rb
+# Converted on 02-01-2019
+
+name='ssllabsscan'
+url=('https://github.com/ssllabs/ssllabs-scan/archive/v1.4.0.tar.gz')
+description='This tool is a command-line client for the SSL Labs APIs'
+version='1.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/ssllabs/ssllabs-scan/'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# system "make", "build"
+# bin.install "ssllabs-scan"

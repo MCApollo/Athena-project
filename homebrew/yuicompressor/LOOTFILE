@@ -1,0 +1,14 @@
+# yuicompressor.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yuicompressor.rb
+# Converted on 02-01-2019
+
+name='yuicompressor'
+url=('https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.zip')
+description='Yahoo! JavaScript and CSS compressor'
+version='2.4.8' # Guessed version.
+priority='optional'
+homepage='https://yui.github.io/yuicompressor/'
+
+###### Install ######
+# libexec.install "yuicompressor-#{version}.jar"
+# bin.write_jar_script libexec/"yuicompressor-#{version}.jar", "yuicompressor"

@@ -1,0 +1,16 @@
+# xapian.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xapian.rb
+# Converted on 02-01-2019
+
+name='xapian'
+url=('https://oligarchy.co.uk/xapian/1.4.7/xapian-core-1.4.7.tar.xz')
+description='C++ search engine library'
+version='1.4.7' # Guessed version.
+priority='optional'
+homepage='https://xapian.org/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

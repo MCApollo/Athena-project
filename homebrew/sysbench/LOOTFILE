@@ -1,0 +1,18 @@
+# sysbench.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sysbench.rb
+# Converted on 02-01-2019
+
+name='sysbench'
+url=('https://github.com/akopytov/sysbench/archive/1.0.16.tar.gz')
+description='System performance benchmark tool'
+version='1.0.16' # Guessed version.
+priority='optional'
+homepage='https://github.com/akopytov/sysbench'
+depends=('mysql-client' 'openssl')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# system "./autogen.sh"
+# ENV["MACOSX_DEPLOYMENT_TARGET"] = MacOS.version
+# system "./configure", "--prefix=#{prefix}", "--with-mysql"
+# system "make", "install"

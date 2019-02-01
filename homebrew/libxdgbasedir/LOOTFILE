@@ -1,0 +1,16 @@
+# libxdg-basedir.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxdg-basedir.rb
+# Converted on 02-01-2019
+
+name='libxdgbasedir'
+url=('https://github.com/devnev/libxdg-basedir/archive/libxdg-basedir-1.2.0.tar.gz')
+description='C implementation of the XDG Base Directory specifications'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/devnev/libxdg-basedir'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "./autogen.sh", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,21 @@
+# wmctrl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wmctrl.rb
+# Converted on 02-01-2019
+
+name='wmctrl'
+url=('https://sites.google.com/site/tstyblo/wmctrl/wmctrl-1.07.tar.gz')
+description='UNIX/Linux command-line tool to interact with an EWMH/NetWM'
+version='1.07' # Guessed version.
+priority='optional'
+homepage='https://sites.google.com/site/tstyblo/wmctrl'
+depends=('gettext' 'glib' ':x11')
+makedepends=('pkg-config')
+
+# A diff file was written to wmctrl.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

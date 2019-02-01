@@ -1,0 +1,18 @@
+# jing-trang.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jing-trang.rb
+# Converted on 02-01-2019
+
+name='jingtrang'
+url=('https://github.com/relaxng/jing-trang/archive/V20151127.tar.gz')
+description='Schema validation and conversion based on RELAX NG'
+version=' '
+priority='optional'
+homepage='http://www.thaiopensource.com/relaxng/'
+depends=(':java')
+makedepends=('ant')
+
+###### Install ######
+# system "./ant", "jar"
+# libexec.install Dir["*"]
+# bin.write_jar_script libexec/"build/jing.jar", "jing"
+# bin.write_jar_script libexec/"build/trang.jar", "trang"

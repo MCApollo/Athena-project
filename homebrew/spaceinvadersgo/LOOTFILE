@@ -1,0 +1,22 @@
+# spaceinvaders-go.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/spaceinvaders-go.rb
+# Converted on 02-01-2019
+
+name='spaceinvadersgo'
+url=('https://github.com/asib/spaceinvaders/archive/v1.2.tar.gz')
+description='Space Invaders in your terminal written in Go'
+version='1.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/asib/spaceinvaders'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# sipath = buildpath/"src/github.com/asib/spaceinvaders"
+# sipath.install Dir["{*,.git}"]
+# Language::Go.stage_deps resources, buildpath/"src"
+# cd "src/github.com/asib/spaceinvaders/" do
+# system "go", "build"
+# bin.install "spaceinvaders"
+# prefix.install_metafiles
+# end

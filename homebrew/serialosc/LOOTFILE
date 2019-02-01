@@ -1,0 +1,16 @@
+# serialosc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/serialosc.rb
+# Converted on 02-01-2019
+
+name='serialosc'
+url=('https://github.com/monome/serialosc.git')
+description='Opensound control server for monome devices'
+version=' '
+priority='optional'
+homepage='https://monome.org/docs/osc/'
+depends=('confuse' 'liblo' 'libmonome')
+
+###### Install ######
+# system "./waf", "configure", "--prefix=#{prefix}"
+# system "./waf", "build"
+# system "./waf", "install"

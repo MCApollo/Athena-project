@@ -1,0 +1,20 @@
+# potrace.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/potrace.rb
+# Converted on 02-01-2019
+
+name='potrace'
+url=('https://potrace.sourceforge.io/download/1.15/potrace-1.15.tar.gz')
+description='Convert bitmaps to vector graphics'
+version='1.15' # Guessed version.
+priority='optional'
+homepage='https://potrace.sourceforge.io/'
+
+###### Resource ######
+# head.pbm: https://potrace.sourceforge.io/img/head.pbm
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--with-libpotrace"
+# system "make", "install"

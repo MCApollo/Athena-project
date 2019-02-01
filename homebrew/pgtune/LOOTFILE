@@ -1,0 +1,12 @@
+# pgtune.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pgtune.rb
+# Converted on 02-01-2019
+
+name='pgtune'
+url=('https://ftp.postgresql.org/pub/projects/pgFoundry/pgtune/pgtune/0.9.3/pgtune-0.9.3.tar.gz')
+description='Tuning wizard for postgresql.conf'
+version='0.9.3' # Guessed version.
+priority='optional'
+homepage='http://pgfoundry.org/projects/pgtune'
+
+###### Install ######

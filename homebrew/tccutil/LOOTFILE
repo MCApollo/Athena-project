@@ -1,0 +1,12 @@
+# tccutil.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tccutil.rb
+# Converted on 02-01-2019
+
+name='tccutil'
+url=('https://github.com/jacobsalmela/tccutil/archive/v1.2.3.tar.gz')
+description='Utility to modify the macOS Accessibility Database (TCC.db)'
+version='1.2.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/jacobsalmela/tccutil'
+
+###### Install ######

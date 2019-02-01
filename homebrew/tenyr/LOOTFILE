@@ -1,0 +1,21 @@
+# tenyr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tenyr.rb
+# Converted on 02-01-2019
+
+name='tenyr'
+url=('https://github.com/kulp/tenyr/archive/v0.9.6.tar.gz')
+description='32-bit computing environment (including simulated CPU)'
+version='0.9.6' # Guessed version.
+priority='optional'
+homepage='http://tenyr.info/'
+depends=('sdl2_image')
+makedepends=('bison' 'pkg-config')
+
+###### Install ######
+# system "make", "BISON=#{Formula["bison"].opt_bin}/bison",
+# "JIT=0", "BUILDDIR=build/homebrew"
+# pkgshare.install "rsrc", "plugins"
+# cd "build/homebrew" do
+# bin.install "tsim", "tas", "tld"
+# lib.install Dir["*.dylib"]
+# end

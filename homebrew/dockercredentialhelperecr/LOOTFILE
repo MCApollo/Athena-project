@@ -1,0 +1,21 @@
+# docker-credential-helper-ecr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-credential-helper-ecr.rb
+# Converted on 02-01-2019
+
+name='dockercredentialhelperecr'
+url=('https://github.com/awslabs/amazon-ecr-credential-helper.git')
+description='Docker Credential Helper for Amazon ECR'
+version=' '
+priority='optional'
+homepage='https://github.com/awslabs/amazon-ecr-credential-helper'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# dir = buildpath/"src/github.com/awslabs/amazon-ecr-credential-helper"
+# dir.install buildpath.children - [buildpath/".brew_home"]
+# cd dir do
+# system "make", "build"
+# bin.install "bin/local/docker-credential-ecr-login"
+# prefix.install_metafiles
+# end

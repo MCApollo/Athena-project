@@ -1,0 +1,15 @@
+# rmcast.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rmcast.rb
+# Converted on 02-01-2019
+
+name='rmcast'
+url=('http://www.land.ufrj.br/tools/rmcast/download/rmcast-2.0.0.tar.gz')
+description='IP Multicast library'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='http://www.land.ufrj.br/tools/rmcast/rmcast.html'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

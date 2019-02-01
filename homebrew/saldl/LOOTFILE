@@ -1,0 +1,21 @@
+# saldl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/saldl.rb
+# Converted on 02-01-2019
+
+name='saldl'
+url=('https://github.com/saldl/saldl/archive/v40.tar.gz')
+description='CLI downloader optimized for speed and early preview'
+version=' '
+priority='optional'
+homepage='https://saldl.github.io/'
+depends=('curl' 'libevent')
+makedepends=('asciidoc' 'docbook-xsl' 'pkg-config')
+
+###### Install ######
+# ENV.refurbish_args
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
+# args = ["--prefix=#{prefix}"]
+# args << "--saldl-version=v#{version}" unless build.head?
+# system "./waf", "configure", *args
+# system "./waf", "build"
+# system "./waf", "install"

@@ -1,0 +1,19 @@
+# mkclean.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mkclean.rb
+# Converted on 02-01-2019
+
+name='mkclean'
+url=('https://downloads.sourceforge.net/project/matroska/mkclean/mkclean-0.8.10.tar.bz2')
+description='Optimizes Matroska and WebM files'
+version='0.8.10' # Guessed version.
+priority='optional'
+homepage='https://www.matroska.org/downloads/mkclean.html'
+
+# A diff file was written to mkclean.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./mkclean/configure"
+# system "make", "mkclean"
+# bindir = `corec/tools/coremake/system_output.sh`.chomp
+# bin.install Dir["release/#{bindir}/mk*"]

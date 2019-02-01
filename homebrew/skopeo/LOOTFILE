@@ -1,0 +1,21 @@
+# skopeo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/skopeo.rb
+# Converted on 02-01-2019
+
+name='skopeo'
+url=('https://github.com/containers/skopeo/archive/v0.1.34.tar.gz')
+description='Work with remote images registries'
+version='0.1.34' # Guessed version.
+priority='optional'
+homepage='https://github.com/containers/skopeo'
+depends=('gpgme')
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/containers/skopeo").install buildpath.children
+# cd "src/github.com/containers/skopeo" do
+# system "make", "binary-local"
+# bin.install "skopeo"
+# prefix.install_metafiles
+# end

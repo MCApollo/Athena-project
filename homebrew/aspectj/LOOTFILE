@@ -1,0 +1,18 @@
+# aspectj.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aspectj.rb
+# Converted on 02-01-2019
+
+name='aspectj'
+url=('https://www.eclipse.org/downloads/download.php?r=1&file=/tools/aspectj/aspectj-1.9.2.jar')
+description='Aspect-oriented programming for Java'
+version='1.9.2' # Guessed version.
+priority='optional'
+homepage='https://eclipse.org/aspectj/'
+depends=(':java')
+
+###### Install ######
+# mkdir_p "#{libexec}/#{name}"
+# system "java", "-jar", "aspectj-#{version}.jar", "-to", "#{libexec}/#{name}"
+# bin.install Dir["#{libexec}/#{name}/bin/*"]
+# bin.env_script_all_files(libexec/"#{name}/bin", Language::Java.java_home_env("1.8"))
+# chmod 0555, Dir["

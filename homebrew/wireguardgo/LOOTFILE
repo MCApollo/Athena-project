@@ -1,0 +1,15 @@
+# wireguard-go.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wireguard-go.rb
+# Converted on 02-01-2019
+
+name='wireguardgo'
+url=('https://git.zx2c4.com/wireguard-go/snapshot/wireguard-go-0.0.20181222.tar.xz')
+description='Userspace Go implementation of WireGuard'
+version='0.0.20181222' # Guessed version.
+priority='optional'
+homepage='https://www.wireguard.com/'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = HOMEBREW_CACHE/"go_cache"
+# system "make", "PREFIX=#{prefix}", "install"

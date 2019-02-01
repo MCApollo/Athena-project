@@ -1,0 +1,13 @@
+# g2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/g2.rb
+# Converted on 02-01-2019
+
+name='g2'
+url=('https://github.com/orefalo/g2/archive/v1.1.tar.gz')
+description='Friendly git client'
+version='1.1' # Guessed version.
+priority='optional'
+homepage='https://orefalo.github.io/g2/'
+
+###### Install ######
+# system "make", "prefix=#{prefix}", "install"

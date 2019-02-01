@@ -1,0 +1,19 @@
+# libstrophe.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libstrophe.rb
+# Converted on 02-01-2019
+
+name='libstrophe'
+url=('https://github.com/strophe/libstrophe/archive/0.9.2.tar.gz')
+description='XMPP library for C'
+version='0.9.2' # Guessed version.
+priority='optional'
+homepage='http://strophe.im/libstrophe/'
+depends=('check' 'openssl')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# system "./bootstrap.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

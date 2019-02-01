@@ -1,0 +1,22 @@
+# hwloc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hwloc.rb
+# Converted on 02-01-2019
+
+name='hwloc'
+url=('https://www.open-mpi.org/software/hwloc/v2.0/downloads/hwloc-2.0.3.tar.bz2')
+description='Portable abstraction of the hierarchical topology of modern architectures'
+version='2.0.3' # Guessed version.
+priority='optional'
+homepage='https://www.open-mpi.org/projects/hwloc/'
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--enable-shared",
+# "--enable-static",
+# "--prefix=#{prefix}",
+# "--without-x"
+# system "make", "install"
+# pkgshare.install "tests"

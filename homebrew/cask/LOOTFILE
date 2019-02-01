@@ -1,0 +1,12 @@
+# cask.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cask.rb
+# Converted on 02-01-2019
+
+name='cask'
+url=('https://github.com/cask/cask/archive/v0.8.4.tar.gz')
+description='Emacs dependency management'
+version='0.8.4' # Guessed version.
+priority='optional'
+homepage='https://cask.readthedocs.org/'
+
+###### Install ######

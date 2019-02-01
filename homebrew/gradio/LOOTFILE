@@ -1,0 +1,22 @@
+# gradio.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gradio.rb
+# Converted on 02-01-2019
+
+name='gradio'
+url=('https://github.com/haecker-felix/Gradio/archive/v7.2.tar.gz')
+description='GTK3 app for finding and listening to internet radio stations'
+version='7.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/haecker-felix/Gradio'
+depends=('adwaita-icon-theme' 'cairo' 'gettext' 'glib' 'gst-libav' 'gst-plugins-base' 'gstreamer' 'gtk+3' 'hicolor-icon-theme' 'json-glib' 'libsoup' 'python')
+makedepends=('meson' 'ninja')
+
+###### Install ######
+# ENV["DESTDIR"] = "/"
+# mkdir "build" do
+# system "meson", "--prefix=#{prefix}", ".."
+# system "ninja"
+# system "ninja", "install"
+# end
+# system "#{Formula["gtk+3"].opt_bin}/gtk3-update-icon-cache", "-f", "-t", "#{HOMEBREW_PREFIX}/share/icons/hicolor"
+# system "#{Formula["glib"].opt_bin}/glib-compile-schemas", "#{HOMEBREW_PREFIX}/share/glib-2.0/schemas"

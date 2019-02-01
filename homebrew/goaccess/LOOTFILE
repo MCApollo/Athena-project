@@ -1,0 +1,25 @@
+# goaccess.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/goaccess.rb
+# Converted on 02-01-2019
+
+name='goaccess'
+url=('https://tar.goaccess.io/goaccess-1.2.tar.gz')
+description='Log analyzer and interactive viewer for the Apache Webserver'
+version='1.2' # Guessed version.
+priority='optional'
+homepage='https://goaccess.io/'
+depends=('libmaxminddb' 'tokyo-cabinet')
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# system "autoreconf", "-vfi"
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --enable-utf8
+# --enable-tcb=btree
+# --enable-geoip=mmdb
+# ]
+# system "./configure", *args
+# system "make", "install"

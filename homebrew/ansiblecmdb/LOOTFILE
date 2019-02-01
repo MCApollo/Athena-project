@@ -1,0 +1,17 @@
+# ansible-cmdb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ansible-cmdb.rb
+# Converted on 02-01-2019
+
+name='ansiblecmdb'
+url=('https://github.com/fboender/ansible-cmdb/releases/download/1.30/ansible-cmdb-1.30.tar.gz')
+description='Generates static HTML overview page from Ansible facts'
+version='1.30' # Guessed version.
+priority='optional'
+homepage='https://github.com/fboender/ansible-cmdb'
+depends=('libyaml')
+
+###### Install ######
+# prefix.install_metafiles
+# man1.install "ansible-cmdb.man.1" => "ansible-cmdb.1"
+# libexec.install Dir["*"] - ["Makefile"]
+# bin.write_exec_script libexec/"ansible-cmdb"

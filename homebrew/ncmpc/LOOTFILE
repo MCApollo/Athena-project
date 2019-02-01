@@ -1,0 +1,27 @@
+# ncmpc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ncmpc.rb
+# Converted on 02-01-2019
+
+name='ncmpc'
+url=('https://www.musicpd.org/download/ncmpc/0/ncmpc-0.30.tar.xz')
+description='Curses Music Player Daemon (MPD) client'
+version='0.30' # Guessed version.
+priority='optional'
+homepage='https://www.musicpd.org/clients/ncmpc/'
+depends=('gcc' 'gettext' 'glib' 'libmpdclient')
+makedepends=('meson' 'ninja' 'pkg-config')
+
+###### Install ######
+# sdk = MacOS.sdk_path_if_needed ? MacOS.sdk_path : ""
+# (buildpath/"ncurses.pc").write <<~EOS
+# Name: ncurses
+# Description: ncurses
+# Version: 5.4
+# Libs: -L/usr/lib -lncurses
+# Cflags: -I#{sdk}/usr/include
+# EOS
+# ENV.prepend_path "PKG_CONFIG_PATH", buildpath
+# mkdir "build" do
+# system "meson", "--prefix=#{prefix}", ".."
+# system "ninja", "install"
+# end

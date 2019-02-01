@@ -1,0 +1,20 @@
+# kube-aws.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kube-aws.rb
+# Converted on 02-01-2019
+
+name='kubeaws'
+url=('https://github.com/kubernetes-incubator/kube-aws.git')
+description='CoreOS Kubernetes on AWS'
+version=' '
+priority='optional'
+homepage='https://coreos.com/kubernetes/docs/latest/kubernetes-on-aws.html'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# dir = buildpath/"src/github.com/kubernetes-incubator/kube-aws"
+# dir.install buildpath.children - [buildpath/".brew_home"]
+# cd dir do
+# system "make", "OUTPUT_PATH=#{bin}/kube-aws"
+# prefix.install_metafiles
+# end

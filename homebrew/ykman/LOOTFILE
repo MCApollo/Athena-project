@@ -1,0 +1,29 @@
+# ykman.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ykman.rb
+# Converted on 02-01-2019
+
+name='ykman'
+url=('https://developers.yubico.com/yubikey-manager/Releases/yubikey-manager-2.0.0.tar.gz')
+description='Tool for managing your YubiKey configuration'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='https://developers.yubico.com/yubikey-manager/'
+depends=('libusb' 'openssl' 'python' 'ykpers')
+makedepends=('swig')
+
+###### Resource ######
+# asn1crypto: https://files.pythonhosted.org/packages/fc/f1/8db7daa71f414ddabfa056c4ef792e1461ff655c2ae2928a2b675bfed6b4/asn1crypto-0.24.0.tar.gz
+# cffi: https://files.pythonhosted.org/packages/e7/a7/4cd50e57cc6f436f1cc3a7e8fa700ff9b8b4d471620629074913e3735fb2/cffi-1.11.5.tar.gz
+# click: https://files.pythonhosted.org/packages/f8/5c/f60e9d8a1e77005f664b76ff8aeaee5bc05d0a91798afd7f53fc998dbc47/Click-7.0.tar.gz
+# cryptography: https://files.pythonhosted.org/packages/69/ed/5e97b7f54237a9e4e6291b6e52173372b7fa45ca730d36ea90b790c0059a/cryptography-2.5.tar.gz
+# fido2: https://files.pythonhosted.org/packages/ed/43/b1e7d8220aaa74e173b0bdff61fce4fc0e0d8ef88dd56fd8a512a6504183/fido2-0.5.0.tar.gz
+# idna: https://files.pythonhosted.org/packages/ad/13/eb56951b6f7950cadb579ca166e448ba77f9d24efc03edd7e55fa57d04b7/idna-2.8.tar.gz
+# ipaddress: https://files.pythonhosted.org/packages/97/8d/77b8cedcfbf93676148518036c6b1ce7f8e14bf07e95d7fd4ddcb8cc052f/ipaddress-1.0.22.tar.gz
+# pycparser: https://files.pythonhosted.org/packages/68/9e/49196946aee219aead1290e00d1e7fdeab8567783e83e1b9ab5585e6206a/pycparser-2.19.tar.gz
+# pyOpenSSL: https://files.pythonhosted.org/packages/40/d0/8efd61531f338a89b4efa48fcf1972d870d2b67a7aea9dcf70783c8464dc/pyOpenSSL-19.0.0.tar.gz
+# pyscard: https://files.pythonhosted.org/packages/17/f3/e6e52e3dab39b26450d9fb6385c4a40f883180d6f1ee26ad4567dd243edc/pyscard-1.9.7.tar.gz
+# pyusb: https://files.pythonhosted.org/packages/5f/34/2095e821c01225377dda4ebdbd53d8316d6abb243c9bee43d3888fa91dd6/pyusb-1.0.2.tar.gz
+# six: https://files.pythonhosted.org/packages/dd/bf/4138e7bfb757de47d1f4b6994648ec67a51efe58fa907c1e11e350cddfca/six-1.12.0.tar.gz
+
+###### Install ######
+# virtualenv_install_with_resources

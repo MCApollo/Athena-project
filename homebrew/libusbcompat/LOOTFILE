@@ -1,0 +1,16 @@
+# libusb-compat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libusb-compat.rb
+# Converted on 02-01-2019
+
+name='libusbcompat'
+url=('https://downloads.sourceforge.net/project/libusb/libusb-compat-0.1/libusb-compat-0.1.5/libusb-compat-0.1.5.tar.bz2')
+description='Library for USB device access'
+version='0.1.5' # Guessed version.
+priority='optional'
+homepage='https://libusb.info/'
+depends=('libusb')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking"
+# system "make", "install"

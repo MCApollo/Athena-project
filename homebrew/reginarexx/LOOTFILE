@@ -1,0 +1,16 @@
+# regina-rexx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/regina-rexx.rb
+# Converted on 02-01-2019
+
+name='reginarexx'
+url=('https://downloads.sourceforge.net/project/regina-rexx/regina-rexx/3.9.1/Regina-REXX-3.9.1.tar.gz')
+description='Regina REXX interpreter'
+version='3.9.1' # Guessed version.
+priority='optional'
+homepage='https://regina-rexx.sourceforge.io/'
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--disable-debug",
+# "--prefix=#{prefix}"
+# system "make", "install"

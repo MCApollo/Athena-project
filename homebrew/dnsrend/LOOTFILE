@@ -1,0 +1,29 @@
+# dnsrend.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dnsrend.rb
+# Converted on 02-01-2019
+
+name='dnsrend'
+url=('http://romana.now.ie/software/dnsrend-0.08.tar.gz')
+description='DNS message dissector'
+version='0.08' # Guessed version.
+priority='optional'
+homepage='http://romana.now.ie/dnsrend'
+
+###### Resource ######
+# Net::Pcap: https://cpan.metacpan.org/authors/id/S/SA/SAPER/Net-Pcap-0.17.tar.gz
+# Net::Pcap::Reassemble: https://cpan.metacpan.org/authors/id/J/JR/JRAFTERY/Net-Pcap-Reassemble-0.04.tar.gz
+
+###### Install ######
+# resources.each do |r|
+# r.stage do
+# system "perl", "Makefile.PL", "INSTALL_BASE=#{libexec}"
+# system "make"
+# system "make", "install"
+# end
+# end
+# libexec.install "dnsrend"
+# doc.install "README"
+# (bin/"dnsrend").write <<~EOS
+# #!/bin/sh
+# /usr/bin/env perl -Tw -I "#{libexec}/lib/perl5" #{libexec}/dnsrend "$@"
+# EOS

@@ -1,0 +1,18 @@
+# residualvm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/residualvm.rb
+# Converted on 02-01-2019
+
+name='residualvm'
+url=('https://downloads.sourceforge.net/project/residualvm/residualvm/0.2.1/residualvm-0.2.1-sources.tar.bz2')
+description='3D graphic adventure game interpreter'
+version='0.2.1' # Guessed version.
+priority='optional'
+homepage='http://residualvm.org'
+depends=('faad2' 'flac' 'fluid-synth' 'freetype' 'jpeg' 'libpng' 'libvorbis' 'mad' 'sdl' 'theora')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--enable-release"
+# system "make"
+# system "make", "install"
+# (share+"icons").rmtree
+# (share+"pixmaps").rmtree

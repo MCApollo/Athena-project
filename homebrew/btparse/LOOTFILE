@@ -1,0 +1,17 @@
+# btparse.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/btparse.rb
+# Converted on 02-01-2019
+
+name='btparse'
+url=('https://www.gerg.ca/software/btOOL/btparse-0.34.tar.gz')
+description='BibTeX utility libraries'
+version='0.34' # Guessed version.
+priority='optional'
+homepage='https://www.gerg.ca/software/btOOL/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

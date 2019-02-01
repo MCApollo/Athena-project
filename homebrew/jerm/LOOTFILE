@@ -1,0 +1,15 @@
+# jerm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jerm.rb
+# Converted on 02-01-2019
+
+name='jerm'
+url=('https://web.archive.org/web/20160719014241/bsddiary.net/jerm/jerm-8096.tar.gz')
+description='Communication terminal through serial and TCP/IP interfaces'
+version=' '
+priority='optional'
+homepage='https://web.archive.org/web/20160719014241/bsddiary.net/jerm/'
+
+###### Install ######
+# system "make", "all"
+# bin.install %w[jerm tiocdtr]
+# man1.install Dir["*.1"]

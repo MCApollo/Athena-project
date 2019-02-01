@@ -1,0 +1,21 @@
+# libming.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libming.rb
+# Converted on 02-01-2019
+
+name='libming'
+url=('https://github.com/libming/libming/archive/ming-0_4_8.tar.gz')
+description='C library for generating Macromedia Flash files'
+version=' '
+priority='optional'
+homepage='http://www.libming.org'
+depends=('freetype' 'giflib' 'libpng')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--enable-perl",
+# "--enable-python"
+# system "make", "DEBUG=", "install"

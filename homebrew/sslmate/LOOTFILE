@@ -1,0 +1,29 @@
+# sslmate.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sslmate.rb
+# Converted on 02-01-2019
+
+name='sslmate'
+url=('https://packages.sslmate.com/other/sslmate-1.7.0.tar.gz')
+description='Buy SSL certs from the command-line'
+version='1.7.0' # Guessed version.
+priority='optional'
+homepage='https://sslmate.com'
+depends=('python')
+
+###### Resource ######
+# boto: https://files.pythonhosted.org/packages/c8/af/54a920ff4255664f5d238b5aebd8eedf7a07c7a5e71e27afcfe840b82f51/boto-2.49.0.tar.gz
+
+###### Install ######
+# ENV.prepend_create_path "PERL5LIB", libexec/"vendor/lib/perl5"
+# xy = Language::Python.major_minor_version "python3"
+# ENV.prepend_create_path "PYTHONPATH", libexec/"vendor/lib/python#{xy}/site-packages"
+# resource("boto").stage do
+# system "python3", *Language::Python.setup_install_args(libexec/"vendor")
+# end
+# system "make", "PREFIX=#{prefix}"
+# system "make", "install", "PREFIX=#{prefix}"
+# env = { :PERL5LIB => ENV["PERL5LIB"] }
+# env[:PYTHONPATH] = ENV["PYTHONPATH"]
+# bin.env_script_all_files(libexec/"bin", env)
+# inreplace libexec/"bin/sslmate",
+# "#!/usr/bin/env perl", "#!/usr/bin/perl"

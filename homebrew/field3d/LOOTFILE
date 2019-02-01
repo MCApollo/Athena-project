@@ -1,0 +1,19 @@
+# field3d.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/field3d.rb
+# Converted on 02-01-2019
+
+name='field3d'
+url=('https://github.com/imageworks/Field3D/archive/v1.7.2.tar.gz')
+description='Library for storing voxel data on disk and in memory'
+version='1.7.2' # Guessed version.
+priority='optional'
+homepage='https://sites.google.com/site/field3d/'
+depends=('boost' 'hdf5' 'ilmbase')
+makedepends=('scons')
+
+###### Install ######
+# scons
+# include.install Dir["install/**/**/release/include/*"]
+# lib.install Dir["install/**/**/release/lib/*"]
+# man1.install "man/f3dinfo.1"
+# pkgshare.install "contrib", "test", "apps/sample_code"

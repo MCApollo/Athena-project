@@ -1,0 +1,23 @@
+# carina.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/carina.rb
+# Converted on 02-01-2019
+
+name='carina'
+url=('https://github.com/getcarina/carina.git')
+description='Command-line client for Carina'
+version=' '
+priority='optional'
+homepage='https://github.com/getcarina/carina'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV.prepend_create_path "PATH", buildpath/"bin"
+# carinapath = buildpath/"src/github.com/getcarina/carina"
+# carinapath.install Dir["{*,.git}"]
+# cd carinapath do
+# system "make", "get-deps"
+# system "make", "local", "VERSION=#{version}"
+# bin.install "carina"
+# prefix.install_metafiles
+# end

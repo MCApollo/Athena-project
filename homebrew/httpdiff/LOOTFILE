@@ -1,0 +1,14 @@
+# httpdiff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/httpdiff.rb
+# Converted on 02-01-2019
+
+name='httpdiff'
+url=('https://github.com/jgrahamc/httpdiff/archive/v1.0.0.tar.gz')
+description='Compare two HTTP(S) responses'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/jgrahamc/httpdiff'
+makedepends=('go')
+
+###### Install ######
+# system "go", "build", "-o", bin/"httpdiff"

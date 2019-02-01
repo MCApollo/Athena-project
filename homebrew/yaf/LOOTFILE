@@ -1,0 +1,18 @@
+# yaf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yaf.rb
+# Converted on 02-01-2019
+
+name='yaf'
+url=('https://tools.netsa.cert.org/releases/yaf-2.10.0.tar.gz')
+description='Yet another flowmeter: processes packet data from pcap(3)'
+version='2.10.0' # Guessed version.
+priority='optional'
+homepage='https://tools.netsa.cert.org/yaf/'
+depends=('glib' 'libfixbuf')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

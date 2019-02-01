@@ -1,0 +1,15 @@
+# dcd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dcd.rb
+# Converted on 02-01-2019
+
+name='dcd'
+url=('https://github.com/dlang-community/DCD.git')
+description='Auto-complete program for the D programming language'
+version=' '
+priority='optional'
+homepage='https://github.com/dlang-community/DCD'
+makedepends=('dmd')
+
+###### Install ######
+# system "make"
+# bin.install "bin/dcd-client", "bin/dcd-server"

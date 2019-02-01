@@ -1,0 +1,17 @@
+# uchardet.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/uchardet.rb
+# Converted on 02-01-2019
+
+name='uchardet'
+url=('https://www.freedesktop.org/software/uchardet/releases/uchardet-0.0.6.tar.xz')
+description='Encoding detector library'
+version='0.0.6' # Guessed version.
+priority='optional'
+homepage='https://www.freedesktop.org/wiki/Software/uchardet/'
+makedepends=('cmake')
+
+###### Install ######
+# args = std_cmake_args
+# args << "-DCMAKE_INSTALL_NAME_DIR=#{lib}"
+# system "cmake", ".", *args
+# system "make", "install"

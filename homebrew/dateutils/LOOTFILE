@@ -1,0 +1,17 @@
+# dateutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dateutils.rb
+# Converted on 02-01-2019
+
+name='dateutils'
+url=('https://github.com/hroptatyr/dateutils/releases/download/v0.4.5/dateutils-0.4.5.tar.xz')
+description='Tools to manipulate dates with a focus on financial data'
+version='0.4.5' # Guessed version.
+priority='optional'
+homepage='https://www.fresse.org/dateutils/'
+
+###### Install ######
+# system "autoreconf", "-iv" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

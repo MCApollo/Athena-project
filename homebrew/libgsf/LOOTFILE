@@ -1,0 +1,21 @@
+# libgsf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgsf.rb
+# Converted on 02-01-2019
+
+name='libgsf'
+url=('https://download.gnome.org/sources/libgsf/1.14/libgsf-1.14.45.tar.xz')
+description='I/O abstraction library for dealing with structured file formats'
+version='1.14.45' # Guessed version.
+priority='optional'
+homepage='https://developer.gnome.org/gsf/'
+depends=('gettext' 'glib')
+makedepends=('intltool' 'pkg-config')
+
+###### Install ######
+# args = %W[--disable-dependency-tracking --prefix=#{prefix}]
+# if build.head?
+# system "./autogen.sh", *args
+# else
+# system "./configure", *args
+# end
+# system "make", "install"

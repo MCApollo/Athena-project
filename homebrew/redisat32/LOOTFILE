@@ -1,0 +1,22 @@
+# redis@3.2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/redis@3.2.rb
+# Converted on 02-01-2019
+
+name='redisat32'
+url=('http://download.redis.io/releases/redis-3.2.12.tar.gz')
+description='Persistent key-value database, with built-in net interface'
+version='3.2.12' # Guessed version.
+priority='optional'
+homepage='https://redis.io/'
+
+###### Install ######
+# ENV["OBJARCH"] = "-arch #{MacOS.preferred_arch}"
+# system "make", "install", "PREFIX=#{prefix}", "CC=#{ENV.cc}"
+# %w[run db/redis log].each { |p| (var/p).mkpath }
+# inreplace "redis.conf" do |s|
+# s.gsub! "/var/run/redis.pid", var/"run/redis.pid"
+# s.gsub! "dir ./", "dir #{var}/db/redis/"
+# s.gsub! "\
+# end
+# etc.install "redis.conf"
+# etc.install "sentinel.conf" => "redis-sentinel.conf"

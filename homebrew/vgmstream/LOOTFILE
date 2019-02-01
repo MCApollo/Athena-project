@@ -1,0 +1,18 @@
+# vgmstream.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vgmstream.rb
+# Converted on 02-01-2019
+
+name='vgmstream'
+url=('https://github.com/kode54/vgmstream/archive/r1040.tar.gz')
+description='Library for playing streamed audio formats from video games'
+version=' '
+priority='optional'
+homepage='https://hcs64.com/vgmstream.html'
+depends=('libvorbis' 'mpg123')
+
+###### Install ######
+# cd "test" do
+# system "make"
+# bin.install "test" => "vgmstream"
+# lib.install "../src/libvgmstream.a"
+# end

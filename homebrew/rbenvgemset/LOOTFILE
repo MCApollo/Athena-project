@@ -1,0 +1,12 @@
+# rbenv-gemset.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rbenv-gemset.rb
+# Converted on 02-01-2019
+
+name='rbenvgemset'
+url=('https://github.com/jf/rbenv-gemset/archive/v0.5.9.tar.gz')
+description='Adds basic gemset support to rbenv'
+version='0.5.9' # Guessed version.
+priority='optional'
+homepage='https://github.com/jf/rbenv-gemset'
+
+###### Install ######

@@ -1,0 +1,15 @@
+# mad.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mad.rb
+# Converted on 02-01-2019
+
+name='mad'
+url=('https://downloads.sourceforge.net/project/mad/libmad/0.15.1b/libmad-0.15.1b.tar.gz')
+description='MPEG audio decoder'
+version='0.15.1' # Guessed version.
+priority='optional'
+homepage='https://www.underbit.com/products/mad/'
+
+###### Install ######
+# system "./configure", "--disable-debugging", "--enable-fpm=64bit", "--prefix=#{prefix}"
+# system "make", "CFLAGS=#{ENV.cflags}", "LDFLAGS=#{ENV.ldflags}", "install"
+# (lib+"pkgconfig/mad.pc").write pc_file

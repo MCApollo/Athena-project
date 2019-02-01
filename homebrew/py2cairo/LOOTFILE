@@ -1,0 +1,15 @@
+# py2cairo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/py2cairo.rb
+# Converted on 02-01-2019
+
+name='py2cairo'
+url=('https://github.com/pygobject/pycairo/releases/download/v1.18.0/pycairo-1.18.0.tar.gz')
+description='Python 2 bindings for the Cairo graphics library'
+version='1.18.0' # Guessed version.
+priority='optional'
+homepage='https://cairographics.org/pycairo/'
+depends=('cairo' 'python@2')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "python", *Language::Python.setup_install_args(prefix)

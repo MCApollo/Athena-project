@@ -1,0 +1,19 @@
+# gitbucket.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gitbucket.rb
+# Converted on 02-01-2019
+
+name='gitbucket'
+url=('https://github.com/gitbucket/gitbucket/releases/download/4.30.1/gitbucket.war')
+description='Git platform powered by Scala offering'
+version=' '
+priority='optional'
+homepage='https://github.com/gitbucket/gitbucket'
+depends=(':java')
+
+###### Install ######
+# if build.head?
+# system "ant"
+# libexec.install "war/target/gitbucket.war", "."
+# else
+# libexec.install "gitbucket.war"
+# end

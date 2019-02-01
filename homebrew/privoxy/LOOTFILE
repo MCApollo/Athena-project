@@ -1,0 +1,23 @@
+# privoxy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/privoxy.rb
+# Converted on 02-01-2019
+
+name='privoxy'
+url=('https://downloads.sourceforge.net/project/ijbswa/Sources/3.0.26%20%28stable%29/privoxy-3.0.26-stable-src.tar.gz')
+description='Advanced filtering web proxy'
+version='3.0.26' # Guessed version.
+priority='optional'
+homepage='https://www.privoxy.org/'
+depends=('pcre')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# ENV.append "LDFLAGS", "-L#{HOMEBREW_PREFIX}/lib"
+# system "autoreconf", "-i"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}/privoxy",
+# "--localstatedir=#{var}"
+# system "make"
+# system "make", "install"

@@ -1,0 +1,20 @@
+# micro.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/micro.rb
+# Converted on 02-01-2019
+
+name='micro'
+url=('https://github.com/zyedidia/micro/releases/download/v1.4.1/micro-1.4.1-src.tar.gz')
+description='Modern and intuitive terminal-based text editor'
+version='1.4.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/zyedidia/micro'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/zyedidia/micro").install buildpath.children
+# cd "src/github.com/zyedidia/micro" do
+# system "make", "build-quick"
+# bin.install "micro"
+# prefix.install_metafiles
+# end

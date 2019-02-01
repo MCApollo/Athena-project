@@ -1,0 +1,15 @@
+# termbox.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/termbox.rb
+# Converted on 02-01-2019
+
+name='termbox'
+url=('https://github.com/nsf/termbox/archive/v1.1.2.tar.gz')
+description='Library for writing text-based user interfaces'
+version='1.1.2' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/p/termbox/'
+
+###### Install ######
+# system "./waf", "configure", "--prefix=#{prefix}"
+# system "./waf"
+# system "./waf", "install"

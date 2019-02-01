@@ -1,0 +1,49 @@
+# ghc@8.2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ghc@8.2.rb
+# Converted on 02-01-2019
+
+name='ghcat82'
+url=('https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-src.tar.xz')
+description='Glorious Glasgow Haskell Compilation System'
+version='8.2.2' # Guessed version.
+priority='optional'
+homepage='https://haskell.org/ghc/'
+makedepends=('python' 'sphinx-doc')
+
+###### Resource ######
+# gmp: https://ftp.gnu.org/gnu/gmp/gmp-6.1.2.tar.xz
+# binary: https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-x86_64-apple-darwin.tar.xz
+# testsuite: https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-testsuite.tar.xz
+
+###### Install ######
+# ENV["CC"] = ENV.cc
+# ENV["LD"] = "ld"
+# gmp = libexec/"integer-gmp"
+# resource("gmp").stage do
+# system "./configure", "--prefix=#{gmp}", "--with-pic", "--disable-shared",
+# "--build=#{Hardware.oldest_cpu}-apple-darwin#{`uname -r`.to_i}"
+# system "make"
+# system "make", "check"
+# ENV.deparallelize { system "make", "install" }
+# end
+# args = ["--with-gmp-includes=#{gmp}/include",
+# "--with-gmp-libraries=#{gmp}/lib"]
+# if DevelopmentTools.clang_build_version >= 703 && DevelopmentTools.clang_build_version < 800
+# args << "--with-nm=#{`xcrun --find nm-classic`.chomp}"
+# end
+# resource("binary").stage do
+# binary = buildpath/"binary"
+# system "./configure", "--prefix=#{binary}", *args
+# ENV.deparallelize { system "make", "install" }
+# ENV.prepend_path "PATH", binary/"bin"
+# end
+# system "./configure", "--prefix=#{prefix}", *args
+# system "make"
+# resource("testsuite").stage { buildpath.install Dir["*"] }
+# cd "testsuite" do
+# system "make", "clean"
+# system "make", "CLEANUP=1", "THREADS=#{ENV.make_jobs}", "fast"
+# end
+# ENV.deparallelize { system "make", "install" }
+# Dir.glob(lib/"*/package.conf.d/package.cache") { |f| rm f }
+# system "#{bin}/ghc-pkg", "recache"

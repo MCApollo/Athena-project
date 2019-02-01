@@ -1,0 +1,20 @@
+# groovysdk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/groovysdk.rb
+# Converted on 02-01-2019
+
+name='groovysdk'
+url=('https://dl.bintray.com/groovy/maven/apache-groovy-sdk-2.5.4.zip')
+description='SDK for Groovy: a Java-based scripting language'
+version='2.5.4' # Guessed version.
+priority='optional'
+homepage='http://www.groovy-lang.org'
+depends=(':java')
+makedepends=('')
+
+###### Install ######
+# ENV["GROOVY_HOME"] = libexec
+# rm_f Dir["bin/*.bat"]
+# prefix.install_metafiles
+# bin.install Dir["bin/*"]
+# libexec.install "conf", "lib", "src", "doc"
+# bin.env_script_all_files(libexec+"bin", :GROOVY_HOME => ENV["GROOVY_HOME"])

@@ -1,0 +1,51 @@
+# poppler.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/poppler.rb
+# Converted on 02-01-2019
+
+name='poppler'
+url=('https://poppler.freedesktop.org/poppler-0.73.0.tar.xz')
+description='PDF rendering library (based on the xpdf-3.0 code base)'
+version='0.73.0' # Guessed version.
+priority='optional'
+homepage='https://poppler.freedesktop.org/'
+depends=('cairo' 'fontconfig' 'freetype' 'gettext' 'glib' 'jpeg' 'libpng' 'libtiff' 'little-cms2' 'nss' 'openjpeg' 'qt')
+makedepends=('cmake' 'gobject-introspection' 'pkg-config')
+makedepends=('cmake' 'gobject-introspection' 'pkg-config')
+
+###### Resource ######
+# font-data: https://poppler.freedesktop.org/poppler-data-0.4.9.tar.gz
+
+###### Install ######
+# ENV.cxx11
+# args = std_cmake_args + %w[
+# -DBUILD_GTK_TESTS=OFF
+# -DENABLE_CMS=lcms2
+# -DENABLE_GLIB=ON
+# -DENABLE_QT5=ON
+# -DENABLE_UNSTABLE_API_ABI_HEADERS=ON
+# -DWITH_GObjectIntrospection=ON
+# ]
+# system "cmake", ".", *args
+# system "make", "install"
+# system "make", "clean"
+# system "cmake", ".", "-DBUILD_SHARED_LIBS=OFF", *args
+# system "make"
+# lib.install "libpoppler.a"
+# lib.install "cpp/libpoppler-cpp.a"
+# lib.install "glib/libpoppler-glib.a"
+# resource("font-data").stage do
+# system "make", "install", "prefix=#{prefix}"
+# end
+# libpoppler = (lib/"libpoppler.dylib").readlink
+# [
+# "#{lib}/libpoppler-cpp.dylib",
+# "#{lib}/libpoppler-glib.dylib",
+# "#{lib}/libpoppler-qt5.dylib",
+# *Dir["#{bin}/*"],
+# ].each do |f|
+# macho = MachO.open(f)
+# macho.change_dylib("@rpath/#{libpoppler}", "#{lib}/#{libpoppler}")
+# macho.write!
+# end
+# inreplace share/"gir-1.0/Poppler-0.18.gir", "@rpath", lib.to_s
+# system "g-ir-compiler", "--output=#{lib}/girepository-1.0/Poppler-0.18.typelib", share/"gir-1.0/Poppler-0.18.gir"

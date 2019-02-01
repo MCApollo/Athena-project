@@ -1,0 +1,18 @@
+# xpa.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xpa.rb
+# Converted on 02-01-2019
+
+name='xpa'
+url=('https://github.com/ericmandel/xpa/archive/v2.1.18.tar.gz')
+description='Seamless communication between Unix programs'
+version='2.1.18' # Guessed version.
+priority='optional'
+homepage='https://hea-www.harvard.edu/RD/xpa/'
+depends=(':x11')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# mv "#{prefix}/man", man

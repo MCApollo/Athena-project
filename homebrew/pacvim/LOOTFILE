@@ -1,0 +1,14 @@
+# pacvim.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pacvim.rb
+# Converted on 02-01-2019
+
+name='pacvim'
+url=('https://github.com/jmoon018/PacVim/archive/v1.1.1.tar.gz')
+description='Learn vim commands via a game'
+version='1.1.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/jmoon018/PacVim'
+
+###### Install ######
+# ENV.cxx11
+# system "make", "install", "PREFIX=#{prefix}"

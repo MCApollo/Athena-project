@@ -1,0 +1,16 @@
+# pev.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pev.rb
+# Converted on 02-01-2019
+
+name='pev'
+url=('https://downloads.sourceforge.net/project/pev/pev-0.80/pev-0.80.tar.gz')
+description='PE analysis toolkit'
+version='0.80' # Guessed version.
+priority='optional'
+homepage='https://pev.sourceforge.io/'
+depends=('openssl' 'pcre')
+
+###### Install ######
+# ENV.deparallelize
+# system "make", "prefix=#{prefix}", "CC=#{ENV.cc}"
+# system "make", "prefix=#{prefix}", "install"

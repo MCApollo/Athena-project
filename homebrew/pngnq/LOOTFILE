@@ -1,0 +1,20 @@
+# pngnq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pngnq.rb
+# Converted on 02-01-2019
+
+name='pngnq'
+url=('https://downloads.sourceforge.net/project/pngnq/pngnq/1.1/pngnq-1.1.tar.gz')
+description='Tool for optimizing PNG images'
+version='1.1' # Guessed version.
+priority='optional'
+homepage='https://pngnq.sourceforge.io/'
+depends=('libpng')
+makedepends=('pkg-config')
+
+# A diff file was written to pngnq.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

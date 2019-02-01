@@ -1,0 +1,13 @@
+# webkit2png.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/webkit2png.rb
+# Converted on 02-01-2019
+
+name='webkit2png'
+url=('https://github.com/paulhammond/webkit2png/archive/v0.7.tar.gz')
+description='Create screenshots of webpages from the terminal'
+version='0.7' # Guessed version.
+priority='optional'
+homepage='http://www.paulhammond.org/webkit2png/'
+
+###### Install ######
+# bin.install "webkit2png"

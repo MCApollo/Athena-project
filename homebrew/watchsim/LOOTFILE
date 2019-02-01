@@ -1,0 +1,15 @@
+# watch-sim.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/watch-sim.rb
+# Converted on 02-01-2019
+
+name='watchsim'
+url=('https://github.com/alloy/watch-sim/archive/1.0.0.tar.gz')
+description='Command-line WatchKit application launcher'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/alloy/watch-sim'
+depends=(':xcode')
+
+###### Install ######
+# system "make"
+# bin.install "watch-sim"

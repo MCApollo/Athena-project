@@ -1,0 +1,15 @@
+# jansson.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jansson.rb
+# Converted on 02-01-2019
+
+name='jansson'
+url=('http://www.digip.org/jansson/releases/jansson-2.12.tar.gz')
+description='C library for encoding, decoding, and manipulating JSON'
+version='2.12' # Guessed version.
+priority='optional'
+homepage='http://www.digip.org/jansson/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

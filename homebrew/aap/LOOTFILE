@@ -1,0 +1,14 @@
+# aap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aap.rb
+# Converted on 02-01-2019
+
+name='aap'
+url=('https://downloads.sourceforge.net/project/a-a-p/aap-1.094.zip')
+description='Make-like tool to download, build, and install software'
+version='1.094' # Guessed version.
+priority='optional'
+homepage='http://www.a-a-p.org'
+depends=('python@2')
+
+###### Install ######
+# system "./aap", "install", "PREFIX=#{prefix}", "MANSUBDIR=share/man"

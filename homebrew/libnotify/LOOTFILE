@@ -1,0 +1,20 @@
+# libnotify.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libnotify.rb
+# Converted on 02-01-2019
+
+name='libnotify'
+url=('https://download.gnome.org/sources/libnotify/0.7/libnotify-0.7.7.tar.xz')
+description='Library that sends desktop notifications to a notification daemon'
+version='0.7.7' # Guessed version.
+priority='optional'
+homepage='https://developer.gnome.org/libnotify'
+depends=('gdk-pixbuf')
+makedepends=('gobject-introspection' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--disable-tests",
+# "--enable-introspection"
+# system "make", "install"

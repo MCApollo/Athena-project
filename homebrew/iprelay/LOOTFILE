@@ -1,0 +1,13 @@
+# ip_relay.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ip_relay.rb
+# Converted on 02-01-2019
+
+name='iprelay'
+url=('http://www.stewart.com.au/ip_relay/ip_relay-0.71.tgz')
+description='TCP traffic shaping relay application'
+version='0.71' # Guessed version.
+priority='optional'
+homepage='http://www.stewart.com.au/ip_relay/'
+
+###### Install ######
+# bin.install "ip_relay.pl" => "ip_relay"

@@ -1,0 +1,21 @@
+# spotbugs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/spotbugs.rb
+# Converted on 02-01-2019
+
+name='spotbugs'
+url=('https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs/3.1.10/spotbugs-3.1.10.tgz')
+description='Tool for Java static analysis (FindBugs'\''s successor)'
+version='3.1.10' # Guessed version.
+priority='optional'
+homepage='https://spotbugs.github.io/'
+depends=(':java')
+
+###### Install ######
+# if build.head?
+# system "gradle", "build"
+# system "gradle", "installDist"
+# libexec.install Dir["spotbugs/build/install/spotbugs/*"]
+# else
+# libexec.install Dir["*"]
+# end
+# bin.install_symlink "#{libexec}/bin/spotbugs"

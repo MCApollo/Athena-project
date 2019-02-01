@@ -1,0 +1,15 @@
+# spawn-fcgi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/spawn-fcgi.rb
+# Converted on 02-01-2019
+
+name='spawnfcgi'
+url=('https://www.lighttpd.net/download/spawn-fcgi-1.6.4.tar.gz')
+description='Spawn fast-CGI processes'
+version='1.6.4' # Guessed version.
+priority='optional'
+homepage='https://redmine.lighttpd.net/projects/spawn-fcgi'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

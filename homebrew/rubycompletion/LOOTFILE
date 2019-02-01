@@ -1,0 +1,12 @@
+# ruby-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ruby-completion.rb
+# Converted on 02-01-2019
+
+name='rubycompletion'
+url=('https://github.com/mernen/completion-ruby.git')
+description='Bash completion for Ruby'
+version=' '
+priority='optional'
+homepage='https://github.com/mernen/completion-ruby'
+
+###### Install ######

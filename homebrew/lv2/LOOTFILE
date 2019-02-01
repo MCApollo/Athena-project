@@ -1,0 +1,15 @@
+# lv2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lv2.rb
+# Converted on 02-01-2019
+
+name='lv2'
+url=('http://lv2plug.in/spec/lv2-1.14.0.tar.bz2')
+description='Portable plugin standard for audio systems'
+version='1.14.0' # Guessed version.
+priority='optional'
+homepage='http://lv2plug.in'
+
+###### Install ######
+# system "./waf", "configure", "--prefix=#{prefix}", "--no-plugins", "--lv2dir=#{lib}"
+# system "./waf", "build"
+# system "./waf", "install"

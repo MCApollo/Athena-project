@@ -1,0 +1,12 @@
+# packer-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/packer-completion.rb
+# Converted on 02-01-2019
+
+name='packercompletion'
+url=('https://github.com/mrolli/packer-bash-completion/archive/1.0.0.tar.gz')
+description='Bash completion for Packer'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/mrolli/packer-bash-completion'
+
+###### Install ######

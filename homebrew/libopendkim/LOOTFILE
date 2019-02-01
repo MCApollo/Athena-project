@@ -1,0 +1,21 @@
+# libopendkim.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libopendkim.rb
+# Converted on 02-01-2019
+
+name='libopendkim'
+url=('https://downloads.sourceforge.net/project/opendkim/opendkim-2.10.3.tar.gz')
+description='Implementation of Domain Keys Identified Mail authentication'
+version='2.10.3' # Guessed version.
+priority='optional'
+homepage='http://opendkim.org'
+depends=('openssl' 'unbound')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--disable-filter",
+# "--with-unbound=#{Formula["unbound"].opt_prefix}",
+# "--with-openssl=#{Formula["openssl"].opt_prefix}"
+# system "make", "install"

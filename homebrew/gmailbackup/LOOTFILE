@@ -1,0 +1,16 @@
+# gmail-backup.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmail-backup.rb
+# Converted on 02-01-2019
+
+name='gmailbackup'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gmail-backup-com/gmail-backup-20110307.tar.gz')
+description='Backup and restore the content of your Gmail account'
+version=' '
+priority='optional'
+homepage='https://code.google.com/archive/p/gmail-backup-com/'
+
+###### Install ######
+# bin.install "gmail-backup.py" => "gmail-backup"
+# libexec.install Dir["*"]
+# ENV.prepend_path "PYTHONPATH", libexec
+# bin.env_script_all_files(libexec, :PYTHONPATH => ENV["PYTHONPATH"])

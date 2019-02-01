@@ -1,0 +1,17 @@
+# mp4v2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mp4v2.rb
+# Converted on 02-01-2019
+
+name='mp4v2'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mp4v2/mp4v2-2.0.0.tar.bz2')
+description='Read, create, and modify MP4 files'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/mp4v2/'
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"
+# system "make", "install-man"

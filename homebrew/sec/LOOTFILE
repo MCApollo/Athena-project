@@ -1,0 +1,14 @@
+# sec.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sec.rb
+# Converted on 02-01-2019
+
+name='sec'
+url=('https://github.com/simple-evcorr/sec/releases/download/2.8.1/sec-2.8.1.tar.gz')
+description='Event correlation tool for event processing of various kinds'
+version='2.8.1' # Guessed version.
+priority='optional'
+homepage='https://simple-evcorr.sourceforge.io/'
+
+###### Install ######
+# bin.install "sec"
+# man1.install "sec.man" => "sec.1"

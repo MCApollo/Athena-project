@@ -1,0 +1,25 @@
+# woff2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/woff2.rb
+# Converted on 02-01-2019
+
+name='woff2'
+url=('https://github.com/google/woff2/archive/v1.0.2.tar.gz')
+description='Utilities to create and convert Web Open Font File (WOFF) files'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/woff2'
+depends=('brotli')
+makedepends=('cmake')
+
+###### Resource ######
+# roboto_1: https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf
+# roboto_2: https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2
+
+###### Install ######
+# args = std_cmake_args + %W[
+# -DCMAKE_INSTALL_NAME_DIR=#{opt_lib}
+# -DCMAKE_BUILD_WITH_INSTALL_NAME_DIR=ON
+# ]
+# system "cmake", ".", *args
+# system "make", "install"
+# bin.install "woff2_info", "woff2_decompress", "woff2_compress"

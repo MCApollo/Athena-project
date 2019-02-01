@@ -1,0 +1,19 @@
+# psftools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/psftools.rb
+# Converted on 02-01-2019
+
+name='psftools'
+url=('https://www.seasip.info/Unix/PSF/psftools-1.1.10.tar.gz')
+description='Tools for fixed-width bitmap fonts'
+version='1.1.10' # Guessed version.
+priority='optional'
+homepage='https://www.seasip.info/Unix/PSF/'
+makedepends=('autoconf')
+
+###### Resource ######
+# pc8x8font: https://www.zone38.net/font/pc8x8.zip
+
+###### Install ######
+# system "autoconf"
+# system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make", "install"

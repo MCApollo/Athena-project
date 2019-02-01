@@ -1,0 +1,17 @@
+# zboy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zboy.rb
+# Converted on 02-01-2019
+
+name='zboy'
+url=('https://downloads.sourceforge.net/project/zboy/zBoy%20v0.60/zboy-0.60.tar.gz')
+description='GameBoy emulator'
+version='0.60' # Guessed version.
+priority='optional'
+homepage='https://zboy.sourceforge.io/'
+depends=('sdl2')
+
+###### Install ######
+# sdl2 = Formula["sdl2"]
+# ENV.append_to_cflags "-std=gnu89 -D__zboy4linux__ -DNETPLAY -DLFNAVAIL -I#{sdl2.include} -L#{sdl2.lib}"
+# system "make", "-f", "Makefile.linux", "CFLAGS=#{ENV.cflags}"
+# bin.install "zboy"

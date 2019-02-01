@@ -1,0 +1,25 @@
+# owfs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/owfs.rb
+# Converted on 02-01-2019
+
+name='owfs'
+url=('https://downloads.sourceforge.net/project/owfs/owfs/3.2p2/owfs-3.2p2.tar.gz')
+description='Monitor and control physical environment using Dallas/Maxim 1-wire system'
+version='3.2' # Guessed version.
+priority='optional'
+homepage='http://owfs.org/'
+depends=('libftdi' 'libusb')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-swig",
+# "--disable-owtcl",
+# "--disable-zero",
+# "--disable-owpython",
+# "--disable-owperl",
+# "--disable-swig",
+# "--enable-ftdi",
+# "--enable-usb",
+# "--prefix=#{prefix}"
+# system "make", "install"

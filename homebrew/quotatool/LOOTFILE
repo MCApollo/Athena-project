@@ -1,0 +1,16 @@
+# quotatool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/quotatool.rb
+# Converted on 02-01-2019
+
+name='quotatool'
+url=('https://quotatool.ekenberg.se/quotatool-1.6.2.tar.gz')
+description='Edit disk quotas from the command-line'
+version='1.6.2' # Guessed version.
+priority='optional'
+homepage='https://quotatool.ekenberg.se/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# sbin.mkpath
+# man8.mkpath
+# system "make", "install"

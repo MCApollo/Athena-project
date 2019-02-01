@@ -1,0 +1,26 @@
+# guile@2.0.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/guile@2.0.rb
+# Converted on 02-01-2019
+
+name='guileat20'
+url=('https://ftp.gnu.org/gnu/guile/guile-2.0.14.tar.xz')
+description='GNU Ubiquitous Intelligent Language for Extensions'
+version='2.0.14' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/guile/'
+depends=('bdw-gc' 'gmp' 'libffi' 'libtool' 'libunistring' 'pkg-config' 'readline')
+# Patches
+url+=('https://raw.githubusercontent.com/macports/macports-ports/5a3bba7/lang/guile/files/sierra.patch')
+url+=('https://raw.githubusercontent.com/macports/macports-ports/8b7f401/lang/guile/files/sierra-filter-incompatible-mkostemp-flags.patch')
+
+###### Install ######
+# system "./autogen.sh" unless build.stable?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-libreadline-prefix=#{Formula["readline"].opt_prefix}",
+# "--with-libgmp-prefix=#{Formula["gmp"].opt_prefix}"
+# system "make", "install"
+# Pathname.glob("#{lib}/*.dylib") do |dylib|
+# lib.install_symlink dylib.basename => "#{dylib.basename(".dylib")}.so"
+# end
+# (share/"gdb/auto-load").install Dir["#{lib}/*-gdb.scm"]

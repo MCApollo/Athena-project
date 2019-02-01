@@ -1,0 +1,21 @@
+# bgpdump.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bgpdump.rb
+# Converted on 02-01-2019
+
+name='bgpdump'
+url=('https://bitbucket.org/ripencc/bgpdump/get/1.6.0.tar.gz')
+description='C library for analyzing MRT/Zebra/Quagga dump files'
+version='1.6.0' # Guessed version.
+priority='optional'
+homepage='https://bitbucket.org/ripencc/bgpdump/wiki/Home'
+makedepends=('autoconf')
+
+###### Install ######
+# system "./bootstrap.sh"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "check"
+# system "make", "install"

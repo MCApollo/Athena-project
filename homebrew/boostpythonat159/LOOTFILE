@@ -1,0 +1,44 @@
+# boost-python@1.59.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/boost-python@1.59.rb
+# Converted on 02-01-2019
+
+name='boostpythonat159'
+url=('https://downloads.sourceforge.net/project/boost/boost/1.59.0/boost_1_59_0.tar.bz2')
+description='C++ library for C++/Python interoperability'
+version=' '
+priority='optional'
+homepage='https://www.boost.org'
+depends=('boost@1.59' 'python@2')
+
+###### Install ######
+# inreplace "boost/python/data_members.hpp",
+# "
+# "
+# args = ["--prefix=#{prefix}",
+# "--libdir=#{lib}",
+# "-d2",
+# "-j#{ENV.make_jobs}",
+# "--layout=tagged",
+# "--user-config=user-config.jam",
+# "threading=multi,single",
+# "link=shared,static"]
+# inreplace "bootstrap.sh", "using python", "#using python"
+# Language::Python.each_python(build) do |python, version|
+# py_prefix = `#{python} -c "from __future__ import print_function; import sys; print(sys.prefix)"`.strip
+# py_include = `#{python} -c "from __future__ import print_function; import distutils.sysconfig; print(distutils.sysconfig.get_python_inc(True))"`.strip
+# open("user-config.jam", "w") do |file|
+# file.write "using darwin : : #{ENV.cxx} ;\n"
+# file.write <<~EOS
+# using python : #{version}
+# : #{python}
+# : #{py_include}
+# : #{py_prefix}/lib ;
+# EOS
+# end
+# system "./bootstrap.sh", "--prefix=#{prefix}", "--libdir=#{lib}", "--with-libraries=python",
+# "--with-python=#{python}", "--with-python-root=#{py_prefix}"
+# system "./b2", "--build-dir=build-#{python}", "--stagedir=stage-#{python}",
+# "python=#{version}", *args
+# end
+# lib.install Dir["stage-python2.7/lib/*py*"]
+# doc.install Dir["libs/python/doc/*"]

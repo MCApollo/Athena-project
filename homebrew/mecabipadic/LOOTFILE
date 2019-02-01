@@ -1,0 +1,22 @@
+# mecab-ipadic.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mecab-ipadic.rb
+# Converted on 02-01-2019
+
+name='mecabipadic'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/m/mecab-ipadic/mecab-ipadic_2.7.0-20070801+main.orig.tar.gz')
+description='IPA dictionary compiled for MeCab'
+version='2.7.0' # Guessed version.
+priority='optional'
+homepage='https://taku910.github.io/mecab/'
+depends=('mecab')
+
+###### Install ######
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --with-charset=utf8
+# --with-dicdir=#{lib}/mecab/dic/ipadic
+# ]
+# system "./configure", *args
+# system "make", "install"

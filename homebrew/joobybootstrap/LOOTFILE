@@ -1,0 +1,15 @@
+# jooby-bootstrap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jooby-bootstrap.rb
+# Converted on 02-01-2019
+
+name='joobybootstrap'
+url=('https://github.com/jooby-project/jooby-bootstrap/archive/0.2.2.tar.gz')
+description='Script to simplify the creation of jooby apps'
+version='0.2.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/jooby-project/jooby-bootstrap'
+depends=(':java' 'maven')
+
+###### Install ######
+# libexec.install "jooby"
+# (bin/"jooby").write_env_script libexec/"jooby", Language::Java.java_home_env("1.8")

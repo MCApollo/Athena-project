@@ -1,0 +1,22 @@
+# adr-tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/adr-tools.rb
+# Converted on 02-01-2019
+
+name='adrtools'
+url=('https://github.com/npryce/adr-tools/archive/3.0.0.tar.gz')
+description='CLI tool for working with Architecture Decision Records'
+version='3.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/npryce/adr-tools'
+
+###### Install ######
+# config = buildpath/"src/adr-config"
+# config.unlink
+# config.write <<~EOS
+# #!/bin/bash
+# echo 'adr_bin_dir=\"#{bin}\"'
+# echo 'adr_template_dir=\"#{prefix}\"'
+# EOS
+# prefix.install Dir["src/*.md"]
+# bin.install Dir["src/*"]
+# bash_completion.install "autocomplete/adr" => "adr-tools"

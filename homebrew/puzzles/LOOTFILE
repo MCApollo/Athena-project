@@ -1,0 +1,17 @@
+# puzzles.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/puzzles.rb
+# Converted on 02-01-2019
+
+name='puzzles'
+url=('https://www.chiark.greenend.org.uk/~sgtatham/puzzles/puzzles-20181213.ced51ad.tar.gz')
+description='Collection of one-player puzzle games'
+version=' '
+priority='optional'
+homepage='https://www.chiark.greenend.org.uk/~sgtatham/puzzles/'
+depends=('halibut')
+
+###### Install ######
+# inreplace "mkfiles.pl", /@osxarchs = .*/, "@osxarchs = ('x86_64');"
+# system "perl", "mkfiles.pl"
+# system "make", "-d", "-f", "Makefile.osx", "all"
+# prefix.install "Puzzles.app"

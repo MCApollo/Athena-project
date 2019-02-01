@@ -1,0 +1,17 @@
+# fantom.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fantom.rb
+# Converted on 02-01-2019
+
+name='fantom'
+url=('https://bitbucket.org/fantom/fan-1.0/downloads/fantom-1.0.71.zip')
+description='Object oriented, portable programming language'
+version='1.0.71' # Guessed version.
+priority='optional'
+homepage='https://fantom.org/'
+
+###### Install ######
+# rm_f Dir["bin/*.exe", "bin/*.dll", "lib/dotnet/*"]
+# inreplace "etc/build/config.props", "//jdkHome=/System", "jdkHome=/System"
+# libexec.install Dir["*"]
+# chmod 0755, Dir["#{libexec}/bin/*"]
+# bin.install_symlink Dir["#{libexec}/bin/*"]

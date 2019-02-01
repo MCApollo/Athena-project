@@ -1,0 +1,17 @@
+# liblqr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/liblqr.rb
+# Converted on 02-01-2019
+
+name='liblqr'
+url=('https://liblqr.wdfiles.com/local--files/en:download-page/liblqr-1-0.4.2.tar.bz2')
+description='C/C++ seam carving library'
+version='0.4.2' # Guessed version.
+priority='optional'
+homepage='https://liblqr.wikidot.com/'
+depends=('glib')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

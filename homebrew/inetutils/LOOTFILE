@@ -1,0 +1,33 @@
+# inetutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/inetutils.rb
+# Converted on 02-01-2019
+
+name='inetutils'
+url=('https://ftp.gnu.org/gnu/inetutils/inetutils-1.9.4.tar.xz')
+description='GNU utilities for networking'
+version='1.9.4' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/inetutils/'
+depends=('libidn')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --program-prefix=g
+# --with-idn
+# ]
+# system "./configure", *args
+# system "make", "install"
+# noshadow.each do |cmd|
+# bin.install_symlink "g#{cmd}" => cmd
+# man1.install_symlink "g#{cmd}.1" => "#{cmd}.1"
+# end
+# bin.find.each do |path|
+# next unless File.executable?(path) && !File.directory?(path)
+# cmd = path.basename.to_s.sub(/^g/, "")
+# (libexec/"gnubin").install_symlink bin/"g#{cmd}" => cmd
+# (libexec/"gnuman"/"man1").install_symlink man1/"g#{cmd}" => cmd
+# end
+# libexec.install_symlink "gnuman" => "man"

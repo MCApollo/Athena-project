@@ -1,0 +1,22 @@
+# ctail.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ctail.rb
+# Converted on 02-01-2019
+
+name='ctail'
+url=('https://github.com/pquerna/ctail/archive/ctail-0.1.0.tar.gz')
+description='Tool for operating tail across large clusters of machines'
+version='0.1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/pquerna/ctail'
+depends=('apr' 'apr-util')
+makedepends=('autoconf' 'automake' 'libtool')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "./configure",
+# "--prefix=#{prefix}",
+# "--disable-debug",
+# "--with-apr=#{Formula["apr"].opt_bin}",
+# "--with-apr-util=#{Formula["apr-util"].opt_bin}"
+# system "make", "LIBTOOL=glibtool --tag=CC"
+# system "make", "install"

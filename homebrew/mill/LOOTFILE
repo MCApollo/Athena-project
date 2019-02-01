@@ -1,0 +1,16 @@
+# mill.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mill.rb
+# Converted on 02-01-2019
+
+name='mill'
+url=('https://github.com/lihaoyi/mill/releases/download/0.3.6/0.3.6')
+description='Scala build tool'
+version='0.3.6' # Guessed version.
+priority='optional'
+homepage='https://www.lihaoyi.com/mill/'
+depends=(':java')
+
+###### Install ######
+# libexec.install Dir["*"].shift => "mill"
+# chmod 0555, libexec/"mill"
+# (bin/"mill").write_env_script libexec/"mill", Language::Java.java_home_env("1.8")

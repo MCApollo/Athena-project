@@ -1,0 +1,18 @@
+# dcm2niix.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dcm2niix.rb
+# Converted on 02-01-2019
+
+name='dcm2niix'
+url=('https://github.com/rordenlab/dcm2niix/archive/v1.0.20181125.tar.gz')
+description='DICOM to NIfTI converter'
+version='1.0.20181125' # Guessed version.
+priority='optional'
+homepage='https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage'
+makedepends=('cmake')
+
+###### Resource ######
+# sample.dcm: https://raw.githubusercontent.com/dangom/sample-dicom/master/MR000000.dcm
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

@@ -1,0 +1,14 @@
+# davmail.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/davmail.rb
+# Converted on 02-01-2019
+
+name='davmail'
+url=('https://downloads.sourceforge.net/project/davmail/davmail/4.9.0/davmail-4.9.0-2652.zip')
+description='POP/IMAP/SMTP/Caldav/Carddav/LDAP exchange gateway'
+version='4.9.0' # Guessed version.
+priority='optional'
+homepage='https://davmail.sourceforge.io/'
+
+###### Install ######
+# libexec.install Dir["*"]
+# bin.write_jar_script libexec/"davmail.jar", "davmail", "-Djava.awt.headless=true"

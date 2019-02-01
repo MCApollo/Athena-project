@@ -1,0 +1,15 @@
+# recoverjpeg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/recoverjpeg.rb
+# Converted on 02-01-2019
+
+name='recoverjpeg'
+url=('https://www.rfc1149.net/download/recoverjpeg/recoverjpeg-2.6.2.tar.gz')
+description='Tool to recover JPEG images from a file system image'
+version='2.6.2' # Guessed version.
+priority='optional'
+homepage='https://www.rfc1149.net/devel/recoverjpeg.html'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

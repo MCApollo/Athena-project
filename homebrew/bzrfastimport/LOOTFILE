@@ -1,0 +1,20 @@
+# bzr-fastimport.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bzr-fastimport.rb
+# Converted on 02-01-2019
+
+name='bzrfastimport'
+url=('https://launchpad.net/bzr-fastimport/trunk/0.13.0/+download/bzr-fastimport-0.13.0.tar.gz')
+description='Bazaar plugin for fast loading of revision control'
+version='0.13.0' # Guessed version.
+priority='optional'
+homepage='https://launchpad.net/bzr-fastimport'
+depends=('bazaar' 'python@2')
+
+###### Resource ######
+# python-fastimport: https://launchpad.net/python-fastimport/trunk/0.9.2/+download/python-fastimport-0.9.2.tar.gz
+
+###### Install ######
+# resource("python-fastimport").stage do
+# system "python", *Language::Python.setup_install_args(libexec/"vendor")
+# end
+# (share/"bazaar/plugins/fastimport").install Dir["*"]

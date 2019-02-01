@@ -1,0 +1,19 @@
+# pwntools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pwntools.rb
+# Converted on 02-01-2019
+
+name='pwntools'
+url=('https://github.com/Gallopsled/pwntools/archive/3.12.2.tar.gz')
+description='CTF framework used by Gallopsled in every CTF'
+version='3.12.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/Gallopsled/pwntools'
+depends=('openssl' 'python@2')
+makedepends=('')
+
+###### Install ######
+# venv = virtualenv_create(libexec)
+# system libexec/"bin/pip", "install", "-v", "--no-binary", ":all:",
+# "--ignore-installed", buildpath
+# system libexec/"bin/pip", "uninstall", "-y", name
+# venv.pip_install_and_link buildpath

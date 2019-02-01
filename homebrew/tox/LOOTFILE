@@ -1,0 +1,33 @@
+# tox.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tox.rb
+# Converted on 02-01-2019
+
+name='tox'
+url=('https://files.pythonhosted.org/packages/d7/42/82308785b76b374456218b4f1f9f69075d081cb5b4f287766d21a30565dc/tox-3.7.0.tar.gz')
+description='Generic Python virtualenv management and test command-line tool'
+version='3.7.0' # Guessed version.
+priority='optional'
+homepage='https://tox.readthedocs.org/'
+depends=('python')
+
+###### Resource ######
+# filelock: https://files.pythonhosted.org/packages/2a/bd/6a87635dba4906ae56377b22f64805b2f00d8cafb26e411caaf3559a5475/filelock-3.0.10.tar.gz
+# packaging: https://files.pythonhosted.org/packages/cf/50/1f10d2626df0aa97ce6b62cf6ebe14f605f4e101234f7748b8da4138a8ed/packaging-18.0.tar.gz
+# pluggy: https://files.pythonhosted.org/packages/38/e1/83b10c17688af7b2998fa5342fec58ecbd2a5a7499f31e606ae6640b71ac/pluggy-0.8.1.tar.gz
+# py: https://files.pythonhosted.org/packages/c7/fa/eb6dd513d9eb13436e110aaeef9a1703437a8efa466ce6bb2ff1d9217ac7/py-1.7.0.tar.gz
+# pyparsing: https://files.pythonhosted.org/packages/d0/09/3e6a5eeb6e04467b737d55f8bba15247ac0876f98fae659e58cd744430c6/pyparsing-2.3.0.tar.gz
+# six: https://files.pythonhosted.org/packages/dd/bf/4138e7bfb757de47d1f4b6994648ec67a51efe58fa907c1e11e350cddfca/six-1.12.0.tar.gz
+# toml: https://files.pythonhosted.org/packages/b9/19/5cbd78eac8b1783671c40e34bb0fa83133a06d340a38b55c645076d40094/toml-0.10.0.tar.gz
+# virtualenv: https://files.pythonhosted.org/packages/59/38/55dd25a965990bd93f77eb765b189e72cf581ce1c2de651cb7b1dea74ed1/virtualenv-16.2.0.tar.gz
+
+###### Install ######
+# virtualenv_install_with_resources
+# lib_python_path = Pathname.glob(libexec/"lib/python*").first
+# lib_python_path.each_child do |f|
+# next unless f.symlink?
+# realpath = f.realpath
+# rm f
+# ln_s realpath, f
+# end
+# inreplace lib_python_path/"orig-prefix.txt",
+# Formula["python"].opt_prefix, Formula["python"].prefix.realpath

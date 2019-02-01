@@ -1,0 +1,22 @@
+# leveldb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/leveldb.rb
+# Converted on 02-01-2019
+
+name='leveldb'
+url=('https://github.com/google/leveldb/archive/v1.20.tar.gz')
+description='Key-value storage library with ordered mapping'
+version='1.20' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/leveldb/'
+depends=('gperftools' 'snappy')
+
+###### Install ######
+# system "make"
+# system "make", "check"
+# include.install "include/leveldb"
+# bin.install "out-static/leveldbutil"
+# lib.install "out-static/libleveldb.a"
+# lib.install "out-shared/libleveldb.dylib.1.20" => "libleveldb.1.20.dylib"
+# lib.install_symlink lib/"libleveldb.1.20.dylib" => "libleveldb.dylib"
+# lib.install_symlink lib/"libleveldb.1.20.dylib" => "libleveldb.1.dylib"
+# MachO::Tools.change_dylib_id("#{lib}/libleveldb.1.dylib", "#{lib}/libleveldb.1.20.dylib")

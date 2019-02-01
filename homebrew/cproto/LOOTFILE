@@ -1,0 +1,17 @@
+# cproto.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cproto.rb
+# Converted on 02-01-2019
+
+name='cproto'
+url=('https://invisible-mirror.net/archives/cproto/cproto-4.7m.tgz')
+description='Generate function prototypes for functions in input files'
+version='4.7' # Guessed version.
+priority='optional'
+homepage='https://invisible-island.net/cproto/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,18 @@
+# sdl2_net.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdl2_net.rb
+# Converted on 02-01-2019
+
+name='sdl2net'
+url=('https://www.libsdl.org/projects/SDL_net/release/SDL2_net-2.0.1.tar.gz')
+description='Small sample cross-platform networking library'
+version='2.0.1' # Guessed version.
+priority='optional'
+homepage='https://www.libsdl.org/projects/SDL_net/'
+depends=('sdl2')
+makedepends=('pkg-config')
+
+###### Install ######
+# inreplace "SDL2_net.pc.in", "@prefix@", HOMEBREW_PREFIX
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}", "--disable-sdltest"
+# system "make", "install"

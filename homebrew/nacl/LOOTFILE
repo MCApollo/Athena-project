@@ -1,0 +1,24 @@
+# nacl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nacl.rb
+# Converted on 02-01-2019
+
+name='nacl'
+url=('https://hyperelliptic.org/nacl/nacl-20110221.tar.bz2')
+description='Network communication, encryption, decryption, signatures library'
+version=' '
+priority='optional'
+homepage='https://nacl.cr.yp.to/'
+
+###### Install ######
+# inreplace "do" do |s|
+# s.gsub! 'exec >"$top/log"', 'exec | tee "$top/log"'
+# s.gsub! /^shorthostname=`.*$/, "shorthostname=brew"
+# end
+# system "./do"
+# #
+# archstr = "amd64"
+# include.install Dir["build/brew/include/#{archstr}/crypto_*.h"]
+# include.install "build/brew/include/#{archstr}/randombytes.h"
+# nacl_libdir = "build/brew/lib/#{archstr}"
+# system "ar", "-r", "#{nacl_libdir}/libnacl.a", "#{nacl_libdir}/randombytes.o"
+# lib.install "#{nacl_libdir}/libnacl.a"

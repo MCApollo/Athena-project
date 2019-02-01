@@ -1,0 +1,13 @@
+# historian.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/historian.rb
+# Converted on 02-01-2019
+
+name='historian'
+url=('https://github.com/jcsalterego/historian/archive/0.0.2.tar.gz')
+description='Command-line utility for managing shell history in a SQLite database'
+version='0.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/jcsalterego/historian'
+
+###### Install ######
+# bin.install "hist"

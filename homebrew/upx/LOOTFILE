@@ -1,0 +1,20 @@
+# upx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/upx.rb
+# Converted on 02-01-2019
+
+name='upx'
+url=('')
+description='Compress/expand executable files'
+version=' '
+priority='optional'
+homepage='https://upx.github.io/'
+depends=('ucl')
+# Patches
+url+=('https://github.com/upx/upx/commit/0dac6b7be3339ac73051d40ed4d268cd2bb0dc7c.patch?full_index=1')
+url+=('https://github.com/upx/upx/commit/9bb6854e642a2505102b9d3f9ec8535ec8ab6d9c.patch?full_index=1')
+
+###### Install ######
+# (buildpath/"src/lzma-sdk").install resource("lzma-sdk") if build.stable?
+# system "make", "all"
+# bin.install "src/upx.out" => "upx"
+# man1.install "doc/upx.1"

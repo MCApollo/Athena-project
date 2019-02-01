@@ -1,0 +1,18 @@
+# mpage.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpage.rb
+# Converted on 02-01-2019
+
+name='mpage'
+url=('https://mesa.nl/pub/mpage/mpage-2.5.7.tgz')
+description='Many to one page printing utility'
+version='2.5.7' # Guessed version.
+priority='optional'
+homepage='https://mesa.nl/pub/mpage/README'
+
+###### Install ######
+# args = %W[
+# MANDIR=#{man1}
+# PREFIX=#{prefix}
+# ]
+# system "make", *args
+# system "make", "install", *args

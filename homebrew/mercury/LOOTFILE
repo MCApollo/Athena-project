@@ -1,0 +1,22 @@
+# mercury.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mercury.rb
+# Converted on 02-01-2019
+
+name='mercury'
+url=('https://dl.mercurylang.org/release/mercury-srcdist-14.01.1.tar.gz')
+description='Logic/functional programming language'
+version='14.01.1' # Guessed version.
+priority='optional'
+homepage='https://mercurylang.org/'
+
+###### Install ######
+# args = ["--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--infodir=#{info}",
+# "--disable-dependency-tracking",
+# "--enable-java-grade"]
+# system "./configure", *args
+# system "make", "install", "PARALLEL=-j",
+# "INSTALL_MAN_DIR=#{man}",
+# "INSTALL_INFO_DIR=#{info}"
+# rm Dir.glob("#{bin}/*.bat")

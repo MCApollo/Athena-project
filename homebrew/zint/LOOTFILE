@@ -1,0 +1,19 @@
+# zint.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zint.rb
+# Converted on 02-01-2019
+
+name='zint'
+url=('https://downloads.sourceforge.net/project/zint/zint/2.6.3/zint-2.6.3.src.tar.gz')
+description='Barcode encoding library supporting over 50 symbologies'
+version='2.6.3' # Guessed version.
+priority='optional'
+homepage='http://www.zint.org.uk/'
+depends=('libpng')
+makedepends=('cmake')
+
+###### Install ######
+# inreplace "CMakeLists.txt", "${CMAKE_ROOT}", "#{share}/cmake"
+# mkdir "zint-build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

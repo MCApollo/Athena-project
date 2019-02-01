@@ -1,0 +1,12 @@
+# speedtest-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/speedtest-cli.rb
+# Converted on 02-01-2019
+
+name='speedtestcli'
+url=('https://github.com/sivel/speedtest-cli/archive/v2.0.2.tar.gz')
+description='Command-line interface for https://speedtest.net bandwidth tests'
+version='2.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/sivel/speedtest-cli'
+
+###### Install ######

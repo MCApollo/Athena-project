@@ -1,0 +1,12 @@
+# pidcat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pidcat.rb
+# Converted on 02-01-2019
+
+name='pidcat'
+url=('https://github.com/JakeWharton/pidcat/archive/2.1.0.tar.gz')
+description='Colored logcat script to show entries only for specified app'
+version='2.1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/JakeWharton/pidcat'
+
+###### Install ######

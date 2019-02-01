@@ -1,0 +1,20 @@
+# atomicparsley.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/atomicparsley.rb
+# Converted on 02-01-2019
+
+name='atomicparsley'
+url=('https://bitbucket.org/wez/atomicparsley/get/0.9.6.tar.bz2')
+description='MPEG-4 command-line tool'
+version='0.9.6' # Guessed version.
+priority='optional'
+homepage='https://bitbucket.org/wez/atomicparsley/overview/'
+makedepends=('autoconf' 'automake' 'libtool')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/ac8624c36e/atomicparsley/xcode9.patch')
+
+###### Install ######
+# system "./autogen.sh"
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-debug",
+# "--disable-universal"
+# system "make", "install"

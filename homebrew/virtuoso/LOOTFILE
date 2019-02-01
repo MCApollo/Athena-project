@@ -1,0 +1,19 @@
+# virtuoso.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/virtuoso.rb
+# Converted on 02-01-2019
+
+name='virtuoso'
+url=('https://github.com/openlink/virtuoso-opensource/releases/download/v7.2.5.1/virtuoso-opensource-7.2.5.tar.gz')
+description='High-performance object-relational SQL database'
+version='7.2.5' # Guessed version.
+priority='optional'
+homepage='https://virtuoso.openlinksw.com/wiki/main/'
+depends=('openssl')
+makedepends=('gawk')
+makedepends=('gawk')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,12 @@
+# vf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vf.rb
+# Converted on 02-01-2019
+
+name='vf'
+url=('https://github.com/glejeune/vf/archive/0.0.1.tar.gz')
+description='Enhanced version of `cd` command'
+version='0.0.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/glejeune/vf'
+
+###### Install ######

@@ -1,0 +1,16 @@
+# rename.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rename.rb
+# Converted on 02-01-2019
+
+name='rename'
+url=('https://github.com/ap/rename/archive/v1.600.tar.gz')
+description='Perl-powered file rename script with many helpful built-ins'
+version='1.600' # Guessed version.
+priority='optional'
+homepage='http://plasmasturm.org/code/rename'
+makedepends=('')
+
+###### Install ######
+# system "pod2man", "rename", "rename.1"
+# bin.install "rename"
+# man1.install "rename.1"

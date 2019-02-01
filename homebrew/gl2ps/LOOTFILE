@@ -1,0 +1,16 @@
+# gl2ps.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gl2ps.rb
+# Converted on 02-01-2019
+
+name='gl2ps'
+url=('https://geuz.org/gl2ps/src/gl2ps-1.4.0.tgz')
+description='OpenGL to PostScript printing library'
+version='1.4.0' # Guessed version.
+priority='optional'
+homepage='https://www.geuz.org/gl2ps/'
+depends=('libpng')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", "-DGLUT_glut_LIBRARY=/System/Library/Frameworks/GLUT.framework", *std_cmake_args
+# system "make", "install"

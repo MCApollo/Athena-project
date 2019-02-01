@@ -1,0 +1,16 @@
+# lemon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lemon.rb
+# Converted on 02-01-2019
+
+name='lemon'
+url=('https://tx97.net/pub/distfiles/lemon-1.69.tar.bz2')
+description='LALR(1) parser generator like yacc or bison'
+version='1.69' # Guessed version.
+priority='optional'
+homepage='https://www.hwaci.com/sw/lemon/'
+
+###### Install ######
+# pkgshare.install "lempar.c"
+# inreplace "lemon.c", / = pathsearch\([^)]*\);/, " = \"#{pkgshare}/lempar.c\";"
+# system ENV.cc, "-o", "lemon", "lemon.c"
+# bin.install "lemon"

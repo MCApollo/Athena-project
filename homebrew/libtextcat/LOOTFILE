@@ -1,0 +1,19 @@
+# libtextcat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtextcat.rb
+# Converted on 02-01-2019
+
+name='libtextcat'
+url=('https://software.wise-guys.nl/download/libtextcat-2.2.tar.gz')
+description='N-gram-based text categorization library'
+version='2.2' # Guessed version.
+priority='optional'
+homepage='https://software.wise-guys.nl/libtextcat/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# (include/"libtextcat/").install Dir["src/*.h"]
+# share.install "langclass/LM", "langclass/ShortTexts", "langclass/conf.txt"

@@ -1,0 +1,16 @@
+# libu2f-host.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libu2f-host.rb
+# Converted on 02-01-2019
+
+name='libu2fhost'
+url=('https://developers.yubico.com/libu2f-host/Releases/libu2f-host-1.1.6.tar.xz')
+description='Host-side of the Universal 2nd Factor (U2F) protocol'
+version='1.1.6' # Guessed version.
+priority='optional'
+homepage='https://developers.yubico.com/libu2f-host/'
+depends=('hidapi' 'json-c')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

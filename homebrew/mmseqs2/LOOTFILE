@@ -1,0 +1,30 @@
+# mmseqs2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mmseqs2.rb
+# Converted on 02-01-2019
+
+name='mmseqs2'
+url=('https://github.com/soedinglab/MMseqs2/archive/7-4e23d.tar.gz')
+description='Software suite for very fast protein sequence search and clustering'
+version=' '
+priority='optional'
+homepage='https://mmseqs.org/'
+depends=('gcc')
+makedepends=('cmake')
+
+###### Resource ######
+# documentation: https://github.com/soedinglab/MMseqs2.wiki.git
+
+###### Install ######
+# args = *std_cmake_args << "-DHAVE_TESTS=0" << "-DHAVE_MPI=0"
+# args << "-DVERSION_OVERRIDE=#{version}"
+# args << "-DHAVE_SSE4_1=1"
+# system "cmake", ".", *args
+# system "make", "install"
+# resource("documentation").stage { doc.install Dir["*"] }
+# pkgshare.install "examples"
+# bash_completion.install "util/bash-completion.sh" => "mmseqs.sh"
+# end
+# def caveats
+# unless Hardware::CPU.sse4?
+# "MMseqs2 requires at least SSE4.1 CPU instruction support."
+# end

@@ -1,0 +1,20 @@
+# camlp4.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/camlp4.rb
+# Converted on 02-01-2019
+
+name='camlp4'
+url=('https://github.com/ocaml/camlp4/archive/4.07+1.tar.gz')
+description='Tool to write extensible parsers in OCaml'
+version='4.07' # Guessed version.
+priority='optional'
+homepage='https://github.com/ocaml/camlp4'
+depends=('ocaml' 'ocamlbuild')
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--bindir=#{bin}",
+# "--libdir=#{HOMEBREW_PREFIX}/lib/ocaml",
+# "--pkgdir=#{HOMEBREW_PREFIX}/lib/ocaml/camlp4"
+# system "make", "all"
+# system "make", "install", "LIBDIR=#{lib}/ocaml",
+# "PKGDIR=#{lib}/lib/ocaml/camlp4"

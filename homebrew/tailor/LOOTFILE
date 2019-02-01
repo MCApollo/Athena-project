@@ -1,0 +1,16 @@
+# tailor.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tailor.rb
+# Converted on 02-01-2019
+
+name='tailor'
+url=('https://github.com/sleekbyte/tailor/releases/download/v0.12.0/tailor-0.12.0.tar')
+description='Cross-platform static analyzer and linter for Swift'
+version='0.12.0' # Guessed version.
+priority='optional'
+homepage='https://tailor.sh'
+depends=(':java')
+
+###### Install ######
+# libexec.install Dir["*"]
+# bin.install_symlink libexec/"bin/tailor"
+# man1.install libexec/"tailor.1"

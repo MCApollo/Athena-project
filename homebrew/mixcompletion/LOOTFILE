@@ -1,0 +1,12 @@
+# mix-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mix-completion.rb
+# Converted on 02-01-2019
+
+name='mixcompletion'
+url=('https://github.com/davidhq/mix-power-completion/archive/0.8.2.tar.gz')
+description='Elixir Mix completion plus shortcuts/colors'
+version='0.8.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/davidhq/mix-power-completion'
+
+###### Install ######

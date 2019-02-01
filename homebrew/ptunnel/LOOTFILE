@@ -1,0 +1,13 @@
+# ptunnel.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ptunnel.rb
+# Converted on 02-01-2019
+
+name='ptunnel'
+url=('https://www.cs.uit.no/~daniels/PingTunnel/PingTunnel-0.72.tar.gz')
+description='Tunnel over ICMP'
+version='0.72' # Guessed version.
+priority='optional'
+homepage='https://www.cs.uit.no/~daniels/PingTunnel/'
+
+###### Install ######
+# system "make", "install", "prefix=#{prefix}"

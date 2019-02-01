@@ -1,0 +1,16 @@
+# mailcheck.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mailcheck.rb
+# Converted on 02-01-2019
+
+name='mailcheck'
+url=('https://downloads.sourceforge.net/project/mailcheck/mailcheck/1.91.2/mailcheck_1.91.2.tar.gz')
+description='Check multiple mailboxes/maildirs for mail'
+version='1.91.2' # Guessed version.
+priority='optional'
+homepage='https://mailcheck.sourceforge.io/'
+
+###### Install ######
+# system "make", "mailcheck"
+# bin.install "mailcheck"
+# man1.install "mailcheck.1"
+# etc.install "mailcheckrc"

@@ -1,0 +1,21 @@
+# blitzwave.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/blitzwave.rb
+# Converted on 02-01-2019
+
+name='blitzwave'
+url=('https://github.com/oschulz/blitzwave/archive/v0.8.0.tar.gz')
+description='C++ wavelet library'
+version='0.8.0' # Guessed version.
+priority='optional'
+homepage='https://oschulz.github.io/blitzwave'
+depends=('blitz')
+makedepends=('autoconf' 'automake' 'libtool')
+
+# A diff file was written to blitzwave.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./autogen.sh"
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

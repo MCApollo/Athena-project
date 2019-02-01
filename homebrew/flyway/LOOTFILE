@@ -1,0 +1,16 @@
+# flyway.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/flyway.rb
+# Converted on 02-01-2019
+
+name='flyway'
+url=('https://search.maven.org/remotecontent?filepath=org/flywaydb/flyway-commandline/5.2.4/flyway-commandline-5.2.4.tar.gz')
+description='Database version control to control migrations'
+version='5.2.4' # Guessed version.
+priority='optional'
+homepage='https://flywaydb.org/'
+depends=(':java')
+
+###### Install ######
+# rm Dir["*.cmd"]
+# libexec.install Dir["*"]
+# bin.install_symlink Dir["#{libexec}/flyway"]

@@ -1,0 +1,17 @@
+# qd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qd.rb
+# Converted on 02-01-2019
+
+name='qd'
+url=('https://crd.lbl.gov/~dhbailey/mpdist/qd-2.3.21.tar.gz')
+description='C++/Fortran-90 double-double and quad-double package'
+version='2.3.21' # Guessed version.
+priority='optional'
+homepage='https://crd.lbl.gov/~dhbailey/mpdist/'
+depends=('gcc')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--enable-shared",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

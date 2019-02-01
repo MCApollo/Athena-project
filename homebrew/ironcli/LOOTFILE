@@ -1,0 +1,20 @@
+# ironcli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ironcli.rb
+# Converted on 02-01-2019
+
+name='ironcli'
+url=('https://github.com/iron-io/ironcli/archive/0.1.6.tar.gz')
+description='Go version of the Iron.io command-line tools'
+version='0.1.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/iron-io/ironcli'
+makedepends=('dep' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/iron-io/ironcli").install buildpath.children
+# cd "src/github.com/iron-io/ironcli" do
+# system "dep", "ensure", "-vendor-only"
+# system "go", "build", "-o", bin/"iron"
+# prefix.install_metafiles
+# end

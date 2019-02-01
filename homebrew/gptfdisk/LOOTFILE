@@ -1,0 +1,18 @@
+# gptfdisk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gptfdisk.rb
+# Converted on 02-01-2019
+
+name='gptfdisk'
+url=('https://downloads.sourceforge.net/project/gptfdisk/gptfdisk/1.0.4/gptfdisk-1.0.4.tar.gz')
+description='Text-mode partitioning tools'
+version='1.0.4' # Guessed version.
+priority='optional'
+homepage='https://www.rodsbooks.com/gdisk/'
+depends=('popt')
+
+###### Install ######
+# system "make", "-f", "Makefile.mac"
+# %w[cgdisk fixparts gdisk sgdisk].each do |program|
+# bin.install program
+# man8.install "#{program}.8"
+# end

@@ -1,0 +1,17 @@
+# lastfmfpclient.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lastfmfpclient.rb
+# Converted on 02-01-2019
+
+name='lastfmfpclient'
+url=('https://github.com/lastfm/Fingerprinter/archive/9ee83a51ac9058ff53c9.tar.gz')
+description='Last.fm fingerprint library'
+version=' '
+priority='optional'
+homepage='https://github.com/lastfm/Fingerprinter'
+depends=('fftw' 'libsamplerate' 'mad' 'taglib')
+makedepends=('cmake')
+
+###### Install ######
+# inreplace_fix
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

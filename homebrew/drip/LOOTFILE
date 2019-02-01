@@ -1,0 +1,16 @@
+# drip.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/drip.rb
+# Converted on 02-01-2019
+
+name='drip'
+url=('https://github.com/flatland/drip/archive/0.2.4.tar.gz')
+description='JVM launching without the hassle of persistent JVMs'
+version='0.2.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/flatland/drip'
+depends=(':java')
+
+###### Install ######
+# system "make"
+# libexec.install %w[bin src Makefile]
+# bin.install_symlink libexec/"bin/drip"

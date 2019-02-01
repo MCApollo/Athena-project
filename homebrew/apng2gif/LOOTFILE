@@ -1,0 +1,15 @@
+# apng2gif.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/apng2gif.rb
+# Converted on 02-01-2019
+
+name='apng2gif'
+url=('https://downloads.sourceforge.net/apng2gif/apng2gif-1.8-src.zip')
+description='Convert APNG animations into animated GIF format'
+version='1.8' # Guessed version.
+priority='optional'
+homepage='https://apng2gif.sourceforge.io/'
+depends=('libpng' 'gcc')
+
+###### Install ######
+# system "make"
+# bin.install "apng2gif"

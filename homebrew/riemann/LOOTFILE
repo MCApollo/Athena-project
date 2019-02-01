@@ -1,0 +1,15 @@
+# riemann.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/riemann.rb
+# Converted on 02-01-2019
+
+name='riemann'
+url=('https://github.com/riemann/riemann/releases/download/0.3.1/riemann-0.3.1.tar.bz2')
+description='Event stream processor'
+version='0.3.1' # Guessed version.
+priority='optional'
+homepage='http://riemann.io'
+
+###### Install ######
+# etc.install "etc/riemann.config" => "riemann.config.guide"
+# libexec.install Dir["*"]
+# (bin+"riemann").write shim_script

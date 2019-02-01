@@ -1,0 +1,17 @@
+# ringojs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ringojs.rb
+# Converted on 02-01-2019
+
+name='ringojs'
+url=('https://github.com/ringo/ringojs/releases/download/v1.2.1/ringojs-1.2.1.tar.gz')
+description='CommonJS-based JavaScript runtime'
+version='1.2.1' # Guessed version.
+priority='optional'
+homepage='https://ringojs.org'
+depends=(':java')
+
+###### Install ######
+# rm Dir["bin/*.cmd"]
+# libexec.install Dir["*"]
+# bin.install Dir["#{libexec}/bin/*"]
+# bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env("1.8"))

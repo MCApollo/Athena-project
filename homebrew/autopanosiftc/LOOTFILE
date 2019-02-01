@@ -1,0 +1,16 @@
+# autopano-sift-c.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/autopano-sift-c.rb
+# Converted on 02-01-2019
+
+name='autopanosiftc'
+url=('https://downloads.sourceforge.net/project/hugin/autopano-sift-C/autopano-sift-C-2.5.1/autopano-sift-C-2.5.1.tar.gz')
+description='Find control points in overlapping image pairs'
+version='2.5.1' # Guessed version.
+priority='optional'
+homepage='https://wiki.panotools.org/Autopano-sift-C'
+depends=('libpano')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

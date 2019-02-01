@@ -1,0 +1,18 @@
+# libidn.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libidn.rb
+# Converted on 02-01-2019
+
+name='libidn'
+url=('https://ftp.gnu.org/gnu/libidn/libidn-1.35.tar.gz')
+description='International domain name library'
+version='1.35' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/libidn/'
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--disable-csharp",
+# "--with-lispdir=#{elisp}"
+# system "make", "install"

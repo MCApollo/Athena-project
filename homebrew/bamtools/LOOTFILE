@@ -1,0 +1,17 @@
+# bamtools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bamtools.rb
+# Converted on 02-01-2019
+
+name='bamtools'
+url=('https://github.com/pezmaster31/bamtools/archive/v2.5.1.tar.gz')
+description='C++ API and command-line toolkit for BAM data'
+version='2.5.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/pezmaster31/bamtools'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

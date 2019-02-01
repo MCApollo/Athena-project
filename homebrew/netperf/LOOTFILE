@@ -1,0 +1,15 @@
+# netperf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/netperf.rb
+# Converted on 02-01-2019
+
+name='netperf'
+url=('https://github.com/HewlettPackard/netperf/archive/netperf-2.7.0.tar.gz')
+description='Benchmarks performance of many different types of networking'
+version='2.7.0' # Guessed version.
+priority='optional'
+homepage='https://hewlettpackard.github.io/netperf/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

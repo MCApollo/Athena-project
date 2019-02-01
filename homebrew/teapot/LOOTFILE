@@ -1,0 +1,22 @@
+# teapot.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/teapot.rb
+# Converted on 02-01-2019
+
+name='teapot'
+url=('https://www.syntax-k.de/projekte/teapot/teapot-2.3.0.tar.gz')
+description='Table editor and planner'
+version='2.3.0' # Guessed version.
+priority='optional'
+homepage='https://www.syntax-k.de/projekte/teapot/'
+makedepends=('cmake')
+
+# A diff file was written to teapot.diff
+# --> Patch the file before building.
+
+###### Install ######
+# args = std_cmake_args + ["-DENABLE_HELP=OFF", ".."]
+# mkdir "macbuild" do
+# system "cmake", *args
+# system "make", "install"
+# end
+# doc.install "doc/teapot.lyx"

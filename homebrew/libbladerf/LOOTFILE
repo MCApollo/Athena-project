@@ -1,0 +1,19 @@
+# libbladerf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbladerf.rb
+# Converted on 02-01-2019
+
+name='libbladerf'
+url=('https://github.com/Nuand/bladeRF/archive/2018.08.tar.gz')
+description='USB 3.0 Superspeed Software Defined Radio Source'
+version='2018.08' # Guessed version.
+priority='optional'
+homepage='https://nuand.com/'
+depends=('libusb')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# ENV.prepend "CFLAGS", "-I#{MacOS.sdk_path}/usr/include/malloc"
+# mkdir "host/build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

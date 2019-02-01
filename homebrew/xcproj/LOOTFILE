@@ -1,0 +1,20 @@
+# xcproj.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xcproj.rb
+# Converted on 02-01-2019
+
+name='xcproj'
+url=('https://github.com/0xced/xcproj/archive/0.2.1.tar.gz')
+description='Manipulate Xcode project files'
+version='0.2.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/0xced/xcproj'
+depends=(':xcode')
+
+###### Install ######
+# xcodebuild "-project", "xcproj.xcodeproj",
+# "-scheme", "xcproj",
+# "SYMROOT=build",
+# "DSTROOT=#{prefix}",
+# "INSTALL_PATH=/bin",
+# "-verbose",
+# "install"

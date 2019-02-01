@@ -1,0 +1,18 @@
+# taskell.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/taskell.rb
+# Converted on 02-01-2019
+
+name='taskell'
+url=('https://github.com/smallhadroncollider/taskell/archive/1.3.5.tar.gz')
+description='Command-line Kanban board/task manager with support for Trello'
+version='1.3.5' # Guessed version.
+priority='optional'
+homepage='https://taskell.app'
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# cabal_sandbox do
+# cabal_install "hpack"
+# system "./.cabal-sandbox/bin/hpack"
+# install_cabal_package
+# end

@@ -1,0 +1,19 @@
+# spin.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/spin.rb
+# Converted on 02-01-2019
+
+name='spin'
+url=('https://spinroot.com/spin/Src/spin648.tar.gz')
+description='The efficient verification tool of multi-threaded software'
+version=' '
+priority='optional'
+homepage='https://spinroot.com/spin/whatispin.html'
+
+###### Install ######
+# ENV.deparallelize
+# cd "Src#{version}" do
+# system "make"
+# bin.install "spin"
+# end
+# bin.install "iSpin/ispin.tcl" => "ispin"
+# man1.install "Man/spin.1"

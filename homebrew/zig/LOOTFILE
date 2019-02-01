@@ -1,0 +1,16 @@
+# zig.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zig.rb
+# Converted on 02-01-2019
+
+name='zig'
+url=('https://github.com/ziglang/zig/archive/0.3.0.tar.gz')
+description='Programming language designed for robustness, optimality, and clarity'
+version='0.3.0' # Guessed version.
+priority='optional'
+homepage='https://ziglang.org/'
+depends=('llvm')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

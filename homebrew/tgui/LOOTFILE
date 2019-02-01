@@ -1,0 +1,17 @@
+# tgui.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tgui.rb
+# Converted on 02-01-2019
+
+name='tgui'
+url=('https://github.com/texus/TGUI/archive/v0.8.2.tar.gz')
+description='GUI library for use with sfml'
+version='0.8.2' # Guessed version.
+priority='optional'
+homepage='https://tgui.eu'
+depends=('sfml')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args,
+# "-DTGUI_MISC_INSTALL_PREFIX=#{pkgshare}"
+# system "make", "install"

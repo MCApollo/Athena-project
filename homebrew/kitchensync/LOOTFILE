@@ -1,0 +1,21 @@
+# kitchen-sync.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kitchen-sync.rb
+# Converted on 02-01-2019
+
+name='kitchensync'
+url=('https://github.com/willbryant/kitchen_sync/archive/v1.10.tar.gz')
+description='Fast efficiently sync database without dumping & reloading'
+version='1.10' # Guessed version.
+priority='optional'
+homepage='https://github.com/willbryant/kitchen_sync'
+depends=('libpq' 'mysql-client')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".",
+# "-DMySQL_INCLUDE_DIR=#{Formula["mysql-client"].opt_include}/mysql",
+# "-DMySQL_LIBRARY_DIR=#{Formula["mysql-client"].opt_lib}",
+# "-DPostgreSQL_INCLUDE_DIR=#{Formula["libpq"].opt_include}",
+# "-DPostgreSQL_LIBRARY_DIR=#{Formula["libpq"].opt_lib}",
+# *std_cmake_args
+# system "make", "install"

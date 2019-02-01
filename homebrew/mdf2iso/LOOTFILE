@@ -1,0 +1,15 @@
+# mdf2iso.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mdf2iso.rb
+# Converted on 02-01-2019
+
+name='mdf2iso'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/m/mdf2iso/mdf2iso_0.3.1.orig.tar.gz')
+description='Tool to convert MDF (Alcohol 120% images) images to ISO images'
+version='0.3.1' # Guessed version.
+priority='optional'
+homepage='https://packages.debian.org/sid/mdf2iso'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

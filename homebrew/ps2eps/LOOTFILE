@@ -1,0 +1,22 @@
+# ps2eps.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ps2eps.rb
+# Converted on 02-01-2019
+
+name='ps2eps'
+url=('https://www.tm.uka.de/~bless/ps2eps-1.68.tar.gz')
+description='Convert PostScript to EPS files'
+version='1.68' # Guessed version.
+priority='optional'
+homepage='https://www.tm.uka.de/~bless/ps2eps'
+depends=('ghostscript')
+
+###### Install ######
+# system ENV.cc, "src/C/bbox.c", "-o", "bbox"
+# bin.install "bbox"
+# (libexec/"bin").install "bin/ps2eps"
+# (bin/"ps2eps").write <<~EOS
+# #!/bin/sh
+# perl -S #{libexec}/bin/ps2eps \"$@\"
+# EOS
+# share.install "doc/man"
+# doc.install "doc/pdf", "doc/html"

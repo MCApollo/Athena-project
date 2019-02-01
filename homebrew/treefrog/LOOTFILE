@@ -1,0 +1,22 @@
+# treefrog.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/treefrog.rb
+# Converted on 02-01-2019
+
+name='treefrog'
+url=('https://github.com/treefrogframework/treefrog-framework/archive/v1.22.0.tar.gz')
+description='High-speed C++ MVC Framework for Web Application'
+version='1.22.0' # Guessed version.
+priority='optional'
+homepage='http://www.treefrogframework.org/'
+depends=(':xcode' ':macos' 'qt')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# cd "src" do
+# system "make"
+# system "make", "install"
+# end
+# cd "tools" do
+# system "make"
+# system "make", "install"
+# end

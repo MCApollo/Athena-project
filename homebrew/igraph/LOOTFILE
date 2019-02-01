@@ -1,0 +1,20 @@
+# igraph.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/igraph.rb
+# Converted on 02-01-2019
+
+name='igraph'
+url=('https://igraph.org/nightly/get/c/igraph-0.7.1.tar.gz')
+description='Network analysis package'
+version='0.7.1' # Guessed version.
+priority='optional'
+homepage='https://igraph.org/'
+depends=('glpk' 'gmp')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-external-blas",
+# "--with-external-lapack",
+# "--with-external-glpk"
+# system "make", "install"

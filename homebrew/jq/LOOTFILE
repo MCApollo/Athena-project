@@ -1,0 +1,19 @@
+# jq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jq.rb
+# Converted on 02-01-2019
+
+name='jq'
+url=('https://github.com/stedolan/jq/releases/download/jq-1.6/jq-1.6.tar.gz')
+description='Lightweight and flexible command-line JSON processor'
+version='1.6' # Guessed version.
+priority='optional'
+homepage='https://stedolan.github.io/jq/'
+depends=('oniguruma')
+
+###### Install ######
+# system "autoreconf", "-iv" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--disable-maintainer-mode",
+# "--prefix=#{prefix}"
+# system "make", "install"

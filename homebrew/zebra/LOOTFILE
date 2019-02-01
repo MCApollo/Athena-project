@@ -1,0 +1,23 @@
+# zebra.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zebra.rb
+# Converted on 02-01-2019
+
+name='zebra'
+url=('http://ftp.indexdata.dk/pub/zebra/idzebra-2.1.4.tar.gz')
+description='Information management system'
+version='2.1.4' # Guessed version.
+priority='optional'
+homepage='https://www.indexdata.com/zebra'
+depends=('icu4c' 'yaz')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-mod-text",
+# "--enable-mod-grs-regx",
+# "--enable-mod-grs-marc",
+# "--enable-mod-grs-xml",
+# "--enable-mod-dom",
+# "--enable-mod-alvis",
+# "--enable-mod-safari"
+# system "make", "install"

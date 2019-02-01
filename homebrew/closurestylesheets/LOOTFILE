@@ -1,0 +1,15 @@
+# closure-stylesheets.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/closure-stylesheets.rb
+# Converted on 02-01-2019
+
+name='closurestylesheets'
+url=('https://github.com/google/closure-stylesheets/releases/download/v1.5.0/closure-stylesheets.jar')
+description='Extended CSS preprocessor, linter, and internationalizer'
+version=' '
+priority='optional'
+homepage='https://github.com/google/closure-stylesheets'
+depends=(':java')
+
+###### Install ######
+# libexec.install "closure-stylesheets.jar"
+# bin.write_jar_script libexec/"closure-stylesheets.jar", "closure-stylesheets"

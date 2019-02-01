@@ -1,0 +1,17 @@
+# mikmod.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mikmod.rb
+# Converted on 02-01-2019
+
+name='mikmod'
+url=('https://downloads.sourceforge.net/project/mikmod/mikmod/3.2.8/mikmod-3.2.8.tar.gz')
+description='Portable tracked music player'
+version='3.2.8' # Guessed version.
+priority='optional'
+homepage='https://mikmod.sourceforge.io/'
+depends=('libmikmod')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

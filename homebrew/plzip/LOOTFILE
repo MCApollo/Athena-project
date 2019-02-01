@@ -1,0 +1,20 @@
+# plzip.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/plzip.rb
+# Converted on 02-01-2019
+
+name='plzip'
+url=('https://download.savannah.gnu.org/releases/lzip/plzip/plzip-1.7.tar.gz')
+description='Data compressor'
+version='1.7' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/lzip/plzip.html'
+depends=('lzlib')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/68e2af8/plzip/pthread.diff')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "check"
+# ENV.deparallelize
+# system "make", "install"

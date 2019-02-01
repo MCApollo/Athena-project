@@ -1,0 +1,17 @@
+# pngcrush.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pngcrush.rb
+# Converted on 02-01-2019
+
+name='pngcrush'
+url=('https://downloads.sourceforge.net/project/pmt/pngcrush/1.8.13/pngcrush-1.8.13.tar.xz')
+description='Optimizer for PNG files'
+version='1.8.13' # Guessed version.
+priority='optional'
+homepage='https://pmt.sourceforge.io/pngcrush'
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}",
+# "LD=#{ENV.cc}",
+# "CFLAGS=#{ENV.cflags}",
+# "LDFLAGS=#{ENV.ldflags}"
+# bin.install "pngcrush"

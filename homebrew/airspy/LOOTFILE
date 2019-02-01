@@ -1,0 +1,22 @@
+# airspy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/airspy.rb
+# Converted on 02-01-2019
+
+name='airspy'
+url=('https://github.com/airspy/airspyone_host/archive/v1.0.9.tar.gz')
+description='The usemode driver and associated tools for airspy'
+version='1.0.9' # Guessed version.
+priority='optional'
+homepage='https://airspy.com/'
+depends=('libusb')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# args = std_cmake_args
+# libusb = Formula["libusb"]
+# args << "-DLIBUSB_INCLUDE_DIR=#{libusb.opt_include}/libusb-1.0"
+# args << "-DLIBUSB_LIBRARIES=#{libusb.opt_lib}/libusb-1.0.dylib"
+# mkdir "build" do
+# system "cmake", "..", *args
+# system "make", "install"
+# end

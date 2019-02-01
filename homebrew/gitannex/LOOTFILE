@@ -1,0 +1,19 @@
+# git-annex.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-annex.rb
+# Converted on 02-01-2019
+
+name='gitannex'
+url=('https://hackage.haskell.org/package/git-annex-7.20181121/git-annex-7.20181121.tar.gz')
+description='Manage files with git without checking in file contents'
+version='7.20181121' # Guessed version.
+priority='optional'
+homepage='https://git-annex.branchable.com/'
+depends=('gsasl' 'libmagic' 'quvi' 'xdot')
+makedepends=('cabal-install' 'ghc@8.2' 'pkg-config')
+
+###### Install ######
+# install_cabal_package "--constraint", "http-conduit<2.3",
+# "--constraint", "network<2.7.0.1",
+# :using => ["alex", "happy", "c2hs"],
+# :flags => ["s3", "webapp"]
+# bin.install_symlink "git-annex" => "git-annex-shell"

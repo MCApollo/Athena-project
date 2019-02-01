@@ -1,0 +1,15 @@
+# soundpipe.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/soundpipe.rb
+# Converted on 02-01-2019
+
+name='soundpipe'
+url=('https://github.com/PaulBatchelor/soundpipe/archive/v1.7.0.tar.gz')
+description='Lightweight music DSP library'
+version='1.7.0' # Guessed version.
+priority='optional'
+homepage='https://paulbatchelor.github.io/proj/soundpipe.html'
+depends=('libsndfile')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"
+# pkgshare.install "examples", "test"

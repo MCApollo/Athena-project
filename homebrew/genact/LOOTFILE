@@ -1,0 +1,14 @@
+# genact.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/genact.rb
+# Converted on 02-01-2019
+
+name='genact'
+url=('https://github.com/svenstaro/genact/archive/0.6.0.tar.gz')
+description='Nonsense activity generator'
+version='0.6.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/svenstaro/genact'
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

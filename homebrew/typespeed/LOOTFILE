@@ -1,0 +1,17 @@
+# typespeed.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/typespeed.rb
+# Converted on 02-01-2019
+
+name='typespeed'
+url=('https://downloads.sourceforge.net/project/typespeed/typespeed/0.6.5/typespeed-0.6.5.tar.gz')
+description='Zap words flying across the screen by typing them correctly'
+version='0.6.5' # Guessed version.
+priority='optional'
+homepage='https://typespeed.sourceforge.io'
+
+###### Install ######
+# inreplace "src/Makefile.in", "gcc", ENV.cc
+# inreplace "testsuite/Makefile.in", "gcc", ENV.cc
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

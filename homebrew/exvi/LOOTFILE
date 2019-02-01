@@ -1,0 +1,17 @@
+# ex-vi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ex-vi.rb
+# Converted on 02-01-2019
+
+name='exvi'
+url=('https://downloads.sourceforge.net/project/ex-vi/ex-vi/050325/ex-050325.tar.bz2')
+description='UTF8-friendly version of tradition vi'
+version=' '
+priority='optional'
+homepage='https://ex-vi.sourceforge.io/'
+makedepends=('')
+
+###### Install ######
+# system "make", "install", "INSTALL=/usr/bin/install",
+# "PREFIX=#{prefix}",
+# "PRESERVEDIR=/var/tmp/vi.recover",
+# "TERMLIB=ncurses"

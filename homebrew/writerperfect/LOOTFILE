@@ -1,0 +1,17 @@
+# writerperfect.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/writerperfect.rb
+# Converted on 02-01-2019
+
+name='writerperfect'
+url=('https://downloads.sourceforge.net/project/libwpd/writerperfect/writerperfect-0.9.6/writerperfect-0.9.6.tar.xz')
+description='Library for importing WordPerfect documents'
+version='0.9.6' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/p/libwpd/wiki/writerperfect/'
+depends=('libodfgen' 'libwpd' 'libwpg' 'libwps')
+makedepends=('boost' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

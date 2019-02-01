@@ -1,0 +1,21 @@
+# sqoop.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sqoop.rb
+# Converted on 02-01-2019
+
+name='sqoop'
+url=('https://archive.apache.org/dist/sqoop/1.4.6/sqoop-1.4.6.bin__hadoop-2.0.4-alpha.tar.gz')
+description='Transfer bulk data between Hadoop and structured datastores'
+version='1.4.6' # Guessed version.
+priority='optional'
+homepage='https://sqoop.apache.org/'
+depends=('coreutils' 'hadoop' 'hbase' 'hive' ':java' 'zookeeper')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/77adf73/sqoop/1.4.6.patch')
+
+###### Install ######
+# libexec.install %w[bin conf lib]
+# libexec.install Dir["*.jar"]
+# bin.install Dir["#{libexec}/bin/*"]
+# bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env("1.6+"))
+# envs = libexec/"conf/sqoop-env.sh"
+# envs.write(sqoop_envs) unless envs.exist?

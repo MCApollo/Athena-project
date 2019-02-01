@@ -1,0 +1,15 @@
+# vcsh.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vcsh.rb
+# Converted on 02-01-2019
+
+name='vcsh'
+url=('https://github.com/RichiH/vcsh/archive/v1.20151229-1.tar.gz')
+description='Config manager based on git'
+version='1.20151229' # Guessed version.
+priority='optional'
+homepage='https://github.com/RichiH/vcsh'
+
+###### Install ######
+# bin.install "vcsh"
+# man1.install "vcsh.1"
+# zsh_completion.install "_vcsh"

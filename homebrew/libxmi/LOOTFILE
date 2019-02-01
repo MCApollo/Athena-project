@@ -1,0 +1,15 @@
+# libxmi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxmi.rb
+# Converted on 02-01-2019
+
+name='libxmi'
+url=('https://ftp.gnu.org/gnu/libxmi/libxmi-1.2.tar.gz')
+description='C/C++ function library for rasterizing 2D vector graphics'
+version='1.2' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/libxmi/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}", "--infodir=#{info}"
+# system "make", "install"

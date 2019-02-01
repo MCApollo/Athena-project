@@ -1,0 +1,17 @@
+# ott.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ott.rb
+# Converted on 02-01-2019
+
+name='ott'
+url=('https://github.com/ott-lang/ott/archive/0.28.tar.gz')
+description='Tool for writing definitions of programming languages and calculi'
+version='0.28' # Guessed version.
+priority='optional'
+homepage='https://www.cl.cam.ac.uk/~pes20/ott/'
+makedepends=('ocaml')
+
+###### Install ######
+# system "make", "world"
+# bin.install "bin/ott"
+# pkgshare.install "examples"
+# (pkgshare/"emacs/site-lisp/ott").install "emacs/ott-mode.el"

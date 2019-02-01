@@ -1,0 +1,18 @@
+# libxc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxc.rb
+# Converted on 02-01-2019
+
+name='libxc'
+url=('https://tddft.org/programs/octopus/download/libxc/4.2.3/libxc-4.2.3.tar.gz')
+description='Library of exchange and correlation functionals for codes'
+version='4.2.3' # Guessed version.
+priority='optional'
+homepage='https://tddft.org/programs/libxc/'
+depends=('gcc')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--enable-shared",
+# "FCCPP=gfortran -E -x c",
+# "CC=#{ENV.cc}"
+# system "make", "install"

@@ -1,0 +1,18 @@
+# rzip.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rzip.rb
+# Converted on 02-01-2019
+
+name='rzip'
+url=('https://rzip.samba.org/ftp/rzip/rzip-2.1.tar.gz')
+description='File compression tool (like gzip or bzip2)'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://rzip.samba.org/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install", "INSTALL_MAN=#{man}"
+# bin.install_symlink "rzip" => "runzip"
+# man1.install_symlink "rzip.1" => "runzip.1"

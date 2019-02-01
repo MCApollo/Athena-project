@@ -1,0 +1,14 @@
+# mlogger.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mlogger.rb
+# Converted on 02-01-2019
+
+name='mlogger'
+url=('https://github.com/nbrownus/mlogger/archive/v1.2.0.tar.gz')
+description='Log to syslog from the command-line'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/nbrownus/mlogger'
+
+###### Install ######
+# system "make"
+# bin.install "mlogger"

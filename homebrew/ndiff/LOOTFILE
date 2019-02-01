@@ -1,0 +1,20 @@
+# ndiff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ndiff.rb
+# Converted on 02-01-2019
+
+name='ndiff'
+url=('http://ftp.math.utah.edu/pub/misc/ndiff-2.00.tar.gz')
+description='Virtual package provided by nmap'
+version='2.00' # Guessed version.
+priority='optional'
+homepage='https://www.math.utah.edu/~beebe/software/ndiff/'
+makedepends=('')
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--prefix=.", "--mandir=."
+# mkpath "bin"
+# mkpath "man/man1"
+# system "make", "install"
+# bin.install "bin/ndiff"
+# man1.install "man/man1/ndiff.1"

@@ -1,0 +1,39 @@
+# twtxt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/twtxt.rb
+# Converted on 02-01-2019
+
+name='twtxt'
+url=('https://github.com/buckket/twtxt/archive/v1.2.3.tar.gz')
+description='Decentralised, minimalist microblogging service for hackers'
+version='1.2.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/buckket/twtxt'
+depends=('python')
+
+# A diff file was written to twtxt.diff
+# --> Patch the file before building.
+
+###### Resource ######
+# aiohttp: https://files.pythonhosted.org/packages/c0/b9/853b158f5cb5d218daaff0fb0dbc2bd7de45b2c6c5f563dff0ee530ec52a/aiohttp-2.3.10.tar.gz
+# async_timeout: https://files.pythonhosted.org/packages/35/82/6c7975afd97661e6115eee5105359ee191a71ff3267fde081c7c8d05fae6/async-timeout-3.0.0.tar.gz
+# chardet: https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz
+# click: https://files.pythonhosted.org/packages/95/d9/c3336b6b5711c3ab9d1d3a80f1a3e2afeb9d8c02a7166462f6cc96570897/click-6.7.tar.gz
+# humanize: https://files.pythonhosted.org/packages/8c/e0/e512e4ac6d091fc990bbe13f9e0378f34cf6eecd1c6c268c9e598dcf5bb9/humanize-0.5.1.tar.gz
+# idna: https://files.pythonhosted.org/packages/65/c4/80f97e9c9628f3cac9b98bfca0402ede54e0563b56482e3e6e45c43c4935/idna-2.7.tar.gz
+# multidict: https://files.pythonhosted.org/packages/9d/b9/3cf1b908d7af6530209a7a16d71ab2734a736c3cdf0657e3a06d0209811e/multidict-4.3.1.tar.gz
+# python-dateutil: https://files.pythonhosted.org/packages/a0/b0/a4e3241d2dee665fea11baec21389aec6886655cd4db7647ddf96c3fad15/python-dateutil-2.7.3.tar.gz
+# six: https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
+# yarl: https://files.pythonhosted.org/packages/43/b8/057c3e5b546ff4b24263164ecda13f6962d85c9dc477fcc0bcdcb3adb658/yarl-1.2.6.tar.gz
+
+###### Install ######
+# xy = Language::Python.major_minor_version "python3"
+# ENV.prepend_create_path "PYTHONPATH", libexec/"vendor/lib/python#{xy}/site-packages"
+# resources.each do |r|
+# r.stage do
+# system "python3", *Language::Python.setup_install_args(libexec/"vendor")
+# end
+# end
+# ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python#{xy}/site-packages"
+# system "python3", *Language::Python.setup_install_args(libexec)
+# bin.install Dir[libexec/"bin/*"]
+# bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])

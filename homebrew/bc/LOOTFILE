@@ -1,0 +1,22 @@
+# bc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bc.rb
+# Converted on 02-01-2019
+
+name='bc'
+url=('https://ftp.gnu.org/gnu/bc/bc-1.07.1.tar.gz')
+description='Arbitrary precision numeric processing language'
+version='1.07.1' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/bc/'
+
+###### Install ######
+# ENV.delete("BC_ENV_ARGS")
+# system "./configure",
+# "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--infodir=#{info}",
+# "--mandir=#{man}",
+# "--with-libedit"
+# system "make", "install"

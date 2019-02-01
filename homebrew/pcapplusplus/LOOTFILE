@@ -1,0 +1,15 @@
+# pcapplusplus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pcapplusplus.rb
+# Converted on 02-01-2019
+
+name='pcapplusplus'
+url=('https://github.com/seladb/PcapPlusPlus/archive/v18.08.tar.gz')
+description='C++ network sniffing, packet parsing and crafting framework'
+version='18.08' # Guessed version.
+priority='optional'
+homepage='https://seladb.github.io/PcapPlusPlus-Doc'
+
+###### Install ######
+# system "./configure-mac_os_x.sh", "--install-dir", prefix
+# system "make", "all"
+# system "make", "install"

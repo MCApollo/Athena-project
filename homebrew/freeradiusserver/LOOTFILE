@@ -1,0 +1,28 @@
+# freeradius-server.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/freeradius-server.rb
+# Converted on 02-01-2019
+
+name='freeradiusserver'
+url=('https://github.com/FreeRADIUS/freeradius-server/archive/release_3_0_17.tar.gz')
+description='High-performance and highly configurable RADIUS server'
+version=' '
+priority='optional'
+homepage='https://freeradius.org/'
+depends=('openssl' 'talloc')
+
+###### Install ######
+# ENV.deparallelize
+# args = %W[
+# --prefix=#{prefix}
+# --sbindir=#{bin}
+# --localstatedir=#{var}
+# --with-openssl-includes=#{Formula["openssl"].opt_include}
+# --with-openssl-libraries=#{Formula["openssl"].opt_lib}
+# --with-talloc-lib-dir=#{Formula["talloc"].opt_lib}
+# --with-talloc-include-dir=#{Formula["talloc"].opt_include}
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# (var/"run/radiusd").mkpath
+# (var/"log/radius").mkpath

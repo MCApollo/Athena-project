@@ -1,0 +1,14 @@
+# pony-stable.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pony-stable.rb
+# Converted on 02-01-2019
+
+name='ponystable'
+url=('https://github.com/ponylang/pony-stable/archive/0.1.6.tar.gz')
+description='Dependency manager for the Pony language'
+version='0.1.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/ponylang/pony-stable'
+depends=('ponyc')
+
+###### Install ######
+# system "make", "prefix=#{prefix}", "install"

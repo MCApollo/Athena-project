@@ -1,0 +1,18 @@
+# wordplay.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wordplay.rb
+# Converted on 02-01-2019
+
+name='wordplay'
+url=('http://hsvmovies.com/static_subpages/personal_orig/wordplay/wordplay722.tar.Z')
+description='Anagram generator'
+version=' '
+priority='optional'
+homepage='http://hsvmovies.com/static_subpages/personal_orig/wordplay/index.html'
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/5de9072/wordplay/patch-wordplay.c')
+
+###### Install ######
+# inreplace "wordplay.c", "@PREFIX@", prefix
+# system "make", "CC=#{ENV.cc}"
+# bin.install "wordplay"
+# pkgshare.install "words721.txt"

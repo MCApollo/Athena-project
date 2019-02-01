@@ -1,0 +1,18 @@
+# libsass.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsass.rb
+# Converted on 02-01-2019
+
+name='libsass'
+url=('https://github.com/sass/libsass.git')
+description='C implementation of a Sass compiler'
+version=' '
+priority='optional'
+homepage='https://github.com/sass/libsass'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# ENV.cxx11
+# system "autoreconf", "-fvi"
+# system "./configure", "--prefix=#{prefix}", "--disable-silent-rules",
+# "--disable-dependency-tracking"
+# system "make", "install"

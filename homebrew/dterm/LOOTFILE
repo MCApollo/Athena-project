@@ -1,0 +1,15 @@
+# dterm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dterm.rb
+# Converted on 02-01-2019
+
+name='dterm'
+url=('http://www.knossos.net.nz/downloads/dterm-0.5.tgz')
+description='Terminal emulator for use with xterm and friends'
+version='0.5' # Guessed version.
+priority='optional'
+homepage='http://www.knossos.net.nz/resources/free-software/dterm/'
+
+###### Install ######
+# bin.mkpath
+# system "make"
+# system "make", "install", "BIN=#{bin}/"

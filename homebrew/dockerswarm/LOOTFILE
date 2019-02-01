@@ -1,0 +1,19 @@
+# docker-swarm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-swarm.rb
+# Converted on 02-01-2019
+
+name='dockerswarm'
+url=('https://github.com/docker/swarm/archive/v1.2.9.tar.gz')
+description='Turn a pool of Docker hosts into a single, virtual host'
+version='1.2.9' # Guessed version.
+priority='optional'
+homepage='https://github.com/docker/swarm'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/docker/swarm").install buildpath.children
+# cd "src/github.com/docker/swarm" do
+# system "go", "build", "-o", bin/"docker-swarm"
+# prefix.install_metafiles
+# end

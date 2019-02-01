@@ -1,0 +1,20 @@
+# libgig.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgig.rb
+# Converted on 02-01-2019
+
+name='libgig'
+url=('https://download.linuxsampler.org/packages/libgig-4.1.0.tar.bz2')
+description='Library for Gigasampler and DLS (Downloadable Sounds) Level 1/2 files'
+version='4.1.0' # Guessed version.
+priority='optional'
+homepage='https://www.linuxsampler.org/libgig/'
+depends=('libsndfile')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.deparallelize
+# ENV.append "LDFLAGS", "-framework CoreFoundation"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

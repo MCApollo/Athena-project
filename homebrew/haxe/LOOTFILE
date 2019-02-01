@@ -1,0 +1,40 @@
+# haxe.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/haxe.rb
+# Converted on 02-01-2019
+
+name='haxe'
+url=('https://github.com/HaxeFoundation/haxe.git')
+description='Multi-platform programming language'
+version=' '
+priority='optional'
+homepage='https://haxe.org/'
+depends=('neko' 'pcre')
+makedepends=('camlp4' 'cmake' 'ocaml')
+
+###### Install ######
+# ENV["OCAMLPARAM"] = "safe-string=0,_"
+# ENV.deparallelize
+# if build.head?
+# Dir.mktmpdir("opamroot") do |opamroot|
+# ENV["OPAMROOT"] = opamroot
+# ENV["OPAMYES"] = "1"
+# system "opam", "init", "--no-setup"
+# system "opam", "config", "exec", "--",
+# "opam", "pin", "add", "haxe", buildpath, "--no-action"
+# system "opam", "config", "exec", "--",
+# "opam", "install", "haxe", "--deps-only"
+# system "opam", "config", "exec", "--",
+# "make", "ADD_REVISION=1"
+# end
+# else
+# system "make", "OCAMLOPT=ocamlopt.opt"
+# end
+# cd "extra/haxelib_src" do
+# system "cmake", "."
+# system "make"
+# end
+# rm "haxelib"
+# cp "extra/haxelib_src/haxelib", "haxelib"
+# bin.mkpath
+# system "make", "install", "INSTALL_BIN_DIR=#{bin}",
+# "INSTALL_LIB_DIR=#{lib}/haxe", "INSTALL_STD_DIR=#{lib}/haxe/std"

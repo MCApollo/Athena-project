@@ -1,0 +1,14 @@
+# boot-clj.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/boot-clj.rb
+# Converted on 02-01-2019
+
+name='bootclj'
+url=('https://github.com/boot-clj/boot-bin/releases/download/2.7.2/boot.sh')
+description='Build tooling for Clojure'
+version=' '
+priority='optional'
+homepage='https://boot-clj.com/'
+depends=(':java')
+
+###### Install ######
+# bin.install "boot.sh" => "boot"

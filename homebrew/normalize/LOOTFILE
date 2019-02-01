@@ -1,0 +1,22 @@
+# normalize.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/normalize.rb
+# Converted on 02-01-2019
+
+name='normalize'
+url=('https://savannah.nongnu.org/download/normalize/normalize-0.7.7.tar.gz')
+description='Adjust volume of audio files to a standard level'
+version='0.7.7' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/normalize/'
+depends=('mad')
+makedepends=('')
+
+###### Install ######
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --mandir=#{man}
+# ]
+# system "./configure", *args
+# system "make", "install"

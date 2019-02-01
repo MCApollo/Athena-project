@@ -1,0 +1,20 @@
+# aubio.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aubio.rb
+# Converted on 02-01-2019
+
+name='aubio'
+url=('https://aubio.org/pub/aubio-0.4.7.tar.bz2')
+description='Extract annotations from audio signals'
+version='0.4.7' # Guessed version.
+priority='optional'
+homepage='https://aubio.org/'
+depends=('numpy' 'python')
+makedepends=('libtool' 'pkg-config')
+
+###### Install ######
+# ENV.refurbish_args
+# system "python3", "./waf", "configure", "--prefix=#{prefix}"
+# system "python3", "./waf", "build"
+# system "python3", "./waf", "install"
+# system "python3", *Language::Python.setup_install_args(prefix)
+# bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])

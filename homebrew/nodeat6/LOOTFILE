@@ -1,0 +1,22 @@
+# node@6.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/node@6.rb
+# Converted on 02-01-2019
+
+name='nodeat6'
+url=('https://nodejs.org/dist/v6.16.0/node-v6.16.0.tar.xz')
+description='Platform built on V8 to build network applications'
+version='6.16.0' # Guessed version.
+priority='optional'
+homepage='https://nodejs.org/'
+makedepends=('pkg-config' 'python@2')
+
+###### Resource ######
+# icu4c: https://ssl.icu-project.org/files/icu4c/58.2/icu4c-58_2-src.tgz
+
+###### Install ######
+# inreplace "common.gypi", "'MACOSX_DEPLOYMENT_TARGET': '10.7',",
+# "'MACOSX_DEPLOYMENT_TARGET': '#{MacOS.version}',"
+# resource("icu4c").stage buildpath/"deps/icu"
+# system "./configure", "--prefix=#{prefix}", "--with-intl=full-icu"
+# system "make", "install"
+# (lib/"node_modules/npm/npmrc").atomic_write("prefix = #{HOMEBREW_PREFIX}\nnodedir = #{opt_prefix}\n")

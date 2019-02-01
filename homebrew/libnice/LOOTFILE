@@ -1,0 +1,18 @@
+# libnice.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libnice.rb
+# Converted on 02-01-2019
+
+name='libnice'
+url=('https://nice.freedesktop.org/releases/libnice-0.1.15.tar.gz')
+description='GLib ICE implementation'
+version='0.1.15' # Guessed version.
+priority='optional'
+homepage='https://wiki.freedesktop.org/nice/'
+depends=('glib' 'gnutls' 'gstreamer')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

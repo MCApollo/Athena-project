@@ -1,0 +1,22 @@
+# gedit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gedit.rb
+# Converted on 02-01-2019
+
+name='gedit'
+url=('https://download.gnome.org/sources/gedit/3.30/gedit-3.30.2.tar.xz')
+description='The GNOME text editor'
+version='3.30.2' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/Apps/Gedit'
+depends=('adwaita-icon-theme' 'atk' 'cairo' 'gdk-pixbuf' 'gettext' 'glib' 'gobject-introspection' 'gsettings-desktop-schemas' 'gspell' 'gtk+3' 'gtk-mac-integration' 'gtksourceview3' 'iso-codes' 'libpeas' 'libxml2' 'pango')
+makedepends=('intltool' 'itstool' 'pkg-config' 'vala')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--disable-updater",
+# "--disable-schemas-compile",
+# "--disable-python"
+# system "make", "install"
+# system "#{Formula["glib"].opt_bin}/glib-compile-schemas", "#{HOMEBREW_PREFIX}/share/glib-2.0/schemas"

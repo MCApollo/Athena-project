@@ -1,0 +1,53 @@
+# dmd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dmd.rb
+# Converted on 02-01-2019
+
+name='dmd'
+url=('https://github.com/dlang/dmd/archive/v2.084.0.tar.gz')
+description='D programming language compiler for macOS'
+version='2.084.0' # Guessed version.
+priority='optional'
+homepage='https://dlang.org/'
+
+###### Resource ######
+# druntime: https://github.com/dlang/druntime/archive/v2.084.0.tar.gz
+# phobos: https://github.com/dlang/phobos/archive/v2.084.0.tar.gz
+# tools: https://github.com/dlang/tools/archive/v2.084.0.tar.gz
+# phobos: https://github.com/dlang/phobos.git
+# tools: https://github.com/dlang/tools.git
+
+###### Install ######
+# make_args = %W[
+# INSTALL_DIR=#{prefix}
+# MODEL=64
+# BUILD=release
+# -f posix.mak
+# ]
+# dmd_make_args = %W[
+# SYSCONFDIR=#{etc}
+# TARGET_CPU=X86
+# AUTO_BOOTSTRAP=1
+# ENABLE_RELEASE=1
+# ]
+# system "make", *dmd_make_args, *make_args
+# make_args.unshift "DMD_DIR=#{buildpath}", "DRUNTIME_PATH=#{buildpath}/druntime", "PHOBOS_PATH=#{buildpath}/phobos"
+# (buildpath/"druntime").install resource("druntime")
+# system "make", "-C", "druntime", *make_args
+# (buildpath/"phobos").install resource("phobos")
+# system "make", "-C", "phobos", "VERSION=#{buildpath}/VERSION", *make_args
+# resource("tools").stage do
+# inreplace "posix.mak", "install: $(TOOLS) $(CURL_TOOLS)", "install: $(TOOLS) $(ROOT)/dustmite"
+# system "make", "install", *make_args
+# end
+# bin.install "generated/osx/release/64/dmd"
+# pkgshare.install "samples"
+# man.install Dir["docs/man/*"]
+# (include/"dlang/dmd").install Dir["druntime/import/*"]
+# cp_r ["phobos/std", "phobos/etc"], include/"dlang/dmd"
+# lib.install Dir["druntime/lib/*", "phobos/**/libphobos2.a"]
+# (buildpath/"dmd.conf").write <<~EOS
+# [Environment]
+# DFLAGS=-I#{opt_include}/dlang/dmd -L-L#{opt_lib}
+# EOS
+# etc.install "dmd.conf"
+# install_new_dmd_conf

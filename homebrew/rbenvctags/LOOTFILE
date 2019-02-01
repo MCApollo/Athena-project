@@ -1,0 +1,12 @@
+# rbenv-ctags.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rbenv-ctags.rb
+# Converted on 02-01-2019
+
+name='rbenvctags'
+url=('https://github.com/tpope/rbenv-ctags/archive/v1.0.2.tar.gz')
+description='Automatically generate ctags for rbenv Ruby stdlibs'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/tpope/rbenv-ctags'
+
+###### Install ######

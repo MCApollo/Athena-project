@@ -1,0 +1,17 @@
+# libotr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libotr.rb
+# Converted on 02-01-2019
+
+name='libotr'
+url=('https://otr.cypherpunks.ca/libotr-4.1.1.tar.gz')
+description='Off-The-Record (OTR) messaging library'
+version='4.1.1' # Guessed version.
+priority='optional'
+homepage='https://otr.cypherpunks.ca/'
+depends=('libgcrypt')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

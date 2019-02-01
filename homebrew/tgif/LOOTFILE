@@ -1,0 +1,15 @@
+# tgif.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tgif.rb
+# Converted on 02-01-2019
+
+name='tgif'
+url=('https://downloads.sourceforge.net/project/tgif/tgif/4.2.5/tgif-QPL-4.2.5.tar.gz')
+description='Xlib-based interactive 2D drawing tool'
+version='4.2.5' # Guessed version.
+priority='optional'
+homepage='http://bourbon.usc.edu/tgif/'
+depends=(':x11')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

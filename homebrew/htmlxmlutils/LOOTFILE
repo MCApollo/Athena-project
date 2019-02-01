@@ -1,0 +1,17 @@
+# html-xml-utils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/html-xml-utils.rb
+# Converted on 02-01-2019
+
+name='htmlxmlutils'
+url=('https://www.w3.org/Tools/HTML-XML-utils/html-xml-utils-7.7.tar.gz')
+description='Tools for manipulating HTML and XML files'
+version='7.7' # Guessed version.
+priority='optional'
+homepage='https://www.w3.org/Tools/HTML-XML-utils/'
+
+###### Install ######
+# ENV.append "CFLAGS", "-std=gnu89"
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

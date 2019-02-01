@@ -1,0 +1,20 @@
+# libbitcoin-database.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbitcoin-database.rb
+# Converted on 02-01-2019
+
+name='libbitcoindatabase'
+url=('https://github.com/libbitcoin/libbitcoin-database/archive/v3.5.0.tar.gz')
+description='Bitcoin High Performance Blockchain Database'
+version='3.5.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/libbitcoin/libbitcoin-database'
+depends=('libbitcoin')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# ENV.prepend_path "PKG_CONFIG_PATH", Formula["libbitcoin"].opt_libexec/"lib/pkgconfig"
+# system "./autogen.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

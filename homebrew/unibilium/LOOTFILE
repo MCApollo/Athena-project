@@ -1,0 +1,15 @@
+# unibilium.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/unibilium.rb
+# Converted on 02-01-2019
+
+name='unibilium'
+url=('https://github.com/mauke/unibilium/archive/v2.0.0.tar.gz')
+description='Very basic terminfo library'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/mauke/unibilium'
+makedepends=('libtool')
+
+###### Install ######
+# system "make"
+# system "make", "install", "PREFIX=#{prefix}"

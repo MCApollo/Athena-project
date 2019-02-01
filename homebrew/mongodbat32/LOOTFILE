@@ -1,0 +1,39 @@
+# mongodb@3.2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mongodb@3.2.rb
+# Converted on 02-01-2019
+
+name='mongodbat32'
+url=('https://fastdl.mongodb.org/src/mongodb-src-r3.2.21.tar.gz')
+description='High-performance, schema-free, document-oriented database'
+version='3.2.21' # Guessed version.
+priority='optional'
+homepage='https://www.mongodb.org/'
+depends=('openssl')
+makedepends=('go' 'scons')
+
+###### Install ######
+# Language::Go.stage_deps resources, buildpath/"src"
+# cd "src/github.com/mongodb/mongo-tools" do
+# ENV["LIBRARY_PATH"] = Formula["openssl"].opt_lib
+# ENV["CPATH"] = Formula["openssl"].opt_include
+# system "./build.sh", "ssl"
+# end
+# mkdir "src/mongo-tools"
+# cp Dir["src/github.com/mongodb/mongo-tools/bin/*"], "src/mongo-tools/"
+# args = %W[
+# -j#{ENV.make_jobs}
+# --osx-version-min=#{MacOS.version}
+# --prefix=#{prefix}
+# --ssl
+# --use-new-tools
+# CC=#{ENV.cc}
+# CXX=#{ENV.cxx}
+# CCFLAGS=-I#{Formula["openssl"].opt_include}
+# LINKFLAGS=-L#{Formula["openssl"].opt_lib}
+# ]
+# args << "--disable-warnings-as-errors" if MacOS.version >= :yosemite
+# system "scons", "install", *args
+# (buildpath/"mongod.conf").write mongodb_conf
+# etc.install "mongod.conf"
+# (var/"mongodb").mkpath
+# (var/"log/mongodb").mkpath

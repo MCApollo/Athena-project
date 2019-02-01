@@ -1,0 +1,15 @@
+# react-native-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/react-native-cli.rb
+# Converted on 02-01-2019
+
+name='reactnativecli'
+url=('https://registry.npmjs.org/react-native-cli/-/react-native-cli-2.0.1.tgz')
+description='The React Native CLI tools'
+version='2.0.1' # Guessed version.
+priority='optional'
+homepage='https://facebook.github.io/react-native/'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

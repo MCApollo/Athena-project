@@ -1,0 +1,20 @@
+# byobu.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/byobu.rb
+# Converted on 02-01-2019
+
+name='byobu'
+url=('https://launchpad.net/byobu/trunk/5.127/+download/byobu_5.127.orig.tar.gz')
+description='Text-based window manager and terminal multiplexer'
+version='5.127' # Guessed version.
+priority='optional'
+homepage='http://byobu.co/'
+depends=('coreutils' 'gnu-sed' 'newt' 'tmux')
+makedepends=('')
+
+###### Install ######
+# if build.head?
+# cp "./debian/changelog", "./ChangeLog"
+# system "autoreconf", "-fvi"
+# end
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

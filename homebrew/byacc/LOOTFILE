@@ -1,0 +1,15 @@
+# byacc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/byacc.rb
+# Converted on 02-01-2019
+
+name='byacc'
+url=('https://invisible-mirror.net/archives/byacc/byacc-20180609.tgz')
+description='(Arguably) the best yacc variant'
+version=' '
+priority='optional'
+homepage='https://invisible-island.net/byacc/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--program-prefix=b", "--prefix=#{prefix}", "--man=#{man}"
+# system "make", "install"

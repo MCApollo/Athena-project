@@ -1,0 +1,22 @@
+# ems-flasher.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ems-flasher.rb
+# Converted on 02-01-2019
+
+name='emsflasher'
+url=('https://lacklustre.net/projects/ems-flasher/ems-flasher-0.03.tgz')
+description='Software for flashing the EMS Gameboy USB cart'
+version='0.03' # Guessed version.
+priority='optional'
+homepage='https://lacklustre.net/projects/ems-flasher/'
+depends=('libusb')
+makedepends=('pkg-config')
+
+###### Install ######
+# if build.head?
+# system "./config.sh", "--prefix", prefix
+# man1.mkpath
+# system "make", "install"
+# else
+# system "make"
+# bin.install "ems-flasher"
+# end

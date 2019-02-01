@@ -1,0 +1,19 @@
+# mozjpeg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mozjpeg.rb
+# Converted on 02-01-2019
+
+name='mozjpeg'
+url=('https://github.com/mozilla/mozjpeg/archive/v3.3.1.tar.gz')
+description='Improved JPEG encoder'
+version='3.3.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/mozilla/mozjpeg'
+depends=('libpng')
+makedepends=('autoconf' 'automake' 'libtool' 'nasm' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "-fvi"
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-dependency-tracking",
+# "--with-jpeg8"
+# system "make", "install"

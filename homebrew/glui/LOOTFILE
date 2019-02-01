@@ -1,0 +1,21 @@
+# glui.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/glui.rb
+# Converted on 02-01-2019
+
+name='glui'
+url=('https://downloads.sourceforge.net/project/glui/Source/2.36/glui-2.36.tgz')
+description='C++ user interface library'
+version='2.36' # Guessed version.
+priority='optional'
+homepage='https://glui.sourceforge.io/'
+
+# A diff file was written to glui.diff
+# --> Patch the file before building.
+
+###### Install ######
+# cd "src" do
+# system "make", "setup"
+# system "make", "lib/libglui.a"
+# lib.install "lib/libglui.a"
+# include.install "include/GL"
+# end

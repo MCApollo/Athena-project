@@ -1,0 +1,13 @@
+# chgems.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/chgems.rb
+# Converted on 02-01-2019
+
+name='chgems'
+url=('https://github.com/postmodern/chgems/archive/v0.3.2.tar.gz')
+description='Chroot for Ruby gems'
+version='0.3.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/postmodern/chgems#readme'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

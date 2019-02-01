@@ -1,0 +1,16 @@
+# stuntman.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stuntman.rb
+# Converted on 02-01-2019
+
+name='stuntman'
+url=('http://www.stunprotocol.org/stunserver-1.2.13.tgz')
+description='Implementation of the STUN protocol'
+version='1.2.13' # Guessed version.
+priority='optional'
+homepage='http://www.stunprotocol.org/'
+depends=('openssl')
+makedepends=('boost')
+
+###### Install ######
+# system "make"
+# bin.install "stunserver", "stunclient", "stuntestcode"

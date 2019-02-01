@@ -1,0 +1,19 @@
+# pbc-sig.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pbc-sig.rb
+# Converted on 02-01-2019
+
+name='pbcsig'
+url=('https://crypto.stanford.edu/pbc/sig/files/pbc_sig-0.0.8.tar.gz')
+description='Signatures library'
+version='0.0.8' # Guessed version.
+priority='optional'
+homepage='https://crypto.stanford.edu/pbc/sig/'
+depends=('pbc')
+
+# A diff file was written to pbcsig.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

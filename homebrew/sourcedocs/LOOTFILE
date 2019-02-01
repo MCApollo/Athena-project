@@ -1,0 +1,15 @@
+# sourcedocs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sourcedocs.rb
+# Converted on 02-01-2019
+
+name='sourcedocs'
+url=('https://github.com/eneko/SourceDocs/archive/0.5.1.tar.gz')
+description='Generate Markdown files from inline source code documentation'
+version='0.5.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/eneko/SourceDocs'
+depends=(':xcode')
+
+###### Install ######
+# system "swift", "build", "--disable-sandbox", "-c", "release", "-Xswiftc", "-static-stdlib"
+# bin.install ".build/release/sourcedocs"

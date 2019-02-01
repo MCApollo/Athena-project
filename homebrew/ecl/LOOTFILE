@@ -1,0 +1,20 @@
+# ecl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ecl.rb
+# Converted on 02-01-2019
+
+name='ecl'
+url=('https://common-lisp.net/project/ecl/static/files/release/ecl-16.1.3.tgz')
+description='Embeddable Common Lisp'
+version='16.1.3' # Guessed version.
+priority='optional'
+homepage='https://common-lisp.net/project/ecl/'
+depends=('bdw-gc' 'gmp' 'libffi')
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--prefix=#{prefix}",
+# "--enable-threads=yes",
+# "--enable-boehm=system",
+# "--enable-gmp=system"
+# system "make"
+# system "make", "install"

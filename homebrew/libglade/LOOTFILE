@@ -1,0 +1,18 @@
+# libglade.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libglade.rb
+# Converted on 02-01-2019
+
+name='libglade'
+url=('https://download.gnome.org/sources/libglade/2.6/libglade-2.6.4.tar.gz')
+description='RAD tool to help build GTK+ interfaces'
+version='2.6.4' # Guessed version.
+priority='optional'
+homepage='https://glade.gnome.org'
+depends=('gtk+' 'libxml2')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.append "LDFLAGS", "-lgmodule-2.0"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

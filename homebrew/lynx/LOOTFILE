@@ -1,0 +1,23 @@
+# lynx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lynx.rb
+# Converted on 02-01-2019
+
+name='lynx'
+url=('https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2')
+description='Text-based web browser'
+version='2.8.9' # Guessed version.
+priority='optional'
+homepage='https://invisible-island.net/lynx/'
+depends=('openssl')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--disable-echo",
+# "--enable-default-colors",
+# "--with-zlib",
+# "--with-bzlib",
+# "--with-ssl=#{Formula["openssl"].opt_prefix}",
+# "--enable-ipv6"
+# system "make", "install"

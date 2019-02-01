@@ -1,0 +1,15 @@
+# classads.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/classads.rb
+# Converted on 02-01-2019
+
+name='classads'
+url=('http://ftp.cs.wisc.edu/condor/classad/c++/classads-1.0.10.tar.gz')
+description='Classified Advertisements (used by HTCondor Central Manager)'
+version='1.0.10' # Guessed version.
+priority='optional'
+homepage='https://research.cs.wisc.edu/htcondor/classad/'
+depends=('pcre')
+
+###### Install ######
+# system "./configure", "--enable-namespace", "--prefix=#{prefix}"
+# system "make", "install"

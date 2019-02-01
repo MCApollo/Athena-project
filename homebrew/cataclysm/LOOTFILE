@@ -1,0 +1,31 @@
+# cataclysm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cataclysm.rb
+# Converted on 02-01-2019
+
+name='cataclysm'
+url=('https://github.com/CleverRaven/Cataclysm-DDA/archive/0.C.tar.gz')
+description='Fork/variant of Cataclysm Roguelike'
+version=' '
+priority='optional'
+homepage='https://github.com/CleverRaven/Cataclysm-DDA'
+depends=('gettext' 'libogg' 'libvorbis' 'lua' 'sdl2' 'sdl2_image' 'sdl2_mixer' 'sdl2_ttf')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# args = %W[
+# NATIVE=osx
+# RELEASE=1
+# OSX_MIN=#{MacOS.version}
+# LUA=1
+# USE_HOME_DIR=1
+# TILES=1
+# SOUND=1
+# ]
+# args << "CLANG=1" if ENV.compiler == :clang
+# system "make", *args
+# libexec.install "cataclysm-tiles", "data", "gfx", "lua"
+# inreplace "cataclysm-launcher" do |s|
+# s.change_make_var! "DIR", libexec
+# end
+# bin.install "cataclysm-launcher" => "cataclysm"

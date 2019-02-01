@@ -1,0 +1,16 @@
+# zelda-roth-se.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zelda-roth-se.rb
+# Converted on 02-01-2019
+
+name='zeldarothse'
+url=('')
+description='Zelda Return of the Hylian SE'
+version=' '
+priority='optional'
+homepage='http://www.solarus-games.org/games/zelda-return-of-the-hylian-se/'
+depends=('solarus')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args, "-DSOLARUS_INSTALL_DATADIR=#{share}"
+# system "make", "install"

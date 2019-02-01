@@ -1,0 +1,18 @@
+# vavrdiasm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vavrdiasm.rb
+# Converted on 02-01-2019
+
+name='vavrdiasm'
+url=('https://github.com/vsergeev/vavrdisasm/archive/v3.1.tar.gz')
+description='8-bit Atmel AVR disassembler'
+version='3.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/vsergeev/vAVRdisasm'
+
+# A diff file was written to vavrdiasm.diff
+# --> Patch the file before building.
+
+###### Install ######
+# ENV["PREFIX"] = prefix
+# system "make"
+# system "make", "install"

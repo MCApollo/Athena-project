@@ -1,0 +1,20 @@
+# gconf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gconf.rb
+# Converted on 02-01-2019
+
+name='gconf'
+url=('https://download.gnome.org/sources/GConf/3.2/GConf-3.2.6.tar.xz')
+description='System for storing user application preferences'
+version='3.2.6' # Guessed version.
+priority='optional'
+homepage='https://projects.gnome.org/gconf/'
+depends=('dbus' 'dbus-glib' 'gettext' 'glib' 'orbit')
+makedepends=('intltool' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--disable-silent-rules", "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}"
+# system "make", "install"
+# rm lib/"gio/modules/giomodule.cache"
+# system Formula["glib"].opt_bin/"gio-querymodules", HOMEBREW_PREFIX/"lib/gio/modules"

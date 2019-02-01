@@ -1,0 +1,22 @@
+# epic5.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/epic5.rb
+# Converted on 02-01-2019
+
+name='epic5'
+url=('http://ftp.epicsol.org/pub/epic/EPIC5-PRODUCTION/epic5-2.0.1.tar.xz')
+description='Enhanced, programmable IRC client'
+version='2.0.1' # Guessed version.
+priority='optional'
+homepage='http://www.epicsol.org/'
+depends=('openssl')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--with-ipv6",
+# "--with-ssl=#{Formula["openssl"].opt_prefix}"
+# system "make"
+# system "make", "test"
+# system "make", "install"

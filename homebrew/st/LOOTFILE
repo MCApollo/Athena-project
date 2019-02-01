@@ -1,0 +1,18 @@
+# st.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/st.rb
+# Converted on 02-01-2019
+
+name='st'
+url=('https://github.com/nferraz/st/archive/v1.1.4.tar.gz')
+description='Statistics from the command-line'
+version='1.1.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/nferraz/st'
+
+###### Install ######
+# ENV.prepend_create_path "PERL5LIB", libexec/"lib/perl5/site_perl/"
+# system "perl", "Makefile.PL", "PREFIX=#{libexec}"
+# system "make", "install"
+# bin.install Dir[libexec/"bin/*"]
+# bin.env_script_all_files libexec/"bin", :PERL5LIB => ENV["PERL5LIB"]
+# man1.install_symlink Dir[libexec/"share/man/man1/*.1"]

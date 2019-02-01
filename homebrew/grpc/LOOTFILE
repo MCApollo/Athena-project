@@ -1,0 +1,22 @@
+# grpc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/grpc.rb
+# Converted on 02-01-2019
+
+name='grpc'
+url=('https://github.com/grpc/grpc/archive/v1.18.0.tar.gz')
+description='Next generation open source RPC library and framework'
+version='1.18.0' # Guessed version.
+priority='optional'
+homepage='https://www.grpc.io/'
+depends=('c-ares' 'gflags' 'openssl' 'protobuf')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Resource ######
+# gtest: https://github.com/google/googletest/archive/release-1.8.1.tar.gz
+
+###### Install ######
+# system "make", "install", "prefix=#{prefix}"
+# system "make", "install-plugins", "prefix=#{prefix}"
+# (buildpath/"third_party/googletest").install resource("gtest")
+# system "make", "grpc_cli", "prefix=#{prefix}"
+# bin.install "bins/opt/grpc_cli"

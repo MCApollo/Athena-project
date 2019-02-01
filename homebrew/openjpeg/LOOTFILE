@@ -1,0 +1,16 @@
+# openjpeg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/openjpeg.rb
+# Converted on 02-01-2019
+
+name='openjpeg'
+url=('https://github.com/uclouvain/openjpeg/archive/v2.3.0.tar.gz')
+description='Library for JPEG-2000 image manipulation'
+version='2.3.0' # Guessed version.
+priority='optional'
+homepage='https://www.openjpeg.org/'
+depends=('libpng' 'libtiff' 'little-cms2')
+makedepends=('cmake' 'doxygen')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args, "-DBUILD_DOC=ON"
+# system "make", "install"

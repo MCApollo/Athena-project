@@ -1,0 +1,16 @@
+# qriollo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qriollo.rb
+# Converted on 02-01-2019
+
+name='qriollo'
+url=('https://qriollo.github.io/Qriollo-0.91.tar.gz')
+description='Impure functional language, based on Rioplatense Spanish'
+version='0.91' # Guessed version.
+priority='optional'
+homepage='https://qriollo.github.io'
+makedepends=('ghc')
+
+###### Install ######
+# system "make"
+# bin.install "qr"
+# (lib/"chamuyo").install "Chamuyo.q"

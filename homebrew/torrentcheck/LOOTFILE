@@ -1,0 +1,15 @@
+# torrentcheck.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/torrentcheck.rb
+# Converted on 02-01-2019
+
+name='torrentcheck'
+url=('https://downloads.sourceforge.net/project/torrentcheck/torrentcheck-1.00.zip')
+description='Command-line torrent viewer and hash checker'
+version='1.00' # Guessed version.
+priority='optional'
+homepage='https://torrentcheck.sourceforge.io/'
+
+###### Install ######
+# inreplace "torrentcheck.c", "#include <malloc.h>", ""
+# system ENV.cc, "torrentcheck.c", "sha1.c", "-o", "torrentcheck", *ENV.cflags.to_s.split
+# bin.install "torrentcheck"

@@ -1,0 +1,15 @@
+# acpica.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/acpica.rb
+# Converted on 02-01-2019
+
+name='acpica'
+url=('https://acpica.org/sites/acpica/files/acpica-unix-20180810.tar.gz')
+description='OS-independent implementation of the ACPI specification'
+version=' '
+priority='optional'
+homepage='https://www.acpica.org/'
+
+###### Install ######
+# ENV.deparallelize
+# system "make", "PREFIX=#{prefix}"
+# system "make", "install", "PREFIX=#{prefix}"

@@ -1,0 +1,18 @@
+# dwarf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dwarf.rb
+# Converted on 02-01-2019
+
+name='dwarf'
+url=('https://github.com/elboza/dwarf-ng/archive/dwarf-0.4.0.tar.gz')
+description='Object file manipulation tool'
+version='0.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/elboza/dwarf-ng/'
+depends=('flex' 'readline')
+
+###### Install ######
+# %w[src/libdwarf.c doc/dwarf.man doc/xdwarf.man.html].each do |f|
+# inreplace f, "/etc/dwarfrc", etc/"dwarfrc"
+# end
+# system "make"
+# system "make", "install", "BINDIR=#{bin}", "MANDIR=#{man1}"

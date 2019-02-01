@@ -1,0 +1,26 @@
+# clutter-gst.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/clutter-gst.rb
+# Converted on 02-01-2019
+
+name='cluttergst'
+url=('https://download.gnome.org/sources/clutter-gst/3.0/clutter-gst-3.0.26.tar.xz')
+description='ClutterMedia interface using GStreamer for video and audio'
+version='3.0.26' # Guessed version.
+priority='optional'
+homepage='https://developer.gnome.org/clutter-gst/'
+depends=('clutter' 'gdk-pixbuf' 'gst-plugins-base' 'gstreamer')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --disable-debug
+# --prefix=#{prefix}
+# --enable-introspection=yes
+# --disable-silent-rules
+# --disable-gtk-doc-html
+# ]
+# ENV.append "CFLAGS", `pkg-config --cflags gdk-pixbuf-2.0`.chomp
+# ENV.append "LIBS", `pkg-config --libs gdk-pixbuf-2.0`.chomp
+# system "./configure", *args
+# system "make", "install"

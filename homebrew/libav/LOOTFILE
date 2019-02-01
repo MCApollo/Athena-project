@@ -1,0 +1,45 @@
+# libav.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libav.rb
+# Converted on 02-01-2019
+
+name='libav'
+url=('https://libav.org/releases/libav-12.3.tar.xz')
+description='Audio and video processing tools'
+version='12.3' # Guessed version.
+priority='optional'
+homepage='https://libav.org/'
+depends=('faac' 'fdk-aac' 'freetype' 'lame' 'libvorbis' 'libvpx' 'opus' 'sdl' 'theora' 'x264' 'xvid')
+makedepends=('pkg-config' 'texi2html' 'yasm')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/b6e917c/libav/Check-for--no_weak_imports-in-ldflags-on-macOS.patch')
+url+=('https://github.com/libav/libav/commit/c6558e8840fbb2386bf8742e4d68dd6e067d262e.patch?full_index=1')
+url+=('https://github.com/libav/libav/commit/141c960e21d2860e354f9b90df136184dd00a9a8.patch?full_index=1')
+
+###### Install ######
+# args = %W[
+# --disable-debug
+# --disable-shared
+# --disable-indev=jack
+# --prefix=#{prefix}
+# --cc=#{ENV.cc}
+# --host-cflags=#{ENV.cflags}
+# --host-ldflags=#{ENV.ldflags}
+# --enable-gpl
+# --enable-libfaac
+# --enable-libfdk-aac
+# --enable-libfreetype
+# --enable-libmp3lame
+# --enable-libopus
+# --enable-libvorbis
+# --enable-libvpx
+# --enable-libx264
+# --enable-libxvid
+# --enable-nonfree
+# --enable-vda
+# --enable-version3
+# --enable-libtheora
+# ]
+# system "./configure", *args
+# system "make"
+# bin.install "avconv", "avprobe", "avplay"
+# man1.install "doc/avconv.1", "doc/avprobe.1", "doc/avplay.1"

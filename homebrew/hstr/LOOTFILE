@@ -1,0 +1,18 @@
+# hstr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hstr.rb
+# Converted on 02-01-2019
+
+name='hstr'
+url=('https://github.com/dvorka/hstr/archive/2.0.tar.gz')
+description='Bash and zsh history suggest box'
+version='2.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/dvorka/hstr'
+depends=('readline')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "-fvi"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

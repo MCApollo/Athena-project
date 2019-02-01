@@ -1,0 +1,15 @@
+# shapelib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shapelib.rb
+# Converted on 02-01-2019
+
+name='shapelib'
+url=('https://download.osgeo.org/shapelib/shapelib-1.4.1.tar.gz')
+description='Library for reading and writing ArcView Shapefiles'
+version='1.4.1' # Guessed version.
+priority='optional'
+homepage='http://shapelib.maptools.org/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

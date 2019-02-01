@@ -1,0 +1,18 @@
+# swig.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/swig.rb
+# Converted on 02-01-2019
+
+name='swig'
+url=('https://downloads.sourceforge.net/project/swig/swig/swig-3.0.12/swig-3.0.12.tar.gz')
+description='Generate scripting interfaces to C/C++ code'
+version='3.0.12' # Guessed version.
+priority='optional'
+homepage='http://www.swig.org/'
+depends=('pcre')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

@@ -1,0 +1,25 @@
+# collectd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/collectd.rb
+# Converted on 02-01-2019
+
+name='collectd'
+url=('https://collectd.org/files/collectd-5.8.1.tar.bz2')
+description='Statistics collection and monitoring daemon'
+version='5.8.1' # Guessed version.
+priority='optional'
+homepage='https://collectd.org/'
+depends=('libgcrypt' 'libtool' 'net-snmp' 'riemann-client')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --localstatedir=#{var}
+# --disable-java
+# --enable-write_riemann
+# ]
+# system "./build.sh" if build.head?
+# system "./configure", *args
+# system "make", "install"

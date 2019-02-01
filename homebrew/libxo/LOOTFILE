@@ -1,0 +1,18 @@
+# libxo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxo.rb
+# Converted on 02-01-2019
+
+name='libxo'
+url=('https://github.com/Juniper/libxo/releases/download/0.9.0/libxo-0.9.0.tar.gz')
+description='Allows an application to generate text, XML, JSON, and HTML output'
+version='0.9.0' # Guessed version.
+priority='optional'
+homepage='https://juniper.github.io/libxo/libxo-manual.html'
+makedepends=('libtool')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

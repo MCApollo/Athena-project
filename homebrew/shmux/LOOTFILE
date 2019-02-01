@@ -1,0 +1,14 @@
+# shmux.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shmux.rb
+# Converted on 02-01-2019
+
+name='shmux'
+url=('https://github.com/shmux/shmux/archive/v1.0.2.tar.gz')
+description='Execute the same command on many hosts in parallel'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/shmux/shmux'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

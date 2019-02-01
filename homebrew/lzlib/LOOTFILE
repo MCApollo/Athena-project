@@ -1,0 +1,18 @@
+# lzlib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lzlib.rb
+# Converted on 02-01-2019
+
+name='lzlib'
+url=('https://download.savannah.gnu.org/releases/lzip/lzlib/lzlib-1.10.tar.gz')
+description='Data compression library'
+version='1.10' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/lzip/lzlib.html'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "CC=#{ENV.cc}",
+# "CFLAGS=#{ENV.cflags}"
+# system "make"
+# system "make", "check"
+# system "make", "install"

@@ -1,0 +1,12 @@
+# hubflow.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hubflow.rb
+# Converted on 02-01-2019
+
+name='hubflow'
+url=('https://github.com/datasift/gitflow.git')
+description='GitFlow for GitHub'
+version=' '
+priority='optional'
+homepage='https://datasift.github.io/gitflow/'
+
+###### Install ######

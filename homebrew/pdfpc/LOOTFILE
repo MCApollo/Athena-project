@@ -1,0 +1,16 @@
+# pdfpc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdfpc.rb
+# Converted on 02-01-2019
+
+name='pdfpc'
+url=('https://github.com/pdfpc/pdfpc/archive/v4.3.0.tar.gz')
+description='Presenter console with multi-monitor support for PDF files'
+version='4.3.0' # Guessed version.
+priority='optional'
+homepage='https://pdfpc.github.io/'
+depends=('gtk+3' 'libgee' 'librsvg' 'poppler')
+makedepends=('cmake' 'vala')
+
+###### Install ######
+# system "cmake", ".", "-DMOVIES=off", *std_cmake_args
+# system "make", "install"

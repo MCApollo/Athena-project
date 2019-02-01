@@ -1,0 +1,16 @@
+# libcuefile.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcuefile.rb
+# Converted on 02-01-2019
+
+name='libcuefile'
+url=('https://files.musepack.net/source/libcuefile_r475.tar.gz')
+description='Library to work with CUE files'
+version=' '
+priority='optional'
+homepage='https://www.musepack.net/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"
+# include.install "include/cuetools/"

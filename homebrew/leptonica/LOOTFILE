@@ -1,0 +1,22 @@
+# leptonica.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/leptonica.rb
+# Converted on 02-01-2019
+
+name='leptonica'
+url=('https://github.com/DanBloomberg/leptonica/releases/download/1.77.0/leptonica-1.77.0.tar.gz')
+description='Image processing and image analysis library'
+version='1.77.0' # Guessed version.
+priority='optional'
+homepage='http://www.leptonica.org/'
+depends=('giflib' 'jpeg' 'libpng' 'libtiff' 'openjpeg' 'webp')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --with-libwebp
+# --with-libopenjpeg
+# ]
+# system "./configure", *args
+# system "make", "install"

@@ -1,0 +1,12 @@
+# nave.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nave.rb
+# Converted on 02-01-2019
+
+name='nave'
+url=('https://github.com/isaacs/nave/archive/v2.2.3.tar.gz')
+description='Virtual environments for Node.js'
+version='2.2.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/isaacs/nave'
+
+###### Install ######

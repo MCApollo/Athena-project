@@ -1,0 +1,17 @@
+# mosquitto.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mosquitto.rb
+# Converted on 02-01-2019
+
+name='mosquitto'
+url=('https://mosquitto.org/files/source/mosquitto-1.5.5.tar.gz')
+description='Message broker implementing the MQTT protocol'
+version='1.5.5' # Guessed version.
+priority='optional'
+homepage='https://mosquitto.org/'
+depends=('libwebsockets' 'openssl')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args, "-DWITH_WEBSOCKETS=ON"
+# system "make", "install"
+# (var/"mosquitto").mkpath

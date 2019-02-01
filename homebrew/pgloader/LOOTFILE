@@ -1,0 +1,85 @@
+# pgloader.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pgloader.rb
+# Converted on 02-01-2019
+
+name='pgloader'
+url=('https://github.com/dimitri/pgloader/archive/v3.5.2.tar.gz')
+description='Data loading tool for PostgreSQL'
+version='3.5.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/dimitri/pgloader'
+depends=('freetds' 'postgresql' 'sbcl')
+makedepends=('buildapp' 'sphinx-doc')
+
+###### Resource ######
+# alexandria: https://beta.quicklisp.org/archive/alexandria/2017-08-30/alexandria-20170830-git.tgz
+# anaphora: https://beta.quicklisp.org/archive/anaphora/2018-02-28/anaphora-20180228-git.tgz
+# asdf-finalizers: https://beta.quicklisp.org/archive/asdf-finalizers/2017-04-03/asdf-finalizers-20170403-git.tgz
+# asdf-system-connections: https://beta.quicklisp.org/archive/asdf-system-connections/2017-01-24/asdf-system-connections-20170124-git.tgz
+# babel: https://beta.quicklisp.org/archive/babel/2017-12-27/babel-20171227-git.tgz
+# bordeaux-threads: https://beta.quicklisp.org/archive/bordeaux-threads/2016-03-18/bordeaux-threads-v0.8.5.tgz
+# cffi: https://beta.quicklisp.org/archive/cffi/2018-02-28/cffi_0.19.0.tgz
+# chipz: https://beta.quicklisp.org/archive/chipz/2018-03-28/chipz-20180328-git.tgz
+# chunga: https://beta.quicklisp.org/archive/chunga/2018-01-31/chunga-20180131-git.tgz
+# cl+ssl: https://beta.quicklisp.org/archive/cl+ssl/2018-03-28/cl+ssl-20180328-git.tgz
+# cl-abnf: https://beta.quicklisp.org/archive/cl-abnf/2015-06-08/cl-abnf-20150608-git.tgz
+# cl-base64: https://beta.quicklisp.org/archive/cl-base64/2015-09-23/cl-base64-20150923-git.tgz
+# cl-containers: https://beta.quicklisp.org/archive/cl-containers/2017-04-03/cl-containers-20170403-git.tgz
+# cl-csv: https://beta.quicklisp.org/archive/cl-csv/2018-02-28/cl-csv-20180228-git.tgz
+# cl-db3: https://beta.quicklisp.org/archive/cl-db3/2015-03-02/cl-db3-20150302-git.tgz
+# cl-fad: https://beta.quicklisp.org/archive/cl-fad/2018-04-30/cl-fad-20180430-git.tgz
+# cl-interpol: https://beta.quicklisp.org/archive/cl-interpol/2017-12-27/cl-interpol-20171227-git.tgz
+# cl-ixf: https://beta.quicklisp.org/archive/cl-ixf/2018-02-28/cl-ixf-20180228-git.tgz
+# cl-log: https://beta.quicklisp.org/archive/cl-log/2013-01-28/cl-log.1.0.1.tgz
+# cl-markdown: https://beta.quicklisp.org/archive/cl-markdown/2010-10-06/cl-markdown-20101006-darcs.tgz
+# cl-mssql: https://beta.quicklisp.org/archive/cl-mssql/2018-02-28/cl-mssql-20180228-git.tgz
+# cl-mustache: https://beta.quicklisp.org/archive/cl-mustache/2015-09-23/cl-mustache-20150923-git.tgz
+# cl-ppcre: https://beta.quicklisp.org/archive/cl-ppcre/2017-12-27/cl-ppcre-20171227-git.tgz
+# cl-sqlite: https://beta.quicklisp.org/archive/cl-sqlite/2013-06-15/cl-sqlite-20130615-git.tgz
+# cl-unicode: https://beta.quicklisp.org/archive/cl-unicode/2018-03-28/cl-unicode-20180328-git.tgz
+# cl-utilities: https://beta.quicklisp.org/archive/cl-utilities/2010-10-06/cl-utilities-1.2.4.tgz
+# closer-mop: https://beta.quicklisp.org/archive/closer-mop/2018-04-30/closer-mop-20180430-git.tgz
+# closure-common: https://beta.quicklisp.org/archive/closure-common/2010-11-07/closure-common-20101107-git.tgz
+# command-line-arguments: https://beta.quicklisp.org/archive/command-line-arguments/2015-12-18/command-line-arguments-20151218-git.tgz
+# cxml: https://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz
+# drakma: https://beta.quicklisp.org/archive/drakma/2017-08-30/drakma-v2.0.4.tgz
+# dynamic-classes: https://beta.quicklisp.org/archive/dynamic-classes/2013-01-28/dynamic-classes-20130128-git.tgz
+# esrap: https://beta.quicklisp.org/archive/esrap/2018-04-30/esrap-20180430-git.tgz
+# flexi-streams: https://beta.quicklisp.org/archive/flexi-streams/2018-03-28/flexi-streams-20180328-git.tgz
+# garbage-pools: https://beta.quicklisp.org/archive/garbage-pools/2013-07-20/garbage-pools-20130720-git.tgz
+# ieee-floats: https://beta.quicklisp.org/archive/ieee-floats/2017-08-30/ieee-floats-20170830-git.tgz
+# ironclad: https://beta.quicklisp.org/archive/ironclad/2018-04-30/ironclad-v0.39.tgz
+# iterate: https://beta.quicklisp.org/archive/iterate/2018-02-28/iterate-20180228-git.tgz
+# local-time: https://beta.quicklisp.org/archive/local-time/2018-02-28/local-time-20180228-git.tgz
+# lparallel: https://beta.quicklisp.org/archive/lparallel/2016-08-25/lparallel-20160825-git.tgz
+# md5: https://beta.quicklisp.org/archive/md5/2018-02-28/md5-20180228-git.tgz
+# metabang-bind: https://beta.quicklisp.org/archive/metabang-bind/2017-11-30/metabang-bind-20171130-git.tgz
+# metatilities-base: https://beta.quicklisp.org/archive/metatilities-base/2017-04-03/metatilities-base-20170403-git.tgz
+# nibbles: https://beta.quicklisp.org/archive/nibbles/2018-04-30/nibbles-20180430-git.tgz
+# parse-number: https://beta.quicklisp.org/archive/parse-number/2018-02-28/parse-number-v1.7.tgz
+# postmodern: https://beta.quicklisp.org/archive/postmodern/2018-04-30/postmodern-20180430-git.tgz
+# puri: https://beta.quicklisp.org/archive/puri/2018-02-28/puri-20180228-git.tgz
+# py-configparser: https://beta.quicklisp.org/archive/py-configparser/2017-08-30/py-configparser-20170830-svn.tgz
+# qmynd: https://beta.quicklisp.org/archive/qmynd/2018-01-31/qmynd-20180131-git.tgz
+# quri: https://beta.quicklisp.org/archive/quri/2016-12-04/quri-20161204-git.tgz
+# split-sequence: https://beta.quicklisp.org/archive/split-sequence/2018-02-28/split-sequence-v1.4.1.tgz
+# trivial-backtrace: https://beta.quicklisp.org/archive/trivial-backtrace/2016-05-31/trivial-backtrace-20160531-git.tgz
+# trivial-features: https://beta.quicklisp.org/archive/trivial-features/2016-12-04/trivial-features-20161204-git.tgz
+# trivial-garbage: https://beta.quicklisp.org/archive/trivial-garbage/2015-01-13/trivial-garbage-20150113-git.tgz
+# trivial-gray-streams: https://beta.quicklisp.org/archive/trivial-gray-streams/2018-03-28/trivial-gray-streams-20180328-git.tgz
+# trivial-utf-8: https://beta.quicklisp.org/archive/trivial-utf-8/2011-10-01/trivial-utf-8-20111001-darcs.tgz
+# usocket: https://beta.quicklisp.org/archive/usocket/2016-10-31/usocket-0.7.0.1.tgz
+# uuid: https://beta.quicklisp.org/archive/uuid/2013-08-13/uuid-20130813-git.tgz
+# yason: https://beta.quicklisp.org/archive/yason/2016-02-08/yason-v0.7.6.tgz
+# zs3: https://beta.quicklisp.org/archive/zs3/2017-12-27/zs3-1.3.1.tgz
+
+###### Install ######
+# resources.each do |resource|
+# resource.stage buildpath/"lib"/resource.name
+# end
+# ENV["CL_SOURCE_REGISTRY"] = "#{buildpath}/lib//:#{buildpath}//"
+# ENV["ASDF_OUTPUT_TRANSLATIONS"] = "/:/"
+# system "make", "pgloader-standalone", "BUILDAPP=buildapp"
+# bin.install "build/bin/pgloader"
+# system "make", "-C", "docs", "man"
+# man1.install "docs/_build/man/pgloader.1"

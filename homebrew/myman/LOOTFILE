@@ -1,0 +1,21 @@
+# myman.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/myman.rb
+# Converted on 02-01-2019
+
+name='myman'
+url=('https://downloads.sourceforge.net/project/myman/myman-cvs/myman-cvs-2009-10-30/myman-wip-2009-10-30.tar.gz')
+description='Text-mode videogame inspired by Namco'\''s Pac-Man'
+version=' '
+priority='optional'
+homepage='https://myman.sourceforge.io/'
+makedepends=('coreutils' 'gnu-sed' 'groff')
+
+###### Install ######
+# ENV["RMDIR"] = "grmdir"
+# ENV["SED"] = "gsed"
+# ENV["INSTALL"] = "ginstall"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

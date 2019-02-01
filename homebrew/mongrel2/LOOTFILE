@@ -1,0 +1,18 @@
+# mongrel2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mongrel2.rb
+# Converted on 02-01-2019
+
+name='mongrel2'
+url=('')
+description='Application, language, and network architecture agnostic web server'
+version=' '
+priority='optional'
+homepage='https://mongrel2.org/'
+depends=('zeromq')
+
+###### Install ######
+# ENV.deparallelize
+# ENV["OPTFLAGS"] = "#{ENV.cflags} #{ENV.cppflags}"
+# ENV["OPTLIBS"] = "#{ENV.ldflags} -undefined dynamic_lookup"
+# system "make", "all"
+# system "make", "install", "PREFIX=#{prefix}"

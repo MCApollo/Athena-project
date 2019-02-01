@@ -1,0 +1,25 @@
+# fzf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fzf.rb
+# Converted on 02-01-2019
+
+name='fzf'
+url=('https://github.com/junegunn/fzf/archive/0.17.5.tar.gz')
+description='Command-line fuzzy finder written in Go'
+version='0.17.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/junegunn/fzf'
+makedepends=('glide' 'go')
+
+###### Install ######
+# ENV["GLIDE_HOME"] = buildpath/"glide_home"
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/junegunn").mkpath
+# ln_s buildpath, buildpath/"src/github.com/junegunn/fzf"
+# system "glide", "install"
+# system "go", "build", "-o", bin/"fzf", "-ldflags", "-X main.revision=brew"
+# prefix.install "install", "uninstall"
+# (prefix/"shell").install %w[bash zsh fish].map { |s| "shell/key-bindings.#{s}" }
+# (prefix/"shell").install %w[bash zsh].map { |s| "shell/completion.#{s}" }
+# (prefix/"plugin").install "plugin/fzf.vim"
+# man1.install "man/man1/fzf.1", "man/man1/fzf-tmux.1"
+# bin.install "bin/fzf-tmux"

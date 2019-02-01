@@ -1,0 +1,15 @@
+# podiff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/podiff.rb
+# Converted on 02-01-2019
+
+name='podiff'
+url=('https://download.gnu.org.ua/pub/release/podiff/podiff-1.1.tar.gz')
+description='Compare textual information in two PO files'
+version='1.1' # Guessed version.
+priority='optional'
+homepage='https://puszcza.gnu.org.ua/software/podiff/'
+
+###### Install ######
+# system "make"
+# bin.install "podiff"
+# man1.install "podiff.1"

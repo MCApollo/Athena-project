@@ -1,0 +1,14 @@
+# libquantum.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libquantum.rb
+# Converted on 02-01-2019
+
+name='libquantum'
+url=('http://www.libquantum.de/files/libquantum-1.0.0.tar.gz')
+description='C library for the simulation of quantum mechanics'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='http://www.libquantum.de/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

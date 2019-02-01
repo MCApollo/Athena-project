@@ -1,0 +1,16 @@
+# anycable-go.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/anycable-go.rb
+# Converted on 02-01-2019
+
+name='anycablego'
+url=('https://github.com/anycable/anycable-go/archive/v0.6.1.tar.gz')
+description='Anycable Go WebSocket Server'
+version='0.6.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/anycable/anycable-go'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/anycable/anycable-go/").install Dir["*"]
+# system "go", "build", "-ldflags", "-s -w -X main.version=#{version}", "-o", "#{bin}/anycable-go", "-v", "github.com/anycable/anycable-go/cmd/anycable-go"

@@ -1,0 +1,45 @@
+# nss.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nss.rb
+# Converted on 02-01-2019
+
+name='nss'
+url=('https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_42_RTM/src/nss-3.42.tar.gz')
+description='Libraries for security-enabled client and server applications'
+version='3.42' # Guessed version.
+priority='optional'
+homepage='https://developer.mozilla.org/docs/NSS'
+depends=('nspr')
+
+###### Install ######
+# ENV.deparallelize
+# cd "nss"
+# args = %W[
+# BUILD_OPT=1
+# NSS_USE_SYSTEM_SQLITE=1
+# NSPR_INCLUDE_DIR=#{Formula["nspr"].opt_include}/nspr
+# NSPR_LIB_DIR=#{Formula["nspr"].opt_lib}
+# USE_64=1
+# ]
+# inreplace "coreconf/Darwin.mk", "-install_name @executable_path", "-install_name #{lib}"
+# inreplace "lib/freebl/config.mk", "@executable_path", lib
+# system "make", "all", *args
+# cd "../dist"
+# bin.mkpath
+# Dir.glob("Darwin*/bin/*") do |file|
+# cp file, bin unless file.include? ".dylib"
+# end
+# include_target = include + "nss"
+# include_target.mkpath
+# Dir.glob("public/{dbm,nss}/*") { |file| cp file, include_target }
+# lib.mkpath
+# libexec.mkpath
+# Dir.glob("Darwin*/lib/*") do |file|
+# if file.include? ".chk"
+# cp file, libexec
+# else
+# cp file, lib
+# end
+# end
+# rm lib/"libssl.a"
+# (bin/"nss-config").write config_file
+# (lib/"pkgconfig/nss.pc").write pc_file

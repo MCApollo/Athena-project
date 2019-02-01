@@ -1,0 +1,16 @@
+# qjson.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qjson.rb
+# Converted on 02-01-2019
+
+name='qjson'
+url=('https://github.com/flavio/qjson/archive/0.9.0.tar.gz')
+description='Map JSON to QVariant objects'
+version='0.9.0' # Guessed version.
+priority='optional'
+homepage='https://qjson.sourceforge.io'
+depends=('qt')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

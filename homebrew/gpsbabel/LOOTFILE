@@ -1,0 +1,21 @@
+# gpsbabel.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gpsbabel.rb
+# Converted on 02-01-2019
+
+name='gpsbabel'
+url=('https://github.com/gpsbabel/gpsbabel/archive/gpsbabel_1_5_4.tar.gz')
+description='Converts/uploads GPS waypoints, tracks, and routes'
+version=' '
+priority='optional'
+homepage='https://www.gpsbabel.org/'
+depends=('libusb' 'qt')
+# Patches
+url+=('https://github.com/gpsbabel/gpsbabel/commit/b7365b93.patch?full_index=1')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/ca4c4730/gpsbabel/qt5.10.patch')
+
+###### Install ######
+# ENV.cxx11
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,40 @@
+# dovecot.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dovecot.rb
+# Converted on 02-01-2019
+
+name='dovecot'
+url=('https://dovecot.org/releases/2.3/dovecot-2.3.2.1.tar.gz')
+description='IMAP/POP3 server'
+version='2.3.2.1' # Guessed version.
+priority='optional'
+homepage='https://dovecot.org/'
+depends=('openssl')
+
+###### Resource ######
+# pigeonhole: https://pigeonhole.dovecot.org/releases/2.3/dovecot-2.3-pigeonhole-0.5.2.tar.gz
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-dependency-tracking
+# --libexecdir=#{libexec}
+# --sysconfdir=#{etc}
+# --localstatedir=#{var}
+# --with-bzlib
+# --with-pam
+# --with-sqlite
+# --with-ssl=openssl
+# --with-zlib
+# ]
+# system "./configure", *args
+# system "make", "install"
+# resource("pigeonhole").stage do
+# args = %W[
+# --disable-dependency-tracking
+# --with-dovecot=#{lib}/dovecot
+# --prefix=#{prefix}
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# end

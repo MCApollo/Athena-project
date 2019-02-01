@@ -1,0 +1,17 @@
+# questdb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/questdb.rb
+# Converted on 02-01-2019
+
+name='questdb'
+url=('https://www.questdb.org/download/questdb-1.0.4-bin.tar.gz')
+description='Time Series Database'
+version='1.0.4' # Guessed version.
+priority='optional'
+homepage='https://www.questdb.org'
+depends=(':java')
+
+###### Install ######
+# inreplace "questdb.sh", "1.7+", "1.8"
+# rm_rf "questdb.exe"
+# libexec.install Dir["*"]
+# bin.install_symlink "#{libexec}/questdb.sh" => "questdb"

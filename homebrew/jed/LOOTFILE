@@ -1,0 +1,23 @@
+# jed.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jed.rb
+# Converted on 02-01-2019
+
+name='jed'
+url=('https://www.jedsoft.org/releases/jed/jed-0.99-19.tar.gz')
+description='Powerful editor for programmers'
+version='0.99' # Guessed version.
+priority='optional'
+homepage='https://www.jedsoft.org/jed/'
+depends=('s-lang')
+
+###### Install ######
+# if build.head?
+# cd "autoconf" do
+# system "make"
+# end
+# end
+# system "./configure", "--prefix=#{prefix}",
+# "--with-slang=#{Formula["s-lang"].opt_prefix}"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

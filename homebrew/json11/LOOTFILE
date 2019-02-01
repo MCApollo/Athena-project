@@ -1,0 +1,15 @@
+# json11.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/json11.rb
+# Converted on 02-01-2019
+
+name='json11'
+url=('https://github.com/dropbox/json11/archive/v1.0.0.tar.gz')
+description='Tiny JSON library for C++11'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/dropbox/json11'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

@@ -1,0 +1,17 @@
+# libgraphqlparser.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgraphqlparser.rb
+# Converted on 02-01-2019
+
+name='libgraphqlparser'
+url=('https://github.com/graphql/libgraphqlparser/archive/0.7.0.tar.gz')
+description='GraphQL query parser in C++ with C and C++ APIs'
+version='0.7.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/graphql/libgraphqlparser'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make"
+# system "make", "install"
+# libexec.install "dump_json_ast"

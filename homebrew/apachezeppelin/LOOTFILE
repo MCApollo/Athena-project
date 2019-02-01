@@ -1,0 +1,12 @@
+# apache-zeppelin.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/apache-zeppelin.rb
+# Converted on 02-01-2019
+
+name='apachezeppelin'
+url=('https://www.apache.org/dyn/closer.lua?path=zeppelin/zeppelin-0.8.0/zeppelin-0.8.0-bin-all.tgz')
+description='Web-based notebook that enables interactive data analytics'
+version='0.8.0' # Guessed version.
+priority='optional'
+homepage='https://zeppelin.apache.org'
+
+###### Install ######

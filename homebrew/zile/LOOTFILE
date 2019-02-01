@@ -1,0 +1,16 @@
+# zile.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zile.rb
+# Converted on 02-01-2019
+
+name='zile'
+url=('https://ftp.gnu.org/gnu/zile/zile-2.4.14.tar.gz')
+description='Text editor development kit'
+version='2.4.14' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/zile/'
+depends=('bdw-gc')
+makedepends=('help2man' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

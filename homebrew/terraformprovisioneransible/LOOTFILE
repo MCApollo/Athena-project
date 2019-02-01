@@ -1,0 +1,23 @@
+# terraform-provisioner-ansible.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/terraform-provisioner-ansible.rb
+# Converted on 02-01-2019
+
+name='terraformprovisioneransible'
+url=('https://github.com/jonmorehouse/terraform-provisioner-ansible/archive/0.0.2.tar.gz')
+description='Ansible provisioner for Terraform'
+version='0.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/jonmorehouse/terraform-provisioner-ansible'
+depends=('terraform')
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# terrapath = buildpath/"src/github.com/jonmorehouse/terraform-provisioner-ansible"
+# terrapath.install Dir["*"]
+# Language::Go.stage_deps resources, buildpath/"src"
+# cd terrapath do
+# system "go", "build"
+# bin.install "terraform-provisioner-ansible"
+# prefix.install_metafiles
+# end

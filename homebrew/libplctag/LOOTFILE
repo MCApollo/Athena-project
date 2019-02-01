@@ -1,0 +1,15 @@
+# libplctag.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libplctag.rb
+# Converted on 02-01-2019
+
+name='libplctag'
+url=('https://github.com/kyle-github/libplctag/archive/v1.6.3.tar.gz')
+description='Portable and simple API for accessing AB PLC data over Ethernet'
+version='1.6.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/kyle-github/libplctag'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

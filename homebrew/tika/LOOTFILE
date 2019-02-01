@@ -1,0 +1,20 @@
+# tika.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tika.rb
+# Converted on 02-01-2019
+
+name='tika'
+url=('https://www.apache.org/dyn/closer.cgi?path=tika/tika-app-1.20.jar')
+description='Content analysis toolkit'
+version='1.20' # Guessed version.
+priority='optional'
+homepage='https://tika.apache.org/'
+depends=(':java')
+
+###### Resource ######
+# server: https://www.apache.org/dyn/closer.cgi?path=tika/tika-server-1.20.jar
+
+###### Install ######
+# libexec.install "tika-app-#{version}.jar"
+# bin.write_jar_script libexec/"tika-app-#{version}.jar", "tika"
+# libexec.install resource("server")
+# bin.write_jar_script libexec/"tika-server-#{version}.jar", "tika-rest-server"

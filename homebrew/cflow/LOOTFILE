@@ -1,0 +1,18 @@
+# cflow.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cflow.rb
+# Converted on 02-01-2019
+
+name='cflow'
+url=('https://ftp.gnu.org/gnu/cflow/cflow-1.5.tar.bz2')
+description='Generate call graphs from C code'
+version='1.5' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/cflow/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--infodir=#{info}",
+# "--disable-debug",
+# "--disable-dependency-tracking",
+# "--with-lispdir=#{elisp}"
+# system "make", "install"

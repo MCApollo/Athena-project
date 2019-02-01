@@ -1,0 +1,33 @@
+# lldpd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lldpd.rb
+# Converted on 02-01-2019
+
+name='lldpd'
+url=('https://media.luffy.cx/files/lldpd/lldpd-1.0.1.tar.gz')
+description='Implementation of IEEE 802.1ab (LLDP)'
+version='1.0.1' # Guessed version.
+priority='optional'
+homepage='https://vincentbernat.github.io/lldpd/'
+depends=('libevent' 'readline')
+makedepends=('pkg-config')
+
+###### Install ######
+# readline = Formula["readline"]
+# args = %W[
+# --prefix=#{prefix}
+# --sysconfdir=#{etc}
+# --localstatedir=#{var}
+# --with-launchddaemonsdir=no
+# --with-privsep-chroot=/var/empty
+# --with-privsep-group=nogroup
+# --with-privsep-user=nobody
+# --with-readline
+# --with-xml
+# --without-snmp
+# CPPFLAGS=-I#{readline.include}\ -DRONLY=1
+# LDFLAGS=-L#{readline.lib}
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# (var/"run").mkpath

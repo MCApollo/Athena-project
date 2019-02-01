@@ -1,0 +1,16 @@
+# vaulted.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vaulted.rb
+# Converted on 02-01-2019
+
+name='vaulted'
+url=('https://github.com/miquella/vaulted/archive/v2.3.0.tar.gz')
+description='Allows the secure storage and execution of environments'
+version='2.3.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/miquella/vaulted'
+makedepends=('go')
+
+###### Install ######
+# ENV["GO111MODULE"] = "on"
+# system "go", "build", "-o", bin/"vaulted", "."
+# man1.install Dir["doc/man/vaulted*.1"]

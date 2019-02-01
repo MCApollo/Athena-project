@@ -1,0 +1,15 @@
+# ethereum.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ethereum.rb
+# Converted on 02-01-2019
+
+name='ethereum'
+url=('https://github.com/ethereum/go-ethereum/archive/v1.8.22.tar.gz')
+description='Official Go implementation of the Ethereum protocol'
+version='1.8.22' # Guessed version.
+priority='optional'
+homepage='https://ethereum.github.io/go-ethereum/'
+makedepends=('go')
+
+###### Install ######
+# system "make", "all"
+# bin.install Dir["build/bin/*"]

@@ -1,0 +1,22 @@
+# fastd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fastd.rb
+# Converted on 02-01-2019
+
+name='fastd'
+url=('')
+description='Fast and Secure Tunnelling Daemon'
+version=' '
+priority='optional'
+homepage='https://projects.universe-factory.net/projects/fastd'
+depends=('json-c' 'libsodium' 'libuecc')
+makedepends=('bison' 'cmake' 'pkg-config')
+
+###### Install ######
+# args = std_cmake_args
+# args << "-DENABLE_LTO=ON"
+# args << "-DWITH_CIPHER_AES128_CTR_NACL=OFF"
+# mkdir "fastd-build" do
+# system "cmake", "..", *args
+# system "make"
+# system "make", "install"
+# end

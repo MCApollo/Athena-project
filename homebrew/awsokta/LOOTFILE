@@ -1,0 +1,20 @@
+# aws-okta.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-okta.rb
+# Converted on 02-01-2019
+
+name='awsokta'
+url=('https://github.com/segmentio/aws-okta/archive/v0.19.4.tar.gz')
+description='Authenticate with AWS using your Okta credentials'
+version='0.19.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/segmentio/aws-okta'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/segmentio/aws-okta").install buildpath.children
+# cd "src/github.com/segmentio/aws-okta" do
+# system "go", "build", "-ldflags", "-X main.Version=#{version}"
+# bin.install "aws-okta"
+# prefix.install_metafiles
+# end

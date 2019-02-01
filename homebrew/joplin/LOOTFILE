@@ -1,0 +1,16 @@
+# joplin.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/joplin.rb
+# Converted on 02-01-2019
+
+name='joplin'
+url=('https://registry.npmjs.org/joplin/-/joplin-1.0.120.tgz')
+description='Note taking and to-do application with synchronisation capabilities'
+version='1.0.120' # Guessed version.
+priority='optional'
+homepage='https://joplin.cozic.net/'
+depends=('node')
+makedepends=('python@2')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

@@ -1,0 +1,18 @@
+# libspiro.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libspiro.rb
+# Converted on 02-01-2019
+
+name='libspiro'
+url=('https://github.com/fontforge/libspiro/releases/download/0.5.20150702/libspiro-0.5.20150702.tar.gz')
+description='Library to simplify the drawing of curves'
+version='0.5.20150702' # Guessed version.
+priority='optional'
+homepage='https://github.com/fontforge/libspiro'
+
+###### Install ######
+# if build.head?
+# system "autoreconf", "-i"
+# system "automake"
+# end
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

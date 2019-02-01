@@ -1,0 +1,42 @@
+# x265.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/x265.rb
+# Converted on 02-01-2019
+
+name='x265'
+url=('https://bitbucket.org/multicoreware/x265/downloads/x265_3.0.tar.gz')
+description='H.265/HEVC encoder'
+version='3.0' # Guessed version.
+priority='optional'
+homepage='http://x265.org'
+makedepends=('cmake' 'nasm')
+
+###### Install ######
+# args = std_cmake_args + %w[
+# -DLINKED_10BIT=ON
+# -DLINKED_12BIT=ON
+# -DEXTRA_LINK_FLAGS=-L.
+# -DEXTRA_LIB=x265_main10.a;x265_main12.a
+# ]
+# high_bit_depth_args = std_cmake_args + %w[
+# -DHIGH_BIT_DEPTH=ON -DEXPORT_C_API=OFF
+# -DENABLE_SHARED=OFF -DENABLE_CLI=OFF
+# ]
+# (buildpath/"8bit").mkpath
+# mkdir "10bit" do
+# system "cmake", buildpath/"source", *high_bit_depth_args
+# system "make"
+# mv "libx265.a", buildpath/"8bit/libx265_main10.a"
+# end
+# mkdir "12bit" do
+# system "cmake", buildpath/"source", "-DMAIN12=ON", *high_bit_depth_args
+# system "make"
+# mv "libx265.a", buildpath/"8bit/libx265_main12.a"
+# end
+# cd "8bit" do
+# system "cmake", buildpath/"source", *args
+# system "make"
+# mv "libx265.a", "libx265_main.a"
+# system "libtool", "-static", "-o", "libx265.a", "libx265_main.a",
+# "libx265_main10.a", "libx265_main12.a"
+# system "make", "install"
+# end

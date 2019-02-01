@@ -1,0 +1,15 @@
+# voro++.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/voro++.rb
+# Converted on 02-01-2019
+
+name='voroxx'
+url=('http://math.lbl.gov/voro++/download/dir/voro++-0.4.6.tar.gz')
+description='3D Voronoi cell software library'
+version='0.4.6' # Guessed version.
+priority='optional'
+homepage='http://math.lbl.gov/voro++'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"
+# pkgshare.install("examples")
+# mv prefix/"man", share/"man"

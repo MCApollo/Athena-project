@@ -1,0 +1,27 @@
+# libagg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libagg.rb
+# Converted on 02-01-2019
+
+name='libagg'
+url=('http://www.antigrain.com/agg-2.5.tar.gz')
+description='High fidelity 2D graphics library for C++'
+version='2.5' # Guessed version.
+priority='optional'
+homepage='http://www.antigrain.com/'
+depends=('sdl')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+# A diff file was written to libagg.diff
+# --> Patch the file before building.
+
+###### Install ######
+# inreplace "configure.in", "AM_C_PROTOTYPES", ""
+# inreplace "autogen.sh", "libtoolize", "glibtoolize"
+# system "sh", "autogen.sh",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--disable-platform",
+# "--disable-ctrl",
+# "--disable-examples",
+# "--disable-sdltest"
+# system "make", "install"

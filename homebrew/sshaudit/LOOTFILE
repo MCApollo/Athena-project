@@ -1,0 +1,12 @@
+# ssh-audit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ssh-audit.rb
+# Converted on 02-01-2019
+
+name='sshaudit'
+url=('https://github.com/arthepsy/ssh-audit/archive/v1.7.0.tar.gz')
+description='SSH server auditing'
+version='1.7.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/arthepsy/ssh-audit'
+
+###### Install ######

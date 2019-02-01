@@ -1,0 +1,19 @@
+# gloox.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gloox.rb
+# Converted on 02-01-2019
+
+name='gloox'
+url=('https://camaya.net/download/gloox-1.0.21.tar.bz2')
+description='C++ Jabber/XMPP library that handles the low-level protocol'
+version='1.0.21' # Guessed version.
+priority='optional'
+homepage='https://camaya.net/gloox/'
+depends=('libidn' 'openssl')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--with-zlib",
+# "--disable-debug",
+# "--with-openssl=#{Formula["openssl"].opt_prefix}"
+# system "make", "install"

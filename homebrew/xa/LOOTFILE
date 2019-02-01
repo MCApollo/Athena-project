@@ -1,0 +1,16 @@
+# xa.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xa.rb
+# Converted on 02-01-2019
+
+name='xa'
+url=('https://www.floodgap.com/retrotech/xa/dists/xa-2.3.8.tar.gz')
+description='6502 cross assembler'
+version='2.3.8' # Guessed version.
+priority='optional'
+homepage='https://www.floodgap.com/retrotech/xa/'
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}",
+# "CFLAGS=#{ENV.cflags}",
+# "DESTDIR=#{prefix}",
+# "install"

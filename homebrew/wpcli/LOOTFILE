@@ -1,0 +1,13 @@
+# wp-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wp-cli.rb
+# Converted on 02-01-2019
+
+name='wpcli'
+url=('https://github.com/wp-cli/wp-cli/releases/download/v2.1.0/wp-cli-2.1.0.phar')
+description='Command-line interface for WordPress'
+version='2.1.0' # Guessed version.
+priority='optional'
+homepage='https://wp-cli.org/'
+
+###### Install ######
+# bin.install "wp-cli-#{version}.phar" => "wp"

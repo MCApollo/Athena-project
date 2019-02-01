@@ -1,0 +1,16 @@
+# wireguard-tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wireguard-tools.rb
+# Converted on 02-01-2019
+
+name='wireguardtools'
+url=('https://git.zx2c4.com/WireGuard/snapshot/WireGuard-0.0.20190123.tar.xz')
+description='Tools for the WireGuard secure network tunnel'
+version='0.0.20190123' # Guessed version.
+priority='optional'
+homepage='https://www.wireguard.com/'
+depends=('bash' 'wireguard-go')
+
+###### Install ######
+# system "make", "BASHCOMPDIR=#{bash_completion}", "WITH_BASHCOMPLETION=yes", "WITH_WGQUICK=yes",
+# "WITH_SYSTEMDUNITS=no", "PREFIX=#{prefix}", "SYSCONFDIR=#{prefix}/etc",
+# "-C", "src/tools", "install"

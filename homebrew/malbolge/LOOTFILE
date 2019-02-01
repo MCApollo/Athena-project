@@ -1,0 +1,17 @@
+# malbolge.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/malbolge.rb
+# Converted on 02-01-2019
+
+name='malbolge'
+url=('https://esoteric.sange.fi/orphaned/malbolge/malbolge.c')
+description='Deliberately difficult to program esoteric programming language'
+version=' '
+priority='optional'
+homepage='https://esoteric.sange.fi/orphaned/malbolge/README.txt'
+
+# A diff file was written to malbolge.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system ENV.cxx, "malbolge.c", "-o", "malbolge"
+# bin.install "malbolge"

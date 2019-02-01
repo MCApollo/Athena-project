@@ -1,0 +1,19 @@
+# libtar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtar.rb
+# Converted on 02-01-2019
+
+name='libtar'
+url=('https://repo.or.cz/libtar.git')
+description='C library for manipulating POSIX tar files'
+version=' '
+priority='optional'
+homepage='https://repo.or.cz/libtar.git'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "autoreconf", "--force", "--install"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

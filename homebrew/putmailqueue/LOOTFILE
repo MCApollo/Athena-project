@@ -1,0 +1,15 @@
+# putmail-queue.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/putmail-queue.rb
+# Converted on 02-01-2019
+
+name='putmailqueue'
+url=('https://downloads.sourceforge.net/project/putmail/putmail-queue/0.2/putmail-queue-0.2.tar.bz2')
+description='Putmail queue package'
+version='0.2' # Guessed version.
+priority='optional'
+homepage='https://putmail.sourceforge.io'
+depends=('putmail')
+
+###### Install ######
+# bin.install "putmail_dequeue.py", "putmail_enqueue.py"
+# man1.install Dir["man/man1/*.1"]

@@ -1,0 +1,17 @@
+# geographiclib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/geographiclib.rb
+# Converted on 02-01-2019
+
+name='geographiclib'
+url=('https://downloads.sourceforge.net/project/geographiclib/distrib/GeographicLib-1.49.tar.gz')
+description='C++ geography library'
+version='1.49' # Guessed version.
+priority='optional'
+homepage='https://geographiclib.sourceforge.io/'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", "-DCMAKE_OSX_SYSROOT=#{MacOS.sdk_path}", *std_cmake_args
+# system "make", "install"
+# end

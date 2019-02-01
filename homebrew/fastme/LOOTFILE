@@ -1,0 +1,18 @@
+# fastme.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fastme.rb
+# Converted on 02-01-2019
+
+name='fastme'
+url=('https://gite.lirmm.fr/atgc/FastME/raw/v2.1.6/tarball/fastme-2.1.6.tar.gz')
+description='Accurate and fast distance-based phylogeny inference program'
+version='2.1.6' # Guessed version.
+priority='optional'
+homepage='http://www.atgc-montpellier.fr/fastme/'
+depends=('gcc')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

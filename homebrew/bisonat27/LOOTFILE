@@ -1,0 +1,17 @@
+# bison@2.7.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bison@2.7.rb
+# Converted on 02-01-2019
+
+name='bisonat27'
+url=('https://ftp.gnu.org/gnu/bison/bison-2.7.1.tar.gz')
+description='Parser generator'
+version='2.7.1' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/bison/'
+# Patches
+url+=('https://raw.githubusercontent.com/macports/macports-ports/b76d1e48dac/editors/nano/files/secure_snprintf.patch')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

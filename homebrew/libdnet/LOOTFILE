@@ -1,0 +1,21 @@
+# libdnet.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdnet.rb
+# Converted on 02-01-2019
+
+name='libdnet'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/libdnet/libdnet-1.12.tgz')
+description='Portable low-level networking library'
+version='1.12' # Guessed version.
+priority='optional'
+homepage='https://github.com/dugsong/libdnet'
+depends=('python@2')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# ENV.append_path "ACLOCAL_PATH", "config"
+# system "autoreconf", "-ivf"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--with-python"
+# system "make", "install"

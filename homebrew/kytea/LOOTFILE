@@ -1,0 +1,16 @@
+# kytea.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kytea.rb
+# Converted on 02-01-2019
+
+name='kytea'
+url=('http://www.phontron.com/kytea/download/kytea-0.4.7.tar.gz')
+description='Toolkit for analyzing text, especially Japanese and Chinese'
+version='0.4.7' # Guessed version.
+priority='optional'
+homepage='http://www.phontron.com/kytea/'
+
+###### Install ######
+# system "autoreconf", "-i" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

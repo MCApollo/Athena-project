@@ -1,0 +1,16 @@
+# spring-roo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/spring-roo.rb
+# Converted on 02-01-2019
+
+name='springroo'
+url=('https://s3.amazonaws.com/spring-roo-repository.springsource.org/release/ROO/spring-roo-2.0.0.RELEASE.zip')
+description='Rapid application development tool for Java developers'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='https://projects.spring.io/spring-roo/'
+
+###### Install ######
+# rm Dir["bin/*.bat"]
+# libexec.install Dir["*"]
+# mv "#{libexec}/bin/roo.sh", "#{libexec}/bin/roo"
+# bin.write_exec_script Dir["#{libexec}/bin/*"]

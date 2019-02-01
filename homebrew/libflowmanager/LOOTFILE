@@ -1,0 +1,16 @@
+# libflowmanager.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libflowmanager.rb
+# Converted on 02-01-2019
+
+name='libflowmanager'
+url=('https://research.wand.net.nz/software/libflowmanager/libflowmanager-3.0.0.tar.gz')
+description='Flow-based measurement tasks with packet-based inputs'
+version='3.0.0' # Guessed version.
+priority='optional'
+homepage='https://research.wand.net.nz/software/libflowmanager.php'
+depends=('libtrace')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

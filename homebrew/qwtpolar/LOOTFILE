@@ -1,0 +1,34 @@
+# qwtpolar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qwtpolar.rb
+# Converted on 02-01-2019
+
+name='qwtpolar'
+url=('https://downloads.sourceforge.net/project/qwtpolar/qwtpolar/1.1.1/qwtpolar-1.1.1.tar.bz2')
+description='Library for displaying values on a polar coordinate system'
+version='1.1.1' # Guessed version.
+priority='optional'
+homepage='https://qwtpolar.sourceforge.io/'
+depends=('qt' 'qwt')
+
+# A diff file was written to qwtpolar.diff
+# --> Patch the file before building.
+
+###### Install ######
+# cd "doc" do
+# doc.install "html"
+# man3.install Dir["man/man3/{q,Q}wt*"]
+# end
+# rm_r "doc"
+# inreplace "qwtpolarconfig.pri" do |s|
+# s.gsub!(/^(\s*)QWT_POLAR_INSTALL_PREFIX\s*=\s*(.*)$/,
+# "\\1QWT_POLAR_INSTALL_PREFIX=#{prefix}")
+# s.sub!(/\+(=\s*QwtPolarExamples)/, "-\\1")
+# s.sub! %r{(= \$\$\{QWT_POLAR_INSTALL_PREFIX\})/(plugins/designer)$},
+# "\\1/lib/qt/\\2"
+# end
+# ENV["QMAKEFEATURES"] = "#{Formula["qwt"].opt_prefix}/features"
+# system "qmake", "-config", "release"
+# system "make"
+# system "make", "install"
+# pkgshare.install "examples"
+# pkgshare.install Dir["*.p*"]

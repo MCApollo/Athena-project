@@ -1,0 +1,23 @@
+# gnu-sed.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-sed.rb
+# Converted on 02-01-2019
+
+name='gnused'
+url=('https://ftp.gnu.org/gnu/sed/sed-4.7.tar.xz')
+description='GNU implementation of the famous stream editor'
+version='4.7' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/sed/'
+makedepends=('')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-dependency-tracking
+# --program-prefix=g
+# ]
+# system "./configure", *args
+# system "make", "install"
+# (libexec/"gnubin").install_symlink bin/"gsed" =>"sed"
+# (libexec/"gnuman/man1").install_symlink man1/"gsed.1" => "sed.1"
+# libexec.install_symlink "gnuman" => "man"

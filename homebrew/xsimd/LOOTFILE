@@ -1,0 +1,17 @@
+# xsimd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xsimd.rb
+# Converted on 02-01-2019
+
+name='xsimd'
+url=('https://github.com/QuantStack/xsimd/archive/7.1.2.tar.gz')
+description='Modern, portable C++ wrappers for SIMD intrinsics'
+version='7.1.2' # Guessed version.
+priority='optional'
+homepage='https://xsimd.readthedocs.io/en/latest/'
+makedepends=('cmake')
+
+###### Install ######
+# args = std_cmake_args
+# args << "-DBUILD_TESTS=OFF"
+# system "cmake", ".", *args
+# system "make", "install"

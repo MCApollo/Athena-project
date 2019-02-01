@@ -1,0 +1,18 @@
+# launch.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/launch.rb
+# Converted on 02-01-2019
+
+name='launch'
+url=('https://sabi.net/nriley/software/launch-1.2.5.tar.gz')
+description='Command-line launcher for macOS, in the spirit of `open`'
+version='1.2.5' # Guessed version.
+priority='optional'
+homepage='https://sabi.net/nriley/software/#launch'
+makedepends=(':xcode')
+
+###### Install ######
+# rm_rf "launch"
+# xcodebuild "-configuration", "Deployment", "SYMROOT=build", "clean"
+# xcodebuild "-configuration", "Deployment", "SYMROOT=build"
+# man1.install gzip("launch.1")
+# bin.install "build/Deployment/launch"

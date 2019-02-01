@@ -1,0 +1,16 @@
+# gpx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gpx.rb
+# Converted on 02-01-2019
+
+name='gpx'
+url=('https://github.com/markwal/GPX/archive/2.5.2.tar.gz')
+description='Gcode to x3g converter for 3D printers running Sailfish'
+version='2.5.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/markwal/GPX/blob/master/README.md'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

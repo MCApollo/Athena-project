@@ -1,0 +1,24 @@
+# http_load.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/http_load.rb
+# Converted on 02-01-2019
+
+name='httpload'
+url=('https://www.acme.com/software/http_load/http_load-09Mar2016.tar.gz')
+description='Test throughput of a web server by running parallel fetches'
+version=' '
+priority='optional'
+homepage='https://www.acme.com/software/http_load/'
+depends=('openssl')
+
+###### Install ######
+# bin.mkpath
+# man1.mkpath
+# args = %W[
+# BINDIR=#{bin}
+# LIBDIR=#{lib}
+# MANDIR=#{man1}
+# CC=#{ENV.cc}
+# SSL_TREE=#{Formula["openssl"].opt_prefix}
+# ]
+# inreplace "Makefile", "#SSL_", "SSL_"
+# system "make", "install", *args

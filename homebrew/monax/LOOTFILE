@@ -1,0 +1,18 @@
+# monax.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/monax.rb
+# Converted on 02-01-2019
+
+name='monax'
+url=('https://github.com/monax/monax/archive/v0.18.0.tar.gz')
+description='Blockchain application platform CLI'
+version='0.18.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/monax/monax'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["GOBIN"] = bin
+# (buildpath/"src/github.com/monax").mkpath
+# ln_sf buildpath, buildpath/"src/github.com/monax/monax"
+# system "go", "install", "github.com/monax/monax/cmd/monax"

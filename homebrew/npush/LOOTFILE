@@ -1,0 +1,18 @@
+# npush.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/npush.rb
+# Converted on 02-01-2019
+
+name='npush'
+url=('https://downloads.sourceforge.net/project/npush/npush/0.7/npush-0.7.tgz')
+description='Logic game simliar to Sokoban and Boulder Dash'
+version='0.7' # Guessed version.
+priority='optional'
+homepage='https://npush.sourceforge.io/'
+
+###### Install ######
+# system "make"
+# pkgshare.install ["npush", "levels"]
+# (bin/"npush").write <<~EOS
+# #!/bin/sh
+# cd "#{pkgshare}" && exec ./npush $@
+# EOS

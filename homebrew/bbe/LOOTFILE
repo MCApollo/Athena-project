@@ -1,0 +1,17 @@
+# bbe.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bbe.rb
+# Converted on 02-01-2019
+
+name='bbe'
+url=('https://downloads.sourceforge.net/project/bbe-/bbe/0.2.2/bbe-0.2.2.tar.gz')
+description='Sed-like editor for binary files'
+version='0.2.2' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/bbe-/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

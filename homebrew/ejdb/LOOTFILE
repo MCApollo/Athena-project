@@ -1,0 +1,17 @@
+# ejdb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ejdb.rb
+# Converted on 02-01-2019
+
+name='ejdb'
+url=('https://github.com/Softmotions/ejdb/archive/v1.2.12.tar.gz')
+description='C library based on modified version of Tokyo Cabinet'
+version='1.2.12' # Guessed version.
+priority='optional'
+homepage='http://ejdb.org'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

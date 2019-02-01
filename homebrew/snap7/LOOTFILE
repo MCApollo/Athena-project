@@ -1,0 +1,17 @@
+# snap7.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/snap7.rb
+# Converted on 02-01-2019
+
+name='snap7'
+url=('https://downloads.sourceforge.net/project/snap7/1.4.2/snap7-full-1.4.2.7z')
+description='Ethernet communication suite that works natively with Siemens S7 PLCs'
+version='1.4.2.7' # Guessed version.
+priority='optional'
+homepage='https://snap7.sourceforge.io/'
+
+###### Install ######
+# lib.mkpath
+# system "make", "-C", "build/osx",
+# "-f", "#{MacOS.preferred_arch}_osx.mk",
+# "install", "LibInstall=#{lib}"
+# include.install "release/Wrappers/c-cpp/snap7.h"

@@ -1,0 +1,12 @@
+# brew-gem.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/brew-gem.rb
+# Converted on 02-01-2019
+
+name='brewgem'
+url=('https://github.com/sportngin/brew-gem/archive/v0.9.0.tar.gz')
+description='Install RubyGems as Homebrew formulae'
+version='0.9.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/sportngin/brew-gem'
+
+###### Install ######

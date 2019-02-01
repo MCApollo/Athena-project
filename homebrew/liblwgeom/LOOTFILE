@@ -1,0 +1,35 @@
+# liblwgeom.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/liblwgeom.rb
+# Converted on 02-01-2019
+
+name='liblwgeom'
+url=('https://download.osgeo.org/postgis/source/postgis-2.4.4.tar.gz')
+description='Allows SpatiaLite to support ST_MakeValid() like PostGIS'
+version='2.4.4' # Guessed version.
+priority='optional'
+homepage='https://postgis.net/'
+depends=('geos' 'json-c' 'proj')
+makedepends=('autoconf' 'automake' 'gpp' 'libtool' 'pkg-config')
+
+###### Install ######
+# ENV.deparallelize
+# ENV["SDKROOT"] = MacOS.sdk_path if MacOS.version == :sierra
+# args = [
+# "--disable-dependency-tracking",
+# "--disable-nls",
+# "--with-projdir=#{HOMEBREW_PREFIX}",
+# "--with-jsondir=#{Formula["json-c"].opt_prefix}",
+# "--without-pgconfig",
+# "--without-libiconv-prefix",
+# "--without-libintl-prefix",
+# "--without-raster",
+# "--without-topology",
+# ]
+# system "./autogen.sh"
+# system "./configure", *args
+# mkdir "stage"
+# cd "liblwgeom" do
+# system "make", "install", "DESTDIR=#{buildpath}/stage"
+# end
+# lib.install Dir["stage/**/lib/*"]
+# include.install Dir["stage/**/include/*"]

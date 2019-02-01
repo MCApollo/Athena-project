@@ -1,0 +1,18 @@
+# kanif.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kanif.rb
+# Converted on 02-01-2019
+
+name='kanif'
+url=('https://gforge.inria.fr/frs/download.php/26773/kanif-1.2.2.tar.gz')
+description='Cluster management and administration tool'
+version='1.2.2' # Guessed version.
+priority='optional'
+homepage='http://taktuk.gforge.inria.fr/kanif/'
+depends=('taktuk')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

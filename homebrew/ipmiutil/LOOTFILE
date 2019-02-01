@@ -1,0 +1,28 @@
+# ipmiutil.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ipmiutil.rb
+# Converted on 02-01-2019
+
+name='ipmiutil'
+url=('https://downloads.sourceforge.net/project/ipmiutil/ipmiutil-2.9.5.tar.gz')
+description='IPMI server management utility'
+version='2.9.5' # Guessed version.
+priority='optional'
+homepage='https://ipmiutil.sourceforge.io/'
+depends=('openssl')
+makedepends=('')
+
+# A diff file was written to ipmiutil.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-sha256",
+# "--enable-gpl"
+# system "make", "TMPDIR=#{ENV["TMPDIR"]}"
+# system "make", "prefix=/",
+# "DESTDIR=#{prefix}",
+# "varto=#{var}/lib/#{name}",
+# "initto=#{etc}/init.d",
+# "sysdto=#{prefix}/#{name}",
+# "install"

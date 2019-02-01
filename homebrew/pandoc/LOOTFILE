@@ -1,0 +1,17 @@
+# pandoc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pandoc.rb
+# Converted on 02-01-2019
+
+name='pandoc'
+url=('https://hackage.haskell.org/package/pandoc-2.5/pandoc-2.5.tar.gz')
+description='Swiss-army knife of markup format conversion'
+version='2.5' # Guessed version.
+priority='optional'
+homepage='https://pandoc.org/'
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# cabal_sandbox do
+# install_cabal_package
+# end
+# (bash_completion/"pandoc").write `#{bin}/pandoc --bash-completion`

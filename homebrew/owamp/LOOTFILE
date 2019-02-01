@@ -1,0 +1,21 @@
+# owamp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/owamp.rb
+# Converted on 02-01-2019
+
+name='owamp'
+url=('https://software.internet2.edu/sources/owamp/owamp-3.4-10.tar.gz')
+description='Implementation of the One-Way Active Measurement Protocol'
+version='3.4' # Guessed version.
+priority='optional'
+homepage='https://www.internet2.edu/products-services/performance-analytics/performance-tools/'
+depends=('i2util')
+
+# A diff file was written to owamp.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

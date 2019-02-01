@@ -1,0 +1,29 @@
+# nuvie.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nuvie.rb
+# Converted on 02-01-2019
+
+name='nuvie'
+url=('https://downloads.sourceforge.net/project/nuvie/Nuvie/0.5/nuvie-0.5.tgz')
+description='The Ultima 6 engine'
+version='0.5' # Guessed version.
+priority='optional'
+homepage='https://nuvie.sourceforge.io/'
+depends=('sdl')
+
+###### Install ######
+# inreplace "./nuvie.cpp" do |s|
+# s.gsub! 'datadir", "./data"', "datadir\", \"#{lib}/data\""
+# s.gsub! 'home + "/Library', '"/Library'
+# s.gsub! 'config_path.append("/Library/Preferences/Nuvie Preferences");', "config_path = \"#{var}/nuvie/nuvie.cfg\";"
+# s.gsub! "/Library/Application Support/Nuvie Support/", "#{var}/nuvie/game/"
+# s.gsub! "/Library/Application Support/Nuvie/", "#{var}/nuvie/"
+# end
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-sdltest",
+# "--prefix=#{prefix}"
+# system "make"
+# bin.install "nuvie"
+# pkgshare.install "data"
+# (var/"nuvie/game").mkpath

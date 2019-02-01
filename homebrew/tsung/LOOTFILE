@@ -1,0 +1,17 @@
+# tsung.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tsung.rb
+# Converted on 02-01-2019
+
+name='tsung'
+url=('http://tsung.erlang-projects.org/dist/tsung-1.7.0.tar.gz')
+description='Load testing for HTTP, PostgreSQL, Jabber, and others'
+version='1.7.0' # Guessed version.
+priority='optional'
+homepage='http://tsung.erlang-projects.org/'
+depends=('erlang' 'gnuplot')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

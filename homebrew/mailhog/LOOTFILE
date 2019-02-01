@@ -1,0 +1,22 @@
+# mailhog.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mailhog.rb
+# Converted on 02-01-2019
+
+name='mailhog'
+url=('https://github.com/gorilla/mux.git')
+description='Web and API based SMTP testing tool'
+version=' '
+priority='optional'
+homepage='https://github.com/mailhog/MailHog'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["GOBIN"] = bin
+# path = buildpath/"src/github.com/mailhog/MailHog"
+# path.install buildpath.children
+# Language::Go.stage_deps resources, buildpath/"src" if build.stable?
+# cd path do
+# system "go", "install", "-v", ".../MailHog"
+# prefix.install_metafiles
+# end

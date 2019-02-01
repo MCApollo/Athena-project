@@ -1,0 +1,14 @@
+# spatialindex.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/spatialindex.rb
+# Converted on 02-01-2019
+
+name='spatialindex'
+url=('https://download.osgeo.org/libspatialindex/spatialindex-src-1.8.5.tar.gz')
+description='General framework for developing spatial indices'
+version='1.8.5' # Guessed version.
+priority='optional'
+homepage='https://libspatialindex.github.io/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--prefix=#{prefix}"
+# system "make", "install"

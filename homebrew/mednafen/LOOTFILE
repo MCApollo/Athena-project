@@ -1,0 +1,16 @@
+# mednafen.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mednafen.rb
+# Converted on 02-01-2019
+
+name='mednafen'
+url=('https://mednafen.github.io/releases/files/mednafen-1.22.1.tar.xz')
+description='Multi-system emulator'
+version='1.22.1' # Guessed version.
+priority='optional'
+homepage='https://mednafen.github.io/'
+depends=('gettext' 'libsndfile' ':macos' 'sdl2')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking"
+# system "make", "install"

@@ -1,0 +1,14 @@
+# fselect.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fselect.rb
+# Converted on 02-01-2019
+
+name='fselect'
+url=('https://github.com/jhspetersson/fselect/archive/0.5.2.tar.gz')
+description='Find files with SQL-like queries'
+version='0.5.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/jhspetersson/fselect'
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

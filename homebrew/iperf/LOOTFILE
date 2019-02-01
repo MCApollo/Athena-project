@@ -1,0 +1,14 @@
+# iperf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/iperf.rb
+# Converted on 02-01-2019
+
+name='iperf'
+url=('https://downloads.sourceforge.net/project/iperf2/iperf-2.0.12.tar.gz')
+description='Tool to measure maximum TCP and UDP bandwidth'
+version='2.0.12' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/iperf2/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

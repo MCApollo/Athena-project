@@ -1,0 +1,17 @@
+# capnp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/capnp.rb
+# Converted on 02-01-2019
+
+name='capnp'
+url=('https://capnproto.org/capnproto-c++-0.7.0.tar.gz')
+description='Data interchange format and capability-based RPC system'
+version='0.7.0' # Guessed version.
+priority='optional'
+homepage='https://capnproto.org/'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

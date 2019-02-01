@@ -1,0 +1,18 @@
+# eg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/eg.rb
+# Converted on 02-01-2019
+
+name='eg'
+url=('https://github.com/davep/eg/archive/v1.02.tar.gz')
+description='Expert Guide. Norton Guide Reader For GNU/Linux'
+version='1.02' # Guessed version.
+priority='optional'
+homepage='https://github.com/davep/eg'
+depends=('s-lang')
+
+###### Install ######
+# inreplace "eglib.c", "/usr/share/", "#{etc}/"
+# bin.mkpath
+# man1.mkpath
+# system "make"
+# system "make", "install", "BINDIR=#{bin}", "MANDIR=#{man}", "NGDIR=#{etc}/norton-guides"

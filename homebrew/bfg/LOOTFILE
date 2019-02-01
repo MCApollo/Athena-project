@@ -1,0 +1,15 @@
+# bfg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bfg.rb
+# Converted on 02-01-2019
+
+name='bfg'
+url=('https://search.maven.org/remotecontent?filepath=com/madgag/bfg/1.13.0/bfg-1.13.0.jar')
+description='Remove large files or passwords from Git history like git-filter-branch'
+version='1.13.0' # Guessed version.
+priority='optional'
+homepage='https://rtyley.github.io/bfg-repo-cleaner/'
+depends=(':java')
+
+###### Install ######
+# libexec.install "bfg-#{version}.jar"
+# bin.write_jar_script libexec/"bfg-#{version}.jar", "bfg"

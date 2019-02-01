@@ -1,0 +1,19 @@
+# ifstat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ifstat.rb
+# Converted on 02-01-2019
+
+name='ifstat'
+url=('http://gael.roualland.free.fr/ifstat/ifstat-1.1.tar.gz')
+description='Tool to report network interface bandwidth'
+version='1.1' # Guessed version.
+priority='optional'
+homepage='http://gael.roualland.free.fr/ifstat/'
+
+# A diff file was written to ifstat.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

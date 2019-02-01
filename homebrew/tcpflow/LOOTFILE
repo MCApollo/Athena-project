@@ -1,0 +1,19 @@
+# tcpflow.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tcpflow.rb
+# Converted on 02-01-2019
+
+name='tcpflow'
+url=('https://digitalcorpora.org/downloads/tcpflow/tcpflow-1.5.0.tar.gz')
+description='TCP flow recorder'
+version='1.5.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/simsong/tcpflow'
+depends=('openssl')
+makedepends=('boost')
+
+###### Install ######
+# system "bash", "./bootstrap.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

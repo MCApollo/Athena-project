@@ -1,0 +1,24 @@
+# mdxmini.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mdxmini.rb
+# Converted on 02-01-2019
+
+name='mdxmini'
+url=('https://github.com/mistydemeo/mdxmini/archive/v1.0.0.tar.gz')
+description='Plays music in X68000 MDX chiptune format'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://clogging.web.fc2.com/psp/'
+depends=('sdl')
+
+###### Resource ######
+# test_song: https://ftp.modland.com/pub/modules/MDX/-%20unknown/Popful%20Mail/pop-00.mdx
+
+###### Install ######
+# inreplace "mak/general.mak", "gcc", ENV.cc
+# system "make"
+# system ENV.cc, "-dynamiclib", "-install_name", "#{lib}/libmdxmini.dylib",
+# "-o", "libmdxmini.dylib", "-undefined", "dynamic_lookup",
+# *Dir["obj/*"]
+# bin.install "mdxplay"
+# lib.install "libmdxmini.dylib"
+# (include/"libmdxmini").install Dir["src/*.h"]

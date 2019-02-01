@@ -1,0 +1,15 @@
+# icon-naming-utils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/icon-naming-utils.rb
+# Converted on 02-01-2019
+
+name='iconnamingutils'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/i/icon-naming-utils/icon-naming-utils_0.8.90.orig.tar.gz')
+description='Script to handle icon names in desktop icon themes'
+version='0.8.90' # Guessed version.
+priority='optional'
+homepage='https://specifications.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

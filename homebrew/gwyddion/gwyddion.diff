@@ -1,0 +1,12 @@
+diff --git a/gwyddion/mac_integration.c b/gwyddion/mac_integration.c
+index 740184b..2476004 100644
+--- a/gwyddion/mac_integration.c
++++ b/gwyddion/mac_integration.c
+@@ -22,7 +22,7 @@
+#ifdef __APPLE__
+#include <AppKit/AppKit.h>
+#include <CoreFoundation/CoreFoundation.h>
+-#include <file.h>
++#include <app/file.h>
+#include "config.h"
+#ifdef HAVE_GTK_MAC_INTEGRATION

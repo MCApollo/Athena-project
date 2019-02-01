@@ -1,0 +1,15 @@
+# vde.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vde.rb
+# Converted on 02-01-2019
+
+name='vde'
+url=('https://downloads.sourceforge.net/project/vde/vde2/2.3.2/vde2-2.3.2.tar.gz')
+description='Ethernet compliant virtual network'
+version='2.3.2' # Guessed version.
+priority='optional'
+homepage='https://vde.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# ENV.deparallelize
+# system "make", "install"

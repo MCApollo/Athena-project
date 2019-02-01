@@ -1,0 +1,17 @@
+# rc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rc.rb
+# Converted on 02-01-2019
+
+name='rc'
+url=('ftp://rc.quanstro.net/pub/rc-1.7.2.tgz')
+description='Implementation of the AT&T Plan 9 shell'
+version='1.7.2' # Guessed version.
+priority='optional'
+homepage='http://doc.cat-v.org/plan_9/4th_edition/papers/rc'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--with-editline"
+# system "make"
+# system "make", "install"

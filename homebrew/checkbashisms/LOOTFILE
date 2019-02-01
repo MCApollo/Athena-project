@@ -1,0 +1,18 @@
+# checkbashisms.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/checkbashisms.rb
+# Converted on 02-01-2019
+
+name='checkbashisms'
+url=('https://deb.debian.org/debian/pool/main/d/devscripts/devscripts_2.19.2.tar.xz')
+description='Checks for bashisms in shell scripts'
+version='2.19.2' # Guessed version.
+priority='optional'
+homepage='https://launchpad.net/ubuntu/+source/devscripts/'
+
+###### Install ######
+# inreplace "scripts/checkbashisms.pl" do |s|
+# s.gsub! "###VERSION###", version
+# s.gsub! "#!/usr/bin/perl", "#!/usr/bin/perl -T"
+# end
+# bin.install "scripts/checkbashisms.pl" => "checkbashisms"
+# man1.install "scripts/checkbashisms.1"

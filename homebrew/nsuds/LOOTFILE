@@ -1,0 +1,17 @@
+# nsuds.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nsuds.rb
+# Converted on 02-01-2019
+
+name='nsuds'
+url=('https://downloads.sourceforge.net/project/nsuds/nsuds/nsuds-0.7B/nsuds-0.7B.tar.gz')
+description='Ncurses Sudoku system'
+version='0.7' # Guessed version.
+priority='optional'
+homepage='https://nsuds.sourceforge.io/'
+
+###### Install ######
+# system "autoreconf", "-i" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# inreplace "src/Makefile", /chgrp .*/, ""
+# system "make", "install"

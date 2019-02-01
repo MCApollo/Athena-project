@@ -1,0 +1,18 @@
+# sassc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sassc.rb
+# Converted on 02-01-2019
+
+name='sassc'
+url=('https://github.com/sass/sassc.git')
+description='Wrapper around libsass that helps to create command-line apps'
+version=' '
+priority='optional'
+homepage='https://github.com/sass/sassc'
+depends=('libsass')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "-fvi"
+# system "./configure", "--prefix=#{prefix}", "--disable-silent-rules",
+# "--disable-dependency-tracking"
+# system "make", "install"

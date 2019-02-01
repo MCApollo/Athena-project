@@ -1,0 +1,19 @@
+# etcd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/etcd.rb
+# Converted on 02-01-2019
+
+name='etcd'
+url=('https://github.com/etcd-io/etcd/archive/v3.3.11.tar.gz')
+description='Key value store for shared configuration and service discovery'
+version='3.3.11' # Guessed version.
+priority='optional'
+homepage='https://github.com/etcd-io/etcd'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# mkdir_p "src/github.com/etcd-io"
+# ln_s buildpath, "src/github.com/etcd-io/etcd"
+# system "./build"
+# bin.install "bin/etcd"
+# bin.install "bin/etcdctl"

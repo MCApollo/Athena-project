@@ -1,0 +1,39 @@
+# boost@1.55.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/boost@1.55.rb
+# Converted on 02-01-2019
+
+name='boostat155'
+url=('https://downloads.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.bz2')
+description='Collection of portable C++ source libraries'
+version=' '
+priority='optional'
+homepage='https://www.boost.org'
+# Patches
+url+=('https://github.com/boostorg/atomic/commit/6bb71fdd.diff?full_index=1')
+url+=('https://github.com/boostorg/atomic/commit/e4bde20f.diff?full_index=1')
+url+=('https://github.com/boostorg/chrono/commit/143260d.diff?full_index=1')
+
+###### Install ######
+# inreplace "boost/archive/iterators/transform_width.hpp",
+# "#include <boost/iterator/iterator_traits.hpp>",
+# "#include <boost/iterator/iterator_traits.hpp>\n#include <algorithm>"
+# open("user-config.jam", "a") do |file|
+# file.write "using darwin : : #{ENV.cxx} ;\n"
+# end
+# bargs = %W[--prefix=#{prefix} --libdir=#{lib} --without-icu]
+# without_libraries = ["mpi", "python"]
+# without_libraries << "log" if ENV.compiler == :gcc
+# bargs << "--without-libraries=#{without_libraries.join(",")}"
+# args = %W[
+# --prefix=#{prefix}
+# --libdir=#{lib}
+# -d2
+# -j#{ENV.make_jobs}
+# --layout=tagged
+# --user-config=user-config.jam
+# install
+# threading=multi,single
+# link=shared,static
+# ]
+# system "./bootstrap.sh", *bargs
+# system "./b2", *args

@@ -1,0 +1,17 @@
+# dex.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dex.rb
+# Converted on 02-01-2019
+
+name='dex'
+url=('https://github.com/tihirvon/dex/archive/v1.0.tar.gz')
+description='Dextrous text editor'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/tihirvon/dex'
+
+###### Install ######
+# args = ["prefix=#{prefix}",
+# "CC=#{ENV.cc}",
+# "HOST_CC=#{ENV.cc}"]
+# args << "VERSION=#{version}" if build.head?
+# system "make", "install", *args

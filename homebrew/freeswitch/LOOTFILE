@@ -1,0 +1,48 @@
+# freeswitch.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/freeswitch.rb
+# Converted on 02-01-2019
+
+name='freeswitch'
+url=('https://freeswitch.org/stash/scm/fs/freeswitch.git')
+description='Telephony platform to route various communication protocols'
+version=' '
+priority='optional'
+homepage='https://freeswitch.org'
+depends=('jpeg' 'libsndfile' 'lua' 'openssl' 'opus' 'pcre' 'speex' 'speexdsp' 'sqlite')
+makedepends=('apr-util' 'autoconf' 'automake' 'libtool' 'pkg-config' 'yasm')
+
+###### Resource ######
+# sounds-music-8000: #{sounds_url_base}/freeswitch-sounds-music-8000-#{moh_version}.tar.gz
+# sounds-music-16000: #{sounds_url_base}/freeswitch-sounds-music-16000-#{moh_version}.tar.gz
+# sounds-music-32000: #{sounds_url_base}/freeswitch-sounds-music-32000-#{moh_version}.tar.gz
+# sounds-music-48000: #{sounds_url_base}/freeswitch-sounds-music-48000-#{moh_version}.tar.gz
+# sounds-en-us-callie-8000: #{sounds_url_base}/freeswitch-sounds-en-us-callie-8000-#{sounds_en_version}.tar.gz
+# sounds-en-us-callie-16000: #{sounds_url_base}/freeswitch-sounds-en-us-callie-16000-#{sounds_en_version}.tar.gz
+# sounds-en-us-callie-32000: #{sounds_url_base}/freeswitch-sounds-en-us-callie-32000-#{sounds_en_version}.tar.gz
+# sounds-en-us-callie-48000: #{sounds_url_base}/freeswitch-sounds-en-us-callie-48000-#{sounds_en_version}.tar.gz
+
+###### Install ######
+# ENV["ac_cv_lib_lzma_lzma_code"] = "no"
+# inreplace "build/modules.conf.in", "applications/mod_enum",
+# "#applications/mod_enum"
+# system "./bootstrap.sh", "-j"
+# inreplace "libs/tiff-4.0.2/configure.gnu", "--with-pic", "--with-pic --without-x"
+# system "./configure", "--disable-dependency-tracking",
+# "--enable-shared",
+# "--enable-static",
+# "--prefix=#{prefix}",
+# "--exec_prefix=#{prefix}"
+# system "make"
+# system "make", "install", "all"
+# mkdir_p prefix/"sounds/music"
+# [8, 16, 32, 48].each do |n|
+# resource("sounds-music-#{n}000").stage do
+# cp_r ".", prefix/"sounds/music"
+# end
+# end
+# mkdir_p prefix/"sounds/en"
+# [8, 16, 32, 48].each do |n|
+# resource("sounds-en-us-callie-#{n}000").stage do
+# cp_r ".", prefix/"sounds/en"
+# end
+# end

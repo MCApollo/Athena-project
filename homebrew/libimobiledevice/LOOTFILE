@@ -1,0 +1,21 @@
+# libimobiledevice.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libimobiledevice.rb
+# Converted on 02-01-2019
+
+name='libimobiledevice'
+url=('https://www.libimobiledevice.org/downloads/libimobiledevice-1.2.0.tar.bz2')
+description='Library to communicate with iOS devices natively'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://www.libimobiledevice.org/'
+depends=('libplist' 'libtasn1' 'openssl' 'usbmuxd')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--without-cython",
+# "--enable-debug-code"
+# system "make", "install"

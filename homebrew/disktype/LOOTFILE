@@ -1,0 +1,15 @@
+# disktype.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/disktype.rb
+# Converted on 02-01-2019
+
+name='disktype'
+url=('https://downloads.sourceforge.net/project/disktype/disktype/9/disktype-9.tar.gz')
+description='Detect content format of a disk or disk image'
+version=' '
+priority='optional'
+homepage='https://disktype.sourceforge.io/'
+
+###### Install ######
+# system "make"
+# bin.install "disktype"
+# man1.install "disktype.1"

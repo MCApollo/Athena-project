@@ -1,0 +1,25 @@
+# getdns.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/getdns.rb
+# Converted on 02-01-2019
+
+name='getdns'
+url=('https://getdnsapi.net/releases/getdns-1-5-1/getdns-1.5.1.tar.gz')
+description='Modern asynchronous DNS API'
+version='1.5.1' # Guessed version.
+priority='optional'
+homepage='https://getdnsapi.net'
+depends=('libevent' 'libidn' 'openssl' 'unbound')
+
+###### Install ######
+# if build.head?
+# system "glibtoolize", "-ci"
+# system "autoreconf", "-fi"
+# end
+# system "./configure", "--prefix=#{prefix}",
+# "--with-libevent",
+# "--with-ssl=#{Formula["openssl"].opt_prefix}",
+# "--with-trust-anchor=#{etc}/getdns-root.key",
+# "--without-stubby"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

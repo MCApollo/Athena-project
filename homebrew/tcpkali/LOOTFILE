@@ -1,0 +1,15 @@
+# tcpkali.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tcpkali.rb
+# Converted on 02-01-2019
+
+name='tcpkali'
+url=('https://github.com/machinezone/tcpkali/releases/download/v1.1.1/tcpkali-1.1.1.tar.gz')
+description='High performance TCP and WebSocket load generator and sink'
+version='1.1.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/machinezone/tcpkali'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

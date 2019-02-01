@@ -1,0 +1,16 @@
+# jetty-runner.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jetty-runner.rb
+# Converted on 02-01-2019
+
+name='jettyrunner'
+url=('https://search.maven.org/remotecontent?filepath=org/eclipse/jetty/jetty-runner/9.4.12.v20180830/jetty-runner-9.4.12.v20180830.jar')
+description='Use Jetty without an installed distribution'
+version='9.4.12' # Guessed version.
+priority='optional'
+homepage='https://www.eclipse.org/jetty/'
+depends=(':java')
+
+###### Install ######
+# libexec.install Dir["*"]
+# bin.mkpath
+# bin.write_jar_script libexec/"jetty-runner-#{version}.jar", "jetty-runner"

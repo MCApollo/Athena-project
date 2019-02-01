@@ -1,0 +1,15 @@
+# maven-shell.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/maven-shell.rb
+# Converted on 02-01-2019
+
+name='mavenshell'
+url=('https://search.maven.org/remotecontent?filepath=org/sonatype/maven/shell/dist/mvnsh-assembly/1.1.0/mvnsh-assembly-1.1.0-bin.tar.gz')
+description='Shell for Maven'
+version='1.1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/jdillon/mvnsh'
+
+###### Install ######
+# rm_f Dir["bin/*.bat"]
+# libexec.install Dir["*"]
+# bin.install_symlink libexec/"bin/mvnsh"

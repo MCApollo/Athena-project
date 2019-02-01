@@ -1,0 +1,42 @@
+# terraforming.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/terraforming.rb
+# Converted on 02-01-2019
+
+name='terraforming'
+url=('https://github.com/dtan4/terraforming.git')
+description='Export existing AWS resources to Terraform style (tf, tfstate)'
+version=' '
+priority='optional'
+homepage='https://terraforming.dtan4.net/'
+
+###### Resource ######
+# aws-sdk-autoscaling: https://rubygems.org/gems/aws-sdk-autoscaling-1.3.0.gem
+# aws-sdk-cloudwatch: https://rubygems.org/gems/aws-sdk-cloudwatch-1.2.0.gem
+# aws-sdk-ec2: https://rubygems.org/gems/aws-sdk-ec2-1.10.0.gem
+# aws-sdk-efs: https://rubygems.org/gems/aws-sdk-efs-1.0.0.gem
+# aws-sdk-elasticache: https://rubygems.org/gems/aws-sdk-elasticache-1.1.0.gem
+# aws-sdk-elasticloadbalancing: https://rubygems.org/gems/aws-sdk-elasticloadbalancing-1.1.0.gem
+# aws-sdk-elasticloadbalancingv2: https://rubygems.org/gems/aws-sdk-elasticloadbalancingv2-1.3.0.gem
+# aws-sdk-iam: https://rubygems.org/gems/aws-sdk-iam-1.3.0.gem
+# aws-sdk-kms: https://rubygems.org/gems/aws-sdk-kms-1.2.0.gem
+# aws-sdk-rds: https://rubygems.org/gems/aws-sdk-rds-1.4.0.gem
+# aws-sdk-redshift: https://rubygems.org/gems/aws-sdk-redshift-1.1.0.gem
+# aws-sdk-route53: https://rubygems.org/gems/aws-sdk-route53-1.3.0.gem
+# aws-sdk-s3: https://rubygems.org/gems/aws-sdk-s3-1.5.0.gem
+# aws-sdk-sns: https://rubygems.org/gems/aws-sdk-sns-1.1.0.gem
+# aws-sdk-sqs: https://rubygems.org/gems/aws-sdk-sqs-1.2.0.gem
+# multi_json: https://rubygems.org/gems/multi_json-1.12.2.gem
+# thor: https://rubygems.org/gems/thor-0.20.0.gem
+
+###### Install ######
+# ENV["GEM_HOME"] = libexec
+# resources.each do |r|
+# r.verify_download_integrity(r.fetch)
+# system "gem", "install", r.cached_download, "--no-document",
+# "--install-dir", libexec
+# end
+# system "gem", "build", "terraforming.gemspec"
+# system "gem", "install", "--ignore-dependencies",
+# "terraforming-#{version}.gem"
+# bin.install libexec/"bin/terraforming"
+# bin.env_script_all_files(libexec/"bin", :GEM_HOME => ENV["GEM_HOME"])

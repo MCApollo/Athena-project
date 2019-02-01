@@ -1,0 +1,21 @@
+# docker-compose.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-compose.rb
+# Converted on 02-01-2019
+
+name='dockercompose'
+url=('https://github.com/docker/compose/archive/1.23.2.tar.gz')
+description='Isolated development environments using Docker'
+version='1.23.2' # Guessed version.
+priority='optional'
+homepage='https://docs.docker.com/compose/'
+depends=('libyaml' 'python')
+
+###### Install ######
+# system "./script/build/write-git-sha" if build.head?
+# venv = virtualenv_create(libexec, "python3")
+# system libexec/"bin/pip", "install", "-v", "--no-binary", ":all:",
+# "--ignore-installed", buildpath
+# system libexec/"bin/pip", "uninstall", "-y", "docker-compose"
+# venv.pip_install_and_link buildpath
+# bash_completion.install "contrib/completion/bash/docker-compose"
+# zsh_completion.install "contrib/completion/zsh/_docker-compose"

@@ -1,0 +1,21 @@
+# czmq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/czmq.rb
+# Converted on 02-01-2019
+
+name='czmq'
+url=('https://github.com/zeromq/czmq/releases/download/v4.1.1/czmq-4.1.1.tar.gz')
+description='High-level C binding for ZeroMQ'
+version='4.1.1' # Guessed version.
+priority='optional'
+homepage='http://czmq.zeromq.org/'
+depends=('zeromq')
+makedepends=('asciidoc' 'pkg-config' 'xmlto')
+
+###### Install ######
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make"
+# system "make", "ZSYS_INTERFACE=lo0", "check-verbose"
+# system "make", "install"
+# rm Dir["#{bin}/*.gsl"]

@@ -1,0 +1,21 @@
+# uniutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/uniutils.rb
+# Converted on 02-01-2019
+
+name='uniutils'
+url=('https://billposer.org/Software/Downloads/uniutils-2.27.tar.gz')
+description='Manipulate and analyze Unicode text'
+version='2.27' # Guessed version.
+priority='optional'
+homepage='https://billposer.org/Software/unidesc.html'
+
+# A diff file was written to uniutils.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

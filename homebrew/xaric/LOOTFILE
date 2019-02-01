@@ -1,0 +1,17 @@
+# xaric.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xaric.rb
+# Converted on 02-01-2019
+
+name='xaric'
+url=('https://xaric.org/software/xaric/releases/xaric-0.13.7.tar.gz')
+description='IRC client'
+version='0.13.7' # Guessed version.
+priority='optional'
+homepage='https://xaric.org/'
+depends=('openssl')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-openssl=#{Formula["openssl"].opt_prefix}"
+# system "make", "install"

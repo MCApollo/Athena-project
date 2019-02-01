@@ -1,0 +1,14 @@
+# readline.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/readline.rb
+# Converted on 02-01-2019
+
+name='readline'
+url=('https://ftp.gnu.org/gnu/readline/readline-8.0.tar.gz')
+description='Library for command-line editing'
+version='8.0' # Guessed version.
+priority='optional'
+homepage='https://tiswww.case.edu/php/chet/readline/rltop.html'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,14 @@
+# atool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/atool.rb
+# Converted on 02-01-2019
+
+name='atool'
+url=('https://savannah.nongnu.org/download/atool/atool-0.39.0.tar.gz')
+description='Archival front-end'
+version='0.39.0' # Guessed version.
+priority='optional'
+homepage='https://savannah.nongnu.org/projects/atool/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

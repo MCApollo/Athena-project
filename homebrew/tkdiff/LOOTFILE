@@ -1,0 +1,13 @@
+# tkdiff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tkdiff.rb
+# Converted on 02-01-2019
+
+name='tkdiff'
+url=('https://downloads.sourceforge.net/project/tkdiff/tkdiff/4.3.4/tkdiff-4-3-4.zip')
+description='Graphical side by side diff utility'
+version=' '
+priority='optional'
+homepage='https://tkdiff.sourceforge.io/'
+
+###### Install ######
+# bin.install "tkdiff"

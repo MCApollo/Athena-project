@@ -1,0 +1,18 @@
+# duti.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/duti.rb
+# Converted on 02-01-2019
+
+name='duti'
+url=('https://github.com/moretension/duti/archive/duti-1.5.4.tar.gz')
+description='Select default apps for documents and URL schemes on macOS'
+version='1.5.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/moretension/duti/'
+makedepends=('autoconf')
+# Patches
+url+=('https://github.com/moretension/duti/pull/32.patch')
+
+###### Install ######
+# system "autoreconf", "-vfi"
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

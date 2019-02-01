@@ -1,0 +1,16 @@
+# moz-git-tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/moz-git-tools.rb
+# Converted on 02-01-2019
+
+name='mozgittools'
+url=('https://github.com/mozilla/moz-git-tools.git')
+description='Tools for working with Git at Mozilla'
+version=' '
+priority='optional'
+homepage='https://github.com/mozilla/moz-git-tools'
+
+###### Install ######
+# bin_array = Dir.glob("git*").push("hg-patch-to-git-patch")
+# bin_array.delete("git-root")
+# bin_array.delete("git-bz-moz")
+# bin_array.each { |e| bin.install e }

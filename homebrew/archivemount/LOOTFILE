@@ -1,0 +1,19 @@
+# archivemount.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/archivemount.rb
+# Converted on 02-01-2019
+
+name='archivemount'
+url=('https://www.cybernoia.de/software/archivemount/archivemount-0.8.12.tar.gz')
+description='File system for accessing archives using libarchive'
+version='0.8.12' # Guessed version.
+priority='optional'
+homepage='https://www.cybernoia.de/software/archivemount.html'
+depends=('libarchive' ':osxfuse')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

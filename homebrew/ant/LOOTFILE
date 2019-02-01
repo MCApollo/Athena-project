@@ -1,0 +1,29 @@
+# ant.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ant.rb
+# Converted on 02-01-2019
+
+name='ant'
+url=('https://www.apache.org/dyn/closer.cgi?path=ant/binaries/apache-ant-1.10.5-bin.tar.xz')
+description='Java build tool'
+version='1.10.5' # Guessed version.
+priority='optional'
+homepage='https://ant.apache.org/'
+
+###### Resource ######
+# bcel: https://www.apache.org/dyn/closer.cgi?path=commons/bcel/binaries/bcel-6.3-bin.tar.gz
+
+###### Install ######
+# rm Dir["bin/*.{bat,cmd,dll,exe}"]
+# libexec.install Dir["*"]
+# bin.install_symlink Dir["#{libexec}/bin/*"]
+# rm bin/"ant"
+# (bin/"ant").write <<~EOS
+# #!/bin/sh
+# #{libexec}/bin/ant -lib #{HOMEBREW_PREFIX}/share/ant "$@"
+# EOS
+# resource("ivy").stage do
+# (libexec/"lib").install Dir["ivy-*.jar"]
+# end
+# resource("bcel").stage do
+# (libexec/"lib").install "bcel-#{resource("bcel").version}.jar"
+# end

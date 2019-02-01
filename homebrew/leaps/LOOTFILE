@@ -1,0 +1,20 @@
+# leaps.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/leaps.rb
+# Converted on 02-01-2019
+
+name='leaps'
+url=('https://github.com/Jeffail/leaps.git')
+description='Collaborative web-based text editing service written in Golang'
+version=' '
+priority='optional'
+homepage='https://github.com/jeffail/leaps'
+makedepends=('dep' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/jeffail/leaps").install buildpath.children
+# cd "src/github.com/jeffail/leaps" do
+# system "dep", "ensure", "-vendor-only"
+# system "go", "build", "-o", bin/"leaps", "./cmd/leaps"
+# prefix.install_metafiles
+# end

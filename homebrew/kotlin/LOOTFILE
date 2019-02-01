@@ -1,0 +1,16 @@
+# kotlin.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kotlin.rb
+# Converted on 02-01-2019
+
+name='kotlin'
+url=('https://github.com/JetBrains/kotlin/releases/download/v1.3.20/kotlin-compiler-1.3.20.zip')
+description='Statically typed programming language for the JVM'
+version='1.3.20' # Guessed version.
+priority='optional'
+homepage='https://kotlinlang.org/'
+
+###### Install ######
+# libexec.install "bin", "build.txt", "lib"
+# rm Dir["#{libexec}/bin/*.bat"]
+# bin.install_symlink Dir["#{libexec}/bin/*"]
+# prefix.install "license"

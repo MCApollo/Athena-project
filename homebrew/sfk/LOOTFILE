@@ -1,0 +1,16 @@
+# sfk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sfk.rb
+# Converted on 02-01-2019
+
+name='sfk'
+url=('https://downloads.sourceforge.net/project/swissfileknife/1-swissfileknife/1.9.2.0/sfk-1.9.2.tar.gz')
+description='Command-line tools collection'
+version='1.9.2' # Guessed version.
+priority='optional'
+homepage='http://stahlworks.com/dev/swiss-file-knife.html'
+
+###### Install ######
+# ENV.libstdcxx
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

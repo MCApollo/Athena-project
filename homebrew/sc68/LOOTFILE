@@ -1,0 +1,17 @@
+# sc68.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sc68.rb
+# Converted on 02-01-2019
+
+name='sc68'
+url=('https://downloads.sourceforge.net/project/sc68/sc68/2.2.1/sc68-2.2.1.tar.gz')
+description='Play music originally designed for Atari ST and Amiga computers'
+version='2.2.1' # Guessed version.
+priority='optional'
+homepage='http://sc68.atari.org/project.html'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--infodir=#{info}"
+# system "make", "install"

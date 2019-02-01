@@ -1,0 +1,15 @@
+# kaitai-struct-compiler.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kaitai-struct-compiler.rb
+# Converted on 02-01-2019
+
+name='kaitaistructcompiler'
+url=('https://bintray.com/artifact/download/kaitai-io/universal/0.8/kaitai-struct-compiler-0.8.zip')
+description='Compiler for generating binary data parsers'
+version='0.8' # Guessed version.
+priority='optional'
+homepage='https://kaitai.io/'
+depends=(':java')
+
+###### Install ######
+# libexec.install Dir["*"]
+# bin.install_symlink libexec/"bin/kaitai-struct-compiler"

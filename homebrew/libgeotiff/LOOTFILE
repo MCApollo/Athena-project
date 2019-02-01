@@ -1,0 +1,19 @@
+# libgeotiff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgeotiff.rb
+# Converted on 02-01-2019
+
+name='libgeotiff'
+url=('https://download.osgeo.org/geotiff/libgeotiff/libgeotiff-1.4.2.tar.gz')
+description='Library and tools for dealing with GeoTIFF'
+version='1.4.2' # Guessed version.
+priority='optional'
+homepage='https://geotiff.osgeo.org/'
+depends=('jpeg' 'libtiff' 'proj')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-jpeg"
+# system "make"
+# system "make", "install"

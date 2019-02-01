@@ -1,0 +1,18 @@
+# kubeseal.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kubeseal.rb
+# Converted on 02-01-2019
+
+name='kubeseal'
+url=('https://github.com/bitnami-labs/sealed-secrets/archive/v0.7.0.tar.gz')
+description='Kubernetes controller and tool for one-way encrypted Secrets'
+version='0.7.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/bitnami-labs/sealed-secrets'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# kubesealpath = buildpath/"src/github.com/bitnami-labs/sealed-secrets"
+# kubesealpath.install Dir["*"]
+# system "make", "-C", kubesealpath, "kubeseal"
+# bin.install kubesealpath/"kubeseal"

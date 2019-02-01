@@ -1,0 +1,30 @@
+# uriparser.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/uriparser.rb
+# Converted on 02-01-2019
+
+name='uriparser'
+url=('https://github.com/uriparser/uriparser/releases/download/uriparser-0.9.1/uriparser-0.9.1.tar.bz2')
+description='URI parsing library (strictly RFC 3986 compliant)'
+version='0.9.1' # Guessed version.
+priority='optional'
+homepage='https://uriparser.github.io/'
+makedepends=('cmake' 'pkg-config')
+makedepends=('cmake' 'pkg-config')
+
+###### Resource ######
+# gtest: https://github.com/google/googletest/archive/release-1.8.1.tar.gz
+
+###### Install ######
+# (buildpath/"gtest").install resource("gtest")
+# (buildpath/"gtest/googletest").cd do
+# system "cmake", "."
+# system "make"
+# end
+# ENV["GTEST_CFLAGS"] = "-I./gtest/googletest/include"
+# ENV["GTEST_LIBS"] = "-L./gtest/googletest/ -lgtest"
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--disable-doc"
+# system "make", "check"
+# system "make", "install"

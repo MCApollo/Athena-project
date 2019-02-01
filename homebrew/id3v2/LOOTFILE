@@ -1,0 +1,17 @@
+# id3v2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/id3v2.rb
+# Converted on 02-01-2019
+
+name='id3v2'
+url=('https://downloads.sourceforge.net/project/id3v2/id3v2/0.1.12/id3v2-0.1.12.tar.gz')
+description='Command-line editor'
+version='0.1.12' # Guessed version.
+priority='optional'
+homepage='https://id3v2.sourceforge.io/'
+depends=('id3lib')
+
+###### Install ######
+# system "make", "clean"
+# bin.mkpath
+# man1.mkpath
+# system "make", "install", "PREFIX=#{prefix}"

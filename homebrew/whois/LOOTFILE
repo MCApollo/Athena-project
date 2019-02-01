@@ -1,0 +1,19 @@
+# whois.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/whois.rb
+# Converted on 02-01-2019
+
+name='whois'
+url=('https://deb.debian.org/debian/pool/main/w/whois/whois_5.4.1.tar.xz')
+description='Lookup tool for domain names and other internet resources'
+version='5.4.1' # Guessed version.
+priority='optional'
+homepage='https://packages.debian.org/sid/whois'
+depends=('libidn2')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.append "LDFLAGS", "-L/usr/lib -liconv"
+# system "make", "whois", "HAVE_ICONV=1"
+# bin.install "whois"
+# man1.install "whois.1"
+# man5.install "whois.conf.5"

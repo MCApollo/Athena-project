@@ -1,0 +1,17 @@
+# libserialport.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libserialport.rb
+# Converted on 02-01-2019
+
+name='libserialport'
+url=('https://sigrok.org/download/source/libserialport/libserialport-0.1.1.tar.gz')
+description='Cross-platform serial port C library'
+version='0.1.1' # Guessed version.
+priority='optional'
+homepage='https://sigrok.org/wiki/Libserialport'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

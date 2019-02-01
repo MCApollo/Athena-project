@@ -1,0 +1,14 @@
+# deark.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/deark.rb
+# Converted on 02-01-2019
+
+name='deark'
+url=('https://entropymine.com/deark/releases/deark-1.4.7.tar.gz')
+description='File conversion utility for older formats'
+version='1.4.7' # Guessed version.
+priority='optional'
+homepage='https://entropymine.com/deark/'
+
+###### Install ######
+# system "make"
+# bin.install "deark"

@@ -1,0 +1,22 @@
+# iamy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/iamy.rb
+# Converted on 02-01-2019
+
+name='iamy'
+url=('https://github.com/99designs/iamy/archive/v2.3.0.tar.gz')
+description='AWS IAM import and export tool'
+version='2.3.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/99designs/iamy'
+depends=('awscli')
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# dir = buildpath/"src/github.com/99designs/iamy"
+# dir.install buildpath.children
+# cd dir do
+# system "go", "build", "-o", bin/"iamy", "-ldflags",
+# "-X main.Version=v#{version}"
+# prefix.install_metafiles
+# end

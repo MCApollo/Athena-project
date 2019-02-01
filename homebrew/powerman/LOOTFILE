@@ -1,0 +1,23 @@
+# powerman.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/powerman.rb
+# Converted on 02-01-2019
+
+name='powerman'
+url=('https://github.com/chaos/powerman/releases/download/2.3.24/powerman-2.3.24.tar.gz')
+description='Control (remotely and in parallel) switched power distribution units'
+version='2.3.24' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/p/powerman/'
+depends=('curl')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--localstatedir=#{var}",
+# "--with-httppower",
+# "--with-ncurses",
+# "--without-genders",
+# "--without-snmppower",
+# "--without-tcp-wrappers"
+# system "make", "install"

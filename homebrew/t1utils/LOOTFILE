@@ -1,0 +1,17 @@
+# t1utils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/t1utils.rb
+# Converted on 02-01-2019
+
+name='t1utils'
+url=('https://www.lcdf.org/type/t1utils-1.41.tar.gz')
+description='Command-line tools for dealing with Type 1 fonts'
+version='1.41' # Guessed version.
+priority='optional'
+homepage='https://www.lcdf.org/type/'
+
+###### Install ######
+# system "./bootstrap.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

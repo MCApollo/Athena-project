@@ -1,0 +1,14 @@
+# tass64.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tass64.rb
+# Converted on 02-01-2019
+
+name='tass64'
+url=('https://downloads.sourceforge.net/project/tass64/source/64tass-1.53.1515-src.zip')
+description='Multi pass optimizing macro assembler for the 65xx series of processors'
+version='1.53.1515' # Guessed version.
+priority='optional'
+homepage='https://tass64.sourceforge.io/'
+
+###### Install ######
+# system "make", "install", "CPPFLAGS=-D_XOPEN_SOURCE", "prefix=#{prefix}"
+# pkgshare.install "syntax"

@@ -1,0 +1,38 @@
+# nagios.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nagios.rb
+# Converted on 02-01-2019
+
+name='nagios'
+url=('https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.4.2/nagios-4.4.2.tar.gz')
+description='Network monitoring and management system'
+version='4.4.2' # Guessed version.
+priority='optional'
+homepage='https://www.nagios.org/'
+depends=('gd' 'libpng' 'nagios-plugins')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--sbindir=#{nagios_sbin}",
+# "--sysconfdir=#{nagios_etc}",
+# "--localstatedir=#{nagios_var}",
+# "--datadir=#{htdocs}",
+# "--libexecdir=
+# "--with-cgiurl=/nagios/cgi-bin",
+# "--with-htmurl=/nagios",
+# "--with-nagios-user=#{user}",
+# "--with-nagios-group='#{group}'",
+# "--with-command-user=#{user}",
+# "--with-command-group=_www",
+# "--with-httpd-conf=#{share}",
+# "--disable-libtool"
+# system "make", "all"
+# system "make", "install"
+# system "make", "install-config"
+# system "make", "install-webconf"
+# (var/"lib/nagios/rw").mkpath
+# config = etc/"nagios/nagios.cfg"
+# return unless File.exist?(config)
+# return if File.read(config).include?(ENV["USER"])
+# inreplace config, "brew", ENV["USER"]

@@ -1,0 +1,15 @@
+# libdshconfig.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdshconfig.rb
+# Converted on 02-01-2019
+
+name='libdshconfig'
+url=('https://www.netfort.gr.jp/~dancer/software/downloads/libdshconfig-0.20.13.tar.gz')
+description='Distributed shell library'
+version='0.20.13' # Guessed version.
+priority='optional'
+homepage='https://www.netfort.gr.jp/~dancer/software/dsh.html.en'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

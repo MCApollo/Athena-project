@@ -1,0 +1,19 @@
+# app-engine-java.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/app-engine-java.rb
+# Converted on 02-01-2019
+
+name='appenginejava'
+url=('https://storage.googleapis.com/appengine-sdks/featured/appengine-java-sdk-1.9.68.zip')
+description='Google App Engine for Java'
+version='1.9.68' # Guessed version.
+priority='optional'
+homepage='https://cloud.google.com/appengine/docs/java/'
+depends=(':java')
+
+###### Install ######
+# rm Dir["bin/*.cmd"]
+# libexec.install Dir["*"]
+# %w[appcfg.sh dev_appserver.sh endpoints.sh run_java.sh].each do |f|
+# bin.install libexec/"bin/#{f}"
+# end
+# bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env("1.8"))

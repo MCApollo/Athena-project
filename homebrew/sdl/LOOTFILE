@@ -1,0 +1,21 @@
+# sdl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdl.rb
+# Converted on 02-01-2019
+
+name='sdl'
+url=('https://www.libsdl.org/release/SDL-1.2.15.tar.gz')
+description='Low-level access to audio, keyboard, mouse, joystick and graphics'
+version='1.2.15' # Guessed version.
+priority='optional'
+homepage='https://www.libsdl.org/'
+# Patches
+url+=('https://bugzilla-attachments.libsdl.org/attachment.cgi?id=1320')
+url+=('https://bugzilla-attachments.libsdl.org/attachment.cgi?id=1324')
+
+###### Install ######
+# inreplace %w[sdl.pc.in sdl-config.in], "@prefix@", HOMEBREW_PREFIX
+# system "./autogen.sh" if build.head?
+# args = %W[--prefix=#{prefix} --without-x]
+# system "./configure", *args
+# system "make", "install"
+# libexec.install Dir["src/main/macosx/*"] if build.stable?

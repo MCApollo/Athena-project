@@ -1,0 +1,29 @@
+# wxpython.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wxpython.rb
+# Converted on 02-01-2019
+
+name='wxpython'
+url=('https://downloads.sourceforge.net/project/wxpython/wxPython/3.0.2.0/wxPython-src-3.0.2.0.tar.bz2')
+description='Python bindings for wxWidgets'
+version='3.0.2.0' # Guessed version.
+priority='optional'
+homepage='https://www.wxwidgets.org/'
+depends=('python@2' 'wxmac')
+
+###### Install ######
+# ENV["WXWIN"] = buildpath
+# ENV.append_to_cflags "-arch #{MacOS.preferred_arch}"
+# inreplace %w[wxPython/config.py wxPython/wx/build/config.py],
+# "WXPREFIX +", "'#{prefix}' +"
+# args = [
+# "WXPORT=osx_cocoa",
+# "WX_CONFIG=#{Formula["wxmac"].opt_bin}/wx-config",
+# "UNICODE=1",
+# "INSTALL_MULTIVERSION=1",
+# "BUILD_GLCANVAS=1",
+# "BUILD_GIZMOS=1",
+# "BUILD_STC=1",
+# ]
+# cd "wxPython" do
+# system "python", "setup.py", "install", "--prefix=#{prefix}", *args
+# end

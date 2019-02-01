@@ -1,0 +1,14 @@
+# rpm2cpio.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rpm2cpio.rb
+# Converted on 02-01-2019
+
+name='rpm2cpio'
+url=('https://svnweb.freebsd.org/ports/head/archivers/rpm2cpio/files/rpm2cpio?revision=259745&view=co')
+description='Tool to convert RPM package to CPIO archive'
+version=' '
+priority='optional'
+homepage='https://svnweb.freebsd.org/ports/head/archivers/rpm2cpio/'
+depends=('xz')
+
+###### Install ######
+# bin.install "rpm2cpio" => "rpm2cpio.pl"

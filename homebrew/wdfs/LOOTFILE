@@ -1,0 +1,17 @@
+# wdfs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wdfs.rb
+# Converted on 02-01-2019
+
+name='wdfs'
+url=('http://noedler.de/projekte/wdfs/wdfs-1.4.2.tar.gz')
+description='Webdav file system'
+version='1.4.2' # Guessed version.
+priority='optional'
+homepage='http://noedler.de/projekte/wdfs/'
+depends=('glib' 'neon' ':osxfuse')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

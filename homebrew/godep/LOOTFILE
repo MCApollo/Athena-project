@@ -1,0 +1,19 @@
+# godep.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/godep.rb
+# Converted on 02-01-2019
+
+name='godep'
+url=('https://github.com/tools/godep/archive/v80.tar.gz')
+description='Dependency tool for go'
+version=' '
+priority='optional'
+homepage='https://godoc.org/github.com/tools/godep'
+depends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/tools/godep").install buildpath.children
+# cd "src/github.com/tools/godep" do
+# system "go", "build", "-o", bin/"godep"
+# prefix.install_metafiles
+# end

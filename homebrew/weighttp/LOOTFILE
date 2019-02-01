@@ -1,0 +1,16 @@
+# weighttp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/weighttp.rb
+# Converted on 02-01-2019
+
+name='weighttp'
+url=('https://github.com/lighttpd/weighttp/archive/weighttp-0.4.tar.gz')
+description='Webserver benchmarking tool that supports multithreading'
+version='0.4' # Guessed version.
+priority='optional'
+homepage='https://redmine.lighttpd.net/projects/weighttp/wiki'
+depends=('libev')
+
+###### Install ######
+# system "./waf", "configure"
+# system "./waf", "build"
+# bin.install "build/default/weighttp"

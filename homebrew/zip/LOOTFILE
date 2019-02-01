@@ -1,0 +1,16 @@
+# zip.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zip.rb
+# Converted on 02-01-2019
+
+name='zip'
+url=('https://downloads.sourceforge.net/project/infozip/Zip%203.x%20%28latest%29/3.0/zip30.tar.gz')
+description='Compression and file packaging/archive utility'
+version=' '
+priority='optional'
+homepage='https://infozip.sourceforge.io/Zip.html'
+# Patches
+url+=('https://mirrors.ocf.berkeley.edu/debian/pool/main/z/zip/zip_3.0-11.debian.tar.xz')
+
+###### Install ######
+# system "make", "-f", "unix/Makefile", "CC=#{ENV.cc}", "generic"
+# system "make", "-f", "unix/Makefile", "BINDIR=#{bin}", "MANDIR=#{man1}", "install"

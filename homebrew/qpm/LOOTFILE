@@ -1,0 +1,18 @@
+# qpm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qpm.rb
+# Converted on 02-01-2019
+
+name='qpm'
+url=('https://github.com/Cutehacks/qpm.git')
+description='Package manager for Qt applications'
+version=' '
+priority='optional'
+homepage='https://www.qpm.io'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src").mkpath
+# ln_s buildpath, "src/qpm.io"
+# system "go", "build", "-o", "bin/qpm", "qpm.io/qpm"
+# bin.install "bin/qpm"

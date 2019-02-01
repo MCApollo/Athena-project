@@ -1,0 +1,18 @@
+# lzo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lzo.rb
+# Converted on 02-01-2019
+
+name='lzo'
+url=('https://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz')
+description='Real-time data compression library'
+version='2.10' # Guessed version.
+priority='optional'
+homepage='https://www.oberhumer.com/opensource/lzo/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-shared"
+# system "make"
+# system "make", "check"
+# system "make", "install"

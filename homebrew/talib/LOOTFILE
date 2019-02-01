@@ -1,0 +1,16 @@
+# ta-lib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ta-lib.rb
+# Converted on 02-01-2019
+
+name='talib'
+url=('https://downloads.sourceforge.net/project/ta-lib/ta-lib/0.4.0/ta-lib-0.4.0-src.tar.gz')
+description='Tools for market analysis'
+version='0.4.0' # Guessed version.
+priority='optional'
+homepage='https://ta-lib.org/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# bin.install "src/tools/ta_regtest/.libs/ta_regtest"

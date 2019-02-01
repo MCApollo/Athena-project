@@ -1,0 +1,13 @@
+# woof.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/woof.rb
+# Converted on 02-01-2019
+
+name='woof'
+url=('http://www.home.unix-ag.org/simon/woof-2012-05-31.py')
+description='Ad-hoc single-file webserver'
+version=' '
+priority='optional'
+homepage='http://www.home.unix-ag.org/simon/woof.html'
+
+###### Install ######
+# bin.install "woof-2012-05-31.py" => "woof"

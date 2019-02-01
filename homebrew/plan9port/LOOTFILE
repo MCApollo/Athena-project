@@ -1,0 +1,17 @@
+# plan9port.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/plan9port.rb
+# Converted on 02-01-2019
+
+name='plan9port'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/plan9port/plan9port-20140306.tgz')
+description='Many Plan 9 programs ported to UNIX-like operating systems'
+version=' '
+priority='optional'
+homepage='https://swtch.com/plan9port/'
+
+###### Install ######
+# ENV["PLAN9_TARGET"] = libexec
+# system "./INSTALL"
+# libexec.install Dir["*"]
+# bin.install_symlink libexec/"bin/9"
+# prefix.install Dir[libexec/"mac/*.app"]

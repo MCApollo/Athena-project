@@ -1,0 +1,15 @@
+# buildifier.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/buildifier.rb
+# Converted on 02-01-2019
+
+name='buildifier'
+url=('https://github.com/bazelbuild/buildtools.git')
+description='Format bazel BUILD files with a standard convention'
+version=' '
+priority='optional'
+homepage='https://github.com/bazelbuild/buildtools'
+makedepends=('bazel')
+
+###### Install ######
+# system "bazel", "build", "--workspace_status_command=#{buildpath}/status.sh", "buildifier:buildifier"
+# bin.install "bazel-bin/buildifier/darwin_amd64_stripped/buildifier"

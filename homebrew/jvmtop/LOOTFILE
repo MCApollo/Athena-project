@@ -1,0 +1,18 @@
+# jvmtop.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jvmtop.rb
+# Converted on 02-01-2019
+
+name='jvmtop'
+url=('https://github.com/patric-r/jvmtop/releases/download/0.8.0/jvmtop-0.8.0.tar.gz')
+description='Console application for monitoring all running JVMs on a machine'
+version='0.8.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/patric-r/jvmtop'
+depends=(':java')
+
+###### Install ######
+# rm Dir["*.bat"]
+# mv "jvmtop.sh", "jvmtop"
+# chmod 0755, "jvmtop"
+# libexec.install Dir["*"]
+# (bin/"jvmtop").write_env_script(libexec/"jvmtop", Language::Java.java_home_env)

@@ -1,0 +1,23 @@
+# omniorb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/omniorb.rb
+# Converted on 02-01-2019
+
+name='omniorb'
+url=('https://downloads.sourceforge.net/project/omniorb/omniORB/omniORB-4.2.2/omniORB-4.2.2.tar.bz2')
+description='IOR and naming service utilities for omniORB'
+version='4.2.2' # Guessed version.
+priority='optional'
+homepage='https://omniorb.sourceforge.io/'
+makedepends=('pkg-config')
+
+###### Resource ######
+# bindings: https://downloads.sourceforge.net/project/omniorb/omniORBpy/omniORBpy-4.2.2/omniORBpy-4.2.2.tar.bz2
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"
+# resource("bindings").stage do
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"
+# end

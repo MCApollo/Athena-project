@@ -1,0 +1,15 @@
+# stress.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stress.rb
+# Converted on 02-01-2019
+
+name='stress'
+url=('https://people.seas.harvard.edu/~apw/stress/stress-1.0.4.tar.gz')
+description='Tool to impose load on and stress test a computer system'
+version='1.0.4' # Guessed version.
+priority='optional'
+homepage='https://people.seas.harvard.edu/~apw/stress/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

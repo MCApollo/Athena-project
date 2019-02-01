@@ -1,0 +1,20 @@
+# idutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/idutils.rb
+# Converted on 02-01-2019
+
+name='idutils'
+url=('https://ftp.gnu.org/gnu/idutils/idutils-4.6.tar.xz')
+description='ID database and query tools'
+version='4.6' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/s/idutils/'
+makedepends=('')
+# Patches
+url+=('https://raw.githubusercontent.com/macports/macports-ports/b76d1e48dac/editors/nano/files/secure_snprintf.patch')
+
+###### Install ######
+# ENV["gl_cv_func_getcwd_abort_bug"] = "no" if MacOS.version == :el_capitan
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-lispdir=#{elisp}"
+# system "make", "install"

@@ -1,0 +1,20 @@
+# minidjvu.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/minidjvu.rb
+# Converted on 02-01-2019
+
+name='minidjvu'
+url=('https://downloads.sourceforge.net/project/minidjvu/minidjvu/0.8/minidjvu-0.8.tar.gz')
+description='DjVu multipage encoder, single page encoder/decoder'
+version='0.8' # Guessed version.
+priority='optional'
+homepage='https://minidjvu.sourceforge.io/'
+depends=('djvulibre' 'libtiff')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# ENV.deparallelize
+# system "autoreconf", "-vfi"
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"
+# lib.install Dir["#{prefix}/*.dylib"]

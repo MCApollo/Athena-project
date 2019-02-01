@@ -1,0 +1,13 @@
+# git-when-merged.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-when-merged.rb
+# Converted on 02-01-2019
+
+name='gitwhenmerged'
+url=('https://github.com/mhagger/git-when-merged/archive/v1.2.0.tar.gz')
+description='Find where a commit was merged in git'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/mhagger/git-when-merged'
+
+###### Install ######
+# bin.install "bin/git-when-merged"

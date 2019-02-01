@@ -1,0 +1,26 @@
+# gdb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gdb.rb
+# Converted on 02-01-2019
+
+name='gdb'
+url=('')
+description='GNU debugger'
+version=' '
+priority='optional'
+homepage='https://www.gnu.org/software/gdb/'
+makedepends=('pkg-config')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/d457e55/gdb/mojave.diff')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-debug
+# --disable-dependency-tracking
+# --enable-targets=all
+# --with-python=/usr
+# --disable-binutils
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "install-gdb"

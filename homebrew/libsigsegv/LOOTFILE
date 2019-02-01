@@ -1,0 +1,18 @@
+# libsigsegv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsigsegv.rb
+# Converted on 02-01-2019
+
+name='libsigsegv'
+url=('https://ftp.gnu.org/gnu/libsigsegv/libsigsegv-2.12.tar.gz')
+description='Library for handling page faults in user mode'
+version='2.12' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/libsigsegv/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-shared"
+# system "make"
+# system "make", "check"
+# system "make", "install"

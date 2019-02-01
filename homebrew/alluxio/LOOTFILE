@@ -1,0 +1,17 @@
+# alluxio.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/alluxio.rb
+# Converted on 02-01-2019
+
+name='alluxio'
+url=('http://downloads.alluxio.org/downloads/files/1.8.1/alluxio-1.8.1-bin.tar.gz')
+description='Open Source Memory Speed Virtual Distributed Storage'
+version='1.8.1' # Guessed version.
+priority='optional'
+homepage='https://www.alluxio.org/'
+
+###### Install ######
+# doc.install Dir["docs/*"]
+# libexec.install Dir["*"]
+# bin.write_exec_script Dir["#{libexec}/bin/*"]
+# (etc/"alluxio").install libexec/"conf/alluxio-env.sh.template" => "alluxio-env.sh"
+# ln_sf "#{etc}/alluxio/alluxio-env.sh", "#{libexec}/conf/alluxio-env.sh"

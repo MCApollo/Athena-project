@@ -1,0 +1,18 @@
+# tcptraceroute.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tcptraceroute.rb
+# Converted on 02-01-2019
+
+name='tcptraceroute'
+url=('')
+description='Traceroute implementation using TCP packets'
+version=' '
+priority='optional'
+homepage='https://github.com/mct/tcptraceroute'
+depends=('libnet')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-libnet=#{HOMEBREW_PREFIX}",
+# "--mandir=#{man}"
+# system "make", "install"

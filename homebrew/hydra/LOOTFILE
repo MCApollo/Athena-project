@@ -1,0 +1,24 @@
+# hydra.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hydra.rb
+# Converted on 02-01-2019
+
+name='hydra'
+url=('https://github.com/vanhauser-thc/thc-hydra/archive/v8.8.tar.gz')
+description='Network logon cracker which supports many services'
+version='8.8' # Guessed version.
+priority='optional'
+homepage='https://github.com/vanhauser-thc/thc-hydra'
+depends=('libssh' 'mysql-client' 'openssl')
+makedepends=('pkg-config')
+
+###### Install ######
+# inreplace "configure" do |s|
+# s.gsub! "/opt/local/lib", Formula["openssl"].opt_lib
+# s.gsub! "/opt/local/*ssl", Formula["openssl"].opt_lib
+# s.gsub! "/opt/*ssl/include", Formula["openssl"].opt_include
+# s.gsub! "libsvn", "oh_no_you_dont"
+# end
+# system "./configure", "--prefix=#{prefix}"
+# bin.mkpath
+# system "make", "all", "install"
+# share.install prefix/"man"

@@ -1,0 +1,22 @@
+# codequery.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/codequery.rb
+# Converted on 02-01-2019
+
+name='codequery'
+url=('https://github.com/ruben2020/codequery/archive/v0.21.1.tar.gz')
+description='Code-understanding, code-browsing or code-search tool'
+version='0.21.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/ruben2020/codequery'
+depends=('qt')
+makedepends=('cmake')
+
+###### Install ######
+# args = std_cmake_args
+# args << "-DBUILD_QT5=ON"
+# share.install "test"
+# mkdir "build" do
+# system "cmake", "..", "-G", "Unix Makefiles", *args
+# system "make"
+# system "make", "install"
+# end

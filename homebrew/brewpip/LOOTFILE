@@ -1,0 +1,13 @@
+# brew-pip.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/brew-pip.rb
+# Converted on 02-01-2019
+
+name='brewpip'
+url=('https://github.com/hanxue/brew-pip/archive/0.4.1.tar.gz')
+description='Install pip packages as homebrew formulae'
+version='0.4.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/hanxue/brew-pip'
+
+###### Install ######
+# bin.install "bin/brew-pip"

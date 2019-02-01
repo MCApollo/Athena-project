@@ -1,0 +1,20 @@
+# ucommon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ucommon.rb
+# Converted on 02-01-2019
+
+name='ucommon'
+url=('https://ftp.gnu.org/gnu/commonc++/ucommon-7.0.0.tar.gz')
+description='GNU C++ runtime library for threads, sockets, and parsing'
+version='7.0.0' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/commoncpp/'
+depends=('gnutls')
+makedepends=('pkg-config')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/77f0d9d2/ucommon/cachelinesize.patch')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking",
+# "--disable-silent-rules", "--enable-socks",
+# "--with-sslstack=gnutls", "--with-pkg-config"
+# system "make", "install"

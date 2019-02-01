@@ -1,0 +1,14 @@
+# rbenv-whatis.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rbenv-whatis.rb
+# Converted on 02-01-2019
+
+name='rbenvwhatis'
+url=('https://github.com/rkh/rbenv-whatis/archive/v1.0.0.tar.gz')
+description='Resolves abbreviations and aliases to Ruby versions'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/rkh/rbenv-whatis'
+depends=('rbenv')
+
+###### Install ######
+# prefix.install Dir["*"]

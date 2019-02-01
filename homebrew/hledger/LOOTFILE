@@ -1,0 +1,14 @@
+# hledger.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hledger.rb
+# Converted on 02-01-2019
+
+name='hledger'
+url=('https://hackage.haskell.org/package/hledger-1.11.1/hledger-1.11.1.tar.gz')
+description='Command-line accounting tool'
+version='1.11.1' # Guessed version.
+priority='optional'
+homepage='http://hledger.org'
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# install_cabal_package :using => ["happy"]

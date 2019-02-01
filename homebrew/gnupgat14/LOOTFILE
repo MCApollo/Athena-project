@@ -1,0 +1,34 @@
+# gnupg@1.4.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnupg@1.4.rb
+# Converted on 02-01-2019
+
+name='gnupgat14'
+url=('https://gnupg.org/ftp/gcrypt/gnupg/gnupg-1.4.23.tar.bz2')
+description='GNU Pretty Good Privacy (PGP) package'
+version='1.4.23' # Guessed version.
+priority='optional'
+homepage='https://www.gnupg.org/'
+depends=('curl')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --disable-asm
+# --program-suffix=1
+# --with-libusb=no
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "check"
+# [bin, libexec/"gnupg"].each(&:mkpath)
+# system "make", "install"
+# inreplace bin/"gpg-zip1", "GPG=gpg", "GPG=gpg1"
+# %w[curl finger hkp ldap].each do |cmd|
+# cmd.prepend("gpgkeys_")
+# (libexec/"gnupg").install_symlink (cmd + "1") => cmd
+# end
+# %w[gpg-zip gpg gpgsplit gpgv].each do |cmd|
+# (libexec/"gpgbin").install_symlink bin/(cmd + "1") => cmd
+# end

@@ -1,0 +1,29 @@
+# libosinfo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libosinfo.rb
+# Converted on 02-01-2019
+
+name='libosinfo'
+url=('https://releases.pagure.org/libosinfo/libosinfo-1.2.0.tar.gz')
+description='The Operating System information database'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://libosinfo.org/'
+depends=('check' 'gettext' 'glib' 'libsoup' 'libxml2')
+makedepends=('gobject-introspection' 'intltool' 'pkg-config')
+
+###### Install ######
+# inreplace "Makefile.in", "wget -q -O", "curl -o"
+# args = %W[
+# --prefix=#{prefix}
+# --localstatedir=#{var}
+# --mandir=#{man}
+# --sysconfdir=#{etc}
+# --disable-silent-rules
+# --disable-udev
+# --disable-vala
+# --enable-introspection
+# --enable-tests
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "install"

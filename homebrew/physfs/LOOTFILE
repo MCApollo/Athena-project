@@ -1,0 +1,20 @@
+# physfs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/physfs.rb
+# Converted on 02-01-2019
+
+name='physfs'
+url=('https://icculus.org/physfs/downloads/physfs-3.0.1.tar.bz2')
+description='Library to provide abstract access to various archives'
+version='3.0.1' # Guessed version.
+priority='optional'
+homepage='https://icculus.org/physfs/'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "macbuild" do
+# args = std_cmake_args
+# args << "-DPHYSFS_BUILD_TEST=TRUE"
+# args << "-DPHYSFS_BUILD_WX_TEST=FALSE" unless build.head?
+# system "cmake", "..", *args
+# system "make", "install"
+# end

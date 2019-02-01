@@ -1,0 +1,15 @@
+# libntlm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libntlm.rb
+# Converted on 02-01-2019
+
+name='libntlm'
+url=('https://www.nongnu.org/libntlm/releases/libntlm-1.4.tar.gz')
+description='Implements Microsoft'\''s NTLM authentication'
+version='1.4' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/libntlm/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

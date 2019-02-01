@@ -1,0 +1,26 @@
+# gtk-vnc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtk-vnc.rb
+# Converted on 02-01-2019
+
+name='gtkvnc'
+url=('https://download.gnome.org/sources/gtk-vnc/0.9/gtk-vnc-0.9.0.tar.xz')
+description='VNC viewer widget for GTK'
+version='0.9.0' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/Projects/gtk-vnc'
+depends=('gnutls' 'gtk+3' 'libgcrypt' ':macos')
+makedepends=('gettext' 'gobject-introspection' 'intltool' 'pkg-config' 'python')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --with-gtk=3.0
+# --with-examples
+# --disable-vala
+# --enable-introspection
+# ]
+# ENV.append "CPPFLAGS", "-D_XOPEN_SOURCE=600"
+# ENV.append "CPPFLAGS", "-D_DARWIN_C_SOURCE"
+# system "./configure", *args
+# system "make"
+# system "make", "install"

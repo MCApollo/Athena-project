@@ -1,0 +1,17 @@
+# open-cobol.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/open-cobol.rb
+# Converted on 02-01-2019
+
+name='opencobol'
+url=('https://downloads.sourceforge.net/project/open-cobol/open-cobol/1.1/open-cobol-1.1.tar.gz')
+description='COBOL compiler'
+version='1.1' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/open-cobol/'
+depends=('berkeley-db' 'gmp')
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}", "--infodir=#{info}"
+# system "make", "install"

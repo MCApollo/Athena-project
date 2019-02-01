@@ -1,0 +1,27 @@
+# darkice.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/darkice.rb
+# Converted on 02-01-2019
+
+name='darkice'
+url=('https://downloads.sourceforge.net/project/darkice/darkice/1.3/darkice-1.3.tar.gz')
+description='Live audio streamer'
+version='1.3' # Guessed version.
+priority='optional'
+homepage='http://www.darkice.org/'
+depends=('faac' 'jack' 'lame' 'libsamplerate' 'libvorbis' 'two-lame')
+makedepends=('pkg-config')
+
+###### Install ######
+# ["aacPlusEncoder.cpp", "FaacEncoder.cpp", "OpusLibEncoder.cpp", "VorbisLibEncoder.cpp"].each do |f|
+# inreplace "src/#{f}", ", converterData.data_in", ", const_cast<float*>( converterData.data_in )"
+# end
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}",
+# "--with-lame-prefix=#{Formula["lame"].opt_prefix}",
+# "--with-faac-prefix=#{Formula["faac"].opt_prefix}",
+# "--with-twolame",
+# "--with-jack",
+# "--with-vorbis",
+# "--with-samplerate"
+# system "make", "install"

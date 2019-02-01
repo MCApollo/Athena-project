@@ -1,0 +1,14 @@
+# shelltestrunner.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shelltestrunner.rb
+# Converted on 02-01-2019
+
+name='shelltestrunner'
+url=('https://hackage.haskell.org/package/shelltestrunner-1.9/shelltestrunner-1.9.tar.gz')
+description='Portable command-line tool for testing command-line programs'
+version='1.9' # Guessed version.
+priority='optional'
+homepage='https://github.com/simonmichael/shelltestrunner'
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# install_cabal_package :using => ["happy"]

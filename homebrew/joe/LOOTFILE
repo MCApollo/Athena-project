@@ -1,0 +1,14 @@
+# joe.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/joe.rb
+# Converted on 02-01-2019
+
+name='joe'
+url=('https://downloads.sourceforge.net/project/joe-editor/JOE%20sources/joe-4.6/joe-4.6.tar.gz')
+description='Joe'\''s Own Editor (JOE)'
+version='4.6' # Guessed version.
+priority='optional'
+homepage='https://joe-editor.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

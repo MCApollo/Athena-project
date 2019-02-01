@@ -1,0 +1,15 @@
+# scale2x.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scale2x.rb
+# Converted on 02-01-2019
+
+name='scale2x'
+url=('https://github.com/amadvance/scale2x/releases/download/v4.0/scale2x-4.0.tar.gz')
+description='Real-time graphics effect'
+version='4.0' # Guessed version.
+priority='optional'
+homepage='https://www.scale2x.it/'
+depends=('libpng')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "CPPFLAGS=-I/usr/include/malloc/"
+# system "make", "install"

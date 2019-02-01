@@ -1,0 +1,12 @@
+# django-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/django-completion.rb
+# Converted on 02-01-2019
+
+name='djangocompletion'
+url=('https://github.com/django/django/archive/2.1.5.tar.gz')
+description='Bash completion for Django'
+version='2.1.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/django/django'
+
+###### Install ######

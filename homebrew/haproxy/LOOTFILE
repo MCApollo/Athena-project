@@ -1,0 +1,26 @@
+# haproxy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/haproxy.rb
+# Converted on 02-01-2019
+
+name='haproxy'
+url=('https://www.haproxy.org/download/1.8/src/haproxy-1.8.17.tar.gz')
+description='Reliable, high performance TCP/HTTP load balancer'
+version='1.8.17' # Guessed version.
+priority='optional'
+homepage='https://www.haproxy.org/'
+depends=('openssl' 'pcre')
+
+###### Install ######
+# args = %w[
+# TARGET=generic
+# USE_KQUEUE=1
+# USE_POLL=1
+# USE_PCRE=1
+# USE_OPENSSL=1
+# USE_THREAD=1
+# USE_ZLIB=1
+# ADDLIB=-lcrypto
+# ]
+# system "make", "CC=#{ENV.cc}", "CFLAGS=#{ENV.cflags}", "LDFLAGS=#{ENV.ldflags}", *args
+# man1.install "doc/haproxy.1"
+# bin.install "haproxy"

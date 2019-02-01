@@ -1,0 +1,21 @@
+# skaffold.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/skaffold.rb
+# Converted on 02-01-2019
+
+name='skaffold'
+url=('https://github.com/GoogleContainerTools/skaffold.git')
+description='Easy and Repeatable Kubernetes Development'
+version=' '
+priority='optional'
+homepage='https://github.com/GoogleContainerTools/skaffold'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# dir = buildpath/"src/github.com/GoogleContainerTools/skaffold"
+# dir.install buildpath.children - [buildpath/".brew_home"]
+# cd dir do
+# system "make"
+# bin.install "out/skaffold"
+# prefix.install_metafiles
+# end

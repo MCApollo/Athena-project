@@ -1,0 +1,16 @@
+# daemontools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/daemontools.rb
+# Converted on 02-01-2019
+
+name='daemontools'
+url=('https://cr.yp.to/daemontools/daemontools-0.76.tar.gz')
+description='Collection of tools for managing UNIX services'
+version='0.76' # Guessed version.
+priority='optional'
+homepage='https://cr.yp.to/daemontools.html'
+
+###### Install ######
+# cd "daemontools-#{version}" do
+# system "package/compile"
+# bin.install Dir["command/*"]
+# end

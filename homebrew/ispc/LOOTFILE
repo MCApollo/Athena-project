@@ -1,0 +1,15 @@
+# ispc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ispc.rb
+# Converted on 02-01-2019
+
+name='ispc'
+url=('https://github.com/ispc/ispc/archive/v1.9.2.tar.gz')
+description='Compiler for SIMD programming on the CPU'
+version='1.9.2' # Guessed version.
+priority='optional'
+homepage='https://ispc.github.io'
+makedepends=('bison' 'llvm@4')
+
+###### Install ######
+# system "make"
+# bin.install "ispc"

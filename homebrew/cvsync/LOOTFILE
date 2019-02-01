@@ -1,0 +1,26 @@
+# cvsync.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cvsync.rb
+# Converted on 02-01-2019
+
+name='cvsync'
+url=('https://www.cvsync.org/dist/cvsync-0.24.19.tar.gz')
+description='Portable CVS repository synchronization utility'
+version='0.24.19' # Guessed version.
+priority='optional'
+homepage='https://www.cvsync.org/'
+depends=('openssl')
+
+###### Install ######
+# ENV["PREFIX"] = prefix
+# ENV["MANDIR"] = man
+# ENV["CVSYNC_DEFAULT_CONFIG"] = etc/"cvsync.conf"
+# ENV["CVSYNCD_DEFAULT_CONFIG"] = etc/"cvsyncd.conf"
+# ENV["HASH_TYPE"] = "openssl"
+# inreplace "mk/network.mk",
+# /^CFLAGS \+= \-Dsocklen_t=int/, ""
+# inreplace "mk/base.mk",
+# /^INSTALL_(.{3})_OPTS\?=.*/, 'INSTALL_\1_OPTS?= -c -m ${\1MODE}'
+# bin.mkpath
+# lib.mkpath
+# man1.mkpath
+# system "make", "install"

@@ -1,0 +1,15 @@
+# vttest.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vttest.rb
+# Converted on 02-01-2019
+
+name='vttest'
+url=('https://invisible-mirror.net/archives/vttest/vttest-20140305.tgz')
+description='Test compatibility of VT100-compatible terminals'
+version=' '
+priority='optional'
+homepage='https://invisible-island.net/vttest/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make"
+# system "make", "install"

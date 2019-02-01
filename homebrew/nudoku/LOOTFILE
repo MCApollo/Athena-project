@@ -1,0 +1,18 @@
+# nudoku.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nudoku.rb
+# Converted on 02-01-2019
+
+name='nudoku'
+url=('https://github.com/jubalh/nudoku/archive/1.0.0.tar.gz')
+description='ncurses based sudoku game'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://jubalh.github.io/nudoku/'
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

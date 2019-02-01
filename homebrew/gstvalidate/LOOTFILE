@@ -1,0 +1,33 @@
+# gst-validate.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gst-validate.rb
+# Converted on 02-01-2019
+
+name='gstvalidate'
+url=('https://gstreamer.freedesktop.org/src/gst-validate/gst-validate-1.14.4.tar.xz')
+description='Tools to validate GstElements from GStreamer'
+version='1.14.4' # Guessed version.
+priority='optional'
+homepage='https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-validate/html/'
+depends=('gettext' 'gst-plugins-base' 'gstreamer' 'json-glib')
+makedepends=('gobject-introspection' 'pkg-config')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-debug
+# --disable-dependency-tracking
+# --disable-silent-rules
+# ]
+# if build.head?
+# ENV["NOCONFIGURE"] = "yes"
+# cd "validate" do
+# system "./autogen.sh"
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# end
+# else
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# end

@@ -1,0 +1,22 @@
+# pachi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pachi.rb
+# Converted on 02-01-2019
+
+name='pachi'
+url=('https://repo.or.cz/pachi.git/snapshot/pachi-11.00-retsugen.tar.gz')
+description='Software for the Board Game of Go/Weiqi/Baduk'
+version='11.00' # Guessed version.
+priority='optional'
+homepage='http://pachi.or.cz/'
+
+###### Resource ######
+# patterns: https://sainet-dist.s3.amazonaws.com/pachi_patterns.zip
+# book: https://gnugo.baduk.org/books/ra6.zip
+
+###### Install ######
+# ENV["MAC"] = "1"
+# ENV["DOUBLE_FLOATING"] = "1"
+# system "make"
+# bin.install "pachi"
+# pkgshare.install resource("patterns")
+# pkgshare.install resource("book")

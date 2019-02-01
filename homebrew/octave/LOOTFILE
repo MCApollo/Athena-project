@@ -1,0 +1,39 @@
+# octave.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/octave.rb
+# Converted on 02-01-2019
+
+name='octave'
+url=('https://ftp.gnu.org/gnu/octave/octave-4.4.1.tar.xz')
+description='High-level interpreted language for numerical computing'
+version='4.4.1' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/octave/index.html'
+depends=(':java' 'arpack' 'epstool' 'fftw' 'fig2dev' 'fltk' 'fontconfig' 'freetype' 'gcc' 'ghostscript' 'gl2ps' 'glpk' 'gnuplot' 'graphicsmagick' 'hdf5' 'libsndfile' 'libtool' 'pcre' 'portaudio' 'pstoedit' 'qhull' 'qrupdate' 'qt' 'readline' 'suite-sparse' 'sundials' 'texinfo' 'veclibfort')
+makedepends=('gnu-sed' 'pkg-config')
+
+###### Install ######
+# inreplace "src/mkoctfile.in.cc",
+# /%OCTAVE_CONF_OCT(AVE)?_LINK_(DEPS|OPTS)%/,
+# '""'
+# ENV["QCOLLECTIONGENERATOR"] = "qhelpgenerator"
+# system "./bootstrap" if build.head?
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--enable-link-all-dependencies",
+# "--enable-shared",
+# "--disable-static",
+# "--with-hdf5-includedir=#{Formula["hdf5"].opt_include}",
+# "--with-hdf5-libdir=#{Formula["hdf5"].opt_lib}",
+# "--with-x=no",
+# "--with-blas=-L#{Formula["veclibfort"].opt_lib} -lvecLibFort",
+# "--with-portaudio",
+# "--with-sndfile"
+# system "make", "all"
+# inreplace "src/mkoctfile.cc" do |s|
+# s.gsub! Formula["fftw"].prefix.realpath, Formula["fftw"].opt_prefix
+# s.gsub! Formula["gcc"].prefix.realpath, Formula["gcc"].opt_prefix
+# end
+# rcfile = buildpath/"scripts/startup/site-rcfile"
+# rcfile.append_lines "makeinfo_program(\"#{Formula["texinfo"].opt_bin}/makeinfo\");"
+# system "make", "install"

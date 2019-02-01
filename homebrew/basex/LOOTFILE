@@ -1,0 +1,20 @@
+# basex.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/basex.rb
+# Converted on 02-01-2019
+
+name='basex'
+url=('http://files.basex.org/releases/9.1.2/BaseX912.zip')
+description='Light-weight XML database and XPath/XQuery processor'
+version=' '
+priority='optional'
+homepage='http://basex.org'
+depends=(':java')
+
+###### Install ######
+# rm Dir["bin/*.bat"]
+# rm_rf "repo"
+# rm_rf "data"
+# rm_rf "etc"
+# prefix.install_metafiles
+# libexec.install Dir["*"]
+# bin.install_symlink Dir["#{libexec}/bin/*"]

@@ -1,0 +1,14 @@
+# mon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mon.rb
+# Converted on 02-01-2019
+
+name='mon'
+url=('https://github.com/visionmedia/mon/archive/1.2.3.tar.gz')
+description='Monitor hosts/services/whatever and alert about problems'
+version='1.2.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/visionmedia/mon'
+
+###### Install ######
+# bin.mkpath
+# system "make", "install", "PREFIX=#{prefix}"

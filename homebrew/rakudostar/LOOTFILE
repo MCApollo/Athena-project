@@ -1,0 +1,25 @@
+# rakudo-star.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rakudo-star.rb
+# Converted on 02-01-2019
+
+name='rakudostar'
+url=('https://rakudo.perl6.org/downloads/star/rakudo-star-2018.10.tar.gz')
+description='Perl 6 compiler'
+version='2018.10' # Guessed version.
+priority='optional'
+homepage='https://rakudo.org/'
+depends=('gmp' 'icu4c' 'libffi' 'pcre')
+makedepends=('')
+
+###### Install ######
+# libffi = Formula["libffi"]
+# ENV.remove "CPPFLAGS", "-I#{libffi.include}"
+# ENV.prepend "CPPFLAGS", "-I#{libffi.lib}/libffi-#{libffi.version}/include"
+# ENV.deparallelize
+# system "perl", "Configure.pl", "--prefix=#{prefix}",
+# "--backends=moar", "--gen-moar"
+# system "make"
+# ENV["NO_NETWORK_TESTING"] = "1"
+# system "make", "install"
+# bin.install_symlink Dir[share/"perl6/site/bin/*"]
+# mv "#{prefix}/man", share if File.directory?("#{prefix}/man")

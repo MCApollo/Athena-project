@@ -1,0 +1,17 @@
+# launchdns.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/launchdns.rb
+# Converted on 02-01-2019
+
+name='launchdns'
+url=('https://github.com/josh/launchdns/archive/v1.0.3.tar.gz')
+description='Mini DNS server designed solely to route queries to localhost'
+version='1.0.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/josh/launchdns'
+depends=(':macos')
+
+###### Install ######
+# ENV["PREFIX"] = prefix
+# system "./configure", "--with-launch-h", "--with-launch-h-activate-socket"
+# system "make", "install"
+# (prefix/"etc/resolver/localhost").write("nameserver 127.0.0.1\nport 55353\n")

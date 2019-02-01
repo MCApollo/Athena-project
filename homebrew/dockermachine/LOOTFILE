@@ -1,0 +1,22 @@
+# docker-machine.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-machine.rb
+# Converted on 02-01-2019
+
+name='dockermachine'
+url=('https://github.com/docker/machine.git')
+description='Create Docker hosts locally and on cloud providers'
+version=' '
+priority='optional'
+homepage='https://docs.docker.com/machine'
+makedepends=('automake' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/docker/machine").install buildpath.children
+# cd "src/github.com/docker/machine" do
+# system "make", "build"
+# bin.install Dir["bin/*"]
+# bash_completion.install Dir["contrib/completion/bash/*.bash"]
+# zsh_completion.install "contrib/completion/zsh/_docker-machine"
+# prefix.install_metafiles
+# end

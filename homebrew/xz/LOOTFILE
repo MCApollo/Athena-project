@@ -1,0 +1,18 @@
+# xz.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xz.rb
+# Converted on 02-01-2019
+
+name='xz'
+url=('https://downloads.sourceforge.net/project/lzmautils/xz-5.2.4.tar.gz')
+description='General-purpose data compression with high compression ratio'
+version='5.2.4' # Guessed version.
+priority='optional'
+homepage='https://tukaani.org/xz/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "check"
+# system "make", "install"

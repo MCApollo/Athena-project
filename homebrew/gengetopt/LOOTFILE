@@ -1,0 +1,17 @@
+# gengetopt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gengetopt.rb
+# Converted on 02-01-2019
+
+name='gengetopt'
+url=('https://ftp.gnu.org/gnu/gengetopt/gengetopt-2.22.6.tar.gz')
+description='Generate C code to parse command-line arguments via getopt_long'
+version='2.22.6' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/gengetopt/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# ENV.deparallelize
+# system "make", "install"

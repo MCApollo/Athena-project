@@ -1,0 +1,23 @@
+# mysql-utilities.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mysql-utilities.rb
+# Converted on 02-01-2019
+
+name='mysqlutilities'
+url=('https://github.com/mysql/mysql-utilities/archive/release-1.6.5.tar.gz')
+description='Tools for maintaining and administering MySQL servers'
+version='1.6.5' # Guessed version.
+priority='optional'
+homepage='https://dev.mysql.com/downloads/utilities/'
+depends=('python@2')
+
+###### Resource ######
+# mysql-connector-python: https://github.com/mysql/mysql-connector-python/archive/2.2.2.tar.gz
+
+###### Install ######
+# ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
+# resource("mysql-connector-python").stage do
+# system "python", "setup.py", "install", "--prefix=" + libexec
+# end
+# system "python", "setup.py", "install", "--prefix=" + libexec
+# bin.install Dir[libexec/"bin/*"]
+# bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])

@@ -1,0 +1,17 @@
+# pms.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pms.rb
+# Converted on 02-01-2019
+
+name='pms'
+url=('https://downloads.sourceforge.net/project/pms/pms/0.42/pms-0.42.tar.bz2')
+description='Practical Music Search, an ncurses-based MPD client'
+version='0.42' # Guessed version.
+priority='optional'
+homepage='https://pms.sourceforge.io'
+depends=('gettext' 'glib')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,20 @@
+# freetype.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/freetype.rb
+# Converted on 02-01-2019
+
+name='freetype'
+url=('https://downloads.sourceforge.net/project/freetype/freetype2/2.9.1/freetype-2.9.1.tar.bz2')
+description='Software library to render fonts'
+version='2.9.1' # Guessed version.
+priority='optional'
+homepage='https://www.freetype.org/'
+depends=('libpng')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--enable-freetype-config",
+# "--without-harfbuzz"
+# system "make"
+# system "make", "install"
+# inreplace [bin/"freetype-config", lib/"pkgconfig/freetype2.pc"],
+# prefix, opt_prefix

@@ -1,0 +1,20 @@
+# go-statik.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/go-statik.rb
+# Converted on 02-01-2019
+
+name='gostatik'
+url=('https://github.com/rakyll/statik/archive/v0.1.5.tar.gz')
+description='Embed files into a Go executable'
+version='0.1.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/rakyll/statik'
+makedepends=('go')
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = HOMEBREW_CACHE/"go_cache"
+# (buildpath/"src/github.com/rakyll/statik").install buildpath.children
+# cd "src/github.com/rakyll/statik" do
+# system "go", "build", "-o", bin/"statik"
+# prefix.install_metafiles
+# end

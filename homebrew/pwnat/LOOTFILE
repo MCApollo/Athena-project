@@ -1,0 +1,14 @@
+# pwnat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pwnat.rb
+# Converted on 02-01-2019
+
+name='pwnat'
+url=('https://samy.pl/pwnat/pwnat-0.3-beta.tgz')
+description='Proxy server that works behind a NAT'
+version='0.3' # Guessed version.
+priority='optional'
+homepage='https://samy.pl/pwnat/'
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}", "CFLAGS=#{ENV.cflags}", "LDFLAGS=-lz"
+# bin.install "pwnat"

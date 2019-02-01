@@ -1,0 +1,13 @@
+# clac.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/clac.rb
+# Converted on 02-01-2019
+
+name='clac'
+url=('https://github.com/soveran/clac/archive/0.3.2.tar.gz')
+description='Command-line, stack-based calculator with postfix notation'
+version='0.3.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/soveran/clac'
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "install"

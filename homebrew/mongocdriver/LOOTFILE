@@ -1,0 +1,17 @@
+# mongo-c-driver.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mongo-c-driver.rb
+# Converted on 02-01-2019
+
+name='mongocdriver'
+url=('https://github.com/mongodb/mongo-c-driver/releases/download/1.13.0/mongo-c-driver-1.13.0.tar.gz')
+description='C driver for MongoDB'
+version='1.13.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/mongodb/mongo-c-driver'
+makedepends=('cmake' 'pkg-config' 'sphinx-doc')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"
+# (pkgshare/"libbson").install "src/libbson/examples"
+# (pkgshare/"libmongoc").install "src/libmongoc/examples"

@@ -1,0 +1,14 @@
+# libscrypt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libscrypt.rb
+# Converted on 02-01-2019
+
+name='libscrypt'
+url=('https://github.com/technion/libscrypt/archive/v1.21.tar.gz')
+description='Library for scrypt'
+version='1.21' # Guessed version.
+priority='optional'
+homepage='https://lolware.net/libscrypt.html'
+
+###### Install ######
+# system "make", "install-osx", "PREFIX=#{prefix}", "LDFLAGS=", "CFLAGS_EXTRA="
+# system "make", "check", "LDFLAGS=", "CFLAGS_EXTRA="

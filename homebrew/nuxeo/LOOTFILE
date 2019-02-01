@@ -1,0 +1,27 @@
+# nuxeo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nuxeo.rb
+# Converted on 02-01-2019
+
+name='nuxeo'
+url=('https://cdn.nuxeo.com/nuxeo-10.10/nuxeo-server-10.10-tomcat.zip')
+description='Enterprise Content Management'
+version='10.10' # Guessed version.
+priority='optional'
+homepage='https://nuxeo.github.io/'
+depends=('exiftool' 'ghostscript' 'imagemagick' 'libwpd' 'poppler' 'ufraw')
+
+###### Install ######
+# libexec.install Dir["#{buildpath}/*"]
+# (bin/"nuxeoctl").write_env_script "#{libexec}/bin/nuxeoctl",
+# :NUXEO_HOME => libexec.to_s, :NUXEO_CONF => "#{etc}/nuxeo.conf"
+# inreplace "#{libexec}/bin/nuxeo.conf" do |s|
+# s.gsub! /#nuxeo\.log\.dir.*/, "nuxeo.log.dir=#{var}/log/nuxeo"
+# s.gsub! /#nuxeo\.data\.dir.*/, "nuxeo.data.dir=#{var}/lib/nuxeo/data"
+# s.gsub! /#nuxeo\.pid\.dir.*/, "nuxeo.pid.dir=#{var}/run/nuxeo"
+# end
+# etc.install "#{libexec}/bin/nuxeo.conf"
+# (var/"log/nuxeo").mkpath
+# (var/"lib/nuxeo/data").mkpath
+# (var/"run/nuxeo").mkpath
+# (var/"cache/nuxeo/packages").mkpath
+# libexec.install_symlink var/"cache/nuxeo/packages"

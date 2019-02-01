@@ -1,0 +1,17 @@
+# fsql.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fsql.rb
+# Converted on 02-01-2019
+
+name='fsql'
+url=('https://github.com/kshvmdn/fsql/archive/v0.3.1.tar.gz')
+description='Search through your filesystem with SQL-esque queries'
+version='0.3.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/kshvmdn/fsql'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/kshvmdn").mkpath
+# ln_s buildpath, buildpath/"src/github.com/kshvmdn/fsql"
+# system "go", "build", "-o", bin/"fsql", "github.com/kshvmdn/fsql/cmd/fsql"

@@ -1,0 +1,17 @@
+# mkcue.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mkcue.rb
+# Converted on 02-01-2019
+
+name='mkcue'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/m/mkcue/mkcue_1.orig.tar.gz')
+description='Generate a CUE sheet from a CD'
+version=' '
+priority='optional'
+homepage='https://packages.debian.org/sid/mkcue'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# bin.mkpath
+# system "make", "install"

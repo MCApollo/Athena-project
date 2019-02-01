@@ -1,0 +1,23 @@
+# aqbanking.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aqbanking.rb
+# Converted on 02-01-2019
+
+name='aqbanking'
+url=('https://www.aquamaniac.de/sites/download/download.php?package=03&release=217&file=02&dummy=aqbanking-5.7.8.tar.gz')
+description='Generic online banking interface'
+version='5.7.8' # Guessed version.
+priority='optional'
+homepage='https://www.aquamaniac.de/sites/aqbanking/'
+depends=('gettext' 'gmp' 'gwenhywfar' 'ktoblzcheck' 'libxml2' 'libxmlsec1' 'libxslt')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.deparallelize
+# system "autoreconf", "-fiv" if build.head?
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-cli",
+# "--with-gwen-dir=#{HOMEBREW_PREFIX}"
+# system "make", "check"
+# system "make", "install"

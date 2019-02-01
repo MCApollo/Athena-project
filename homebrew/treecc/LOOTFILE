@@ -1,0 +1,15 @@
+# treecc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/treecc.rb
+# Converted on 02-01-2019
+
+name='treecc'
+url=('https://download.savannah.gnu.org/releases/dotgnu-pnet/treecc-0.3.10.tar.gz')
+description='Aspect-oriented approach to writing compilers'
+version='0.3.10' # Guessed version.
+priority='optional'
+homepage='https://gnu.org/software/dotgnu/treecc/treecc.html'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# bin.install "treecc"

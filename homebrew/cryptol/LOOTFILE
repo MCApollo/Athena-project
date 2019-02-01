@@ -1,0 +1,15 @@
+# cryptol.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cryptol.rb
+# Converted on 02-01-2019
+
+name='cryptol'
+url=('https://hackage.haskell.org/package/cryptol-2.6.0/cryptol-2.6.0.tar.gz')
+description='Domain-specific language for specifying cryptographic algorithms'
+version='2.6.0' # Guessed version.
+priority='optional'
+homepage='https://www.cryptol.net/'
+depends=('z3')
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# install_cabal_package :using => ["alex", "happy"]

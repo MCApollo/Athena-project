@@ -1,0 +1,31 @@
+# cvs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cvs.rb
+# Converted on 02-01-2019
+
+name='cvs'
+url=('https://ftp.gnu.org/non-gnu/cvs/source/feature/1.12.13/cvs-1.12.13.tar.bz2')
+description='Version control system'
+version='1.12.13' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/cvs/'
+# Patches
+url+=('https://opensource.apple.com/tarballs/cvs/cvs-45.tar.gz')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/24118ec737c7/cvs/vasnprintf-high-sierra-fix.diff')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--infodir=#{info}",
+# "--mandir=#{man}",
+# "--sysconfdir=#{etc}",
+# "--with-gssapi",
+# "--enable-pam",
+# "--enable-encryption",
+# "--with-external-zlib",
+# "--enable-case-sensitivity",
+# "--with-editor=vim",
+# "ac_cv_func_working_mktime=no"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

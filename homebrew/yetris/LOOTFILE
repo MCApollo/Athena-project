@@ -1,0 +1,13 @@
+# yetris.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yetris.rb
+# Converted on 02-01-2019
+
+name='yetris'
+url=('https://github.com/alexdantas/yetris/archive/v2.3.0.tar.gz')
+description='Customizable Tetris for the terminal'
+version='2.3.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/alexdantas/yetris'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

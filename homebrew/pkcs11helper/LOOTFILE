@@ -1,0 +1,22 @@
+# pkcs11-helper.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pkcs11-helper.rb
+# Converted on 02-01-2019
+
+name='pkcs11helper'
+url=('https://github.com/OpenSC/pkcs11-helper/releases/download/pkcs11-helper-1.25.1/pkcs11-helper-1.25.1.tar.bz2')
+description='Library to simplify the interaction with PKCS#11'
+version='1.25.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/OpenSC/OpenSC/wiki/pkcs11-helper'
+depends=('openssl')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# ]
+# system "autoreconf", "--verbose", "--install", "--force"
+# system "./configure", *args
+# system "make", "install"

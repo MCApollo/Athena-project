@@ -1,0 +1,23 @@
+# renameutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/renameutils.rb
+# Converted on 02-01-2019
+
+name='renameutils'
+url=('https://download.savannah.gnu.org/releases/renameutils/renameutils-0.12.0.tar.gz')
+description='Tools for file renaming'
+version='0.12.0' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/renameutils/'
+depends=('coreutils' 'readline')
+makedepends=('')
+
+# A diff file was written to renameutils.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-packager=Homebrew"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

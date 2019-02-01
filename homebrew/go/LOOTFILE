@@ -1,0 +1,42 @@
+# go.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/go.rb
+# Converted on 02-01-2019
+
+name='go'
+url=('https://dl.google.com/go/go1.11.5.src.tar.gz')
+description='Open source programming language to build simple/reliable/efficient software'
+version='1.11.5' # Guessed version.
+priority='optional'
+homepage='https://golang.org'
+depends=(':macos')
+
+###### Resource ######
+# gotools: https://go.googlesource.com/tools.git
+# gobootstrap: https://storage.googleapis.com/golang/go1.7.darwin-amd64.tar.gz
+
+###### Install ######
+# mv Dir.glob("go/*"), "./"
+# rm_rf "go"
+# rm_rf "gocache"
+# rm_rf "tmp"
+# (buildpath/"gobootstrap").install resource("gobootstrap")
+# ENV["GOROOT_BOOTSTRAP"] = buildpath/"gobootstrap"
+# cd "src" do
+# ENV["GOROOT_FINAL"] = libexec
+# ENV["GOOS"]         = "darwin"
+# system "./make.bash", "--no-clean"
+# end
+# (buildpath/"pkg/obj").rmtree
+# rm_rf "gobootstrap"
+# libexec.install Dir["*"]
+# bin.install_symlink Dir[libexec/"bin/go*"]
+# system bin/"go", "install", "-race", "std"
+# ENV.prepend_path "PATH", bin
+# ENV["GO111MODULE"] = "on"
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/golang.org/x/tools").install resource("gotools")
+# cd "src/golang.org/x/tools/cmd/godoc/" do
+# system "go", "build"
+# (libexec/"bin").install "godoc"
+# end
+# bin.install_symlink libexec/"bin/godoc"

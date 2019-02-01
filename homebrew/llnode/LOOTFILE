@@ -1,0 +1,15 @@
+# llnode.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/llnode.rb
+# Converted on 02-01-2019
+
+name='llnode'
+url=('https://github.com/nodejs/llnode/archive/v2.0.0.tar.gz')
+description='LLDB plugin for live/post-mortem debugging of node.js apps'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/nodejs/llnode'
+depends=(':macos')
+makedepends=('node' 'python@2')
+
+###### Resource ######
+# lldb: https://github.com/llvm-mirror/lldb.git

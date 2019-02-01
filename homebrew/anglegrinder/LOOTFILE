@@ -1,0 +1,14 @@
+# angle-grinder.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/angle-grinder.rb
+# Converted on 02-01-2019
+
+name='anglegrinder'
+url=('https://github.com/rcoh/angle-grinder/archive/v0.9.0.tar.gz')
+description='Slice and dice log files on the command-line'
+version='0.9.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/rcoh/angle-grinder'
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

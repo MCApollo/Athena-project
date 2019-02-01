@@ -1,0 +1,14 @@
+# stdman.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stdman.rb
+# Converted on 02-01-2019
+
+name='stdman'
+url=('https://github.com/jeaye/stdman/archive/2018.03.11.tar.gz')
+description='Formatted C++11/14/17 stdlib man pages from cppreference.com'
+version='2018.03.11' # Guessed version.
+priority='optional'
+homepage='https://github.com/jeaye/stdman'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,22 @@
+# dosbox.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dosbox.rb
+# Converted on 02-01-2019
+
+name='dosbox'
+url=('https://downloads.sourceforge.net/project/dosbox/dosbox/0.74-2/dosbox-0.74-2.tar.gz')
+description='DOS Emulator'
+version='0.74' # Guessed version.
+priority='optional'
+homepage='https://www.dosbox.com/'
+depends=('libpng' 'sdl' 'sdl_net' 'sdl_sound')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-dependency-tracking
+# --disable-sdltest
+# --enable-core-inline
+# ]
+# system "./autogen.sh" if build.head?
+# system "./configure", *args
+# system "make", "install"

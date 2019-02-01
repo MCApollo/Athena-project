@@ -1,0 +1,18 @@
+# pelikan.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pelikan.rb
+# Converted on 02-01-2019
+
+name='pelikan'
+url=('https://github.com/twitter/pelikan/archive/0.1.2.tar.gz')
+description='Production-ready cache services'
+version='0.1.2' # Guessed version.
+priority='optional'
+homepage='https://twitter.github.io/pelikan'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "_build" do
+# system "cmake", "..", *std_cmake_args
+# system "make"
+# system "make", "install"
+# end

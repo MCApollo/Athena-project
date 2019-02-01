@@ -1,0 +1,28 @@
+# xalan-c.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xalan-c.rb
+# Converted on 02-01-2019
+
+name='xalanc'
+url=('https://www.apache.org/dyn/closer.cgi?path=xalan/xalan-c/sources/xalan_c-1.11-src.tar.gz')
+description='XSLT processor'
+version='1.11' # Guessed version.
+priority='optional'
+homepage='https://xalan.apache.org/xalan-c/'
+depends=('xerces-c')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/master/xalan-c/xerces-char16.patch')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/master/xalan-c/locator-system-id.patch')
+
+###### Install ######
+# ENV.cxx11
+# ENV.deparallelize
+# ENV["XALANCROOT"] = "#{buildpath}/c"
+# ENV["XALAN_LOCALE_SYSTEM"] = "inmem"
+# ENV["XALAN_LOCALE"] = "en_US"
+# cd "c" do
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# rm Dir["#{lib}/*.dylib.*"]
+# end

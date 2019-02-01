@@ -1,0 +1,17 @@
+# vultr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vultr.rb
+# Converted on 02-01-2019
+
+name='vultr'
+url=('https://github.com/JamesClonk/vultr/archive/1.15.0.tar.gz')
+description='Command-line tool for Vultr'
+version='1.15.0' # Guessed version.
+priority='optional'
+homepage='https://jamesclonk.github.io/vultr'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/JamesClonk").mkpath
+# ln_s buildpath, buildpath/"src/github.com/JamesClonk/vultr"
+# system "go", "build", "-o", bin/"vultr"

@@ -1,0 +1,16 @@
+# valabind.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/valabind.rb
+# Converted on 02-01-2019
+
+name='valabind'
+url=('https://github.com/radare/valabind/archive/1.6.0.tar.gz')
+description='Vala bindings for radare, reverse engineering framework'
+version='1.6.0' # Guessed version.
+priority='optional'
+homepage='https://radare.org/'
+depends=('swig' 'vala')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "make"
+# system "make", "install", "PREFIX=#{prefix}"

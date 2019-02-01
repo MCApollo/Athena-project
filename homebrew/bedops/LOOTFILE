@@ -1,0 +1,14 @@
+# bedops.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bedops.rb
+# Converted on 02-01-2019
+
+name='bedops'
+url=('https://github.com/bedops/bedops/archive/v2.4.35.tar.gz')
+description='Set and statistical operations on genomic data of arbitrary scale'
+version='2.4.35' # Guessed version.
+priority='optional'
+homepage='https://github.com/bedops/bedops'
+
+###### Install ######
+# system "make"
+# system "make", "install", "BINDIR=#{bin}"

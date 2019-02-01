@@ -1,0 +1,16 @@
+# libhdhomerun.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libhdhomerun.rb
+# Converted on 02-01-2019
+
+name='libhdhomerun'
+url=('https://download.silicondust.com/hdhomerun/libhdhomerun_20180817.tgz')
+description='C library for controlling SiliconDust HDHomeRun TV tuners'
+version=' '
+priority='optional'
+homepage='https://www.silicondust.com/support/linux/'
+
+###### Install ######
+# system "make"
+# bin.install "hdhomerun_config"
+# lib.install "libhdhomerun.dylib"
+# include.install Dir["hdhomerun*.h"]

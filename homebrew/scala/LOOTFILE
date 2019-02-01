@@ -1,0 +1,26 @@
+# scala.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scala.rb
+# Converted on 02-01-2019
+
+name='scala'
+url=('https://downloads.lightbend.com/scala/2.12.8/scala-2.12.8.tgz')
+description='JVM-based programming language'
+version='2.12.8' # Guessed version.
+priority='optional'
+homepage='https://www.scala-lang.org/'
+depends=(':java')
+
+###### Install ######
+# rm_f Dir["bin/*.bat"]
+# doc.install Dir["doc/*"]
+# share.install "man"
+# libexec.install "bin", "lib"
+# bin.install_symlink Dir["#{libexec}/bin/*"]
+# idea = prefix/"idea"
+# idea.install_symlink libexec/"src", libexec/"lib"
+# idea.install_symlink doc => "doc"
+# end
+# def caveats; <<~EOS
+# To use with IntelliJ, set the Scala home to:
+# #{opt_prefix}/idea
+# EOS

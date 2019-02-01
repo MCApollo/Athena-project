@@ -1,0 +1,18 @@
+# systemc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/systemc.rb
+# Converted on 02-01-2019
+
+name='systemc'
+url=('https://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.2.tar.gz')
+description='Core SystemC language and examples'
+version='2.3.2' # Guessed version.
+priority='optional'
+homepage='https://accellera.org/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--with-arch-suffix=",
+# "--prefix=#{prefix}"
+# system "make", "install"

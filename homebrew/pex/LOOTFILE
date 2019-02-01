@@ -1,0 +1,14 @@
+# pex.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pex.rb
+# Converted on 02-01-2019
+
+name='pex'
+url=('https://github.com/petere/pex/archive/1.20140409.tar.gz')
+description='Package manager for PostgreSQL'
+version='1.20140409' # Guessed version.
+priority='optional'
+homepage='https://github.com/petere/pex'
+depends=('postgresql')
+
+###### Install ######
+# system "make", "install", "prefix=#{prefix}", "mandir=#{man}"

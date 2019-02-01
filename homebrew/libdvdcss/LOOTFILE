@@ -1,0 +1,15 @@
+# libdvdcss.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdvdcss.rb
+# Converted on 02-01-2019
+
+name='libdvdcss'
+url=('https://download.videolan.org/pub/videolan/libdvdcss/1.4.2/libdvdcss-1.4.2.tar.bz2')
+description='Access DVDs as block devices without the decryption'
+version='1.4.2' # Guessed version.
+priority='optional'
+homepage='https://www.videolan.org/developers/libdvdcss.html'
+
+###### Install ######
+# system "autoreconf", "-if" if build.head?
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking"
+# system "make", "install"

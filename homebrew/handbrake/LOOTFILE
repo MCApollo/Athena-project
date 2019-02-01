@@ -1,0 +1,18 @@
+# handbrake.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/handbrake.rb
+# Converted on 02-01-2019
+
+name='handbrake'
+url=('https://download.handbrake.fr/releases/1.2.0/HandBrake-1.2.0-source.tar.bz2')
+description='Open-source video transcoder available for Linux, Mac, and Windows'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://handbrake.fr/'
+makedepends=('autoconf' 'automake' 'cmake' 'libtool' 'nasm' 'pkg-config' 'python@2' 'yasm')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-xcode",
+# "--disable-gtk"
+# system "make", "-C", "build"
+# system "make", "-C", "build", "install"

@@ -1,0 +1,17 @@
+# osmium-tool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/osmium-tool.rb
+# Converted on 02-01-2019
+
+name='osmiumtool'
+url=('https://github.com/osmcode/osmium-tool/archive/v1.10.0.tar.gz')
+description='Libosmium-based command-line tool for processing OpenStreetMap data'
+version='1.10.0' # Guessed version.
+priority='optional'
+homepage='https://osmcode.org/osmium-tool/'
+depends=('boost')
+makedepends=('cmake' 'libosmium')
+
+###### Install ######
+# protozero = Formula["libosmium"].opt_libexec/"include"
+# system "cmake", ".", "-DPROTOZERO_INCLUDE_DIR=#{protozero}", *std_cmake_args
+# system "make", "install"

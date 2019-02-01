@@ -1,0 +1,26 @@
+# bacula-fd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bacula-fd.rb
+# Converted on 02-01-2019
+
+name='baculafd'
+url=('https://downloads.sourceforge.net/project/bacula/bacula/9.2.0/bacula-9.2.0.tar.gz')
+description='Network backup solution'
+version='9.2.0' # Guessed version.
+priority='optional'
+homepage='https://www.bacula.org/'
+depends=('openssl' 'readline')
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--sbindir=#{bin}",
+# "--with-working-dir=#{var}/lib/bacula",
+# "--with-pid-dir=#{var}/run",
+# "--with-logdir=#{var}/log/bacula",
+# "--enable-client-only",
+# "--disable-conio",
+# "--with-readline=#{Formula["readline"].opt_prefix}"
+# system "make"
+# system "make", "install"
+# (var/"lib/bacula").mkpath
+# (var/"run").mkpath

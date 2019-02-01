@@ -1,0 +1,19 @@
+# monit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/monit.rb
+# Converted on 02-01-2019
+
+name='monit'
+url=('https://mmonit.com/monit/dist/monit-5.25.2.tar.gz')
+description='Manage and monitor processes, files, directories, and devices'
+version='5.25.2' # Guessed version.
+priority='optional'
+homepage='https://mmonit.com/monit/'
+depends=('openssl')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--localstatedir=#{var}/monit",
+# "--sysconfdir=#{etc}/monit",
+# "--with-ssl-dir=#{Formula["openssl"].opt_prefix}"
+# system "make", "install"
+# pkgshare.install "monitrc"

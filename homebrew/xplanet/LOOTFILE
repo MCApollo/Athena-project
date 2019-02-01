@@ -1,0 +1,31 @@
+# xplanet.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xplanet.rb
+# Converted on 02-01-2019
+
+name='xplanet'
+url=('https://downloads.sourceforge.net/project/xplanet/xplanet/1.3.1/xplanet-1.3.1.tar.gz')
+description='Create HQ wallpapers of planet Earth'
+version='1.3.1' # Guessed version.
+priority='optional'
+homepage='https://xplanet.sourceforge.io/'
+depends=('freetype' 'giflib' 'jpeg' 'libpng' 'libtiff')
+makedepends=('pkg-config')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/f952f1d/xplanet/xplanet-1.3.1-ntimes.patch')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/master/xplanet/xplanet-1.3.1-giflib5.patch')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-aqua",
+# "--without-cspice",
+# "--without-cygwin",
+# "--without-gif",
+# "--without-jpeg",
+# "--without-libpng",
+# "--without-libtiff",
+# "--without-pango",
+# "--without-pnm",
+# "--without-x",
+# "--without-xscreensaver"
+# system "make", "install"

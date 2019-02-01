@@ -1,0 +1,18 @@
+# thors-serializer.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/thors-serializer.rb
+# Converted on 02-01-2019
+
+name='thorsserializer'
+url=('https://github.com/Loki-Astari/ThorsSerializer.git')
+description='Declarative serialization library (JSON/YAML) for C++'
+version=' '
+priority='optional'
+homepage='https://github.com/Loki-Astari/ThorsSerializer'
+depends=('libyaml')
+
+###### Install ######
+# ENV["COV"] = "gcov"
+# system "./configure", "--disable-binary",
+# "--disable-vera",
+# "--prefix=#{prefix}"
+# system "make", "install"

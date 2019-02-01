@@ -1,0 +1,15 @@
+diff --git a/libgitg/meson.build b/libgitg/meson.build
+index 793f2c2..fbc42da 100644
+--- a/libgitg/meson.build
++++ b/libgitg/meson.build
+@@ -114,14 +114,13 @@ if gdk_targets.contains('quartz')
+sources += files('gitg-platform-support-osx.c')
+gio_system_pkg = 'gio-unix-2.0'
+deps += [
+-    dependency(gio_system_pkg),
+-    find_library('objc')
++    dependency(gio_system_pkg)
+]
+cflags += '-xobjective-c'
+endif
+endforeach

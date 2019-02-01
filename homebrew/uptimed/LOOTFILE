@@ -1,0 +1,20 @@
+# uptimed.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/uptimed.rb
+# Converted on 02-01-2019
+
+name='uptimed'
+url=('https://github.com/rpodgorny/uptimed/archive/v0.4.1.tar.gz')
+description='Utility to track your highest uptimes'
+version='0.4.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/rpodgorny/uptimed/'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "./autogen.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# inreplace "Makefile", "/var/spool/uptimed", "#{var}/uptimed"
+# inreplace "libuptimed/urec.h", "/var/spool", var
+# inreplace "etc/uptimed.conf-dist", "/var/run", "#{var}/uptimed"
+# system "make", "install"

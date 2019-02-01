@@ -1,0 +1,14 @@
+# gif2png.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gif2png.rb
+# Converted on 02-01-2019
+
+name='gif2png'
+url=('http://www.catb.org/~esr/gif2png/gif2png-2.5.11.tar.gz')
+description='Convert GIFs to PNGs'
+version='2.5.11' # Guessed version.
+priority='optional'
+homepage='http://www.catb.org/~esr/gif2png/'
+depends=('libpng')
+
+###### Install ######
+# system "make", "install", "prefix=#{prefix}"

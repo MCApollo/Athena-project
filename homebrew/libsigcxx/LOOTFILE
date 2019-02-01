@@ -1,0 +1,17 @@
+# libsigc++.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsigc++.rb
+# Converted on 02-01-2019
+
+name='libsigcxx'
+url=('https://download.gnome.org/sources/libsigc++/2.10/libsigc++-2.10.1.tar.xz')
+description='Callback framework for C++'
+version='2.10.1' # Guessed version.
+priority='optional'
+homepage='https://libsigcplusplus.github.io/libsigcplusplus/'
+
+###### Install ######
+# ENV.cxx11
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking"
+# system "make"
+# system "make", "check"
+# system "make", "install"

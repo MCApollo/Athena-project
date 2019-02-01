@@ -1,0 +1,15 @@
+# ddrescue.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ddrescue.rb
+# Converted on 02-01-2019
+
+name='ddrescue'
+url=('https://ftp.gnu.org/gnu/ddrescue/ddrescue-1.23.tar.lz')
+description='GNU data recovery tool'
+version='1.23' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/ddrescue/ddrescue.html'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "CXX=#{ENV.cxx}"
+# system "make", "install"

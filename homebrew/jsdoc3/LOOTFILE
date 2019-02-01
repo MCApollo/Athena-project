@@ -1,0 +1,15 @@
+# jsdoc3.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsdoc3.rb
+# Converted on 02-01-2019
+
+name='jsdoc3'
+url=('https://registry.npmjs.org/jsdoc/-/jsdoc-3.5.5.tgz')
+description='API documentation generator for JavaScript'
+version='3.5.5' # Guessed version.
+priority='optional'
+homepage='http://usejsdoc.org/'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

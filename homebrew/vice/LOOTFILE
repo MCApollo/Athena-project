@@ -1,0 +1,21 @@
+# vice.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vice.rb
+# Converted on 02-01-2019
+
+name='vice'
+url=('https://downloads.sourceforge.net/project/vice-emu/releases/vice-3.3.tar.gz')
+description='Versatile Commodore Emulator'
+version='3.3' # Guessed version.
+priority='optional'
+homepage='https://vice-emu.sourceforge.io/'
+depends=('ffmpeg' 'flac' 'giflib' 'jpeg' 'lame' 'libogg' 'libpng' 'libvorbis' 'mpg123' 'portaudio' 'sdl2' 'xz')
+makedepends=('pkg-config' 'texinfo' 'xa' 'yasm')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-dependency-tracking",
+# "--disable-arch",
+# "--disable-bundle",
+# "--enable-external-ffmpeg",
+# "--enable-sdlui2"
+# system "make", "install"

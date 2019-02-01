@@ -1,0 +1,14 @@
+# ssdeep.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ssdeep.rb
+# Converted on 02-01-2019
+
+name='ssdeep'
+url=('https://github.com/ssdeep-project/ssdeep/releases/download/release-2.14.1/ssdeep-2.14.1.tar.gz')
+description='Recursive piecewise hashing tool'
+version='2.14.1' # Guessed version.
+priority='optional'
+homepage='https://ssdeep-project.github.io/ssdeep/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

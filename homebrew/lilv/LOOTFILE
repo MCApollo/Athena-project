@@ -1,0 +1,17 @@
+# lilv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lilv.rb
+# Converted on 02-01-2019
+
+name='lilv'
+url=('https://download.drobilla.net/lilv-0.24.2.tar.bz2')
+description='C library to use LV2 plugins'
+version='0.24.2' # Guessed version.
+priority='optional'
+homepage='https://drobilla.net/software/lilv/'
+depends=('lv2' 'serd' 'sord' 'sratom')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./waf", "configure", "--prefix=#{prefix}"
+# system "./waf"
+# system "./waf", "install"

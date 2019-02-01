@@ -1,0 +1,19 @@
+# grap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/grap.rb
+# Converted on 02-01-2019
+
+name='grap'
+url=('https://www.lunabase.org/~faber/Vault/software/grap/grap-1.45.tar.gz')
+description='Language for typesetting graphs'
+version='1.45' # Guessed version.
+priority='optional'
+homepage='https://www.lunabase.org/~faber/Vault/software/grap/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--with-example-dir=#{pkgshare}/examples"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

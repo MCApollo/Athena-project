@@ -1,0 +1,19 @@
+# backupninja.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/backupninja.rb
+# Converted on 02-01-2019
+
+name='backupninja'
+url=('https://sourcearchive.raspbian.org/main/b/backupninja/backupninja_1.0.2.orig.tar.gz')
+description='Backup automation tool'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://0xacab.org/riseuplabs/backupninja'
+depends=('dialog' 'gawk')
+
+###### Install ######
+# system "./configure", "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}",
+# "--localstatedir=#{var}"
+# system "make", "install", "SED=sed"
+# (var/"log").mkpath

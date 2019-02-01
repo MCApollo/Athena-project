@@ -1,0 +1,16 @@
+# flickcurl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/flickcurl.rb
+# Converted on 02-01-2019
+
+name='flickcurl'
+url=('http://download.dajobe.org/flickcurl/flickcurl-1.26.tar.gz')
+description='Library for the Flickr API'
+version='1.26' # Guessed version.
+priority='optional'
+homepage='http://librdf.org/flickcurl/'
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

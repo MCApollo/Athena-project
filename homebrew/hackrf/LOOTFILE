@@ -1,0 +1,18 @@
+# hackrf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hackrf.rb
+# Converted on 02-01-2019
+
+name='hackrf'
+url=('https://github.com/mossmann/hackrf/archive/v2018.01.1.tar.gz')
+description='Low cost software radio platform'
+version='2018.01.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/mossmann/hackrf'
+depends=('fftw' 'libusb')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# cd "host" do
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"
+# end

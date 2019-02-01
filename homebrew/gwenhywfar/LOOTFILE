@@ -1,0 +1,20 @@
+# gwenhywfar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gwenhywfar.rb
+# Converted on 02-01-2019
+
+name='gwenhywfar'
+url=('https://www.aquamaniac.de/sites/download/download.php?package=01&release=208&file=02&dummy=gwenhywfar-4.20.0.tar.gz')
+description='Utility library required by aqbanking and related software'
+version='4.20.0' # Guessed version.
+priority='optional'
+homepage='https://www.aquamaniac.de/'
+depends=('gettext' 'gnutls' 'libgcrypt' 'openssl')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "autoreconf", "-fiv" if build.head?
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-guis=cocoa"
+# system "make", "install"

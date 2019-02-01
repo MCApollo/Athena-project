@@ -1,0 +1,18 @@
+# arping.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/arping.rb
+# Converted on 02-01-2019
+
+name='arping'
+url=('https://github.com/ThomasHabets/arping/archive/arping-2.19.tar.gz')
+description='Utility to check whether MAC addresses are already taken on a LAN'
+version='2.19' # Guessed version.
+priority='optional'
+homepage='https://github.com/ThomasHabets/arping'
+depends=('libnet')
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# system "./bootstrap.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

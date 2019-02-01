@@ -1,0 +1,20 @@
+# goose.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/goose.rb
+# Converted on 02-01-2019
+
+name='goose'
+url=('https://github.com/pressly/goose/archive/v2.3.0.tar.gz')
+description='Go Language'\''s command-line interface for database migrations'
+version='2.3.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/pressly/goose'
+makedepends=('dep' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/pressly/goose").install buildpath.children
+# cd "src/github.com/pressly/goose" do
+# system "dep", "ensure"
+# system "go", "build", "-o", bin/"goose", ".../cmd/goose"
+# prefix.install_metafiles
+# end

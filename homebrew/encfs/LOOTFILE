@@ -1,0 +1,19 @@
+# encfs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/encfs.rb
+# Converted on 02-01-2019
+
+name='encfs'
+url=('https://github.com/vgough/encfs/archive/v1.9.5.tar.gz')
+description='Encrypted pass-through FUSE file system'
+version='1.9.5' # Guessed version.
+priority='optional'
+homepage='https://vgough.github.io/encfs/'
+depends=('boost' 'gettext' 'openssl' ':osxfuse')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

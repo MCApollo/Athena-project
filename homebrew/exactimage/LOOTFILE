@@ -1,0 +1,16 @@
+# exact-image.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/exact-image.rb
+# Converted on 02-01-2019
+
+name='exactimage'
+url=('https://dl.exactcode.de/oss/exact-image/exact-image-1.0.1.tar.bz2')
+description='Image processing library'
+version='1.0.1' # Guessed version.
+priority='optional'
+homepage='https://exactcode.com/opensource/exactimage/'
+depends=('libagg')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

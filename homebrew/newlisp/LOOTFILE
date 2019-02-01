@@ -1,0 +1,22 @@
+# newlisp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/newlisp.rb
+# Converted on 02-01-2019
+
+name='newlisp'
+url=('http://www.newlisp.org/downloads/newlisp-10.7.1.tgz')
+description='Lisp-like, general-purpose scripting language'
+version='10.7.1' # Guessed version.
+priority='optional'
+homepage='http://www.newlisp.org/'
+depends=('readline')
+
+###### Install ######
+# ENV.append_to_cflags "-DNEWCONFIG -c"
+# inreplace "guiserver/newlisp-edit.lsp" do |s|
+# s.gsub! "#!/usr/local/bin/newlisp", "#!/usr/bin/env newlisp"
+# s.gsub! "/usr/local/bin/newlisp", "#{opt_bin}/newlisp"
+# end
+# system "./configure-alt", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make"
+# system "make", "check"
+# system "make", "install"

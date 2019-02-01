@@ -1,0 +1,20 @@
+# sbjson.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sbjson.rb
+# Converted on 02-01-2019
+
+name='sbjson'
+url=('https://github.com/stig/json-framework/archive/v5.0.0.tar.gz')
+description='JSON CLI parser & reformatter based on SBJson v5'
+version='5.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/stig/json-framework'
+makedepends=(':xcode')
+
+###### Install ######
+# xcodebuild "-project", "SBJson5.xcodeproj",
+# "-target", "sbjson",
+# "-configuration", "Release",
+# "clean",
+# "build",
+# "SYMROOT=build"
+# bin.install "build/Release/sbjson"

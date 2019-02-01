@@ -1,0 +1,23 @@
+# alpine.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/alpine.rb
+# Converted on 02-01-2019
+
+name='alpine'
+url=('https://ftp.osuosl.org/pub/blfs/conglomeration/alpine/alpine-2.21.tar.xz')
+description='News and email agent'
+version='2.21' # Guessed version.
+priority='optional'
+homepage='https://repo.or.cz/alpine.git'
+depends=('openssl')
+
+###### Install ######
+# ENV.deparallelize
+# args = %W[
+# --disable-debug
+# --with-ssl-dir=#{Formula["openssl"].opt_prefix}
+# --with-ssl-certs-dir=#{etc}/openssl
+# --prefix=#{prefix}
+# --with-passfile=.pine-passfile
+# ]
+# system "./configure", *args
+# system "make", "install"

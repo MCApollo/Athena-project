@@ -1,0 +1,23 @@
+# amtterm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/amtterm.rb
+# Converted on 02-01-2019
+
+name='amtterm'
+url=('https://www.kraxel.org/releases/amtterm/amtterm-1.6.tar.gz')
+description='Serial-over-LAN (sol) client for Intel AMT'
+version='1.6' # Guessed version.
+priority='optional'
+homepage='https://www.kraxel.org/blog/linux/amtterm/'
+
+###### Resource ######
+# SOAP::Lite: https://cpan.metacpan.org/authors/id/P/PH/PHRED/SOAP-Lite-1.11.tar.gz
+
+###### Install ######
+# ENV.prepend_create_path "PERL5LIB", libexec+"lib/perl5"
+# resource("SOAP::Lite").stage do
+# system "perl", "Makefile.PL", "INSTALL_BASE=#{libexec}"
+# system "make"
+# system "make", "install"
+# end
+# system "make", "prefix=#{prefix}", "install"
+# bin.env_script_all_files(libexec+"bin", :PERL5LIB => ENV["PERL5LIB"])

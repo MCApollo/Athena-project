@@ -1,0 +1,12 @@
+# ansiweather.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ansiweather.rb
+# Converted on 02-01-2019
+
+name='ansiweather'
+url=('https://github.com/fcambus/ansiweather/archive/1.13.0.tar.gz')
+description='Weather in your terminal, with ANSI colors and Unicode symbols'
+version='1.13.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/fcambus/ansiweather'
+
+###### Install ######

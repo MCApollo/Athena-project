@@ -1,0 +1,15 @@
+# pdftohtml.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdftohtml.rb
+# Converted on 02-01-2019
+
+name='pdftohtml'
+url=('https://downloads.sourceforge.net/project/pdftohtml/Experimental%20Versions/pdftohtml%200.40/pdftohtml-0.40a.tar.gz')
+description='PDF to HTML converter (based on xpdf)'
+version='0.40' # Guessed version.
+priority='optional'
+homepage='https://pdftohtml.sourceforge.io/'
+makedepends=('')
+
+###### Install ######
+# system "make"
+# bin.install "src/pdftohtml"

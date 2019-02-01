@@ -1,0 +1,19 @@
+# elinks.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/elinks.rb
+# Converted on 02-01-2019
+
+name='elinks'
+url=('http://elinks.or.cz/download/elinks-0.11.7.tar.bz2')
+description='Text mode web browser'
+version='0.11.7' # Guessed version.
+priority='optional'
+homepage='http://elinks.or.cz/'
+depends=('openssl')
+
+###### Install ######
+# ENV.deparallelize
+# ENV.delete("LD")
+# system "./autogen.sh" if build.head?
+# system "./configure", "--prefix=#{prefix}", "--without-spidermonkey",
+# "--enable-256-colors"
+# system "make", "install"

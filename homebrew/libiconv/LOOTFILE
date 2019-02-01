@@ -1,0 +1,26 @@
+# libiconv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libiconv.rb
+# Converted on 02-01-2019
+
+name='libiconv'
+url=('https://ftp.gnu.org/gnu/libiconv/libiconv-1.15.tar.gz')
+description='Conversion library'
+version='1.15' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/libiconv/'
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/patches/9be2793af/libiconv/patch-utf8mac.diff')
+
+# A diff file was written to libiconv.diff
+# --> Patch the file before building.
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-extra-encodings",
+# "--enable-static",
+# "--docdir=#{doc}"
+# system "make", "-f", "Makefile.devel", "CFLAGS=#{ENV.cflags}", "CC=#{ENV.cc}"
+# system "make", "install"

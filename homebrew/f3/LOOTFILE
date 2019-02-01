@@ -1,0 +1,17 @@
+# f3.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/f3.rb
+# Converted on 02-01-2019
+
+name='f3'
+url=('https://github.com/AltraMayor/f3/archive/v7.1.tar.gz')
+description='Test various flash cards'
+version='7.1' # Guessed version.
+priority='optional'
+homepage='http://oss.digirati.com.br/f3/'
+depends=('argp-standalone')
+
+###### Install ######
+# system "make", "all", "ARGP=#{Formula["argp-standalone"].opt_prefix}"
+# bin.install %w[f3read f3write]
+# man1.install "f3read.1"
+# man1.install_symlink "f3read.1" => "f3write.1"

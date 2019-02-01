@@ -1,0 +1,21 @@
+# stellar-core.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stellar-core.rb
+# Converted on 02-01-2019
+
+name='stellarcore'
+url=('https://github.com/stellar/stellar-core.git')
+description='The backbone of the Stellar (XLM) network'
+version=' '
+priority='optional'
+homepage='https://www.stellar.org/'
+depends=('libsodium' 'postgresql')
+makedepends=('autoconf' 'automake' 'libtool' 'pandoc' 'pkg-config')
+
+###### Install ######
+# system "./autogen.sh"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--enable-postgres"
+# system "make", "install"

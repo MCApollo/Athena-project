@@ -1,0 +1,19 @@
+# duck.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/duck.rb
+# Converted on 02-01-2019
+
+name='duck'
+url=('https://dist.duck.sh/duck-src-6.8.0.28825.tar.gz')
+description='Command-line interface for Cyberduck (a multi-protocol file transfer tool)'
+version='6.8.0.28825' # Guessed version.
+priority='optional'
+homepage='https://duck.sh/'
+depends=(':java')
+makedepends=('ant' 'maven' ':xcode')
+
+###### Install ######
+# revision = version.to_s.rpartition(".").last
+# system "mvn", "-DskipTests", "-Dgit.commitsCount=#{revision}",
+# "--projects", "cli/osx", "--also-make", "verify"
+# libexec.install Dir["cli/osx/target/duck.bundle/*"]
+# bin.install_symlink "#{libexec}/Contents/MacOS/duck" => "duck"

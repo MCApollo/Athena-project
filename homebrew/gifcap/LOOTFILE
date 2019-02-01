@@ -1,0 +1,12 @@
+# gifcap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gifcap.rb
+# Converted on 02-01-2019
+
+name='gifcap'
+url=('https://github.com/outlook/gifcap/archive/1.0.4.tar.gz')
+description='Capture video from an Android device and make a gif'
+version='1.0.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/outlook/gifcap'
+
+###### Install ######

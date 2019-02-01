@@ -1,0 +1,24 @@
+# amap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/amap.rb
+# Converted on 02-01-2019
+
+name='amap'
+url=('https://www.thc.org/releases/amap-5.4.tar.gz')
+description='Perform application protocol detection'
+version='5.4' # Guessed version.
+priority='optional'
+homepage='https://www.thc.org/thc-amap/'
+depends=('openssl')
+
+###### Install ######
+# openssl = Formula["openssl"]
+# inreplace "configure" do |s|
+# s.gsub! 'SSL_IPATH=""', "SSL_IPATH=\"#{openssl.opt_include}/openssl\""
+# s.gsub! 'SSL_PATH=""', "SSL_PATH=\"#{openssl.opt_lib}\""
+# s.gsub! 'CRYPTO_PATH=""', "CRYPTO_PATH=\"#{openssl.opt_lib}\""
+# end
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# bin.install "amap", "amap6", "amapcrap"
+# etc.install "appdefs.resp", "appdefs.rpc", "appdefs.trig"
+# man1.install "amap.1"

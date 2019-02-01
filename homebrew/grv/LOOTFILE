@@ -1,0 +1,22 @@
+# grv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/grv.rb
+# Converted on 02-01-2019
+
+name='grv'
+url=('https://github.com/rgburke/grv/releases/download/v0.3.1/grv-0.3.1-src.tar.gz')
+description='Terminal interface for viewing git repositories'
+version='0.3.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/rgburke/grv'
+depends=('ncurses' 'readline')
+makedepends=('cmake' 'go' 'pkg-config')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# path = buildpath/"src/github.com/rgburke/grv"
+# path.install buildpath.children
+# cd path do
+# system "make", "build-only"
+# bin.install "grv"
+# prefix.install_metafiles
+# end

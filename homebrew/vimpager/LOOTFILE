@@ -1,0 +1,15 @@
+# vimpager.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vimpager.rb
+# Converted on 02-01-2019
+
+name='vimpager'
+url=('https://github.com/rkitover/vimpager/archive/2.06.tar.gz')
+description='Use ViM as PAGER'
+version='2.06' # Guessed version.
+priority='optional'
+homepage='https://github.com/rkitover/vimpager'
+makedepends=('pandoc')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"
+# system "make", "docs"

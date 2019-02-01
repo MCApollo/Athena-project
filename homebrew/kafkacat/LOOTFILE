@@ -1,0 +1,18 @@
+# kafkacat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kafkacat.rb
+# Converted on 02-01-2019
+
+name='kafkacat'
+url=('https://github.com/edenhill/kafkacat.git')
+description='Generic command-line non-JVM Apache Kafka producer and consumer'
+version=' '
+priority='optional'
+homepage='https://github.com/edenhill/kafkacat'
+depends=('librdkafka' 'yajl')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-json"
+# system "make"
+# system "make", "install"

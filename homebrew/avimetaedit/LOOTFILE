@@ -1,0 +1,19 @@
+# avimetaedit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/avimetaedit.rb
+# Converted on 02-01-2019
+
+name='avimetaedit'
+url=('https://mediaarea.net/download/binary/avimetaedit/1.0.2/AVIMetaEdit_CLI_1.0.2_GNU_FromSource.tar.bz2')
+description='Tool for embedding, validating, and exporting of AVI files metadata'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://mediaarea.net/AVIMetaEdit'
+
+###### Install ######
+# cd "Project/GNU/CLI" do
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# end

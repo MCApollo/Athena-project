@@ -1,0 +1,19 @@
+# mruby.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mruby.rb
+# Converted on 02-01-2019
+
+name='mruby'
+url=('https://github.com/mruby/mruby/archive/2.0.0.tar.gz')
+description='Lightweight implementation of the Ruby language'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='https://mruby.org/'
+makedepends=('bison')
+
+###### Install ######
+# system "make"
+# cd "build/host/" do
+# lib.install Dir["lib/*.a"]
+# prefix.install %w[bin mrbgems mrblib]
+# end
+# prefix.install "include"

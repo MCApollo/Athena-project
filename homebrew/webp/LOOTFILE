@@ -1,0 +1,22 @@
+# webp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/webp.rb
+# Converted on 02-01-2019
+
+name='webp'
+url=('https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.0.2.tar.gz')
+description='Image format providing lossless and lossy compression for web images'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://developers.google.com/speed/webp/'
+depends=('jpeg' 'libpng')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-dependency-tracking",
+# "--disable-gif",
+# "--disable-gl",
+# "--enable-libwebpdecoder",
+# "--enable-libwebpdemux",
+# "--enable-libwebpmux"
+# system "make", "install"

@@ -1,0 +1,12 @@
+# fmpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fmpp.rb
+# Converted on 02-01-2019
+
+name='fmpp'
+url=('https://downloads.sourceforge.net/project/fmpp/fmpp/0.9.16/fmpp_0.9.16.tar.gz')
+description='Text file preprocessing tool using FreeMarker templates'
+version='0.9.16' # Guessed version.
+priority='optional'
+homepage='https://fmpp.sourceforge.io/'
+
+###### Install ######

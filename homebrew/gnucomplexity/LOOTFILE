@@ -1,0 +1,17 @@
+# gnu-complexity.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-complexity.rb
+# Converted on 02-01-2019
+
+name='gnucomplexity'
+url=('https://ftp.gnu.org/gnu/complexity/complexity-1.10.tar.xz')
+description='Measures complexity of C source'
+version='1.10' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/complexity'
+depends=('autogen' 'gcc')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

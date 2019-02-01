@@ -1,0 +1,16 @@
+# libcdio.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcdio.rb
+# Converted on 02-01-2019
+
+name='libcdio'
+url=('https://ftp.gnu.org/gnu/libcdio/libcdio-2.0.0.tar.gz')
+description='Compact Disc Input and Control Library'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/libcdio/'
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

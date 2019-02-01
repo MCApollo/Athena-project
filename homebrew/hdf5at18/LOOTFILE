@@ -1,0 +1,29 @@
+# hdf5@1.8.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hdf5@1.8.rb
+# Converted on 02-01-2019
+
+name='hdf5at18'
+url=('https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8/hdf5-1.8.21/src/hdf5-1.8.21.tar.bz2')
+description='File format designed to store large amounts of data'
+version='1.8.21' # Guessed version.
+priority='optional'
+homepage='https://www.hdfgroup.org/HDF5'
+depends=('gcc' 'szip')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# inreplace %w[c++/src/h5c++.in fortran/src/h5fc.in tools/misc/h5cc.in],
+# "${libdir}/libhdf5.settings", "#{pkgshare}/libhdf5.settings"
+# inreplace "src/Makefile.am", "settingsdir=$(libdir)", "settingsdir=#{pkgshare}"
+# system "autoreconf", "-fiv"
+# args = %W[
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --with-szlib=#{Formula["szip"].opt_prefix}
+# --enable-build-mode=production
+# --enable-fortran
+# --disable-cxx
+# ]
+# system "./configure", *args
+# system "make", "install"

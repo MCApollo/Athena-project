@@ -1,0 +1,44 @@
+# boost.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/boost.rb
+# Converted on 02-01-2019
+
+name='boost'
+url=('https://dl.bintray.com/boostorg/release/1.68.0/source/boost_1_68_0.tar.bz2')
+description='Collection of portable C++ source libraries'
+version=' '
+priority='optional'
+homepage='https://www.boost.org/'
+depends=('icu4c')
+
+###### Install ######
+# open("user-config.jam", "a") do |file|
+# file.write "using darwin : : #{ENV.cxx} ;\n"
+# end
+# icu4c_prefix = Formula["icu4c"].opt_prefix
+# bootstrap_args = %W[
+# --prefix=#{prefix}
+# --libdir=#{lib}
+# --with-icu=#{icu4c_prefix}
+# ]
+# without_libraries = ["python", "mpi"]
+# without_libraries << "log" if ENV.compiler == :gcc
+# bootstrap_args << "--without-libraries=#{without_libraries.join(",")}"
+# args = %W[
+# --prefix=#{prefix}
+# --libdir=#{lib}
+# -d2
+# -j#{ENV.make_jobs}
+# --layout=tagged
+# --user-config=user-config.jam
+# -sNO_LZMA=1
+# install
+# threading=multi,single
+# link=shared,static
+# ]
+# args << "cxxflags=-std=c++14"
+# if ENV.compiler == :clang
+# args << "cxxflags=-stdlib=libc++" << "linkflags=-stdlib=libc++"
+# end
+# system "./bootstrap.sh", *bootstrap_args
+# system "./b2", "headers"
+# system "./b2", *args

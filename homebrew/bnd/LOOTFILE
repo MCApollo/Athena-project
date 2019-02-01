@@ -1,0 +1,14 @@
+# bnd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bnd.rb
+# Converted on 02-01-2019
+
+name='bnd'
+url=('https://search.maven.org/remotecontent?filepath=biz/aQute/bnd/biz.aQute.bnd/4.1.0/biz.aQute.bnd-4.1.0.jar')
+description='The Swiss Army Knife for OSGi bundles'
+version='4.1.0' # Guessed version.
+priority='optional'
+homepage='https://bnd.bndtools.org/'
+
+###### Install ######
+# libexec.install "biz.aQute.bnd-#{version}.jar"
+# bin.write_jar_script libexec/"biz.aQute.bnd-#{version}.jar", "bnd"

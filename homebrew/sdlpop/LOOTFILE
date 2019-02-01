@@ -1,0 +1,24 @@
+# sdlpop.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdlpop.rb
+# Converted on 02-01-2019
+
+name='sdlpop'
+url=('https://github.com/NagyD/SDLPoP/archive/v1.18.1.tar.gz')
+description='Open-source port of Prince of Persia'
+version='1.18.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/NagyD/SDLPoP'
+depends=('sdl2' 'sdl2_image' 'sdl2_mixer')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "make", "-C", "src"
+# doc.install Dir["doc/*"]
+# libexec.install "data"
+# libexec.install "prince"
+# pkgvar = var/"sdlpop"
+# pkgvar.install "SDLPoP.ini" unless (pkgvar/"SDLPoP.ini").exist?
+# (bin/"prince").write <<~EOS
+# #!/bin/bash
+# cd "#{pkgvar}" && exec "#{libexec}/prince" $@
+# EOS

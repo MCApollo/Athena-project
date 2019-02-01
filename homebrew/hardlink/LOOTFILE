@@ -1,0 +1,15 @@
+# hardlink.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hardlink.rb
+# Converted on 02-01-2019
+
+name='hardlink'
+url=('https://jak-linux.org/projects/hardlink/hardlink_0.3.0.tar.xz')
+description='Replace file copies using hardlinks'
+version='0.3.0' # Guessed version.
+priority='optional'
+homepage='https://jak-linux.org/projects/hardlink/'
+depends=('gnu-getopt' 'pcre')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "MANDIR=#{man}", "BINDIR=#{bin}", "install"

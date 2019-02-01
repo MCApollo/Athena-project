@@ -1,0 +1,21 @@
+# pup.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pup.rb
+# Converted on 02-01-2019
+
+name='pup'
+url=('https://github.com/ericchiang/pup/archive/v0.4.0.tar.gz')
+description='Parse HTML at the command-line'
+version='0.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/EricChiang/pup'
+makedepends=('go' 'gox')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# dir = buildpath/"src/github.com/ericchiang/pup"
+# dir.install buildpath.children
+# cd dir do
+# system "gox", "-arch", "amd64", "-os", "darwin", "./..."
+# bin.install "pup_darwin_amd64" => "pup"
+# end
+# prefix.install_metafiles dir

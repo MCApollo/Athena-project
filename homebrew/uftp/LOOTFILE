@@ -1,0 +1,16 @@
+# uftp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/uftp.rb
+# Converted on 02-01-2019
+
+name='uftp'
+url=('https://downloads.sourceforge.net/project/uftp-multicast/source-tar/uftp-4.9.8.tar.gz')
+description='Secure, reliable, efficient multicast file transfer program'
+version='4.9.8' # Guessed version.
+priority='optional'
+homepage='https://uftp-multicast.sourceforge.io/'
+depends=('openssl')
+
+###### Install ######
+# system "make", "OPENSSL=#{Formula["openssl"].opt_prefix}", "DESTDIR=#{prefix}", "install"
+# prefix.install Dir["#{prefix}/usr/*"]
+# (prefix/"usr").unlink

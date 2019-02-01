@@ -1,0 +1,33 @@
+# tarantool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tarantool.rb
+# Converted on 02-01-2019
+
+name='tarantool'
+url=('https://download.tarantool.org/tarantool/1.10/src/tarantool-1.10.2.1.tar.gz')
+description='In-memory database and Lua application server'
+version='1.10.2.1' # Guessed version.
+priority='optional'
+homepage='https://tarantool.org/'
+depends=('icu4c' 'openssl' 'readline')
+makedepends=('cmake')
+
+###### Install ######
+# sdk = MacOS::CLT.installed? ? "" : MacOS.sdk_path
+# ENV["MACOSX_DEPLOYMENT_TARGET"] = MacOS.version
+# args = std_cmake_args
+# args << "-DCMAKE_INSTALL_MANDIR=#{doc}"
+# args << "-DCMAKE_INSTALL_SYSCONFDIR=#{etc}"
+# args << "-DCMAKE_INSTALL_LOCALSTATEDIR=#{var}"
+# args << "-DENABLE_DIST=ON"
+# args << "-DOPENSSL_ROOT_DIR=#{Formula["openssl"].opt_prefix}"
+# args << "-DREADLINE_ROOT=#{Formula["readline"].opt_prefix}"
+# args << "-DCURL_INCLUDE_DIR=#{sdk}/usr/include"
+# args << "-DCURL_LIBRARY=/usr/lib/libcurl.dylib"
+# system "cmake", ".", *args
+# system "make"
+# system "make", "install"
+# local_user = ENV["USER"]
+# inreplace etc/"default/tarantool", /(username\s*=).*/, "\\1 '#{local_user}'"
+# (var/"lib/tarantool").mkpath
+# (var/"log/tarantool").mkpath
+# (var/"run/tarantool").mkpath

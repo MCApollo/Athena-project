@@ -1,0 +1,25 @@
+# lesstif.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lesstif.rb
+# Converted on 02-01-2019
+
+name='lesstif'
+url=('https://downloads.sourceforge.net/project/lesstif/lesstif/0.95.2/lesstif-0.95.2.tar.bz2')
+description='Open source implementation of OSF/Motif'
+version='0.95.2' # Guessed version.
+priority='optional'
+homepage='https://lesstif.sourceforge.io'
+depends=('freetype' ':x11')
+makedepends=('')
+
+###### Install ######
+# inreplace "configure", "`aclocal --print-ac-dir`", "#{share}/aclocal"
+# ENV["LANG"] = "C"
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-debug",
+# "--enable-production",
+# "--disable-dependency-tracking",
+# "--enable-shared",
+# "--enable-static"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

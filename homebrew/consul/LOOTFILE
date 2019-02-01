@@ -1,0 +1,25 @@
+# consul.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/consul.rb
+# Converted on 02-01-2019
+
+name='consul'
+url=('https://github.com/hashicorp/consul.git')
+description='Tool for service discovery, monitoring and configuration'
+version=' '
+priority='optional'
+homepage='https://www.consul.io'
+makedepends=('go' 'gox')
+
+###### Install ######
+# inreplace "GNUmakefile", "go get -u -v $(GOTOOLS)", ""
+# ENV["XC_OS"] = "darwin"
+# ENV["XC_ARCH"] = "amd64"
+# ENV["GOPATH"] = buildpath
+# contents = Dir["{*,.git,.gitignore}"]
+# (buildpath/"src/github.com/hashicorp/consul").install contents
+# (buildpath/"bin").mkpath
+# cd "src/github.com/hashicorp/consul" do
+# system "make"
+# bin.install "bin/consul"
+# prefix.install_metafiles
+# end

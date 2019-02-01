@@ -1,0 +1,29 @@
+# healpix.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/healpix.rb
+# Converted on 02-01-2019
+
+name='healpix'
+url=('https://downloads.sourceforge.net/project/healpix/Healpix_3.50/Healpix_3.50_2018Dec10.tar.gz')
+description='Hierarchical Equal Area isoLatitude Pixelization of a sphere'
+version='3.50' # Guessed version.
+priority='optional'
+homepage='https://healpix.jpl.nasa.gov'
+depends=('cfitsio')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# configure_args = %W[
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# ]
+# cd "src/C/autotools" do
+# system "autoreconf", "--install"
+# system "./configure", *configure_args
+# system "make", "install"
+# end
+# cd "src/cxx/autotools" do
+# system "autoreconf", "--install"
+# system "./configure", *configure_args
+# system "make", "install"
+# end

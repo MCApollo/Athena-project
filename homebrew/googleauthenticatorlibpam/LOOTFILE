@@ -1,0 +1,19 @@
+# google-authenticator-libpam.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/google-authenticator-libpam.rb
+# Converted on 02-01-2019
+
+name='googleauthenticatorlibpam'
+url=('https://github.com/google/google-authenticator-libpam/archive/1.05.tar.gz')
+description='PAM module for two-factor authentication'
+version='1.05' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/google-authenticator-libpam'
+depends=('qrencode')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "./bootstrap.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

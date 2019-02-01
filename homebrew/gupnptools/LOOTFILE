@@ -1,0 +1,19 @@
+# gupnp-tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gupnp-tools.rb
+# Converted on 02-01-2019
+
+name='gupnptools'
+url=('https://download.gnome.org/sources/gupnp-tools/0.8/gupnp-tools-0.8.15.tar.xz')
+description='Free replacements of Intel'\''s UPnP tools'
+version='0.8.15' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/GUPnP/'
+depends=('gettext' 'gtk+3' 'gtksourceview4' 'gupnp' 'gupnp-av' 'libsoup')
+makedepends=('meson' 'ninja' 'pkg-config')
+
+###### Install ######
+# mkdir "build" do
+# system "meson", "--prefix=#{prefix}", ".."
+# system "ninja"
+# system "ninja", "install"
+# end

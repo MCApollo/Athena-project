@@ -1,0 +1,14 @@
+# no-more-secrets.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/no-more-secrets.rb
+# Converted on 02-01-2019
+
+name='nomoresecrets'
+url=('https://github.com/bartobri/no-more-secrets/archive/v0.3.3.tar.gz')
+description='Recreates the SETEC ASTRONOMY effect from '\''Sneakers'\'''
+version='0.3.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/bartobri/no-more-secrets'
+
+###### Install ######
+# system "make", "all"
+# system "make", "prefix=#{prefix}", "install"

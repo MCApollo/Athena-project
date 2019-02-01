@@ -1,0 +1,17 @@
+# lxc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lxc.rb
+# Converted on 02-01-2019
+
+name='lxc'
+url=('https://linuxcontainers.org/downloads/lxd/lxd-3.9.tar.gz')
+description='CLI client for interacting with LXD'
+version='3.9' # Guessed version.
+priority='optional'
+homepage='https://linuxcontainers.org'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["GOBIN"] = bin
+# ln_s buildpath/"dist/src", buildpath/"src"
+# system "go", "install", "-v", "github.com/lxc/lxd/lxc"

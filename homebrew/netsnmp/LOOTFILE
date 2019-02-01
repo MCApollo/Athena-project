@@ -1,0 +1,35 @@
+# net-snmp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/net-snmp.rb
+# Converted on 02-01-2019
+
+name='netsnmp'
+url=('https://downloads.sourceforge.net/project/net-snmp/net-snmp/5.8/net-snmp-5.8.tar.gz')
+description='Implements SNMP v1, v2c, and v3, using IPv4 and IPv6'
+version='5.8' # Guessed version.
+priority='optional'
+homepage='http://www.net-snmp.org/'
+depends=('openssl')
+
+###### Install ######
+# (buildpath/"include/net-snmp/system/darwin18.h").write <<~EOS
+# #include <net-snmp/system/darwin17.h>
+# EOS
+# args = %W[
+# --disable-debugging
+# --prefix=#{prefix}
+# --enable-ipv6
+# --with-defaults
+# --with-persistent-directory=#{var}/db/net-snmp
+# --with-logfile=#{var}/log/snmpd.log
+# --with-mib-modules=host\ ucd-snmp/diskio
+# --without-rpm
+# --without-kmem-usage
+# --disable-embedded-perl
+# --without-perl-modules
+# --with-openssl=#{Formula["openssl"].opt_prefix}
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# (var/"db/net-snmp").mkpath
+# (var/"log").mkpath

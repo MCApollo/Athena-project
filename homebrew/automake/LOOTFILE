@@ -1,0 +1,22 @@
+# automake.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/automake.rb
+# Converted on 02-01-2019
+
+name='automake'
+url=('https://ftp.gnu.org/gnu/automake/automake-1.16.1.tar.xz')
+description='Tool for generating GNU Standards-compliant Makefiles'
+version='1.16.1' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/automake/'
+depends=('autoconf')
+# Patches
+url+=('https://git.savannah.gnu.org/cgit/automake.git/patch/?id=a348d830659fffd2cfc42994524783b07e69b4b5')
+
+###### Install ######
+# ENV["PERL"] = "/usr/bin/perl"
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"
+# (share/"aclocal/dirlist").write <<~EOS
+# #{HOMEBREW_PREFIX}/share/aclocal
+# /usr/share/aclocal
+# EOS

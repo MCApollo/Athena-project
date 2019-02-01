@@ -1,0 +1,18 @@
+# pam-u2f.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pam-u2f.rb
+# Converted on 02-01-2019
+
+name='pamu2f'
+url=('https://developers.yubico.com/pam-u2f/Releases/pam_u2f-1.0.7.tar.gz')
+description='Provides an easy way to use U2F-compliant authenticators with PAM'
+version='1.0.7' # Guessed version.
+priority='optional'
+homepage='https://developers.yubico.com/pam-u2f/'
+depends=('libu2f-host' 'libu2f-server')
+makedepends=('asciidoc' 'autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "--install"
+# ENV["A2X"] = "#{Formula["asciidoc"].opt_bin}/a2x --no-xmllint"
+# system "./configure", "--prefix=#{prefix}", "--with-pam-dir=#{lib}/pam"
+# system "make", "install"

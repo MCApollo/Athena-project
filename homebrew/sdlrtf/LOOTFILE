@@ -1,0 +1,15 @@
+# sdl_rtf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdl_rtf.rb
+# Converted on 02-01-2019
+
+name='sdlrtf'
+url=('https://www.libsdl.org/projects/SDL_rtf/release/SDL_rtf-0.1.0.tar.gz')
+description='Sample library to display Rich Text Format (RTF) documents'
+version='0.1.0' # Guessed version.
+priority='optional'
+homepage='https://www.libsdl.org/projects/SDL_rtf/'
+depends=('sdl')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

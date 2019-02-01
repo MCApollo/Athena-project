@@ -1,0 +1,18 @@
+# crash.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/crash.rb
+# Converted on 02-01-2019
+
+name='crash'
+url=('https://search.maven.org/remotecontent?filepath=org/crashub/crash.distrib/1.3.2/crash.distrib-1.3.2.tar.gz')
+description='Kernel debugging shell for Java that allows gdb-like syntax'
+version='1.3.2' # Guessed version.
+priority='optional'
+homepage='https://www.crashub.org/'
+
+###### Resource ######
+# docs: https://search.maven.org/remotecontent?filepath=org/crashub/crash.distrib/1.3.2/crash.distrib-1.3.2-docs.tar.gz
+
+###### Install ######
+# doc.install resource("docs")
+# libexec.install Dir["crash/*"]
+# bin.install_symlink "#{libexec}/bin/crash.sh"

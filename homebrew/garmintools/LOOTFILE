@@ -1,0 +1,17 @@
+# garmintools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/garmintools.rb
+# Converted on 02-01-2019
+
+name='garmintools'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/garmintools/garmintools-0.10.tar.gz')
+description='Interface to the Garmin Forerunner GPS units'
+version='0.10' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/garmintools/'
+depends=('libusb-compat')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

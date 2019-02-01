@@ -1,0 +1,18 @@
+# ogmtools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ogmtools.rb
+# Converted on 02-01-2019
+
+name='ogmtools'
+url=('https://www.bunkus.org/videotools/ogmtools/ogmtools-1.5.tar.bz2')
+description='OGG media streams manipulation tools'
+version='1.5' # Guessed version.
+priority='optional'
+homepage='https://www.bunkus.org/videotools/ogmtools/'
+depends=('libogg' 'libvorbis')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/e4957439/ogmtools/common.h.diff')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make", "install"

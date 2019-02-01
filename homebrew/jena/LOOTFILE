@@ -1,0 +1,19 @@
+# jena.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jena.rb
+# Converted on 02-01-2019
+
+name='jena'
+url=('https://archive.apache.org/dist/jena/binaries/apache-jena-3.9.0.tar.gz')
+description='Framework for building semantic web and linked data apps'
+version='3.9.0' # Guessed version.
+priority='optional'
+homepage='https://jena.apache.org/'
+
+###### Install ######
+# rm_rf "bat"
+# prefix.install %w[LICENSE NOTICE README]
+# libexec.install Dir["*"]
+# Dir.glob("#{libexec}/bin/*") do |path|
+# bin_name = File.basename(path)
+# (bin/bin_name).write shim_script(bin_name)
+# end

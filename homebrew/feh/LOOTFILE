@@ -1,0 +1,15 @@
+# feh.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/feh.rb
+# Converted on 02-01-2019
+
+name='feh'
+url=('https://feh.finalrewind.org/feh-2.28.tar.bz2')
+description='X11 image viewer'
+version='2.28' # Guessed version.
+priority='optional'
+homepage='https://feh.finalrewind.org/'
+depends=('imlib2' 'libexif' ':x11')
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "verscmp=0", "exif=1"
+# system "make", "PREFIX=#{prefix}", "install"

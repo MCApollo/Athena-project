@@ -1,0 +1,16 @@
+# optipng.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/optipng.rb
+# Converted on 02-01-2019
+
+name='optipng'
+url=('https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-0.7.7/optipng-0.7.7.tar.gz')
+description='PNG file optimizer'
+version='0.7.7' # Guessed version.
+priority='optional'
+homepage='https://optipng.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--with-system-zlib",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

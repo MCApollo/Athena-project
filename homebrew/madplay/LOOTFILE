@@ -1,0 +1,24 @@
+# madplay.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/madplay.rb
+# Converted on 02-01-2019
+
+name='madplay'
+url=('https://downloads.sourceforge.net/project/mad/madplay/0.15.2b/madplay-0.15.2b.tar.gz')
+description='MPEG Audio Decoder'
+version='0.15.2' # Guessed version.
+priority='optional'
+homepage='https://www.underbit.com/products/mad/'
+depends=('libid3tag' 'mad')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/f6c5992c/madplay/patch-audio_carbon.c')
+
+###### Install ######
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --mandir=#{man}
+# --build=x86_64
+# ]
+# system "./configure", *args
+# system "make", "install"

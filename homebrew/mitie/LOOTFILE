@@ -1,0 +1,28 @@
+# mitie.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mitie.rb
+# Converted on 02-01-2019
+
+name='mitie'
+url=('https://github.com/mit-nlp/MITIE/archive/v0.6.tar.gz')
+description='Library and tools for information extraction'
+version='0.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/mit-nlp/MITIE/'
+depends=('python')
+
+###### Resource ######
+# models-english: https://downloads.sourceforge.net/project/mitie/binaries/MITIE-models-v0.2.tar.bz2
+
+###### Install ######
+# (share/"MITIE-models").install resource("models-english")
+# inreplace "mitielib/makefile", "libmitie.so", "libmitie.dylib"
+# system "make", "mitielib"
+# system "make"
+# include.install Dir["mitielib/include/*"]
+# lib.install "mitielib/libmitie.dylib", "mitielib/libmitie.a"
+# xy = Language::Python.major_minor_version "python3"
+# (lib/"python#{xy}/site-packages").install "mitielib/mitie.py"
+# pkgshare.install "examples", "sample_text.txt",
+# "sample_text.reference-output",
+# "sample_text.reference-output-relations"
+# bin.install "ner_example", "ner_stream", "relation_extraction_example"

@@ -1,0 +1,16 @@
+# cadubi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cadubi.rb
+# Converted on 02-01-2019
+
+name='cadubi'
+url=('https://github.com/statico/cadubi/archive/v1.3.4.tar.gz')
+description='Creative ASCII drawing utility'
+version='1.3.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/statico/cadubi/'
+
+###### Install ######
+# inreplace "cadubi", "$Bin/help.txt", "#{doc}/help.txt"
+# bin.install "cadubi"
+# doc.install "help.txt"
+# man1.install "cadubi.1"

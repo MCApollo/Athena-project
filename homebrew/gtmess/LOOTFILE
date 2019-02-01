@@ -1,0 +1,18 @@
+# gtmess.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtmess.rb
+# Converted on 02-01-2019
+
+name='gtmess'
+url=('https://downloads.sourceforge.net/project/gtmess/gtmess/0.97/gtmess-0.97.tar.gz')
+description='Console MSN messenger client'
+version='0.97' # Guessed version.
+priority='optional'
+homepage='https://gtmess.sourceforge.io/'
+depends=('openssl')
+
+###### Install ######
+# system "autoreconf", "-fvi" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-ssl=#{Formula["openssl"].opt_prefix}"
+# system "make", "install"

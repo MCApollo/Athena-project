@@ -1,0 +1,18 @@
+# xdotool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xdotool.rb
+# Converted on 02-01-2019
+
+name='xdotool'
+url=('https://github.com/jordansissel/xdotool/archive/v3.20160805.1.tar.gz')
+description='Fake keyboard/mouse input and window management for X'
+version='3.20160805.1' # Guessed version.
+priority='optional'
+homepage='https://www.semicomplete.com/projects/xdotool/'
+depends=('libxkbcommon' ':x11')
+makedepends=('pkg-config')
+
+###### Install ######
+# if MacOS.version == :el_capitan && MacOS::Xcode.version >= "8.0"
+# ENV.delete("SDKROOT")
+# end
+# system "make", "PREFIX=#{prefix}", "INSTALLMAN=#{man}", "install"

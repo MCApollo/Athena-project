@@ -1,0 +1,23 @@
+# htmlcleaner.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/htmlcleaner.rb
+# Converted on 02-01-2019
+
+name='htmlcleaner'
+url=('https://downloads.sourceforge.net/project/htmlcleaner/htmlcleaner/htmlcleaner%20v2.21/htmlcleaner-2.21-src.zip')
+description='HTML parser written in Java'
+version='2.21' # Guessed version.
+priority='optional'
+homepage='https://htmlcleaner.sourceforge.io'
+depends=(':java')
+makedepends=('maven')
+
+###### Install ######
+# cmd = Language::Java.java_home_cmd("1.8")
+# ENV["JAVA_HOME"] = Utils.popen_read(cmd).chomp
+# system "mvn", "--log-file", "build-output.log", "clean", "package"
+# libexec.install Dir["target/htmlcleaner-*.jar"]
+# (bin/"htmlcleaner").write <<~EOS
+# #!/bin/bash
+# export JAVA_HOME=$(#{cmd})
+# exec java  -jar #{libexec}/htmlcleaner-#{version}.jar "$@"
+# EOS

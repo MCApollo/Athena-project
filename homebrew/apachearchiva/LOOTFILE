@@ -1,0 +1,19 @@
+# apache-archiva.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/apache-archiva.rb
+# Converted on 02-01-2019
+
+name='apachearchiva'
+url=('https://www.apache.org/dyn/closer.cgi?path=archiva/2.2.3/binaries/apache-archiva-2.2.3-bin.tar.gz')
+description='The Build Artifact Repository Manager'
+version='2.2.3' # Guessed version.
+priority='optional'
+homepage='https://archiva.apache.org/'
+depends=(':java')
+
+###### Install ######
+# libexec.install Dir["*"]
+# bin.install_symlink libexec/"bin/archiva"
+# (var/"archiva/logs").mkpath
+# (var/"archiva/data").mkpath
+# (var/"archiva/temp").mkpath
+# cp_r libexec/"conf", var/"archiva"

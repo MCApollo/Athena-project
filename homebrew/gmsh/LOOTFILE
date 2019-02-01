@@ -1,0 +1,35 @@
+# gmsh.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmsh.rb
+# Converted on 02-01-2019
+
+name='gmsh'
+url=('https://gmsh.info/src/gmsh-4.1.3-source.tgz')
+description='3D finite element grid generator with CAD engine'
+version='4.1.3' # Guessed version.
+priority='optional'
+homepage='https://gmsh.info/'
+depends=('cairo' 'fltk' 'gcc' 'open-mpi' 'opencascade')
+makedepends=('cmake')
+
+###### Install ######
+# args = std_cmake_args + %W[
+# -DENABLE_OS_SPECIFIC_INSTALL=0
+# -DGMSH_BIN=#{bin}
+# -DGMSH_LIB=#{lib}
+# -DGMSH_DOC=#{pkgshare}/gmsh
+# -DGMSH_MAN=#{man}
+# -DENABLE_BUILD_LIB=ON
+# -DENABLE_BUILD_SHARED=ON
+# -DENABLE_NATIVE_FILE_CHOOSER=ON
+# -DENABLE_PETSC=OFF
+# -DENABLE_SLEPC=OFF
+# -DENABLE_OCC=ON
+# ]
+# ENV["CASROOT"] = Formula["opencascade"].opt_prefix
+# mkdir "build" do
+# system "cmake", "..", *args
+# system "make"
+# system "make", "install"
+# mkdir_p libexec
+# mv bin/"onelab.py", libexec
+# end

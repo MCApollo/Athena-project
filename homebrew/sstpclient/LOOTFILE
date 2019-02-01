@@ -1,0 +1,21 @@
+# sstp-client.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sstp-client.rb
+# Converted on 02-01-2019
+
+name='sstpclient'
+url=('https://downloads.sourceforge.net/project/sstp-client/sstp-client/sstp-client-1.0.12.tar.gz')
+description='SSTP (Microsofts Remote Access Solution for PPP over SSL) client'
+version='1.0.12' # Guessed version.
+priority='optional'
+homepage='https://sstp-client.sourceforge.io/'
+depends=('libevent' 'openssl')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--disable-ppp-plugin",
+# "--prefix=#{prefix}",
+# "--with-runtime-dir=#{var}/run/sstpc"
+# system "make", "install"
+# (var/"run/sstpc").mkpath

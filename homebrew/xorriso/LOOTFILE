@@ -1,0 +1,16 @@
+# xorriso.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xorriso.rb
+# Converted on 02-01-2019
+
+name='xorriso'
+url=('https://ftp.gnu.org/gnu/xorriso/xorriso-1.4.8.tar.gz')
+description='ISO9660+RR manipulation tool'
+version='1.4.8' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/xorriso/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# ENV.deparallelize { system "make", "install" }

@@ -1,0 +1,16 @@
+# vecx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vecx.rb
+# Converted on 02-01-2019
+
+name='vecx'
+url=('https://github.com/jhawthorn/vecx/archive/v1.1.tar.gz')
+description='Vectrex emulator'
+version='1.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/jhawthorn/vecx'
+depends=('sdl' 'sdl_gfx' 'sdl_image')
+
+###### Install ######
+# inreplace ["e6809.c", "vecx.c"], /__inline/, 'static \1'
+# system "make"
+# bin.install "vecx"

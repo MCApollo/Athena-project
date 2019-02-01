@@ -1,0 +1,14 @@
+# libdvbpsi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdvbpsi.rb
+# Converted on 02-01-2019
+
+name='libdvbpsi'
+url=('https://download.videolan.org/pub/libdvbpsi/1.3.2/libdvbpsi-1.3.2.tar.bz2')
+description='Library to decode/generate MPEG TS and DVB PSI tables'
+version='1.3.2' # Guessed version.
+priority='optional'
+homepage='https://www.videolan.org/developers/libdvbpsi.html'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-debug", "--disable-dependency-tracking", "--enable-release"
+# system "make", "install"

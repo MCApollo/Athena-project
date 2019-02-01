@@ -1,0 +1,14 @@
+# dcal.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dcal.rb
+# Converted on 02-01-2019
+
+name='dcal'
+url=('https://alexeyt.freeshell.org/code/dcal.c')
+description='dcal(1) is to cal(1) what ddate(1) is to date(1)'
+version=' '
+priority='optional'
+homepage='https://alexeyt.freeshell.org/'
+
+###### Install ######
+# system ENV.cxx, "dcal.c", "-o", "dcal"
+# bin.install "dcal"

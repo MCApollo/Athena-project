@@ -1,0 +1,16 @@
+# afuse.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/afuse.rb
+# Converted on 02-01-2019
+
+name='afuse'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/afuse/afuse-0.4.1.tar.gz')
+description='Automounting file system implemented in userspace with FUSE'
+version='0.4.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/pcarrier/afuse/'
+depends=(':osxfuse')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

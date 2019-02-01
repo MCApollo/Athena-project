@@ -1,0 +1,17 @@
+# asciidoctor.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/asciidoctor.rb
+# Converted on 02-01-2019
+
+name='asciidoctor'
+url=('https://github.com/asciidoctor/asciidoctor/archive/v1.5.8.tar.gz')
+description='Text processor and publishing toolchain for AsciiDoc'
+version='1.5.8' # Guessed version.
+priority='optional'
+homepage='https://asciidoctor.org/'
+
+###### Install ######
+# ENV["GEM_HOME"] = libexec
+# system "gem", "build", "asciidoctor.gemspec"
+# system "gem", "install", "asciidoctor-#{version}.gem"
+# bin.install Dir[libexec/"bin/*"]
+# bin.env_script_all_files(libexec/"bin", :GEM_HOME => ENV["GEM_HOME"])

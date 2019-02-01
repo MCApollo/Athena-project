@@ -1,0 +1,14 @@
+# svgcleaner.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/svgcleaner.rb
+# Converted on 02-01-2019
+
+name='svgcleaner'
+url=('https://github.com/RazrFalcon/svgcleaner/archive/v0.9.5.tar.gz')
+description='Cleans your SVG files by removing unnecessary data'
+version='0.9.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/RazrFalcon/svgcleaner'
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

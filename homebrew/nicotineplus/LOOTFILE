@@ -1,0 +1,23 @@
+# nicotine-plus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nicotine-plus.rb
+# Converted on 02-01-2019
+
+name='nicotineplus'
+url=('https://github.com/Nicotine-Plus/nicotine-plus/archive/1.4.1.tar.gz')
+description='Graphical client for the SoulSeek peer-to-peer system'
+version='1.4.1' # Guessed version.
+priority='optional'
+homepage='https://www.nicotine-plus.org/'
+depends=('geoip' 'gtk+' 'miniupnpc' 'pygtk' 'python@2')
+
+###### Resource ######
+# mutagen: https://files.pythonhosted.org/packages/14/d5/51f49f345d4490a9a6a04677ab136f78e4e0c64ed142e48b4ed818c13c96/mutagen-1.37.tar.gz
+# python-geoip: https://files.pythonhosted.org/packages/7c/65/cb04188154f7626e897d55f04c2542ba4205352f158cd925d314ad1998ef/python-geoip-1.2.tar.gz
+# miniupnpc: https://files.pythonhosted.org/packages/55/90/e987e28ed29b571f315afea7d317b6bf4a551e37386b344190cffec60e72/miniupnpc-1.9.tar.gz
+
+###### Install ######
+# venv = virtualenv_create(libexec)
+# venv.pip_install "mutagen"
+# venv.pip_install "miniupnpc"
+# venv.pip_install "python-geoip"
+# venv.pip_install_and_link buildpath

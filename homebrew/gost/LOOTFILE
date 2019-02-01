@@ -1,0 +1,17 @@
+# gost.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gost.rb
+# Converted on 02-01-2019
+
+name='gost'
+url=('https://github.com/wilhelm-murdoch/gost/archive/1.2.0.tar.gz')
+description='Simple command-line utility for easily creating Gists for Github'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/wilhelm-murdoch/gost'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# Language::Go.stage_deps resources, buildpath/"src"
+# system "go", "build", "-o", "gost"
+# bin.install "gost"

@@ -1,0 +1,22 @@
+# juise.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/juise.rb
+# Converted on 02-01-2019
+
+name='juise'
+url=('https://github.com/Juniper/juise/releases/download/0.8.0/juise-0.8.0.tar.gz')
+description='JUNOS user interface scripting environment'
+version='0.8.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/Juniper/juise/wiki'
+depends=('libslax')
+makedepends=('libtool')
+
+###### Install ######
+# system "sh", "./bin/setup.sh" if build.head?
+# inreplace "configure",
+# "SLAX_EXTDIR=\"`$SLAX_CONFIG --extdir | head -1`\"",
+# "SLAX_EXTDIR=\"#{lib}/slax/extensions\""
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-libedit"
+# system "make", "install"

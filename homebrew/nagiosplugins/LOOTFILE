@@ -1,0 +1,23 @@
+# nagios-plugins.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nagios-plugins.rb
+# Converted on 02-01-2019
+
+name='nagiosplugins'
+url=('https://www.nagios-plugins.org/download/nagios-plugins-2.2.1.tar.gz')
+description='Plugins for the nagios network monitoring system'
+version='2.2.1' # Guessed version.
+priority='optional'
+homepage='https://www.nagios-plugins.org/'
+depends=('openssl')
+makedepends=('')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{libexec}
+# --libexecdir=#{libexec}/sbin
+# --with-openssl=#{Formula["openssl"].opt_prefix}
+# ]
+# system "./configure", *args
+# system "make", "install"
+# sbin.write_exec_script Dir["#{libexec}/sbin/*"]

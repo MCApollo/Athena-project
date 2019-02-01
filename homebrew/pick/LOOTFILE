@@ -1,0 +1,17 @@
+# pick.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pick.rb
+# Converted on 02-01-2019
+
+name='pick'
+url=('https://github.com/calleerlandsson/pick/releases/download/v2.0.2/pick-2.0.2.tar.gz')
+description='Utility to choose one option from a set of choices'
+version='2.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/calleerlandsson/pick'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "check"
+# system "make", "install"

@@ -1,0 +1,25 @@
+# libmatio.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmatio.rb
+# Converted on 02-01-2019
+
+name='libmatio'
+url=('https://downloads.sourceforge.net/project/matio/matio/1.5.12/matio-1.5.12.tar.gz')
+description='C library for reading and writing MATLAB MAT files'
+version='1.5.12' # Guessed version.
+priority='optional'
+homepage='https://matio.sourceforge.io/'
+depends=('hdf5')
+
+###### Resource ######
+# test_mat_file: https://web.uvic.ca/~monahana/eos225/poc_data.mat.sfx
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --enable-extended-sparse=yes
+# --enable-mat73=yes
+# --with-hdf5=#{Formula["hdf5"].opt_prefix}
+# --with-zlib=/usr
+# ]
+# system "./configure", *args
+# system "make", "install"

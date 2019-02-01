@@ -1,0 +1,17 @@
+# with-readline.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/with-readline.rb
+# Converted on 02-01-2019
+
+name='withreadline'
+url=('https://www.greenend.org.uk/rjk/sw/with-readline-0.1.1.tar.gz')
+description='Allow GNU Readline to be used with arbitrary programs'
+version='0.1.1' # Guessed version.
+priority='optional'
+homepage='https://www.greenend.org.uk/rjk/sw/withreadline.html'
+depends=('readline')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

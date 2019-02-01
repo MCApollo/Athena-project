@@ -1,0 +1,25 @@
+# libhttpserver.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libhttpserver.rb
+# Converted on 02-01-2019
+
+name='libhttpserver'
+url=('https://github.com/etr/libhttpserver/archive/0.17.0.tar.gz')
+description='C++ library of embedded Rest HTTP server'
+version='0.17.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/etr/libhttpserver'
+depends=('libmicrohttpd')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# args = [
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# ]
+# system "./bootstrap"
+# mkdir "build" do
+# system "../configure", *args
+# system "make", "install"
+# end
+# pkgshare.install "examples"

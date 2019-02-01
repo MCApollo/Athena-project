@@ -1,0 +1,18 @@
+# dante.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dante.rb
+# Converted on 02-01-2019
+
+name='dante'
+url=('https://www.inet.no/dante/files/dante-1.4.2.tar.gz')
+description='SOCKS server and client, implementing RFC 1928 and related standards'
+version='1.4.2' # Guessed version.
+priority='optional'
+homepage='https://www.inet.no/dante/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-silent-rules",
+# "--enable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}/dante"
+# system "make", "install"

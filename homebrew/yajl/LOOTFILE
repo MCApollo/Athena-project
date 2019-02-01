@@ -1,0 +1,17 @@
+# yajl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yajl.rb
+# Converted on 02-01-2019
+
+name='yajl'
+url=('https://github.com/lloyd/yajl/archive/2.1.0.tar.gz')
+description='Yet Another JSON Library'
+version='2.1.0' # Guessed version.
+priority='optional'
+homepage='https://lloyd.github.io/yajl/'
+makedepends=('cmake')
+
+###### Install ######
+# ENV.deparallelize
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"
+# (include/"yajl").install Dir["src/api/*.h"]

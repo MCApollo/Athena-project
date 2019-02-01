@@ -1,0 +1,16 @@
+# httperf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/httperf.rb
+# Converted on 02-01-2019
+
+name='httperf'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/httperf/httperf-0.9.0.tar.gz')
+description='Tool for measuring webserver performance'
+version='0.9.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/httperf/httperf'
+depends=('openssl')
+
+###### Install ######
+# system "autoreconf", "-fvi" if build.head?
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking"
+# system "make", "install"

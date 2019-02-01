@@ -1,0 +1,12 @@
+# apache-flink.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/apache-flink.rb
+# Converted on 02-01-2019
+
+name='apacheflink'
+url=('https://www.apache.org/dyn/closer.lua?path=flink/flink-1.7.1/flink-1.7.1-bin-hadoop27-scala_2.11.tgz')
+description='Scalable batch and stream data processing'
+version='1.7.1' # Guessed version.
+priority='optional'
+homepage='https://flink.apache.org/'
+
+###### Install ######

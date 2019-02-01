@@ -1,0 +1,23 @@
+# chrome-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/chrome-cli.rb
+# Converted on 02-01-2019
+
+name='chromecli'
+url=('https://github.com/prasmussen/chrome-cli/archive/1.6.0.tar.gz')
+description='Control Google Chrome from the command-line'
+version='1.6.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/prasmussen/chrome-cli'
+makedepends=(':xcode')
+
+###### Install ######
+# xcodebuild "SDKROOT=", "SYMROOT=build"
+# bin.install "build/Release/chrome-cli"
+# rm_rf "build"
+# inreplace "chrome-cli/App.m", "com.google.Chrome", "com.google.Chrome.canary"
+# xcodebuild "SDKROOT=", "SYMROOT=build"
+# bin.install "build/Release/chrome-cli" => "chrome-canary-cli"
+# rm_rf "build"
+# inreplace "chrome-cli/App.m", "com.google.Chrome.canary", "org.Chromium.chromium"
+# xcodebuild "SDKROOT=", "SYMROOT=build"
+# bin.install "build/Release/chrome-cli" => "chromium-cli"

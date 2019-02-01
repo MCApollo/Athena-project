@@ -1,0 +1,22 @@
+# x264.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/x264.rb
+# Converted on 02-01-2019
+
+name='x264'
+url=('')
+description='H.264/AVC encoder'
+version=' '
+priority='optional'
+homepage='https://www.videolan.org/developers/x264.html'
+makedepends=('nasm')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-lsmash
+# --enable-shared
+# --enable-static
+# --enable-strip
+# ]
+# system "./configure", *args
+# system "make", "install"

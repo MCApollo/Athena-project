@@ -1,0 +1,17 @@
+# minuit2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/minuit2.rb
+# Converted on 02-01-2019
+
+name='minuit2'
+url=('https://www.cern.ch/mathlibs/sw/5_34_14/Minuit2/Minuit2-5.34.14.tar.gz')
+description='Physics analysis tool for function minimization'
+version='5.34.14' # Guessed version.
+priority='optional'
+homepage='https://seal.web.cern.ch/seal/snapshot/work-packages/mathlibs/minuit/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--with-pic",
+# "--disable-openmp",
+# "--prefix=#{prefix}"
+# system "make", "install"

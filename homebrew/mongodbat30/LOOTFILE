@@ -1,0 +1,33 @@
+# mongodb@3.0.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mongodb@3.0.rb
+# Converted on 02-01-2019
+
+name='mongodbat30'
+url=('https://fastdl.mongodb.org/src/mongodb-src-r3.0.15.tar.gz')
+description='High-performance document-oriented database'
+version='3.0.15' # Guessed version.
+priority='optional'
+homepage='https://www.mongodb.org/'
+makedepends=('go' 'scons')
+
+###### Install ######
+# Language::Go.stage_deps resources, buildpath/"src"
+# cd "src/github.com/mongodb/mongo-tools" do
+# system "./build.sh"
+# end
+# mkdir "src/mongo-tools"
+# cp Dir["src/github.com/mongodb/mongo-tools/bin/*"], "src/mongo-tools/"
+# args = %W[
+# -j#{ENV.make_jobs}
+# --cc=#{ENV.cc}
+# --cxx=#{ENV.cxx}
+# --osx-version-min=#{MacOS.version}
+# --prefix=#{prefix}
+# --use-new-tools
+# ]
+# args << "--disable-warnings-as-errors" if MacOS.version >= :yosemite
+# system "scons", "install", *args
+# (buildpath/"mongod.conf").write mongodb_conf
+# etc.install "mongod.conf"
+# (var/"mongodb").mkpath
+# (var/"log/mongodb").mkpath

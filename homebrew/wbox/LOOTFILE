@@ -1,0 +1,14 @@
+# wbox.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wbox.rb
+# Converted on 02-01-2019
+
+name='wbox'
+url=('http://www.hping.org/wbox/wbox-5.tar.gz')
+description='HTTP testing tool and configuration-less HTTP server'
+version=' '
+priority='optional'
+homepage='http://hping.org/wbox/'
+
+###### Install ######
+# system "make"
+# bin.install "wbox"

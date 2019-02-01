@@ -1,0 +1,29 @@
+# reminiscence.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/reminiscence.rb
+# Converted on 02-01-2019
+
+name='reminiscence'
+url=('http://cyxdown.free.fr/reminiscence/REminiscence-0.3.7.tar.bz2')
+description='Flashback engine reimplementation'
+version='0.3.7' # Guessed version.
+priority='optional'
+homepage='http://cyxdown.free.fr/reminiscence/'
+depends=('libmodplug' 'libogg' 'sdl2')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Resource ######
+# tremor: https://git.xiph.org/tremor.git
+
+###### Install ######
+# resource("tremor").stage do
+# system "autoreconf", "-fiv"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{libexec}",
+# "--disable-static"
+# system "make", "install"
+# end
+# ENV.prepend "CPPFLAGS", "-I#{libexec}/include"
+# ENV.prepend "LDFLAGS", "-L#{libexec}/lib"
+# system "make"
+# bin.install "rs" => "reminiscence"

@@ -1,0 +1,15 @@
+# scummvm-tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scummvm-tools.rb
+# Converted on 02-01-2019
+
+name='scummvmtools'
+url=('https://www.scummvm.org/frs/scummvm-tools/2.0.0/scummvm-tools-2.0.0.tar.xz')
+description='Collection of tools for ScummVM'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='https://www.scummvm.org/'
+depends=('boost' 'flac' 'freetype' 'libpng' 'libvorbis' 'mad' 'wxmac')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

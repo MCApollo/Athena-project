@@ -1,0 +1,20 @@
+# gosu.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gosu.rb
+# Converted on 02-01-2019
+
+name='gosu'
+url=('https://github.com/gosu-lang/gosu-lang/archive/v1.14.12.tar.gz')
+description='Pragmatic language for the JVM'
+version='1.14.12' # Guessed version.
+priority='optional'
+homepage='https://gosu-lang.github.io/'
+depends=(':java')
+makedepends=('maven')
+
+###### Install ######
+# cmd = Language::Java.java_home_cmd("1.8")
+# ENV["JAVA_HOME"] = Utils.popen_read(cmd).chomp
+# system "mvn", "package"
+# libexec.install Dir["gosu/target/gosu-#{version}-full/gosu-#{version}/*"]
+# (libexec/"ext").mkpath
+# (bin/"gosu").write_env_script libexec/"bin/gosu", Language::Java.java_home_env("1.8")

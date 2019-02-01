@@ -1,0 +1,16 @@
+# atomist-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/atomist-cli.rb
+# Converted on 02-01-2019
+
+name='atomistcli'
+url=('https://registry.npmjs.org/@atomist/cli/-/@atomist/cli-1.1.0.tgz')
+description='The Atomist CLI'
+version='1.1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/atomist/cli#readme'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]
+# bash_completion.install "#{libexec}/lib/node_modules/@atomist/cli/assets/bash_completion/atomist"

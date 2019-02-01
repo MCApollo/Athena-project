@@ -1,0 +1,22 @@
+# gauge.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gauge.rb
+# Converted on 02-01-2019
+
+name='gauge'
+url=('https://github.com/getgauge/gauge/archive/v1.0.4.tar.gz')
+description='Test automation tool that supports executable documentation'
+version='1.0.4' # Guessed version.
+priority='optional'
+homepage='https://getgauge.io'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["GOROOT"] = Formula["go"].opt_libexec
+# dir = buildpath/"src/github.com/getgauge/gauge"
+# dir.install buildpath.children
+# ln_s buildpath/"src", dir
+# cd dir do
+# system "go", "run", "build/make.go"
+# system "go", "run", "build/make.go", "--install", "--prefix", prefix
+# end

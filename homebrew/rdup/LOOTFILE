@@ -1,0 +1,18 @@
+# rdup.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rdup.rb
+# Converted on 02-01-2019
+
+name='rdup'
+url=('https://github.com/miekg/rdup/archive/1.1.15.tar.gz')
+description='Utility to create a file list suitable for making backups'
+version='1.1.15' # Guessed version.
+priority='optional'
+homepage='https://github.com/miekg/rdup'
+depends=('glib' 'libarchive' 'mcrypt' 'nettle' 'pcre')
+makedepends=('autoconf' 'automake' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

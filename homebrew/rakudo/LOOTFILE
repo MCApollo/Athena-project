@@ -1,0 +1,20 @@
+# rakudo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rakudo.rb
+# Converted on 02-01-2019
+
+name='rakudo'
+url=('https://rakudo.perl6.org/downloads/rakudo/rakudo-2018.12.tar.gz')
+description='Perl 6 compiler targeting MoarVM'
+version='2018.12' # Guessed version.
+priority='optional'
+homepage='https://rakudo.org'
+depends=('nqp')
+
+###### Install ######
+# system "perl", "Configure.pl",
+# "--backends=moar",
+# "--prefix=#{prefix}",
+# "--with-nqp=#{Formula["nqp"].bin}/nqp"
+# system "make"
+# system "make", "install"
+# bin.install "tools/install-dist.p6" => "perl6-install-dist"

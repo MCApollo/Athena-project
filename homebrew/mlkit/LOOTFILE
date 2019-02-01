@@ -1,0 +1,20 @@
+# mlkit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mlkit.rb
+# Converted on 02-01-2019
+
+name='mlkit'
+url=('https://github.com/melsman/mlkit/archive/mlkit-4.3.15.tar.gz')
+description='Compiler for the Standard ML programming language'
+version='4.3.15' # Guessed version.
+priority='optional'
+homepage='https://melsman.github.io/mlkit'
+depends=('gmp')
+makedepends=('autoconf' 'mlton')
+
+###### Install ######
+# system "sh", "./autobuild"
+# system "./configure", "--prefix=#{prefix}"
+# ENV.permit_arch_flags
+# system "make", "mlkit"
+# system "make", "mlkit_libs"
+# system "make", "install"

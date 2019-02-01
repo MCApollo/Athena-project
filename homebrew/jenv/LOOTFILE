@@ -1,0 +1,12 @@
+# jenv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jenv.rb
+# Converted on 02-01-2019
+
+name='jenv'
+url=('https://github.com/jenv/jenv/archive/0.5.1.tar.gz')
+description='Manage your Java environment'
+version='0.5.1' # Guessed version.
+priority='optional'
+homepage='https://www.jenv.be/'
+
+###### Install ######

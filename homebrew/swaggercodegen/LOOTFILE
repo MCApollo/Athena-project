@@ -1,0 +1,19 @@
+# swagger-codegen.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/swagger-codegen.rb
+# Converted on 02-01-2019
+
+name='swaggercodegen'
+url=('https://github.com/swagger-api/swagger-codegen/archive/v3.0.4.tar.gz')
+description='Generate clients, server stubs, and docs from an OpenAPI spec'
+version='3.0.4' # Guessed version.
+priority='optional'
+homepage='https://swagger.io/swagger-codegen/'
+depends=(':java')
+makedepends=('maven')
+
+###### Install ######
+# cmd = Language::Java.java_home_cmd("1.8")
+# ENV["JAVA_HOME"] = Utils.popen_read(cmd).chomp
+# system "mvn", "clean", "package"
+# libexec.install "modules/swagger-codegen-cli/target/swagger-codegen-cli.jar"
+# bin.write_jar_script libexec/"swagger-codegen-cli.jar", "swagger-codegen"

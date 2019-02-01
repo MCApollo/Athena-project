@@ -1,0 +1,17 @@
+# libdca.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdca.rb
+# Converted on 02-01-2019
+
+name='libdca'
+url=('https://download.videolan.org/pub/videolan/libdca/0.0.6/libdca-0.0.6.tar.bz2')
+description='Library for decoding DTS Coherent Acoustics streams'
+version='0.0.6' # Guessed version.
+priority='optional'
+homepage='https://www.videolan.org/developers/libdca.html'
+
+###### Install ######
+# ENV.append_to_cflags "-std=gnu89"
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

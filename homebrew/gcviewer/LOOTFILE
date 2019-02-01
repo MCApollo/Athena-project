@@ -1,0 +1,15 @@
+# gcviewer.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gcviewer.rb
+# Converted on 02-01-2019
+
+name='gcviewer'
+url=('https://downloads.sourceforge.net/project/gcviewer/gcviewer-1.35.jar')
+description='Java garbage collection visualization tool'
+version='1.35' # Guessed version.
+priority='optional'
+homepage='https://github.com/chewiebug/GCViewer'
+depends=(':java')
+
+###### Install ######
+# libexec.install Dir["*"]
+# bin.write_jar_script libexec/"gcviewer-#{version}.jar", "gcviewer"

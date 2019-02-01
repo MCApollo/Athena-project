@@ -1,0 +1,17 @@
+# mpfi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpfi.rb
+# Converted on 02-01-2019
+
+name='mpfi'
+url=('https://gforge.inria.fr/frs/download.php/file/37331/mpfi-1.5.3.tar.bz2')
+description='Multiple precision interval arithmetic library'
+version='1.5.3' # Guessed version.
+priority='optional'
+homepage='https://perso.ens-lyon.fr/nathalie.revol/software.html'
+depends=('gmp' 'mpfr')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make"
+# system "make", "check"
+# system "make", "install"

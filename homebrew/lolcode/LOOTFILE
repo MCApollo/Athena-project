@@ -1,0 +1,17 @@
+# lolcode.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lolcode.rb
+# Converted on 02-01-2019
+
+name='lolcode'
+url=('https://github.com/justinmeza/lci/archive/v0.11.2.tar.gz')
+description='Esoteric programming language'
+version='0.11.2' # Guessed version.
+priority='optional'
+homepage='https://lolcode.org/'
+makedepends=('cmake')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", "."
+# system "make"
+# bin.install "lci"

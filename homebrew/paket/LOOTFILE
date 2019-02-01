@@ -1,0 +1,18 @@
+# paket.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/paket.rb
+# Converted on 02-01-2019
+
+name='paket'
+url=('https://github.com/fsprojects/Paket/releases/download/5.195.1/paket.exe')
+description='Dependency manager for .NET with support for NuGet and Git repositories'
+version=' '
+priority='optional'
+homepage='https://fsprojects.github.io/Paket/'
+depends=('mono')
+
+###### Install ######
+# libexec.install "paket.exe"
+# (bin/"paket").write <<~EOS
+# #!/bin/bash
+# mono #{libexec}/paket.exe "$@"
+# EOS

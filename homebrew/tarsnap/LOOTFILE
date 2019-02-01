@@ -1,0 +1,29 @@
+# tarsnap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tarsnap.rb
+# Converted on 02-01-2019
+
+name='tarsnap'
+url=('https://www.tarsnap.com/download/tarsnap-autoconf-1.0.39.tgz')
+description='Online backups for the truly paranoid'
+version='1.0.39' # Guessed version.
+priority='optional'
+homepage='https://www.tarsnap.com/'
+depends=('openssl')
+
+###### Install ######
+# if MacOS.version == :el_capitan && MacOS::Xcode.version >= "8.0"
+# inreplace "libcperciva/util/monoclock.c", "CLOCK_MONOTONIC",
+# "UNDEFINED_GIBBERISH"
+# end
+# system "autoreconf", "-iv" if build.head?
+# args = %W[
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --sysconfdir=#{etc}
+# --with-bash-completion-dir=#{bash_completion}
+# --without-lzma
+# --without-lzmadec
+# ]
+# system "./configure", *args
+# system "make", "install"

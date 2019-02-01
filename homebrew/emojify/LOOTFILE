@@ -1,0 +1,12 @@
+# emojify.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/emojify.rb
+# Converted on 02-01-2019
+
+name='emojify'
+url=('https://github.com/mrowa44/emojify/archive/v1.0.2.tar.gz')
+description='Emoji on the command-line :scream:'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/mrowa44/emojify'
+
+###### Install ######

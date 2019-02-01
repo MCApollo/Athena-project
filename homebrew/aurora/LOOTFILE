@@ -1,0 +1,18 @@
+# aurora.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aurora.rb
+# Converted on 02-01-2019
+
+name='aurora'
+url=('https://github.com/xuri/aurora/archive/2.1.tar.gz')
+description='Beanstalkd queue server console'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://xuri.me/aurora'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# Language::Go.stage_deps resources, buildpath/"src"
+# (buildpath/"src/github.com/xuri").mkpath
+# ln_s buildpath, "src/github.com/xuri/aurora"
+# system "go", "build", "-o", bin/"aurora"

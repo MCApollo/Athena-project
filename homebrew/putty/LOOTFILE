@@ -1,0 +1,33 @@
+# putty.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/putty.rb
+# Converted on 02-01-2019
+
+name='putty'
+url=('https://the.earth.li/~sgtatham/putty/0.70/putty-0.70.tar.gz')
+description='Implementation of Telnet and SSH'
+version='0.70' # Guessed version.
+priority='optional'
+homepage='https://www.chiark.greenend.org.uk/~sgtatham/putty/'
+makedepends=('pkg-config')
+makedepends=('pkg-config')
+
+###### Install ######
+# if build.head?
+# system "./mkfiles.pl"
+# system "./mkauto.sh"
+# system "make", "-C", "doc"
+# end
+# args = %W[
+# --prefix=#{prefix}
+# --disable-silent-rules
+# --disable-dependency-tracking
+# --disable-gtktest
+# --without-gtk
+# ]
+# system "./configure", *args
+# build_version = build.head? ? "svn-#{version}" : version
+# system "make", "VER=-DRELEASE=#{build_version}"
+# bin.install %w[plink pscp psftp puttygen]
+# cd "doc" do
+# man1.install %w[plink.1 pscp.1 psftp.1 puttygen.1]
+# end

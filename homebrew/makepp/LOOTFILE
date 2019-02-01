@@ -1,0 +1,14 @@
+# makepp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/makepp.rb
+# Converted on 02-01-2019
+
+name='makepp'
+url=('https://downloads.sourceforge.net/project/makepp/2.0/makepp-2.0.tgz')
+description='Drop-in replacement for GNU make'
+version='2.0' # Guessed version.
+priority='optional'
+homepage='https://makepp.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make", "install"

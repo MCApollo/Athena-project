@@ -1,0 +1,19 @@
+# paperkey.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/paperkey.rb
+# Converted on 02-01-2019
+
+name='paperkey'
+url=('https://www.jabberwocky.com/software/paperkey/paperkey-1.5.tar.gz')
+description='Extract just secret information out of OpenPGP secret keys'
+version='1.5' # Guessed version.
+priority='optional'
+homepage='https://www.jabberwocky.com/software/paperkey/'
+
+###### Resource ######
+# secret.gpg: https://gist.github.com/bfontaine/5b0e3efa97e2dc42a970/raw/915e802578339ddde2967de541ed65cb76cd14b9/secret.gpg
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make"
+# system "make", "check"
+# system "make", "install"

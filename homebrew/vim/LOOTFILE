@@ -1,0 +1,35 @@
+# vim.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vim.rb
+# Converted on 02-01-2019
+
+name='vim'
+url=('https://github.com/vim/vim/archive/v8.1.0850.tar.gz')
+description='Vi '\''workalike'\'' with many additional features'
+version='8.1.0850' # Guessed version.
+priority='optional'
+homepage='https://www.vim.org/'
+depends=('gettext' 'lua' 'perl' 'python' 'ruby')
+makedepends=('')
+
+###### Install ######
+# ENV.prepend_path "PATH", Formula["python"].opt_libexec/"bin"
+# ENV.delete("SDKROOT")
+# ENV.delete("PYTHONPATH")
+# system "./configure", "--prefix=#{HOMEBREW_PREFIX}",
+# "--mandir=#{man}",
+# "--enable-multibyte",
+# "--with-tlib=ncurses",
+# "--enable-cscope",
+# "--enable-terminal",
+# "--with-compiledby=Homebrew",
+# "--enable-perlinterp",
+# "--enable-rubyinterp",
+# "--enable-python3interp",
+# "--enable-gui=no",
+# "--without-x",
+# "--enable-luainterp",
+# "--with-lua-prefix=#{Formula["lua"].opt_prefix}"
+# system "make"
+# ENV.deparallelize
+# system "make", "install", "prefix=#{prefix}", "STRIP=#{which "true"}"
+# bin.install_symlink "vim" => "vi"

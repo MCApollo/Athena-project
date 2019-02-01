@@ -1,0 +1,23 @@
+# stoken.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stoken.rb
+# Converted on 02-01-2019
+
+name='stoken'
+url=('https://downloads.sourceforge.net/project/stoken/stoken-0.92.tar.gz')
+description='Tokencode generator compatible with RSA SecurID 128-bit (AES)'
+version='0.92' # Guessed version.
+priority='optional'
+homepage='https://stoken.sourceforge.io/'
+depends=('nettle')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --disable-debug
+# --disable-silent-rules
+# --prefix=#{prefix}
+# ]
+# system "./configure", *args
+# system "make", "check"
+# system "make", "install"

@@ -1,0 +1,18 @@
+# skafos.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/skafos.rb
+# Converted on 02-01-2019
+
+name='skafos'
+url=('https://github.com/MetisMachine/skafos/archive/1.7.7.tar.gz')
+description='CLI for the Metis Machine A.I. and machine learning deployment platform'
+version='1.7.7' # Guessed version.
+priority='optional'
+homepage='https://metismachine.com/'
+depends=('libarchive' 'yaml-cpp')
+makedepends=('cmake')
+
+###### Install ######
+# system "make", "_create_version_h"
+# system "make", "_env_for_prod"
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

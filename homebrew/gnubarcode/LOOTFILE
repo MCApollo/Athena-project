@@ -1,0 +1,24 @@
+# gnu-barcode.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-barcode.rb
+# Converted on 02-01-2019
+
+name='gnubarcode'
+url=('https://ftp.gnu.org/gnu/barcode/barcode-0.99.tar.gz')
+description='Convert text strings to printed bars'
+version='0.99' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/barcode/'
+
+# A diff file was written to gnubarcode.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "ac_cv_func_calloc_0_nonnull=yes",
+# "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "MAN1DIR=#{man1}",
+# "MAN3DIR=#{man3}",
+# "INFODIR=#{info}",
+# "install"

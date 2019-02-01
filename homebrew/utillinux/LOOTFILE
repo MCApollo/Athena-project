@@ -1,0 +1,34 @@
+# util-linux.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/util-linux.rb
+# Converted on 02-01-2019
+
+name='utillinux'
+url=('https://www.kernel.org/pub/linux/utils/util-linux/v2.32/util-linux-2.32.1.tar.xz')
+description='Collection of Linux utilities'
+version='2.32.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/karelzak/util-linux'
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--disable-ipcs",
+# "--disable-ipcrm",
+# "--disable-wall",
+# "--disable-libuuid",
+# "--disable-libsmartcols"
+# system "make", "install"
+# %w[cal col colcrt colrm getopt hexdump logger nologin look mesg more renice rev ul whereis].each do |prog|
+# rm_f bin/prog
+# rm_f sbin/prog
+# rm_f man1/"#{prog}.1"
+# rm_f man8/"#{prog}.8"
+# rm_f share/"bash-completion/completions/#{prog}"
+# end
+# Pathname.glob("bash-completion/*") do |prog|
+# if (bin/prog.basename).exist? || (sbin/prog.basename).exist?
+# bash_completion.install prog
+# end
+# end

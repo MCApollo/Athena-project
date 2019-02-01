@@ -1,0 +1,14 @@
+# easyengine.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/easyengine.rb
+# Converted on 02-01-2019
+
+name='easyengine'
+url=('https://github.com/EasyEngine/easyengine/releases/download/v4.0.10/easyengine.phar')
+description='Command-line control panel to manage WordPress sites'
+version=' '
+priority='optional'
+homepage='https://easyengine.io/'
+depends=('dnsmasq' 'php')
+
+###### Install ######
+# bin.install "easyengine.phar" => "ee"

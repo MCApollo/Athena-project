@@ -1,0 +1,21 @@
+# github-markdown-toc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/github-markdown-toc.rb
+# Converted on 02-01-2019
+
+name='githubmarkdowntoc'
+url=('https://github.com/ekalinin/github-markdown-toc.go/archive/1.0.0.tar.gz')
+description='Easy TOC creation for GitHub README.md (in go)'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/ekalinin/github-markdown-toc.go'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["GO111MODULE"] = "on"
+# dir = buildpath/"src/github.com/ekalinin/github-markdown-toc.go"
+# dir.install buildpath.children
+# cd dir do
+# system "go", "build", "-o", bin/"gh-md-toc"
+# prefix.install_metafiles
+# end

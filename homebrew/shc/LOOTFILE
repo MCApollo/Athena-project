@@ -1,0 +1,15 @@
+# shc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shc.rb
+# Converted on 02-01-2019
+
+name='shc'
+url=('https://github.com/neurobin/shc/archive/4.0.1.tar.gz')
+description='Shell Script Compiler'
+version='4.0.1' # Guessed version.
+priority='optional'
+homepage='https://neurobin.github.io/shc'
+
+###### Install ######
+# system "./configure"
+# system "make", "install", "prefix=#{prefix}"
+# pkgshare.install "test"

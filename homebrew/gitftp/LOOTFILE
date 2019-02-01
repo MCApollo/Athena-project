@@ -1,0 +1,38 @@
+# git-ftp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-ftp.rb
+# Converted on 02-01-2019
+
+name='gitftp'
+url=('https://github.com/git-ftp/git-ftp/archive/1.5.1.tar.gz')
+description='Git-powered FTP client'
+version='1.5.1' # Guessed version.
+priority='optional'
+homepage='https://git-ftp.github.io/'
+depends=('libssh2')
+makedepends=('pandoc')
+
+###### Resource ######
+# curl: https://curl.haxx.se/download/curl-7.62.0.tar.bz2
+
+###### Install ######
+# resource("curl").stage do
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{libexec}",
+# "--disable-ares",
+# "--with-darwinssl",
+# "--with-libssh2",
+# "--without-brotli",
+# "--without-ca-bundle",
+# "--without-ca-path",
+# "--without-gssapi",
+# "--without-libmetalink",
+# "--without-librtmp"
+# system "make", "install"
+# end
+# system "make", "prefix=#{prefix}", "install"
+# system "make", "-C", "man", "man"
+# man1.install "man/git-ftp.1"
+# (libexec/"bin").install bin/"git-ftp"
+# (bin/"git-ftp").write_env_script(libexec/"bin/git-ftp", :PATH => "#{libexec}/bin:$PATH")

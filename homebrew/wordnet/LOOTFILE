@@ -1,0 +1,25 @@
+# wordnet.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wordnet.rb
+# Converted on 02-01-2019
+
+name='wordnet'
+url=('http://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.bz2')
+description='Lexical database for the English language'
+version='3.0' # Guessed version.
+priority='optional'
+homepage='https://wordnet.princeton.edu/'
+depends=(':x11')
+
+###### Resource ######
+# dict: http://wordnetcode.princeton.edu/wn3.1.dict.tar.gz
+
+###### Install ######
+# (prefix/"dict").install resource("dict")
+# ENV.append_to_cflags "-DUSE_INTERP_RESULT"
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--with-tcl=#{MacOS.sdk_path}/System/Library/Frameworks/Tcl.framework",
+# "--with-tk=#{MacOS.sdk_path}/System/Library/Frameworks/Tk.framework"
+# ENV.deparallelize
+# system "make", "install"

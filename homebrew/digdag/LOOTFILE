@@ -1,0 +1,18 @@
+# digdag.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/digdag.rb
+# Converted on 02-01-2019
+
+name='digdag'
+url=('https://dl.digdag.io/digdag-0.9.32.jar')
+description='Workload Automation System'
+version='0.9.32' # Guessed version.
+priority='optional'
+homepage='https://www.digdag.io/'
+depends=(':java')
+
+###### Install ######
+# libexec.install "digdag-#{version}.jar" => "digdag.jar"
+# (bin/"digdag").write <<~EOS
+# #!/bin/bash
+# exec /bin/bash "#{libexec}/digdag.jar" "$@"
+# EOS

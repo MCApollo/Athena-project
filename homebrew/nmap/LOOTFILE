@@ -1,0 +1,28 @@
+# nmap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nmap.rb
+# Converted on 02-01-2019
+
+name='nmap'
+url=('https://nmap.org/dist/nmap-7.70.tar.bz2')
+description='Port scanning utility for large networks'
+version='7.70' # Guessed version.
+priority='optional'
+homepage='https://nmap.org/'
+depends=('openssl')
+makedepends=('')
+
+###### Install ######
+# ENV.deparallelize
+# args = %W[
+# --prefix=#{prefix}
+# --with-libpcre=included
+# --with-liblua=included
+# --with-openssl=#{Formula["openssl"].opt_prefix}
+# --without-nmap-update
+# --disable-universal
+# --without-zenmap
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# rm_f Dir[bin/"uninstall_*"]

@@ -1,0 +1,19 @@
+# startup-notification.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/startup-notification.rb
+# Converted on 02-01-2019
+
+name='startupnotification'
+url=('https://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.12.tar.gz')
+description='Reference implementation of startup notification protocol'
+version='0.12' # Guessed version.
+priority='optional'
+homepage='https://www.freedesktop.org/wiki/Software/startup-notification/'
+depends=(':x11')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

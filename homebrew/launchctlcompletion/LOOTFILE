@@ -1,0 +1,13 @@
+# launchctl-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/launchctl-completion.rb
+# Converted on 02-01-2019
+
+name='launchctlcompletion'
+url=('https://github.com/CamJN/launchctl-completion/archive/v1.0.tar.gz')
+description='Bash completion for Launchctl'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/CamJN/launchctl-completion'
+
+###### Install ######
+# bash_completion.install "launchctl-completion.sh" => "launchctl"

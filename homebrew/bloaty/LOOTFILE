@@ -1,0 +1,16 @@
+# bloaty.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bloaty.rb
+# Converted on 02-01-2019
+
+name='bloaty'
+url=('https://github.com/google/bloaty/releases/download/v1.0/bloaty-1.0.tar.bz2')
+description='Size profiler for binaries'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/bloaty'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make"
+# bin.install buildpath/"bloaty"

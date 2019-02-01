@@ -1,0 +1,15 @@
+# pakchois.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pakchois.rb
+# Converted on 02-01-2019
+
+name='pakchois'
+url=('https://web.archive.org/web/20161220165909/www.manyfish.co.uk/pakchois/pakchois-0.4.tar.gz')
+description='PKCS #11 wrapper library'
+version='0.4' # Guessed version.
+priority='optional'
+homepage='https://web.archive.org/web/www.manyfish.co.uk/pakchois/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

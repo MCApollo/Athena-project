@@ -1,0 +1,14 @@
+# mint.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mint.rb
+# Converted on 02-01-2019
+
+name='mint'
+url=('https://github.com/yonaskolb/Mint/archive/0.11.3.tar.gz')
+description='Dependency manager that installs and runs Swift command-line tool packages'
+version='0.11.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/yonaskolb/Mint'
+depends=(':xcode')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

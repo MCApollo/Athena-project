@@ -1,0 +1,15 @@
+# cash-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cash-cli.rb
+# Converted on 02-01-2019
+
+name='cashcli'
+url=('https://registry.npmjs.org/cash-cli/-/cash-cli-2.0.8.tgz')
+description='Exchange Currency Rates using your terminal'
+version='2.0.8' # Guessed version.
+priority='optional'
+homepage='https://github.com/xxczaki/cash-cli'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

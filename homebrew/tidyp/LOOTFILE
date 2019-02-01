@@ -1,0 +1,24 @@
+# tidyp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tidyp.rb
+# Converted on 02-01-2019
+
+name='tidyp'
+url=('https://github.com/downloads/petdance/tidyp/tidyp-1.04.tar.gz')
+description='Validate and modify HTML'
+version='1.04' # Guessed version.
+priority='optional'
+homepage='http://tidyp.com/'
+
+###### Resource ######
+# manual: https://raw.githubusercontent.com/petdance/tidyp/6a6c85bc9cb089e343337377f76127d01dd39a1c/htmldoc/tidyp1.xsl
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# resource("manual").stage do
+# system "#{bin}/tidyp -xml-help > tidyp1.xml"
+# system "#{bin}/tidyp -xml-config > tidyp-config.xml"
+# system "/usr/bin/xsltproc tidyp1.xsl tidyp1.xml > tidyp.1"
+# man1.install gzip("tidyp.1")
+# end

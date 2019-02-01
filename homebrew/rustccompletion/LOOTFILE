@@ -1,0 +1,13 @@
+# rustc-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rustc-completion.rb
+# Converted on 02-01-2019
+
+name='rustccompletion'
+url=('')
+description='Bash completion for rustc'
+version=' '
+priority='optional'
+homepage='https://github.com/roshan/rust-bash-completion'
+
+###### Install ######
+# bash_completion.install "etc/bash_completion.d/rustc"

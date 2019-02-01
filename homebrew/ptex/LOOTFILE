@@ -1,0 +1,16 @@
+# ptex.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ptex.rb
+# Converted on 02-01-2019
+
+name='ptex'
+url=('https://github.com/wdas/ptex/archive/v2.1.33.tar.gz')
+description='Texture mapping system'
+version='2.1.33' # Guessed version.
+priority='optional'
+homepage='http://ptex.us'
+makedepends=('cmake')
+
+###### Install ######
+# system "make", "prefix=#{prefix}"
+# system "make", "test"
+# system "make", "install"

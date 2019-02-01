@@ -1,0 +1,16 @@
+# libtomcrypt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtomcrypt.rb
+# Converted on 02-01-2019
+
+name='libtomcrypt'
+url=('https://github.com/libtom/libtomcrypt/archive/v1.18.2.tar.gz')
+description='Comprehensive, modular and portable cryptographic toolkit'
+version='1.18.2' # Guessed version.
+priority='optional'
+homepage='https://www.libtom.net/'
+
+###### Install ######
+# system "make", "test"
+# system "make", "install", "PREFIX=#{prefix}"
+# pkgshare.install "test"
+# (pkgshare/"tests").install "tests/test.key"

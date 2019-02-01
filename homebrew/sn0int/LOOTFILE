@@ -1,0 +1,22 @@
+# sn0int.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sn0int.rb
+# Converted on 02-01-2019
+
+name='sn0int'
+url=('https://github.com/kpcyrd/sn0int/archive/v0.9.0.tar.gz')
+description='Semi-automatic OSINT framework and package manager'
+version='0.9.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/kpcyrd/sn0int'
+makedepends=('rust' 'sphinx-doc')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."
+# system "#{bin}/sn0int completions bash > sn0int.bash"
+# system "#{bin}/sn0int completions fish > sn0int.fish"
+# system "#{bin}/sn0int completions zsh > _sn0int"
+# bash_completion.install "sn0int.bash"
+# fish_completion.install "sn0int.fish"
+# zsh_completion.install "_sn0int"
+# system "make", "-C", "docs", "man"
+# man1.install "docs/_build/man/sn0int.1"

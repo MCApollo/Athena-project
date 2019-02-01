@@ -1,0 +1,21 @@
+# yq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yq.rb
+# Converted on 02-01-2019
+
+name='yq'
+url=('https://github.com/mikefarah/yq/archive/v2.2.1.tar.gz')
+description='Process YAML documents from the CLI'
+version='2.2.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/mikefarah/yq'
+makedepends=('go' 'govendor')
+makedepends=('go' 'govendor')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/mikefarah/yq").install buildpath.children
+# cd "src/github.com/mikefarah/yq" do
+# system "govendor", "sync"
+# system "go", "build", "-o", bin/"yq"
+# prefix.install_metafiles
+# end

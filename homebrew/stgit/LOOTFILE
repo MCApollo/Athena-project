@@ -1,0 +1,15 @@
+# stgit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stgit.rb
+# Converted on 02-01-2019
+
+name='stgit'
+url=('https://github.com/ctmarinas/stgit/archive/v0.19.tar.gz')
+description='Push/pop utility built on top of Git'
+version='0.19' # Guessed version.
+priority='optional'
+homepage='https://github.com/ctmarinas/stgit'
+
+###### Install ######
+# ENV["PYTHON"] = "python"
+# system "make", "prefix=#{prefix}", "all"
+# system "make", "prefix=#{prefix}", "install"

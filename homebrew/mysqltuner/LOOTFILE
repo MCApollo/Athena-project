@@ -1,0 +1,12 @@
+# mysqltuner.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mysqltuner.rb
+# Converted on 02-01-2019
+
+name='mysqltuner'
+url=('https://github.com/major/MySQLTuner-perl/archive/1.7.13.tar.gz')
+description='Increase performance and stability of a MySQL installation'
+version='1.7.13' # Guessed version.
+priority='optional'
+homepage='https://raw.github.com/major/MySQLTuner-perl/master/mysqltuner.pl'
+
+###### Install ######

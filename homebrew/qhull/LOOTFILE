@@ -1,0 +1,15 @@
+# qhull.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qhull.rb
+# Converted on 02-01-2019
+
+name='qhull'
+url=('http://www.qhull.org/download/qhull-2015-src-7.2.0.tgz')
+description='Computes convex hulls in n dimensions'
+version='7.2.0' # Guessed version.
+priority='optional'
+homepage='http://www.qhull.org/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

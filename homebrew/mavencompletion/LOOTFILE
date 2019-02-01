@@ -1,0 +1,12 @@
+# maven-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/maven-completion.rb
+# Converted on 02-01-2019
+
+name='mavencompletion'
+url=('https://github.com/juven/maven-bash-completion.git')
+description='Bash completion for Maven'
+version=' '
+priority='optional'
+homepage='https://github.com/juven/maven-bash-completion'
+
+###### Install ######

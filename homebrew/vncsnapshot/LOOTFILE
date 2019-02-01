@@ -1,0 +1,21 @@
+# vncsnapshot.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vncsnapshot.rb
+# Converted on 02-01-2019
+
+name='vncsnapshot'
+url=('https://downloads.sourceforge.net/project/vncsnapshot/vncsnapshot/1.2a/vncsnapshot-1.2a-src.tar.gz')
+description='Command-line utility for taking VNC snapshots'
+version='1.2' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/vncsnapshot/'
+depends=('jpeg')
+
+# A diff file was written to vncsnapshot.diff
+# --> Patch the file before building.
+
+###### Install ######
+# inreplace "rfb.h", "typedef unsigned long CARD32;",
+# "typedef unsigned int CARD32;"
+# system "make"
+# bin.install "vncsnapshot", "vncpasswd"
+# man1.install "vncsnapshot.man1" => "vncsnapshot.1"

@@ -1,0 +1,18 @@
+# dartsim.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dartsim.rb
+# Converted on 02-01-2019
+
+name='dartsim'
+url=('https://github.com/dartsim/dart/archive/v6.7.2.tar.gz')
+description='Dynamic Animation and Robotics Toolkit'
+version='6.7.2' # Guessed version.
+priority='optional'
+homepage='https://dartsim.github.io/'
+depends=('assimp' 'boost' 'bullet' 'eigen' 'fcl' 'flann' 'libccd' 'nlopt' 'ode' 'open-scene-graph' 'tinyxml2' 'urdfdom')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# system "cmake", ".", "-DGLUT_glut_LIBRARY=/System/Library/Frameworks/GLUT.framework",
+# *std_cmake_args
+# system "make", "install"

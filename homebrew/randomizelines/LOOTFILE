@@ -1,0 +1,15 @@
+# randomize-lines.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/randomize-lines.rb
+# Converted on 02-01-2019
+
+name='randomizelines'
+url=('https://arthurdejong.org/rl/rl-0.2.7.tar.gz')
+description='Reads and randomize lines from a file (or STDIN)'
+version='0.2.7' # Guessed version.
+priority='optional'
+homepage='https://arthurdejong.org/rl/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

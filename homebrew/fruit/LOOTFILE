@@ -1,0 +1,16 @@
+# fruit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fruit.rb
+# Converted on 02-01-2019
+
+name='fruit'
+url=('https://github.com/google/fruit/archive/v3.4.0.tar.gz')
+description='Dependency injection framework for C++'
+version='3.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/fruit/wiki'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", "-DFRUIT_USES_BOOST=False", *std_cmake_args
+# system "make", "install"
+# pkgshare.install "examples/hello_world/main.cpp"

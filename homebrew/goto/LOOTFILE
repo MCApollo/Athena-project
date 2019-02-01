@@ -1,0 +1,13 @@
+# goto.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/goto.rb
+# Converted on 02-01-2019
+
+name='goto'
+url=('https://github.com/iridakos/goto/archive/v1.2.3.tar.gz')
+description='Bash tool for navigation to aliased directories with auto-completion'
+version='1.2.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/iridakos/goto'
+
+###### Install ######
+# bash_completion.install "goto.sh"

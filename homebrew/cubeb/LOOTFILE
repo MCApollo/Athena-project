@@ -1,0 +1,19 @@
+# cubeb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cubeb.rb
+# Converted on 02-01-2019
+
+name='cubeb'
+url=('https://github.com/kinetiknz/cubeb/archive/cubeb-0.2.tar.gz')
+description='Cross-platform audio library'
+version='0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/kinetiknz/cubeb'
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "--install"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

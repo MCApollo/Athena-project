@@ -1,0 +1,22 @@
+# tnftp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tnftp.rb
+# Converted on 02-01-2019
+
+name='tnftp'
+url=('https://opensource.apple.com/tarballs/lukemftp/lukemftp-16.tar.gz')
+description='NetBSD'\''s FTP client (built from macOS Sierra sources)'
+version=' '
+priority='optional'
+homepage='https://opensource.apple.com/'
+makedepends=(':xcode')
+makedepends=(':xcode')
+
+###### Install ######
+# cd "tnftp" do
+# system "./configure"
+# system "make", "all"
+# system "strip", "-x", "src/ftp"
+# bin.install "src/ftp"
+# man1.install "src/ftp.1"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,25 @@
+# gnu-indent.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-indent.rb
+# Converted on 02-01-2019
+
+name='gnuindent'
+url=('https://ftp.gnu.org/gnu/indent/indent-2.2.12.tar.gz')
+description='C code prettifier'
+version='2.2.12' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/indent/'
+depends=('gettext')
+
+###### Install ######
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --mandir=#{man}
+# --program-prefix=g
+# ]
+# system "./configure", *args
+# system "make", "install"
+# (libexec/"gnubin").install_symlink bin/"gindent" => "indent"
+# (libexec/"gnuman/man1").install_symlink man1/"gindent.1" => "indent.1"
+# libexec.install_symlink "gnuman" => "man"

@@ -1,0 +1,24 @@
+# stern.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stern.rb
+# Converted on 02-01-2019
+
+name='stern'
+url=('https://github.com/wercker/stern/archive/1.10.0.tar.gz')
+description='Tail multiple Kubernetes pods & their containers'
+version='1.10.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/wercker/stern'
+makedepends=('go' 'govendor')
+
+###### Install ######
+# contents = Dir["{*,.git,.gitignore}"]
+# gopath = buildpath/"gopath"
+# (gopath/"src/github.com/wercker/stern").install contents
+# ENV["GOPATH"] = gopath
+# ENV.prepend_create_path "PATH", gopath/"bin"
+# cd gopath/"src/github.com/wercker/stern" do
+# system "govendor", "sync"
+# system "go", "build", "-o", "bin/stern"
+# bin.install "bin/stern"
+# prefix.install_metafiles
+# end

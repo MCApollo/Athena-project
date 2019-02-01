@@ -1,0 +1,21 @@
+# mupdf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mupdf.rb
+# Converted on 02-01-2019
+
+name='mupdf'
+url=('https://mupdf.com/downloads/archive/mupdf-1.14.0-source.tar.gz')
+description='Lightweight PDF and XPS viewer'
+version='1.14.0' # Guessed version.
+priority='optional'
+homepage='https://mupdf.com/'
+depends=('openssl' ':x11')
+makedepends=('')
+
+###### Install ######
+# system "make", "install",
+# "build=release",
+# "verbose=yes",
+# "CC=#{ENV.cc}",
+# "prefix=#{prefix}"
+# bin.install_symlink bin/"mutool" => "mudraw"
+# man1.install_symlink man1/"mutool.1" => "mudraw.1"

@@ -1,0 +1,13 @@
+# lorem.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lorem.rb
+# Converted on 02-01-2019
+
+name='lorem'
+url=('')
+description='Python generator for the console'
+version=' '
+priority='optional'
+homepage='https://github.com/per9000/lorem'
+
+###### Install ######
+# bin.install "lorem"

@@ -1,0 +1,15 @@
+# sdedit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdedit.rb
+# Converted on 02-01-2019
+
+name='sdedit'
+url=('https://downloads.sourceforge.net/project/sdedit/sdedit/4.0/sdedit-4.01.jar')
+description='Tool for generating sequence diagrams very quickly'
+version='4.01' # Guessed version.
+priority='optional'
+homepage='https://sdedit.sourceforge.io'
+depends=(':java')
+
+###### Install ######
+# libexec.install "sdedit-#{version}.jar"
+# bin.write_jar_script libexec/"sdedit-#{version}.jar", "sdedit"

@@ -1,0 +1,16 @@
+# libzip.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libzip.rb
+# Converted on 02-01-2019
+
+name='libzip'
+url=('https://libzip.org/download/libzip-1.5.1.tar.gz')
+description='C library for reading, creating, and modifying zip archives'
+version='1.5.1' # Guessed version.
+priority='optional'
+homepage='https://libzip.org/'
+makedepends=('cmake')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

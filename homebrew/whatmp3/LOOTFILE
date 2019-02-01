@@ -1,0 +1,14 @@
+# whatmp3.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/whatmp3.rb
+# Converted on 02-01-2019
+
+name='whatmp3'
+url=('https://github.com/RecursiveForest/whatmp3/archive/v3.8.tar.gz')
+description='Small script to create mp3 torrents out of FLACs'
+version='3.8' # Guessed version.
+priority='optional'
+homepage='https://github.com/RecursiveForest/whatmp3'
+depends=('flac' 'lame' 'mktorrent' 'python')
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "install"

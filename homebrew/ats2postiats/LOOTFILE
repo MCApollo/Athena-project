@@ -1,0 +1,16 @@
+# ats2-postiats.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ats2-postiats.rb
+# Converted on 02-01-2019
+
+name='ats2postiats'
+url=('https://downloads.sourceforge.net/project/ats2-lang/ats2-lang/ats2-postiats-0.3.11/ATS2-Postiats-0.3.11.tgz')
+description='Programming language with formal specification features'
+version='0.3.11' # Guessed version.
+priority='optional'
+homepage='http://www.ats-lang.org/'
+depends=('gmp')
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "all", "install"

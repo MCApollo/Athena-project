@@ -1,0 +1,20 @@
+# container-diff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/container-diff.rb
+# Converted on 02-01-2019
+
+name='containerdiff'
+url=('https://github.com/GoogleContainerTools/container-diff/archive/v0.14.0.tar.gz')
+description='Diff your Docker containers'
+version='0.14.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/GoogleContainerTools/container-diff'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/GoogleContainerTools").mkpath
+# ln_sf buildpath, buildpath/"src/github.com/GoogleContainerTools/container-diff"
+# cd "src/github.com/GoogleContainerTools/container-diff" do
+# system "make"
+# bin.install "out/container-diff"
+# end

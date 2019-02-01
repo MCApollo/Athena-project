@@ -1,0 +1,21 @@
+# tintin.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tintin.rb
+# Converted on 02-01-2019
+
+name='tintin'
+url=('https://downloads.sourceforge.net/tintin/tintin-2.01.6.tar.gz')
+description='MUD client'
+version='2.01.6' # Guessed version.
+priority='optional'
+homepage='https://tintin.sourceforge.io/'
+depends=('gnutls' 'pcre')
+
+###### Install ######
+# ENV.append "LDFLAGS", "-L#{HOMEBREW_PREFIX}/lib"
+# cd "src" do
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "CFLAGS=#{ENV.cflags}",
+# "INCS=#{ENV.cppflags}",
+# "LDFLAGS=#{ENV.ldflags}",
+# "install"
+# end

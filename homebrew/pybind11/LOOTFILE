@@ -1,0 +1,16 @@
+# pybind11.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pybind11.rb
+# Converted on 02-01-2019
+
+name='pybind11'
+url=('https://github.com/pybind/pybind11/archive/v2.2.4.tar.gz')
+description='Seamless operability between C++11 and Python'
+version='2.2.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/pybind/pybind11'
+depends=('python')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", "-DPYBIND11_TEST=OFF", *std_cmake_args
+# system "make", "install"

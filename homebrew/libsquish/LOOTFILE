@@ -1,0 +1,15 @@
+# libsquish.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsquish.rb
+# Converted on 02-01-2019
+
+name='libsquish'
+url=('https://downloads.sourceforge.net/project/libsquish/libsquish-1.15.tgz')
+description='Library for compressing images with the DXT standard'
+version='1.15' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/libsquish/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

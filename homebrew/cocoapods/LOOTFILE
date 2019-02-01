@@ -1,0 +1,18 @@
+# cocoapods.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cocoapods.rb
+# Converted on 02-01-2019
+
+name='cocoapods'
+url=('https://github.com/CocoaPods/CocoaPods/archive/1.5.3.tar.gz')
+description='Dependency manager for Cocoa projects'
+version='1.5.3' # Guessed version.
+priority='optional'
+homepage='https://cocoapods.org/'
+depends=('ruby')
+
+###### Install ######
+# ENV["GEM_HOME"] = libexec
+# system "gem", "build", "cocoapods.gemspec"
+# system "gem", "install", "cocoapods-#{version}.gem"
+# bin.install libexec/"bin/pod", libexec/"bin/xcodeproj"
+# bin.env_script_all_files(libexec/"bin", :GEM_HOME => ENV["GEM_HOME"])

@@ -1,0 +1,43 @@
+# mapserver.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mapserver.rb
+# Converted on 02-01-2019
+
+name='mapserver'
+url=('https://download.osgeo.org/mapserver/mapserver-7.2.1.tar.gz')
+description='Publish spatial data and interactive mapping apps to the web'
+version='7.2.1' # Guessed version.
+priority='optional'
+homepage='https://mapserver.org/'
+depends=('cairo' 'fcgi' 'freetype' 'gd' 'gdal' 'geos' 'giflib' 'libpng' 'postgresql' 'proj' 'protobuf-c')
+makedepends=('cmake' 'pkg-config' 'swig')
+
+###### Install ######
+# args = std_cmake_args + %w[
+# -DPYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
+# -DWITH_CLIENT_WFS=ON
+# -DWITH_CLIENT_WMS=ON
+# -DWITH_CURL=ON
+# -DWITH_FCGI=ON
+# -DWITH_FRIBIDI=OFF
+# -DWITH_GDAL=ON
+# -DWITH_GEOS=ON
+# -DWITH_HARFBUZZ=OFF
+# -DWITH_KML=ON
+# -DWITH_OGR=ON
+# -DWITH_POSTGIS=ON
+# -DWITH_PROJ=ON
+# -DWITH_PYTHON=ON
+# -DWITH_SOS=ON
+# -DWITH_WFS=ON
+# -WITH_CAIRO=ON
+# ]
+# inreplace "mapscript/python/CMakeLists.txt" do |s|
+# s.gsub! "${PYTHON_SITE_PACKAGES}", lib/"python2.7/site-packages"
+# s.gsub! "${PYTHON_LIBRARIES}", "-Wl,-undefined,dynamic_lookup"
+# end
+# inreplace "mapscript/php/CMakeLists.txt", "${PHP5_EXTENSION_DIR}", lib/"php/extensions"
+# args << "-DCMAKE_SKIP_RPATH=ON"
+# mkdir "build" do
+# system "cmake", "..", *args
+# system "make", "install"
+# end

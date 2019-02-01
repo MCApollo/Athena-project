@@ -1,0 +1,19 @@
+# scalaenv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scalaenv.rb
+# Converted on 02-01-2019
+
+name='scalaenv'
+url=('https://github.com/scalaenv/scalaenv/archive/version/0.1.2.tar.gz')
+description='Command-line tool to manage Scala environments'
+version='0.1.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/scalaenv/scalaenv'
+
+###### Install ######
+# var_lib = HOMEBREW_PREFIX/"var/lib/scalaenv"
+# %w[plugins versions].each do |dir|
+# var_dir = "#{var_lib}/#{dir}"
+# mkdir_p var_dir
+# ln_sf var_dir, "#{prefix}/#{dir}"
+# end
+# (var_lib/"plugins").install_symlink "#{prefix}/default-plugins/scala-install"

@@ -1,0 +1,19 @@
+# naturaldocs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/naturaldocs.rb
+# Converted on 02-01-2019
+
+name='naturaldocs'
+url=('https://downloads.sourceforge.net/project/naturaldocs/Stable%20Releases/2.0.2/Natural_Docs_2.0.2.zip')
+description='Extensible, multi-language documentation generator'
+version='2.0.2' # Guessed version.
+priority='optional'
+homepage='https://www.naturaldocs.org/'
+depends=('mono')
+
+###### Install ######
+# libexec.install Dir["*"]
+# (bin/"naturaldocs").write <<~EOS
+# #!/bin/bash
+# mono #{libexec}/NaturalDocs.exe "$@"
+# EOS
+# libexec.install_symlink etc/"naturaldocs" => "config"

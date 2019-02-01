@@ -1,0 +1,17 @@
+# jenkins-lts.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jenkins-lts.rb
+# Converted on 02-01-2019
+
+name='jenkinslts'
+url=('http://mirrors.jenkins.io/war-stable/2.150.2/jenkins.war')
+description='Extendable open-source CI server'
+version=' '
+priority='optional'
+homepage='https://jenkins.io/index.html#stable'
+depends=(':java')
+
+###### Install ######
+# system "jar", "xvf", "jenkins.war"
+# libexec.install "jenkins.war", "WEB-INF/jenkins-cli.jar"
+# bin.write_jar_script libexec/"jenkins.war", "jenkins-lts", :java_version => "1.8"
+# bin.write_jar_script libexec/"jenkins-cli.jar", "jenkins-lts-cli", :java_version => "1.8"

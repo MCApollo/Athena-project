@@ -1,0 +1,38 @@
+# open-scene-graph.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/open-scene-graph.rb
+# Converted on 02-01-2019
+
+name='openscenegraph'
+url=('https://github.com/openscenegraph/OpenSceneGraph/archive/OpenSceneGraph-3.6.3.tar.gz')
+description='3D graphics toolkit'
+version='3.6.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/openscenegraph/OpenSceneGraph'
+depends=('freetype' 'gtkglext' 'jpeg' 'sdl')
+makedepends=('cmake' 'doxygen' 'graphviz' 'pkg-config')
+
+# A diff file was written to openscenegraph.diff
+# --> Patch the file before building.
+
+###### Install ######
+# if MacOS.version == :sierra || MacOS.version == :el_capitan
+# ENV["SDKROOT"] = MacOS.sdk_path
+# end
+# args = std_cmake_args + %w[
+# -DBUILD_DOCUMENTATION=ON
+# -DCMAKE_DISABLE_FIND_PACKAGE_FFmpeg=ON
+# -DCMAKE_DISABLE_FIND_PACKAGE_GDAL=ON
+# -DCMAKE_DISABLE_FIND_PACKAGE_TIFF=ON
+# -DCMAKE_DISABLE_FIND_PACKAGE_cairo=ON
+# -DCMAKE_CXX_FLAGS=-Wno-error=narrowing
+# -DCMAKE_OSX_ARCHITECTURES=x86_64
+# -DOSG_DEFAULT_IMAGE_PLUGIN_FOR_OSX=imageio
+# -DOSG_WINDOWING_SYSTEM=Cocoa
+# ]
+# mkdir "build" do
+# system "cmake", "..", *args
+# system "make"
+# system "make", "doc_openscenegraph"
+# system "make", "install"
+# doc.install Dir["#{prefix}/doc/OpenSceneGraphReferenceDocs/*"]
+# end

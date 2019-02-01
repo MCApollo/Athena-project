@@ -1,0 +1,22 @@
+# make.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/make.rb
+# Converted on 02-01-2019
+
+name='make'
+url=('https://ftp.gnu.org/gnu/make/make-4.2.1.tar.bz2')
+description='Utility for directing compilation'
+version='4.2.1' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/make/'
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --program-prefix=g
+# ]
+# system "./configure", *args
+# system "make", "install"
+# (libexec/"gnubin").install_symlink bin/"gmake" =>"make"
+# (libexec/"gnuman/man1").install_symlink man1/"gmake.1" => "make.1"
+# libexec.install_symlink "gnuman" => "man"

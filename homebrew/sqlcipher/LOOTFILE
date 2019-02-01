@@ -1,0 +1,24 @@
+# sqlcipher.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sqlcipher.rb
+# Converted on 02-01-2019
+
+name='sqlcipher'
+url=('https://github.com/sqlcipher/sqlcipher/archive/v4.0.1.tar.gz')
+description='SQLite extension providing 256-bit AES encryption'
+version='4.0.1' # Guessed version.
+priority='optional'
+homepage='https://www.zetetic.net/sqlcipher/'
+depends=('openssl')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --enable-tempstore=yes
+# --with-crypto-lib=#{Formula["openssl"].opt_prefix}
+# --enable-load-extension
+# --disable-tcl
+# ]
+# args << "CFLAGS=-DSQLITE_HAS_CODEC -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_FTS5"
+# system "./configure", *args
+# system "make"
+# system "make", "install"

@@ -1,0 +1,20 @@
+# gnu-time.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-time.rb
+# Converted on 02-01-2019
+
+name='gnutime'
+url=('https://ftp.gnu.org/gnu/time/time-1.9.tar.gz')
+description='GNU implementation of time utility'
+version='1.9' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/time/'
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --info=#{info}
+# --program-prefix=g
+# ]
+# system "./configure", *args
+# system "make", "install"
+# (libexec/"gnubin").install_symlink bin/"gtime" => "time"

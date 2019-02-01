@@ -1,0 +1,17 @@
+# libsmf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsmf.rb
+# Converted on 02-01-2019
+
+name='libsmf'
+url=('https://downloads.sourceforge.net/project/libsmf/libsmf/1.3/libsmf-1.3.tar.gz')
+description='C library for handling SMF ('\''*.mid'\'') files'
+version='1.3' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/libsmf/'
+depends=('glib')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,14 @@
+# align.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/align.rb
+# Converted on 02-01-2019
+
+name='align'
+url=('https://www.cs.indiana.edu/~kinzler/align/align-1.7.5.tgz')
+description='Text column alignment filter'
+version='1.7.5' # Guessed version.
+priority='optional'
+homepage='https://www.cs.indiana.edu/~kinzler/align/'
+makedepends=('')
+
+###### Install ######
+# system "make", "install", "BINDIR=#{bin}"

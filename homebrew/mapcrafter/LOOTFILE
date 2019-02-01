@@ -1,0 +1,20 @@
+# mapcrafter.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mapcrafter.rb
+# Converted on 02-01-2019
+
+name='mapcrafter'
+url=('https://github.com/mapcrafter/mapcrafter/archive/v.2.4.tar.gz')
+description='Minecraft map renderer'
+version='2.4' # Guessed version.
+priority='optional'
+homepage='https://mapcrafter.org'
+depends=('boost' 'jpeg-turbo' 'libpng')
+makedepends=('cmake')
+
+###### Install ######
+# ENV.cxx11
+# args = std_cmake_args
+# args << "-DJPEG_INCLUDE_DIR=#{Formula["jpeg-turbo"].opt_include}"
+# args << "-DJPEG_LIBRARY=#{Formula["jpeg-turbo"].opt_lib}/libjpeg.dylib"
+# system "cmake", ".", *args
+# system "make", "install"

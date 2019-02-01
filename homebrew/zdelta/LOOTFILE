@@ -1,0 +1,15 @@
+# zdelta.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zdelta.rb
+# Converted on 02-01-2019
+
+name='zdelta'
+url=('https://web.archive.org/web/20150804051752/cis.poly.edu/zdelta/downloads/zdelta-2.1.tar.gz')
+description='Lossless delta compression library'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://web.archive.org/web/20150804051750/cis.poly.edu/zdelta/'
+
+###### Install ######
+# system "make", "test", "CC=#{ENV.cc}", "CFLAGS=#{ENV.cflags}"
+# system "make", "install", "prefix=#{prefix}"
+# bin.install "zdc", "zdu"

@@ -1,0 +1,18 @@
+# jvm-mon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jvm-mon.rb
+# Converted on 02-01-2019
+
+name='jvmmon'
+url=('https://github.com/ajermakovics/jvm-mon/releases/download/0.3/jvm-mon-0.3.tar.gz')
+description='Console-based JVM monitoring'
+version='0.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/ajermakovics/jvm-mon'
+depends=(':java')
+
+###### Install ######
+# rm_f Dir["bin/*.bat"]
+# libexec.install Dir["*"]
+# (bin/"jvm-mon").write_env_script "#{libexec}/bin/jvm-mon",
+# Language::Java.java_home_env("1.8")
+# system "unzip", "-j", libexec/"lib/j2v8_macosx_x86_64-4.6.0.jar", "libj2v8_macosx_x86_64.dylib", "-d", libexec

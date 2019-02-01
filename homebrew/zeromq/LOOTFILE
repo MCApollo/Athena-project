@@ -1,0 +1,23 @@
+# zeromq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zeromq.rb
+# Converted on 02-01-2019
+
+name='zeromq'
+url=('https://github.com/zeromq/libzmq/releases/download/v4.3.1/zeromq-4.3.1.tar.gz')
+description='High-performance, asynchronous messaging library'
+version='4.3.1' # Guessed version.
+priority='optional'
+homepage='http://www.zeromq.org/'
+depends=('pkg-config')
+makedepends=('asciidoc' 'xmlto')
+
+###### Install ######
+# if MacOS.version == :high_sierra
+# ENV.delete("HOMEBREW_SDKROOT")
+# ENV.delete("SDKROOT")
+# end
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

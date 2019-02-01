@@ -1,0 +1,15 @@
+# mpck.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpck.rb
+# Converted on 02-01-2019
+
+name='mpck'
+url=('http://checkmate.gissen.nl/checkmate-0.19.tar.gz')
+description='Check MP3 files for errors'
+version='0.19' # Guessed version.
+priority='optional'
+homepage='http://checkmate.gissen.nl/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

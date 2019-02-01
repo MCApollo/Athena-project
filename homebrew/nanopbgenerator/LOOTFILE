@@ -1,0 +1,21 @@
+# nanopb-generator.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nanopb-generator.rb
+# Converted on 02-01-2019
+
+name='nanopbgenerator'
+url=('https://jpa.kapsi.fi/nanopb/download/nanopb-0.3.9.1.tar.gz')
+description='C library for encoding and decoding Protocol Buffer messages'
+version='0.3.9.1' # Guessed version.
+priority='optional'
+homepage='https://jpa.kapsi.fi/nanopb/docs/index.html'
+depends=('protobuf' 'python@2')
+makedepends=('')
+
+###### Install ######
+# cd "generator" do
+# system "make", "-C", "proto"
+# inreplace "nanopb_generator.py", %r{^#!/usr/bin/env python$},
+# "#!/usr/bin/python"
+# libexec.install "nanopb_generator.py", "protoc-gen-nanopb", "proto"
+# bin.install_symlink libexec/"protoc-gen-nanopb", libexec/"nanopb_generator.py"
+# end

@@ -1,0 +1,28 @@
+# telegram-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/telegram-cli.rb
+# Converted on 02-01-2019
+
+name='telegramcli'
+url=('https://github.com/vysheng/tg.git')
+description='Command-line interface for Telegram'
+version=' '
+priority='optional'
+homepage='https://github.com/vysheng/tg'
+depends=('jansson' 'libconfig' 'libevent' 'openssl' 'readline')
+makedepends=('pkg-config')
+# Patches
+url+=('https://github.com/vysheng/tg/pull/1306.patch?full_index=1')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# CFLAGS=-I#{Formula["readline"].include}
+# CPPFLAGS=-I#{Formula["readline"].include}
+# LDFLAGS=-L#{Formula["readline"].lib}
+# --disable-liblua
+# --disable-python
+# ]
+# system "./configure", *args
+# system "make"
+# bin.install "bin/telegram-cli" => "telegram"
+# (etc/"telegram-cli").install "server.pub"

@@ -1,0 +1,14 @@
+# gperf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gperf.rb
+# Converted on 02-01-2019
+
+name='gperf'
+url=('https://ftp.gnu.org/gnu/gperf/gperf-3.1.tar.gz')
+description='Perfect hash function generator'
+version='3.1' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/gperf'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,16 @@
+# ftjam.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ftjam.rb
+# Converted on 02-01-2019
+
+name='ftjam'
+url=('https://downloads.sourceforge.net/project/freetype/ftjam/2.5.2/ftjam-2.5.2.tar.bz2')
+description='Build tool that can be used as a replacement for Make'
+version='2.5.2' # Guessed version.
+priority='optional'
+homepage='https://www.freetype.org/jam/'
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

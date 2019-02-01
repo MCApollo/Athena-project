@@ -1,0 +1,24 @@
+# pdal.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdal.rb
+# Converted on 02-01-2019
+
+name='pdal'
+url=('https://github.com/PDAL/PDAL/archive/1.8.0.tar.gz')
+description='Point data abstraction library'
+version='1.8.0' # Guessed version.
+priority='optional'
+homepage='https://www.pdal.io/'
+depends=('gdal' 'hdf5' 'laszip' 'numpy' 'pcl' 'postgresql')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args,
+# "-DWITH_LASZIP=TRUE",
+# "-DBUILD_PLUGIN_GREYHOUND=ON",
+# "-DBUILD_PLUGIN_ICEBRIDGE=ON",
+# "-DBUILD_PLUGIN_PCL=ON",
+# "-DBUILD_PLUGIN_PGPOINTCLOUD=ON",
+# "-DBUILD_PLUGIN_PYTHON=ON",
+# "-DBUILD_PLUGIN_SQLITE=ON"
+# system "make", "install"
+# doc.install "examples", "test"

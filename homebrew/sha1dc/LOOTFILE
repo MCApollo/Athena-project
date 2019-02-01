@@ -1,0 +1,15 @@
+# sha1dc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sha1dc.rb
+# Converted on 02-01-2019
+
+name='sha1dc'
+url=('https://github.com/cr-marcstevens/sha1collisiondetection/archive/stable-v1.0.3.tar.gz')
+description='Tool to detect SHA-1 collisions in files, including SHAttered'
+version='1.0.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/cr-marcstevens/sha1collisiondetection'
+makedepends=('coreutils' 'libtool')
+
+###### Install ######
+# system "make", "INSTALL=ginstall", "PREFIX=#{prefix}", "install"
+# (pkgshare/"test").install Dir["test/*"]

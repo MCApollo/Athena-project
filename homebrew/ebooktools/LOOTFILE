@@ -1,0 +1,18 @@
+# ebook-tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ebook-tools.rb
+# Converted on 02-01-2019
+
+name='ebooktools'
+url=('https://downloads.sourceforge.net/project/ebook-tools/ebook-tools/0.2.2/ebook-tools-0.2.2.tar.gz')
+description='Access and convert several ebook formats'
+version='0.2.2' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/ebook-tools/'
+depends=('libzip')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".",
+# "-DLIBZIP_INCLUDE_DIR=#{Formula["libzip"].lib}/libzip/include",
+# *std_cmake_args
+# system "make", "install"

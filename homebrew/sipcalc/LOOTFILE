@@ -1,0 +1,16 @@
+# sipcalc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sipcalc.rb
+# Converted on 02-01-2019
+
+name='sipcalc'
+url=('http://www.routemeister.net/projects/sipcalc/files/sipcalc-1.1.6.tar.gz')
+description='Advanced console-based IP subnet calculator'
+version='1.1.6' # Guessed version.
+priority='optional'
+homepage='http://www.routemeister.net/projects/sipcalc/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

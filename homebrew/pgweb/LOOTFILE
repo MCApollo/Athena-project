@@ -1,0 +1,21 @@
+# pgweb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pgweb.rb
+# Converted on 02-01-2019
+
+name='pgweb'
+url=('https://github.com/sosedoff/pgweb/archive/v0.11.0.tar.gz')
+description='Web-based PostgreSQL database browser'
+version='0.11.0' # Guessed version.
+priority='optional'
+homepage='https://sosedoff.github.io/pgweb/'
+makedepends=('go' 'go-bindata')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/sosedoff/pgweb").install buildpath.children
+# cd "src/github.com/sosedoff/pgweb" do
+# inreplace "Makefile", "go get", ""
+# system "make", "build"
+# bin.install "pgweb"
+# prefix.install_metafiles
+# end

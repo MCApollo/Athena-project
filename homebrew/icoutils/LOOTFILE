@@ -1,0 +1,17 @@
+# icoutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/icoutils.rb
+# Converted on 02-01-2019
+
+name='icoutils'
+url=('https://savannah.nongnu.org/download/icoutils/icoutils-0.32.3.tar.bz2')
+description='Create and extract MS Windows icons and cursors'
+version='0.32.3' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/icoutils/'
+depends=('libpng')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-rpath",
+# "--prefix=#{prefix}"
+# system "make", "install"

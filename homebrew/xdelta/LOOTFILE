@@ -1,0 +1,21 @@
+# xdelta.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xdelta.rb
+# Converted on 02-01-2019
+
+name='xdelta'
+url=('https://github.com/jmacd/xdelta/archive/v3.1.0.tar.gz')
+description='Binary diff, differential compression tools'
+version='3.1.0' # Guessed version.
+priority='optional'
+homepage='http://xdelta.org'
+depends=('xz')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# cd "xdelta3" do
+# system "autoreconf", "--install"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-liblzma"
+# system "make", "install"
+# end

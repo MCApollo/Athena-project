@@ -1,0 +1,21 @@
+# blast.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/blast.rb
+# Converted on 02-01-2019
+
+name='blast'
+url=('https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.8.1/ncbi-blast-2.8.1+-src.tar.gz')
+description='Basic Local Alignment Search Tool'
+version='2.8.1' # Guessed version.
+priority='optional'
+homepage='https://blast.ncbi.nlm.nih.gov/'
+depends=('lmdb')
+makedepends=('')
+
+###### Install ######
+# cd "c++" do
+# system "./configure", "--prefix=#{prefix}",
+# "--without-debug",
+# "--without-boost"
+# system "make"
+# system "make", "install"
+# end

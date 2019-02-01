@@ -1,0 +1,17 @@
+# gssdp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gssdp.rb
+# Converted on 02-01-2019
+
+name='gssdp'
+url=('https://download.gnome.org/sources/gssdp/1.0/gssdp-1.0.3.tar.xz')
+description='GUPnP library for resource discovery and announcement over SSDP'
+version='1.0.3' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/GUPnP/'
+depends=('gettext' 'glib' 'libsoup')
+makedepends=('intltool' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

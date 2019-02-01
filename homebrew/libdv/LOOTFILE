@@ -1,0 +1,21 @@
+# libdv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdv.rb
+# Converted on 02-01-2019
+
+name='libdv'
+url=('https://downloads.sourceforge.net/libdv/libdv-1.0.0.tar.gz')
+description='Codec for DV video encoding format'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://libdv.sourceforge.io'
+depends=('popt')
+
+###### Install ######
+# ENV.append "LDFLAGS", "-undefined dynamic_lookup"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--disable-gtktest",
+# "--disable-gtk",
+# "--disable-asm",
+# "--disable-sdltest"
+# system "make", "install"

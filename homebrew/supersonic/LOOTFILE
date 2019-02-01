@@ -1,0 +1,22 @@
+# supersonic.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/supersonic.rb
+# Converted on 02-01-2019
+
+name='supersonic'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/supersonic/supersonic-0.9.4.tar.gz')
+description='C++ library providing a column oriented query engine'
+version='0.9.4' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/supersonic/'
+depends=('boost' 'gflags' 'glog' 'protobuf')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# ENV["GFLAGS_CFLAGS"] = "-I#{Formula["gflags"].opt_include}"
+# ENV["GFLAGS_LIBS"] = "-L#{Formula["gflags"].opt_lib} -lgflags"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--without-re2"
+# system "make", "clean"
+# system "make", "install"

@@ -1,0 +1,23 @@
+# cmigemo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cmigemo.rb
+# Converted on 02-01-2019
+
+name='cmigemo'
+url=('')
+description='Migemo is a tool that supports Japanese incremental search with Romaji'
+version=' '
+priority='optional'
+homepage='https://www.kaoriya.net/software/cmigemo'
+makedepends=('nkf')
+
+# A diff file was written to cmigemo.diff
+# --> Patch the file before building.
+
+###### Install ######
+# chmod 0755, "./configure"
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "osx"
+# system "make", "osx-dict"
+# system "make", "-C", "dict", "utf-8" if build.stable?
+# ENV.deparallelize
+# system "make", "osx-install"

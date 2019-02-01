@@ -1,0 +1,22 @@
+# chocolate-doom.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/chocolate-doom.rb
+# Converted on 02-01-2019
+
+name='chocolatedoom'
+url=('https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.tar.gz')
+description='Accurate source port of Doom'
+version='3.0.0' # Guessed version.
+priority='optional'
+homepage='https://www.chocolate-doom.org/'
+depends=('libpng' 'libsamplerate' 'sdl2' 'sdl2_mixer' 'sdl2_net')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--disable-sdltest"
+# system "make", "install", "execgamesdir=#{bin}"
+# (share/"applications").rmtree
+# (share/"icons").rmtree

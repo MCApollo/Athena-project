@@ -1,0 +1,14 @@
+# pacapt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pacapt.rb
+# Converted on 02-01-2019
+
+name='pacapt'
+url=('https://github.com/icy/pacapt/archive/v2.4.0.tar.gz')
+description='Package manager in the style of Arch'\''s pacman'
+version='2.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/icy/pacapt'
+
+###### Install ######
+# bin.mkpath
+# system "make", "install", "BINDIR=#{bin}", "VERSION=#{version}"

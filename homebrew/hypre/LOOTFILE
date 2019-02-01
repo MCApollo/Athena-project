@@ -1,0 +1,27 @@
+# hypre.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hypre.rb
+# Converted on 02-01-2019
+
+name='hypre'
+url=('https://computation.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods/download/hypre-2.11.2.tar.gz')
+description='Library featuring parallel multigrid methods for grid problems'
+version='2.11.2' # Guessed version.
+priority='optional'
+homepage='https://computation.llnl.gov/casc/hypre/software.html'
+depends=('gcc' 'open-mpi' 'veclibfort')
+
+###### Install ######
+# cd "src" do
+# ENV["CC"] = ENV["MPICC"]
+# ENV["CXX"] = ENV["MPICXX"]
+# system "./configure", "--prefix=#{prefix}",
+# "--with-blas=yes",
+# "--with-blas-libs=blas cblas",
+# "--with-blas-lib-dirs=/usr/lib",
+# "--with-lapack=yes",
+# "--with-lapack-libs=lapack clapack f77lapack",
+# "--with-lapack-lib-dirs=/usr/lib",
+# "--with-MPI",
+# "--enable-bigint"
+# system "make", "install"
+# end

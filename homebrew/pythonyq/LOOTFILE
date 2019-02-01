@@ -1,0 +1,34 @@
+# python-yq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/python-yq.rb
+# Converted on 02-01-2019
+
+name='pythonyq'
+url=('https://files.pythonhosted.org/packages/0c/23/aa30f88c916128aa60de9d4f53dd40c8f6c31cb7ebb808aab1b0501a701f/yq-2.7.2.tar.gz')
+description='Command-line YAML and XML processor that wraps jq'
+version='2.7.2' # Guessed version.
+priority='optional'
+homepage='https://yq.readthedocs.io/'
+depends=('jq' 'python')
+makedepends=('')
+
+###### Resource ######
+# PyYAML: https://files.pythonhosted.org/packages/9e/a3/1d13970c3f36777c583f136c136f804d70f500168edc1edea6daa7200769/PyYAML-3.13.tar.gz
+# xmltodict: https://files.pythonhosted.org/packages/57/17/a6acddc5f5993ea6eaf792b2e6c3be55e3e11f3b85206c818572585f61e1/xmltodict-0.11.0.tar.gz
+
+###### Install ######
+# xy = Language::Python.major_minor_version "python3"
+# ENV["PYTHONPATH"] = libexec/"lib/python#{xy}/site-packages"
+# ENV.prepend_create_path "PYTHONPATH", libexec/"vendor/lib/python#{xy}/site-packages"
+# resources.each do |r|
+# r.stage do
+# system "python3", *Language::Python.setup_install_args(libexec/"vendor")
+# end
+# end
+# ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python#{xy}/site-packages"
+# system "python3", *Language::Python.setup_install_args(libexec)
+# bin.install Dir[libexec/"bin/*"]
+# env = {
+# :PATH       => "#{Formula["jq"].opt_bin}:$PATH",
+# :PYTHONPATH => ENV["PYTHONPATH"],
+# }
+# bin.env_script_all_files(libexec/"bin", env)

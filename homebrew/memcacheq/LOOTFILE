@@ -1,0 +1,19 @@
+# memcacheq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/memcacheq.rb
+# Converted on 02-01-2019
+
+name='memcacheq'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/memcacheq/memcacheq-0.2.0.tar.gz')
+description='Queue service for memcache'
+version='0.2.0' # Guessed version.
+priority='optional'
+homepage='https://memcachedb.org/memcacheq/'
+depends=('berkeley-db' 'libevent')
+
+###### Install ######
+# ENV.append "CFLAGS", "-std=gnu89"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-threads"
+# system "make", "install"

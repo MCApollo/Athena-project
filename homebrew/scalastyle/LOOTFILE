@@ -1,0 +1,17 @@
+# scalastyle.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scalastyle.rb
+# Converted on 02-01-2019
+
+name='scalastyle'
+url=('https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.12/1.0.0/scalastyle_2.12-1.0.0-batch.jar')
+description='Run scalastyle from the command-line'
+version='2.12' # Guessed version.
+priority='optional'
+homepage='http://www.scalastyle.org/command-line.html'
+
+###### Resource ######
+# default_config: https://raw.githubusercontent.com/scalastyle/scalastyle/v1.0.0/lib/scalastyle_config.xml
+
+###### Install ######
+# libexec.install "scalastyle_2.12-#{version}-batch.jar"
+# bin.write_jar_script("#{libexec}/scalastyle_2.12-#{version}-batch.jar", "scalastyle")

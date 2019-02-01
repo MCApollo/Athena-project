@@ -1,0 +1,14 @@
+# bzr-rewrite.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bzr-rewrite.rb
+# Converted on 02-01-2019
+
+name='bzrrewrite'
+url=('https://launchpad.net/bzr-rewrite/trunk/0.6.3/+download/bzr-rewrite-0.6.3.tar.gz')
+description='Bazaar plugin to support rewriting revisions and rebasing'
+version='0.6.3' # Guessed version.
+priority='optional'
+homepage='https://launchpad.net/bzr-rewrite'
+depends=('bazaar')
+
+###### Install ######
+# (share/"bazaar/plugins/rewrite").install Dir["*"]

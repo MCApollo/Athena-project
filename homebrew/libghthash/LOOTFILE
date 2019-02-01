@@ -1,0 +1,17 @@
+# libghthash.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libghthash.rb
+# Converted on 02-01-2019
+
+name='libghthash'
+url=('https://web.archive.org/web/20170824230514/www.bth.se/people/ska/sim_home/filer/libghthash-0.6.2.tar.gz')
+description='Generic hash table for C++'
+version='0.6.2' # Guessed version.
+priority='optional'
+homepage='https://web.archive.org/web/20170824230514/www.bth.se/people/ska/sim_home/libghthash.html'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "autoreconf", "-ivf"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

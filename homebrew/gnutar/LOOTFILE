@@ -1,0 +1,24 @@
+# gnu-tar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-tar.rb
+# Converted on 02-01-2019
+
+name='gnutar'
+url=('https://ftp.gnu.org/gnu/tar/tar-1.31.tar.gz')
+description='GNU version of the tar archiving utility'
+version='1.31' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/tar/'
+
+###### Install ######
+# ENV["gl_cv_func_getcwd_abort_bug"] = "no" if MacOS.version == :el_capitan
+# args = %W[
+# --prefix=#{prefix}
+# --mandir=#{man}
+# --program-prefix=g
+# ]
+# system "./bootstrap" if build.head?
+# system "./configure", *args
+# system "make", "install"
+# (libexec/"gnubin").install_symlink bin/"gtar" =>"tar"
+# (libexec/"gnuman/man1").install_symlink man1/"gtar.1" => "tar.1"
+# libexec.install_symlink "gnuman" => "man"

@@ -1,0 +1,14 @@
+# ttf2eot.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ttf2eot.rb
+# Converted on 02-01-2019
+
+name='ttf2eot'
+url=('https://github.com/wget/ttf2eot/archive/v0.0.3.tar.gz')
+description='Convert TTF files to EOT'
+version='0.0.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/wget/ttf2eot'
+
+###### Install ######
+# system "make"
+# bin.install "ttf2eot"

@@ -1,0 +1,18 @@
+# mscgen.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mscgen.rb
+# Converted on 02-01-2019
+
+name='mscgen'
+url=('http://www.mcternan.me.uk/mscgen/software/mscgen-src-0.20.tar.gz')
+description='Parses Message Sequence Chart descriptions and produces images'
+version='0.20' # Guessed version.
+priority='optional'
+homepage='http://www.mcternan.me.uk/mscgen/'
+depends=('freetype' 'gd')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--with-freetype",
+# "--disable-dependency-tracking"
+# system "make", "install"

@@ -1,0 +1,30 @@
+# gnuplot.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnuplot.rb
+# Converted on 02-01-2019
+
+name='gnuplot'
+url=('https://downloads.sourceforge.net/project/gnuplot/gnuplot/5.2.6/gnuplot-5.2.6.tar.gz')
+description='Command-driven, interactive function plotting'
+version='5.2.6' # Guessed version.
+priority='optional'
+homepage='http://www.gnuplot.info/'
+depends=('gd' 'libcerf' 'lua' 'pango' 'qt' 'readline')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# args = %W[
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --with-readline=#{Formula["readline"].opt_prefix}
+# --without-tutorial
+# --disable-wxwidgets
+# --with-qt
+# --without-x
+# ]
+# system "./prepare" if build.head?
+# system "./configure", *args
+# ENV.deparallelize
+# system "make"
+# system "make", "install"

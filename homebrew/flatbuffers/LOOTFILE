@@ -1,0 +1,15 @@
+# flatbuffers.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/flatbuffers.rb
+# Converted on 02-01-2019
+
+name='flatbuffers'
+url=('https://github.com/google/flatbuffers/archive/v1.10.0.tar.gz')
+description='Serialization library for C++, supporting Java, C#, and Go'
+version='1.10.0' # Guessed version.
+priority='optional'
+homepage='https://google.github.io/flatbuffers'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", "-G", "Unix Makefiles", *std_cmake_args
+# system "make", "install"

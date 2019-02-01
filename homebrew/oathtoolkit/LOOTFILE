@@ -1,0 +1,17 @@
+# oath-toolkit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/oath-toolkit.rb
+# Converted on 02-01-2019
+
+name='oathtoolkit'
+url=('https://download.savannah.gnu.org/releases/oath-toolkit/oath-toolkit-2.6.2.tar.gz')
+description='Tools for one-time password authentication systems'
+version='2.6.2' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/oath-toolkit/'
+depends=('libxmlsec1')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

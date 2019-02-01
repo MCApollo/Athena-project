@@ -1,0 +1,18 @@
+# yarn.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yarn.rb
+# Converted on 02-01-2019
+
+name='yarn'
+url=('https://yarnpkg.com/downloads/1.13.0/yarn-v1.13.0.tar.gz')
+description='JavaScript package manager'
+version='1.13.0' # Guessed version.
+priority='optional'
+homepage='https://yarnpkg.com/'
+depends=('node')
+makedepends=('')
+
+###### Install ######
+# libexec.install Dir["*"]
+# (bin/"yarn").write_env_script "#{libexec}/bin/yarn.js", :PREFIX => HOMEBREW_PREFIX, :NPM_CONFIG_PYTHON => "/usr/bin/python"
+# (bin/"yarnpkg").write_env_script "#{libexec}/bin/yarn.js", :PREFIX => HOMEBREW_PREFIX, :NPM_CONFIG_PYTHON => "/usr/bin/python"
+# inreplace "#{libexec}/package.json", '"installationMethod": "tar"', '"installationMethod": "homebrew"'

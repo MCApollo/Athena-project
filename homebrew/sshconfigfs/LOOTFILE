@@ -1,0 +1,23 @@
+# sshconfigfs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sshconfigfs.rb
+# Converted on 02-01-2019
+
+name='sshconfigfs'
+url=('https://github.com/markhellewell/sshconfigfs/archive/0.3.tar.gz')
+description='FUSE filesystem to dynamically build SSH config'
+version='0.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/markhellewell/sshconfigfs'
+depends=(':osxfuse' 'python')
+
+###### Resource ######
+# fusepy: https://github.com/terencehonles/fusepy/archive/v2.0.2.tar.gz
+
+###### Install ######
+# xy = Language::Python.major_minor_version "python3"
+# ENV.prepend_create_path "PYTHONPATH", libexec/"vendor/lib/python#{xy}/site-packages"
+# resource("fusepy").stage do
+# system "python3", *Language::Python.setup_install_args(libexec/"vendor")
+# end
+# bin.install "sshconfigfs.py" => "sshconfigfs"
+# bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])

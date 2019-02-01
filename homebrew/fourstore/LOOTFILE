@@ -1,0 +1,21 @@
+# fourstore.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fourstore.rb
+# Converted on 02-01-2019
+
+name='fourstore'
+url=('https://github.com/4store/4store/archive/v1.1.6.tar.gz')
+description='Efficient, stable RDF database'
+version='1.1.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/4store/4store'
+depends=('gettext' 'glib' 'pcre' 'raptor' 'rasqal')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# (buildpath/".version").write("v1.1.6")
+# system "./autogen.sh"
+# (var/"fourstore").mkpath
+# system "./configure", "--prefix=#{prefix}",
+# "--with-storage-path=#{var}/fourstore",
+# "--sysconfdir=#{etc}/fourstore"
+# system "make", "install"

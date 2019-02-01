@@ -1,0 +1,23 @@
+# jack.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jack.rb
+# Converted on 02-01-2019
+
+name='jack'
+url=('http://jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz')
+description='Audio Connection Kit'
+version='0.125.0' # Guessed version.
+priority='optional'
+homepage='http://jackaudio.org'
+depends=('berkeley-db' 'libsamplerate' 'libsndfile')
+makedepends=('pkg-config')
+
+###### Install ######
+# sdk = MacOS.sdk_path_if_needed ? MacOS.sdk_path : ""
+# inreplace Dir["drivers/coreaudio/Makefile.{am,in}"],
+# "/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h",
+# "#{sdk}/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h"
+# inreplace "configure", "-mmacosx-version-min=10.4",
+# "-mmacosx-version-min=#{MacOS.version}"
+# ENV["LINKFLAGS"] = ENV.ldflags
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,21 @@
+# anttweakbar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/anttweakbar.rb
+# Converted on 02-01-2019
+
+name='anttweakbar'
+url=('https://downloads.sourceforge.net/project/anttweakbar/AntTweakBar_116.zip')
+description='C/C++ library for adding GUIs to OpenGL apps'
+version=' '
+priority='optional'
+homepage='https://anttweakbar.sourceforge.io/'
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/62e79481/anttweakbar/anttweakbar.diff')
+
+###### Install ######
+# if DevelopmentTools.clang_build_version >= 900 ||
+# (MacOS.version == :el_capitan && MacOS::Xcode.version >= "8.0")
+# ENV.delete("SDKROOT")
+# end
+# system "make", "-C", "src", "-f", "Makefile.osx"
+# lib.install "lib/libAntTweakBar.dylib", "lib/libAntTweakBar.a"
+# include.install "include/AntTweakBar.h"

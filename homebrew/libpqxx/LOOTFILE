@@ -1,0 +1,16 @@
+# libpqxx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpqxx.rb
+# Converted on 02-01-2019
+
+name='libpqxx'
+url=('https://github.com/jtv/libpqxx/archive/6.2.5.tar.gz')
+description='C++ connector for PostgreSQL'
+version='6.2.5' # Guessed version.
+priority='optional'
+homepage='http://pqxx.org/development/libpqxx/'
+depends=('postgresql')
+makedepends=('pkg-config' 'xmlto')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--enable-shared"
+# system "make", "install"

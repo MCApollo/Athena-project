@@ -1,0 +1,14 @@
+# mighttpd2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mighttpd2.rb
+# Converted on 02-01-2019
+
+name='mighttpd2'
+url=('https://hackage.haskell.org/package/mighttpd2-3.4.3/mighttpd2-3.4.3.tar.gz')
+description='HTTP server'
+version='3.4.3' # Guessed version.
+priority='optional'
+homepage='https://www.mew.org/~kazu/proj/mighttpd/en/'
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# install_cabal_package

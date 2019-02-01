@@ -1,0 +1,21 @@
+# r3.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/r3.rb
+# Converted on 02-01-2019
+
+name='r3'
+url=('https://github.com/c9s/r3/archive/1.3.4.tar.gz')
+description='High-performance URL router library'
+version='1.3.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/c9s/r3'
+depends=('jemalloc' 'pcre')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# system "./autogen.sh"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--with-malloc=jemalloc"
+# system "make", "install"

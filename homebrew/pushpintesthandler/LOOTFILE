@@ -1,0 +1,22 @@
+# pushpin.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pushpin.rb
+# Converted on 02-01-2019
+
+name='pushpintesthandler'
+url=('https://dl.bintray.com/fanout/source/pushpin-1.19.1.tar.bz2')
+description='Reverse proxy for realtime web services'
+version='1.19.1' # Guessed version.
+priority='optional'
+homepage='https://pushpin.org/'
+depends=('mongrel2' 'qt' 'zeromq' 'zurl')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--configdir=#{etc}",
+# "--rundir=#{var}/run",
+# "--logdir=#{var}/log",
+# "--extraconf=QMAKE_MACOSX_DEPLOYMENT_TARGET=#{MacOS.version}"
+# system "make"
+# system "make", "check"
+# system "make", "install"

@@ -1,0 +1,26 @@
+# netdata.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/netdata.rb
+# Converted on 02-01-2019
+
+name='netdata'
+url=('https://github.com/netdata/netdata/releases/download/v1.11.1/netdata-v1.11.1.tar.gz')
+description='Distributed real-time performance and health monitoring'
+version='1.11.1' # Guessed version.
+priority='optional'
+homepage='https://my-netdata.io/'
+depends=('ossp-uuid')
+makedepends=('autoconf' 'automake' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}",
+# "--localstatedir=#{var}"
+# system "make", "install"
+# (etc/"netdata").install "system/netdata.conf"
+# config = etc/"netdata/netdata.conf"
+# inreplace config do |s|
+# s.gsub!(/web files owner = .*/, "web files owner = #{ENV["USER"]}")
+# s.gsub!(/web files group = .*/, "web files group = #{Etc.getgrgid(prefix.stat.gid).name}")
+# end

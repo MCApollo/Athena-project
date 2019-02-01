@@ -1,0 +1,15 @@
+# daemonlogger.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/daemonlogger.rb
+# Converted on 02-01-2019
+
+name='daemonlogger'
+url=('https://downloads.sourceforge.net/project/daemonlogger/daemonlogger-1.2.1.tar.gz')
+description='Network packet logger and soft tap daemon'
+version='1.2.1' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/daemonlogger/'
+depends=('libdnet')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

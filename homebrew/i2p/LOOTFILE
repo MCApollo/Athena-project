@@ -1,0 +1,19 @@
+# i2p.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/i2p.rb
+# Converted on 02-01-2019
+
+name='i2p'
+url=('https://download.i2p2.de/releases/0.9.37/i2pinstall_0.9.37.jar')
+description='Anonymous overlay network - a network within a network'
+version='0.9.37' # Guessed version.
+priority='optional'
+homepage='https://geti2p.net'
+depends=(':java')
+
+###### Install ######
+# (buildpath/"path.conf").write "INSTALL_PATH=#{libexec}"
+# system "java", "-jar", "i2pinstall_#{version}.jar", "-options", "path.conf"
+# wrapper_name = "i2psvc-macosx-universal-64"
+# libexec.install_symlink libexec/wrapper_name => "i2psvc"
+# bin.write_exec_script Dir["#{libexec}/{eepget,i2prouter}"]
+# man1.install Dir["#{libexec}/man/*"]

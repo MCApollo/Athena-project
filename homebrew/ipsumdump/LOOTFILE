@@ -1,0 +1,15 @@
+# ipsumdump.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ipsumdump.rb
+# Converted on 02-01-2019
+
+name='ipsumdump'
+url=('https://read.seas.harvard.edu/~kohler/ipsumdump/ipsumdump-1.86.tar.gz')
+description='Summarizes TCP/IP dump files into a self-describing ASCII format'
+version='1.86' # Guessed version.
+priority='optional'
+homepage='https://read.seas.harvard.edu/~kohler/ipsumdump/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

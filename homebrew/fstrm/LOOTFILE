@@ -1,0 +1,20 @@
+# fstrm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fstrm.rb
+# Converted on 02-01-2019
+
+name='fstrm'
+url=('https://dl.farsightsecurity.com/dist/fstrm/fstrm-0.4.0.tar.gz')
+description='Frame Streams implementation in C'
+version='0.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/farsightsec/fstrm'
+depends=('libevent')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "autoreconf", "-fvi" if build.head?
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,15 @@
+# jam.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jam.rb
+# Converted on 02-01-2019
+
+name='jam'
+url=('https://swarm.workshop.perforce.com/projects/perforce_software-jam/download/main/jam-2.6.zip')
+description='Make-like build tool'
+version='2.6' # Guessed version.
+priority='optional'
+homepage='https://www.perforce.com/resources/documentation/jam'
+makedepends=('')
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}", "CFLAGS=#{ENV.cflags}", "LOCATE_TARGET=bin"
+# bin.install "bin/jam", "bin/mkjambase"

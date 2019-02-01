@@ -1,0 +1,21 @@
+# xsd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xsd.rb
+# Converted on 02-01-2019
+
+name='xsd'
+url=('https://www.codesynthesis.com/download/xsd/4.0/xsd-4.0.0+dep.tar.bz2')
+description='XML Data Binding for C++'
+version='4.0.0' # Guessed version.
+priority='optional'
+homepage='https://www.codesynthesis.com/products/xsd/'
+depends=('xerces-c')
+makedepends=('pkg-config')
+makedepends=('pkg-config')
+
+# A diff file was written to xsd.diff
+# --> Patch the file before building.
+
+###### Install ######
+# ENV.append "LDFLAGS", `pkg-config --libs --static xerces-c`.chomp
+# ENV.cxx11
+# system "make", "install", "install_prefix=#{prefix}"

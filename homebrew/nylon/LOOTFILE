@@ -1,0 +1,19 @@
+# nylon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nylon.rb
+# Converted on 02-01-2019
+
+name='nylon'
+url=('https://monkey.org/~marius/nylon/nylon-1.21.tar.gz')
+description='Proxy server'
+version='1.21' # Guessed version.
+priority='optional'
+homepage='https://github.com/smeinecke/nylon'
+depends=('libevent')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--with-libevent=#{HOMEBREW_PREFIX}"
+# system "make", "install"

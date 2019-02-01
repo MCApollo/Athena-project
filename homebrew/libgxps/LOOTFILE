@@ -1,0 +1,19 @@
+# libgxps.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgxps.rb
+# Converted on 02-01-2019
+
+name='libgxps'
+url=('https://download.gnome.org/sources/libgxps/0.3/libgxps-0.3.1.tar.xz')
+description='GObject based library for handling and rendering XPS documents'
+version='0.3.1' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/Projects/libgxps'
+depends=('glib' 'gtk+3' 'libarchive' 'little-cms2')
+makedepends=('gobject-introspection' 'meson-internal' 'ninja' 'pkg-config')
+
+###### Install ######
+# mkdir "build" do
+# system "meson", "--prefix=#{prefix}", ".."
+# system "ninja", "-v"
+# system "ninja", "install", "-v"
+# end

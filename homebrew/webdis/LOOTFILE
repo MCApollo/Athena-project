@@ -1,0 +1,21 @@
+# webdis.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/webdis.rb
+# Converted on 02-01-2019
+
+name='webdis'
+url=('https://github.com/nicolasff/webdis/archive/0.1.4.tar.gz')
+description='Redis HTTP interface with JSON output'
+version='0.1.4' # Guessed version.
+priority='optional'
+homepage='https://webd.is/'
+depends=('libevent')
+
+###### Install ######
+# system "make"
+# bin.install "webdis"
+# inreplace "webdis.prod.json" do |s|
+# s.gsub! "/var/log/webdis.log", "#{var}/log/webdis.log"
+# s.gsub! /daemonize":\s*true/, "daemonize\":\tfalse"
+# end
+# etc.install "webdis.json", "webdis.prod.json"
+# (var/"log").mkpath

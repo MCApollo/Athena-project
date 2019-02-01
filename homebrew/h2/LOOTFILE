@@ -1,0 +1,19 @@
+# h2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/h2.rb
+# Converted on 02-01-2019
+
+name='h2'
+url=('https://www.h2database.com/h2-2018-03-18.zip')
+description='Java SQL database'
+version=' '
+priority='optional'
+homepage='https://www.h2database.com/'
+
+###### Install ######
+# rm_f Dir["bin/*.bat"]
+# #
+# h2_script = File.read("bin/h2.sh").gsub("\r\n", "\n")
+# File.open("bin/h2.sh", "w") { |f| f.write h2_script }
+# chmod 0755, "bin/h2.sh"
+# libexec.install Dir["*"]
+# (bin+"h2").write script

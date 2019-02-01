@@ -1,0 +1,16 @@
+# stlink.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stlink.rb
+# Converted on 02-01-2019
+
+name='stlink'
+url=('https://github.com/texane/stlink/archive/v1.5.1.tar.gz')
+description='STM32 discovery line Linux programmer'
+version='1.5.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/texane/stlink'
+depends=('libusb')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

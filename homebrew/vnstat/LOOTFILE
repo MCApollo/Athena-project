@@ -1,0 +1,30 @@
+# vnstat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vnstat.rb
+# Converted on 02-01-2019
+
+name='vnstat'
+url=('https://humdi.net/vnstat/vnstat-1.18.tar.gz')
+description='Console-based network traffic monitor'
+version='1.18' # Guessed version.
+priority='optional'
+homepage='https://humdi.net/vnstat/'
+depends=('gd')
+
+###### Install ######
+# inreplace %w[src/cfg.c src/common.h man/vnstat.1 man/vnstatd.1 man/vnstati.1
+# man/vnstat.conf.5].each do |s|
+# s.gsub! "/etc/vnstat.conf", "#{etc}/vnstat.conf", false
+# s.gsub! "/var/", "#{var}/", false
+# s.gsub! "var/lib", "var/db", false
+# s.gsub! "\"eth0\"", "\"en0\"", false
+# end
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}",
+# "--sbindir=#{bin}",
+# "--localstatedir=#{var}"
+# system "make", "install"
+# (var/"db/vnstat").mkpath
+# (var/"log/vnstat").mkpath
+# (var/"run/vnstat").mkpath

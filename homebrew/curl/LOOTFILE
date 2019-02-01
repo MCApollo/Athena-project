@@ -1,0 +1,27 @@
+# curl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/curl.rb
+# Converted on 02-01-2019
+
+name='curl'
+url=('https://curl.haxx.se/download/curl-7.63.0.tar.bz2')
+description='Get a file from an HTTP, HTTPS or FTP server'
+version='7.63.0' # Guessed version.
+priority='optional'
+homepage='https://curl.haxx.se/'
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./buildconf" if build.head?
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --with-darwinssl
+# --without-ca-bundle
+# --without-ca-path
+# ]
+# system "./configure", *args
+# system "make", "install"
+# system "make", "install", "-C", "scripts"
+# libexec.install "lib/mk-ca-bundle.pl"

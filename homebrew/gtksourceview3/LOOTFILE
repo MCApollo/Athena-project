@@ -1,0 +1,19 @@
+# gtksourceview3.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtksourceview3.rb
+# Converted on 02-01-2019
+
+name='gtksourceview3'
+url=('https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.9.tar.xz')
+description='Text view with syntax, undo/redo, and text marks'
+version='3.24.9' # Guessed version.
+priority='optional'
+homepage='https://projects.gnome.org/gtksourceview/'
+depends=('gettext' 'gtk+3')
+makedepends=('gobject-introspection' 'intltool' 'pkg-config' 'vala')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--enable-vala=yes",
+# "--enable-introspection=yes",
+# "--prefix=#{prefix}"
+# system "make", "install"

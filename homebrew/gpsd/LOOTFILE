@@ -1,0 +1,15 @@
+# gpsd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gpsd.rb
+# Converted on 02-01-2019
+
+name='gpsd'
+url=('https://download.savannah.gnu.org/releases/gpsd/gpsd-3.17.tar.gz')
+description='Global Positioning System (GPS) daemon'
+version='3.17' # Guessed version.
+priority='optional'
+homepage='http://catb.org/gpsd/'
+makedepends=('scons')
+
+###### Install ######
+# system "scons", "chrpath=False", "python=False", "strip=False", "prefix=#{prefix}/"
+# system "scons", "install"

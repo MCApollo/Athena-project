@@ -1,0 +1,16 @@
+# libtrace.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtrace.rb
+# Converted on 02-01-2019
+
+name='libtrace'
+url=('https://research.wand.net.nz/software/libtrace/libtrace-4.0.4.tar.bz2')
+description='Library for trace processing supporting multiple inputs'
+version='4.0.4' # Guessed version.
+priority='optional'
+homepage='https://research.wand.net.nz/software/libtrace.php'
+depends=('openssl' 'wandio')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

@@ -1,0 +1,16 @@
+# exomizer.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/exomizer.rb
+# Converted on 02-01-2019
+
+name='exomizer'
+url=('https://bitbucket.org/magli143/exomizer/wiki/downloads/exomizer-3.0.1.zip')
+description='6502 compressor with CBM PET 4032 support'
+version='3.0.1' # Guessed version.
+priority='optional'
+homepage='https://bitbucket.org/magli143/exomizer/wiki/Home'
+
+###### Install ######
+# cd "src" do
+# system "make"
+# bin.install %w[exobasic exomizer]
+# end

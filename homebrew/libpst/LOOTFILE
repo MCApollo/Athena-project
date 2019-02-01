@@ -1,0 +1,22 @@
+# libpst.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpst.rb
+# Converted on 02-01-2019
+
+name='libpst'
+url=('https://www.five-ten-sg.com/libpst/packages/libpst-0.6.72.tar.gz')
+description='Utilities for the PST file format'
+version='0.6.72' # Guessed version.
+priority='optional'
+homepage='https://www.five-ten-sg.com/libpst/'
+depends=('boost' 'gettext' 'libgsf')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --disable-python
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "install"

@@ -1,0 +1,13 @@
+# rake-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rake-completion.rb
+# Converted on 02-01-2019
+
+name='rakecompletion'
+url=('https://github.com/JoeNyland/rake-completion/archive/v1.0.0.tar.gz')
+description='Bash completion for Rake'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/JoeNyland/rake-completion'
+
+###### Install ######
+# bash_completion.install "rake.sh" => "rake"

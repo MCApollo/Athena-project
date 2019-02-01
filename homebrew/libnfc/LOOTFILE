@@ -1,0 +1,19 @@
+# libnfc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libnfc.rb
+# Converted on 02-01-2019
+
+name='libnfc'
+url=('https://bintray.com/artifact/download/nfc-tools/sources/libnfc-1.7.1.tar.bz2')
+description='Low level NFC SDK and Programmers API'
+version='1.7.1' # Guessed version.
+priority='optional'
+homepage='http://nfc-tools.org'
+depends=('libusb-compat')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}", "--enable-serial-autoprobe",
+# "--with-drivers=all"
+# system "make", "install"
+# (prefix/"etc/nfc/libnfc.conf").write "allow_intrusive_scan=yes"

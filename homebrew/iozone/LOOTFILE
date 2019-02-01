@@ -1,0 +1,20 @@
+# iozone.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/iozone.rb
+# Converted on 02-01-2019
+
+name='iozone'
+url=('http://www.iozone.org/src/current/iozone3_482.tar')
+description='File system benchmark tool'
+version=' '
+priority='optional'
+homepage='http://www.iozone.org/'
+
+###### Install ######
+# cd "src/current" do
+# system "make", "macosx", "CC=#{ENV.cc}"
+# bin.install "iozone"
+# pkgshare.install %w[Generate_Graphs client_list gengnuplot.sh gnu3d.dem
+# gnuplot.dem gnuplotps.dem iozone_visualizer.pl
+# report.pl]
+# end
+# man1.install "docs/iozone.1"

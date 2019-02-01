@@ -1,0 +1,16 @@
+# thrulay.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/thrulay.rb
+# Converted on 02-01-2019
+
+name='thrulay'
+url=('https://downloads.sourceforge.net/project/thrulay/thrulay/0.9/thrulay-0.9.tar.gz')
+description='Measure performance of a network'
+version='0.9' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/thrulay/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# ENV.deparallelize
+# system "make", "install"

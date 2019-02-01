@@ -1,0 +1,16 @@
+# hexcurse.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hexcurse.rb
+# Converted on 02-01-2019
+
+name='hexcurse'
+url=('https://github.com/LonnyGomes/hexcurse/archive/v1.60.0.tar.gz')
+description='Ncurses-based console hex editor'
+version='1.60.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/LonnyGomes/hexcurse'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

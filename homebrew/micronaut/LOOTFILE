@@ -1,0 +1,16 @@
+# micronaut.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/micronaut.rb
+# Converted on 02-01-2019
+
+name='micronaut'
+url=('https://github.com/micronaut-projects/micronaut-core/releases/download/v1.0.2/micronaut-1.0.2.zip')
+description='Modern JVM-based framework for building modular microservices'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='http://micronaut.io'
+depends=(':java')
+
+###### Install ######
+# rm_f Dir["bin/*.bat"]
+# libexec.install %W[bin media cli-#{version}.jar]
+# bin.install_symlink libexec/"bin/mn"

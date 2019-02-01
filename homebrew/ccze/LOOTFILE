@@ -1,0 +1,20 @@
+# ccze.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ccze.rb
+# Converted on 02-01-2019
+
+name='ccze'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/c/ccze/ccze_0.2.1.orig.tar.gz')
+description='Robust and modular log colorizer'
+version='0.2.1' # Guessed version.
+priority='optional'
+homepage='https://packages.debian.org/wheezy/ccze'
+depends=('pcre')
+
+###### Install ######
+# inreplace "src/ccze-compat.c", "#if HAVE_SUBOPTARg", "#if HAVE_SUBOPTARG"
+# inreplace "src/Makefile.in", "-Wreturn-type -Wswitch -Wmulticharacter",
+# "-Wreturn-type -Wswitch"
+# system "./configure", "--prefix=#{prefix}",
+# "--with-builtins=all"
+# system "make", "install"
+# share.install prefix/"man"

@@ -1,0 +1,21 @@
+# yconalyzer.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yconalyzer.rb
+# Converted on 02-01-2019
+
+name='yconalyzer'
+url=('https://downloads.sourceforge.net/project/yconalyzer/yconalyzer-1.0.4.tar.bz2')
+description='TCP traffic analyzer'
+version='1.0.4' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/yconalyzer/'
+
+# A diff file was written to yconalyzer.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make"
+# chmod 0755, "./install-sh"
+# system "make", "install"

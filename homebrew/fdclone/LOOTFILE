@@ -1,0 +1,24 @@
+# fdclone.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fdclone.rb
+# Converted on 02-01-2019
+
+name='fdclone'
+url=('http://www.unixusers.net/src/fdclone/FD-3.01h.tar.gz')
+description='Console-based file manager'
+version='3.01' # Guessed version.
+priority='optional'
+homepage='https://hp.vector.co.jp/authors/VA012337/soft/fd/'
+makedepends=('nkf')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/86107cf/fdclone/3.01b.patch')
+
+###### Install ######
+# ENV.deparallelize
+# system "make", "PREFIX=#{prefix}", "all"
+# system "make", "MANTOP=#{man}", "install"
+# %w[README FAQ HISTORY LICENSES TECHKNOW ToAdmin].each do |file|
+# system "nkf", "-w", "--overwrite", file
+# prefix.install "#{file}.eng" => file
+# prefix.install file => "#{file}.ja"
+# end
+# pkgshare.install "_fdrc" => "fd2rc.dist"

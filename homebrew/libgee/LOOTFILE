@@ -1,0 +1,23 @@
+# libgee.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgee.rb
+# Converted on 02-01-2019
+
+name='libgee'
+url=('https://download.gnome.org/sources/libgee/0.20/libgee-0.20.1.tar.xz')
+description='Collection library providing GObject-based interfaces'
+version='0.20.1' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/Projects/Libgee'
+depends=('glib')
+makedepends=('gobject-introspection' 'pkg-config' 'vala')
+
+###### Install ######
+# inreplace "gee/Makefile.in" do |s|
+# s.gsub! "@HAVE_INTROSPECTION_TRUE@girdir = @INTROSPECTION_GIRDIR@",
+# "@HAVE_INTROSPECTION_TRUE@girdir = $(datadir)/gir-1.0"
+# s.gsub! "@HAVE_INTROSPECTION_TRUE@typelibdir = @INTROSPECTION_TYPELIBDIR@",
+# "@HAVE_INTROSPECTION_TRUE@typelibdir = $(libdir)/girepository-1.0"
+# end
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-dependency-tracking"
+# system "make", "install"

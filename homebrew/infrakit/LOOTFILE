@@ -1,0 +1,20 @@
+# infrakit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/infrakit.rb
+# Converted on 02-01-2019
+
+name='infrakit'
+url=('https://github.com/docker/infrakit.git')
+description='Toolkit for creating and managing declarative infrastructure'
+version=' '
+priority='optional'
+homepage='https://github.com/docker/infrakit'
+makedepends=('go' 'libvirt')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/docker/infrakit").install buildpath.children
+# cd "src/github.com/docker/infrakit" do
+# system "make", "cli"
+# bin.install "build/infrakit"
+# prefix.install_metafiles
+# end

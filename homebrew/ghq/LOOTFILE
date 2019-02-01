@@ -1,0 +1,20 @@
+# ghq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ghq.rb
+# Converted on 02-01-2019
+
+name='ghq'
+url=('https://github.com/motemen/ghq/archive/v0.8.0.tar.gz')
+description='Remote repository management made easy'
+version='0.8.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/motemen/ghq'
+makedepends=('go')
+
+###### Install ######
+# mkdir_p buildpath/"src/github.com/motemen/"
+# ln_s buildpath, buildpath/"src/github.com/motemen/ghq"
+# ENV["GOPATH"] = buildpath
+# Language::Go.stage_deps resources, buildpath/"src"
+# system "go", "build", "-ldflags", "-X main.Version=#{version}",
+# "-o", bin/"ghq"
+# zsh_completion.install "zsh/_ghq"

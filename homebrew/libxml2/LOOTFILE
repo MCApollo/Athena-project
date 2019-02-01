@@ -1,0 +1,27 @@
+# libxml2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxml2.rb
+# Converted on 02-01-2019
+
+name='libxml2'
+url=('http://xmlsoft.org/sources/libxml2-2.9.9.tar.gz')
+description='GNOME XML library'
+version='2.9.9' # Guessed version.
+priority='optional'
+homepage='http://xmlsoft.org/'
+depends=('python')
+# Patches
+url+=('https://bugzilla.opensuse.org/attachment.cgi?id=746044')
+url+=('https://raw.githubusercontent.com/sparklemotion/nokogiri/38721829c1df30e93bdfbc88095cc36838e497f3/patches/libxml2/0001-Revert-Do-not-URI-escape-in-server-side-includes.patch')
+
+###### Install ######
+# system "autoreconf", "-fiv" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--without-python",
+# "--without-lzma"
+# system "make", "install"
+# cd "python" do
+# inreplace "setup.py", "includes_dir = [",
+# "includes_dir = ['#{include}', '#{MacOS.sdk_path}/usr/include',"
+# system "python3", "setup.py", "install", "--prefix=#{prefix}"
+# end

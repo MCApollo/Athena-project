@@ -1,0 +1,22 @@
+# gwyddion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gwyddion.rb
+# Converted on 02-01-2019
+
+name='gwyddion'
+url=('http://gwyddion.net/download/2.52/gwyddion-2.52.tar.gz')
+description='Scanning Probe Microscopy visualization and analysis tool'
+version='2.52' # Guessed version.
+priority='optional'
+homepage='http://gwyddion.net/'
+depends=('fftw' 'gtk+' 'gtk-mac-integration' 'gtkglext' 'gtksourceview' 'libxml2' 'minizip' 'pygtk' 'python@2')
+makedepends=('pkg-config')
+
+# A diff file was written to gwyddion.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-desktop-file-update",
+# "--prefix=#{prefix}",
+# "--with-html-dir=#{doc}"
+# system "make", "install"

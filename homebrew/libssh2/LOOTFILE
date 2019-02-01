@@ -1,0 +1,26 @@
+# libssh2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libssh2.rb
+# Converted on 02-01-2019
+
+name='libssh2'
+url=('https://libssh2.org/download/libssh2-1.8.0.tar.gz')
+description='C library implementing the SSH2 protocol'
+version='1.8.0' # Guessed version.
+priority='optional'
+homepage='https://libssh2.org/'
+depends=('openssl')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-debug
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --disable-examples-build
+# --with-openssl
+# --with-libz
+# --with-libssl-prefix=#{Formula["openssl"].opt_prefix}
+# ]
+# system "./buildconf" if build.head?
+# system "./configure", *args
+# system "make", "install"

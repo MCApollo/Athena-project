@@ -1,0 +1,31 @@
+# clang-format.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/clang-format.rb
+# Converted on 02-01-2019
+
+name='clangformat'
+url=('http://llvm.org/svn/llvm-project/llvm/tags/google/stable/2018-12-18/')
+description='Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript'
+version=' '
+priority='optional'
+homepage='https://clang.llvm.org/docs/ClangFormat.html'
+makedepends=('subversion' 'cmake' 'ninja')
+
+###### Resource ######
+# clang: http://llvm.org/svn/llvm-project/cfe/tags/google/stable/2018-12-18/
+# libcxx: https://releases.llvm.org/7.0.0/libcxx-7.0.0.src.tar.xz
+# libcxx: https://git.llvm.org/git/libcxx.git
+
+###### Install ######
+# (buildpath/"projects/libcxx").install resource("libcxx")
+# (buildpath/"tools/clang").install resource("clang")
+# mkdir "build" do
+# args = std_cmake_args
+# args << "-DCMAKE_OSX_SYSROOT=/" unless MacOS::Xcode.installed?
+# args << "-DLLVM_ENABLE_LIBCXX=ON"
+# args << ".."
+# system "cmake", "-G", "Ninja", *args
+# system "ninja", "clang-format"
+# bin.install "bin/clang-format"
+# end
+# bin.install "tools/clang/tools/clang-format/git-clang-format"
+# (share/"clang").install Dir["tools/clang/tools/clang-format/clang-format*"]

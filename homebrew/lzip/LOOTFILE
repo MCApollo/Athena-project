@@ -1,0 +1,18 @@
+# lzip.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lzip.rb
+# Converted on 02-01-2019
+
+name='lzip'
+url=('https://download-mirror.savannah.gnu.org/releases/lzip/lzip-1.20.tar.gz')
+description='LZMA-based compression program similar to gzip or bzip2'
+version='1.20' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/lzip/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "CXX=#{ENV.cxx}",
+# "CXXFLAGS=#{ENV.cflags}"
+# system "make", "check"
+# ENV.deparallelize
+# system "make", "install"

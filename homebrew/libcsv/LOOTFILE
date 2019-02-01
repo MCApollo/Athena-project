@@ -1,0 +1,15 @@
+# libcsv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcsv.rb
+# Converted on 02-01-2019
+
+name='libcsv'
+url=('https://downloads.sourceforge.net/project/libcsv/libcsv/libcsv-3.0.3/libcsv-3.0.3.tar.gz')
+description='CSV library in ANSI C89'
+version='3.0.3' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/libcsv/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

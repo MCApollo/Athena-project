@@ -1,0 +1,16 @@
+# vbindiff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vbindiff.rb
+# Converted on 02-01-2019
+
+name='vbindiff'
+url=('https://www.cjmweb.net/vbindiff/vbindiff-3.0_beta5.tar.gz')
+description='Visual Binary Diff'
+version='3.0' # Guessed version.
+priority='optional'
+homepage='https://www.cjmweb.net/vbindiff/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

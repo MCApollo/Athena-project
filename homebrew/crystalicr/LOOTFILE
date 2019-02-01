@@ -1,0 +1,14 @@
+# crystal-icr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/crystal-icr.rb
+# Converted on 02-01-2019
+
+name='crystalicr'
+url=('https://github.com/crystal-community/icr/archive/v0.6.0.tar.gz')
+description='Interactive console for Crystal programming language'
+version='0.6.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/crystal-community/icr'
+depends=('crystal' 'readline')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

@@ -1,0 +1,15 @@
+# audacious.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/audacious.rb
+# Converted on 02-01-2019
+
+name='audacious'
+url=('https://distfiles.audacious-media-player.org/audacious-3.9.tar.bz2')
+description='Free and advanced audio player based on GTK+'
+version='3.9' # Guessed version.
+priority='optional'
+homepage='https://audacious-media-player.org/'
+depends=('faad2' 'ffmpeg' 'flac' 'fluid-synth' 'glib' 'lame' 'libbs2b' 'libcue' 'libnotify' 'libsamplerate' 'libsoxr' 'libvorbis' 'mpg123' 'neon' 'python@2' 'qt' 'sdl2' 'wavpack')
+makedepends=('autoconf' 'automake' 'libtool' 'gettext' 'make' 'pkg-config')
+
+###### Resource ######
+# plugins: https://distfiles.audacious-media-player.org/audacious-plugins-3.9.tar.bz2

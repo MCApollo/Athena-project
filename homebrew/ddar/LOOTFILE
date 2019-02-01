@@ -1,0 +1,21 @@
+# ddar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ddar.rb
+# Converted on 02-01-2019
+
+name='ddar'
+url=('https://github.com/basak/ddar/archive/v1.0.tar.gz')
+description='De-duplicating archiver'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/basak/ddar'
+depends=('protobuf' 'python@2')
+makedepends=('xmltoman')
+
+###### Install ######
+# system "make", "-f", "Makefile.prep", "pydist"
+# system "python", "setup.py", "install",
+# "--prefix=#{prefix}",
+# "--single-version-externally-managed",
+# "--record=installed.txt"
+# bin.env_script_all_files(libexec+"bin", :PYTHONPATH => ENV["PYTHONPATH"])
+# man1.install Dir["*.1"]

@@ -1,0 +1,16 @@
+# apache-drill.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/apache-drill.rb
+# Converted on 02-01-2019
+
+name='apachedrill'
+url=('https://www.apache.org/dyn/closer.cgi?path=drill/drill-1.15.0/apache-drill-1.15.0.tar.gz')
+description='Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage'
+version='1.15.0' # Guessed version.
+priority='optional'
+homepage='https://drill.apache.org'
+depends=(':java')
+
+###### Install ######
+# libexec.install Dir["*"]
+# bin.install Dir["#{libexec}/bin/*"]
+# bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env("1.8"))

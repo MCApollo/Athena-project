@@ -1,0 +1,22 @@
+# giflossy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/giflossy.rb
+# Converted on 02-01-2019
+
+name='giflossy'
+url=('https://github.com/kornelski/giflossy/archive/1.91.tar.gz')
+description='Lossy LZW compression, reduces GIF file sizes by 30-50%'
+version='1.91' # Guessed version.
+priority='optional'
+homepage='https://pornel.net/lossygif'
+makedepends=('autoconf' 'automake')
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --disable-gifview
+# ]
+# system "autoreconf", "-fvi"
+# system "./configure", *args
+# system "make", "install"

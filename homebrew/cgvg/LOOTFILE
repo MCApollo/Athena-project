@@ -1,0 +1,15 @@
+# cgvg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cgvg.rb
+# Converted on 02-01-2019
+
+name='cgvg'
+url=('http://www.uzix.org/cgvg/cgvg-1.6.3.tar.gz')
+description='Command-line source browsing tool'
+version='1.6.3' # Guessed version.
+priority='optional'
+homepage='http://www.uzix.org/cgvg.html'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

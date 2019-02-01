@@ -1,0 +1,16 @@
+# pspg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pspg.rb
+# Converted on 02-01-2019
+
+name='pspg'
+url=('https://github.com/okbob/pspg/archive/1.6.3.tar.gz')
+description='Unix pager optimized for psql'
+version='1.6.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/okbob/pspg'
+depends=('ncurses' 'readline')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--prefix=#{prefix}"
+# system "make", "install"

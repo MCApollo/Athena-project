@@ -1,0 +1,13 @@
+# nicovideo-dl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nicovideo-dl.rb
+# Converted on 02-01-2019
+
+name='nicovideodl'
+url=('https://dotsrc.dl.osdn.net/osdn/nicovideo-dl/56304/nicovideo-dl-0.0.20120212.tar.gz')
+description='Command-line program to download videos from www.nicovideo.jp'
+version='0.0.20120212' # Guessed version.
+priority='optional'
+homepage='https://osdn.net/projects/nicovideo-dl/'
+
+###### Install ######
+# bin.install "nicovideo-dl"

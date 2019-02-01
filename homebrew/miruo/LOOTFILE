@@ -1,0 +1,14 @@
+# miruo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/miruo.rb
+# Converted on 02-01-2019
+
+name='miruo'
+url=('https://github.com/KLab/miruo/archive/0.9.6b.tar.gz')
+description='Pretty-print TCP session monitor/analyzer'
+version='0.9.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/KLab/miruo/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking", "--with-libpcap=#{MacOS.sdk_path}/usr"
+# system "make", "install"

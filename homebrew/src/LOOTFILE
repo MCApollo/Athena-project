@@ -1,0 +1,16 @@
+# src.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/src.rb
+# Converted on 02-01-2019
+
+name='src'
+url=('http://www.catb.org/~esr/src/src-1.18.tar.gz')
+description='Simple revision control: RCS reloaded with a modern UI'
+version='1.18' # Guessed version.
+priority='optional'
+homepage='http://www.catb.org/~esr/src/'
+depends=('rcs')
+makedepends=('')
+
+###### Install ######
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog" if build.head?
+# system "make", "install", "prefix=#{prefix}"

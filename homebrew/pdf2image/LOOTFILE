@@ -1,0 +1,21 @@
+# pdf2image.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdf2image.rb
+# Converted on 02-01-2019
+
+name='pdf2image'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/pdf2image/pdf2image-0.53-source.tar.gz')
+description='Convert PDFs to images'
+version='0.53' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/p/pdf2image/'
+depends=('freetype' 'ghostscript' ':x11')
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# inreplace "Makefile", "/man/", "/share/man/"
+# inreplace "src/Makefile", "$(srcdir)", "$(SRCDIR)"
+# inreplace ["src/Makefile", "xpdf/Makefile"],
+# "LDFLAGS =", "LDFLAGS=-L#{MacOS::X11.lib}"
+# system "make"
+# system "make", "install"

@@ -1,0 +1,14 @@
+# xsv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xsv.rb
+# Converted on 02-01-2019
+
+name='xsv'
+url=('https://github.com/BurntSushi/xsv/archive/0.13.0.tar.gz')
+description='Fast CSV toolkit written in Rust'
+version='0.13.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/BurntSushi/xsv'
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

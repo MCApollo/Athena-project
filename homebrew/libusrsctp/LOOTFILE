@@ -1,0 +1,16 @@
+# libusrsctp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libusrsctp.rb
+# Converted on 02-01-2019
+
+name='libusrsctp'
+url=('https://github.com/sctplab/usrsctp/archive/0.9.3.0.tar.gz')
+description='Portable SCTP userland stack'
+version='0.9.3.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/sctplab/usrsctp'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make"
+# system "make", "install"

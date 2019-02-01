@@ -1,0 +1,23 @@
+# itstool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/itstool.rb
+# Converted on 02-01-2019
+
+name='itstool'
+url=('https://github.com/itstool/itstool/archive/2.0.5.tar.gz')
+description='Make XML documents translatable through PO files'
+version='2.0.5' # Guessed version.
+priority='optional'
+homepage='http://itstool.org/'
+depends=('libxml2' 'python')
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# xy = Language::Python.major_minor_version "python3"
+# ENV.append_path "PYTHONPATH", "#{Formula["libxml2"].opt_lib}/python#{xy}/site-packages"
+# system "./autogen.sh", "--prefix=#{libexec}",
+# "PYTHON=#{Formula["python"].opt_bin}/python3"
+# system "make", "install"
+# bin.install Dir["#{libexec}/bin/*"]
+# bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
+# pkgshare.install_symlink libexec/"share/itstool/its"
+# man1.install_symlink libexec/"share/man/man1/itstool.1"

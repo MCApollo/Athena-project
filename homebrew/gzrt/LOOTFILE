@@ -1,0 +1,15 @@
+# gzrt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gzrt.rb
+# Converted on 02-01-2019
+
+name='gzrt'
+url=('https://www.urbanophile.com/arenn/coding/gzrt/gzrt-0.8.tar.gz')
+description='Gzip recovery toolkit'
+version='0.8' # Guessed version.
+priority='optional'
+homepage='https://www.urbanophile.com/arenn/coding/gzrt/gzrt.html'
+
+###### Install ######
+# system "make"
+# bin.install "gzrecover"
+# man1.install "gzrecover.1"

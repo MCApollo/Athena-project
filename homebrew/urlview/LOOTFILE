@@ -1,0 +1,22 @@
+# urlview.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/urlview.rb
+# Converted on 02-01-2019
+
+name='urlview'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/u/urlview/urlview_0.9.orig.tar.gz')
+description='URL extractor/launcher'
+version='0.9' # Guessed version.
+priority='optional'
+homepage='https://packages.debian.org/sid/misc/urlview'
+# Patches
+url+=('https://mirrors.ocf.berkeley.edu/debian/pool/main/u/urlview/urlview_0.9-20.diff.gz')
+
+###### Install ######
+# inreplace "urlview.man", "/etc/urlview/url_handler.sh", "open"
+# inreplace "urlview.c",
+# '#define DEFAULT_COMMAND "/etc/urlview/url_handler.sh %s"',
+# '#define DEFAULT_COMMAND "open %s"'
+# man1.mkpath
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}"
+# system "make", "install"

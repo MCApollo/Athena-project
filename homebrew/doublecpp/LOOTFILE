@@ -1,0 +1,15 @@
+# doublecpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/doublecpp.rb
+# Converted on 02-01-2019
+
+name='doublecpp'
+url=('https://downloads.sourceforge.net/doublecpp/doublecpp-0.6.3.tar.gz')
+description='Double dispatch in C++'
+version='0.6.3' # Guessed version.
+priority='optional'
+homepage='https://doublecpp.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

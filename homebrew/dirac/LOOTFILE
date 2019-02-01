@@ -1,0 +1,22 @@
+# dirac.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dirac.rb
+# Converted on 02-01-2019
+
+name='dirac'
+url=('https://downloads.sourceforge.net/project/dirac/dirac-codec/Dirac-1.0.2/dirac-1.0.2.tar.gz')
+description='General-purpose video codec aimed at a range of resolutions'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/dirac/'
+# Patches
+url+=('https://gist.githubusercontent.com/mistydemeo/da8a53abcf057c58b498/raw/bde69c5f07d871542dcb24792110e29e6418d2a3/unititialized-memory.patch')
+url+=('https://gist.githubusercontent.com/mistydemeo/e729c459525d0d6e9e2d/raw/d9ff69c944b8bde006eef27650c0af36f51479f5/dirac-gcc-fixes.patch')
+
+# A diff file was written to dirac.diff
+# --> Patch the file before building.
+
+###### Install ######
+# inreplace "doc/Makefile.in", "cp -dR", "cp -R"
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

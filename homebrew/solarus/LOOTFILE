@@ -1,0 +1,18 @@
+# solarus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/solarus.rb
+# Converted on 02-01-2019
+
+name='solarus'
+url=('')
+description='Action-RPG game engine'
+version=' '
+priority='optional'
+homepage='http://www.solarus-games.org/'
+depends=('libmodplug' 'libogg' 'libvorbis' 'luajit' 'physfs' 'sdl2' 'sdl2_image' 'sdl2_ttf')
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", "-DSOLARUS_GUI=OFF", *std_cmake_args
+# system "make", "install"
+# end

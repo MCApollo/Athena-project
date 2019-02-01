@@ -1,0 +1,22 @@
+# exif.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/exif.rb
+# Converted on 02-01-2019
+
+name='exif'
+url=('https://downloads.sourceforge.net/project/libexif/exif/0.6.21/exif-0.6.21.tar.gz')
+description='Read, write, modify, and display EXIF data on the command-line'
+version='0.6.21' # Guessed version.
+priority='optional'
+homepage='https://libexif.sourceforge.io/'
+depends=('libexif' 'popt')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --disable-nls
+# ]
+# system "./configure", *args
+# system "make", "install"

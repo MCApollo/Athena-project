@@ -1,0 +1,15 @@
+# hss.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hss.rb
+# Converted on 02-01-2019
+
+name='hss'
+url=('https://github.com/six-ddc/hss/archive/1.8.tar.gz')
+description='Interactive parallel SSH client'
+version='1.8' # Guessed version.
+priority='optional'
+homepage='https://github.com/six-ddc/hss'
+depends=('readline')
+
+###### Install ######
+# system "make"
+# system "make", "install", "INSTALL_BIN=#{bin}"

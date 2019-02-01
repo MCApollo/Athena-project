@@ -1,0 +1,20 @@
+# cosi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cosi.rb
+# Converted on 02-01-2019
+
+name='cosi'
+url=('https://github.com/dedis/cosi/archive/0.8.5.tar.gz')
+description='Implementation of scalable collective signing'
+version='0.8.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/dedis/cosi'
+makedepends=('go')
+
+###### Install ######
+# mkdir_p buildpath/"src/github.com/dedis"
+# ln_s buildpath, buildpath/"src/github.com/dedis/cosi"
+# ENV["GOPATH"] = "#{buildpath}/Godeps/_workspace:#{buildpath}"
+# Language::Go.stage_deps resources, buildpath/"src"
+# system "go", "build", "-o", "cosi"
+# prefix.install "dedis_group.toml"
+# bin.install "cosi"

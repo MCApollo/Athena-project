@@ -1,0 +1,22 @@
+# splint.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/splint.rb
+# Converted on 02-01-2019
+
+name='splint'
+url=('https://mirrorservice.org/sites/distfiles.macports.org/splint/splint-3.1.2.src.tgz')
+description='Secure Programming Lint'
+version='3.1.2' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/splint/'
+
+# A diff file was written to splint.diff
+# --> Patch the file before building.
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--disable-debug",
+# "--prefix=#{prefix}",
+# "--infodir=#{info}",
+# "--mandir=#{man}"
+# system "make"
+# system "make", "install"

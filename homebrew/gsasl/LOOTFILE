@@ -1,0 +1,16 @@
+# gsasl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gsasl.rb
+# Converted on 02-01-2019
+
+name='gsasl'
+url=('https://ftp.gnu.org/gnu/gsasl/gsasl-1.8.0.tar.gz')
+description='SASL library command-line interface'
+version='1.8.0' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/gsasl/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--with-gssapi-impl=mit",
+# "--prefix=#{prefix}"
+# system "make", "install"

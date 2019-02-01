@@ -1,0 +1,15 @@
+# snzip.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/snzip.rb
+# Converted on 02-01-2019
+
+name='snzip'
+url=('https://bintray.com/artifact/download/kubo/generic/snzip-1.0.4.tar.gz')
+description='Compression/decompression tool based on snappy'
+version='1.0.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/kubo/snzip'
+depends=('snappy')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

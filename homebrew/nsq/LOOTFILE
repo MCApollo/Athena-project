@@ -1,0 +1,22 @@
+# nsq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nsq.rb
+# Converted on 02-01-2019
+
+name='nsq'
+url=('https://github.com/nsqio/nsq/archive/v1.1.0.tar.gz')
+description='Realtime distributed messaging platform'
+version='1.1.0' # Guessed version.
+priority='optional'
+homepage='https://nsq.io/'
+makedepends=('dep' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/nsqio/nsq").install buildpath.children
+# cd "src/github.com/nsqio/nsq" do
+# system "dep", "ensure", "--vendor-only"
+# system "make", "DESTDIR=#{prefix}", "PREFIX=", "install"
+# prefix.install_metafiles
+# end
+# (var/"log").mkpath
+# (var/"nsq").mkpath

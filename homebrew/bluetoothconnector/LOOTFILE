@@ -1,0 +1,15 @@
+# bluetoothconnector.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bluetoothconnector.rb
+# Converted on 02-01-2019
+
+name='bluetoothconnector'
+url=('https://github.com/lapfelix/BluetoothConnector/archive/1.1.1.tar.gz')
+description='Connect and disconnect Bluetooth devices'
+version='1.1.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/lapfelix/BluetoothConnector'
+depends=(':xcode')
+
+###### Install ######
+# system "swift", "build", "--disable-sandbox", "-c", "release", "-Xswiftc", "-static-stdlib"
+# bin.install ".build/release/BluetoothConnector"

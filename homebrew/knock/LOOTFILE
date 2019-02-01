@@ -1,0 +1,16 @@
+# knock.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/knock.rb
+# Converted on 02-01-2019
+
+name='knock'
+url=('http://www.zeroflux.org/proj/knock/files/knock-0.7.tar.gz')
+description='Port-knock server'
+version='0.7' # Guessed version.
+priority='optional'
+homepage='http://www.zeroflux.org/projects/knock'
+
+###### Install ######
+# system "autoreconf", "-fi" if build.head?
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

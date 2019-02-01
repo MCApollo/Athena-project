@@ -1,0 +1,30 @@
+# lmod.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lmod.rb
+# Converted on 02-01-2019
+
+name='lmod'
+url=('https://github.com/TACC/Lmod/archive/7.8.15.tar.gz')
+description='Lua-based environment modules system to modify PATH variable'
+version='7.8.15' # Guessed version.
+priority='optional'
+homepage='https://www.tacc.utexas.edu/research-development/tacc-projects/lmod'
+depends=('lua')
+makedepends=('luarocks' 'pkg-config')
+
+###### Resource ######
+# luafilesystem: https://github.com/keplerproject/luafilesystem/archive/v1_7_0_2.tar.gz
+# luaposix: https://github.com/luaposix/luaposix/archive/v34.0.4.tar.gz
+
+###### Install ######
+# luapath = libexec/"vendor"
+# ENV["LUA_PATH"] = "?.lua;" \
+# "#{luapath}/share/lua/5.3/?.lua;" \
+# "#{luapath}/share/lua/5.3/?/init.lua"
+# ENV["LUA_CPATH"] = "#{luapath}/lib/lua/5.3/?.so"
+# resources.each do |r|
+# r.stage do
+# system "luarocks", "make", "--tree=#{luapath}"
+# end
+# end
+# system "./configure", "--with-siteControlPrefix=yes", "--prefix=#{prefix}"
+# system "make", "install"

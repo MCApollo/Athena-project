@@ -1,0 +1,12 @@
+# hg-flow.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hg-flow.rb
+# Converted on 02-01-2019
+
+name='hgflow'
+url=('https://bitbucket.org/yujiewu/hgflow/downloads/hgflow-v0.9.8.3.tar.bz2')
+description='Development model for mercurial inspired by git-flow'
+version='0.9.8.3' # Guessed version.
+priority='optional'
+homepage='https://bitbucket.org/yujiewu/hgflow'
+
+###### Install ######

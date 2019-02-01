@@ -1,0 +1,14 @@
+# tcpstat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tcpstat.rb
+# Converted on 02-01-2019
+
+name='tcpstat'
+url=('https://github.com/jtt/tcpstat/archive/rel-0-1.tar.gz')
+description='Active TCP connections monitoring tool'
+version=' '
+priority='optional'
+homepage='https://github.com/jtt/tcpstat'
+
+###### Install ######
+# system "make"
+# bin.install "tcpstat"

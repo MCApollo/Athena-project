@@ -1,0 +1,18 @@
+# googler.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/googler.rb
+# Converted on 02-01-2019
+
+name='googler'
+url=('https://github.com/jarun/googler/archive/v3.7.1.tar.gz')
+description='Google Search and News from the command-line'
+version='3.7.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/jarun/googler'
+depends=('python')
+
+###### Install ######
+# system "make", "disable-self-upgrade"
+# system "make", "install", "PREFIX=#{prefix}"
+# bash_completion.install "auto-completion/bash/googler-completion.bash"
+# fish_completion.install "auto-completion/fish/googler.fish"
+# zsh_completion.install "auto-completion/zsh/_googler"

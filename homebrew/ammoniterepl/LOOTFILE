@@ -1,0 +1,16 @@
+# ammonite-repl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ammonite-repl.rb
+# Converted on 02-01-2019
+
+name='ammoniterepl'
+url=('https://github.com/lihaoyi/Ammonite/releases/download/1.6.3/2.12-1.6.3')
+description='Ammonite is a cleanroom re-implementation of the Scala REPL'
+version='2.12' # Guessed version.
+priority='optional'
+homepage='https://lihaoyi.github.io/Ammonite/#Ammonite-REPL'
+depends=(':java')
+
+###### Install ######
+# libexec.install Dir["*"].shift => "amm"
+# chmod 0555, libexec/"amm"
+# bin.install_symlink libexec/"amm"

@@ -1,0 +1,17 @@
+# davix.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/davix.rb
+# Converted on 02-01-2019
+
+name='davix'
+url=('https://github.com/cern-it-sdc-id/davix.git')
+description='Library and tools for advanced file I/O with HTTP-based protocols'
+version=' '
+priority='optional'
+homepage='https://dmc.web.cern.ch/projects/davix/home'
+depends=('openssl' 'ossp-uuid')
+makedepends=('cmake' 'doxygen' 'python@2')
+
+###### Install ######
+# ENV.libcxx
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

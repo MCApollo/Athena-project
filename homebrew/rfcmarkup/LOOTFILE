@@ -1,0 +1,13 @@
+# rfcmarkup.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rfcmarkup.rb
+# Converted on 02-01-2019
+
+name='rfcmarkup'
+url=('https://tools.ietf.org/tools/rfcmarkup/rfcmarkup-1.119.tgz')
+description='Add HTML markup and links to internet-drafts and RFCs'
+version='1.119' # Guessed version.
+priority='optional'
+homepage='https://tools.ietf.org/tools/rfcmarkup/'
+
+###### Install ######
+# bin.install "rfcmarkup"

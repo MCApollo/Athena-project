@@ -1,0 +1,19 @@
+# enchant.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/enchant.rb
+# Converted on 02-01-2019
+
+name='enchant'
+url=('https://github.com/AbiWord/enchant/releases/download/v2.2.3/enchant-2.2.3.tar.gz')
+description='Spellchecker wrapping library'
+version='2.2.3' # Guessed version.
+priority='optional'
+homepage='https://abiword.github.io/enchant/'
+depends=('aspell' 'glib')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-relocatable"
+# system "make", "install"
+# ln_s "enchant-2.pc", lib/"pkgconfig/enchant.pc"

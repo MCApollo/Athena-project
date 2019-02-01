@@ -1,0 +1,28 @@
+# liblas.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/liblas.rb
+# Converted on 02-01-2019
+
+name='liblas'
+url=('https://download.osgeo.org/liblas/libLAS-1.8.1.tar.bz2')
+description='C/C++ library for reading and writing the LAS LiDAR format'
+version='1.8.1' # Guessed version.
+priority='optional'
+homepage='https://liblas.org/'
+depends=('boost' 'gdal' 'libgeotiff')
+makedepends=('cmake')
+# Patches
+url+=('https://github.com/libLAS/libLAS/commit/49606470.patch?full_index=1')
+url+=('https://github.com/libLAS/libLAS/commit/ec10e274.diff?full_index=1')
+
+###### Install ######
+# ENV.cxx11
+# mkdir "macbuild" do
+# ENV["Boost_INCLUDE_DIR"] = "#{HOMEBREW_PREFIX}/include"
+# ENV["Boost_LIBRARY_DIRS"] = "#{HOMEBREW_PREFIX}/lib"
+# system "cmake", "..", *std_cmake_args,
+# "-DWITH_GDAL=ON",
+# "-DWITH_GEOTIFF=ON"
+# system "make"
+# system "make", "test"
+# system "make", "install"
+# end

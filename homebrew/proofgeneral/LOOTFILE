@@ -1,0 +1,29 @@
+# proof-general.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/proof-general.rb
+# Converted on 02-01-2019
+
+name='proofgeneral'
+url=('https://github.com/ProofGeneral/PG/archive/v4.4.tar.gz')
+description='Emacs-based generic interface for theorem provers'
+version='4.4' # Guessed version.
+priority='optional'
+homepage='https://proofgeneral.github.io'
+depends=('emacs')
+makedepends=('texi2html' 'texinfo')
+
+###### Install ######
+# ENV.deparallelize
+# args = %W[
+# PREFIX=#{prefix}
+# DEST_PREFIX=#{prefix}
+# ELISPP=share/emacs/site-lisp/proof-general
+# ELISP_START=#{elisp}/site-start.d
+# EMACS=#{which "emacs"}
+# ]
+# system "make", "install", *args
+# cd "doc" do
+# system "make", "info", "html"
+# end
+# man1.install "doc/proofgeneral.1"
+# info.install "doc/ProofGeneral.info", "doc/PG-adapting.info"
+# doc.install "doc/ProofGeneral", "doc/PG-adapting"

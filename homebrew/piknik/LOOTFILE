@@ -1,0 +1,24 @@
+# piknik.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/piknik.rb
+# Converted on 02-01-2019
+
+name='piknik'
+url=('https://github.com/jedisct1/piknik/archive/0.9.1.tar.gz')
+description='Copy/paste anything over the network'
+version='0.9.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/jedisct1/piknik'
+makedepends=('glide' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["GLIDE_HOME"] = HOMEBREW_CACHE/"glide_home/#{name}"
+# dir = buildpath/"src/github.com/jedisct1/"
+# dir.install Dir["*"]
+# ln_s buildpath/"src", dir
+# cd dir do
+# system "glide", "install"
+# system "go", "build", "-o", bin/"piknik", "."
+# (prefix/"etc/profile.d").install "zsh.aliases" => "piknik.sh"
+# prefix.install_metafiles
+# end

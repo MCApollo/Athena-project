@@ -1,0 +1,39 @@
+# kibana@5.6.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kibana@5.6.rb
+# Converted on 02-01-2019
+
+name='kibanaat56'
+url=('https://github.com/elastic/kibana.git')
+description='Analytics and search dashboard for Elasticsearch'
+version=' '
+priority='optional'
+homepage='https://www.elastic.co/products/kibana'
+
+###### Resource ######
+# node: https://nodejs.org/dist/v6.15.1/node-v6.15.1.tar.xz
+
+###### Install ######
+# resource("node").stage do
+# system "./configure", "--prefix=#{libexec}/node"
+# system "make", "install"
+# end
+# inreplace buildpath/"package.json", "\"version\": \"5.6.15\",", "\"version\": \"5.6.14\","
+# inreplace buildpath/"tasks/config/platforms.js", /('(linux-x64|windows-x64)',?(?!;))/, "// \\1"
+# mkdir_p buildpath/".node_binaries/#{resource("node").version}/darwin-x64"
+# inreplace libexec/"node/include/node/common.gypi", "'MACOSX_DEPLOYMENT_TARGET': '10.7',",
+# "'MACOSX_DEPLOYMENT_TARGET': '#{MacOS.version}',"
+# ENV["npm_config_nodedir"] = libexec/"node"
+# ENV.prepend_path "PATH", prefix/"libexec/node/bin"
+# system "npm", "install", "-ddd", "--build-from-source", "--#{Language::Node.npm_cache_config}"
+# system "npm", "run", "build", "--", "--release", "--skip-os-packages", "--skip-archives"
+# prefix.install Dir["build/kibana-#{version}-darwin-x86_64/{bin,config,node_modules,optimize,package.json,src,ui_framework,webpackShims}"]
+# inreplace "#{bin}/kibana", %r{/node/bin/node}, "/libexec/node/bin/node"
+# inreplace "#{bin}/kibana-plugin", %r{/node/bin/node}, "/libexec/node/bin/node"
+# cd prefix do
+# inreplace "config/kibana.yml", "/var/run/kibana.pid", var/"run/kibana.pid"
+# (etc/"kibana").install Dir["config/*"]
+# rm_rf "config"
+# end
+# ln_s etc/"kibana", prefix/"config"
+# (prefix/"data").mkdir
+# (prefix/"plugins").mkdir

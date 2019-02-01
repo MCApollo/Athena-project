@@ -1,0 +1,15 @@
+# mrtg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mrtg.rb
+# Converted on 02-01-2019
+
+name='mrtg'
+url=('https://oss.oetiker.ch/mrtg/pub/mrtg-2.17.7.tar.gz')
+description='Multi router traffic grapher'
+version='2.17.7' # Guessed version.
+priority='optional'
+homepage='https://oss.oetiker.ch/mrtg/'
+depends=('gd')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

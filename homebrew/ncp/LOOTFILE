@@ -1,0 +1,18 @@
+# ncp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ncp.rb
+# Converted on 02-01-2019
+
+name='ncp'
+url=('https://dl.fefe.de/ncp-1.2.4.tar.bz2')
+description='File copy tool for LANs'
+version='1.2.4' # Guessed version.
+priority='optional'
+homepage='https://www.fefe.de/ncp/'
+depends=('libowfat')
+# Patches
+url+=('https://gist.githubusercontent.com/plumbojumbo/9331146/raw/560e46a688ac9493ffbc1464e59cc062c0940532/GNUmakefile.diff')
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}",
+# "LIBOWFAT_PREFIX=#{Formula["libowfat"].opt_prefix}"
+# system "make", "PREFIX=#{prefix}", "install"

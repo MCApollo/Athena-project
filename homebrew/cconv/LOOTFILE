@@ -1,0 +1,18 @@
+# cconv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cconv.rb
+# Converted on 02-01-2019
+
+name='cconv'
+url=('https://github.com/xiaoyjy/cconv/archive/v0.6.3.tar.gz')
+description='Iconv based simplified-traditional Chinese conversion tool'
+version='0.6.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/xiaoyjy/cconv'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# ENV.append "LDFLAGS", "-liconv"
+# system "autoreconf", "-fvi"
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"
+# rm_f include/"unicode.h"

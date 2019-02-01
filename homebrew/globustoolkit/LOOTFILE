@@ -1,0 +1,24 @@
+# globus-toolkit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/globus-toolkit.rb
+# Converted on 02-01-2019
+
+name='globustoolkit'
+url=('https://downloads.globus.org/toolkit/gt6/stable/installers/src/globus_toolkit-6.0.1531931206.tar.gz')
+description='Toolkit used for building grids'
+version='6.0.1531931206' # Guessed version.
+priority='optional'
+homepage='https://www.globus.org/toolkit/'
+depends=('libtool' 'openssl')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.deparallelize
+# ENV["MACOSX_DEPLOYMENT_TARGET"] = MacOS.version
+# man.mkpath
+# system "./configure", "--prefix=#{libexec}",
+# "--mandir=#{man}",
+# "--disable-dependency-tracking"
+# system "make"
+# system "make", "install"
+# bins = Dir["#{libexec}/bin/*"].select { |f| File.executable? f }
+# bin.write_exec_script bins

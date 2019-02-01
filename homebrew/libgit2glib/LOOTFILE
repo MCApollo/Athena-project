@@ -1,0 +1,27 @@
+# libgit2-glib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgit2-glib.rb
+# Converted on 02-01-2019
+
+name='libgit2glib'
+url=('https://download.gnome.org/sources/libgit2-glib/0.27/libgit2-glib-0.27.7.tar.xz')
+description='Glib wrapper library around libgit2 git access library'
+version='0.27.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/GNOME/libgit2-glib'
+depends=('gettext' 'glib' 'libgit2')
+makedepends=('gobject-introspection' 'meson-internal' 'ninja' 'pkg-config' 'python' 'vala')
+
+###### Install ######
+# ENV.refurbish_args
+# inreplace "libgit2-glib/meson.build",
+# "libgit2_glib_link_args = [ '-Wl,-Bsymbolic-functions' ]",
+# "libgit2_glib_link_args = []"
+# mkdir "build" do
+# system "meson", "--prefix=#{prefix}",
+# "-Dpython=false",
+# "-Dvapi=true",
+# ".."
+# system "ninja"
+# system "ninja", "install"
+# libexec.install Dir["examples/*"]
+# end

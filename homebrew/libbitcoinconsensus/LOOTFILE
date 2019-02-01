@@ -1,0 +1,31 @@
+# libbitcoin-consensus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbitcoin-consensus.rb
+# Converted on 02-01-2019
+
+name='libbitcoinconsensus'
+url=('https://github.com/libbitcoin/libbitcoin-consensus/archive/v3.5.0.tar.gz')
+description='Bitcoin Consensus Library (optional)'
+version='3.5.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/libbitcoin/libbitcoin-consensus'
+makedepends=('autoconf' 'automake' 'boost' 'libtool' 'pkg-config')
+
+###### Resource ######
+# secp256k1: https://github.com/libbitcoin/secp256k1/archive/v0.1.0.13.tar.gz
+
+###### Install ######
+# resource("secp256k1").stage do
+# system "./autogen.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{libexec}",
+# "--enable-module-recovery",
+# "--with-bignum=no"
+# system "make", "install"
+# end
+# ENV.prepend_path "PKG_CONFIG_PATH", "#{libexec}/lib/pkgconfig"
+# system "./autogen.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

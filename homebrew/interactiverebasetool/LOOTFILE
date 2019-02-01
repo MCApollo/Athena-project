@@ -1,0 +1,15 @@
+# interactive-rebase-tool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/interactive-rebase-tool.rb
+# Converted on 02-01-2019
+
+name='interactiverebasetool'
+url=('https://github.com/MitMaro/git-interactive-rebase-tool/archive/0.7.0.tar.gz')
+description='Ncurses sequence editor for git interactive rebase'
+version='0.7.0' # Guessed version.
+priority='optional'
+homepage='https://gitrebasetool.mitmaro.ca/'
+depends=('openssl')
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

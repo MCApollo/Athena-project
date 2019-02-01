@@ -1,0 +1,14 @@
+# befunge93.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/befunge93.rb
+# Converted on 02-01-2019
+
+name='befunge93'
+url=('https://catseye.tc/distfiles/befunge-93-2.23-2015.0101.zip')
+description='Esoteric programming language'
+version='2.23' # Guessed version.
+priority='optional'
+homepage='https://catseye.tc/node/Befunge-93.html'
+
+###### Install ######
+# system "make"
+# bin.install Dir["bin/bef*"]

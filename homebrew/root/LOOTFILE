@@ -1,0 +1,55 @@
+# root.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/root.rb
+# Converted on 02-01-2019
+
+name='root'
+url=('https://root.cern.ch/download/root_v6.16.00.source.tar.gz')
+description='Object oriented framework for large scale data analysis'
+version='6.16.00' # Guessed version.
+priority='optional'
+homepage='https://root.cern.ch/'
+depends=('davix' 'fftw' 'gcc' 'graphviz' 'gsl' 'libxml2' 'lz4' 'openssl' 'pcre' 'python' 'tbb' 'xrootd' 'xz')
+makedepends=('cmake')
+
+###### Install ######
+# ENV.delete("SDKROOT") if DevelopmentTools.clang_build_version >= 900
+# inreplace "cmake/modules/SearchInstalledSoftware.cmake",
+# "http://lcgpackages",
+# "https://lcgpackages"
+# py_exe = Utils.popen_read("which python3").strip
+# py_prefix = Utils.popen_read("python3 -c 'import sys;print(sys.prefix)'").chomp
+# py_inc = Utils.popen_read("python3 -c 'from distutils import sysconfig;print(sysconfig.get_python_inc(True))'").chomp
+# args = std_cmake_args + %W[
+# -DCLING_CXX_PATH=clang++
+# -DCMAKE_INSTALL_ELISPDIR=#{elisp}
+# -DPYTHON_EXECUTABLE=#{py_exe}
+# -DPYTHON_INCLUDE_DIR=#{py_inc}
+# -DPYTHON_LIBRARY=#{py_prefix}/Python
+# -Dbuiltin_cfitsio=OFF
+# -Dbuiltin_freetype=ON
+# -Ddavix=ON
+# -Dfftw3=ON
+# -Dfitsio=OFF
+# -Dfortran=ON
+# -Dgdml=ON
+# -Dgnuinstall=ON
+# -Dimt=ON
+# -Dmathmore=ON
+# -Dminuit2=ON
+# -Dmysql=OFF
+# -Dpgsql=OFF
+# -Dpython=ON
+# -Droofit=ON
+# -Dssl=ON
+# -Dtmva=ON
+# -Dxrootd=ON
+# ]
+# mkdir "builddir" do
+# system "cmake", "..", *args
+# if MacOS.version < :high_sierra
+# system "xcrun", "make", "install"
+# else
+# system "make", "install"
+# end
+# chmod 0755, Dir[bin/"*.*sh"]
+# end

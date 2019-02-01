@@ -1,0 +1,17 @@
+# aterm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aterm.rb
+# Converted on 02-01-2019
+
+name='aterm'
+url=('http://www.meta-environment.org/releases/aterm-2.8.tar.gz')
+description='Annotated Term for tree-like ADT exchange'
+version='2.8' # Guessed version.
+priority='optional'
+homepage='https://strategoxt.org/Tools/ATermFormat'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# ENV.deparallelize
+# system "make", "install"

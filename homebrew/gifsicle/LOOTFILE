@@ -1,0 +1,21 @@
+# gifsicle.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gifsicle.rb
+# Converted on 02-01-2019
+
+name='gifsicle'
+url=('https://www.lcdf.org/gifsicle/gifsicle-1.91.tar.gz')
+description='GIF image/animation creator/editor'
+version='1.91' # Guessed version.
+priority='optional'
+homepage='https://www.lcdf.org/gifsicle/'
+makedepends=('')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --disable-gifview
+# ]
+# system "./bootstrap.sh" if build.head?
+# system "./configure", *args
+# system "make", "install"

@@ -1,0 +1,14 @@
+# blazeblogger.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/blazeblogger.rb
+# Converted on 02-01-2019
+
+name='blazeblogger'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/blazeblogger/blazeblogger-1.2.0.tar.gz')
+description='CMS for the command-line'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='http://blaze.blackened.cz/'
+
+###### Install ######
+# ENV.deparallelize
+# system "make", "prefix=#{prefix}", "compdir=#{prefix}", "install"

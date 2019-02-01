@@ -1,0 +1,18 @@
+# librealsense.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/librealsense.rb
+# Converted on 02-01-2019
+
+name='librealsense'
+url=('https://github.com/IntelRealSense/librealsense/archive/v2.17.1.tar.gz')
+description='Intel RealSense D400 series and SR300 capture'
+version='2.17.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/IntelRealSense/librealsense'
+depends=('glfw' 'libusb')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# args = std_cmake_args
+# args << "-DENABLE_CCACHE=OFF"
+# system "cmake", ".", "-DBUILD_WITH_OPENMP=OFF", *args
+# system "make", "install"

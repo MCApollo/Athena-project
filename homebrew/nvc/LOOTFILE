@@ -1,0 +1,23 @@
+# nvc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nvc.rb
+# Converted on 02-01-2019
+
+name='nvc'
+url=('https://github.com/nickg/nvc/releases/download/r1.4.0/nvc-1.4.0.tar.gz')
+description='VHDL compiler and simulator'
+version='1.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/nickg/nvc'
+makedepends=('check' 'llvm' 'pkg-config')
+
+###### Resource ######
+# vim-hdl-examples: https://github.com/suoto/vim-hdl-examples.git
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./tools/fetch-ieee.sh"
+# system "./configure", "--with-llvm=#{Formula["llvm"].opt_bin}/llvm-config",
+# "--prefix=#{prefix}",
+# "--with-system-cc=/usr/bin/clang"
+# system "make"
+# system "make", "install"

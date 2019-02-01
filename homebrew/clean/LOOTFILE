@@ -1,0 +1,15 @@
+# clean.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/clean.rb
+# Converted on 02-01-2019
+
+name='clean'
+url=('https://downloads.sourceforge.net/project/clean/clean/3.4/clean-3.4.tar.bz2')
+description='Search for files matching a regex and delete them'
+version='3.4' # Guessed version.
+priority='optional'
+homepage='https://clean.sourceforge.io/'
+
+###### Install ######
+# system "make"
+# bin.install "clean"
+# man1.install "clean.1"

@@ -1,0 +1,45 @@
+# openimageio.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/openimageio.rb
+# Converted on 02-01-2019
+
+name='openimageio'
+url=('https://github.com/OpenImageIO/oiio/archive/Release-1.8.17.tar.gz')
+description='Library for reading, processing and writing images'
+version='1.8.17' # Guessed version.
+priority='optional'
+homepage='http://openimageio.org/'
+depends=('boost' 'boost-python' 'boost-python3' 'ffmpeg' 'freetype' 'giflib' 'ilmbase' 'jpeg' 'libpng' 'libraw' 'libtiff' 'opencolorio' 'openexr' 'python' 'webp')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# args = std_cmake_args + %w[
+# -DEMBEDPLUGINS=ON
+# -DUSE_FIELD3D=OFF
+# -DUSE_JPEGTURBO=OFF
+# -DUSE_NUKE=OFF
+# -DUSE_OPENCV=OFF
+# -DUSE_OPENGL=OFF
+# -DUSE_OPENJPEG=OFF
+# -DUSE_OPENSSL=OFF
+# -DUSE_PTEX=OFF
+# -DUSE_QT=OFF
+# ]
+# mkdir "build-with-python2" do
+# system "cmake", "..", "-DBoost_PYTHON_LIBRARIES=#{Formula["boost-python"].opt_lib}/libboost_python27-mt.dylib",
+# *args
+# system "make", "install"
+# end
+# py3ver = Language::Python.major_minor_version "python3"
+# py3prefix = Formula["python3"].opt_frameworks/"Python.framework/Versions/#{py3ver}"
+# ENV["PYTHONPATH"] = lib/"python#{py3ver}/site-packages"
+# args << "-DPYTHON_EXECUTABLE=#{py3prefix}/bin/python3"
+# args << "-DPYTHON_LIBRARY=#{py3prefix}/lib/libpython#{py3ver}.dylib"
+# args << "-DPYTHON_INCLUDE_DIR=#{py3prefix}/include/python#{py3ver}m"
+# args << "-DBOOST_ROOT=#{Formula["boost"].opt_prefix}"
+# args << "-DBoost_PYTHON_LIBRARIES=#{Formula["boost-python3"].opt_lib}/libboost_python#{py3ver.to_s.delete(".")}-mt.dylib"
+# args << "-DBoost_PYTHON_LIBRARY_DEBUG=''"
+# args << "-DBoost_PYTHON_LIBRARY_RELEASE=''"
+# mkdir "build-with-python3" do
+# system "cmake", "..", *args
+# system "make", "install"
+# end

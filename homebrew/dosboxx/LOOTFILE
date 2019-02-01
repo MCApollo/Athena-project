@@ -1,0 +1,22 @@
+# dosbox-x.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dosbox-x.rb
+# Converted on 02-01-2019
+
+name='dosboxx'
+url=('https://github.com/joncampbell123/dosbox-x/archive/dosbox-x-v0.82.14.tar.gz')
+description='DOSBox with accurate emulation and wide testing'
+version='0.82.14' # Guessed version.
+priority='optional'
+homepage='http://dosbox-x.com/'
+depends=('fluid-synth')
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# ENV.cxx11
+# args = %W[
+# --prefix=#{prefix}
+# --disable-dependency-tracking
+# --disable-sdltest
+# ]
+# system "./build-macosx", *args
+# system "make", "install"

@@ -1,0 +1,15 @@
+# ios-sim.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ios-sim.rb
+# Converted on 02-01-2019
+
+name='iossim'
+url=('https://registry.npmjs.org/ios-sim/-/ios-sim-7.0.0.tgz')
+description='Command-line application launcher for the iOS Simulator'
+version='7.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/phonegap/ios-sim'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

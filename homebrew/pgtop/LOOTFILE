@@ -1,0 +1,17 @@
+# pg_top.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pg_top.rb
+# Converted on 02-01-2019
+
+name='pgtop'
+url=('https://ftp.postgresql.org/pub/projects/pgFoundry/ptop/pg_top/3.7.0/pg_top-3.7.0.tar.bz2')
+description='Monitor PostgreSQL processes'
+version='3.7.0' # Guessed version.
+priority='optional'
+homepage='https://git.postgresql.org/gitweb/?p=pg_top.git'
+depends=('postgresql')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# (buildpath/"config.h").append_lines "#define HAVE_DECL_STRLCPY 1"
+# system "make", "install"

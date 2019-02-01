@@ -1,0 +1,12 @@
+# pyenv-virtualenvwrapper.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pyenv-virtualenvwrapper.rb
+# Converted on 02-01-2019
+
+name='pyenvvirtualenvwrapper'
+url=('https://github.com/pyenv/pyenv-virtualenvwrapper/archive/v20140609.tar.gz')
+description='Alternative to pyenv for managing virtualenvs'
+version=' '
+priority='optional'
+homepage='https://github.com/pyenv/pyenv-virtualenvwrapper'
+
+###### Install ######

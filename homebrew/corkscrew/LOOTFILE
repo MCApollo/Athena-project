@@ -1,0 +1,18 @@
+# corkscrew.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/corkscrew.rb
+# Converted on 02-01-2019
+
+name='corkscrew'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/c/corkscrew/corkscrew_2.0.orig.tar.gz')
+description='Tunnel SSH through HTTP proxies'
+version='2.0' # Guessed version.
+priority='optional'
+homepage='https://packages.debian.org/sid/corkscrew'
+makedepends=('libtool')
+
+###### Install ######
+# cp Dir["#{Formula["libtool"].opt_share}/libtool/*/config.{guess,sub}"], buildpath
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,18 @@
+# libmonome.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmonome.rb
+# Converted on 02-01-2019
+
+name='libmonome'
+url=('https://github.com/monome/libmonome/archive/v1.4.2.tar.gz')
+description='Interact with monome devices via C, Python, or FFI'
+version='1.4.2' # Guessed version.
+priority='optional'
+homepage='https://monome.org/'
+depends=('liblo')
+
+###### Install ######
+# inreplace "wscript", /conf.env.append_unique.*-mmacosx-version-min=10.5.*/,
+# "pass"
+# system "./waf", "configure", "--prefix=#{prefix}"
+# system "./waf", "build"
+# system "./waf", "install"

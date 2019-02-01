@@ -1,0 +1,16 @@
+# servus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/servus.rb
+# Converted on 02-01-2019
+
+name='servus'
+url=('https://github.com/HBPVIS/Servus.git')
+description='Library and Utilities for zeroconf networking'
+version=' '
+priority='optional'
+homepage='https://github.com/HBPVIS/Servus'
+depends=('boost')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

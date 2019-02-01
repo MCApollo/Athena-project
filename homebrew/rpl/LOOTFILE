@@ -1,0 +1,17 @@
+# rpl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rpl.rb
+# Converted on 02-01-2019
+
+name='rpl'
+url=('https://web.archive.org/web/20170106105512/downloads.laffeycomputer.com/current_builds/rpl-1.4.1.tar.gz')
+description='Text replacement utility'
+version='1.4.1' # Guessed version.
+priority='optional'
+homepage='http://www.laffeycomputer.com/rpl.html'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

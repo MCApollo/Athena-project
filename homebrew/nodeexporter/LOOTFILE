@@ -1,0 +1,19 @@
+# node_exporter.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/node_exporter.rb
+# Converted on 02-01-2019
+
+name='nodeexporter'
+url=('https://github.com/prometheus/node_exporter/archive/v0.16.0.tar.gz')
+description='Prometheus exporter for machine metrics'
+version='0.16.0' # Guessed version.
+priority='optional'
+homepage='https://prometheus.io/'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/prometheus").mkpath
+# ln_s buildpath, "src/github.com/prometheus/node_exporter"
+# system "go", "build", "-o", bin/"node_exporter", "-ldflags",
+# "-X github.com/prometheus/node_exporter/vendor/github.com/prometheus/common/version.Version=#{version}",
+# "github.com/prometheus/node_exporter"

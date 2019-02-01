@@ -1,0 +1,28 @@
+# gucharmap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gucharmap.rb
+# Converted on 02-01-2019
+
+name='gucharmap'
+url=('https://download.gnome.org/sources/gucharmap/11.0/gucharmap-11.0.3.tar.xz')
+description='GNOME Character Map, based on the Unicode Character Database'
+version='11.0.3' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/Apps/Gucharmap'
+depends=('gtk+3')
+makedepends=('coreutils' 'desktop-file-utils' 'intltool' 'itstool' 'pkg-config' 'python')
+
+###### Install ######
+# xy = Language::Python.major_minor_version "python3"
+# ENV.append_path "PYTHONPATH", "#{Formula["libxml2"].opt_lib}/python#{xy}/site-packages"
+# ENV["WGET"] = "curl"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--disable-Bsymbolic",
+# "--disable-schemas-compile",
+# "--enable-introspection=no",
+# "--with-unicode-data=download"
+# system "make", "WGETFLAGS=--remote-name --remote-time --connect-timeout 30 --retry 8"
+# system "make", "install"
+# system "#{Formula["glib"].opt_bin}/glib-compile-schemas", "#{HOMEBREW_PREFIX}/share/glib-2.0/schemas"

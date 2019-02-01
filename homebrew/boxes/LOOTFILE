@@ -1,0 +1,16 @@
+# boxes.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/boxes.rb
+# Converted on 02-01-2019
+
+name='boxes'
+url=('https://github.com/ascii-boxes/boxes/archive/v1.2.tar.gz')
+description='Draw boxes around text'
+version='1.2' # Guessed version.
+priority='optional'
+homepage='https://boxes.thomasjensen.com/'
+
+###### Install ######
+# system "make", "GLOBALCONF=#{share}/boxes-config", "CC=#{ENV.cc}"
+# bin.install "src/boxes"
+# man1.install "doc/boxes.1"
+# share.install "boxes-config"

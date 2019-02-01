@@ -1,0 +1,25 @@
+# opencbm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/opencbm.rb
+# Converted on 02-01-2019
+
+name='opencbm'
+url=('https://spiro.trikaliotis.net/Download/opencbm-0.4.99.99/opencbm-0.4.99.99.tar.bz2')
+description='Provides access to various floppy drive formats'
+version='0.4.99.99' # Guessed version.
+priority='optional'
+homepage='https://spiro.trikaliotis.net/opencbm-alpha'
+depends=('libusb-compat')
+makedepends=('cc65')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/48bd0fd/opencbm/endian.diff')
+
+###### Install ######
+# ENV.deparallelize
+# args = %W[
+# -fLINUX/Makefile
+# LIBUSB_CONFIG=#{Formula["libusb-compat"].bin}/libusb-config
+# PREFIX=#{prefix}
+# MANDIR=#{man1}
+# ]
+# system "make", *args
+# system "make", "install-all", *args

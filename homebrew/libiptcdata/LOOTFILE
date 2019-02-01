@@ -1,0 +1,16 @@
+# libiptcdata.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libiptcdata.rb
+# Converted on 02-01-2019
+
+name='libiptcdata'
+url=('https://downloads.sourceforge.net/project/libiptcdata/libiptcdata/1.0.4/libiptcdata-1.0.4.tar.gz')
+description='Virtual package provided by libiptcdata0'
+version='1.0.4' # Guessed version.
+priority='optional'
+homepage='https://libiptcdata.sourceforge.io/'
+depends=('gettext')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

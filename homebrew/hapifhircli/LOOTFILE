@@ -1,0 +1,19 @@
+# hapi-fhir-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hapi-fhir-cli.rb
+# Converted on 02-01-2019
+
+name='hapifhircli'
+url=('https://github.com/jamesagnew/hapi-fhir/releases/download/v3.6.0/hapi-fhir-3.6.0-cli.zip')
+description='Command-line interface for the HAPI FHIR library'
+version='3.6.0' # Guessed version.
+priority='optional'
+homepage='http://hapifhir.io/doc_cli.html'
+depends=(':java')
+
+###### Resource ######
+# test_resource: https://github.com/jamesagnew/hapi-fhir/raw/v3.6.0/hapi-fhir-structures-dstu3/src/test/resources/specimen-example.json
+
+###### Install ######
+# inreplace "hapi-fhir-cli", /SCRIPTDIR=(.*)/, "SCRIPTDIR=#{libexec}"
+# libexec.install "hapi-fhir-cli.jar"
+# bin.install "hapi-fhir-cli"

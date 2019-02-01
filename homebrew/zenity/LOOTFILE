@@ -1,0 +1,17 @@
+# zenity.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zenity.rb
+# Converted on 02-01-2019
+
+name='zenity'
+url=('https://download.gnome.org/sources/zenity/3.30/zenity-3.30.0.tar.xz')
+description='GTK+ dialog boxes for the command-line'
+version='3.30.0' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/Projects/Zenity'
+depends=('gtk+3')
+makedepends=('itstool' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

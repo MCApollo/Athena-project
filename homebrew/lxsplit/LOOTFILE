@@ -1,0 +1,16 @@
+# lxsplit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lxsplit.rb
+# Converted on 02-01-2019
+
+name='lxsplit'
+url=('https://downloads.sourceforge.net/lxsplit/lxsplit-0.2.4.tar.gz')
+description='Tool for splitting or joining files'
+version='0.2.4' # Guessed version.
+priority='optional'
+homepage='https://lxsplit.sourceforge.io/'
+
+###### Install ######
+# bin.mkpath
+# inreplace "Makefile", "/usr/local/bin", bin
+# system "make"
+# system "make", "install"

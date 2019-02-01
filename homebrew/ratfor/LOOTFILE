@@ -1,0 +1,15 @@
+# ratfor.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ratfor.rb
+# Converted on 02-01-2019
+
+name='ratfor'
+url=('http://www.dgate.org/ratfor/tars/ratfor-1.03.tar.gz')
+description='Rational Fortran'
+version='1.03' # Guessed version.
+priority='optional'
+homepage='http://www.dgate.org/ratfor/'
+depends=('gcc')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

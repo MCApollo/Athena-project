@@ -1,0 +1,15 @@
+# lm4tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lm4tools.rb
+# Converted on 02-01-2019
+
+name='lm4tools'
+url=('https://github.com/utzig/lm4tools/archive/v0.1.3.tar.gz')
+description='Tools for TI Stellaris Launchpad boards'
+version='0.1.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/utzig/lm4tools'
+depends=('libusb')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

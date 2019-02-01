@@ -1,0 +1,15 @@
+# tiff2png.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tiff2png.rb
+# Converted on 02-01-2019
+
+name='tiff2png'
+url=('https://github.com/rillian/tiff2png/archive/v0.92.tar.gz')
+description='TIFF to PNG converter'
+version='0.92' # Guessed version.
+priority='optional'
+homepage='http://www.libpng.org/pub/png/apps/tiff2png.html'
+depends=('jpeg' 'libpng' 'libtiff')
+
+###### Install ######
+# bin.mkpath
+# system "make", "INSTALL=#{prefix}", "CC=#{ENV.cc}", "install"

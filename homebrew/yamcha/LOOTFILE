@@ -1,0 +1,18 @@
+# yamcha.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yamcha.rb
+# Converted on 02-01-2019
+
+name='yamcha'
+url=('http://chasen.org/~taku/software/yamcha/src/yamcha-0.33.tar.gz')
+description='NLP text chunker using Support Vector Machines'
+version='0.33' # Guessed version.
+priority='optional'
+homepage='http://chasen.org/~taku/software/yamcha/'
+depends=('tinysvm')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

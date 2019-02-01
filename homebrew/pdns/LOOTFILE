@@ -1,0 +1,26 @@
+# pdns.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdns.rb
+# Converted on 02-01-2019
+
+name='pdns'
+url=('https://downloads.powerdns.com/releases/pdns-4.1.4.tar.bz2')
+description='Authoritative nameserver'
+version='4.1.4' # Guessed version.
+priority='optional'
+homepage='https://www.powerdns.com'
+depends=('boost' 'lua' 'openssl' 'sqlite')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV["SDKROOT"] = MacOS.sdk_path if MacOS.version == :sierra
+# args = %W[
+# --prefix=#{prefix}
+# --sysconfdir=#{etc}/powerdns
+# --with-lua
+# --with-openssl=#{Formula["openssl"].opt_prefix}
+# --with-sqlite3
+# --with-modules=gsqlite3
+# ]
+# system "./bootstrap" if build.head?
+# system "./configure", *args
+# system "make", "install"

@@ -1,0 +1,24 @@
+# gnu-units.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-units.rb
+# Converted on 02-01-2019
+
+name='gnuunits'
+url=('https://ftp.gnu.org/gnu/units/units-2.18.tar.gz')
+description='GNU unit conversion tool'
+version='2.18' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/units/'
+depends=('readline')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --with-installed-readline
+# --program-prefix=g
+# ]
+# system "./configure", *args
+# system "make", "install"
+# (libexec/"gnubin").install_symlink bin/"gunits" => "units"
+# (libexec/"gnubin").install_symlink bin/"gunits_cur" => "units_cur"
+# (libexec/"gnuman/man1").install_symlink man1/"gunits.1" => "units.1"
+# libexec.install_symlink "gnuman" => "man"

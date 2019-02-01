@@ -1,0 +1,18 @@
+# fizsh.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fizsh.rb
+# Converted on 02-01-2019
+
+name='fizsh'
+url=('https://downloads.sourceforge.net/project/fizsh/fizsh-1.0.9.tar.gz')
+description='Fish-like front end for ZSH'
+version='1.0.9' # Guessed version.
+priority='optional'
+homepage='https://github.com/zsh-users/fizsh'
+depends=('zsh')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

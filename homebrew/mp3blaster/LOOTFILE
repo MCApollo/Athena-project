@@ -1,0 +1,18 @@
+# mp3blaster.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mp3blaster.rb
+# Converted on 02-01-2019
+
+name='mp3blaster'
+url=('https://downloads.sourceforge.net/project/mp3blaster/mp3blaster/mp3blaster-3.2.6/mp3blaster-3.2.6.tar.gz')
+description='Text-based mp3 player'
+version='3.2.6' # Guessed version.
+priority='optional'
+homepage='https://mp3blaster.sourceforge.io'
+depends=('sdl')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

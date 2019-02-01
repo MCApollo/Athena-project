@@ -1,0 +1,19 @@
+# libpagemaker.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpagemaker.rb
+# Converted on 02-01-2019
+
+name='libpagemaker'
+url=('https://dev-www.libreoffice.org/src/libpagemaker/libpagemaker-0.0.4.tar.xz')
+description='Imports file format of Aldus/Adobe PageMaker documents'
+version='0.0.4' # Guessed version.
+priority='optional'
+homepage='https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker'
+depends=('librevenge')
+makedepends=('boost' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--without-docs",
+# "--disable-dependency-tracking",
+# "--enable-static=no",
+# "--prefix=#{prefix}"
+# system "make", "install"

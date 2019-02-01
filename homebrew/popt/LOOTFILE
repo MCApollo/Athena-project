@@ -1,0 +1,15 @@
+# popt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/popt.rb
+# Converted on 02-01-2019
+
+name='popt'
+url=('http://rpm5.org/files/popt/popt-1.16.tar.gz')
+description='Library like getopt(3) with a number of enhancements'
+version='1.16' # Guessed version.
+priority='optional'
+homepage='http://rpm5.org'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

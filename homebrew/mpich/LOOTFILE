@@ -1,0 +1,25 @@
+# mpich.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpich.rb
+# Converted on 02-01-2019
+
+name='mpich'
+url=('https://www.mpich.org/static/downloads/3.3/mpich-3.3.tar.gz')
+description='Implementation of the MPI Message Passing Interface standard'
+version='3.3' # Guessed version.
+priority='optional'
+homepage='https://www.mpich.org/'
+depends=('gcc')
+makedepends=('')
+
+###### Install ######
+# if build.head?
+# ENV["MPICH_AUTOTOOLS_DIR"] = HOMEBREW_PREFIX + "bin"
+# system "./autogen.sh"
+# end
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make"
+# system "make", "check"
+# system "make", "install"

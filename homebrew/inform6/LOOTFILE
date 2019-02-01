@@ -1,0 +1,16 @@
+# inform6.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/inform6.rb
+# Converted on 02-01-2019
+
+name='inform6'
+url=('')
+description='Design system for interactive fiction'
+version=' '
+priority='optional'
+homepage='https://inform-fiction.org/inform6.html'
+
+###### Resource ######
+# Adventureland.inf: https://inform-fiction.org/examples/Adventureland/Adventureland.inf
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "MAN_PREFIX=#{man}", "install"

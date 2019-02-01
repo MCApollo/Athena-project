@@ -1,0 +1,18 @@
+# libtool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtool.rb
+# Converted on 02-01-2019
+
+name='libtool'
+url=('https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.xz')
+description='Generic library support script'
+version='2.4.6' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/libtool/'
+
+###### Install ######
+# ENV["SED"] = "sed"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--program-prefix=g",
+# "--enable-ltdl-install"
+# system "make", "install"

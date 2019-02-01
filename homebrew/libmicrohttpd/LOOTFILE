@@ -1,0 +1,18 @@
+# libmicrohttpd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmicrohttpd.rb
+# Converted on 02-01-2019
+
+name='libmicrohttpd'
+url=('https://ftp.gnu.org/gnu/libmicrohttpd/libmicrohttpd-0.9.62.tar.gz')
+description='Light HTTP/1.1 server library'
+version='0.9.62' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/libmicrohttpd/'
+depends=('gnutls' 'libgcrypt')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# pkgshare.install "doc/examples"

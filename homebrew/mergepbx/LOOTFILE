@@ -1,0 +1,19 @@
+# mergepbx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mergepbx.rb
+# Converted on 02-01-2019
+
+name='mergepbx'
+url=('https://github.com/simonwagner/mergepbx/archive/v0.10.tar.gz')
+description='Merge XCode project files in git'
+version='0.10' # Guessed version.
+priority='optional'
+homepage='https://github.com/simonwagner/mergepbx'
+
+###### Resource ######
+# dummy_base: https://raw.githubusercontent.com/simonwagner/mergepbx/a9bd9d8f4a732eff989ea03fbc0d78f6f6fb594f/test/fixtures/merge/dummy/dummy1/project.pbxproj.base
+# dummy_mine: https://raw.githubusercontent.com/simonwagner/mergepbx/a9bd9d8f4a732eff989ea03fbc0d78f6f6fb594f/test/fixtures/merge/dummy/dummy1/project.pbxproj.mine
+# dummy_theirs: https://raw.githubusercontent.com/simonwagner/mergepbx/a9bd9d8f4a732eff989ea03fbc0d78f6f6fb594f/test/fixtures/merge/dummy/dummy1/project.pbxproj.theirs
+
+###### Install ######
+# system "./build.py"
+# bin.install "mergepbx"

@@ -1,0 +1,20 @@
+# unp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/unp.rb
+# Converted on 02-01-2019
+
+name='unp'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/u/unp/unp_2.0~pre7+nmu1.tar.bz2')
+description='Unpack everything with one command'
+version='2.0' # Guessed version.
+priority='optional'
+homepage='https://packages.debian.org/source/stable/unp'
+depends=('p7zip')
+
+###### Install ######
+# bin.install %w[unp ucat]
+# man1.install "debian/unp.1"
+# bash_completion.install "bash_completion.d/unp"
+# %w[COPYING CHANGELOG].each { |f| rm f }
+# mv "debian/README.Debian", "README"
+# mv "debian/copyright", "COPYING"
+# mv "debian/changelog", "ChangeLog"

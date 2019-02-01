@@ -1,0 +1,17 @@
+# tealdeer.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tealdeer.rb
+# Converted on 02-01-2019
+
+name='tealdeer'
+url=('https://github.com/dbrgn/tealdeer/archive/v1.1.0.tar.gz')
+description='Very fast implementation of tldr in Rust'
+version='1.1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/dbrgn/tealdeer'
+makedepends=('rust')
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix,
+# "--path", "."
+# bash_completion.install "bash_tealdeer"

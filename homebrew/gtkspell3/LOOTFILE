@@ -1,0 +1,20 @@
+# gtkspell3.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtkspell3.rb
+# Converted on 02-01-2019
+
+name='gtkspell3'
+url=('https://downloads.sourceforge.net/project/gtkspell/3.0.10/gtkspell3-3.0.10.tar.xz')
+description='Gtk widget for highlighting and replacing misspelled words'
+version='3.0.10' # Guessed version.
+priority='optional'
+homepage='https://gtkspell.sourceforge.io/'
+depends=('enchant' 'gtk+3')
+makedepends=('autoconf' 'automake' 'gobject-introspection' 'intltool' 'libtool' 'pkg-config' 'vala')
+
+###### Install ######
+# system "autoreconf", "-fi"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-debug",
+# "--enable-vala",
+# "--prefix=#{prefix}"
+# system "make", "install"

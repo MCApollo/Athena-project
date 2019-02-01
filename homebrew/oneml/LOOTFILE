@@ -1,0 +1,18 @@
+# one-ml.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/one-ml.rb
+# Converted on 02-01-2019
+
+name='oneml'
+url=('https://www.mpi-sws.org/~rossberg/1ml/1ml-0.1.zip')
+description='Reboot of ML, unifying its core and (now first-class) module layers'
+version='0.1' # Guessed version.
+priority='optional'
+homepage='https://www.mpi-sws.org/~rossberg/1ml/'
+makedepends=('ocaml')
+
+###### Install ######
+# ENV["OCAMLPARAM"] = "safe-string=0,_"
+# system "make"
+# bin.install "1ml"
+# (pkgshare/"stdlib").install Dir.glob("*.1ml")
+# doc.install "README.txt"

@@ -1,0 +1,21 @@
+# slackcat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/slackcat.rb
+# Converted on 02-01-2019
+
+name='slackcat'
+url=('https://github.com/vektorlab/slackcat/archive/v1.4.tar.gz')
+description='Command-line utility for posting snippets to Slack'
+version='1.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/vektorlab/slackcat'
+makedepends=('dep' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/vektorlab/slackcat").install buildpath.children
+# cd "src/github.com/vektorlab/slackcat" do
+# system "dep", "ensure", "-vendor-only"
+# system "go", "build", "-o", bin/"slackcat",
+# "-ldflags", "-X main.version=#{version}"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,20 @@
+# lego.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lego.rb
+# Converted on 02-01-2019
+
+name='lego'
+url=('https://github.com/xenolf/lego/archive/v1.2.1.tar.gz')
+description='Let'\''s Encrypt client'
+version='1.2.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/xenolf/lego'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/xenolf/lego").install buildpath.children
+# cd "src/github.com/xenolf/lego" do
+# system "go", "build", "-o", bin/"lego", "-ldflags",
+# "-X main.version=#{version}"
+# prefix.install_metafiles
+# end

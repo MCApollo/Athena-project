@@ -1,0 +1,16 @@
+# sbuild.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sbuild.rb
+# Converted on 02-01-2019
+
+name='sbuild'
+url=('http://sbuild.org/uploads/sbuild/0.7.7/sbuild-0.7.7-dist.zip')
+description='Scala-based build system'
+version='0.7.7' # Guessed version.
+priority='optional'
+homepage='http://sbuild.org'
+depends=(':java')
+
+###### Install ######
+# libexec.install Dir["*"]
+# chmod 0755, libexec/"bin/sbuild"
+# bin.install_symlink libexec/"bin/sbuild"

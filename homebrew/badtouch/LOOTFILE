@@ -1,0 +1,17 @@
+# badtouch.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/badtouch.rb
+# Converted on 02-01-2019
+
+name='badtouch'
+url=('https://github.com/kpcyrd/badtouch/archive/v0.6.1.tar.gz')
+description='Scriptable network authentication cracker'
+version='0.6.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/kpcyrd/badtouch'
+depends=('openssl')
+makedepends=('rust')
+
+###### Install ######
+# ENV["OPENSSL_DIR"] = Formula["openssl"].opt_prefix
+# system "cargo", "install", "--root", prefix, "--path", "."
+# man1.install "docs/badtouch.1"

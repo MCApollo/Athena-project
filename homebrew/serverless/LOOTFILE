@@ -1,0 +1,15 @@
+# serverless.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/serverless.rb
+# Converted on 02-01-2019
+
+name='serverless'
+url=('https://registry.npmjs.org/serverless/-/serverless-1.35.1.tgz')
+description='Build applications with serverless architectures'
+version='1.35.1' # Guessed version.
+priority='optional'
+homepage='https://serverless.com'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

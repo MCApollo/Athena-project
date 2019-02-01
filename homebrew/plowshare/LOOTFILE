@@ -1,0 +1,14 @@
+# plowshare.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/plowshare.rb
+# Converted on 02-01-2019
+
+name='plowshare'
+url=('https://github.com/mcrapet/plowshare/archive/v2.1.7.tar.gz')
+description='Download/upload tool for popular file sharing websites'
+version='2.1.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/mcrapet/plowshare'
+depends=('bash' 'coreutils' 'feh' 'gnu-sed' 'libcaca' 'recode' 'spidermonkey')
+
+###### Install ######
+# system "make", "install", "patch_gnused", "GNU_SED=#{Formula["gnu-sed"].opt_bin}/gsed", "PREFIX=#{prefix}"

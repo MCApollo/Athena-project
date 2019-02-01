@@ -1,0 +1,16 @@
+# phpmyadmin.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/phpmyadmin.rb
+# Converted on 02-01-2019
+
+name='phpmyadmin'
+url=('https://files.phpmyadmin.net/phpMyAdmin/4.8.5/phpMyAdmin-4.8.5-all-languages.tar.gz')
+description='Web interface for MySQL and MariaDB'
+version='4.8.5' # Guessed version.
+priority='optional'
+homepage='https://www.phpmyadmin.net'
+depends=('php')
+
+###### Install ######
+# pkgshare.install Dir["*"]
+# etc.install pkgshare/"config.sample.inc.php" => "phpmyadmin.config.inc.php"
+# ln_s etc/"phpmyadmin.config.inc.php", pkgshare/"config.inc.php"

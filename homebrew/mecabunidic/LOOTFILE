@@ -1,0 +1,18 @@
+# mecab-unidic.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mecab-unidic.rb
+# Converted on 02-01-2019
+
+name='mecabunidic'
+url=('https://dotsrc.dl.osdn.net/osdn/unidic/58338/unidic-mecab-2.1.2_src.zip')
+description='Morphological analyzer for MeCab'
+version='2.1.2' # Guessed version.
+priority='optional'
+homepage='https://osdn.net/projects/unidic/'
+depends=('mecab')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-dicdir=#{lib}/mecab/dic/unidic"
+# system "make", "install"

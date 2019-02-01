@@ -1,0 +1,15 @@
+# bash.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bash.rb
+# Converted on 02-01-2019
+
+name='bash'
+url=('')
+description='Bourne-Again SHell, a UNIX command interpreter'
+version=' '
+priority='optional'
+homepage='https://www.gnu.org/software/bash/'
+
+###### Install ######
+# ENV.append_to_cflags "-DSSH_SOURCE_BASHRC"
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

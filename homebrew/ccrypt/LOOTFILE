@@ -1,0 +1,19 @@
+# ccrypt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ccrypt.rb
+# Converted on 02-01-2019
+
+name='ccrypt'
+url=('https://downloads.sourceforge.net/project/ccrypt/1.11/ccrypt-1.11.tar.gz')
+description='Encrypt and decrypt files and streams'
+version='1.11' # Guessed version.
+priority='optional'
+homepage='https://ccrypt.sourceforge.io/'
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--with-lispdir=#{share}/emacs/site-lisp/ccrypt"
+# system "make", "install"
+# system "make", "check"

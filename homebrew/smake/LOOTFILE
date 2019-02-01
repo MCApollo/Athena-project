@@ -1,0 +1,18 @@
+# smake.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/smake.rb
+# Converted on 02-01-2019
+
+name='smake'
+url=('https://downloads.sourceforge.net/project/s-make/smake-1.2.5.tar.bz2')
+description='Portable make program with automake features'
+version='1.2.5' # Guessed version.
+priority='optional'
+homepage='https://s-make.sourceforge.io/'
+
+###### Install ######
+# ENV.deparallelize
+# ENV.O1 if DevelopmentTools.clang_build_version >= 900
+# system "make", "GMAKE_NOWARN=true", "INS_BASE=#{libexec}", "INS_RBASE=#{libexec}", "install"
+# bin.install_symlink libexec/"bin/smake"
+# man1.install_symlink Dir["#{libexec}/share/man/man1/*.1"]
+# man5.install_symlink Dir["#{libexec}/share/man/man5/*.5"]

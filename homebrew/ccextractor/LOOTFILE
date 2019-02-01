@@ -1,0 +1,17 @@
+# ccextractor.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ccextractor.rb
+# Converted on 02-01-2019
+
+name='ccextractor'
+url=('https://github.com/CCExtractor/ccextractor/archive/v0.87.tar.gz')
+description='Free, GPL licensed closed caption tool'
+version='0.87' # Guessed version.
+priority='optional'
+homepage='https://www.ccextractor.org/'
+
+###### Install ######
+# cd "mac" do
+# system "./build.command"
+# bin.install "ccextractor"
+# end
+# (pkgshare/"examples").install "docs/ccextractor.cnf.sample"

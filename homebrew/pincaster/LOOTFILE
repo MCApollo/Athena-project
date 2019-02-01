@@ -1,0 +1,22 @@
+# pincaster.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pincaster.rb
+# Converted on 02-01-2019
+
+name='pincaster'
+url=('https://download.pureftpd.org/pincaster/releases/pincaster-0.6.tar.bz2')
+description='Nosql database with a HTTP/JSON interface'
+version='0.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/jedisct1/Pincaster'
+depends=('openssl')
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--with-yajl=embedded"
+# system "make", "install"
+# inreplace "pincaster.conf" do |s|
+# s.gsub! "/var/db/pincaster/pincaster.db", "#{var}/db/pincaster/pincaster.db"
+# s.gsub! "
+# end
+# etc.install "pincaster.conf"
+# (var/"db/pincaster/").mkpath

@@ -1,0 +1,16 @@
+# libident.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libident.rb
+# Converted on 02-01-2019
+
+name='libident'
+url=('https://www.remlab.net/files/libident/libident-0.32.tar.gz')
+description='Ident protocol library'
+version='0.32' # Guessed version.
+priority='optional'
+homepage='https://www.remlab.net/libident/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

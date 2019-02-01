@@ -1,0 +1,18 @@
+# kallisto.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kallisto.rb
+# Converted on 02-01-2019
+
+name='kallisto'
+url=('https://github.com/pachterlab/kallisto/archive/v0.45.0.tar.gz')
+description='Quantify abundances of transcripts from RNA-Seq data'
+version='0.45.0' # Guessed version.
+priority='optional'
+homepage='https://pachterlab.github.io/kallisto/'
+depends=('hdf5')
+makedepends=('autoconf' 'automake' 'cmake')
+
+###### Install ######
+# system "autoreconf", "-fiv", "ext/htslib"
+# system "cmake", ".", *std_cmake_args
+# system "make", "htslib"
+# system "make", "install"

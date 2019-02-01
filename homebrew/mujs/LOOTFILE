@@ -1,0 +1,14 @@
+# mujs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mujs.rb
+# Converted on 02-01-2019
+
+name='mujs'
+url=('https://github.com/ccxvii/mujs.git')
+description='Embeddable Javascript interpreter'
+version=' '
+priority='optional'
+homepage='https://www.mujs.com/'
+
+###### Install ######
+# system "make", "release"
+# system "make", "prefix=#{prefix}", "install"

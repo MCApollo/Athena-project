@@ -1,0 +1,18 @@
+# clhep.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/clhep.rb
+# Converted on 02-01-2019
+
+name='clhep'
+url=('https://proj-clhep.web.cern.ch/proj-clhep/DISTRIBUTION/tarFiles/clhep-2.4.1.0.tgz')
+description='Class Library for High Energy Physics'
+version='2.4.1.0' # Guessed version.
+priority='optional'
+homepage='https://proj-clhep.web.cern.ch/proj-clhep/'
+makedepends=('cmake')
+
+###### Install ######
+# mv (buildpath/"CLHEP").children, buildpath if build.stable?
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

@@ -1,0 +1,14 @@
+# shellharden.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shellharden.rb
+# Converted on 02-01-2019
+
+name='shellharden'
+url=('https://github.com/anordal/shellharden/archive/v4.1.tar.gz')
+description='Bash syntax highlighter that encourages/fixes variables quoting'
+version='4.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/anordal/shellharden'
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

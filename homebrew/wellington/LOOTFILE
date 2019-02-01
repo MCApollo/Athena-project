@@ -1,0 +1,23 @@
+# wellington.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wellington.rb
+# Converted on 02-01-2019
+
+name='wellington'
+url=('https://github.com/wellington/wellington/archive/v1.0.4.tar.gz')
+description='Project-focused tool to manage Sass and spriting'
+version='1.0.4' # Guessed version.
+priority='optional'
+homepage='https://getwt.io/'
+makedepends=('go' 'pkg-config')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# dir = buildpath/"src/github.com/wellington/wellington"
+# dir.install buildpath.children
+# Language::Go.stage_deps resources, buildpath/"src"
+# cd dir do
+# system "go", "build", "-ldflags",
+# "-X github.com/wellington/wellington/version.Version=#{version}",
+# "-o", bin/"wt", "wt/main.go"
+# prefix.install_metafiles
+# end

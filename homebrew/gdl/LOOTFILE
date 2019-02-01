@@ -1,0 +1,18 @@
+# gdl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gdl.rb
+# Converted on 02-01-2019
+
+name='gdl'
+url=('https://download.gnome.org/sources/gdl/3.28/gdl-3.28.0.tar.xz')
+description='GNOME Docking Library provides docking features for GTK+ 3'
+version='3.28.0' # Guessed version.
+priority='optional'
+homepage='https://developer.gnome.org/gdl/'
+depends=('gtk+3' 'libxml2')
+makedepends=('gobject-introspection' 'intltool' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

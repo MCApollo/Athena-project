@@ -1,0 +1,15 @@
+# clockywock.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/clockywock.rb
+# Converted on 02-01-2019
+
+name='clockywock'
+url=('https://soomka.com/clockywock-0.3.1a.tar.gz')
+description='Ncurses analog clock'
+version='0.3.1' # Guessed version.
+priority='optional'
+homepage='https://soomka.com/'
+
+###### Install ######
+# system "make"
+# bin.install "clockywock"
+# man7.install "clockywock.7"

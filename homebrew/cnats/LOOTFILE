@@ -1,0 +1,17 @@
+# cnats.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cnats.rb
+# Converted on 02-01-2019
+
+name='cnats'
+url=('https://github.com/nats-io/cnats/archive/v1.8.0.tar.gz')
+description='C client for the NATS messaging system'
+version='1.8.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/nats-io/cnats'
+depends=('libevent' 'libuv' 'openssl')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", "-DNATS_INSTALL_PREFIX=#{prefix}",
+# "-DBUILD_TESTING=OFF", *std_cmake_args
+# system "make", "install"

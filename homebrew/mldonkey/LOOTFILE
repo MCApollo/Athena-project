@@ -1,0 +1,19 @@
+# mldonkey.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mldonkey.rb
+# Converted on 02-01-2019
+
+name='mldonkey'
+url=('https://github.com/ygrek/mldonkey/releases/download/release-3-1-6/mldonkey-3.1.6.tar.bz2')
+description='OCaml/GTK client for the eDonkey P2P network'
+version='3.1.6' # Guessed version.
+priority='optional'
+homepage='https://mldonkey.sourceforge.io'
+depends=('gd' 'libpng')
+makedepends=('camlp4' 'ocaml' 'ocaml-num' 'pkg-config')
+
+###### Install ######
+# ENV["OCAMLPARAM"] = "safe-string=0,_"
+# ENV.deparallelize
+# ENV["OCAMLC"] = "#{HOMEBREW_PREFIX}/bin/ocamlc.opt -cc #{ENV.cc}"
+# system "./configure", "--prefix=#{prefix}", "--disable-magic"
+# system "make", "install"

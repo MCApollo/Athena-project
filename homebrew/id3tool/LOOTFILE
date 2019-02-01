@@ -1,0 +1,17 @@
+# id3tool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/id3tool.rb
+# Converted on 02-01-2019
+
+name='id3tool'
+url=('http://nekohako.xware.cx/id3tool/id3tool-1.2a.tar.gz')
+description='ID3 editing tool'
+version='1.2' # Guessed version.
+priority='optional'
+homepage='http://nekohako.xware.cx/id3tool/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

@@ -1,0 +1,16 @@
+# juman.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/juman.rb
+# Converted on 02-01-2019
+
+name='juman'
+url=('http://nlp.ist.i.kyoto-u.ac.jp/nl-resource/juman/juman-7.01.tar.bz2')
+description='Japanese morphological analysis system'
+version='7.01' # Guessed version.
+priority='optional'
+homepage='http://nlp.ist.i.kyoto-u.ac.jp/index.php?JUMAN'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

@@ -1,0 +1,16 @@
+# cunit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cunit.rb
+# Converted on 02-01-2019
+
+name='cunit'
+url=('https://downloads.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.tar.bz2')
+description='Lightweight unit testing framework for C'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://cunit.sourceforge.io/'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# inreplace "bootstrap", "libtoolize", "glibtoolize"
+# system "sh", "bootstrap", prefix
+# system "make", "install"

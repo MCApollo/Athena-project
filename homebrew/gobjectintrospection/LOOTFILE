@@ -1,0 +1,26 @@
+# gobject-introspection.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gobject-introspection.rb
+# Converted on 02-01-2019
+
+name='gobjectintrospection'
+url=('https://download.gnome.org/sources/gobject-introspection/1.58/gobject-introspection-1.58.3.tar.xz')
+description='Generate introspection data for GObject libraries'
+version='1.58.3' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/Projects/GObjectIntrospection'
+depends=('cairo' 'glib' 'libffi' 'pkg-config' 'python')
+
+###### Resource ######
+# tutorial: https://gist.github.com/7a0023656ccfe309337a.git
+
+###### Install ######
+# ENV["GI_SCANNER_DISABLE_CACHE"] = "true"
+# inreplace "giscanner/transformer.py", "/usr/share", "#{HOMEBREW_PREFIX}/share"
+# inreplace "configure" do |s|
+# s.change_make_var! "GOBJECT_INTROSPECTION_LIBDIR", "#{HOMEBREW_PREFIX}/lib"
+# end
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-python=#{Formula["python"].opt_bin}/python3"
+# system "make"
+# system "make", "install"

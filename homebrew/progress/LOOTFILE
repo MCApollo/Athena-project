@@ -1,0 +1,13 @@
+# progress.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/progress.rb
+# Converted on 02-01-2019
+
+name='progress'
+url=('https://github.com/Xfennec/progress/archive/v0.14.tar.gz')
+description='Progress: Coreutils Progress Viewer'
+version='0.14' # Guessed version.
+priority='optional'
+homepage='https://github.com/Xfennec/progress'
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "install"

@@ -1,0 +1,17 @@
+# sonarqube-lts.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sonarqube-lts.rb
+# Converted on 02-01-2019
+
+name='sonarqubelts'
+url=('https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-6.7.4.zip')
+description='Manage code quality'
+version='6.7.4' # Guessed version.
+priority='optional'
+homepage='https://www.sonarqube.org/'
+depends=(':java')
+makedepends=('')
+
+###### Install ######
+# rm_rf Dir["bin/{linux,windows}-*"]
+# libexec.install Dir["*"]
+# bin.install_symlink "#{libexec}/bin/macosx-universal-64/sonar.sh" => "sonar"

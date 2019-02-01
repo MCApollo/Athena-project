@@ -1,0 +1,22 @@
+# ucg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ucg.rb
+# Converted on 02-01-2019
+
+name='ucg'
+url=('https://github.com/gvansickle/ucg/releases/download/0.3.3/universalcodegrep-0.3.3.tar.gz')
+description='Tool for searching large bodies of source code (like grep)'
+version='0.3.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/gvansickle/ucg'
+depends=('pcre2')
+makedepends=('argp-standalone' 'autoconf' 'automake' 'libtool' 'pkg-config')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/00615b/ucg/xcode9.patch')
+
+###### Install ######
+# system "autoreconf", "-i" if build.head?
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

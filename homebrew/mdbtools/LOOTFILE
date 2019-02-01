@@ -1,0 +1,18 @@
+# mdbtools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mdbtools.rb
+# Converted on 02-01-2019
+
+name='mdbtools'
+url=('https://github.com/brianb/mdbtools/archive/0.7.1.tar.gz')
+description='Tools to facilitate the use of Microsoft Access databases'
+version='0.7.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/brianb/mdbtools/'
+depends=('glib' 'readline')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# ENV.deparallelize
+# system "autoreconf", "-i", "-f"
+# system "./configure", "--prefix=#{prefix}", "--disable-man"
+# system "make", "install"

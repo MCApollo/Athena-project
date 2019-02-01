@@ -1,0 +1,22 @@
+# svg2pdf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/svg2pdf.rb
+# Converted on 02-01-2019
+
+name='svg2pdf'
+url=('https://cairographics.org/snapshots/svg2pdf-0.1.3.tar.gz')
+description='Renders SVG images to a PDF file (using Cairo)'
+version='0.1.3' # Guessed version.
+priority='optional'
+homepage='https://cairographics.org/'
+depends=('libsvg-cairo')
+makedepends=('pkg-config')
+
+###### Resource ######
+# svg.svg: https://raw.githubusercontent.com/mathiasbynens/small/master/svg.svg
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

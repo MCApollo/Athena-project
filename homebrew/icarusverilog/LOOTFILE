@@ -1,0 +1,17 @@
+# icarus-verilog.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/icarus-verilog.rb
+# Converted on 02-01-2019
+
+name='icarusverilog'
+url=('ftp://icarus.com/pub/eda/verilog/v10/verilog-10.2.tar.gz')
+description='Verilog simulation and synthesis tool'
+version='10.2' # Guessed version.
+priority='optional'
+homepage='http://iverilog.icarus.com/'
+makedepends=('bison')
+
+###### Install ######
+# system "autoconf" if build.head?
+# system "./configure", "--prefix=#{prefix}"
+# ENV.deparallelize
+# system "make", "install", "BISON=#{Formula["bison"].opt_bin}/bison"

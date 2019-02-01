@@ -1,0 +1,15 @@
+# dtc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dtc.rb
+# Converted on 02-01-2019
+
+name='dtc'
+url=('https://www.kernel.org/pub/software/utils/dtc/dtc-1.4.7.tar.xz')
+description='Device tree compiler'
+version='1.4.7' # Guessed version.
+priority='optional'
+homepage='https://www.devicetree.org/'
+
+###### Install ######
+# system "make", "NO_PYTHON=1"
+# system "make", "NO_PYTHON=1", "DESTDIR=#{prefix}", "PREFIX=", "install"
+# mv lib/"libfdt.dylib.1", lib/"libfdt.1.dylib"

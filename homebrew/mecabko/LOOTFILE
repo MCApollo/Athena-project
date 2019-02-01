@@ -1,0 +1,20 @@
+# mecab-ko.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mecab-ko.rb
+# Converted on 02-01-2019
+
+name='mecabko'
+url=('https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.2.tar.gz')
+description='See mecab'
+version='0.996' # Guessed version.
+priority='optional'
+homepage='https://bitbucket.org/eunjeon/mecab-ko'
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}"
+# system "make", "install"
+# inreplace "#{bin}/mecab-config", "${exec_prefix}/lib/mecab/dic", "#{HOMEBREW_PREFIX}/lib/mecab/dic"
+# inreplace "#{etc}/mecabrc", "#{lib}/mecab/dic", "#{HOMEBREW_PREFIX}/lib/mecab/dic"
+# (HOMEBREW_PREFIX/"lib/mecab/dic").mkpath

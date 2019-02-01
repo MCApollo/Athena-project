@@ -1,0 +1,33 @@
+# imake.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/imake.rb
+# Converted on 02-01-2019
+
+name='imake'
+url=('https://xorg.freedesktop.org/releases/individual/util/imake-1.0.7.tar.bz2')
+description='Build automation system written for X11'
+version='1.0.7' # Guessed version.
+priority='optional'
+homepage='https://xorg.freedesktop.org'
+depends=('gcc' ':x11')
+makedepends=('pkg-config')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/patches/a0bb3a4/imake/patch-imakemdep.h.diff')
+
+###### Resource ######
+# xorg-cf-files: https://xorg.freedesktop.org/releases/individual/util/xorg-cf-files-1.0.5.tar.bz2
+
+###### Install ######
+# ENV.deparallelize
+# cpp_program = Formula["gcc"].opt_bin/"cpp-#{Formula["gcc"].version_suffix}"
+# inreplace "imakemdep.h", /::CPPCMD::/, cpp_program
+# inreplace "imake.man", /__cpp__/, cpp_program
+# ENV["RAWCPP"] = cpp_program
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"
+# resource("xorg-cf-files").stage do
+# inreplace "X11.rules", "define TopXInclude	/**/",
+# "define TopXInclude	-I#{MacOS::X11.include}"
+# system "./configure", "--with-config-dir=#{lib}/X11/config",
+# "--prefix=#{HOMEBREW_PREFIX}"
+# system "make", "install"
+# end

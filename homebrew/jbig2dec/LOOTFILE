@@ -1,0 +1,23 @@
+# jbig2dec.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jbig2dec.rb
+# Converted on 02-01-2019
+
+name='jbig2dec'
+url=('https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs924/jbig2dec-0.15.tar.gz')
+description='JBIG2 decoder and library (for monochrome documents)'
+version='0.15' # Guessed version.
+priority='optional'
+homepage='https://jbig2dec.com/'
+
+###### Resource ######
+# test: https://github.com/apache/tika/raw/master/tika-parsers/src/test/resources/test-documents/testJBIG2.jb2
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --disable-silent-rules
+# --without-libpng
+# ]
+# system "./configure", *args
+# system "make", "install"

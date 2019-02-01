@@ -1,0 +1,20 @@
+# ocproxy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ocproxy.rb
+# Converted on 02-01-2019
+
+name='ocproxy'
+url=('https://github.com/cernekee/ocproxy/archive/v1.60.tar.gz')
+description='User-level SOCKS and port forwarding proxy'
+version='1.60' # Guessed version.
+priority='optional'
+homepage='https://github.com/cernekee/ocproxy'
+depends=('libevent')
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# system "./autogen.sh"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

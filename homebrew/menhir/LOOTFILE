@@ -1,0 +1,16 @@
+# menhir.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/menhir.rb
+# Converted on 02-01-2019
+
+name='menhir'
+url=('http://cristal.inria.fr/~fpottier/menhir/menhir-20180905.tar.gz')
+description='LR(1) parser generator for the OCaml programming language'
+version=' '
+priority='optional'
+homepage='http://cristal.inria.fr/~fpottier/menhir'
+depends=('ocaml')
+makedepends=('ocamlbuild')
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "all"
+# system "make", "PREFIX=#{prefix}", "install"

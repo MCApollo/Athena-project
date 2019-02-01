@@ -1,0 +1,22 @@
+# awf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/awf.rb
+# Converted on 02-01-2019
+
+name='awf'
+url=('https://github.com/valr/awf/archive/v1.4.0.tar.gz')
+description=''\''A Widget Factory'\'' is a theme preview application for gtk2 and gtk3'
+version='1.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/valr/awf'
+depends=('gtk+' 'gtk+3')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# inreplace "src/awf.c", "/usr/share/themes", "#{HOMEBREW_PREFIX}/share/themes"
+# system "./autogen.sh"
+# rm "README.md"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

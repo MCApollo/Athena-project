@@ -1,0 +1,22 @@
+# jsoncpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsoncpp.rb
+# Converted on 02-01-2019
+
+name='jsoncpp'
+url=('https://github.com/open-source-parsers/jsoncpp/archive/1.8.4.tar.gz')
+description='Library for interacting with JSON'
+version='1.8.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/open-source-parsers/jsoncpp'
+makedepends=('cmake')
+
+###### Install ######
+# ENV.cxx11
+# system "cmake", ".", *std_cmake_args,
+# "-DBUILD_STATIC_LIBS=ON",
+# "-DBUILD_SHARED_LIBS=ON",
+# "-DJSONCPP_WITH_CMAKE_PACKAGE=ON",
+# "-DJSONCPP_WITH_TESTS=OFF",
+# "-DJSONCPP_WITH_POST_BUILD_UNITTEST=OFF",
+# "-DCCACHE_FOUND=CCACHE_FOUND-NOTFOUND"
+# system "make", "install"

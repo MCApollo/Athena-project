@@ -1,0 +1,16 @@
+# qxmpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qxmpp.rb
+# Converted on 02-01-2019
+
+name='qxmpp'
+url=('https://github.com/qxmpp-project/qxmpp/archive/v0.9.3.tar.gz')
+description='Cross-platform C++ XMPP client and server library'
+version='0.9.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/qxmpp-project/qxmpp/'
+depends=('qt')
+
+###### Install ######
+# system "qmake", "-config", "release", "PREFIX=#{prefix}"
+# system "make"
+# system "make", "install"

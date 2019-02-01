@@ -1,0 +1,21 @@
+# lfe.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lfe.rb
+# Converted on 02-01-2019
+
+name='lfe'
+url=('https://github.com/rvirding/lfe/archive/v1.3.tar.gz')
+description='Concurrent Lisp for the Erlang VM'
+version='1.3' # Guessed version.
+priority='optional'
+homepage='http://lfe.io/'
+depends=('erlang')
+
+###### Install ######
+# system "make"
+# system "make", "MANINSTDIR=#{man}", "install-man"
+# system "make", "emacs"
+# libexec.install "bin", "ebin"
+# bin.install_symlink (libexec/"bin").children
+# doc.install Dir["doc/*.txt"]
+# pkgshare.install "dev", "examples", "test"
+# elisp.install Dir["emacs/*.elc"]

@@ -1,0 +1,15 @@
+# dieharder.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dieharder.rb
+# Converted on 02-01-2019
+
+name='dieharder'
+url=('https://www.phy.duke.edu/~rgb/General/dieharder/dieharder-3.31.1.tgz')
+description='Random number test suite'
+version='3.31.1' # Guessed version.
+priority='optional'
+homepage='https://www.phy.duke.edu/~rgb/General/dieharder.php'
+depends=('gsl')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-shared"
+# system "make", "install"

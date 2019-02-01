@@ -1,0 +1,17 @@
+# httping.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/httping.rb
+# Converted on 02-01-2019
+
+name='httping'
+url=('https://www.vanheusden.com/httping/httping-2.5.tgz')
+description='Ping-like tool for HTTP requests'
+version='2.5' # Guessed version.
+priority='optional'
+homepage='https://www.vanheusden.com/httping/'
+depends=('gettext' 'openssl')
+
+###### Install ######
+# inreplace %w[configure Makefile], "ncursesw", "ncurses"
+# ENV.append "LDFLAGS", "-lintl"
+# inreplace "Makefile", "cp nl.mo $(DESTDIR)/$(PREFIX)/share/locale/nl/LC_MESSAGES/httping.mo", ""
+# system "make", "install", "PREFIX=#{prefix}"

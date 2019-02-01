@@ -1,0 +1,19 @@
+# libsbol.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsbol.rb
+# Converted on 02-01-2019
+
+name='libsbol'
+url=('https://github.com/SynBioDex/libSBOL/archive/v2.3.0.0.tar.gz')
+description='Read and write files in the Synthetic Biology Open Language (SBOL)'
+version='2.3.0.0' # Guessed version.
+priority='optional'
+homepage='https://synbiodex.github.io/libSBOL'
+depends=('jsoncpp' 'raptor')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# system "cmake", ".", "-DCMAKE_CXX_FLAGS=-I/System/Library/Frameworks/Python.framework/Headers",
+# "-DSBOL_BUILD_SHARED=TRUE",
+# "-DSBOL_BUILD_STATIC=FALSE",
+# *std_cmake_args
+# system "make", "install"

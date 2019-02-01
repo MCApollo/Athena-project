@@ -1,0 +1,12 @@
+# rbenv-bundle-exec.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rbenv-bundle-exec.rb
+# Converted on 02-01-2019
+
+name='rbenvbundleexec'
+url=('https://github.com/maljub01/rbenv-bundle-exec/archive/v1.0.0.tar.gz')
+description='Integrate rbenv and bundler'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/maljub01/rbenv-bundle-exec'
+
+###### Install ######

@@ -1,0 +1,24 @@
+# istioctl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/istioctl.rb
+# Converted on 02-01-2019
+
+name='istioctl'
+url=('https://github.com/istio/istio.git')
+description='Istio configuration command-line utility'
+version=' '
+priority='optional'
+homepage='https://github.com/istio/istio'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["TAG"] = version.to_s
+# ENV["ISTIO_VERSION"] = version.to_s
+# srcpath = buildpath/"src/istio.io/istio"
+# outpath = buildpath/"out/darwin_amd64/release"
+# srcpath.install buildpath.children
+# cd srcpath do
+# system "make", "istioctl"
+# prefix.install_metafiles
+# bin.install outpath/"istioctl"
+# end

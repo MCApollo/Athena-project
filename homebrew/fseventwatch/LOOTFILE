@@ -1,0 +1,14 @@
+# fsevent_watch.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fsevent_watch.rb
+# Converted on 02-01-2019
+
+name='fseventwatch'
+url=('https://github.com/proger/fsevent_watch/archive/v0.1.tar.gz')
+description='macOS FSEvents client'
+version='0.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/proger/fsevent_watch'
+
+###### Install ######
+# bin.mkpath
+# system "make", "install", "PREFIX=#{prefix}", "CFLAGS=-DCLI_VERSION=\\\"#{version}\\\""

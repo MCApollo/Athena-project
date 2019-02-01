@@ -1,0 +1,33 @@
+# bitlbee.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bitlbee.rb
+# Converted on 02-01-2019
+
+name='bitlbee'
+url=('')
+description='IRC to other chat networks gateway'
+version=' '
+priority='optional'
+homepage='https://www.bitlbee.org/'
+depends=('gettext' 'glib' 'gnutls' 'libgcrypt')
+makedepends=('pkg-config')
+# Patches
+url+=('https://github.com/bitlbee/bitlbee/commit/eb73d05e.patch?full_index=1')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --plugindir=#{HOMEBREW_PREFIX}/lib/bitlbee/
+# --debug=0
+# --ssl=gnutls
+# --etcdir=#{etc}/bitlbee
+# --pidfile=#{var}/bitlbee/run/bitlbee.pid
+# --config=#{var}/bitlbee/lib/
+# --ipsocket=#{var}/bitlbee/run/bitlbee.sock
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# system "make", "install-dev"
+# system "make", "install-etc"
+# (var/"bitlbee/run").mkpath
+# (var/"bitlbee/lib").mkpath

@@ -1,0 +1,15 @@
+# libsoxr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsoxr.rb
+# Converted on 02-01-2019
+
+name='libsoxr'
+url=('https://downloads.sourceforge.net/project/soxr/soxr-0.1.3-Source.tar.xz')
+description='High quality, one-dimensional sample-rate conversion library'
+version='0.1.3' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/soxr/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

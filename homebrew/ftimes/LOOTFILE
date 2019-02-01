@@ -1,0 +1,22 @@
+# ftimes.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ftimes.rb
+# Converted on 02-01-2019
+
+name='ftimes'
+url=('https://downloads.sourceforge.net/project/ftimes/ftimes/3.11.0/ftimes-3.11.0.tgz')
+description='System baselining and evidence collection tool'
+version='3.11.0' # Guessed version.
+priority='optional'
+homepage='https://ftimes.sourceforge.io/FTimes/index.shtml'
+depends=('openssl' 'pcre')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--with-pcre=#{Formula["pcre"].opt_prefix}",
+# "--with-ssl=#{Formula["openssl"].opt_prefix}",
+# "--sysconfdir=#{etc}",
+# "--with-server-prefix=#{var}/ftimes"
+# inreplace "doc/ftimes/Makefile" do |s|
+# s.change_make_var! "INSTALL_PREFIX", man1
+# end
+# system "make", "install"

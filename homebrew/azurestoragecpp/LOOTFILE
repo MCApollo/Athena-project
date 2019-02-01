@@ -1,0 +1,19 @@
+# azure-storage-cpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/azure-storage-cpp.rb
+# Converted on 02-01-2019
+
+name='azurestoragecpp'
+url=('https://github.com/Azure/azure-storage-cpp/archive/v5.2.0.tar.gz')
+description='Microsoft Azure Storage Client Library for C++'
+version='5.2.0' # Guessed version.
+priority='optional'
+homepage='https://azure.github.io/azure-storage-cpp'
+depends=('boost' 'cpprestsdk' 'gettext' 'openssl' 'ossp-uuid')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", "Microsoft.WindowsAzure.Storage",
+# "-DBUILD_SAMPLES=OFF",
+# "-DBUILD_TESTS=OFF",
+# *std_cmake_args
+# system "make", "install"

@@ -1,0 +1,24 @@
+# antlr@2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/antlr@2.rb
+# Converted on 02-01-2019
+
+name='antlrat2'
+url=('https://www.antlr2.org/download/antlr-2.7.7.tar.gz')
+description='ANother Tool for Language Recognition'
+version='2.7.7' # Guessed version.
+priority='optional'
+homepage='https://www.antlr2.org/'
+depends=(':java')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-debug",
+# "--disable-csharp"
+# system "make"
+# libexec.install "antlr.jar"
+# include.install "lib/cpp/antlr"
+# lib.install "lib/cpp/src/libantlr.a"
+# (bin/"antlr").write <<~EOS
+# #!/bin/sh
+# java -classpath #{libexec}/antlr.jar antlr.Tool "$@"
+# EOS

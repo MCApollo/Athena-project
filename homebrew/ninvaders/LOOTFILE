@@ -1,0 +1,19 @@
+# ninvaders.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ninvaders.rb
+# Converted on 02-01-2019
+
+name='ninvaders'
+url=('https://downloads.sourceforge.net/project/ninvaders/ninvaders/0.1.1/ninvaders-0.1.1.tar.gz')
+description='Space Invaders in the terminal'
+version='0.1.1' # Guessed version.
+priority='optional'
+homepage='https://ninvaders.sourceforge.io/'
+
+###### Install ######
+# ENV.deparallelize
+# inreplace "Makefile" do |s|
+# s.change_make_var! "CC", ENV.cc
+# s.gsub! "-o$@", "-o $@"
+# end
+# system "make"
+# bin.install "nInvaders"

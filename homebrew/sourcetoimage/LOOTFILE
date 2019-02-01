@@ -1,0 +1,16 @@
+# source-to-image.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/source-to-image.rb
+# Converted on 02-01-2019
+
+name='sourcetoimage'
+url=('https://github.com/openshift/source-to-image.git')
+description='Tool for building source and injecting into docker images'
+version=' '
+priority='optional'
+homepage='https://github.com/openshift/source-to-image'
+makedepends=('go')
+
+###### Install ######
+# inreplace "hack/common.sh", "go1.4", "go1.0"
+# system "hack/build-go.sh"
+# bin.install "_output/local/bin/darwin/amd64/s2i"

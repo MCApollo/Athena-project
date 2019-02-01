@@ -1,0 +1,21 @@
+# ghr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ghr.rb
+# Converted on 02-01-2019
+
+name='ghr'
+url=('https://github.com/tcnksm/ghr/archive/v0.12.0.tar.gz')
+description='Upload multiple artifacts to GitHub Release in parallel'
+version='0.12.0' # Guessed version.
+priority='optional'
+homepage='https://tcnksm.github.io/ghr'
+makedepends=('dep' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# dir = buildpath/"src/github.com/tcnksm/ghr"
+# dir.install Dir["*"]
+# cd dir do
+# system "dep", "ensure", "-vendor-only"
+# system "go", "build", "-o", bin/"ghr"
+# prefix.install_metafiles
+# end

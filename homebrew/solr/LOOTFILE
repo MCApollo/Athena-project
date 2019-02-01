@@ -1,0 +1,23 @@
+# solr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/solr.rb
+# Converted on 02-01-2019
+
+name='solr'
+url=('https://www.apache.org/dyn/closer.cgi?path=lucene/solr/7.6.0/solr-7.6.0.tgz')
+description='Enterprise search platform from the Apache Lucene project'
+version='7.6.0' # Guessed version.
+priority='optional'
+homepage='https://lucene.apache.org/solr/'
+depends=(':java')
+
+###### Install ######
+# bin.install %w[bin/solr bin/post bin/oom_solr.sh]
+# pkgshare.install "bin/solr.in.sh"
+# prefix.install %w[example server]
+# libexec.install Dir["*"]
+# inreplace "#{bin}/post", '"$SOLR_TIP/dist"', "#{libexec}/dist"
+# Dir.glob(["#{prefix}/example/**/solrconfig.xml",
+# "#{prefix}/**/data_driven_schema_configs/**/solrconfig.xml",
+# "#{prefix}/**/sample_techproducts_configs/**/solrconfig.xml"]) do |f|
+# inreplace f, ":../../../..}/", "}/libexec/"
+# end

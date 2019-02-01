@@ -1,0 +1,14 @@
+# markdown.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/markdown.rb
+# Converted on 02-01-2019
+
+name='markdown'
+url=('https://daringfireball.net/projects/downloads/Markdown_1.0.1.zip')
+description='Text-to-HTML conversion tool'
+version='1.0.1' # Guessed version.
+priority='optional'
+homepage='https://daringfireball.net/projects/markdown/'
+makedepends=('')
+
+###### Install ######
+# bin.install "Markdown.pl" => "markdown"

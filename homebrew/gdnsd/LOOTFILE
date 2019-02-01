@@ -1,0 +1,23 @@
+# gdnsd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gdnsd.rb
+# Converted on 02-01-2019
+
+name='gdnsd'
+url=('https://github.com/gdnsd/gdnsd/releases/download/v2.4.0/gdnsd-2.4.0.tar.xz')
+description='Authoritative-only DNS server'
+version='2.4.0' # Guessed version.
+priority='optional'
+homepage='https://gdnsd.org/'
+depends=('libev' 'libunwind-headers' 'ragel')
+
+###### Install ######
+# system "autoreconf", "-fvi" if build.head?
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--with-rundir=#{var}/run",
+# "--localstatedir=#{var}",
+# "--sysconfdir=#{etc}",
+# "--without-urcu"
+# system "make", "install"

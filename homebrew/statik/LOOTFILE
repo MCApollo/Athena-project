@@ -1,0 +1,19 @@
+# statik.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/statik.rb
+# Converted on 02-01-2019
+
+name='statik'
+url=('https://github.com/thanethomson/statik/archive/v0.22.2.tar.gz')
+description='Python-based, generic static web site generator aimed at developers'
+version='0.22.2' # Guessed version.
+priority='optional'
+homepage='https://getstatik.com'
+depends=('python')
+makedepends=('')
+
+###### Install ######
+# venv = virtualenv_create(libexec, "python3")
+# system libexec/"bin/pip", "install", "-v", "--no-binary", ":all:",
+# "--ignore-installed", buildpath
+# system libexec/"bin/pip", "uninstall", "-y", "statik"
+# venv.pip_install_and_link buildpath

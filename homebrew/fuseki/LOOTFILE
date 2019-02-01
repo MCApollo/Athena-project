@@ -1,0 +1,26 @@
+# fuseki.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fuseki.rb
+# Converted on 02-01-2019
+
+name='fuseki'
+url=('https://www.apache.org/dyn/closer.lua?path=/jena/binaries/apache-jena-fuseki-3.10.0.tar.gz')
+description='SPARQL server'
+version='3.10.0' # Guessed version.
+priority='optional'
+homepage='https://jena.apache.org/documentation/fuseki2/'
+
+###### Install ######
+# prefix.install "bin"
+# %w[fuseki-server fuseki].each do |exe|
+# libexec.install exe
+# (bin/exe).write_env_script(libexec/exe,
+# :FUSEKI_BASE => var/"fuseki",
+# :FUSEKI_HOME => libexec,
+# :FUSEKI_LOGS => var/"log/fuseki",
+# :FUSEKI_RUN  => var/"run")
+# end
+# libexec.install "fuseki-server.jar",
+# "fuseki.war",
+# "webapp"
+# (var/"fuseki").mkpath
+# (var/"log/fuseki").mkpath

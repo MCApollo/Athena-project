@@ -1,0 +1,24 @@
+# artifactory.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/artifactory.rb
+# Converted on 02-01-2019
+
+name='artifactory'
+url=('https://dl.bintray.com/jfrog/artifactory/jfrog-artifactory-oss-6.3.2.zip')
+description='Manages binaries'
+version='6.3.2' # Guessed version.
+priority='optional'
+homepage='https://www.jfrog.com/artifactory/'
+depends=(':java')
+
+###### Install ######
+# rm_f Dir["bin/*.bat"]
+# rm_f Dir["bin/*.exe"]
+# inreplace "bin/artifactory.sh",
+# 'export ARTIFACTORY_HOME="$(cd "$(dirname "${artBinDir}")" && pwd)"',
+# "export ARTIFACTORY_HOME=#{libexec}"
+# libexec.install Dir["*"]
+# bin.install_symlink libexec/"bin/artifactory.sh"
+# bin.install_symlink libexec/"bin/artifactory.default"
+# data = var/"artifactory"
+# data.mkpath
+# libexec.install_symlink data => "data"

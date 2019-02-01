@@ -1,0 +1,24 @@
+# icu4c.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/icu4c.rb
+# Converted on 02-01-2019
+
+name='icu4c'
+url=('https://ssl.icu-project.org/files/icu4c/63.1/icu4c-63_1-src.tgz')
+description='C/C++ and Java libraries for Unicode and globalization'
+version=' '
+priority='optional'
+homepage='https://ssl.icu-project.org/'
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-samples
+# --disable-tests
+# --enable-static
+# --with-library-bits=64
+# ]
+# cd "source" do
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# end

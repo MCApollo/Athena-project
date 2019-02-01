@@ -1,0 +1,17 @@
+# pdf2svg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdf2svg.rb
+# Converted on 02-01-2019
+
+name='pdf2svg'
+url=('https://github.com/db9052/pdf2svg/archive/v0.2.3.tar.gz')
+description='PDF converter to SVG'
+version='0.2.3' # Guessed version.
+priority='optional'
+homepage='http://www.cityinthesky.co.uk/opensource/pdf2svg'
+depends=('cairo' 'poppler')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,19 @@
+# libmusicbrainz.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmusicbrainz.rb
+# Converted on 02-01-2019
+
+name='libmusicbrainz'
+url=('https://github.com/metabrainz/libmusicbrainz/releases/download/release-5.1.0/libmusicbrainz-5.1.0.tar.gz')
+description='MusicBrainz Client Library'
+version='5.1.0' # Guessed version.
+priority='optional'
+homepage='https://musicbrainz.org/doc/libmusicbrainz'
+depends=('neon')
+makedepends=('cmake')
+
+###### Install ######
+# neon = Formula["neon"]
+# neon_args = %W[-DNEON_LIBRARIES:FILEPATH=#{neon.lib}/libneon.dylib
+# -DNEON_INCLUDE_DIR:PATH=#{neon.include}/neon]
+# system "cmake", ".", *(std_cmake_args + neon_args)
+# system "make", "install"

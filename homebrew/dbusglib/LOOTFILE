@@ -1,0 +1,17 @@
+# dbus-glib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dbus-glib.rb
+# Converted on 02-01-2019
+
+name='dbusglib'
+url=('https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.110.tar.gz')
+description='GLib bindings for the D-Bus message bus system'
+version='0.110' # Guessed version.
+priority='optional'
+homepage='https://wiki.freedesktop.org/www/Software/DBusBindings/'
+depends=('dbus' 'gettext' 'glib')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

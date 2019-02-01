@@ -1,0 +1,19 @@
+# sdl2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdl2.rb
+# Converted on 02-01-2019
+
+name='sdl2'
+url=('https://libsdl.org/release/SDL2-2.0.9.tar.gz')
+description='Low-level access to audio, keyboard, mouse, joystick, and graphics'
+version='2.0.9' # Guessed version.
+priority='optional'
+homepage='https://www.libsdl.org/'
+# Patches
+url+=('https://hg.libsdl.org/SDL/raw-diff/d274fa9731b1/build-scripts/ltmain.sh')
+
+###### Install ######
+# inreplace %w[sdl2.pc.in sdl2-config.in], "@prefix@", HOMEBREW_PREFIX
+# system "./autogen.sh" if build.head? || build.devel?
+# args = %W[--prefix=#{prefix} --without-x]
+# system "./configure", *args
+# system "make", "install"

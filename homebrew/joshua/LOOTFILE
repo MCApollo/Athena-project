@@ -1,0 +1,24 @@
+# joshua.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/joshua.rb
+# Converted on 02-01-2019
+
+name='joshua'
+url=('https://cs.jhu.edu/~post/files/joshua-6.0.5.tgz')
+description='Statistical machine translation decoder'
+version='6.0.5' # Guessed version.
+priority='optional'
+homepage='https://joshua.incubator.apache.org/'
+depends=(':java')
+makedepends=('ant' 'boost' 'md5sha1sum' 'python@2')
+
+###### Install ######
+# rm Dir["lib/*.{gr,tar.gz}"]
+# rm_rf "lib/README"
+# rm_rf "bin/.gitignore"
+# head do
+# system "ant"
+# end
+# libexec.install Dir["*"]
+# bin.install_symlink Dir["#{libexec}/bin/*"]
+# inreplace "#{bin}/joshua-decoder", "JOSHUA\=$(dirname $0)/..", "#JOSHUA\=$(dirname $0)/.."
+# inreplace "#{bin}/decoder", "JOSHUA\=$(dirname $0)/..", "#JOSHUA\=$(dirname $0)/.."

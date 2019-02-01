@@ -1,0 +1,16 @@
+# memcached.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/memcached.rb
+# Converted on 02-01-2019
+
+name='memcached'
+url=('https://www.memcached.org/files/memcached-1.5.12.tar.gz')
+description='High performance, distributed memory object caching system'
+version='1.5.12' # Guessed version.
+priority='optional'
+homepage='https://memcached.org/'
+depends=('libevent')
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-coverage"
+# system "make", "install"

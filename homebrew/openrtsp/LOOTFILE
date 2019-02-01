@@ -1,0 +1,15 @@
+# openrtsp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/openrtsp.rb
+# Converted on 02-01-2019
+
+name='openrtsp'
+url=('http://www.live555.com/liveMedia/public/live.2018.10.17.tar.gz')
+description='Command-line RTSP client'
+version='2018.10.17' # Guessed version.
+priority='optional'
+homepage='http://www.live555.com/openRTSP'
+
+###### Install ######
+# system "./genMakefiles", "macosx"
+# system "make", "PREFIX=#{prefix}", "install"
+# libexec.install Dir.glob(bin/"test*")

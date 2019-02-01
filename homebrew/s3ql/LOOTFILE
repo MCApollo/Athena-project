@@ -1,0 +1,33 @@
+# s3ql.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/s3ql.rb
+# Converted on 02-01-2019
+
+name='s3ql'
+url=('https://github.com/s3ql/s3ql/releases/download/release-2.33/s3ql-2.33.tar.bz2')
+description='POSIX-compliant FUSE filesystem using object store as block storage'
+version='2.33' # Guessed version.
+priority='optional'
+homepage='https://github.com/s3ql/s3ql'
+depends=(':osxfuse' 'python')
+makedepends=('pkg-config')
+
+###### Resource ######
+# certifi: https://files.pythonhosted.org/packages/55/54/3ce77783acba5979ce16674fc98b1920d00b01d337cfaaf5db22543505ed/certifi-2018.11.29.tar.gz
+# urllib3: https://files.pythonhosted.org/packages/ee/11/7c59620aceedcc1ef65e156cc5ce5a24ef87be4107c2b74458464e437a5d/urllib3-1.22.tar.gz
+# idna: https://files.pythonhosted.org/packages/f4/bd/0467d62790828c23c47fc1dfa1b1f052b24efdf5290f071c7a91d0d82fd3/idna-2.6.tar.gz
+# chardet: https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz
+# pycrypto: https://files.pythonhosted.org/packages/60/db/645aa9af249f059cc3a368b118de33889219e0362141e75d4eaf6f80f163/pycrypto-2.6.1.tar.gz
+# defusedxml: https://files.pythonhosted.org/packages/74/ba/4ba4e89e21b5a2e267d80736ea674609a0a33cc4435a6d748ef04f1f9374/defusedxml-0.5.0.tar.gz
+# requests: https://files.pythonhosted.org/packages/b0/e1/eab4fc3752e3d240468a8c0b284607899d2fbfb236a56b7377a329aa8d09/requests-2.18.4.tar.gz
+# apsw: https://files.pythonhosted.org/packages/b5/a1/3de5a2d35fc34939672f4e1bd7d68cca359a31b76926f00d95f434c63aaa/apsw-3.9.2-r1.tar.gz
+# dugong: https://files.pythonhosted.org/packages/47/e5/637ebacead14f1a17fbf2a2be2fd11b717e9ae4f0f912682c59792265506/dugong-3.7.2.tar.bz2
+# llfuse: https://files.pythonhosted.org/packages/19/e7/26335a22c776c763d280c2985963cf2f31484b7d05b5d74a08433d08201d/llfuse-1.3.5.tar.bz2
+
+###### Install ######
+# venv = virtualenv_create(libexec, "python3")
+# resources.each do |r|
+# venv.pip_install r
+# end
+# inreplace "setup.py", /'(?:(mkfs|fsck|mount|umount)\.)s3ql =/, "'\\1_s3ql ="
+# system libexec/"bin/python3", "setup.py", "build_ext", "--inplace"
+# venv.pip_install_and_link buildpath

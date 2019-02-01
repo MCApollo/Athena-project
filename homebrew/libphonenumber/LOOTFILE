@@ -1,0 +1,23 @@
+# libphonenumber.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libphonenumber.rb
+# Converted on 02-01-2019
+
+name='libphonenumber'
+url=('https://github.com/googlei18n/libphonenumber/archive/v8.10.3.tar.gz')
+description='C++ Phone Number library by Google'
+version='8.10.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/googlei18n/libphonenumber'
+depends=('boost' 'icu4c' ':java' 'protobuf' 're2')
+makedepends=('cmake')
+
+###### Resource ######
+# gtest: https://github.com/google/googletest/archive/release-1.8.1.tar.gz
+
+###### Install ######
+# ENV.cxx11
+# (buildpath/"gtest").install resource("gtest")
+# system "cmake", "cpp", "-DGTEST_SOURCE_DIR=gtest/googletest",
+# "-DGTEST_INCLUDE_DIR=gtest/googletest/include",
+# *std_cmake_args
+# system "make", "install"

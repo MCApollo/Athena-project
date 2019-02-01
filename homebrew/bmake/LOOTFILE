@@ -1,0 +1,16 @@
+# bmake.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bmake.rb
+# Converted on 02-01-2019
+
+name='bmake'
+url=('http://www.crufty.net/ftp/pub/sjg/bmake-20180919.tar.gz')
+description='Portable version of NetBSD make(1)'
+version=' '
+priority='optional'
+homepage='http://www.crufty.net/help/sjg/bmake.html'
+
+###### Install ######
+# inreplace "mk/man.mk", "MANTARGET?", "MANTARGET"
+# args = ["--prefix=#{prefix}", "-DWITHOUT_PROG_LINK", "--install"]
+# system "sh", "boot-strap", *args
+# man1.install "bmake.1"

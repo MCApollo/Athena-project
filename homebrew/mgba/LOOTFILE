@@ -1,0 +1,22 @@
+# mgba.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mgba.rb
+# Converted on 02-01-2019
+
+name='mgba'
+url=('')
+description='Game Boy Advance emulator'
+version=' '
+priority='optional'
+homepage='https://mgba.io/'
+depends=('ffmpeg' 'imagemagick' 'libepoxy' 'libpng' 'libzip' 'qt' 'sdl2')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# if MacOS.version <= :el_capitan
+# ENV["MACOSX_DEPLOYMENT_TARGET"] = MacOS.version
+# end
+# inreplace "src/platform/qt/CMakeLists.txt", "Applications", "."
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"
+# rm bin/"mgba"
+# bin.write_exec_script "#{prefix}/mGBA.app/Contents/MacOS/mGBA"

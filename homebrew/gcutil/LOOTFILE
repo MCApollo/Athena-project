@@ -1,0 +1,14 @@
+# gcutil.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gcutil.rb
+# Converted on 02-01-2019
+
+name='gcutil'
+url=('https://dl.google.com/dl/cloudsdk/release/artifacts/gcutil-1.16.1.zip')
+description='Manage your Google Compute Engine resources'
+version='1.16.1' # Guessed version.
+priority='optional'
+homepage='https://cloud.google.com/compute/docs/gcutil/'
+
+###### Install ######
+# libexec.install "gcutil", "lib"
+# bin.install_symlink libexec/"gcutil"

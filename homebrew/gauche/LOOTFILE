@@ -1,0 +1,17 @@
+# gauche.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gauche.rb
+# Converted on 02-01-2019
+
+name='gauche'
+url=('https://downloads.sourceforge.net/gauche/Gauche/Gauche-0.9.7.tgz')
+description='R7RS Scheme implementation, developed to be a handy script interpreter'
+version='0.9.7' # Guessed version.
+priority='optional'
+homepage='https://practical-scheme.net/gauche/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking",
+# "--enable-multibyte=utf-8"
+# system "make"
+# system "make", "check"
+# system "make", "install"

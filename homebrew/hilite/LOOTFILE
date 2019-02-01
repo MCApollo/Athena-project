@@ -1,0 +1,14 @@
+# hilite.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hilite.rb
+# Converted on 02-01-2019
+
+name='hilite'
+url=('https://downloads.sourceforge.net/project/hilite/hilite/1.5/hilite.c')
+description='CLI tool that runs a command and highlights STDERR output'
+version=' '
+priority='optional'
+homepage='https://sourceforge.net/projects/hilite/'
+
+###### Install ######
+# system ENV.cc, ENV.cflags, "hilite.c", "-o", "hilite"
+# bin.install "hilite"

@@ -1,0 +1,23 @@
+# ngspice.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ngspice.rb
+# Converted on 02-01-2019
+
+name='ngspice'
+url=('https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/30/ngspice-30.tar.gz')
+description='Spice circuit simulator'
+version=' '
+priority='optional'
+homepage='https://ngspice.sourceforge.io/'
+depends=('readline')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --with-readline=yes
+# --enable-xspice
+# --without-x
+# ]
+# system "./configure", *args
+# system "make", "install"

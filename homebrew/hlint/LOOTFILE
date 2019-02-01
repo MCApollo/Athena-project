@@ -1,0 +1,15 @@
+# hlint.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hlint.rb
+# Converted on 02-01-2019
+
+name='hlint'
+url=('https://hackage.haskell.org/package/hlint-2.1.10/hlint-2.1.10.tar.gz')
+description='Haskell source code suggestions'
+version='2.1.10' # Guessed version.
+priority='optional'
+homepage='https://github.com/ndmitchell/hlint'
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# install_cabal_package :using => "happy"
+# man1.install "data/hlint.1"

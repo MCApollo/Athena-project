@@ -1,0 +1,26 @@
+# x11vnc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/x11vnc.rb
+# Converted on 02-01-2019
+
+name='x11vnc'
+url=('https://downloads.sourceforge.net/project/libvncserver/x11vnc/0.9.13/x11vnc-0.9.13.tar.gz')
+description='VNC server for real X displays'
+version='0.9.13' # Guessed version.
+priority='optional'
+homepage='http://www.karlrunge.com/x11vnc/'
+depends=('jpeg' 'openssl')
+
+# A diff file was written to x11vnc.diff
+# --> Patch the file before building.
+
+###### Install ######
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --mandir=#{man}
+# --without-x
+# ]
+# system "./configure", *args
+# system "make"
+# system "make", "MKDIRPROG=mkdir -p", "install"

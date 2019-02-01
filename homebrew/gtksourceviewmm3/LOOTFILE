@@ -1,0 +1,17 @@
+# gtksourceviewmm3.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtksourceviewmm3.rb
+# Converted on 02-01-2019
+
+name='gtksourceviewmm3'
+url=('https://download.gnome.org/sources/gtksourceviewmm/3.18/gtksourceviewmm-3.18.0.tar.xz')
+description='C++ bindings for gtksourceview3'
+version='3.18.0' # Guessed version.
+priority='optional'
+homepage='https://developer.gnome.org/gtksourceviewmm/'
+depends=('gtkmm3' 'gtksourceview3')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

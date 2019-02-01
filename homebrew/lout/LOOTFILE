@@ -1,0 +1,16 @@
+# lout.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lout.rb
+# Converted on 02-01-2019
+
+name='lout'
+url=('https://download.savannah.gnu.org/releases/lout/lout-3.40.tar.gz')
+description='Text formatting like TeX, but simpler'
+version='3.40' # Guessed version.
+priority='optional'
+homepage='https://savannah.nongnu.org/projects/lout'
+
+###### Install ######
+# bin.mkpath
+# man1.mkpath
+# (doc/"lout").mkpath
+# system "make", "PREFIX=#{prefix}", "LOUTLIBDIR=#{lib}", "LOUTDOCDIR=#{doc}", "MANDIR=#{man}", "allinstall"

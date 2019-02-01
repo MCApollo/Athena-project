@@ -1,0 +1,19 @@
+# yydecode.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yydecode.rb
+# Converted on 02-01-2019
+
+name='yydecode'
+url=('https://downloads.sourceforge.net/project/yydecode/yydecode/0.2.10/yydecode-0.2.10.tar.gz')
+description='Decode yEnc archives'
+version='0.2.10' # Guessed version.
+priority='optional'
+homepage='https://yydecode.sourceforge.io'
+
+###### Install ######
+# if DevelopmentTools.clang_build_version >= 900
+# inreplace "src/crc32.h", "typedef unsigned long int u_int32_t;", ""
+# end
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

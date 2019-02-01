@@ -1,0 +1,14 @@
+# jsonpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsonpp.rb
+# Converted on 02-01-2019
+
+name='jsonpp'
+url=('https://github.com/jmhodges/jsonpp/archive/1.3.0.tar.gz')
+description='Command-line JSON pretty-printer'
+version='1.3.0' # Guessed version.
+priority='optional'
+homepage='https://jmhodges.github.io/jsonpp/'
+makedepends=('go')
+
+###### Install ######
+# system "go", "build", "-o", bin/"jsonpp"

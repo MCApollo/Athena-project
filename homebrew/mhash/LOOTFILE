@@ -1,0 +1,15 @@
+# mhash.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mhash.rb
+# Converted on 02-01-2019
+
+name='mhash'
+url=('https://downloads.sourceforge.net/project/mhash/mhash/0.9.9.9/mhash-0.9.9.9.tar.gz')
+description='Uniform interface to a large number of hash algorithms'
+version='0.9.9.9' # Guessed version.
+priority='optional'
+homepage='https://mhash.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

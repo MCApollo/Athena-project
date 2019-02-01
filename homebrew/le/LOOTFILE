@@ -1,0 +1,17 @@
+# le.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/le.rb
+# Converted on 02-01-2019
+
+name='le'
+url=('https://github.com/lavv17/le/releases/download/v1.16.5/le-1.16.5.tar.xz')
+description='Text editor with block and binary operations'
+version='1.16.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/lavv17/le'
+makedepends=('')
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

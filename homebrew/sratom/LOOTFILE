@@ -1,0 +1,17 @@
+# sratom.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sratom.rb
+# Converted on 02-01-2019
+
+name='sratom'
+url=('https://download.drobilla.net/sratom-0.6.0.tar.bz2')
+description='Library for serializing LV2 atoms to/from RDF'
+version='0.6.0' # Guessed version.
+priority='optional'
+homepage='https://drobilla.net/software/sratom/'
+depends=('lv2' 'serd' 'sord')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./waf", "configure", "--prefix=#{prefix}"
+# system "./waf"
+# system "./waf", "install"

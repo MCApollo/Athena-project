@@ -1,0 +1,15 @@
+# libdaemon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdaemon.rb
+# Converted on 02-01-2019
+
+name='libdaemon'
+url=('http://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz')
+description='C library that eases writing UNIX daemons'
+version='0.14' # Guessed version.
+priority='optional'
+homepage='http://0pointer.de/lennart/projects/libdaemon/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

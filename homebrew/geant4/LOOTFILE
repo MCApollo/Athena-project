@@ -1,0 +1,39 @@
+# geant4.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/geant4.rb
+# Converted on 02-01-2019
+
+name='geant4'
+url=('https://geant4-data.web.cern.ch/geant4-data/releases/source/geant4.10.05.tar.gz')
+description='Simulation toolkit for particle transport through matter'
+version='4.10.05' # Guessed version.
+priority='optional'
+homepage='https://geant4.web.cern.ch'
+depends=('cmake' 'qt' 'xerces-c')
+
+###### Resource ######
+# G4NDL: https://cern.ch/geant4-data/datasets/G4NDL.4.5.tar.gz
+# G4EMLOW: https://cern.ch/geant4-data/datasets/G4EMLOW.7.7.tar.gz
+# PhotonEvaporation: https://cern.ch/geant4-data/datasets/G4PhotonEvaporation.5.3.tar.gz
+# RadioactiveDecay: https://cern.ch/geant4-data/datasets/G4RadioactiveDecay.5.3.tar.gz
+# G4SAIDDATA: https://cern.ch/geant4-data/datasets/G4SAIDDATA.2.0.tar.gz
+# G4PARTICLEXS: https://cern.ch/geant4-data/datasets/G4PARTICLEXS.1.1.tar.gz
+# G4ABLA: https://cern.ch/geant4-data/datasets/G4ABLA.3.1.tar.gz
+# G4INCL: https://cern.ch/geant4-data/datasets/G4INCL.1.0.tar.gz
+# G4PII: https://cern.ch/geant4-data/datasets/G4PII.1.3.tar.gz
+# G4ENSDFSTATE: https://cern.ch/geant4-data/datasets/G4ENSDFSTATE.2.2.tar.gz
+# RealSurface: https://cern.ch/geant4-data/datasets/G4RealSurface.2.1.1.tar.gz
+
+###### Install ######
+# mkdir "geant-build" do
+# args = std_cmake_args + %w[
+# ../
+# -DGEANT4_USE_GDML=ON
+# -DGEANT4_BUILD_MULTITHREADED=ON
+# -DGEANT4_USE_QT=ON
+# ]
+# system "cmake", *args
+# system "make", "install"
+# end
+# resources.each do |r|
+# (share/"Geant4-#{version}/data/#{r.name}#{r.version}").install r
+# end

@@ -1,0 +1,15 @@
+# dfmt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dfmt.rb
+# Converted on 02-01-2019
+
+name='dfmt'
+url=('https://github.com/dlang-community/dfmt.git')
+description='Formatter for D source code'
+version=' '
+priority='optional'
+homepage='https://github.com/dlang-community/dfmt'
+makedepends=('dmd')
+
+###### Install ######
+# system "make"
+# bin.install "bin/dfmt"

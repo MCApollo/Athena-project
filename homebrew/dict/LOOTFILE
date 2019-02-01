@@ -1,0 +1,23 @@
+# dict.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dict.rb
+# Converted on 02-01-2019
+
+name='dict'
+url=('https://downloads.sourceforge.net/project/dict/dictd/dictd-1.12.1/dictd-1.12.1.tar.gz')
+description='Dictionary Server Protocol (RFC2229) client'
+version='1.12.1' # Guessed version.
+priority='optional'
+homepage='http://www.dict.org/'
+depends=('libmaa')
+makedepends=('libtool')
+
+###### Install ######
+# ENV["LIBTOOL"] = "glibtool"
+# system "./configure", "--prefix=#{prefix}", "--sysconfdir=#{etc}",
+# "--mandir=#{man}"
+# system "make"
+# system "make", "install"
+# (prefix+"etc/dict.conf").write <<~EOS
+# server localhost
+# server dict.org
+# EOS

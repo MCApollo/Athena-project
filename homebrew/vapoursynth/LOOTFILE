@@ -1,0 +1,23 @@
+# vapoursynth.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vapoursynth.rb
+# Converted on 02-01-2019
+
+name='vapoursynth'
+url=('https://github.com/vapoursynth/vapoursynth/archive/R45.1.tar.gz')
+description='Video processing framework with simplicity in mind'
+version='45.1' # Guessed version.
+priority='optional'
+homepage='http://www.vapoursynth.com'
+depends=('libass' ':macos' 'python' 'tesseract' 'zimg')
+makedepends=('autoconf' 'automake' 'libtool' 'nasm' 'pkg-config')
+
+###### Resource ######
+# Cython: https://files.pythonhosted.org/packages/f0/66/6309291b19b498b672817bd237caec787d1b18013ee659f17b1ec5844887/Cython-0.29.tar.gz
+
+###### Install ######
+# venv = virtualenv_create(buildpath/"cython", "python3")
+# venv.pip_install "Cython"
+# system "./autogen.sh"
+# system "./configure", "--prefix=#{prefix}",
+# "--with-cython=#{buildpath}/cython/bin/cython"
+# system "make", "install"

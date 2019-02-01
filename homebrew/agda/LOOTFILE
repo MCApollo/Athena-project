@@ -1,0 +1,30 @@
+# agda.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/agda.rb
+# Converted on 02-01-2019
+
+name='agda'
+url=('https://hackage.haskell.org/package/Agda-2.5.4.2/Agda-2.5.4.2.tar.gz')
+description='Dependently typed functional programming language'
+version='2.5.4.2' # Guessed version.
+priority='optional'
+homepage='https://wiki.portal.chalmers.se/agda/'
+depends=('cabal-install' 'emacs' 'ghc')
+
+###### Resource ######
+# stdlib: https://github.com/agda/agda-stdlib.git
+
+###### Install ######
+# install_cabal_package :using => ["alex", "happy", "cpphs"]
+# resource("stdlib").stage lib/"agda"
+# cd lib/"agda" do
+# cabal_sandbox :home => buildpath, :keep_lib => true do
+# cabal_install "--only-dependencies"
+# cabal_install
+# system "GenerateEverything"
+# end
+# end
+# cd lib/"agda" do
+# system bin/"agda", "-i", ".", "-i", "src", "--html", "--vim", "README.agda"
+# end
+# system bin/"agda-mode", "compile"
+# elisp.install_symlink Dir["#{share}/*/Agda-#{version}/emacs-mode/*"]

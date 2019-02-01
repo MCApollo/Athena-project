@@ -1,0 +1,18 @@
+# iso-codes.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/iso-codes.rb
+# Converted on 02-01-2019
+
+name='isocodes'
+url=('https://deb.debian.org/debian/pool/main/i/iso-codes/iso-codes_4.2.orig.tar.xz')
+description='Provides lists of various ISO standards'
+version='4.2' # Guessed version.
+priority='optional'
+homepage='https://salsa.debian.org/iso-codes-team/iso-codes'
+depends=('pkg-config' 'python')
+makedepends=('gettext')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "check"
+# system "make", "install"

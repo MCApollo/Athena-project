@@ -1,0 +1,18 @@
+# mp3unicode.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mp3unicode.rb
+# Converted on 02-01-2019
+
+name='mp3unicode'
+url=('https://github.com/downloads/alonbl/mp3unicode/mp3unicode-1.2.1.tar.bz2')
+description='Command-line utility to convert mp3 tags between different encodings'
+version='1.2.1' # Guessed version.
+priority='optional'
+homepage='https://mp3unicode.sourceforge.io/'
+depends=('taglib')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.append "ICONV_LIBS", "-liconv"
+# system "autoreconf", "-fvi" if build.head?
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

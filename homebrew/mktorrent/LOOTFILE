@@ -1,0 +1,15 @@
+# mktorrent.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mktorrent.rb
+# Converted on 02-01-2019
+
+name='mktorrent'
+url=('https://github.com/Rudde/mktorrent/archive/v1.1.tar.gz')
+description='Create BitTorrent metainfo files'
+version='1.1' # Guessed version.
+priority='optional'
+homepage='https://mktorrent.sourceforge.io/'
+depends=('openssl')
+
+###### Install ######
+# system "make", "USE_PTHREADS=1", "USE_OPENSSL=1", "USE_LONG_OPTIONS=1"
+# bin.install "mktorrent"

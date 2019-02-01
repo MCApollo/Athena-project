@@ -1,0 +1,12 @@
+# ndenv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ndenv.rb
+# Converted on 02-01-2019
+
+name='ndenv'
+url=('https://github.com/riywo/ndenv/archive/v0.4.0.tar.gz')
+description='Node version manager'
+version='0.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/riywo/ndenv'
+
+###### Install ######

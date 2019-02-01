@@ -1,0 +1,15 @@
+# intltool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/intltool.rb
+# Converted on 02-01-2019
+
+name='intltool'
+url=('https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz')
+description='String tool'
+version='0.51.0' # Guessed version.
+priority='optional'
+homepage='https://wiki.freedesktop.org/www/Software/intltool'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-silent-rules"
+# system "make", "install"

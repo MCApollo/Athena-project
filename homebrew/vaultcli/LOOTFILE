@@ -1,0 +1,17 @@
+# vault-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vault-cli.rb
+# Converted on 02-01-2019
+
+name='vaultcli'
+url=('https://search.maven.org/remotecontent?filepath=org/apache/jackrabbit/vault/vault-cli/3.1.40/vault-cli-3.1.40-bin.tar.gz')
+description='Subversion-like utility to work with Jackrabbit FileVault'
+version='3.1.40' # Guessed version.
+priority='optional'
+homepage='https://jackrabbit.apache.org/filevault/index.html'
+depends=(':java')
+
+###### Install ######
+# rm_f Dir["bin/*.bat"]
+# libexec.install Dir["*"]
+# bin.install Dir["#{libexec}/bin/*"]
+# bin.env_script_all_files(libexec/"bin", Language::Java.java_home_env)

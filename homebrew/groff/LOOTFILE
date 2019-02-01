@@ -1,0 +1,15 @@
+# groff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/groff.rb
+# Converted on 02-01-2019
+
+name='groff'
+url=('https://ftp.gnu.org/gnu/groff/groff-1.22.4.tar.gz')
+description='GNU troff text-formatting system'
+version='1.22.4' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/groff/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--without-x"
+# system "make"
+# system "make", "install"

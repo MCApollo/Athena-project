@@ -1,0 +1,23 @@
+# appledoc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/appledoc.rb
+# Converted on 02-01-2019
+
+name='appledoc'
+url=('https://github.com/tomaz/appledoc/archive/2.2.1.tar.gz')
+description='Objective-C API documentation generator'
+version='2.2.1' # Guessed version.
+priority='optional'
+homepage='http://appledoc.gentlebytes.com/'
+makedepends=(':xcode')
+
+###### Install ######
+# xcodebuild "-project", "appledoc.xcodeproj",
+# "-target", "appledoc",
+# "-configuration", "Release",
+# "clean", "install",
+# "SYMROOT=build",
+# "DSTROOT=build",
+# "INSTALL_PATH=/bin",
+# "OTHER_CFLAGS='-DCOMPILE_TIME_DEFAULT_TEMPLATE_PATH=@\"#{prefix}/Templates\"'"
+# bin.install "build/bin/appledoc"
+# prefix.install "Templates/"

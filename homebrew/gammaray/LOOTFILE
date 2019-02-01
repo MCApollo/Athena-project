@@ -1,0 +1,19 @@
+# gammaray.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gammaray.rb
+# Converted on 02-01-2019
+
+name='gammaray'
+url=('https://github.com/KDAB/GammaRay/releases/download/v2.10.0/gammaray-2.10.0.tar.gz')
+description='Examine and manipulate Qt application internals at runtime'
+version='2.10.0' # Guessed version.
+priority='optional'
+homepage='https://www.kdab.com/kdab-products/gammaray/'
+depends=('graphviz' 'qt')
+makedepends=('cmake')
+
+###### Install ######
+# ENV.libcxx
+# system "cmake", *std_cmake_args,
+# "-DCMAKE_DISABLE_FIND_PACKAGE_Graphviz=ON",
+# "-DCMAKE_DISABLE_FIND_PACKAGE_VTK=OFF"
+# system "make", "install"

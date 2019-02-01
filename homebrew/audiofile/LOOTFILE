@@ -1,0 +1,24 @@
+# audiofile.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/audiofile.rb
+# Converted on 02-01-2019
+
+name='audiofile'
+url=('https://audiofile.68k.org/audiofile-0.3.6.tar.gz')
+description='Reads and writes many common audio file formats'
+version='0.3.6' # Guessed version.
+priority='optional'
+homepage='https://audiofile.68k.org/'
+# Patches
+url+=('https://deb.debian.org/debian/pool/main/a/audiofile/audiofile_0.3.6-4.debian.tar.xz')
+url+=('https://deb.debian.org/debian/pool/main/a/audiofile/audiofile_0.3.6-4.debian.tar.xz')
+
+###### Install ######
+# if build.head?
+# inreplace "autogen.sh", "libtool", "glibtool"
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
+# end
+# configure = build.head? ? "./autogen.sh" : "./configure"
+# args = ["--disable-dependency-tracking", "--prefix=#{prefix}"]
+# system configure, *args
+# system "make"
+# system "make", "install"

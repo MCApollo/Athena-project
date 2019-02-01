@@ -1,0 +1,12 @@
+# narwhal.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/narwhal.rb
+# Converted on 02-01-2019
+
+name='narwhal'
+url=('https://github.com/280north/narwhal/archive/v0.3.2.tar.gz')
+description='General purpose JavaScript platform for building applications'
+version='0.3.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/280north/narwhal'
+
+###### Install ######

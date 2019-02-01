@@ -1,0 +1,22 @@
+# lutok.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lutok.rb
+# Converted on 02-01-2019
+
+name='lutok'
+url=('https://github.com/jmmv/lutok/releases/download/lutok-0.4/lutok-0.4.tar.gz')
+description='Lightweight C++ API for Lua'
+version='0.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/jmmv/lutok'
+depends=('lua')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make"
+# ENV.deparallelize
+# system "make", "check"
+# system "make", "install"
+# system "make", "installcheck"

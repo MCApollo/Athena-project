@@ -1,0 +1,16 @@
+# chcase.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/chcase.rb
+# Converted on 02-01-2019
+
+name='chcase'
+url=('http://www.primaledge.ca/chcase')
+description='Perl file-renaming script'
+version=' '
+priority='optional'
+homepage='http://www.primaledge.ca/chcase.html'
+
+# A diff file was written to chcase.diff
+# --> Patch the file before building.
+
+###### Install ######
+# bin.install "chcase"

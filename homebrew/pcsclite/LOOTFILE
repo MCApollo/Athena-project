@@ -1,0 +1,18 @@
+# pcsc-lite.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pcsc-lite.rb
+# Converted on 02-01-2019
+
+name='pcsclite'
+url=('https://pcsclite.apdu.fr/files/pcsc-lite-1.8.23.tar.bz2')
+description='Middleware to access a smart card using SCard API'
+version='1.8.23' # Guessed version.
+priority='optional'
+homepage='https://pcsclite.apdu.fr/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}",
+# "--disable-libsystemd"
+# system "make", "install"

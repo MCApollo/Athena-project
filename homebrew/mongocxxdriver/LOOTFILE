@@ -1,0 +1,20 @@
+# mongo-cxx-driver.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mongo-cxx-driver.rb
+# Converted on 02-01-2019
+
+name='mongocxxdriver'
+url=('https://github.com/mongodb/mongo-cxx-driver/archive/r3.4.0.tar.gz')
+description='C++ driver for MongoDB'
+version='3.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/mongodb/mongo-cxx-driver'
+depends=('mongo-c-driver')
+makedepends=('cmake')
+
+###### Install ######
+# mongo_c_prefix = Formula["mongo-c-driver"].opt_prefix
+# system "cmake", ".", *std_cmake_args,
+# "-DLIBBSON_DIR=#{mongo_c_prefix}", "-DLIBMONGOC_DIR=#{mongo_c_prefix}"
+# system "make"
+# system "make", "install"
+# pkgshare.install "examples"

@@ -1,0 +1,14 @@
+# checkstyle.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/checkstyle.rb
+# Converted on 02-01-2019
+
+name='checkstyle'
+url=('https://github.com/checkstyle/checkstyle/releases/download/checkstyle-8.17/checkstyle-8.17-all.jar')
+description='Check Java source against a coding standard'
+version='8.17' # Guessed version.
+priority='optional'
+homepage='https://checkstyle.sourceforge.io/'
+
+###### Install ######
+# libexec.install "checkstyle-#{version}-all.jar"
+# bin.write_jar_script libexec/"checkstyle-#{version}-all.jar", "checkstyle"

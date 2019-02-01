@@ -1,0 +1,22 @@
+# gcsfuse.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gcsfuse.rb
+# Converted on 02-01-2019
+
+name='gcsfuse'
+url=('https://github.com/GoogleCloudPlatform/gcsfuse/archive/v0.23.0.tar.gz')
+description='User-space file system for interacting with Google Cloud'
+version='0.23.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/googlecloudplatform/gcsfuse'
+depends=(':osxfuse')
+makedepends=('go')
+
+###### Install ######
+# ENV.delete("GOPATH")
+# system "go", "build", "./tools/build_gcsfuse"
+# if build.head?
+# gcsfuse_version = `git rev-parse --short HEAD`.strip
+# else
+# gcsfuse_version = version
+# end
+# system "./build_gcsfuse", buildpath, prefix, gcsfuse_version

@@ -1,0 +1,16 @@
+# libconfig.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libconfig.rb
+# Converted on 02-01-2019
+
+name='libconfig'
+url=('https://github.com/hyperrealm/libconfig/archive/v1.7.2.tar.gz')
+description='Configuration file processing library'
+version='1.7.2' # Guessed version.
+priority='optional'
+homepage='https://hyperrealm.github.io/libconfig/'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

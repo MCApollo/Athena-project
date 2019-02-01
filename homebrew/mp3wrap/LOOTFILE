@@ -1,0 +1,17 @@
+# mp3wrap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mp3wrap.rb
+# Converted on 02-01-2019
+
+name='mp3wrap'
+url=('https://downloads.sourceforge.net/project/mp3wrap/mp3wrap/mp3wrap%200.5/mp3wrap-0.5-src.tar.gz')
+description='Wrap two or more mp3 files in a single large file'
+version='0.5' # Guessed version.
+priority='optional'
+homepage='https://mp3wrap.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

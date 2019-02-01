@@ -1,0 +1,23 @@
+# quantlib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/quantlib.rb
+# Converted on 02-01-2019
+
+name='quantlib'
+url=('https://dl.bintray.com/quantlib/releases/QuantLib-1.13.tar.gz')
+description='Library for quantitative finance'
+version='1.13' # Guessed version.
+priority='optional'
+homepage='https://www.quantlib.org/'
+depends=('boost')
+
+###### Install ######
+# (buildpath/"QuantLib").install buildpath.children if build.stable?
+# cd "QuantLib" do
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-lispdir=#{elisp}",
+# "--enable-intraday"
+# system "make", "install"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,14 @@
+# aespipe.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aespipe.rb
+# Converted on 02-01-2019
+
+name='aespipe'
+url=('https://loop-aes.sourceforge.io/aespipe/aespipe-v2.4e.tar.bz2')
+description='AES encryption or decryption for pipes'
+version='2.4' # Guessed version.
+priority='optional'
+homepage='https://loop-aes.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

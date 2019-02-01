@@ -1,0 +1,14 @@
+# gnome-common.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnome-common.rb
+# Converted on 02-01-2019
+
+name='gnomecommon'
+url=('https://download.gnome.org/sources/gnome-common/3.18/gnome-common-3.18.0.tar.xz')
+description='Core files for GNOME'
+version='3.18.0' # Guessed version.
+priority='optional'
+homepage='https://gitlab.gnome.org/GNOME/gnome-common'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

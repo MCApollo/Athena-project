@@ -1,0 +1,20 @@
+# streamripper.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/streamripper.rb
+# Converted on 02-01-2019
+
+name='streamripper'
+url=('https://downloads.sourceforge.net/sourceforge/streamripper/streamripper-1.64.6.tar.gz')
+description='Separate tracks via Shoutcasts title-streaming'
+version='1.64.6' # Guessed version.
+priority='optional'
+homepage='https://streamripper.sourceforge.io/'
+depends=('glib')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.append_to_cflags ENV.cppflags
+# chmod 0755, "./install-sh"
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-debug",
+# "--disable-dependency-tracking"
+# system "make", "install"

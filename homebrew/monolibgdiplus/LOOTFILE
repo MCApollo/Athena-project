@@ -1,0 +1,27 @@
+# mono-libgdiplus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mono-libgdiplus.rb
+# Converted on 02-01-2019
+
+name='monolibgdiplus'
+url=('https://github.com/mono/libgdiplus/archive/5.6.tar.gz')
+description='GDI+-compatible API on non-Windows operating systems'
+version='5.6' # Guessed version.
+priority='optional'
+homepage='https://www.mono-project.com/docs/gui/libgdiplus/'
+depends=('cairo' 'fontconfig' 'freetype' 'gettext' 'giflib' 'glib' 'jpeg' 'libexif' 'libpng' 'libtiff' 'pixman')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--without-x11",
+# "--disable-tests",
+# "--prefix=#{prefix}"
+# system "make"
+# cd "tests" do
+# system "make", "testbits"
+# system "./testbits"
+# end
+# system "make", "install"

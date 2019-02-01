@@ -1,0 +1,22 @@
+# sfml.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sfml.rb
+# Converted on 02-01-2019
+
+name='sfml'
+url=('https://www.sfml-dev.org/files/SFML-2.4.2-sources.zip')
+description='Multi-media library with bindings for multiple languages'
+version='2.4.2' # Guessed version.
+priority='optional'
+homepage='https://www.sfml-dev.org/'
+depends=('flac' 'freetype' 'jpeg' 'libogg' 'libvorbis')
+makedepends=('cmake' 'doxygen')
+
+###### Install ######
+# inreplace "CMakeLists.txt",
+# "if(SFML_OS_LINUX OR SFML_OS_FREEBSD)",
+# "if(SFML_OS_LINUX OR SFML_OS_FREEBSD OR SFML_OS_MACOSX)"
+# rm_rf Dir["extlibs/*"] - ["extlibs/headers"]
+# system "cmake", ".", *std_cmake_args,
+# "-DSFML_INSTALL_PKGCONFIG_FILES=TRUE",
+# "-DSFML_BUILD_DOC=TRUE"
+# system "make", "install"

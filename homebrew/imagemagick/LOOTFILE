@@ -1,0 +1,40 @@
+# imagemagick.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/imagemagick.rb
+# Converted on 02-01-2019
+
+name='imagemagick'
+url=('https://dl.bintray.com/homebrew/mirror/ImageMagick-7.0.8-25.tar.xz')
+description='Tools and libraries to manipulate images in many formats'
+version='7.0.8' # Guessed version.
+priority='optional'
+homepage='https://www.imagemagick.org/'
+depends=('freetype' 'jpeg' 'libomp' 'libpng' 'libtiff' 'libtool' 'little-cms2' 'openjpeg' 'webp' 'xz')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-osx-universal-binary
+# --prefix=#{prefix}
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --disable-opencl
+# --enable-shared
+# --enable-static
+# --with-freetype=yes
+# --with-modules
+# --with-openjp2
+# --with-webp=yes
+# --without-gslib
+# --with-gs-font-dir=#{HOMEBREW_PREFIX}/share/ghostscript/fonts
+# --without-fftw
+# --without-pango
+# --without-x
+# --without-wmf
+# --enable-openmp
+# ac_cv_prog_c_openmp=-Xpreprocessor\ -fopenmp
+# ac_cv_prog_cxx_openmp=-Xpreprocessor\ -fopenmp
+# LDFLAGS=-lomp
+# ]
+# inreplace "configure", "${PACKAGE_NAME}-${PACKAGE_VERSION}", "${PACKAGE_NAME}"
+# system "./configure", *args
+# system "make", "install"

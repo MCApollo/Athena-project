@@ -1,0 +1,16 @@
+# pqiv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pqiv.rb
+# Converted on 02-01-2019
+
+name='pqiv'
+url=('https://github.com/phillipberndt/pqiv/archive/2.11.tar.gz')
+description='Powerful image viewer with minimal UI'
+version='2.11' # Guessed version.
+priority='optional'
+homepage='https://github.com/phillipberndt/pqiv'
+depends=('gtk+3' 'imagemagick' 'libarchive' 'libspectre' 'poppler' 'webp')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,26 @@
+# theora.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/theora.rb
+# Converted on 02-01-2019
+
+name='theora'
+url=('https://downloads.xiph.org/releases/theora/libtheora-1.1.1.tar.bz2')
+description='Open video compression format'
+version='1.1.1' # Guessed version.
+priority='optional'
+homepage='https://www.theora.org/'
+depends=('libogg' 'libvorbis')
+makedepends=('libtool' 'pkg-config')
+
+###### Install ######
+# cp Dir["#{Formula["libtool"].opt_share}/libtool/*/config.{guess,sub}"], buildpath
+# system "./autogen.sh" if build.head?
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --disable-oggtest
+# --disable-vorbistest
+# --disable-examples
+# ]
+# args << "--disable-asm" if build.head?
+# system "./configure", *args
+# system "make", "install"

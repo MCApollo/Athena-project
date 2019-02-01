@@ -1,0 +1,20 @@
+# fuego.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fuego.rb
+# Converted on 02-01-2019
+
+name='fuego'
+url=('http://svn.code.sf.net/p/fuego/code/trunk')
+description='Collection of C++ libraries for the game of Go'
+version=' '
+priority='optional'
+homepage='https://fuego.sourceforge.io/'
+depends=('boost')
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# system "autoreconf", "-fvi"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--with-boost=#{Formula["boost"].opt_prefix}"
+# system "make", "install"

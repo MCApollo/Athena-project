@@ -1,0 +1,18 @@
+# m2c.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/m2c.rb
+# Converted on 02-01-2019
+
+name='m2c'
+url=('https://download.savannah.gnu.org/releases/m2c/0.7/m2c-0.7.tar.gz')
+description='Modula-2 to C compiler'
+version='0.7' # Guessed version.
+priority='optional'
+homepage='https://savannah.nongnu.org/projects/m2c/'
+
+###### Install ######
+# cp "config/generic-gcc.h", "config/generic-clang.h"
+# system "./configure", "+cc=#{ENV.cc}"
+# inreplace "Makefile", "install: all uninstall", "install: all"
+# inreplace "Makefile", "mkdir", "mkdir -p"
+# include.mkpath
+# system "make", "install", "prefix=#{prefix}", "man1dir=#{man1}"

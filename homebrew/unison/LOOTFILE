@@ -1,0 +1,19 @@
+# unison.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/unison.rb
+# Converted on 02-01-2019
+
+name='unison'
+url=('https://github.com/bcpierce00/unison/archive/v2.51.2.tar.gz')
+description='File synchronization tool for OSX'
+version='2.51.2' # Guessed version.
+priority='optional'
+homepage='https://www.cis.upenn.edu/~bcpierce/unison/'
+makedepends=('ocaml')
+
+###### Install ######
+# ENV.deparallelize
+# ENV.delete "CFLAGS"
+# ENV.delete "NAME"
+# system "make", "UISTYLE=text"
+# bin.install "src/unison"
+# prefix.install_metafiles "src"

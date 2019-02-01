@@ -1,0 +1,17 @@
+# wumpus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wumpus.rb
+# Converted on 02-01-2019
+
+name='wumpus'
+url=('http://www.catb.org/~esr/wumpus/wumpus-1.6.tar.gz')
+description='Exact clone of the ancient BASIC Hunt the Wumpus game'
+version='1.6' # Guessed version.
+priority='optional'
+homepage='http://www.catb.org/~esr/wumpus/'
+# Patches
+url+=('https://gitlab.com/esr/wumpus/commit/ea272d4786a55dbaa493d016324b7a05b4f165b9.diff')
+url+=('https://gitlab.com/esr/wumpus/commit/99022db86e54c3338d6a670f219a0845fd531530.diff')
+
+###### Install ######
+# system "make"
+# system "make", "prefix=#{prefix}", "install"

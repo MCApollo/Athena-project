@@ -1,0 +1,17 @@
+# mp3splt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mp3splt.rb
+# Converted on 02-01-2019
+
+name='mp3splt'
+url=('https://downloads.sourceforge.net/project/mp3splt/mp3splt/2.6.2/mp3splt-2.6.2.tar.gz')
+description='Command-line interface to split MP3 and Ogg Vorbis files'
+version='2.6.2' # Guessed version.
+priority='optional'
+homepage='https://mp3splt.sourceforge.io'
+depends=('libmp3splt')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

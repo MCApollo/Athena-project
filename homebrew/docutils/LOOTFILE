@@ -1,0 +1,14 @@
+# docutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/docutils.rb
+# Converted on 02-01-2019
+
+name='docutils'
+url=('https://downloads.sourceforge.net/project/docutils/docutils/0.14/docutils-0.14.tar.gz')
+description='Text processing system for reStructuredText'
+version='0.14' # Guessed version.
+priority='optional'
+homepage='https://docutils.sourceforge.io'
+depends=('python')
+
+###### Install ######
+# virtualenv_install_with_resources

@@ -1,0 +1,15 @@
+# dhcpdump.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dhcpdump.rb
+# Converted on 02-01-2019
+
+name='dhcpdump'
+url=('https://www.mavetju.org/download/dhcpdump-1.8.tar.gz')
+description='Monitor DHCP traffic for debugging purposes'
+version='1.8' # Guessed version.
+priority='optional'
+homepage='https://www.mavetju.org/'
+
+###### Install ######
+# system "make"
+# bin.install "dhcpdump"
+# man8.install "dhcpdump.8"

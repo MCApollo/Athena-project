@@ -1,0 +1,18 @@
+# diffuse.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/diffuse.rb
+# Converted on 02-01-2019
+
+name='diffuse'
+url=('https://downloads.sourceforge.net/project/diffuse/diffuse/0.4.8/diffuse-0.4.8.tar.bz2')
+description='Graphical tool for merging and comparing text files'
+version='0.4.8' # Guessed version.
+priority='optional'
+homepage='https://diffuse.sourceforge.io/'
+depends=('pygtk')
+
+###### Install ######
+# system "python", "./install.py",
+# "--sysconfdir=#{etc}",
+# "--examplesdir=#{share}",
+# "--prefix=#{prefix}"
+# inreplace bin/"diffuse", %r{^#!/usr/bin/env python$}, "#!/usr/bin/python"

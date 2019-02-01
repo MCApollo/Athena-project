@@ -1,0 +1,17 @@
+# liboauth.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/liboauth.rb
+# Converted on 02-01-2019
+
+name='liboauth'
+url=('https://downloads.sourceforge.net/project/liboauth/liboauth-1.0.3.tar.gz')
+description='C library for the OAuth Core RFC 5849 standard'
+version='1.0.3' # Guessed version.
+priority='optional'
+homepage='https://liboauth.sourceforge.io'
+depends=('openssl')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--disable-curl"
+# system "make", "install"

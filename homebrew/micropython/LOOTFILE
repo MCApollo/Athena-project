@@ -1,0 +1,22 @@
+# micropython.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/micropython.rb
+# Converted on 02-01-2019
+
+name='micropython'
+url=('https://github.com/micropython/micropython.git')
+description='Python implementation for microcontrollers and constrained systems'
+version=' '
+priority='optional'
+homepage='https://www.micropython.org/'
+depends=('libffi')
+makedepends=('pkg-config')
+
+###### Install ######
+# cd "ports/unix" do
+# system "make", "axtls"
+# system "make", "install", "PREFIX=#{prefix}"
+# end
+# cd "mpy-cross" do
+# system "make"
+# bin.install "mpy-cross"
+# end

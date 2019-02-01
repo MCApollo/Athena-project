@@ -1,0 +1,18 @@
+# icon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/icon.rb
+# Converted on 02-01-2019
+
+name='icon'
+url=('https://www.cs.arizona.edu/icon/ftp/packages/unix/icon-v951src.tgz')
+description='General-purpose programming language'
+version=' '
+priority='optional'
+homepage='https://www.cs.arizona.edu/icon/'
+
+###### Install ######
+# ENV.deparallelize
+# system "make", "Configure", "name=posix"
+# system "make"
+# bin.install "bin/icon", "bin/icont", "bin/iconx"
+# doc.install Dir["doc/*"]
+# man1.install Dir["man/man1/*.1"]

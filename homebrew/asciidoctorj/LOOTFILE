@@ -1,0 +1,18 @@
+# asciidoctorj.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/asciidoctorj.rb
+# Converted on 02-01-2019
+
+name='asciidoctorj'
+url=('https://dl.bintray.com/asciidoctor/maven/org/asciidoctor/asciidoctorj/1.5.6/asciidoctorj-1.5.6-bin.zip')
+description='Java wrapper and bindings for Asciidoctor'
+version='1.5.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/asciidoctor/asciidoctorj'
+depends=(':java')
+
+###### Install ######
+# rm_rf Dir["bin/*.bat"]
+# libexec.install Dir["*"]
+# executable = libexec/"bin/asciidoctorj"
+# executable.chmod 0555
+# bin.write_exec_script executable

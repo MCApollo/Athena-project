@@ -1,0 +1,21 @@
+# mkvalidator.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mkvalidator.rb
+# Converted on 02-01-2019
+
+name='mkvalidator'
+url=('https://downloads.sourceforge.net/project/matroska/mkvalidator/mkvalidator-0.5.2.tar.bz2')
+description='Tool to verify Matroska and WebM files for spec conformance'
+version='0.5.2' # Guessed version.
+priority='optional'
+homepage='https://www.matroska.org/downloads/mkvalidator.html'
+
+###### Resource ######
+# tests: https://github.com/dunn/garbage/raw/c0e682836e5237eef42a000e7d00dcd4b6dcebdb/test.mka
+
+###### Install ######
+# ENV.deparallelize
+# inreplace "configure", "\r", "\n"
+# system "./configure"
+# system "make", "-C", "mkvalidator"
+# bindir = `corec/tools/coremake/system_output.sh`.chomp
+# bin.install "release/#{bindir}/mkvalidator"

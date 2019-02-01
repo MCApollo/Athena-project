@@ -1,0 +1,15 @@
+# configen.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/configen.rb
+# Converted on 02-01-2019
+
+name='configen'
+url=('https://github.com/theappbusiness/ConfigGenerator/archive/v1.0.2.tar.gz')
+description='Configuration file code generator for use in Xcode projects'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/theappbusiness/ConfigGenerator'
+depends=(':xcode')
+
+###### Install ######
+# xcodebuild "SYMROOT=build"
+# bin.install "build/Release/configen"

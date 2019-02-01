@@ -1,0 +1,22 @@
+# aws-cfn-tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-cfn-tools.rb
+# Converted on 02-01-2019
+
+name='awscfntools'
+url=('https://s3.amazonaws.com/cloudformation-cli/AWSCloudFormation-cli.zip')
+description='Client for Amazon CloudFormation web service'
+version=' '
+priority='optional'
+homepage='https://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372'
+depends=('ec2-api-tools' ':java')
+
+###### Install ######
+# env = Language::Java.java_home_env.merge(:AWS_CLOUDFORMATION_HOME => libexec)
+# rm Dir["bin/*.cmd"]
+# libexec.install Dir["*"]
+# Pathname.glob("#{libexec}/bin/*") do |file|
+# next if file.directory?
+# basename = file.basename
+# next if basename.to_s == "service"
+# (bin/basename).write_env_script file, env
+# end

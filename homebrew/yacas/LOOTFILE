@@ -1,0 +1,22 @@
+# yacas.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yacas.rb
+# Converted on 02-01-2019
+
+name='yacas'
+url=('https://github.com/grzegorzmazur/yacas/archive/v1.6.1.tar.gz')
+description='General purpose computer algebra system'
+version='1.6.1' # Guessed version.
+priority='optional'
+homepage='https://www.yacas.org/'
+makedepends=('cmake' ':xcode')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", "-G", "Xcode", "-DENABLE_CYACAS_GUI=OFF",
+# "-DENABLE_CYACAS_KERNEL=OFF", *std_cmake_args
+# xcodebuild "-target", "ALL_BUILD", "-project", "YACAS.xcodeproj",
+# "-configuration", "Release", "SYMROOT=build/cyacas/libyacas"
+# end
+# bin.install "build/cyacas/libyacas/Release/yacas"
+# lib.install Dir["build/cyacas/libyacas/Release/{libyacas.a,yacas.framework}"]
+# pkgshare.install "scripts"

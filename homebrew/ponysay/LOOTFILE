@@ -1,0 +1,19 @@
+# ponysay.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ponysay.rb
+# Converted on 02-01-2019
+
+name='ponysay'
+url=('https://github.com/erkin/ponysay/archive/3.0.3.tar.gz')
+description='Cowsay but with ponies'
+version='3.0.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/erkin/ponysay/'
+depends=('coreutils' 'python')
+
+###### Install ######
+# system "./setup.py",
+# "--freedom=partial",
+# "--prefix=#{prefix}",
+# "--cache-dir=#{prefix}/var/cache",
+# "--sysconf-dir=#{prefix}/etc",
+# "install"

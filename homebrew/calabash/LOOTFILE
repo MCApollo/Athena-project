@@ -1,0 +1,15 @@
+# calabash.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/calabash.rb
+# Converted on 02-01-2019
+
+name='calabash'
+url=('https://github.com/ndw/xmlcalabash1/releases/download/1.1.22-98/xmlcalabash-1.1.22-98.zip')
+description='XProc (XML Pipeline Language) implementation'
+version='1.1.22' # Guessed version.
+priority='optional'
+homepage='https://xmlcalabash.com/'
+depends=('saxon')
+
+###### Install ######
+# libexec.install Dir["*"]
+# bin.write_jar_script libexec/"xmlcalabash-#{version}.jar", "calabash", "-Xmx1024m"

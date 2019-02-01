@@ -1,0 +1,24 @@
+# quasi88.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/quasi88.rb
+# Converted on 02-01-2019
+
+name='quasi88'
+url=('https://www.eonet.ne.jp/~showtime/quasi88/release/quasi88-0.6.4.tgz')
+description='PC-8801 emulator'
+version='0.6.4' # Guessed version.
+priority='optional'
+homepage='https://www.eonet.ne.jp/~showtime/quasi88/'
+depends=('sdl')
+
+###### Install ######
+# args = %W[
+# X11_VERSION=
+# SDL_VERSION=1
+# ARCH=macosx
+# SOUND_SDL=1
+# LD=#{ENV.cxx}
+# CXX=#{ENV.cxx}
+# CXXLIBS=
+# ]
+# system "make", *args
+# bin.install "quasi88.sdl" => "quasi88"

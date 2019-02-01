@@ -1,0 +1,18 @@
+# moon-buggy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/moon-buggy.rb
+# Converted on 02-01-2019
+
+name='moonbuggy'
+url=('https://m.seehuhn.de/programs/moon-buggy-1.0.tar.gz')
+description='Drive some car across the moon'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://www.seehuhn.de/pages/moon-buggy.html'
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--infodir=#{info}"
+# system "make", "install"

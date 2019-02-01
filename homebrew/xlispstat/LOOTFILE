@@ -1,0 +1,17 @@
+# xlispstat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xlispstat.rb
+# Converted on 02-01-2019
+
+name='xlispstat'
+url=('https://homepage.cs.uiowa.edu/~luke/xls/xlispstat/current/xlispstat-3-52-23.tar.gz')
+description='Statistical data science environment based on Lisp'
+version=' '
+priority='optional'
+homepage='https://homepage.stat.uiowa.edu/~luke/xls/xlsinfo/'
+depends=(':x11')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-debug", "--disable-dependency-tracking"
+# ENV.deparallelize
+# system "make"
+# system "make", "install"

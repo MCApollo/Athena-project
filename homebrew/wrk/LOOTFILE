@@ -1,0 +1,18 @@
+# wrk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wrk.rb
+# Converted on 02-01-2019
+
+name='wrk'
+url=('https://github.com/wg/wrk/archive/4.1.0.tar.gz')
+description='HTTP benchmarking tool'
+version='4.1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/wg/wrk'
+depends=('openssl')
+makedepends=('')
+
+###### Install ######
+# ENV.deparallelize
+# ENV["MACOSX_DEPLOYMENT_TARGET"] = MacOS.version
+# system "make"
+# bin.install "wrk"

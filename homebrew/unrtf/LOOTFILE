@@ -1,0 +1,16 @@
+# unrtf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/unrtf.rb
+# Converted on 02-01-2019
+
+name='unrtf'
+url=('https://ftp.gnu.org/gnu/unrtf/unrtf-0.21.9.tar.gz')
+description='RTF to other formats converter'
+version='0.21.9' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/unrtf/'
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# system "./bootstrap"
+# system "./configure", "LIBS=-liconv", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,15 @@
+# mdr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mdr.rb
+# Converted on 02-01-2019
+
+name='mdr'
+url=('https://github.com/halffullheart/mdr/archive/v1.0.1.tar.gz')
+description='Make diffs readable'
+version='1.0.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/halffullheart/mdr'
+
+###### Install ######
+# system "rake"
+# libexec.install Dir["*"]
+# bin.install_symlink libexec/"build/dev/mdr"

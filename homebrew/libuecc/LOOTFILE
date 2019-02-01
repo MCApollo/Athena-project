@@ -1,0 +1,15 @@
+# libuecc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libuecc.rb
+# Converted on 02-01-2019
+
+name='libuecc'
+url=('https://git.universe-factory.net/libuecc/snapshot/libuecc-7.tar')
+description='Very small Elliptic Curve Cryptography library'
+version=' '
+priority='optional'
+homepage='https://git.universe-factory.net/libuecc/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

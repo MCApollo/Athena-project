@@ -1,0 +1,17 @@
+# gaul.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gaul.rb
+# Converted on 02-01-2019
+
+name='gaul'
+url=('https://downloads.sourceforge.net/project/gaul/gaul-devel/0.1850-0/gaul-devel-0.1850-0.tar.gz')
+description='Genetic Algorithm Utility Library'
+version='0.1850' # Guessed version.
+priority='optional'
+homepage='https://gaul.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-debug",
+# "--disable-g",
+# "--prefix=#{prefix}"
+# system "make", "install"

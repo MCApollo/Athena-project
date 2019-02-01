@@ -1,0 +1,17 @@
+# shakespeare.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shakespeare.rb
+# Converted on 02-01-2019
+
+name='shakespeare'
+url=('https://shakespearelang.sourceforge.io/download/spl-1.2.1.tar.gz')
+description='Write programs in Shakespearean English'
+version='1.2.1' # Guessed version.
+priority='optional'
+homepage='https://shakespearelang.sourceforge.io/'
+depends=('flex')
+
+###### Install ######
+# system "make", "install"
+# bin.install "spl/bin/spl2c"
+# include.install "spl/include/spl.h"
+# lib.install "spl/lib/libspl.a"

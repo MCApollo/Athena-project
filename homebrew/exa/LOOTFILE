@@ -1,0 +1,17 @@
+# exa.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/exa.rb
+# Converted on 02-01-2019
+
+name='exa'
+url=('https://github.com/ogham/exa/archive/v0.8.0.tar.gz')
+description='Modern replacement for '\''ls'\'''
+version='0.8.0' # Guessed version.
+priority='optional'
+homepage='https://the.exa.website'
+makedepends=('cmake' 'rust')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"
+# bash_completion.install "contrib/completions.bash" => "exa"
+# zsh_completion.install  "contrib/completions.zsh"  => "_exa"
+# fish_completion.install "contrib/completions.fish" => "exa.fish"

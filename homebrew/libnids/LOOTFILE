@@ -1,0 +1,21 @@
+# libnids.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libnids.rb
+# Converted on 02-01-2019
+
+name='libnids'
+url=('https://downloads.sourceforge.net/project/libnids/libnids/1.24/libnids-1.24.tar.gz')
+description='Implements E-component of network intrusion detection system'
+version='1.24' # Guessed version.
+priority='optional'
+homepage='https://libnids.sourceforge.io/'
+depends=('glib' 'libnet')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+# A diff file was written to libnids.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "autoreconf", "-ivf"
+# system "./configure", "--prefix=#{prefix}", "--mandir=#{man}",
+# "--enable-shared"
+# system "make", "install"

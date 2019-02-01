@@ -1,0 +1,24 @@
+# afflib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/afflib.rb
+# Converted on 02-01-2019
+
+name='afflib'
+url=('https://github.com/sshock/AFFLIBv3/archive/v3.7.17.tar.gz')
+description='Advanced Forensic Format'
+version='3.7.17' # Guessed version.
+priority='optional'
+homepage='https://github.com/sshock/AFFLIBv3'
+depends=('openssl' 'python@2')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# args = %w[
+# --enable-s3
+# --enable-python
+# --disable-fuse
+# ]
+# system "autoreconf", "-fiv"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# *args
+# system "make", "install"

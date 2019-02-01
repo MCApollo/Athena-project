@@ -1,0 +1,15 @@
+# ripmime.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ripmime.rb
+# Converted on 02-01-2019
+
+name='ripmime'
+url=('https://pldaniels.com/ripmime/ripmime-1.4.0.10.tar.gz')
+description='Extract attachments out of MIME encoded email packages'
+version='1.4.0.10' # Guessed version.
+priority='optional'
+homepage='https://pldaniels.com/ripmime/'
+
+###### Install ######
+# system "make", "LIBS=-liconv", "CFLAGS=#{ENV.cflags}"
+# bin.install "ripmime"
+# man1.install "ripmime.1"

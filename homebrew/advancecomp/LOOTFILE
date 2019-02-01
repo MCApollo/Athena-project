@@ -1,0 +1,17 @@
+# advancecomp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/advancecomp.rb
+# Converted on 02-01-2019
+
+name='advancecomp'
+url=('https://github.com/amadvance/advancecomp/releases/download/v2.1/advancecomp-2.1.tar.gz')
+description='Recompression utilities for .PNG, .MNG, .ZIP, and .GZ files'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://www.advancemame.it/comp-readme.html'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--enable-bzip2", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make", "install"

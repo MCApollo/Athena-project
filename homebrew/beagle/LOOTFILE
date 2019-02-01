@@ -1,0 +1,21 @@
+# beagle.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/beagle.rb
+# Converted on 02-01-2019
+
+name='beagle'
+url=('https://github.com/beagle-dev/beagle-lib/archive/v3.1.2.tar.gz')
+description='Evaluate the likelihood of sequence evolution on trees'
+version='3.1.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/beagle-dev/beagle-lib'
+depends=(':java')
+makedepends=('autoconf' 'automake' 'doxygen' 'libtool')
+
+###### Install ######
+# system "./autogen.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--without-cuda",
+# "--disable-libtool-dev"
+# system "make", "install"

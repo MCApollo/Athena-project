@@ -1,0 +1,17 @@
+# node@8.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/node@8.rb
+# Converted on 02-01-2019
+
+name='nodeat8'
+url=('https://nodejs.org/dist/v8.15.0/node-v8.15.0.tar.xz')
+description='Platform built on V8 to build network applications'
+version='8.15.0' # Guessed version.
+priority='optional'
+homepage='https://nodejs.org/'
+depends=('icu4c')
+makedepends=('pkg-config' 'python@2')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--with-intl=system-icu"
+# system "make", "install"
+# (lib/"node_modules/npm/npmrc").atomic_write("prefix = #{HOMEBREW_PREFIX}\n")

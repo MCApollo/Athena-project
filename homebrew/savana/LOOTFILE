@@ -1,0 +1,17 @@
+# savana.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/savana.rb
+# Converted on 02-01-2019
+
+name='savana'
+url=('https://bintray.com/artifact/download/bintray/jcenter/org/codehaus/savana/1.2/savana-1.2-install.tar.gz')
+description='Transactional workspaces for SVN'
+version='1.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/codehaus/savana'
+
+###### Install ######
+# rm_rf Dir["bin/*.{bat,cmd}"]
+# prefix.install %w[COPYING COPYING.LESSER licenses svn-hooks]
+# libexec.install %w[bin lib logging.properties]
+# bin.write_exec_script libexec/"bin/sav"
+# bash_completion.install "etc/bash_completion" => "savana-completion.bash"

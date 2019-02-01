@@ -1,0 +1,17 @@
+# pangomm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pangomm.rb
+# Converted on 02-01-2019
+
+name='pangomm'
+url=('https://download.gnome.org/sources/pangomm/2.42/pangomm-2.42.0.tar.xz')
+description='C++ interface to Pango'
+version='2.42.0' # Guessed version.
+priority='optional'
+homepage='https://www.pango.org/'
+depends=('cairomm' 'glibmm' 'pango')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

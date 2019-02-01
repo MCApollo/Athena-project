@@ -1,0 +1,13 @@
+# nethogs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nethogs.rb
+# Converted on 02-01-2019
+
+name='nethogs'
+url=('https://github.com/raboof/nethogs/archive/v0.8.5.tar.gz')
+description='Net top tool grouping bandwidth per process'
+version='0.8.5' # Guessed version.
+priority='optional'
+homepage='https://raboof.github.io/nethogs/'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

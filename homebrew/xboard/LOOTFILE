@@ -1,0 +1,22 @@
+# xboard.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xboard.rb
+# Converted on 02-01-2019
+
+name='xboard'
+url=('https://ftp.gnu.org/gnu/xboard/xboard-4.9.1.tar.gz')
+description='Graphical user interface for chess'
+version='4.9.1' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/xboard/'
+depends=('cairo' 'fairymax' 'gettext' 'gtk+' 'librsvg' 'polyglot')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# args = ["--prefix=#{prefix}",
+# "--with-gtk",
+# "--without-Xaw",
+# "--disable-zippy"]
+# system "./configure", *args
+# system "make"
+# system "make", "install"

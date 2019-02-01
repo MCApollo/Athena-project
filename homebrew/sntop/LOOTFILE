@@ -1,0 +1,21 @@
+# sntop.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sntop.rb
+# Converted on 02-01-2019
+
+name='sntop'
+url=('https://pkg.freebsd.org/ports-distfiles/sntop-1.4.3.tar.gz')
+description='Curses-based utility that polls hosts to determine connectivity'
+version='1.4.3' # Guessed version.
+priority='optional'
+homepage='https://sntop.sourceforge.io/'
+depends=('fping')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--sysconfdir=#{etc}"
+# etc.mkpath
+# bin.mkpath
+# man1.mkpath
+# system "make", "install"

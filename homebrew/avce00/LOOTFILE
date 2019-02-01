@@ -1,0 +1,17 @@
+# avce00.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/avce00.rb
+# Converted on 02-01-2019
+
+name='avce00'
+url=('http://avce00.maptools.org/dl/avce00-2.0.0.tar.gz')
+description='Make Arc/Info (binary) Vector Coverages appear as E00'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='http://avce00.maptools.org/avce00/index.html'
+makedepends=('')
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}"
+# bin.install "avcimport", "avcexport", "avcdelete", "avctest"
+# lib.install "avc.a"
+# include.install Dir["*.h"]

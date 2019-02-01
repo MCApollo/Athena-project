@@ -1,0 +1,14 @@
+# minised.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/minised.rb
+# Converted on 02-01-2019
+
+name='minised'
+url=('https://dl.exactcode.de/oss/minised/minised-1.15.tar.gz')
+description='Smaller, cheaper, faster SED implementation'
+version='1.15' # Guessed version.
+priority='optional'
+homepage='https://www.exactcode.com/opensource/minised/'
+
+###### Install ######
+# system "make"
+# system "make", "DESTDIR=#{prefix}", "PREFIX=", "install"

@@ -1,0 +1,16 @@
+# cereal.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cereal.rb
+# Converted on 02-01-2019
+
+name='cereal'
+url=('https://github.com/USCiLab/cereal/archive/v1.2.2.tar.gz')
+description='C++11 library for serialization'
+version='1.2.2' # Guessed version.
+priority='optional'
+homepage='https://uscilab.github.io/cereal/'
+depends=(':macos')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", "-DJUST_INSTALL_CEREAL=ON", *std_cmake_args
+# system "make", "install"

@@ -1,0 +1,14 @@
+# chruby-fish.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/chruby-fish.rb
+# Converted on 02-01-2019
+
+name='chrubyfish'
+url=('https://github.com/JeanMertz/chruby-fish/archive/v0.8.2.tar.gz')
+description='Thin wrapper around chruby to make it work with the Fish shell'
+version='0.8.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/JeanMertz/chruby-fish#readme'
+depends=('chruby' 'fish')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

@@ -1,0 +1,18 @@
+# jumanpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jumanpp.rb
+# Converted on 02-01-2019
+
+name='jumanpp'
+url=('https://lotus.kuee.kyoto-u.ac.jp/nl-resource/jumanpp/jumanpp-1.02.tar.xz')
+description='Japanese Morphological Analyzer based on RNNLM'
+version='1.02' # Guessed version.
+priority='optional'
+homepage='http://nlp.ist.i.kyoto-u.ac.jp/EN/index.php?JUMAN%2B%2B'
+depends=('boost' 'gperftools')
+makedepends=('boost-build')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,31 @@
+# ldc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ldc.rb
+# Converted on 02-01-2019
+
+name='ldc'
+url=('https://github.com/ldc-developers/ldc/releases/download/v1.13.0/ldc-1.13.0-src.tar.gz')
+description='Portable D programming language compiler'
+version='1.13.0' # Guessed version.
+priority='optional'
+homepage='https://wiki.dlang.org/LDC'
+depends=('llvm')
+makedepends=('cmake' 'libconfig')
+
+###### Resource ######
+# ldc-bootstrap: https://github.com/ldc-developers/ldc/releases/download/v1.12.0/ldc2-1.12.0-osx-x86_64.tar.xz
+
+###### Install ######
+# ENV.cxx11
+# (buildpath/"ldc-bootstrap").install resource("ldc-bootstrap")
+# mkdir "build" do
+# args = std_cmake_args + %W[
+# -DLLVM_ROOT_DIR=#{Formula["llvm"].opt_prefix}
+# -DINCLUDE_INSTALL_DIR=#{include}/dlang/ldc
+# -DD_COMPILER=#{buildpath}/ldc-bootstrap/bin/ldmd2
+# -DLDC_WITH_LLD=OFF
+# -DRT_ARCHIVE_WITH_LDC=OFF
+# ]
+# system "cmake", "..", *args
+# system "make"
+# system "make", "install"
+# end

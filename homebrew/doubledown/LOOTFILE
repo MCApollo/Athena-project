@@ -1,0 +1,12 @@
+# doubledown.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/doubledown.rb
+# Converted on 02-01-2019
+
+name='doubledown'
+url=('https://github.com/devstructure/doubledown/archive/v0.0.2.tar.gz')
+description='Sync local changes to a remote directory'
+version='0.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/devstructure/doubledown'
+
+###### Install ######

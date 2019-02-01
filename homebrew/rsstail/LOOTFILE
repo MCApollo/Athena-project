@@ -1,0 +1,24 @@
+# rsstail.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rsstail.rb
+# Converted on 02-01-2019
+
+name='rsstail'
+url=('https://www.vanheusden.com/rsstail/rsstail-2.1.tgz')
+description='Monitors an RSS feed and emits new entries when detected'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://www.vanheusden.com/rsstail/'
+depends=('libmrss')
+
+###### Resource ######
+# libiconv_hook: https://www.mirrorservice.org/sites/archive.ubuntu.com/ubuntu/pool/universe/liba/libapache-mod-encoding/libapache-mod-encoding_0.0.20021209.orig.tar.gz
+
+###### Install ######
+# (buildpath/"libiconv_hook").install resource("libiconv_hook")
+# cd "libiconv_hook/lib" do
+# system "./configure", "--disable-shared"
+# system "make"
+# end
+# system "make", "LDFLAGS=-liconv -liconv_hook -lmrss -L#{buildpath}/libiconv_hook/lib/.libs"
+# man1.install "rsstail.1"
+# bin.install "rsstail"

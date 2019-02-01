@@ -1,0 +1,18 @@
+# libmxml.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmxml.rb
+# Converted on 02-01-2019
+
+name='libmxml'
+url=('https://github.com/michaelrsweet/mxml/releases/download/v2.12/mxml-2.12.tar.gz')
+description='Mini-XML library'
+version='2.12' # Guessed version.
+priority='optional'
+homepage='https://michaelrsweet.github.io/mxml/'
+makedepends=(':xcode')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--enable-shared",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

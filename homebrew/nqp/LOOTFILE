@@ -1,0 +1,19 @@
+# nqp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nqp.rb
+# Converted on 02-01-2019
+
+name='nqp'
+url=('https://rakudo.perl6.org/downloads/nqp/nqp-2018.12.tar.gz')
+description='Lightweight Perl 6-like environment for virtual machines'
+version='2018.12' # Guessed version.
+priority='optional'
+homepage='https://github.com/perl6/nqp'
+depends=('moarvm')
+
+###### Install ######
+# system "perl", "Configure.pl",
+# "--backends=moar",
+# "--prefix=#{prefix}",
+# "--with-moar=#{Formula["moarvm"].bin}/moar"
+# system "make"
+# system "make", "install"

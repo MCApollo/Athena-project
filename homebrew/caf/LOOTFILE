@@ -1,0 +1,18 @@
+# caf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/caf.rb
+# Converted on 02-01-2019
+
+name='caf'
+url=('https://github.com/actor-framework/actor-framework/archive/0.16.3.tar.gz')
+description='Implementation of the Actor Model for C++'
+version='0.16.3' # Guessed version.
+priority='optional'
+homepage='https://actor-framework.org/'
+makedepends=('cmake')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--no-examples",
+# "--build-static", "--no-opencl"
+# system "make", "--directory=build"
+# system "make", "--directory=build", "test"
+# system "make", "--directory=build", "install"

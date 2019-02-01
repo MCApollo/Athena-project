@@ -1,0 +1,22 @@
+# xtensor.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xtensor.rb
+# Converted on 02-01-2019
+
+name='xtensor'
+url=('https://github.com/QuantStack/xtensor/archive/0.19.1.tar.gz')
+description='Multi-dimensional arrays with broadcasting and lazy computing'
+version='0.19.1' # Guessed version.
+priority='optional'
+homepage='http://quantstack.net/xtensor'
+makedepends=('cmake')
+
+###### Resource ######
+# xtl: https://github.com/QuantStack/xtl/archive/0.5.2.tar.gz
+
+###### Install ######
+# resource("xtl").stage do
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"
+# end
+# system "cmake", ".", "-Dxtl_DIR=#{lib}/cmake/xtl", *std_cmake_args
+# system "make", "install"

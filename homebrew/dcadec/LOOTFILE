@@ -1,0 +1,18 @@
+# dcadec.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dcadec.rb
+# Converted on 02-01-2019
+
+name='dcadec'
+url=('https://github.com/foo86/dcadec.git')
+description='DTS Coherent Acoustics decoder with support for HD extensions'
+version=' '
+priority='optional'
+homepage='https://github.com/foo86/dcadec'
+
+###### Resource ######
+# sample: https://github.com/foo86/dcadec-samples/raw/fa7dcf8c98c6d/xll_71_24_96_768.dtshd
+
+###### Install ######
+# system "make", "all"
+# system "make", "check"
+# system "make", "PREFIX=#{prefix}", "install"

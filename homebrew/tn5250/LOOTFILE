@@ -1,0 +1,20 @@
+# tn5250.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tn5250.rb
+# Converted on 02-01-2019
+
+name='tn5250'
+url=('https://downloads.sourceforge.net/project/tn5250/tn5250/0.17.4/tn5250-0.17.4.tar.gz')
+description='5250 terminal and printer emulator'
+version='0.17.4' # Guessed version.
+priority='optional'
+homepage='https://tn5250.sourceforge.io/'
+depends=('openssl')
+
+# A diff file was written to tn5250.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

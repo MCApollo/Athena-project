@@ -1,0 +1,13 @@
+# fetch-crl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fetch-crl.rb
+# Converted on 02-01-2019
+
+name='fetchcrl'
+url=('https://dist.eugridpma.info/distribution/util/fetch-crl3/fetch-crl-3.0.20.tar.gz')
+description='Retrieve certificate revocation lists (CRLs)'
+version='3.0.20' # Guessed version.
+priority='optional'
+homepage='https://wiki.nikhef.nl/grid/FetchCRL3'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}", "ETC=#{etc}", "CACHE=#{var}/cache"

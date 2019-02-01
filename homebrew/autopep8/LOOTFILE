@@ -1,0 +1,18 @@
+# autopep8.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/autopep8.rb
+# Converted on 02-01-2019
+
+name='autopep8'
+url=('https://files.pythonhosted.org/packages/5b/ba/37d30e4263c51ee5a655118ac8c331e96a4e45fd4cea876a74b87af9ffc1/autopep8-1.4.3.tar.gz')
+description='Automatically formats Python code to conform to the PEP 8 style guide'
+version='1.4.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/hhatto/autopep8'
+depends=('python')
+
+###### Install ######
+# venv = virtualenv_create(libexec, "python3")
+# system libexec/"bin/pip", "install", "-v", "--no-binary", ":all:",
+# "--ignore-installed", buildpath
+# system libexec/"bin/pip", "uninstall", "-y", name
+# venv.pip_install_and_link buildpath

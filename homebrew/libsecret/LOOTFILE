@@ -1,0 +1,25 @@
+# libsecret.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsecret.rb
+# Converted on 02-01-2019
+
+name='libsecret'
+url=('https://download.gnome.org/sources/libsecret/0.18/libsecret-0.18.7.tar.xz')
+description='Library for storing/retrieving passwords and other secrets'
+version='0.18.7' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/Projects/Libsecret'
+depends=('glib' 'libgcrypt')
+makedepends=('docbook-xsl' 'gettext' 'gobject-introspection' 'pkg-config' 'vala')
+
+###### Install ######
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --enable-introspection
+# --enable-vala
+# ]
+# system "./configure", *args
+# system "make", "install"

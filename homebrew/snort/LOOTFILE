@@ -1,0 +1,37 @@
+# snort.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/snort.rb
+# Converted on 02-01-2019
+
+name='snort'
+url=('https://www.snort.org/downloads/snort/snort-2.9.11.1.tar.gz')
+description='Flexible Network Intrusion Detection System'
+version='2.9.11.1' # Guessed version.
+priority='optional'
+homepage='https://www.snort.org'
+depends=('daq' 'libdnet' 'luajit' 'openssl' 'pcre')
+makedepends=('pkg-config')
+
+###### Install ######
+# openssl = Formula["openssl"]
+# args = %W[
+# --prefix=#{prefix}
+# --sysconfdir=#{etc}/snort
+# --disable-debug
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --enable-active-response
+# --enable-flexresp3
+# --enable-gre
+# --enable-mpls
+# --enable-normalizer
+# --enable-react
+# --enable-reload
+# --enable-sourcefire
+# --enable-targetbased
+# --with-openssl-includes=#{openssl.opt_include}
+# --with-openssl-libraries=#{openssl.opt_lib}
+# ]
+# system "./configure", *args
+# system "make", "install"
+# rm Dir[buildpath/"etc/Makefile*"]
+# (etc/"snort").install Dir[buildpath/"etc/*"]

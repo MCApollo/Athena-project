@@ -1,0 +1,14 @@
+# zork.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zork.rb
+# Converted on 02-01-2019
+
+name='zork'
+url=('https://github.com/devshane/zork/archive/v1.0.2.tar.gz')
+description='The Dungeon modified from FORTRAN to C'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/devshane/zork'
+
+###### Install ######
+# system "make", "DATADIR=#{share}", "BINDIR=#{bin}"
+# system "make", "install", "DATADIR=#{share}", "BINDIR=#{bin}", "MANDIR=#{man}"

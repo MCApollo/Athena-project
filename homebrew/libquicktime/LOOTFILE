@@ -1,0 +1,25 @@
+# libquicktime.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libquicktime.rb
+# Converted on 02-01-2019
+
+name='libquicktime'
+url=('https://downloads.sourceforge.net/project/libquicktime/libquicktime/1.2.4/libquicktime-1.2.4.tar.gz')
+description='Library for reading and writing quicktime files'
+version='1.2.4' # Guessed version.
+priority='optional'
+homepage='https://libquicktime.sourceforge.io/'
+depends=('gettext')
+makedepends=('pkg-config')
+# Patches
+url+=('https://mirrors.ocf.berkeley.edu/debian/pool/main/libq/libquicktime/libquicktime_1.2.4-12.debian.tar.xz')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-gpl",
+# "--without-doxygen",
+# "--without-gtk",
+# "--without-x"
+# system "make"
+# system "make", "install"

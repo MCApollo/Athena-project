@@ -1,0 +1,17 @@
+# switch-lan-play.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/switch-lan-play.rb
+# Converted on 02-01-2019
+
+name='switchlanplay'
+url=('https://github.com/spacemeowx2/switch-lan-play.git')
+description='Make you and your friends play games like in a LAN'
+version=' '
+priority='optional'
+homepage='https://github.com/spacemeowx2/switch-lan-play'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

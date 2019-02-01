@@ -1,0 +1,17 @@
+# pth.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pth.rb
+# Converted on 02-01-2019
+
+name='pth'
+url=('https://ftp.gnu.org/gnu/pth/pth-2.0.7.tar.gz')
+description='GNU Portable THreads'
+version='2.0.7' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/pth/'
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make"
+# system "make", "test"
+# system "make", "install"

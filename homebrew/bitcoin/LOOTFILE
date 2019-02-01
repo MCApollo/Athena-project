@@ -1,0 +1,24 @@
+# bitcoin.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bitcoin.rb
+# Converted on 02-01-2019
+
+name='bitcoin'
+url=('https://bitcoin.org/bin/bitcoin-core-0.17.1/bitcoin-0.17.1.tar.gz')
+description='Decentralized, peer to peer payment network'
+version='0.17.1' # Guessed version.
+priority='optional'
+homepage='https://bitcoin.org/'
+depends=('berkeley-db@4' 'boost' 'libevent' 'miniupnpc' 'openssl' 'zeromq')
+makedepends=('pkg-config')
+
+###### Install ######
+# if MacOS.version == :el_capitan && MacOS::Xcode.version >= "8.0"
+# ENV.delete("SDKROOT")
+# end
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--with-boost-libdir=#{Formula["boost"].opt_lib}",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# pkgshare.install "share/rpcauth"

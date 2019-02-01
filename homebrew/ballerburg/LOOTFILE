@@ -1,0 +1,16 @@
+# ballerburg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ballerburg.rb
+# Converted on 02-01-2019
+
+name='ballerburg'
+url=('https://download.tuxfamily.org/baller/ballerburg-1.2.0.tar.gz')
+description='Castle combat game'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://baller.tuxfamily.org/'
+depends=('sdl')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

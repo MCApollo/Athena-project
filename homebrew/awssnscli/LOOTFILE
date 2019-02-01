@@ -1,0 +1,23 @@
+# aws-sns-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-sns-cli.rb
+# Converted on 02-01-2019
+
+name='awssnscli'
+url=('https://sns-public-resources.s3.amazonaws.com/SimpleNotificationServiceCli-2010-03-31.zip')
+description='Client for Amazon Simple Notification web service'
+version=' '
+priority='optional'
+homepage='https://aws.amazon.com/developertools/3688'
+depends=(':java')
+
+###### Install ######
+# env = Language::Java.java_home_env.merge(:AWS_SNS_HOME => libexec)
+# rm Dir["bin/*.cmd"]
+# chmod 0755, Dir["bin/*"]
+# libexec.install Dir["*"]
+# Pathname.glob("#{libexec}/bin/*") do |file|
+# next if file.directory?
+# basename = file.basename
+# next if basename.to_s == "service"
+# (bin/basename).write_env_script file, env
+# end

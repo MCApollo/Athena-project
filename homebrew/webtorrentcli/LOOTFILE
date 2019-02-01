@@ -1,0 +1,15 @@
+# webtorrent-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/webtorrent-cli.rb
+# Converted on 02-01-2019
+
+name='webtorrentcli'
+url=('https://registry.npmjs.org/webtorrent-cli/-/webtorrent-cli-1.12.3.tgz')
+description='Command-line streaming torrent client'
+version='1.12.3' # Guessed version.
+priority='optional'
+homepage='https://webtorrent.io/'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

@@ -1,0 +1,34 @@
+# irssi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/irssi.rb
+# Converted on 02-01-2019
+
+name='irssi'
+url=('https://github.com/irssi/irssi/releases/download/1.1.1/irssi-1.1.1.tar.xz')
+description='Modular IRC client'
+version='1.1.1' # Guessed version.
+priority='optional'
+homepage='https://irssi.org/'
+depends=('glib' 'openssl')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --sysconfdir=#{etc}
+# --with-bot
+# --with-proxy
+# --enable-true-color
+# --with-socks=no
+# --with-ncurses=#{MacOS.sdk_path}/usr
+# --with-perl=yes
+# --with-perl-lib=#{lib}/perl5/site_perl
+# ]
+# if build.head?
+# ENV["NOCONFIGURE"] = "yes"
+# system "./autogen.sh", *args
+# end
+# inreplace "configure", "^DUIfm", "^DUIifm"
+# system "./configure", *args
+# system "make"
+# system "make", "install"

@@ -1,0 +1,16 @@
+# txr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/txr.rb
+# Converted on 02-01-2019
+
+name='txr'
+url=('http://www.kylheku.com/cgit/txr/snapshot/txr-198.tar.bz2')
+description='Original, new programming language for convenient data munging'
+version=' '
+priority='optional'
+homepage='https://www.nongnu.org/txr/'
+
+###### Install ######
+# ENV.deparallelize
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

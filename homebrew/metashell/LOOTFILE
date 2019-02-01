@@ -1,0 +1,22 @@
+# metashell.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/metashell.rb
+# Converted on 02-01-2019
+
+name='metashell'
+url=('https://github.com/metashell/metashell/archive/v4.0.0.tar.gz')
+description='Metaprogramming shell for C++ templates'
+version='4.0.0' # Guessed version.
+priority='optional'
+homepage='http://metashell.org'
+makedepends=('cmake')
+
+###### Install ######
+# ENV.cxx11
+# mkdir "3rd/templight/build" do
+# system "cmake", "../llvm", "-DLLVM_ENABLE_TERMINFO=OFF", *std_cmake_args
+# system "make", "templight"
+# end
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

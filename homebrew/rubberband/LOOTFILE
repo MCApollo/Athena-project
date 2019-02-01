@@ -1,0 +1,23 @@
+# rubberband.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rubberband.rb
+# Converted on 02-01-2019
+
+name='rubberband'
+url=('https://breakfastquay.com/files/releases/rubberband-1.8.2.tar.bz2')
+description='Audio time stretcher tool and library'
+version='1.8.2' # Guessed version.
+priority='optional'
+homepage='https://breakfastquay.com/rubberband/'
+depends=('libsamplerate' 'libsndfile')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "make", "-f", "Makefile.osx"
+# bin.install "bin/rubberband"
+# lib.install "lib/librubberband.dylib" => "librubberband.2.1.1.dylib"
+# lib.install_symlink lib/"librubberband.2.1.1.dylib" => "librubberband.2.dylib"
+# lib.install_symlink lib/"librubberband.2.1.1.dylib" => "librubberband.dylib"
+# include.install "rubberband"
+# cp "rubberband.pc.in", "rubberband.pc"
+# inreplace "rubberband.pc", "%PREFIX%", opt_prefix
+# (lib/"pkgconfig").install "rubberband.pc"

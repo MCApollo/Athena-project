@@ -1,0 +1,23 @@
+# mtr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mtr.rb
+# Converted on 02-01-2019
+
+name='mtr'
+url=('https://github.com/traviscross/mtr/archive/v0.92.tar.gz')
+description=''\''traceroute'\'' and '\''ping'\'' in a single tool'
+version='0.92' # Guessed version.
+priority='optional'
+homepage='https://www.bitwizard.nl/mtr/'
+makedepends=('autoconf' 'automake' 'pkg-config')
+
+###### Install ######
+# ENV["LIBS"] = "-lresolv"
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --without-glib
+# --without-gtk
+# ]
+# system "./bootstrap.sh"
+# system "./configure", *args
+# system "make", "install"

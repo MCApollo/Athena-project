@@ -1,0 +1,20 @@
+# siege.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/siege.rb
+# Converted on 02-01-2019
+
+name='siege'
+url=('http://download.joedog.org/siege/siege-4.0.4.tar.gz')
+description='HTTP regression testing and benchmarking utility'
+version='4.0.4' # Guessed version.
+priority='optional'
+homepage='https://www.joedog.org/siege-home/'
+depends=('openssl')
+
+###### Install ######
+# (prefix/"etc").mkdir
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--localstatedir=#{var}",
+# "--with-ssl=#{Formula["openssl"].opt_prefix}"
+# system "make", "install"

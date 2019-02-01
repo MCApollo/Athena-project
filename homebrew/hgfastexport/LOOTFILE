@@ -1,0 +1,15 @@
+# hg-fast-export.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hg-fast-export.rb
+# Converted on 02-01-2019
+
+name='hgfastexport'
+url=('https://github.com/frej/fast-export/archive/v180610.tar.gz')
+description='Fast Mercurial to Git converter'
+version=' '
+priority='optional'
+homepage='https://repo.or.cz/fast-export.git'
+
+###### Install ######
+# bin.install "hg-fast-export.py", "hg-fast-export.sh",
+# "hg-reset.py", "hg-reset.sh",
+# "hg2git.py"

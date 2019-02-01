@@ -1,0 +1,16 @@
+# feedgnuplot.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/feedgnuplot.rb
+# Converted on 02-01-2019
+
+name='feedgnuplot'
+url=('https://github.com/dkogan/feedgnuplot/archive/v1.51.tar.gz')
+description='Tool to plot realtime and stored data from the command-line'
+version='1.51' # Guessed version.
+priority='optional'
+homepage='https://github.com/dkogan/feedgnuplot'
+depends=('gnuplot')
+
+###### Install ######
+# system "perl", "Makefile.PL", "prefix=#{prefix}"
+# system "make"
+# system "make", "install"

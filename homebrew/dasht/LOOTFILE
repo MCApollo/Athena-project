@@ -1,0 +1,15 @@
+# dasht.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dasht.rb
+# Converted on 02-01-2019
+
+name='dasht'
+url=('https://github.com/sunaku/dasht/archive/v2.3.0.tar.gz')
+description='Search API docs offline, in your terminal or browser'
+version='2.3.0' # Guessed version.
+priority='optional'
+homepage='https://sunaku.github.io/dasht'
+depends=('socat' 'sqlite' 'w3m' 'wget')
+
+###### Install ######
+# bin.install Dir["bin/*"]
+# man.install "man/man1"

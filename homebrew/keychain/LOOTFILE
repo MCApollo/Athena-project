@@ -1,0 +1,14 @@
+# keychain.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/keychain.rb
+# Converted on 02-01-2019
+
+name='keychain'
+url=('https://build.funtoo.org/distfiles/keychain/keychain-2.8.5.tar.bz2')
+description='User-friendly front-end to ssh-agent(1)'
+version='2.8.5' # Guessed version.
+priority='optional'
+homepage='https://www.funtoo.org/Keychain'
+
+###### Install ######
+# bin.install "keychain"
+# man1.install "keychain.1"

@@ -1,0 +1,22 @@
+# scriptcs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scriptcs.rb
+# Converted on 02-01-2019
+
+name='scriptcs'
+url=('https://github.com/scriptcs/scriptcs/archive/v0.17.1.tar.gz')
+description='Tools to write and execute C#'
+version='0.17.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/scriptcs/scriptcs'
+depends=('mono')
+
+###### Install ######
+# script_file = "scriptcs.sh"
+# system "sh", "./build_brew.sh"
+# libexec.install Dir["src/ScriptCs/bin/Release/*"]
+# (libexec/script_file).write <<~EOS
+# #!/bin/bash
+# mono #{libexec}/scriptcs.exe $@
+# EOS
+# (libexec/script_file).chmod 0755
+# bin.install_symlink libexec/script_file => "scriptcs"

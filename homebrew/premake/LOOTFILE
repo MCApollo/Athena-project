@@ -1,0 +1,22 @@
+# premake.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/premake.rb
+# Converted on 02-01-2019
+
+name='premake'
+url=('https://downloads.sourceforge.net/project/premake/Premake/4.4/premake-4.4-beta5-src.zip')
+description='Write once, build anywhere Lua-based build system'
+version='4.4' # Guessed version.
+priority='optional'
+homepage='https://premake.github.io/'
+
+###### Install ######
+# if build.head?
+# system "make", "-f", "Bootstrap.mak", "osx"
+# system "./premake5", "gmake"
+# end
+# system "make", "-C", "build/gmake.macosx"
+# if build.head?
+# bin.install "bin/release/premake5"
+# else
+# bin.install "bin/release/premake4"
+# end

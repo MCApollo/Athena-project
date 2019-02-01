@@ -1,0 +1,22 @@
+# efl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/efl.rb
+# Converted on 02-01-2019
+
+name='efl'
+url=('https://download.enlightenment.org/rel/libs/efl/efl-1.21.0.tar.xz')
+description='Enlightenment Foundation Libraries'
+version='1.21.0' # Guessed version.
+priority='optional'
+homepage='https://www.enlightenment.org'
+depends=('bullet' 'dbus' 'fontconfig' 'freetype' 'fribidi' 'giflib' 'gst-plugins-good' 'gstreamer' 'jpeg' 'libpng' 'libraw' 'librsvg' 'libsndfile' 'libspectre' 'libtiff' 'luajit' 'openssl' 'poppler' 'pulseaudio' 'shared-mime-info')
+makedepends=('gettext' 'pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# ]
+# system "./configure", *args
+# system "make", "install"
+# system Formula["shared-mime-info"].opt_bin/"update-mime-database", "#{HOMEBREW_PREFIX}/share/mime"

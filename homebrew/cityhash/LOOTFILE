@@ -1,0 +1,14 @@
+# cityhash.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cityhash.rb
+# Converted on 02-01-2019
+
+name='cityhash'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cityhash/cityhash-1.1.1.tar.gz')
+description='Hash functions for strings'
+version='1.1.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/cityhash'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

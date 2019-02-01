@@ -1,0 +1,25 @@
+# guichan.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/guichan.rb
+# Converted on 02-01-2019
+
+name='guichan'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/guichan/guichan-0.8.2.tar.gz')
+description='Small, efficient C++ GUI library designed for games'
+version='0.8.2' # Guessed version.
+priority='optional'
+homepage='https://guichan.sourceforge.io/'
+depends=('sdl_image')
+
+###### Resource ######
+# fixedfont.bmp: https://guichan.sourceforge.io/oldsite/images/fixedfont.bmp
+
+###### Install ######
+# ENV.append "CPPFLAGS", "-I#{Formula["sdl_image"].opt_include}/SDL"
+# ENV.append "LDFLAGS", "-lSDL -lSDL_image -framework OpenGL"
+# inreplace "src/opengl/Makefile.in", "-no-undefined", " "
+# inreplace "src/sdl/Makefile.in", "-no-undefined", " "
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

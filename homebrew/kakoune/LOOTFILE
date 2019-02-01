@@ -1,0 +1,18 @@
+# kakoune.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kakoune.rb
+# Converted on 02-01-2019
+
+name='kakoune'
+url=('https://github.com/mawww/kakoune/releases/download/v2019.01.20/kakoune-2019.01.20.tar.bz2')
+description='Selection-based modal text editor'
+version='2019.01.20' # Guessed version.
+priority='optional'
+homepage='https://github.com/mawww/kakoune'
+depends=('ncurses' 'gcc')
+makedepends=('asciidoc' 'docbook-xsl')
+
+###### Install ######
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
+# cd "src" do
+# system "make", "install", "debug=no", "PREFIX=#{prefix}"
+# end

@@ -1,0 +1,23 @@
+# libplist.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libplist.rb
+# Converted on 02-01-2019
+
+name='libplist'
+url=('https://www.libimobiledevice.org/downloads/libplist-2.0.0.tar.bz2')
+description='Library for Apple Binary- and XML-Property Lists'
+version='2.0.0' # Guessed version.
+priority='optional'
+homepage='https://www.libimobiledevice.org/'
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.deparallelize
+# args = %W[
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --without-cython
+# ]
+# system "./autogen.sh" if build.head?
+# system "./configure", *args
+# system "make", "install", "PYTHON_LDFLAGS=-undefined dynamic_lookup"

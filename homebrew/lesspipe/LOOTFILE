@@ -1,0 +1,15 @@
+# lesspipe.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lesspipe.rb
+# Converted on 02-01-2019
+
+name='lesspipe'
+url=('https://downloads.sourceforge.net/project/lesspipe/lesspipe/1.83/lesspipe-1.83.tar.gz')
+description='Input filter for the pager less'
+version='1.83' # Guessed version.
+priority='optional'
+homepage='https://www-zeuthen.desy.de/~friebel/unix/lesspipe.html'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--yes"
+# man1.mkpath
+# system "make", "install"

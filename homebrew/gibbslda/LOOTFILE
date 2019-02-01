@@ -1,0 +1,19 @@
+# gibbslda.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gibbslda.rb
+# Converted on 02-01-2019
+
+name='gibbslda'
+url=('https://downloads.sourceforge.net/project/gibbslda/GibbsLDA%2B%2B/0.2/GibbsLDA%2B%2B-0.2.tar.gz')
+description='Library wrapping imlib2'\''s context API'
+version='0.2' # Guessed version.
+priority='optional'
+homepage='https://gibbslda.sourceforge.io/'
+
+# A diff file was written to gibbslda.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "make", "clean"
+# system "make", "all"
+# bin.install "src/lda"
+# share.install "docs/GibbsLDA++Manual.pdf"

@@ -1,0 +1,15 @@
+# logcheck.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/logcheck.rb
+# Converted on 02-01-2019
+
+name='logcheck'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/l/logcheck/logcheck_1.3.19.tar.xz')
+description='Mail anomalies in the system logfiles to the administrator'
+version='1.3.19' # Guessed version.
+priority='optional'
+homepage='https://packages.debian.org/sid/logcheck'
+
+###### Install ######
+# inreplace "Makefile", "$(DESTDIR)/$(CONFDIR)", "$(CONFDIR)"
+# system "make", "install", "--always-make", "DESTDIR=#{prefix}",
+# "SBINDIR=sbin", "BINDIR=bin", "CONFDIR=#{etc}/logcheck"

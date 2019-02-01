@@ -1,0 +1,17 @@
+# libusb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libusb.rb
+# Converted on 02-01-2019
+
+name='libusb'
+url=('https://github.com/libusb/libusb/releases/download/v1.0.22/libusb-1.0.22.tar.bz2')
+description='Library for USB device access'
+version='1.0.22' # Guessed version.
+priority='optional'
+homepage='https://libusb.info/'
+
+###### Install ######
+# args = %W[--disable-dependency-tracking --prefix=#{prefix}]
+# system "./autogen.sh" if build.head?
+# system "./configure", *args
+# system "make", "install"
+# pkgshare.install "examples"

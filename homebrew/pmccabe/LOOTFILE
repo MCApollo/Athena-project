@@ -1,0 +1,16 @@
+# pmccabe.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pmccabe.rb
+# Converted on 02-01-2019
+
+name='pmccabe'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/p/pmccabe/pmccabe_2.6.tar.gz')
+description='Calculate McCabe-style cyclomatic complexity for C/C++ code'
+version='2.6' # Guessed version.
+priority='optional'
+homepage='https://packages.debian.org/sid/pmccabe'
+
+###### Install ######
+# ENV.append_to_cflags "-D__unix"
+# system "make"
+# bin.install "pmccabe", "codechanges", "decomment", "vifn"
+# man1.install Dir["*.1"]

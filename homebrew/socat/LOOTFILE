@@ -1,0 +1,15 @@
+# socat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/socat.rb
+# Converted on 02-01-2019
+
+name='socat'
+url=('http://www.dest-unreach.org/socat/download/socat-1.7.3.2.tar.gz')
+description='netcat on steroids'
+version='1.7.3.2' # Guessed version.
+priority='optional'
+homepage='http://www.dest-unreach.org/socat/'
+depends=('openssl' 'readline')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make", "install"

@@ -1,0 +1,15 @@
+# lci.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lci.rb
+# Converted on 02-01-2019
+
+name='lci'
+url=('https://downloads.sourceforge.net/project/lci/lci/0.6/lci-0.6.tar.gz')
+description='Interpreter for the lambda calculus'
+version='0.6' # Guessed version.
+priority='optional'
+homepage='https://lci.sourceforge.io/'
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

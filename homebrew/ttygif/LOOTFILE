@@ -1,0 +1,14 @@
+# ttygif.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ttygif.rb
+# Converted on 02-01-2019
+
+name='ttygif'
+url=('https://github.com/icholy/ttygif/archive/1.4.0.tar.gz')
+description='Converts a ttyrec file into gif files'
+version='1.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/icholy/ttygif'
+depends=('imagemagick' 'ttyrec')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

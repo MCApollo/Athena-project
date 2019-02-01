@@ -1,0 +1,16 @@
+# netcat6.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/netcat6.rb
+# Converted on 02-01-2019
+
+name='netcat6'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/n/nc6/nc6_1.0.orig.tar.gz')
+description='Rewrite of netcat that supports IPv6, plus other improvements'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://www.deepspace6.net/projects/netcat6.html'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

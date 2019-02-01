@@ -1,0 +1,58 @@
+# jmeter.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jmeter.rb
+# Converted on 02-01-2019
+
+name='jmeter'
+url=('https://www.apache.org/dyn/closer.cgi?path=jmeter/binaries/apache-jmeter-5.0.tgz')
+description='Load testing and performance measurement application'
+version='5.0' # Guessed version.
+priority='optional'
+homepage='https://jmeter.apache.org/'
+
+###### Resource ######
+# jmeterplugins-standard: https://jmeter-plugins.org/downloads/file/JMeterPlugins-Standard-1.4.0.zip
+# serveragent: https://jmeter-plugins.org/downloads/file/ServerAgent-2.2.1.zip
+# jmeterplugins-extras: https://jmeter-plugins.org/downloads/file/JMeterPlugins-Extras-1.4.0.zip
+# jmeterplugins-extraslibs: https://jmeter-plugins.org/downloads/file/JMeterPlugins-ExtrasLibs-1.4.0.zip
+# jmeterplugins-webdriver: https://jmeter-plugins.org/downloads/file/JMeterPlugins-WebDriver-1.4.0.zip
+# jmeterplugins-hadoop: https://jmeter-plugins.org/downloads/file/JMeterPlugins-Hadoop-1.4.0.zip
+
+###### Install ######
+# rm_f Dir["bin/*.bat"]
+# prefix.install_metafiles
+# libexec.install Dir["*"]
+# bin.write_exec_script libexec/"bin/jmeter"
+# resource("jmeterplugins-standard").stage do
+# rm_f Dir["lib/ext/*.bat"]
+# (libexec/"lib/ext").install Dir["lib/ext/*"]
+# (libexec/"licenses/plugins/standard").install "LICENSE", "README"
+# end
+# resource("serveragent").stage do
+# rm_f Dir["*.bat"]
+# rm_f Dir["lib/*winnt*"]
+# rm_f Dir["lib/*solaris*"]
+# rm_f Dir["lib/*aix*"]
+# rm_f Dir["lib/*hpux*"]
+# rm_f Dir["lib/*linux*"]
+# rm_f Dir["lib/*freebsd*"]
+# (libexec/"serveragent").install Dir["*"]
+# end
+# resource("jmeterplugins-extras").stage do
+# (libexec/"lib/ext").install Dir["lib/ext/*.jar"]
+# (libexec/"licenses/plugins/extras").install "LICENSE", "README"
+# end
+# resource("jmeterplugins-extraslibs").stage do
+# (libexec/"lib/ext").install Dir["lib/ext/*.jar"]
+# (libexec/"lib").install Dir["lib/*.jar"]
+# (libexec/"licenses/plugins/extras").install "LICENSE", "README"
+# end
+# resource("jmeterplugins-webdriver").stage do
+# (libexec/"lib/ext").install Dir["lib/ext/*.jar"]
+# (libexec/"lib").install Dir["lib/*.jar"]
+# (libexec/"licenses/plugins/extras").install "LICENSE", "README"
+# end
+# resource("jmeterplugins-hadoop").stage do
+# (libexec/"lib/ext").install Dir["lib/ext/*.jar"]
+# (libexec/"lib").install Dir["lib/*.jar"]
+# (libexec/"licenses/plugins/extras").install "LICENSE", "README", "NOTICE"
+# end

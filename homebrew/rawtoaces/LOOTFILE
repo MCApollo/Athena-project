@@ -1,0 +1,18 @@
+# rawtoaces.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rawtoaces.rb
+# Converted on 02-01-2019
+
+name='rawtoaces'
+url=('https://github.com/ampas/rawtoaces/archive/v1.0.tar.gz')
+description='RAW to ACES Utility'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/ampas/rawtoaces'
+depends=('aces_container' 'boost' 'ceres-solver' 'ilmbase' 'libraw')
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

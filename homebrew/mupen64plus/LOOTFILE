@@ -1,0 +1,42 @@
+# mupen64plus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mupen64plus.rb
+# Converted on 02-01-2019
+
+name='mupen64plus'
+url=('https://github.com/mupen64plus/mupen64plus-core/releases/download/2.5/mupen64plus-bundle-src-2.5.tar.gz')
+description='Cross-platform plugin-based N64 emulator'
+version='2.5' # Guessed version.
+priority='optional'
+homepage='https://www.mupen64plus.org/'
+depends=('boost' 'freetype' 'libpng' 'sdl')
+makedepends=('pkg-config')
+
+###### Resource ######
+# rom: https://github.com/mupen64plus/mupen64plus-rom/raw/76ef14c876ed036284154444c7bdc29d19381acc/m64p_test_rom.v64
+
+###### Install ######
+# inreplace Dir["source/mupen64plus-**/projects/unix/Makefile"], /(-mmacosx-version-min)=\d+\.\d+/, "\\1=#{MacOS.version}"
+# inreplace "source/mupen64plus-video-glide64mk2/src/Glide64/3dmath.cpp",
+# "__builtin_ia32_storeups", "_mm_storeu_ps"
+# args = ["install", "PREFIX=#{prefix}", "INSTALL_STRIP_FLAG=-S"]
+# cd "source/mupen64plus-core/projects/unix" do
+# system "make", *args
+# end
+# cd "source/mupen64plus-audio-sdl/projects/unix" do
+# system "make", *args, "NO_SRC=1", "NO_SPEEX=1"
+# end
+# cd "source/mupen64plus-input-sdl/projects/unix" do
+# system "make", *args
+# end
+# cd "source/mupen64plus-rsp-hle/projects/unix" do
+# system "make", *args
+# end
+# cd "source/mupen64plus-video-glide64mk2/projects/unix" do
+# system "make", *args
+# end
+# cd "source/mupen64plus-video-rice/projects/unix" do
+# system "make", *args
+# end
+# cd "source/mupen64plus-ui-console/projects/unix" do
+# system "make", *args
+# end

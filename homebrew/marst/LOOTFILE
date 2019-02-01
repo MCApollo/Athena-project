@@ -1,0 +1,15 @@
+# marst.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/marst.rb
+# Converted on 02-01-2019
+
+name='marst'
+url=('https://ftp.gnu.org/gnu/marst/marst-2.7.tar.gz')
+description='Algol-to-C translator'
+version='2.7' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/marst'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

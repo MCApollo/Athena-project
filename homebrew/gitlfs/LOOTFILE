@@ -1,0 +1,28 @@
+# git-lfs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-lfs.rb
+# Converted on 02-01-2019
+
+name='gitlfs'
+url=('https://github.com/git-lfs/git-lfs/releases/download/v2.6.1/git-lfs-v2.6.1.tar.gz')
+description='Git extension for versioning large files'
+version='2.6.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/git-lfs/git-lfs'
+depends=('ruby')
+makedepends=('go')
+
+###### Install ######
+# ENV["GIT_LFS_SHA"] = ""
+# ENV["VERSION"] = version
+# (buildpath/"src/github.com/git-lfs/git-lfs").install buildpath.children
+# cd "src/github.com/git-lfs/git-lfs" do
+# ENV["GEM_HOME"] = ".gem_home"
+# system "gem", "install", "ronn"
+# system "make", "vendor"
+# system "make"
+# system "make", "man", "RONN=.gem_home/bin/ronn"
+# bin.install "bin/git-lfs"
+# man1.install Dir["man/*.1"]
+# man5.install Dir["man/*.5"]
+# doc.install Dir["man/*.html"]
+# end

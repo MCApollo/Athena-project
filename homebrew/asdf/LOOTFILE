@@ -1,0 +1,12 @@
+# asdf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/asdf.rb
+# Converted on 02-01-2019
+
+name='asdf'
+url=('https://github.com/asdf-vm/asdf/archive/v0.6.3.tar.gz')
+description='Extendable version manager with support for Ruby, Node.js, Erlang & more'
+version='0.6.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/asdf-vm'
+
+###### Install ######

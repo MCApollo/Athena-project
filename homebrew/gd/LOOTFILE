@@ -1,0 +1,21 @@
+# gd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gd.rb
+# Converted on 02-01-2019
+
+name='gd'
+url=('https://github.com/libgd/libgd/releases/download/gd-2.2.5/libgd-2.2.5.tar.xz')
+description='Graphics library to dynamically manipulate images'
+version='2.2.5' # Guessed version.
+priority='optional'
+homepage='https://libgd.github.io/'
+depends=('fontconfig' 'freetype' 'jpeg' 'libpng' 'libtiff' 'webp')
+
+###### Install ######
+# system "./bootstrap.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-freetype=#{Formula["freetype"].opt_prefix}",
+# "--with-png=#{Formula["libpng"].opt_prefix}",
+# "--without-x",
+# "--without-xpm"
+# system "make", "install"

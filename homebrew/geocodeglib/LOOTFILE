@@ -1,0 +1,22 @@
+# geocode-glib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/geocode-glib.rb
+# Converted on 02-01-2019
+
+name='geocodeglib'
+url=('https://download.gnome.org/sources/geocode-glib/3.24/geocode-glib-3.24.0.tar.xz')
+description='GNOME library for gecoding and reverse geocoding'
+version='3.24.0' # Guessed version.
+priority='optional'
+homepage='https://developer.gnome.org/geocode-glib'
+depends=('gtk+3' 'json-glib' 'libsoup')
+makedepends=('gobject-introspection' 'pkg-config')
+
+###### Install ######
+# inreplace "icons/Makefile.in", "gtk-update-icon-cache", "gtk3-update-icon-cache"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# rm share/"icons/gnome/icon-theme.cache"
+# system "#{Formula["gtk+3"].opt_bin}/gtk3-update-icon-cache", "-f", "-t", "#{HOMEBREW_PREFIX}/share/icons/gnome"

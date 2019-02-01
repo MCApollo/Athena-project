@@ -1,0 +1,15 @@
+# launch_socket_server.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/launch_socket_server.rb
+# Converted on 02-01-2019
+
+name='launchsocketserver'
+url=('https://github.com/sstephenson/launch_socket_server/archive/v1.0.0.tar.gz')
+description='Bind to privileged ports without running a server as root'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/sstephenson/launch_socket_server'
+depends=(':macos')
+makedepends=('go')
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

@@ -1,0 +1,12 @@
+# docker-compose-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-compose-completion.rb
+# Converted on 02-01-2019
+
+name='dockercomposecompletion'
+url=('https://github.com/docker/compose/archive/1.23.2.tar.gz')
+description='Docker-compose completion script'
+version='1.23.2' # Guessed version.
+priority='optional'
+homepage='https://docs.docker.com/compose/completion/'
+
+###### Install ######

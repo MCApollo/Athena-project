@@ -1,0 +1,14 @@
+# pinboard-notes-backup.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pinboard-notes-backup.rb
+# Converted on 02-01-2019
+
+name='pinboardnotesbackup'
+url=('https://github.com/bdesham/pinboard-notes-backup/archive/v1.0.3.tar.gz')
+description='Efficiently back up the notes you'\''ve saved to Pinboard'
+version='1.0.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/bdesham/pinboard-notes-backup'
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# install_cabal_package

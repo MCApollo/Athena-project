@@ -1,0 +1,16 @@
+# libmill.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmill.rb
+# Converted on 02-01-2019
+
+name='libmill'
+url=('http://libmill.org/libmill-1.18.tar.gz')
+description='Go-style concurrency in C'
+version='1.18' # Guessed version.
+priority='optional'
+homepage='http://libmill.org/'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "all", "check", "install"

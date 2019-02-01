@@ -1,0 +1,16 @@
+# zita-convolver.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zita-convolver.rb
+# Converted on 02-01-2019
+
+name='zitaconvolver'
+url=('https://kokkinizita.linuxaudio.org/linuxaudio/downloads/zita-convolver-4.0.0.tar.bz2')
+description='Fast, partitioned convolution engine library'
+version='4.0.0' # Guessed version.
+priority='optional'
+homepage='https://kokkinizita.linuxaudio.org/linuxaudio/'
+depends=('fftw')
+
+###### Install ######
+# cd "libs" do
+# system "make", "-f", "Makefile-osx", "install", "PREFIX=#{prefix}", "SUFFIX="
+# end

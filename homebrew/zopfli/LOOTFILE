@@ -1,0 +1,14 @@
+# zopfli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zopfli.rb
+# Converted on 02-01-2019
+
+name='zopfli'
+url=('https://github.com/google/zopfli/archive/zopfli-1.0.2.tar.gz')
+description='New zlib (gzip, deflate) compatible compressor'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/zopfli'
+
+###### Install ######
+# system "make", "zopfli", "zopflipng"
+# bin.install "zopfli", "zopflipng"

@@ -1,0 +1,16 @@
+# swfmill.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/swfmill.rb
+# Converted on 02-01-2019
+
+name='swfmill'
+url=('https://www.swfmill.org/releases/swfmill-0.3.6.tar.gz')
+description='xml2swf and swf2xml processor'
+version='0.3.6' # Guessed version.
+priority='optional'
+homepage='https://swfmill.org'
+depends=('freetype' 'libpng')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

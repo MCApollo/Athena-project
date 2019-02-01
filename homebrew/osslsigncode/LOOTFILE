@@ -1,0 +1,17 @@
+# osslsigncode.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/osslsigncode.rb
+# Converted on 02-01-2019
+
+name='osslsigncode'
+url=('https://downloads.sourceforge.net/project/osslsigncode/osslsigncode/osslsigncode-1.7.1.tar.gz')
+description='Authenticode signing of PE(EXE/SYS/DLL/etc), CAB and MSI files'
+version='1.7.1' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/osslsigncode/'
+depends=('openssl')
+makedepends=('autoconf' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "-ivf" if build.head?
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

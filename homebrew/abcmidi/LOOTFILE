@@ -1,0 +1,17 @@
+# abcmidi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/abcmidi.rb
+# Converted on 02-01-2019
+
+name='abcmidi'
+url=('https://www.ifdo.ca/~seymour/runabc/abcMIDI-2018.06.23.zip')
+description='Converts abc music notation files to MIDI files'
+version='2018.06.23' # Guessed version.
+priority='optional'
+homepage='https://www.ifdo.ca/~seymour/runabc/top.html'
+
+###### Install ######
+# rm "makefile"
+# system "./configure", "--disable-debug",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

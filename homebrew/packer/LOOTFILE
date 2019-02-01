@@ -1,0 +1,34 @@
+# packer.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/packer.rb
+# Converted on 02-01-2019
+
+name='packer'
+url=('https://github.com/hashicorp/packer.git')
+description='Tool for creating identical machine images for multiple platforms'
+version=' '
+priority='optional'
+homepage='https://packer.io'
+makedepends=('go' 'govendor' 'gox')
+
+###### Install ######
+# ENV["XC_OS"] = "darwin"
+# ENV["XC_ARCH"] = "amd64"
+# ENV["GOPATH"] = buildpath
+# packerpath = buildpath/"src/github.com/hashicorp/packer"
+# packerpath.install Dir["{*,.git}"]
+# cd packerpath do
+# inreplace "Makefile" do |s|
+# s.gsub! "go get github.com/mitchellh/gox", ""
+# s.gsub! "go get golang.org/x/tools/cmd/stringer", ""
+# s.gsub! "go get github.com/kardianos/govendor", ""
+# end
+# (buildpath/"bin").mkpath
+# if build.head?
+# system "make", "bin"
+# else
+# system "make", "releasebin"
+# end
+# bin.install buildpath/"bin/packer"
+# zsh_completion.install "contrib/zsh-completion/_packer"
+# prefix.install_metafiles
+# end

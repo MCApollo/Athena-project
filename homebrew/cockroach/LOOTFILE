@@ -1,0 +1,16 @@
+# cockroach.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cockroach.rb
+# Converted on 02-01-2019
+
+name='cockroach'
+url=('https://binaries.cockroachdb.com/cockroach-v2.1.4.src.tgz')
+description='Distributed SQL database'
+version='2.1.4' # Guessed version.
+priority='optional'
+homepage='https://www.cockroachlabs.com'
+makedepends=('autoconf' 'cmake' 'go' 'make' 'xz')
+
+###### Install ######
+# ENV.prepend_path "PATH", Formula["make"].opt_libexec/"gnubin"
+# system "make", "buildoss"
+# system "make", "install", "prefix=#{prefix}", "BUILDTYPE=release"

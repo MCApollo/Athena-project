@@ -1,0 +1,15 @@
+# biogeme.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/biogeme.rb
+# Converted on 02-01-2019
+
+name='biogeme'
+url=('https://biogeme.epfl.ch/distrib/biogeme-2.6a.tar.gz')
+description='Maximum likelihood estimation of choice models'
+version='2.6' # Guessed version.
+priority='optional'
+homepage='https://biogeme.epfl.ch/'
+depends=('gtkmm3' 'python')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

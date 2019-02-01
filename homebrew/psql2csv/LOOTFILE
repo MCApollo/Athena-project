@@ -1,0 +1,14 @@
+# psql2csv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/psql2csv.rb
+# Converted on 02-01-2019
+
+name='psql2csv'
+url=('https://github.com/fphilipe/psql2csv/archive/v0.9.tar.gz')
+description='Run a query in psql and output the result as CSV'
+version='0.9' # Guessed version.
+priority='optional'
+homepage='https://github.com/fphilipe/psql2csv'
+depends=('postgresql')
+
+###### Install ######
+# bin.install "psql2csv"

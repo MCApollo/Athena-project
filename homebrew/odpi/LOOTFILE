@@ -1,0 +1,15 @@
+# odpi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/odpi.rb
+# Converted on 02-01-2019
+
+name='odpi'
+url=('https://github.com/oracle/odpi/archive/v3.0.0.tar.gz')
+description='Oracle Database Programming Interface for Drivers and Applications'
+version='3.0.0' # Guessed version.
+priority='optional'
+homepage='https://oracle.github.io/odpi/'
+
+###### Install ######
+# system "make"
+# lib.install Dir["lib/*"]
+# include.install Dir["include/*"]

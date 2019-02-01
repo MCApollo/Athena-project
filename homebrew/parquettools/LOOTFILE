@@ -1,0 +1,18 @@
+# parquet-tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/parquet-tools.rb
+# Converted on 02-01-2019
+
+name='parquettools'
+url=('https://github.com/apache/parquet-mr.git')
+description='Apache Parquet command-line tools and utilities'
+version=' '
+priority='optional'
+homepage='https://parquet.apache.org/'
+makedepends=('maven')
+
+###### Install ######
+# cd "parquet-tools" do
+# system "mvn", "clean", "package", "-Plocal"
+# libexec.install "target/parquet-tools-#{version}.jar"
+# bin.write_jar_script libexec/"parquet-tools-#{version}.jar", "parquet-tools"
+# end

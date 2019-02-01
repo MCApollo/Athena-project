@@ -1,0 +1,15 @@
+# kumo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kumo.rb
+# Converted on 02-01-2019
+
+name='kumo'
+url=('https://search.maven.org/remotecontent?filepath=com/kennycason/kumo-cli/1.17/kumo-cli-1.17.jar')
+description='Word Clouds in Java'
+version='1.17' # Guessed version.
+priority='optional'
+homepage='https://github.com/kennycason/kumo'
+depends=(':java')
+
+###### Install ######
+# libexec.install "kumo-cli-#{version}.jar"
+# bin.write_jar_script libexec/"kumo-cli-#{version}.jar", "kumo"

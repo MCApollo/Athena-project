@@ -1,0 +1,20 @@
+# openslide.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/openslide.rb
+# Converted on 02-01-2019
+
+name='openslide'
+url=('https://github.com/openslide/openslide/releases/download/v3.4.1/openslide-3.4.1.tar.xz')
+description='C library to read whole-slide images (a.k.a. virtual slides)'
+version='3.4.1' # Guessed version.
+priority='optional'
+homepage='https://openslide.org/'
+depends=('cairo' 'gdk-pixbuf' 'glib' 'jpeg' 'libpng' 'libtiff' 'libxml2' 'openjpeg')
+makedepends=('pkg-config')
+
+###### Resource ######
+# svs: http://openslide.cs.cmu.edu/download/openslide-testdata/Aperio/CMU-1-Small-Region.svs
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

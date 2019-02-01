@@ -1,0 +1,33 @@
+# curl-openssl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/curl-openssl.rb
+# Converted on 02-01-2019
+
+name='curlopenssl'
+url=('https://curl.haxx.se/download/curl-7.63.0.tar.bz2')
+description='Get a file from an HTTP, HTTPS or FTP server'
+version='7.63.0' # Guessed version.
+priority='optional'
+homepage='https://curl.haxx.se/'
+depends=('brotli' 'c-ares' 'libidn' 'libmetalink' 'libssh2' 'nghttp2' 'openldap' 'openssl' 'rtmpdump')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./buildconf" if build.head?
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --enable-ares=#{Formula["c-ares"].opt_prefix}
+# --with-ca-bundle=#{etc}/openssl/cert.pem
+# --with-ca-path=#{etc}/openssl/certs
+# --with-gssapi
+# --with-libidn2
+# --with-libmetalink
+# --with-librtmp
+# --with-libssh2
+# --with-ssl=#{Formula["openssl"].opt_prefix}
+# ]
+# system "./configure", *args
+# system "make", "install"
+# libexec.install "lib/mk-ca-bundle.pl"

@@ -1,0 +1,19 @@
+# ntl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ntl.rb
+# Converted on 02-01-2019
+
+name='ntl'
+url=('https://www.shoup.net/ntl/ntl-11.3.0.tar.gz')
+description='C++ number theory library'
+version='11.3.0' # Guessed version.
+priority='optional'
+homepage='https://www.shoup.net/ntl'
+depends=('gmp')
+
+###### Install ######
+# args = ["PREFIX=#{prefix}", "SHARED=on"]
+# cd "src" do
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# end

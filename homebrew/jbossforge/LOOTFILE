@@ -1,0 +1,16 @@
+# jboss-forge.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jboss-forge.rb
+# Converted on 02-01-2019
+
+name='jbossforge'
+url=('https://downloads.jboss.org/forge/releases/3.9.2.Final/forge-distribution-3.9.2.Final-offline.zip')
+description='Tools to help set up and configure a project'
+version='3.9.2' # Guessed version.
+priority='optional'
+homepage='https://forge.jboss.org/'
+depends=(':java')
+
+###### Install ######
+# rm_f Dir["bin/*.bat"]
+# libexec.install %w[addons bin lib logging.properties]
+# bin.install_symlink libexec/"bin/forge"

@@ -1,0 +1,18 @@
+# ski.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ski.rb
+# Converted on 02-01-2019
+
+name='ski'
+url=('http://www.catb.org/~esr/ski/ski-6.12.tar.gz')
+description='Evade the deadly Yeti on your jet-powered skis'
+version='6.12' # Guessed version.
+priority='optional'
+homepage='http://catb.org/~esr/ski/'
+
+###### Install ######
+# if build.head?
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
+# system "make"
+# end
+# bin.install "ski"
+# man6.install "ski.6"

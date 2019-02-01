@@ -1,0 +1,15 @@
+# since.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/since.rb
+# Converted on 02-01-2019
+
+name='since'
+url=('http://welz.org.za/projects/since/since-1.1.tar.gz')
+description='Stateful tail: show changes to files since last check'
+version='1.1' # Guessed version.
+priority='optional'
+homepage='http://welz.org.za/projects/since'
+
+###### Install ######
+# bin.mkpath
+# man1.mkpath
+# system "make", "install", "prefix=#{prefix}", "INSTALL=install"

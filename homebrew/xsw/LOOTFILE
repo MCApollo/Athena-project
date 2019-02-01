@@ -1,0 +1,15 @@
+# xsw.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xsw.rb
+# Converted on 02-01-2019
+
+name='xsw'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/xsw/xsw-0.3.5.tar.gz')
+description='Slide show presentation tool'
+version='0.3.5' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/xsw/'
+depends=('sdl' 'sdl_gfx' 'sdl_image' 'sdl_ttf')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

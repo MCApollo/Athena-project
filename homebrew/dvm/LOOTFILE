@@ -1,0 +1,22 @@
+# dvm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dvm.rb
+# Converted on 02-01-2019
+
+name='dvm'
+url=('https://github.com/howtowhale/dvm/archive/1.0.2.tar.gz')
+description='Docker Version Manager'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/howtowhale/dvm'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/howtowhale/dvm").install buildpath.children
+# cd "src/github.com/howtowhale/dvm" do
+# system "make", "VERSION=#{version}", "UPGRADE_DISABLED=true"
+# prefix.install "dvm.sh"
+# bash_completion.install "bash_completion" => "dvm"
+# (prefix/"dvm-helper").install "dvm-helper/dvm-helper"
+# prefix.install_metafiles
+# end

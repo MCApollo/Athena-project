@@ -1,0 +1,16 @@
+# nickle.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nickle.rb
+# Converted on 02-01-2019
+
+name='nickle'
+url=('https://www.nickle.org/release/nickle-2.81.tar.gz')
+description='Desk calculator language'
+version='2.81' # Guessed version.
+priority='optional'
+homepage='https://www.nickle.org/'
+depends=('readline')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,19 @@
+# debianutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/debianutils.rb
+# Converted on 02-01-2019
+
+name='debianutils'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/d/debianutils/debianutils_4.8.6.tar.xz')
+description='Miscellaneous utilities specific to Debian'
+version='4.8.6' # Guessed version.
+priority='optional'
+homepage='https://packages.debian.org/sid/debianutils'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make"
+# bin.install "run-parts", "ischroot", "tempfile"
+# man1.install "ischroot.1", "tempfile.1"
+# man8.install "run-parts.8"

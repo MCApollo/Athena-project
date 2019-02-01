@@ -1,0 +1,16 @@
+# fwup.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fwup.rb
+# Converted on 02-01-2019
+
+name='fwup'
+url=('https://github.com/fhunleth/fwup/releases/download/v1.2.7/fwup-1.2.7.tar.gz')
+description='Configurable embedded Linux firmware update creator and runner'
+version='1.2.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/fhunleth/fwup'
+depends=('confuse' 'libarchive' 'libsodium')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking"
+# system "make", "install"

@@ -1,0 +1,18 @@
+# mpfr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpfr.rb
+# Converted on 02-01-2019
+
+name='mpfr'
+url=('https://ftp.gnu.org/gnu/mpfr/mpfr-4.0.1.tar.xz')
+description='C library for multiple-precision floating-point computations'
+version='4.0.1' # Guessed version.
+priority='optional'
+homepage='https://www.mpfr.org/'
+depends=('gmp')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}",
+# "--disable-silent-rules"
+# system "make"
+# system "make", "check"
+# system "make", "install"

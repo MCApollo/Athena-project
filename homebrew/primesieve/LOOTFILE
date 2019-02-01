@@ -1,0 +1,17 @@
+# primesieve.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/primesieve.rb
+# Converted on 02-01-2019
+
+name='primesieve'
+url=('https://github.com/kimwalisch/primesieve/archive/v7.3.tar.gz')
+description='Fast C/C++ prime number generator'
+version='7.3' # Guessed version.
+priority='optional'
+homepage='https://primesieve.org/'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end

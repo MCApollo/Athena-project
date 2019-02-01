@@ -1,0 +1,19 @@
+# tee-clc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tee-clc.rb
+# Converted on 02-01-2019
+
+name='teeclc'
+url=('https://github.com/Microsoft/team-explorer-everywhere/releases/download/14.134.0/TEE-CLC-14.134.0.zip')
+description='Microsoft Team Explorer Everywhere command-line Client'
+version='14.134.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/Microsoft/team-explorer-everywhere'
+depends=(':java')
+makedepends=('')
+
+###### Install ######
+# libexec.install "tf", "lib"
+# (libexec/"native").install "native/macosx"
+# bin.write_exec_script libexec/"tf"
+# prefix.install "ThirdPartyNotices.html"
+# share.install "help"

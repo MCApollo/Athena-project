@@ -1,0 +1,20 @@
+# eccodes.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/eccodes.rb
+# Converted on 02-01-2019
+
+name='eccodes'
+url=('https://software.ecmwf.int/wiki/download/attachments/45757960/eccodes-2.10.0-Source.tar.gz')
+description='Decode and encode messages in the GRIB 1/2 and BUFR 3/4 formats'
+version='2.10.0' # Guessed version.
+priority='optional'
+homepage='https://confluence.ecmwf.int/display/ECC'
+depends=('gcc' 'jasper' 'libpng')
+makedepends=('cmake')
+makedepends=('cmake')
+
+###### Install ######
+# inreplace "CMakeLists.txt", "find_package( OpenJPEG )", ""
+# mkdir "build" do
+# system "cmake", "..", "-DENABLE_NETCDF=OFF", "-DENABLE_PNG=ON", *std_cmake_args
+# system "make", "install"
+# end

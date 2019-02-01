@@ -1,0 +1,18 @@
+# sdl2_ttf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdl2_ttf.rb
+# Converted on 02-01-2019
+
+name='sdl2ttf'
+url=('https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-2.0.14.tar.gz')
+description='Library for using TrueType fonts in SDL applications'
+version='2.0.14' # Guessed version.
+priority='optional'
+homepage='https://www.libsdl.org/projects/SDL_ttf/'
+depends=('freetype' 'sdl2')
+makedepends=('pkg-config')
+
+###### Install ######
+# inreplace "SDL2_ttf.pc.in", "@prefix@", HOMEBREW_PREFIX
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

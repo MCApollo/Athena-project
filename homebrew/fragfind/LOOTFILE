@@ -1,0 +1,21 @@
+# frag_find.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/frag_find.rb
+# Converted on 02-01-2019
+
+name='fragfind'
+url=('https://digitalcorpora.org/downloads/frag_find/frag_find-1.0.0.tar.gz')
+description='Hash-based carver tool (formerly '\''NPS Bloom Filter package'\'')'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/simsong/frag_find'
+depends=('openssl')
+
+###### Install ######
+# if build.head?
+# inreplace "bootstrap.sh", "./configure", ""
+# system "./bootstrap.sh"
+# end
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# libexec.install bin/"frag_find.jar"

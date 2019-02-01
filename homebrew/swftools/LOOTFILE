@@ -1,0 +1,18 @@
+# swftools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/swftools.rb
+# Converted on 02-01-2019
+
+name='swftools'
+url=('http://www.swftools.org/swftools-0.9.2.tar.gz')
+description='SWF manipulation and generation tools'
+version='0.9.2' # Guessed version.
+priority='optional'
+homepage='http://www.swftools.org/'
+
+# A diff file was written to swftools.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

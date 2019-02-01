@@ -1,0 +1,21 @@
+# kyoto-tycoon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kyoto-tycoon.rb
+# Converted on 02-01-2019
+
+name='kyototycoon'
+url=('https://fallabs.com/kyototycoon/pkg/kyototycoon-0.9.56.tar.gz')
+description='Database server with interface to Kyoto Cabinet'
+version='0.9.56' # Guessed version.
+priority='optional'
+homepage='https://fallabs.com/kyototycoon/'
+depends=('kyoto-cabinet' 'lua')
+
+# A diff file was written to kyototycoon.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--with-kc=#{Formula["kyoto-cabinet"].opt_prefix}",
+# "--with-lua=#{Formula["lua"].opt_prefix}"
+# system "make"
+# system "make", "install"

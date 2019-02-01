@@ -1,0 +1,16 @@
+# faac.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/faac.rb
+# Converted on 02-01-2019
+
+name='faac'
+url=('https://downloads.sourceforge.net/project/faac/faac-src/faac-1.29/faac-1.29.9.2.tar.gz')
+description='ISO AAC audio encoder'
+version='1.29.9.2' # Guessed version.
+priority='optional'
+homepage='https://www.audiocoding.com/faac.html'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

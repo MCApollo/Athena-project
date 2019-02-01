@@ -1,0 +1,21 @@
+# gtkextra.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtkextra.rb
+# Converted on 02-01-2019
+
+name='gtkextra'
+url=('https://downloads.sourceforge.net/project/gtkextra/3.3/gtkextra-3.3.4.tar.gz')
+description='Widgets for creating GUIs for GTK+'
+version='3.3.4' # Guessed version.
+priority='optional'
+homepage='https://gtkextra.sourceforge.io/'
+depends=('gtk+')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--enable-tests",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

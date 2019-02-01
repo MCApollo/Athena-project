@@ -1,0 +1,24 @@
+# metabase.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/metabase.rb
+# Converted on 02-01-2019
+
+name='metabase'
+url=('http://downloads.metabase.com/v0.30.4/metabase.jar')
+description='Business intelligence report server'
+version=' '
+priority='optional'
+homepage='https://www.metabase.com/'
+depends=(':java')
+
+###### Install ######
+# if build.head?
+# system "./bin/build"
+# libexec.install "target/uberjar/metabase.jar"
+# else
+# libexec.install "metabase.jar"
+# end
+# (bin/"metabase").write <<~EOS
+# #!/bin/bash
+# export JAVA_HOME="$(#{Language::Java.java_home_cmd("1.8")})"
+# exec java -jar "#{libexec}/metabase.jar" "$@"
+# EOS

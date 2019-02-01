@@ -1,0 +1,14 @@
+# repl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/repl.rb
+# Converted on 02-01-2019
+
+name='repl'
+url=('https://github.com/defunkt/repl/archive/v1.0.0.tar.gz')
+description='Wrap non-interactive programs with a REPL'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/defunkt/repl'
+
+###### Install ######
+# bin.install "bin/repl"
+# man1.install "man/repl.1"

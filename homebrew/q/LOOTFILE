@@ -1,0 +1,12 @@
+# q.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/q.rb
+# Converted on 02-01-2019
+
+name='q'
+url=('https://github.com/harelba/q/archive/1.7.4.tar.gz')
+description='Treat text as a database'
+version='1.7.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/harelba/q'
+
+###### Install ######

@@ -1,0 +1,30 @@
+# dbxml.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dbxml.rb
+# Converted on 02-01-2019
+
+name='dbxml'
+url=('https://download.oracle.com/berkeley-db/dbxml-6.1.4.tar.gz')
+description='Embeddable XML database with XQuery support and other advanced features'
+version='6.1.4' # Guessed version.
+priority='optional'
+homepage='https://www.oracle.com/database/berkeley-db/xml.html'
+depends=('berkeley-db' 'xerces-c' 'xqilla')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/master/dbxml/c%2B%2B11.patch')
+
+###### Install ######
+# ENV.cxx11
+# inreplace "dbxml/configure" do |s|
+# s.gsub! "lib/libdb-*.la | sed -e 's\/.*db-\\\(.*\\\).la", "lib/libdb-*.a | sed -e 's/.*db-\\(.*\\).a"
+# s.gsub! "lib/libdb-*.la", "lib/libdb-*.a"
+# s.gsub! "libz.a", "libz.dylib"
+# end
+# cd "dbxml" do
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-xqilla=#{Formula["xqilla"].opt_prefix}",
+# "--with-xerces=#{Formula["xerces-c"].opt_prefix}",
+# "--with-berkeleydb=#{Formula["berkeley-db"].opt_prefix}"
+# system "make", "install"
+# end

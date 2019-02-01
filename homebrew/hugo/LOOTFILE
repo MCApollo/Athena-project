@@ -1,0 +1,24 @@
+# hugo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hugo.rb
+# Converted on 02-01-2019
+
+name='hugo'
+url=('https://github.com/gohugoio/hugo/archive/v0.53.tar.gz')
+description='Configurable static site generator'
+version='0.53' # Guessed version.
+priority='optional'
+homepage='https://gohugo.io/'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = HOMEBREW_CACHE/"go_cache"
+# (buildpath/"src/github.com/gohugoio/hugo").install buildpath.children
+# cd "src/github.com/gohugoio/hugo" do
+# system "go", "build", "-o", bin/"hugo", "-tags", "extended", "main.go"
+# system bin/"hugo", "gen", "autocomplete", "--completionfile=hugo.sh"
+# bash_completion.install "hugo.sh"
+# (Pathname.pwd/"man").mkpath
+# system bin/"hugo", "gen", "man"
+# man1.install Dir["man/*.1"]
+# prefix.install_metafiles
+# end

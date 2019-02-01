@@ -1,0 +1,13 @@
+# gimme.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gimme.rb
+# Converted on 02-01-2019
+
+name='gimme'
+url=('https://github.com/travis-ci/gimme/archive/v1.5.3.tar.gz')
+description='Shell script to install any Go version'
+version='1.5.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/travis-ci/gimme'
+
+###### Install ######
+# bin.install "gimme"

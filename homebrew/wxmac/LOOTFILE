@@ -1,0 +1,39 @@
+# wxmac.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wxmac.rb
+# Converted on 02-01-2019
+
+name='wxmac'
+url=('https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4.tar.bz2')
+description='Cross-platform C++ GUI toolkit (wxWidgets for macOS)'
+version='3.0.4' # Guessed version.
+priority='optional'
+homepage='https://www.wxwidgets.org'
+depends=('jpeg' 'libpng' 'libtiff')
+
+###### Install ######
+# args = [
+# "--prefix=#{prefix}",
+# "--enable-clipboard",
+# "--enable-controls",
+# "--enable-dataviewctrl",
+# "--enable-display",
+# "--enable-dnd",
+# "--enable-graphics_ctx",
+# "--enable-std_string",
+# "--enable-svg",
+# "--enable-unicode",
+# "--enable-webkit",
+# "--with-expat",
+# "--with-libjpeg",
+# "--with-libpng",
+# "--with-libtiff",
+# "--with-opengl",
+# "--with-osx_cocoa",
+# "--with-zlib",
+# "--disable-precomp-headers",
+# "--disable-monolithic",
+# "--with-macosx-version-min=#{MacOS.version}",
+# ]
+# system "./configure", *args
+# system "make", "install"
+# inreplace "#{bin}/wx-config", prefix, HOMEBREW_PREFIX

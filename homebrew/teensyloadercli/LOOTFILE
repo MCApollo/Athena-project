@@ -1,0 +1,16 @@
+# teensy_loader_cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/teensy_loader_cli.rb
+# Converted on 02-01-2019
+
+name='teensyloadercli'
+url=('https://github.com/PaulStoffregen/teensy_loader_cli/archive/2.1.tar.gz')
+description='Command-line integration for Teensy USB development boards'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://www.pjrc.com/teensy/loader_cli.html'
+
+###### Install ######
+# ENV["OS"] = "MACOSX"
+# ENV["SDK"] = MacOS.sdk_path || "/"
+# system "make"
+# bin.install "teensy_loader_cli"

@@ -1,0 +1,12 @@
+# shpotify.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shpotify.rb
+# Converted on 02-01-2019
+
+name='shpotify'
+url=('https://github.com/hnarayanan/shpotify/archive/2.0.3.tar.gz')
+description='Command-line interface for Spotify on a Mac'
+version='2.0.3' # Guessed version.
+priority='optional'
+homepage='https://harishnarayanan.org/projects/shpotify/'
+
+###### Install ######

@@ -1,0 +1,15 @@
+# flvstreamer.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/flvstreamer.rb
+# Converted on 02-01-2019
+
+name='flvstreamer'
+url=('https://download.savannah.gnu.org/releases/flvstreamer/source/flvstreamer-2.1c1.tar.gz')
+description='Stream audio and video from flash & RTMP Servers'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://www.nongnu.org/flvstreamer/'
+makedepends=('')
+
+###### Install ######
+# system "make", "posix"
+# bin.install "flvstreamer", "rtmpsrv", "rtmpsuck", "streams"

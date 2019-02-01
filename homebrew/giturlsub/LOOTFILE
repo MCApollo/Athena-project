@@ -1,0 +1,13 @@
+# git-url-sub.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-url-sub.rb
+# Converted on 02-01-2019
+
+name='giturlsub'
+url=('https://github.com/gosuri/git-url-sub/archive/1.0.1.tar.gz')
+description='Recursively substitute remote URLs for multiple repos'
+version='1.0.1' # Guessed version.
+priority='optional'
+homepage='https://gosuri.github.io/git-url-sub'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

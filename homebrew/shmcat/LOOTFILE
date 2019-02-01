@@ -1,0 +1,17 @@
+# shmcat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shmcat.rb
+# Converted on 02-01-2019
+
+name='shmcat'
+url=('https://downloads.sourceforge.net/project/shmcat/shmcat-1.9.tar.xz')
+description='Tool that dumps shared memory segments (System V and POSIX)'
+version='1.9' # Guessed version.
+priority='optional'
+homepage='https://shmcat.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-dependency-tracking",
+# "--disable-ftok",
+# "--disable-nls"
+# system "make", "install"

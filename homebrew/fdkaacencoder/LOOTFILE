@@ -1,0 +1,21 @@
+# fdk-aac-encoder.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fdk-aac-encoder.rb
+# Converted on 02-01-2019
+
+name='fdkaacencoder'
+url=('https://github.com/nu774/fdkaac/archive/1.0.0.tar.gz')
+description='Command-line encoder frontend for libfdk-aac'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/nu774/fdkaac'
+depends=('fdk-aac')
+makedepends=('autoconf' 'automake' 'libtool' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "-i"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

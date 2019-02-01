@@ -1,0 +1,34 @@
+# mkvtoolnix.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mkvtoolnix.rb
+# Converted on 02-01-2019
+
+name='mkvtoolnix'
+url=('https://mkvtoolnix.download/sources/mkvtoolnix-30.1.0.tar.xz')
+description='Matroska media files manipulation tools'
+version='30.1.0' # Guessed version.
+priority='optional'
+homepage='https://mkvtoolnix.download/'
+depends=('boost' 'flac' 'gettext' 'libebml' 'libmagic' 'libmatroska' 'libogg' 'libvorbis')
+makedepends=('docbook-xsl' 'fmt' 'pkg-config' 'pugixml')
+
+###### Install ######
+# ENV.cxx11
+# features = %w[flac libebml libmagic libmatroska libogg libvorbis]
+# extra_includes = ""
+# extra_libs = ""
+# features.each do |feature|
+# extra_includes << "#{Formula[feature].opt_include};"
+# extra_libs << "#{Formula[feature].opt_lib};"
+# end
+# extra_includes.chop!
+# extra_libs.chop!
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-debug",
+# "--prefix=#{prefix}",
+# "--with-boost=#{Formula["boost"].opt_prefix}",
+# "--with-docbook-xsl-root=#{Formula["docbook-xsl"].opt_prefix}/docbook-xsl",
+# "--with-extra-includes=#{extra_includes}",
+# "--with-extra-libs=#{extra_libs}",
+# "--disable-qt"
+# system "rake", "-j#{ENV.make_jobs}"
+# system "rake", "install"

@@ -1,0 +1,17 @@
+# ompl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ompl.rb
+# Converted on 02-01-2019
+
+name='ompl'
+url=('https://bitbucket.org/ompl/ompl/downloads/ompl-1.4.1-Source.tar.gz')
+description='Open Motion Planning Library consists of many motion planning algorithms'
+version='1.4.1' # Guessed version.
+priority='optional'
+homepage='https://ompl.kavrakilab.org/'
+depends=('boost' 'eigen')
+makedepends=('cmake')
+
+###### Install ######
+# ENV.cxx11
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

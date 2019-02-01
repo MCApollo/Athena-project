@@ -1,0 +1,17 @@
+# klavaro.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/klavaro.rb
+# Converted on 02-01-2019
+
+name='klavaro'
+url=('https://downloads.sourceforge.net/project/klavaro/klavaro-3.03.tar.bz2')
+description='Free touch typing tutor program'
+version='3.03' # Guessed version.
+priority='optional'
+homepage='https://klavaro.sourceforge.io/'
+depends=('gtk+3')
+makedepends=('intltool' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

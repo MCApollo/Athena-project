@@ -1,0 +1,16 @@
+# libgadu.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgadu.rb
+# Converted on 02-01-2019
+
+name='libgadu'
+url=('https://github.com/wojtekka/libgadu/releases/download/1.12.2/libgadu-1.12.2.tar.gz')
+description='Library for ICQ instant messenger protocol'
+version='1.12.2' # Guessed version.
+priority='optional'
+homepage='http://libgadu.net/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--without-pthread"
+# system "make", "install"

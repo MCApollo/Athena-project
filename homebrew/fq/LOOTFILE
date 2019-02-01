@@ -1,0 +1,17 @@
+# fq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fq.rb
+# Converted on 02-01-2019
+
+name='fq'
+url=('https://github.com/circonus-labs/fq/archive/v0.10.14.tar.gz')
+description='Brokered message queue optimized for performance'
+version='0.10.14' # Guessed version.
+priority='optional'
+homepage='https://github.com/circonus-labs/fq'
+depends=('concurrencykit' 'jlog' 'openssl')
+
+###### Install ######
+# inreplace "Makefile", "/usr/lib/dtrace", "#{lib}/dtrace"
+# system "make", "PREFIX=#{prefix}"
+# system "make", "install", "PREFIX=#{prefix}"
+# bin.install "fqc", "fq_sndr", "fq_rcvr"

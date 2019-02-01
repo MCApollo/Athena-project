@@ -1,0 +1,15 @@
+# hoedown.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hoedown.rb
+# Converted on 02-01-2019
+
+name='hoedown'
+url=('https://github.com/hoedown/hoedown/archive/3.0.7.tar.gz')
+description='Secure Markdown processing (a revived fork of Sundown)'
+version='3.0.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/hoedown/hoedown'
+
+###### Install ######
+# system "make", "hoedown"
+# bin.install "hoedown"
+# prefix.install "test"

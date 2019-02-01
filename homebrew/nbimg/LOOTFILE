@@ -1,0 +1,18 @@
+# nbimg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nbimg.rb
+# Converted on 02-01-2019
+
+name='nbimg'
+url=('https://github.com/poliva/nbimg/archive/v1.2.1.tar.gz')
+description='Smartphone boot splash screen converter for Android and winCE'
+version='1.2.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/poliva/nbimg'
+
+###### Install ######
+# inreplace "Makefile", "all: nbimg win32", "all: nbimg"
+# system "make", "prefix=#{prefix}",
+# "bindir=#{bin}",
+# "docdir=#{doc}",
+# "mandir=#{man}",
+# "install"

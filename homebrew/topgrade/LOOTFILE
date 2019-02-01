@@ -1,0 +1,14 @@
+# topgrade.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/topgrade.rb
+# Converted on 02-01-2019
+
+name='topgrade'
+url=('https://github.com/r-darwish/topgrade/archive/v1.6.1.tar.gz')
+description='Upgrade all the things'
+version='1.6.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/r-darwish/topgrade'
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

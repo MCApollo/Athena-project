@@ -1,0 +1,30 @@
+# squashfs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/squashfs.rb
+# Converted on 02-01-2019
+
+name='squashfs'
+url=('https://downloads.sourceforge.net/project/squashfs/squashfs/squashfs4.3/squashfs4.3.tar.gz')
+description='Compressed read-only file system for Linux'
+version='4.3' # Guessed version.
+priority='optional'
+homepage='https://squashfs.sourceforge.io/'
+depends=('lz4' 'lzo' 'xz')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/05ae0eb1/squashfs/squashfs-osx-bundle.diff')
+
+###### Install ######
+# args = %W[
+# EXTRA_CFLAGS=-std=gnu89
+# LZ4_SUPPORT=1
+# LZMA_XZ_SUPPORT=1
+# LZO_DIR=#{Formula["lzo"].opt_prefix}
+# LZO_SUPPORT=1
+# XATTR_SUPPORT=0
+# XZ_DIR=#{Formula["xz"].opt_prefix}
+# XZ_SUPPORT=1
+# ]
+# cd "squashfs-tools" do
+# system "make", *args
+# bin.install %w[mksquashfs unsquashfs]
+# end
+# doc.install %w[ACKNOWLEDGEMENTS INSTALL OLD-READMEs PERFORMANCE.README README-4.3]

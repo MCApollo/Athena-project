@@ -1,0 +1,33 @@
+# john-jumbo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/john-jumbo.rb
+# Converted on 02-01-2019
+
+name='johnjumbo'
+url=('https://openwall.com/john/j/john-1.8.0-jumbo-1.tar.xz')
+description='Enhanced version of john, a UNIX password cracker'
+version='1.8.0' # Guessed version.
+priority='optional'
+homepage='https://www.openwall.com/john/'
+depends=('gmp' 'openssl')
+makedepends=('pkg-config')
+makedepends=('pkg-config')
+# Patches
+url+=('https://github.com/magnumripper/JohnTheRipper/commit/d29ad8aabaa9726eb08f440001c37611fa072e0c.diff?full_index=1')
+
+# A diff file was written to johnjumbo.diff
+# --> Patch the file before building.
+
+###### Install ######
+# cd "src" do
+# system "./configure", "--disable-native-tests", "--disable-native-macro"
+# system "make", "clean"
+# system "make", "-s", "CC=#{ENV.cc}"
+# end
+# rm "README"
+# prefix.install "doc/README"
+# doc.install Dir["doc/*"]
+# (share/"john").install Dir["run/*"]
+# bin.install_symlink share/"john/john"
+# bash_completion.install share/"john/john.bash_completion" => "john.bash"
+# zsh_completion.install share/"john/john.zsh_completion" => "_john"
+# mv share/"john/john.conf", share/"john/john.ini"

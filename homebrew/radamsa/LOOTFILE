@@ -1,0 +1,15 @@
+# radamsa.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/radamsa.rb
+# Converted on 02-01-2019
+
+name='radamsa'
+url=('https://github.com/aoh/radamsa/releases/download/v0.5/radamsa-0.5.tar.gz')
+description=')'
+version='0.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/aoh/radamsa'
+
+###### Install ######
+# system "make"
+# man1.install "doc/radamsa.1"
+# prefix.install Dir["*"]

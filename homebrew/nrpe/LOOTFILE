@@ -1,0 +1,34 @@
+# nrpe.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nrpe.rb
+# Converted on 02-01-2019
+
+name='nrpe'
+url=('https://downloads.sourceforge.net/project/nagios/nrpe-3.x/nrpe-3.2.1.tar.gz')
+description='Nagios remote plugin executor'
+version='3.2.1' # Guessed version.
+priority='optional'
+homepage='https://www.nagios.org/'
+depends=('nagios-plugins' 'openssl')
+
+###### Install ######
+# user  = `id -un`.chomp
+# group = `id -gn`.chomp
+# system "./configure", "--prefix=#{prefix}",
+# "--libexecdir=#{HOMEBREW_PREFIX}/sbin",
+# "--with-piddir=#{var}/run",
+# "--sysconfdir=#{etc}",
+# "--with-nrpe-user=#{user}",
+# "--with-nrpe-group=#{group}",
+# "--with-nagios-user=#{user}",
+# "--with-nagios-group=#{group}",
+# "--with-ssl=#{Formula["openssl"].opt_prefix}",
+# "--with-ssl-lib=#{Formula["openssl"].opt_lib}",
+# "--enable-ssl",
+# "--enable-command-args"
+# inreplace "src/Makefile" do |s|
+# s.gsub! "$(LIBEXECDIR)", "$(SBINDIR)"
+# s.gsub! "$(DESTDIR)/usr/local/sbin", "$(SBINDIR)"
+# end
+# system "make", "all"
+# system "make", "install", "install-config"
+# (var/"run").mkpath

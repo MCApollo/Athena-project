@@ -1,0 +1,21 @@
+# vert.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vert.rb
+# Converted on 02-01-2019
+
+name='vert'
+url=('https://github.com/Masterminds/vert/archive/v0.1.0.tar.gz')
+description='Command-line version testing'
+version='0.1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/Masterminds/vert'
+makedepends=('dep' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/Masterminds/vert").install buildpath.children
+# cd "src/github.com/Masterminds/vert" do
+# system "dep", "ensure", "-vendor-only"
+# system "make", "build"
+# bin.install "vert"
+# prefix.install_metafiles
+# end

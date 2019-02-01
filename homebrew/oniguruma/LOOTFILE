@@ -1,0 +1,14 @@
+# oniguruma.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/oniguruma.rb
+# Converted on 02-01-2019
+
+name='oniguruma'
+url=('https://github.com/kkos/oniguruma/releases/download/v6.9.1/onig-6.9.1.tar.gz')
+description='Regular expressions library'
+version='6.9.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/kkos/oniguruma/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

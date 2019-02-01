@@ -1,0 +1,24 @@
+# doxygen.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/doxygen.rb
+# Converted on 02-01-2019
+
+name='doxygen'
+url=('http://doxygen.nl/files/doxygen-1.8.15.src.tar.gz')
+description='Generate documentation for several programming languages'
+version='1.8.15' # Guessed version.
+priority='optional'
+homepage='http://www.doxygen.org/'
+makedepends=('cmake')
+# Patches
+url+=('https://github.com/doxygen/doxygen/commit/889eab308b564c4deba4ef58a3f134a309e3e9d1.diff?full_index=1')
+
+###### Install ######
+# args = std_cmake_args + %W[
+# -DCMAKE_OSX_DEPLOYMENT_TARGET:STRING=#{MacOS.version}
+# ]
+# mkdir "build" do
+# system "cmake", "..", *args
+# system "make"
+# end
+# bin.install Dir["build/bin/*"]
+# man1.install Dir["doc/*.1"]

@@ -1,0 +1,23 @@
+# x3270.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/x3270.rb
+# Converted on 02-01-2019
+
+name='x3270'
+url=('https://downloads.sourceforge.net/project/x3270/x3270/3.6ga5/suite3270-3.6ga5-src.tgz')
+description='IBM 3270 terminal emulator for the X Window System and Windows'
+version='3.6' # Guessed version.
+priority='optional'
+homepage='http://x3270.bgp.nu/'
+depends=('openssl')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --enable-c3270
+# --enable-pr3287
+# --enable-s3270
+# --enable-tcl3270
+# ]
+# system "./configure", *args
+# system "make", "install"
+# system "make", "install.man"

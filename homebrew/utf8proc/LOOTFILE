@@ -1,0 +1,13 @@
+# utf8proc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/utf8proc.rb
+# Converted on 02-01-2019
+
+name='utf8proc'
+url=('https://github.com/JuliaStrings/utf8proc/archive/v2.2.0.tar.gz')
+description='Clean C library for processing UTF-8 Unicode data'
+version='2.2.0' # Guessed version.
+priority='optional'
+homepage='https://juliastrings.github.io/utf8proc/'
+
+###### Install ######
+# system "make", "install", "prefix=#{prefix}"

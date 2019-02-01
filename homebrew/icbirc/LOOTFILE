@@ -1,0 +1,16 @@
+# icbirc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/icbirc.rb
+# Converted on 02-01-2019
+
+name='icbirc'
+url=('https://www.benzedrine.ch/icbirc-2.1.tar.gz')
+description='Proxy IRC client and ICB server'
+version='2.1' # Guessed version.
+priority='optional'
+homepage='https://www.benzedrine.ch/icbirc.html'
+makedepends=('bsdmake')
+
+###### Install ######
+# system "bsdmake"
+# bin.install "icbirc"
+# man8.install "icbirc.8"

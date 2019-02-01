@@ -1,0 +1,18 @@
+# msktutil.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/msktutil.rb
+# Converted on 02-01-2019
+
+name='msktutil'
+url=('https://downloads.sourceforge.net/project/msktutil/msktutil-1.0.tar.bz2')
+description='Active Directory keytab management'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/projects/msktutil/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

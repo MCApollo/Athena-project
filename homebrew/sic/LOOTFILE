@@ -1,0 +1,13 @@
+# sic.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sic.rb
+# Converted on 02-01-2019
+
+name='sic'
+url=('https://dl.suckless.org/tools/sic-1.2.tar.gz')
+description='Minimal multiplexing IRC client'
+version='1.2' # Guessed version.
+priority='optional'
+homepage='https://tools.suckless.org/sic/'
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "install"

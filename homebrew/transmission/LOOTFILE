@@ -1,0 +1,26 @@
+# transmission.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/transmission.rb
+# Converted on 02-01-2019
+
+name='transmission'
+url=('https://github.com/transmission/transmission-releases/raw/dc77bea/transmission-2.94.tar.xz')
+description='Lightweight BitTorrent client'
+version='2.94' # Guessed version.
+priority='optional'
+homepage='https://www.transmissionbt.com/'
+depends=('libevent')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.append "LDFLAGS", "-framework Foundation -prebind"
+# ENV.append "LDFLAGS", "-liconv"
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --disable-mac
+# --disable-nls
+# --without-gtk
+# ]
+# system "./configure", *args
+# system "make", "install"
+# (var/"transmission").mkpath

@@ -1,0 +1,23 @@
+# cweb.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cweb.rb
+# Converted on 02-01-2019
+
+name='cweb'
+url=('https://cs.stanford.edu/pub/cweb/cweb-3.64b.tar.gz')
+description='Literate documentation system for C, C++, and Java'
+version='3.64' # Guessed version.
+priority='optional'
+homepage='https://cs.stanford.edu/~knuth/cweb.html'
+
+###### Install ######
+# ENV.deparallelize
+# macrosdir = share/"texmf/tex/generic"
+# cwebinputs = lib/"cweb"
+# [bin, man1, macrosdir, elisp, cwebinputs].each(&:mkpath)
+# system "make", "install",
+# "DESTDIR=#{bin}/",
+# "MANDIR=#{man1}",
+# "MANEXT=1",
+# "MACROSDIR=#{macrosdir}",
+# "EMACSDIR=#{elisp}",
+# "CWEBINPUTS=#{cwebinputs}"

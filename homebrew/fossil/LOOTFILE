@@ -1,0 +1,26 @@
+# fossil.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fossil.rb
+# Converted on 02-01-2019
+
+name='fossil'
+url=('https://www.fossil-scm.org/index.html/uv/fossil-src-2.7.tar.gz')
+description='Distributed software configuration management'
+version='2.7' # Guessed version.
+priority='optional'
+homepage='https://www.fossil-scm.org/'
+depends=('openssl')
+
+###### Install ######
+# args = [
+# "--with-tcl-private-stubs=1",
+# "--json",
+# "--disable-fusefs",
+# ]
+# if MacOS.sdk_path_if_needed
+# args << "--with-tcl=#{MacOS.sdk_path}/System/Library/Frameworks/Tcl.framework"
+# else
+# args << "--with-tcl-stubs"
+# end
+# system "./configure", *args
+# system "make"
+# bin.install "fossil"

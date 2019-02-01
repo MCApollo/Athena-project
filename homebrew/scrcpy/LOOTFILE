@@ -1,0 +1,27 @@
+# scrcpy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scrcpy.rb
+# Converted on 02-01-2019
+
+name='scrcpy'
+url=('https://github.com/Genymobile/scrcpy/archive/v1.6.tar.gz')
+description='Display and control your Android device'
+version='1.6' # Guessed version.
+priority='optional'
+homepage='https://github.com/Genymobile/scrcpy'
+depends=('ffmpeg' 'sdl2')
+makedepends=('meson' 'ninja' 'pkg-config')
+
+###### Resource ######
+# prebuilt-server: https://github.com/Genymobile/scrcpy/releases/download/v1.6/scrcpy-server-v1.6.jar
+
+###### Install ######
+# r = resource("prebuilt-server")
+# r.verify_download_integrity(r.fetch)
+# cp r.cached_download, buildpath/"prebuilt-server.jar"
+# mkdir "build" do
+# system "meson", "--prefix=#{prefix}",
+# "--buildtype=release",
+# "-Dprebuilt_server=#{buildpath}/prebuilt-server.jar",
+# ".."
+# system "ninja", "install"
+# end

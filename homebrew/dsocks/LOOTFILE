@@ -1,0 +1,17 @@
+# dsocks.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dsocks.rb
+# Converted on 02-01-2019
+
+name='dsocks'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dsocks/dsocks-1.8.tar.gz')
+description='SOCKS client wrapper for *BSD/macOS'
+version='1.8' # Guessed version.
+priority='optional'
+homepage='https://monkey.org/~dugsong/dsocks/'
+
+###### Install ######
+# system ENV.cc, ENV.cflags, "-shared", "-o", "libdsocks.dylib", "dsocks.c",
+# "atomicio.c", "-lresolv"
+# inreplace "dsocks.sh", "/usr/local", HOMEBREW_PREFIX
+# lib.install "libdsocks.dylib"
+# bin.install "dsocks.sh"

@@ -1,0 +1,19 @@
+# osm-pbf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/osm-pbf.rb
+# Converted on 02-01-2019
+
+name='osmpbf'
+url=('https://github.com/scrosby/OSM-binary/archive/v1.3.3.tar.gz')
+description='Tools related to PBF (an alternative to XML format)'
+version='1.3.3' # Guessed version.
+priority='optional'
+homepage='https://wiki.openstreetmap.org/wiki/PBF_Format'
+depends=('protobuf')
+
+###### Install ######
+# ENV.cxx11
+# cd "src" do
+# system "make"
+# lib.install "libosmpbf.a"
+# end
+# include.install Dir["include/*"]

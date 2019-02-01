@@ -1,0 +1,16 @@
+# bear.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bear.rb
+# Converted on 02-01-2019
+
+name='bear'
+url=('https://github.com/rizsotto/Bear/archive/2.3.13.tar.gz')
+description='Generate compilation database for clang tooling'
+version='2.3.13' # Guessed version.
+priority='optional'
+homepage='https://github.com/rizsotto/Bear'
+depends=('python')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

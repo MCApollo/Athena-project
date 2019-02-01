@@ -1,0 +1,14 @@
+# needle.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/needle.rb
+# Converted on 02-01-2019
+
+name='needle'
+url=('https://github.com/uber/needle.git')
+description='Compile-time safe Swift dependency injection framework with real code'
+version=' '
+priority='optional'
+homepage='https://github.com/uber/needle'
+depends=(':xcode' ':xcode')
+
+###### Install ######
+# system "make", "install", "BINARY_FOLDER_PREFIX=#{prefix}"

@@ -1,0 +1,26 @@
+# faas-cli.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/faas-cli.rb
+# Converted on 02-01-2019
+
+name='faascli'
+url=('https://github.com/openfaas/faas-cli.git')
+description='CLI for templating and/or deploying FaaS functions'
+version=' '
+priority='optional'
+homepage='https://docs.get-faas.com/'
+makedepends=('go')
+
+###### Install ######
+# ENV["XC_OS"] = "darwin"
+# ENV["XC_ARCH"] = "amd64"
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/openfaas/faas-cli").install buildpath.children
+# cd "src/github.com/openfaas/faas-cli" do
+# project = "github.com/openfaas/faas-cli"
+# commit = Utils.popen_read("git", "rev-parse", "HEAD").chomp
+# system "go", "build", "-ldflags",
+# "-s -w -X #{project}/version.GitCommit=#{commit} -X #{project}/version.Version=#{version}", "-a",
+# "-installsuffix", "cgo", "-o", bin/"faas-cli"
+# bin.install_symlink "faas-cli" => "faas"
+# prefix.install_metafiles
+# end

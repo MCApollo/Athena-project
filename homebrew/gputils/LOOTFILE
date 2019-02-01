@@ -1,0 +1,14 @@
+# gputils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gputils.rb
+# Converted on 02-01-2019
+
+name='gputils'
+url=('https://downloads.sourceforge.net/project/gputils/gputils/1.5.0/gputils-1.5.0-1.tar.bz2')
+description='GNU PIC Utilities'
+version='1.5.0' # Guessed version.
+priority='optional'
+homepage='https://gputils.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking"
+# system "make", "install"

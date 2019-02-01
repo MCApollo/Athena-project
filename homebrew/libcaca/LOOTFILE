@@ -1,0 +1,31 @@
+# libcaca.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcaca.rb
+# Converted on 02-01-2019
+
+name='libcaca'
+url=('http://caca.zoy.org/files/libcaca/libcaca-0.99.beta19.tar.gz')
+description='Convert pixel information into colored ASCII art'
+version='0.99' # Guessed version.
+priority='optional'
+homepage='http://caca.zoy.org/wiki/libcaca'
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./bootstrap" if build.head?
+# inreplace "python/Makefile.in",
+# '$(am__py_compile) --destdir "$(DESTDIR)"',
+# "$(am__py_compile) --destdir \"$(cacadir)\""
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --disable-doc
+# --disable-slang
+# --disable-java
+# --disable-csharp
+# --disable-ruby
+# --disable-x11
+# ]
+# system "./configure", *args
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

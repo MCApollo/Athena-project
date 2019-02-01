@@ -1,0 +1,20 @@
+# goreleaser.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/goreleaser.rb
+# Converted on 02-01-2019
+
+name='goreleaser'
+url=('https://github.com/goreleaser/goreleaser/archive/v0.99.0.tar.gz')
+description='Deliver Go binaries as fast and easily as possible'
+version='0.99.0' # Guessed version.
+priority='optional'
+homepage='https://goreleaser.com/'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = HOMEBREW_CACHE/"go_cache"
+# (buildpath/"src/github.com/goreleaser/goreleaser").install buildpath.children
+# cd "src/github.com/goreleaser/goreleaser" do
+# system "go", "build", "-ldflags", "-X main.version=#{version}",
+# "-o", bin/"goreleaser"
+# prefix.install_metafiles
+# end

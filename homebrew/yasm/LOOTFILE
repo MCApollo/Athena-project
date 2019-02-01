@@ -1,0 +1,21 @@
+# yasm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yasm.rb
+# Converted on 02-01-2019
+
+name='yasm'
+url=('https://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz')
+description='Modular BSD reimplementation of NASM'
+version='1.3.0' # Guessed version.
+priority='optional'
+homepage='https://yasm.tortall.net/'
+
+###### Install ######
+# args = %W[
+# --disable-debug
+# --prefix=#{prefix}
+# --disable-python
+# ]
+# ENV.deparallelize
+# system "./autogen.sh" if build.head?
+# system "./configure", *args
+# system "make", "install"

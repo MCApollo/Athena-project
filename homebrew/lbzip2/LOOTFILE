@@ -1,0 +1,15 @@
+# lbzip2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lbzip2.rb
+# Converted on 02-01-2019
+
+name='lbzip2'
+url=('http://archive.lbzip2.org/lbzip2-2.5.tar.bz2')
+description='Parallel bzip2 utility'
+version='2.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/kjn/lbzip2'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

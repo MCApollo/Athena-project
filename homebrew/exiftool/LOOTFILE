@@ -1,0 +1,20 @@
+# exiftool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/exiftool.rb
+# Converted on 02-01-2019
+
+name='exiftool'
+url=('https://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-11.11.tar.gz')
+description='Perl lib for reading and writing EXIF metadata'
+version='11.11' # Guessed version.
+priority='optional'
+homepage='https://www.sno.phy.queensu.ca/~phil/exiftool/index.html'
+
+###### Install ######
+# inreplace "exiftool", "$exeDir/lib", libexec/"lib"
+# system "perl", "Makefile.PL"
+# system "make", "all"
+# libexec.install "lib"
+# bin.install "exiftool"
+# doc.install Dir["html/*"]
+# man1.install "blib/man1/exiftool.1"
+# man3.install Dir["blib/man3/*"]

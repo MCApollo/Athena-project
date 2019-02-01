@@ -1,0 +1,15 @@
+# lepton.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lepton.rb
+# Converted on 02-01-2019
+
+name='lepton'
+url=('https://github.com/dropbox/lepton/archive/1.2.1.tar.gz')
+description='Tool and file format for losslessly compressing JPEGs'
+version='1.2.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/dropbox/lepton'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

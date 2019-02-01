@@ -1,0 +1,12 @@
+# wp-cli-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wp-cli-completion.rb
+# Converted on 02-01-2019
+
+name='wpclicompletion'
+url=('https://github.com/wp-cli/wp-cli/archive/v2.1.0.tar.gz')
+description='Bash completion for Wpcli'
+version='2.1.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/wp-cli/wp-cli'
+
+###### Install ######

@@ -1,0 +1,16 @@
+# libpcap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpcap.rb
+# Converted on 02-01-2019
+
+name='libpcap'
+url=('https://www.tcpdump.org/release/libpcap-1.9.0.tar.gz')
+description='Portable library for network traffic capture'
+version='1.9.0' # Guessed version.
+priority='optional'
+homepage='https://www.tcpdump.org/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--enable-ipv6",
+# "--disable-universal"
+# system "make", "install"

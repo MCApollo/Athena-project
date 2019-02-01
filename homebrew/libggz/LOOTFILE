@@ -1,0 +1,22 @@
+# libggz.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libggz.rb
+# Converted on 02-01-2019
+
+name='libggz'
+url=('https://mirrors.dotsrc.org/ggzgamingzone/ggz/0.0.14.1/libggz-0.0.14.1.tar.gz')
+description='The libggz library wraps many common low-level functions'
+version='0.0.14.1' # Guessed version.
+priority='optional'
+homepage='http://dev.ggzgamingzone.org/libraries/libggz/'
+depends=('gettext' 'libgcrypt')
+
+###### Install ######
+# ENV.append "CPPFLAS", "-I#{Formula["gettext"].opt_prefix}/include"
+# ENV.append "LDFLAGS", "-L#{Formula["gettext"].opt_prefix}/lib"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--with-gcrypt"
+# system "make", "check"
+# system "make", "install"

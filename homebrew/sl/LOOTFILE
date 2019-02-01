@@ -1,0 +1,15 @@
+# sl.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sl.rb
+# Converted on 02-01-2019
+
+name='sl'
+url=('https://github.com/mtoyoda/sl/archive/5.02.tar.gz')
+description='Prints a steam locomotive if you type sl instead of ls'
+version='5.02' # Guessed version.
+priority='optional'
+homepage='https://github.com/mtoyoda/sl'
+
+###### Install ######
+# system "make", "-e"
+# bin.install "sl"
+# man1.install "sl.1"

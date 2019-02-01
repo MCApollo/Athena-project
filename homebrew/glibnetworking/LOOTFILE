@@ -1,0 +1,23 @@
+# glib-networking.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/glib-networking.rb
+# Converted on 02-01-2019
+
+name='glibnetworking'
+url=('https://download.gnome.org/sources/glib-networking/2.58/glib-networking-2.58.0.tar.xz')
+description='Network related modules for glib'
+version='2.58.0' # Guessed version.
+priority='optional'
+homepage='https://launchpad.net/glib-networking'
+depends=('glib' 'gnutls' 'gsettings-desktop-schemas')
+makedepends=('meson' 'ninja' 'pkg-config' 'python')
+
+###### Install ######
+# ENV["DESTDIR"] = "/"
+# mkdir "build" do
+# system "meson", "--prefix=#{prefix}",
+# "-Dlibproxy_support=false",
+# ".."
+# system "ninja", "-v"
+# system "ninja", "install", "-v"
+# end
+# system Formula["glib"].opt_bin/"gio-querymodules", HOMEBREW_PREFIX/"lib/gio/modules"

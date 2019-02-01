@@ -1,0 +1,14 @@
+# dhall.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dhall.rb
+# Converted on 02-01-2019
+
+name='dhall'
+url=('https://hackage.haskell.org/package/dhall-1.20.0/dhall-1.20.0.tar.gz')
+description='Interpreter for the Dhall language'
+version='1.20.0' # Guessed version.
+priority='optional'
+homepage='https://dhall-lang.org/'
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# install_cabal_package

@@ -1,0 +1,25 @@
+# sonobuoy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sonobuoy.rb
+# Converted on 02-01-2019
+
+name='sonobuoy'
+url=('https://github.com/heptio/sonobuoy/archive/v0.13.0.tar.gz')
+description='Kubernetes component that generates reports on cluster conformance'
+version='0.13.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/heptio/sonobuoy'
+makedepends=('go')
+
+###### Resource ######
+# sonobuoyresults: https://raw.githubusercontent.com/heptio/sonobuoy/master/pkg/client/results/testdata/results-0.10.tar.gz
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/heptio/sonobuoy").install buildpath.children
+# cd "src/github.com/heptio/sonobuoy" do
+# system "go", "build", "-o", bin/"sonobuoy", "-installsuffix", "static",
+# "-ldflags",
+# "-s -w -X github.com/heptio/sonobuoy/pkg/buildinfo.Version=#{version}",
+# "./"
+# prefix.install_metafiles
+# end

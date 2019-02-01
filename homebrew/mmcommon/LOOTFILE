@@ -1,0 +1,14 @@
+# mm-common.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mm-common.rb
+# Converted on 02-01-2019
+
+name='mmcommon'
+url=('https://download.gnome.org/sources/mm-common/0.9/mm-common-0.9.12.tar.xz')
+description='Build utilities for C++ interfaces of GTK+ and GNOME packages'
+version='0.9.12' # Guessed version.
+priority='optional'
+homepage='https://www.gtkmm.org/'
+
+###### Install ######
+# system "./configure", "--disable-silent-rules", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,19 @@
+# bbftp-client.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bbftp-client.rb
+# Converted on 02-01-2019
+
+name='bbftpclient'
+url=('https://software.in2p3.fr/bbftp/dist/bbftp-client-3.2.1.tar.gz')
+description='Secure file transfer software, optimized for large files'
+version='3.2.1' # Guessed version.
+priority='optional'
+homepage='https://software.in2p3.fr/bbftp/'
+depends=('openssl')
+
+###### Install ######
+# ENV.append_to_cflags "-DHAVE_NTOHLL" if MacOS.version >= :yosemite
+# cd "bbftpc" do
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--with-ssl=#{Formula["openssl"].opt_prefix}", "--prefix=#{prefix}"
+# system "make", "install"
+# end

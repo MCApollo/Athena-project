@@ -1,0 +1,15 @@
+# keystone.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/keystone.rb
+# Converted on 02-01-2019
+
+name='keystone'
+url=('https://github.com/keystone-engine/keystone/archive/0.9.1.tar.gz')
+description='Assembler framework: Core + bindings'
+version='0.9.1' # Guessed version.
+priority='optional'
+homepage='https://www.keystone-engine.org/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

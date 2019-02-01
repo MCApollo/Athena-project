@@ -1,0 +1,17 @@
+# bagit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bagit.rb
+# Converted on 02-01-2019
+
+name='bagit'
+url=('https://github.com/LibraryOfCongress/bagit-java/releases/download/v4.12.3/bagit-v4.12.3.zip')
+description='Library for creation, manipulation, and validation of bags'
+version='4.12.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/LibraryOfCongress/bagit-java'
+depends=(':java')
+
+###### Install ######
+# (var/"log/bagit").mkpath
+# inreplace "conf/log4j.properties", "${app.home}/logs", "#{var}/log/bagit"
+# libexec.install Dir["*"]
+# bin.install_symlink libexec/"bin/bagit"

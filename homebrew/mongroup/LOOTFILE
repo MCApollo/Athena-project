@@ -1,0 +1,15 @@
+# mongroup.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mongroup.rb
+# Converted on 02-01-2019
+
+name='mongroup'
+url=('https://github.com/jgallen23/mongroup/archive/0.4.1.tar.gz')
+description='Monitor a group of processes with mon'
+version='0.4.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/jgallen23/mongroup'
+depends=('mon')
+
+###### Install ######
+# bin.mkpath
+# system "make", "install", "PREFIX=#{prefix}"

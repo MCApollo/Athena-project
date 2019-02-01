@@ -1,0 +1,25 @@
+# charm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/charm.rb
+# Converted on 02-01-2019
+
+name='charm'
+url=('https://github.com/juju/charmstore-client/archive/v2.3.0.tar.gz')
+description='Tool for managing Juju Charms'
+version='2.3.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/juju/charmstore-client'
+makedepends=('bazaar' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# dir = buildpath/"src/github.com/juju/charmstore-client"
+# dir.install buildpath.children - [buildpath/".brew_home"]
+# ENV.prepend_create_path "PATH", buildpath/"bin"
+# Language::Go.stage_deps resources, buildpath/"src"
+# cd("src/github.com/rogpeppe/godeps") { system "go", "install" }
+# cd dir do
+# system "godeps", "-x", "-u", "dependencies.tsv"
+# system "go", "build", "github.com/juju/charmstore-client/cmd/charm"
+# bin.install "charm"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,17 @@
+# opentracing-cpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/opentracing-cpp.rb
+# Converted on 02-01-2019
+
+name='opentracingcpp'
+url=('https://github.com/opentracing/opentracing-cpp/archive/v1.5.0.tar.gz')
+description='OpenTracing API for C++'
+version='1.5.0' # Guessed version.
+priority='optional'
+homepage='https://opentracing.io/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"
+# pkgshare.install "example/tutorial/tutorial-example.cpp"
+# pkgshare.install "example/tutorial/text_map_carrier.h"

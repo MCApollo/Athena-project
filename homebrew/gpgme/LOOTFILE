@@ -1,0 +1,21 @@
+# gpgme.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gpgme.rb
+# Converted on 02-01-2019
+
+name='gpgme'
+url=('https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.12.0.tar.bz2')
+description='Library access to GnuPG'
+version='1.12.0' # Guessed version.
+priority='optional'
+homepage='https://www.gnupg.org/related_software/gpgme/'
+depends=('gnupg' 'libassuan' 'libgpg-error')
+makedepends=('swig')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--enable-static"
+# system "make"
+# system "make", "install"
+# inreplace bin/"gpgme-config", prefix, opt_prefix

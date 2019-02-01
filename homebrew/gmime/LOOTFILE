@@ -1,0 +1,25 @@
+# gmime.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmime.rb
+# Converted on 02-01-2019
+
+name='gmime'
+url=('https://download.gnome.org/sources/gmime/3.2/gmime-3.2.3.tar.xz')
+description='MIME mail utilities'
+version='3.2.3' # Guessed version.
+priority='optional'
+homepage='https://spruce.sourceforge.io/gmime/'
+depends=('glib' 'gpgme')
+makedepends=('gobject-introspection' 'pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --enable-largefile
+# --disable-vala
+# --disable-glibtest
+# --enable-crypto
+# --enable-introspection
+# ]
+# system "./configure", *args
+# system "make", "install"

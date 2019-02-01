@@ -1,0 +1,14 @@
+# z80dasm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/z80dasm.rb
+# Converted on 02-01-2019
+
+name='z80dasm'
+url=('https://www.tablix.org/~avian/z80dasm/z80dasm-1.1.5.tar.gz')
+description='Disassembler for the Zilog Z80 microprocessor and compatibles'
+version='1.1.5' # Guessed version.
+priority='optional'
+homepage='https://www.tablix.org/~avian/blog/articles/z80dasm/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

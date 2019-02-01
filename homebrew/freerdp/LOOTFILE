@@ -1,0 +1,22 @@
+# freerdp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/freerdp.rb
+# Converted on 02-01-2019
+
+name='freerdp'
+url=('https://github.com/FreeRDP/FreeRDP/archive/1.0.2.tar.gz')
+description='X11 implementation of the Remote Desktop Protocol (RDP)'
+version='1.0.2' # Guessed version.
+priority='optional'
+homepage='https://www.freerdp.com/'
+depends=('openssl' ':x11')
+makedepends=('cmake' 'pkg-config')
+# Patches
+url+=('https://github.com/FreeRDP/FreeRDP/commit/1d3289.diff?full_index=1')
+url+=('https://github.com/FreeRDP/FreeRDP/commit/e32f9e.diff?full_index=1')
+url+=('https://gist.githubusercontent.com/bmiklautz/8832375/raw/ac77b61185d11aa69e5f6b5e88c0fa597c04d964/freerdp-1.0.2-osxversion-patch.diff')
+
+###### Install ######
+# cmake_args = std_cmake_args
+# cmake_args << "-DWITH_X11=ON" << "-DBUILD_SHARED_LIBS=ON" if build.head?
+# system "cmake", ".", *cmake_args
+# system "make", "install"

@@ -1,0 +1,25 @@
+# arm-linux-gnueabihf-binutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/arm-linux-gnueabihf-binutils.rb
+# Converted on 02-01-2019
+
+name='armlinuxgnueabihfbinutils'
+url=('https://ftp.gnu.org/gnu/binutils/binutils-2.31.1.tar.gz')
+description='FSF/GNU binutils for cross-compiling to arm-linux'
+version='2.31.1' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/binutils/binutils.html'
+
+###### Install ######
+# ENV.cxx11
+# ENV.append "CXXFLAGS", "-Wno-c++11-narrowing"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--enable-deterministic-archives",
+# "--prefix=#{prefix}",
+# "--disable-werror",
+# "--target=arm-linux-gnueabihf",
+# "--enable-gold=yes",
+# "--enable-ld=yes",
+# "--enable-interwork"
+# system "make"
+# system "make", "install"

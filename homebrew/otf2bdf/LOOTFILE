@@ -1,0 +1,20 @@
+# otf2bdf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/otf2bdf.rb
+# Converted on 02-01-2019
+
+name='otf2bdf'
+url=('https://www.math.nmsu.edu/~mleisher/Software/otf2bdf/otf2bdf-3.1.tbz2')
+description='OpenType to BDF font converter'
+version='3.1' # Guessed version.
+priority='optional'
+homepage='https://www.math.nmsu.edu/~mleisher/Software/otf2bdf/'
+depends=('freetype')
+
+###### Resource ######
+# mkinstalldirs: https://www.math.nmsu.edu/~mleisher/Software/otf2bdf/mkinstalldirs
+
+###### Install ######
+# buildpath.install resource("mkinstalldirs")
+# chmod 0755, "mkinstalldirs"
+# system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make", "install"

@@ -1,0 +1,18 @@
+# dfu-util.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dfu-util.rb
+# Converted on 02-01-2019
+
+name='dfuutil'
+url=('https://downloads.sourceforge.net/project/dfu-util/dfu-util-0.9.tar.gz')
+description='USB programmer'
+version='0.9' # Guessed version.
+priority='optional'
+homepage='https://dfu-util.sourceforge.io/'
+depends=('libusb')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./autogen.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

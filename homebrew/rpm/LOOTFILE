@@ -1,0 +1,33 @@
+# rpm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rpm.rb
+# Converted on 02-01-2019
+
+name='rpm'
+url=('http://ftp.rpm.org/releases/rpm-4.14.x/rpm-4.14.2.1.tar.bz2')
+description='Standard unix software packaging tool'
+version='4.14.2.1' # Guessed version.
+priority='optional'
+homepage='http://www.rpm.org/'
+depends=('berkeley-db' 'gettext' 'libarchive' 'libmagic' 'lua@5.1' 'openssl' 'pkg-config' 'popt' 'xz' 'zstd')
+
+###### Install ######
+# ENV.prepend_path "PKG_CONFIG_PATH", Formula["lua@5.1"].opt_libexec/"lib/pkgconfig"
+# inreplace ["macros.in", "platform.in"], "@prefix@", HOMEBREW_PREFIX
+# inreplace "scripts/pkgconfigdeps.sh",
+# "/usr/bin/pkg-config", Formula["pkg-config"].opt_bin/"pkg-config"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--localstatedir=#{var}",
+# "--sharedstatedir=#{var}/lib",
+# "--sysconfdir=#{etc}",
+# "--with-path-magic=#{HOMEBREW_PREFIX}/share/misc/magic",
+# "--enable-nls",
+# "--disable-plugins",
+# "--with-external-db",
+# "--with-crypto=openssl",
+# "--without-apidocs",
+# "--with-vendor=homebrew"
+# system "make", "install"
+# (var/"lib/rpm").mkpath
+# inreplace lib/"rpm/macros", "/usr/bin/gpg2", HOMEBREW_PREFIX/"bin/gpg"

@@ -1,0 +1,17 @@
+# cmockery.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cmockery.rb
+# Converted on 02-01-2019
+
+name='cmockery'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cmockery/cmockery-0.1.2.tar.gz')
+description='Unit testing and mocking library for C'
+version='0.1.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/google/cmockery'
+
+# A diff file was written to cmockery.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

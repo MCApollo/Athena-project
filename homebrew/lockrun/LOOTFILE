@@ -1,0 +1,14 @@
+# lockrun.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lockrun.rb
+# Converted on 02-01-2019
+
+name='lockrun'
+url=('http://unixwiz.net/tools/lockrun.c')
+description='Run cron jobs with overrun protection'
+version=' '
+priority='optional'
+homepage='http://unixwiz.net/tools/lockrun.html'
+
+###### Install ######
+# system ENV.cc, ENV.cflags, "lockrun.c", "-o", "lockrun"
+# bin.install "lockrun"

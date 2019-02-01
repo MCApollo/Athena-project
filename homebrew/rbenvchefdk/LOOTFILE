@@ -1,0 +1,12 @@
+# rbenv-chefdk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rbenv-chefdk.rb
+# Converted on 02-01-2019
+
+name='rbenvchefdk'
+url=('https://github.com/docwhat/rbenv-chefdk/archive/v1.0.0.tar.gz')
+description='Treat ChefDK as another version in rbenv'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/docwhat/rbenv-chefdk'
+
+###### Install ######

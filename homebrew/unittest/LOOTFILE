@@ -1,0 +1,16 @@
+# unittest.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/unittest.rb
+# Converted on 02-01-2019
+
+name='unittest'
+url=('http://unittest.red-bean.com/tar/unittest-0.50-62.tar.gz')
+description='C++ Unit Test Framework'
+version='0.50' # Guessed version.
+priority='optional'
+homepage='http://unittest.red-bean.com/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# pkgshare.install "test/unittesttest"

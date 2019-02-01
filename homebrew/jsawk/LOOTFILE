@@ -1,0 +1,12 @@
+# jsawk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsawk.rb
+# Converted on 02-01-2019
+
+name='jsawk'
+url=('https://github.com/micha/jsawk/archive/1.4.tar.gz')
+description='Like awk, but for JSON, using JavaScript objects and arrays'
+version='1.4' # Guessed version.
+priority='optional'
+homepage='https://github.com/micha/jsawk'
+
+###### Install ######

@@ -1,0 +1,37 @@
+# ledger.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ledger.rb
+# Converted on 02-01-2019
+
+name='ledger'
+url=('https://github.com/ledger/ledger/archive/v3.1.1.tar.gz')
+description='Command-line, double-entry accounting tool'
+version='3.1.1' # Guessed version.
+priority='optional'
+homepage='https://ledger-cli.org/'
+depends=('boost' 'boost-python' 'gmp' 'mpfr' 'python@2')
+makedepends=('cmake')
+# Patches
+url+=('https://github.com/ledger/ledger/commit/c18a55f9.diff?full_index=1')
+
+###### Install ######
+# ENV.cxx11
+# inreplace "CMakeLists.txt", "set(BOOST_PYTHON python)",
+# "set(BOOST_PYTHON python27)"
+# args = %W[
+# --jobs=#{ENV.make_jobs}
+# --output=build
+# --prefix=#{prefix}
+# --boost=#{Formula["boost"].opt_prefix}
+# --python
+# --
+# -DBUILD_DOCS=1
+# -DBUILD_WEB_DOCS=1
+# ]
+# system "./acprep", "opt", "make", *args
+# system "./acprep", "opt", "make", "doc", *args
+# system "./acprep", "opt", "make", "install", *args
+# (pkgshare/"examples").install Dir["test/input/*.dat"]
+# pkgshare.install "contrib"
+# pkgshare.install "python/demo.py"
+# elisp.install Dir["lisp/*.el", "lisp/*.elc"]
+# bash_completion.install pkgshare/"contrib/ledger-completion.bash"

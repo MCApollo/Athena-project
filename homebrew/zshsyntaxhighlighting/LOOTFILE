@@ -1,0 +1,13 @@
+# zsh-syntax-highlighting.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zsh-syntax-highlighting.rb
+# Converted on 02-01-2019
+
+name='zshsyntaxhighlighting'
+url=('https://github.com/zsh-users/zsh-syntax-highlighting.git')
+description='Fish shell like syntax highlighting for zsh'
+version=' '
+priority='optional'
+homepage='https://github.com/zsh-users/zsh-syntax-highlighting'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

@@ -1,0 +1,14 @@
+# gifski.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gifski.rb
+# Converted on 02-01-2019
+
+name='gifski'
+url=('https://github.com/ImageOptim/gifski/archive/0.8.5.tar.gz')
+description='Highest-quality GIF encoder based on pngquant'
+version='0.8.5' # Guessed version.
+priority='optional'
+homepage='https://gif.ski/'
+makedepends=('pkg-config' 'rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

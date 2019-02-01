@@ -1,0 +1,21 @@
+# gmediaserver.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmediaserver.rb
+# Converted on 02-01-2019
+
+name='gmediaserver'
+url=('https://download.savannah.gnu.org/releases/gmediaserver/gmediaserver-0.13.0.tar.gz')
+description='UPnP Mediaserver'
+version='0.13.0' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/gmediaserver/'
+depends=('libmagic' 'libupnp')
+makedepends=('pkg-config')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/c68985023c/gmediaserver/sigwait.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/893042fbfb/gmediaserver/libupnp_1.6.19_support.diff')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

@@ -1,0 +1,16 @@
+# gnu-go.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-go.rb
+# Converted on 02-01-2019
+
+name='gnugo'
+url=('https://ftp.gnu.org/gnu/gnugo/gnugo-3.8.tar.gz')
+description='GNU Go'
+version='3.8' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/gnugo/gnugo.html'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-readline"
+# system "make", "install"

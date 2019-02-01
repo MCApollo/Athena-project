@@ -1,0 +1,13 @@
+# defaultbrowser.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/defaultbrowser.rb
+# Converted on 02-01-2019
+
+name='defaultbrowser'
+url=('https://github.com/kerma/defaultbrowser/archive/1.1.tar.gz')
+description='Command-line tool for getting & setting the default browser'
+version='1.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/kerma/defaultbrowser'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

@@ -1,0 +1,13 @@
+# dvd-vr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dvd-vr.rb
+# Converted on 02-01-2019
+
+name='dvdvr'
+url=('https://www.pixelbeat.org/programs/dvd-vr/dvd-vr-0.9.7.tar.gz')
+description='Utility to identify and extract recordings from DVD-VR files'
+version='0.9.7' # Guessed version.
+priority='optional'
+homepage='https://www.pixelbeat.org/programs/dvd-vr/'
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}", "install"

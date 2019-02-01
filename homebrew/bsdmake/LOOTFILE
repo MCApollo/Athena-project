@@ -1,0 +1,37 @@
+# bsdmake.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bsdmake.rb
+# Converted on 02-01-2019
+
+name='bsdmake'
+url=('https://opensource.apple.com/tarballs/bsdmake/bsdmake-24.tar.gz')
+description='BSD make (build tool)'
+version=' '
+priority='optional'
+homepage='https://opensource.apple.com/'
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/1fcaddfc/bsdmake/patch-Makefile.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/1fcaddfc/bsdmake/patch-mk.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/1fcaddfc/bsdmake/patch-pathnames.diff')
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/1fcaddfc/bsdmake/patch-setrlimit.diff')
+
+###### Install ######
+# inreplace "mk/sys.mk", "@PREFIX@", MacOS::X11.prefix || prefix
+# inreplace %w[mk/bsd.README
+# mk/bsd.cpu.mk
+# mk/bsd.doc.mk
+# mk/bsd.obj.mk
+# mk/bsd.own.mk
+# mk/bsd.port.mk
+# mk/bsd.port.subdir.mk
+# pathnames.h],
+# "@PREFIX@", prefix
+# inreplace "mk/bsd.own.mk" do |s|
+# s.gsub! "@INSTALL_USER@", `id -un`.chomp
+# s.gsub! "@INSTALL_GROUP@", `id -gn`.chomp
+# end
+# ENV.append "CFLAGS", "-D__FBSDID=__RCSID"
+# ENV.append "CFLAGS", "-mdynamic-no-pic"
+# system "make", "-f", "Makefile.dist"
+# bin.install "pmake" => "bsdmake"
+# man1.install "make.1" => "bsdmake.1"
+# (share/"mk/bsdmake").install Dir["mk/*"]

@@ -1,0 +1,20 @@
+# qsoas.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qsoas.rb
+# Converted on 02-01-2019
+
+name='qsoas'
+url=('http://bip.cnrs-mrs.fr/bip06/qsoas/downloads/qsoas-2.2.0.tar.gz')
+description='Versatile software for data analysis'
+version='2.2.0' # Guessed version.
+priority='optional'
+homepage='http://bip.cnrs-mrs.fr/bip06/qsoas/'
+depends=('gsl' 'mruby' 'qt')
+
+###### Install ######
+# gsl = Formula["gsl"].opt_prefix
+# mruby = Formula["mruby"].opt_prefix
+# system "qmake", "MRUBY_DIR=#{mruby}", "GSL_DIR=#{gsl}/include",
+# "QMAKE_LFLAGS=-L#{mruby}/lib -L#{gsl}/lib"
+# system "make"
+# prefix.install "QSoas.app"
+# bin.write_exec_script "#{prefix}/QSoas.app/Contents/MacOS/QSoas"

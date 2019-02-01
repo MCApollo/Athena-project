@@ -1,0 +1,19 @@
+# fltk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fltk.rb
+# Converted on 02-01-2019
+
+name='fltk'
+url=('https://www.fltk.org/pub/fltk/1.3.4/fltk-1.3.4-2-source.tar.gz')
+description='Cross-platform C++ GUI toolkit'
+version='1.3.4' # Guessed version.
+priority='optional'
+homepage='https://www.fltk.org/'
+depends=('jpeg' 'libpng')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/a68bce/fltk/mojave.patch')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--enable-threads",
+# "--enable-shared"
+# system "make", "install"

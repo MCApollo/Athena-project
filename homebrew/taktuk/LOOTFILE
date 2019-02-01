@@ -1,0 +1,16 @@
+# taktuk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/taktuk.rb
+# Converted on 02-01-2019
+
+name='taktuk'
+url=('https://gforge.inria.fr/frs/download.php/file/37055/taktuk-3.7.7.tar.gz')
+description='Deploy commands to (a potentially large set of) remote nodes'
+version='3.7.7' # Guessed version.
+priority='optional'
+homepage='http://taktuk.gforge.inria.fr/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

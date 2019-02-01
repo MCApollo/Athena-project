@@ -1,0 +1,30 @@
+# pulledpork.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pulledpork.rb
+# Converted on 02-01-2019
+
+name='pulledpork'
+url=('https://github.com/shirkdog/pulledpork/archive/v0.7.3.tar.gz')
+description='Snort rule management'
+version='0.7.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/shirkdog/pulledpork'
+depends=('openssl')
+
+###### Resource ######
+# Switch: https://cpan.metacpan.org/authors/id/C/CH/CHORNY/Switch-2.17.tar.gz
+# Crypt::SSLeay: https://cpan.metacpan.org/authors/id/N/NA/NANIS/Crypt-SSLeay-0.72.tar.gz
+
+###### Install ######
+# ENV.prepend_create_path "PERL5LIB", libexec/"lib/perl5"
+# resources.each do |r|
+# r.stage do
+# system "perl", "Makefile.PL", "INSTALL_BASE=#{libexec}"
+# system "make"
+# system "make", "install"
+# end
+# end
+# chmod 0755, "pulledpork.pl"
+# bin.install "pulledpork.pl"
+# bin.env_script_all_files(libexec/"bin", :PERL5LIB => ENV["PERL5LIB"])
+# doc.install Dir["doc/*"]
+# (etc/"pulledpork").install Dir["etc/*"]

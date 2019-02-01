@@ -1,0 +1,19 @@
+# gnu-getopt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-getopt.rb
+# Converted on 02-01-2019
+
+name='gnugetopt'
+url=('http://frodo.looijaard.name/system/files/software/getopt/getopt-1.1.6.tar.gz')
+description='Command-line option parsing library'
+version='1.1.6' # Guessed version.
+priority='optional'
+homepage='http://frodo.looijaard.name/project/getopt'
+depends=('gettext')
+
+###### Install ######
+# inreplace "Makefile" do |s|
+# gettext = Formula["gettext"]
+# s.change_make_var! "CPPFLAGS", "\\1 -I#{gettext.include}"
+# s.change_make_var! "LDFLAGS", "\\1 -L#{gettext.lib} -lintl"
+# end
+# system "make", "prefix=#{prefix}", "mandir=#{man}", "install"

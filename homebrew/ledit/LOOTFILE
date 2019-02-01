@@ -1,0 +1,17 @@
+# ledit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ledit.rb
+# Converted on 02-01-2019
+
+name='ledit'
+url=('http://pauillac.inria.fr/~ddr/ledit/distrib/src/ledit-2.04.tgz')
+description='Line editor for interactive commands'
+version='2.04' # Guessed version.
+priority='optional'
+homepage='http://pauillac.inria.fr/~ddr/ledit/'
+depends=('camlp5' 'ocaml')
+
+###### Install ######
+# ENV.deparallelize
+# args = %W[BINDIR=#{bin} LIBDIR=#{lib} MANDIR=#{man}]
+# system "make", *args
+# system "make", "install", *args

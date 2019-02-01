@@ -1,0 +1,13 @@
+# cap-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cap-completion.rb
+# Converted on 02-01-2019
+
+name='capcompletion'
+url=('https://github.com/bashaus/capistrano-autocomplete/archive/v1.0.0.tar.gz')
+description='Bash completion for Capistrano'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/bashaus/capistrano-autocomplete'
+
+###### Install ######
+# bash_completion.install "cap"

@@ -1,0 +1,21 @@
+# xmlto.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmlto.rb
+# Converted on 02-01-2019
+
+name='xmlto'
+url=('https://releases.pagure.org/xmlto/xmlto-0.0.28.tar.bz2')
+description='Convert XML to another format (based on XSL or other tools)'
+version='0.0.28' # Guessed version.
+priority='optional'
+homepage='https://pagure.io/xmlto/'
+depends=('docbook' 'docbook-xsl' 'gnu-getopt')
+
+# A diff file was written to xmlto.diff
+# --> Patch the file before building.
+
+###### Install ######
+# ENV["GETOPT"] = Formula["gnu-getopt"].opt_bin/"getopt"
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
+# ENV.deparallelize
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

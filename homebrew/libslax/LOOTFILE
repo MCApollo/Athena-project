@@ -1,0 +1,24 @@
+# libslax.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libslax.rb
+# Converted on 02-01-2019
+
+name='libslax'
+url=('https://github.com/Juniper/libslax/releases/download/0.22.0/libslax-0.22.0.tar.gz')
+description='Implementation of the SLAX language (an XSLT alternative)'
+version='0.22.0' # Guessed version.
+priority='optional'
+homepage='http://www.libslax.org/'
+depends=('openssl')
+makedepends=('libtool')
+makedepends=('libtool')
+
+###### Install ######
+# ENV.append "LDFLAGS", "-L#{Formula["openssl"].opt_lib}"
+# if MacOS.version == :sierra || MacOS.version == :el_capitan
+# ENV["SDKROOT"] = MacOS.sdk_path
+# end
+# system "sh", "./bin/setup.sh" if build.head?
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-libedit"
+# system "make", "install"

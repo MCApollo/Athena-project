@@ -1,0 +1,21 @@
+# libspectre.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libspectre.rb
+# Converted on 02-01-2019
+
+name='libspectre'
+url=('https://libspectre.freedesktop.org/releases/libspectre-0.2.8.tar.gz')
+description='Small library for rendering Postscript documents'
+version='0.2.8' # Guessed version.
+priority='optional'
+homepage='https://wiki.freedesktop.org/www/Software/libspectre/'
+depends=('ghostscript')
+# Patches
+url+=('https://github.com/Homebrew/formula-patches/raw/master/libspectre/libspectre-0.2.7-gs918.patch')
+
+###### Install ######
+# ENV.append "CFLAGS", "-I#{Formula["ghostscript"].opt_include}/ghostscript"
+# ENV.append "LIBS", "-L#{Formula["ghostscript"].opt_lib}"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,17 @@
+# zlib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zlib.rb
+# Converted on 02-01-2019
+
+name='zlib'
+url=('https://zlib.net/zlib-1.2.11.tar.gz')
+description='General-purpose lossless data-compression library'
+version='1.2.11' # Guessed version.
+priority='optional'
+homepage='https://zlib.net/'
+
+###### Resource ######
+# test_artifact: https://zlib.net/zpipe.c
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

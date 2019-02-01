@@ -1,0 +1,14 @@
+# phpunit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/phpunit.rb
+# Converted on 02-01-2019
+
+name='phpunit'
+url=('https://phar.phpunit.de/phpunit-7.5.2.phar')
+description='Programmer-oriented testing framework for PHP'
+version='7.5.2' # Guessed version.
+priority='optional'
+homepage='https://phpunit.de'
+depends=('php')
+
+###### Install ######
+# bin.install "phpunit-#{version}.phar" => "phpunit"

@@ -1,0 +1,15 @@
+# jsonlint.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsonlint.rb
+# Converted on 02-01-2019
+
+name='jsonlint'
+url=('https://github.com/zaach/jsonlint/archive/v1.6.0.tar.gz')
+description='JSON parser and validator with a CLI'
+version='1.6.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/zaach/jsonlint'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

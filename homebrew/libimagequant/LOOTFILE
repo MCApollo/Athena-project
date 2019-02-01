@@ -1,0 +1,14 @@
+# libimagequant.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libimagequant.rb
+# Converted on 02-01-2019
+
+name='libimagequant'
+url=('https://github.com/ImageOptim/libimagequant/archive/2.12.2.tar.gz')
+description='Palette quantization library extracted from pnquant2'
+version='2.12.2' # Guessed version.
+priority='optional'
+homepage='https://pngquant.org/lib/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

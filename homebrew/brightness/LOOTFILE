@@ -1,0 +1,14 @@
+# brightness.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/brightness.rb
+# Converted on 02-01-2019
+
+name='brightness'
+url=('https://github.com/nriley/brightness/archive/1.2.tar.gz')
+description='Change macOS display brightness from the command-line'
+version='1.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/nriley/brightness'
+
+###### Install ######
+# system "make"
+# system "make", "prefix=#{prefix}", "install"

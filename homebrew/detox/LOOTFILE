@@ -1,0 +1,17 @@
+# detox.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/detox.rb
+# Converted on 02-01-2019
+
+name='detox'
+url=('https://downloads.sourceforge.net/project/detox/detox/1.2.0/detox-1.2.0.tar.bz2')
+description='Utility to replace problematic characters in filenames'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://detox.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--mandir=#{man}", "--prefix=#{prefix}"
+# system "make"
+# (prefix/"etc").mkpath
+# pkgshare.mkpath
+# system "make", "install"

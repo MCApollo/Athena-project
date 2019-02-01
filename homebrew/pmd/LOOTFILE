@@ -1,0 +1,17 @@
+# pmd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pmd.rb
+# Converted on 02-01-2019
+
+name='pmd'
+url=('https://github.com/pmd/pmd/releases/download/pmd_releases/6.10.0/pmd-bin-6.10.0.zip')
+description='Source code analyzer for Java, JavaScript, and more'
+version='6.10.0' # Guessed version.
+priority='optional'
+homepage='https://pmd.github.io'
+depends=(':java')
+
+###### Install ######
+# rm Dir["bin/*.bat"]
+# libexec.install Dir["*"]
+# (bin/"pmd").write_env_script libexec/"bin/run.sh",
+# Language::Java.java_home_env("1.8+")

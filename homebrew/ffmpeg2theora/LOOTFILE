@@ -1,0 +1,20 @@
+# ffmpeg2theora.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ffmpeg2theora.rb
+# Converted on 02-01-2019
+
+name='ffmpeg2theora'
+url=('https://v2v.cc/~j/ffmpeg2theora/downloads/ffmpeg2theora-0.30.tar.bz2')
+description='Convert video files to Ogg Theora format'
+version='0.30' # Guessed version.
+priority='optional'
+homepage='https://v2v.cc/~j/ffmpeg2theora/'
+depends=('ffmpeg' 'libkate' 'libogg' 'libvorbis' 'theora')
+makedepends=('pkg-config' 'scons')
+
+###### Install ######
+# args = [
+# "prefix=#{prefix}",
+# "mandir=PREFIX/share/man",
+# "APPEND_LINKFLAGS=-headerpad_max_install_names",
+# ]
+# system "scons", "install", *args

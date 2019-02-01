@@ -1,0 +1,21 @@
+# solid.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/solid.rb
+# Converted on 02-01-2019
+
+name='solid'
+url=('http://www.dtecta.com/files/solid-3.5.6.tgz')
+description='Collision detection library for geometric objects in 3D space'
+version='3.5.6' # Guessed version.
+priority='optional'
+homepage='http://www.dtecta.com/'
+
+# A diff file was written to solid.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-debug",
+# "--prefix=#{prefix}",
+# "--infodir=#{info}"
+# inreplace "Makefile", " examples ", " "
+# system "make", "install"

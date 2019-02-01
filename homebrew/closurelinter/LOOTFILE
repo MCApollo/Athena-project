@@ -1,0 +1,23 @@
+# closure-linter.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/closure-linter.rb
+# Converted on 02-01-2019
+
+name='closurelinter'
+url=('https://github.com/google/closure-linter/archive/v2.3.19.tar.gz')
+description='Check JavaScript files for style and documentation'
+version='2.3.19' # Guessed version.
+priority='optional'
+homepage='https://developers.google.com/closure/utilities/'
+depends=('python@2')
+
+###### Resource ######
+# python-gflags: https://files.pythonhosted.org/packages/source/p/python-gflags/python-gflags-2.0.tar.gz
+
+###### Install ######
+# ENV["PYTHONPATH"] = libexec+"lib/python2.7/site-packages"
+# resources.each do |r|
+# r.stage { system "python", *Language::Python.setup_install_args(libexec) }
+# end
+# system "python", *Language::Python.setup_install_args(libexec)
+# bin.install Dir[libexec/"bin/*js*"]
+# bin.env_script_all_files(libexec+"bin", :PYTHONPATH => ENV["PYTHONPATH"])

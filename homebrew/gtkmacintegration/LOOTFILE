@@ -1,0 +1,29 @@
+# gtk-mac-integration.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtk-mac-integration.rb
+# Converted on 02-01-2019
+
+name='gtkmacintegration'
+url=('https://download.gnome.org/sources/gtk-mac-integration/2.1/gtk-mac-integration-2.1.3.tar.xz')
+description='Integrates GTK macOS applications with the Mac desktop'
+version='2.1.3' # Guessed version.
+priority='optional'
+homepage='https://wiki.gnome.org/Projects/GTK+/OSX/Integration'
+depends=('gettext' 'gtk+' 'gtk+3' 'pygtk')
+makedepends=('gobject-introspection' 'pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --with-gtk2
+# --with-gtk3
+# --enable-python=yes
+# --enable-introspection=yes
+# ]
+# if build.head?
+# system "./autogen.sh", *args
+# else
+# system "./configure", *args
+# end
+# system "make", "install"

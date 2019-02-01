@@ -1,0 +1,15 @@
+# certigo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/certigo.rb
+# Converted on 02-01-2019
+
+name='certigo'
+url=('https://github.com/square/certigo/archive/v1.11.0.tar.gz')
+description='Utility to examine and validate certificates in a variety of formats'
+version='1.11.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/square/certigo'
+makedepends=('go')
+
+###### Install ######
+# system "./build"
+# bin.install "bin/certigo"

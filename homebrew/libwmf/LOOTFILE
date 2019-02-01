@@ -1,0 +1,21 @@
+# libwmf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libwmf.rb
+# Converted on 02-01-2019
+
+name='libwmf'
+url=('https://downloads.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz')
+description='Library for converting WMF (Window Metafile Format) files'
+version='0.2.8.4' # Guessed version.
+priority='optional'
+homepage='https://wvware.sourceforge.io/libwmf.html'
+depends=('freetype' 'gd' 'jpeg' 'libpng')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-png=#{Formula["libpng"].opt_prefix}",
+# "--with-freetype=#{Formula["freetype"].opt_prefix}"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

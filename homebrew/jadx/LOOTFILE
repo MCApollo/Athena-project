@@ -1,0 +1,24 @@
+# jadx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jadx.rb
+# Converted on 02-01-2019
+
+name='jadx'
+url=('https://github.com/skylot/jadx/releases/download/v0.8.0/jadx-0.8.0.zip')
+description='Dex to Java decompiler'
+version='0.8.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/skylot/jadx'
+depends=(':java')
+
+###### Resource ######
+# sample.apk: https://github.com/downloads/stephanenicolas/RoboDemo/robodemo-sample-1.0.1.apk
+
+###### Install ######
+# if build.head?
+# system "gradle", "clean", "dist"
+# libexec.install Dir["build/jadx/*"]
+# else
+# libexec.install Dir["*"]
+# end
+# bin.install_symlink libexec/"bin/jadx"
+# bin.install_symlink libexec/"bin/jadx-gui"

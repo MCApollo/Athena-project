@@ -1,0 +1,17 @@
+# namebench.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/namebench.rb
+# Converted on 02-01-2019
+
+name='namebench'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/namebench/namebench-1.3.1-source.tgz')
+description='DNS benchmark utility'
+version='1.3.1' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/namebench/'
+
+###### Install ######
+# ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
+# system "python", "setup.py", "install", "--prefix=#{libexec}",
+# "--install-data=#{libexec}/lib/python2.7/site-packages"
+# bin.install "namebench.py" => "namebench"
+# bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])

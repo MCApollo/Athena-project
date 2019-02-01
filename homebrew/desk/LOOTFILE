@@ -1,0 +1,16 @@
+# desk.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/desk.rb
+# Converted on 02-01-2019
+
+name='desk'
+url=('https://github.com/jamesob/desk/archive/v0.6.0.tar.gz')
+description='Lightweight workspace manager for the shell'
+version='0.6.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/jamesob/desk'
+
+###### Install ######
+# bin.install "desk"
+# bash_completion.install "shell_plugins/bash/desk"
+# zsh_completion.install "shell_plugins/zsh/_desk"
+# fish_completion.install "shell_plugins/fish/desk.fish"

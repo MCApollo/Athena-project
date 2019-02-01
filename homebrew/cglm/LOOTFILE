@@ -1,0 +1,18 @@
+# cglm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cglm.rb
+# Converted on 02-01-2019
+
+name='cglm'
+url=('https://github.com/recp/cglm/archive/v0.5.1.tar.gz')
+description='Optimized OpenGL/Graphics Math (glm) for C'
+version='0.5.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/recp/cglm'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "autoreconf", "-fiv"
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

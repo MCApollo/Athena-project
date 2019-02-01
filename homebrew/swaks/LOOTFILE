@@ -1,0 +1,13 @@
+# swaks.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/swaks.rb
+# Converted on 02-01-2019
+
+name='swaks'
+url=('https://www.jetmore.org/john/code/swaks/files/swaks-20170101.0.tar.gz')
+description='SMTP command-line test tool'
+version='20170101.0' # Guessed version.
+priority='optional'
+homepage='https://www.jetmore.org/john/code/swaks/'
+
+###### Install ######
+# bin.install "swaks"

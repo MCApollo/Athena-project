@@ -1,0 +1,16 @@
+# log4cplus.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/log4cplus.rb
+# Converted on 02-01-2019
+
+name='log4cplus'
+url=('https://downloads.sourceforge.net/project/log4cplus/log4cplus-stable/2.0.2/log4cplus-2.0.2.tar.xz')
+description='Logging Framework for C++'
+version='2.0.2' # Guessed version.
+priority='optional'
+homepage='https://sourceforge.net/p/log4cplus/wiki/Home/'
+
+###### Install ######
+# ENV.cxx11
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

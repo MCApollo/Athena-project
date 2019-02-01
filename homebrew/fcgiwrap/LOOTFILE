@@ -1,0 +1,17 @@
+# fcgiwrap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fcgiwrap.rb
+# Converted on 02-01-2019
+
+name='fcgiwrap'
+url=('https://github.com/gnosek/fcgiwrap/archive/1.1.0.tar.gz')
+description='CGI support for Nginx'
+version='1.1.0' # Guessed version.
+priority='optional'
+homepage='https://www.nginx.com/resources/wiki/start/topics/examples/fcgiwrap/'
+depends=('fcgi')
+makedepends=('autoconf' 'automake' 'pkg-config')
+
+###### Install ######
+# system "autoreconf", "-i"
+# system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
+# system "make", "install"

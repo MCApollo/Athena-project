@@ -1,0 +1,12 @@
+# docker-machine-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-machine-completion.rb
+# Converted on 02-01-2019
+
+name='dockermachinecompletion'
+url=('https://github.com/docker/machine/archive/v0.16.1.tar.gz')
+description='Docker-machine completion script'
+version='0.16.1' # Guessed version.
+priority='optional'
+homepage='https://docs.docker.com/machine/completion/'
+
+###### Install ######

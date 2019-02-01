@@ -1,0 +1,16 @@
+# lcdf-typetools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lcdf-typetools.rb
+# Converted on 02-01-2019
+
+name='lcdftypetools'
+url=('https://www.lcdf.org/type/lcdf-typetools-2.107.tar.gz')
+description='Manipulate OpenType and multiple-master fonts'
+version='2.107' # Guessed version.
+priority='optional'
+homepage='https://www.lcdf.org/type/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--without-kpathsea"
+# system "make", "install"

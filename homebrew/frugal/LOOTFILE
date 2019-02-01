@@ -1,0 +1,20 @@
+# frugal.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/frugal.rb
+# Converted on 02-01-2019
+
+name='frugal'
+url=('https://github.com/Workiva/frugal/archive/2.26.1.tar.gz')
+description='Cross language code generator for creating scalable microservices'
+version='2.26.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/Workiva/frugal'
+makedepends=('glide' 'go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/Workiva/frugal").install buildpath.children
+# cd "src/github.com/Workiva/frugal" do
+# system "glide", "install"
+# system "go", "build", "-o", bin/"frugal"
+# prefix.install_metafiles
+# end

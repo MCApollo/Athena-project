@@ -1,0 +1,19 @@
+# libqalculate.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libqalculate.rb
+# Converted on 02-01-2019
+
+name='libqalculate'
+url=('https://github.com/Qalculate/libqalculate/releases/download/v2.8.2/libqalculate-2.8.2.tar.gz')
+description='Library for Qalculate! program'
+version='2.8.2' # Guessed version.
+priority='optional'
+homepage='https://qalculate.github.io/'
+depends=('gettext' 'gnuplot' 'mpfr' 'readline')
+makedepends=('intltool' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--without-icu",
+# "--prefix=#{prefix}"
+# system "make", "install"

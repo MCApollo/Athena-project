@@ -1,0 +1,17 @@
+# herrie.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/herrie.rb
+# Converted on 02-01-2019
+
+name='herrie'
+url=('https://github.com/EdSchouten/herrie/releases/download/herrie-2.2/herrie-2.2.tar.bz2')
+description='Minimalistic audio player built upon Ncurses'
+version='2.2' # Guessed version.
+priority='optional'
+homepage='https://herrie.info/'
+depends=('gettext' 'glib' 'libid3tag' 'libsndfile' 'libvorbis' 'mad')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV["PREFIX"] = prefix
+# system "./configure", "no_modplug", "no_xspf", "coreaudio", "ncurses"
+# system "make", "install"

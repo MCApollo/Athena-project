@@ -1,0 +1,18 @@
+# kedge.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/kedge.rb
+# Converted on 02-01-2019
+
+name='kedge'
+url=('https://github.com/kedgeproject/kedge/archive/v0.12.0.tar.gz')
+description='Deployment tool for Kubernetes artifacts'
+version='0.12.0' # Guessed version.
+priority='optional'
+homepage='http://kedgeproject.org/'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/kedgeproject").mkpath
+# ln_s buildpath, buildpath/"src/github.com/kedgeproject/kedge"
+# system "make", "bin"
+# bin.install "kedge"

@@ -1,0 +1,17 @@
+# ctunnel.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ctunnel.rb
+# Converted on 02-01-2019
+
+name='ctunnel'
+url=('https://www.alienrobotarmy.com/ctunnel/0.7/ctunnel-0.7.tar.gz')
+description='Cryptographic or plain tunnels for TCP/UDP connections'
+version='0.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/alienrobotarmy/ctunnel'
+depends=('openssl')
+
+###### Install ######
+# inreplace "Makefile.cfg", "TUNTAP=yes", "TUNTAP=no"
+# system "make"
+# bin.mkpath
+# system "make", "-B", "install", "PREFIX=#{prefix}"

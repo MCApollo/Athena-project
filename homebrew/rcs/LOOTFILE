@@ -1,0 +1,19 @@
+# rcs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rcs.rb
+# Converted on 02-01-2019
+
+name='rcs'
+url=('https://ftp.gnu.org/gnu/rcs/rcs-5.9.4.tar.xz')
+description='GNU revision control system'
+version='5.9.4' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/rcs/'
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/3fff7c990b8df4174045834b9c1210e7736ff5a4/rcs/noreturn.patch')
+url+=('https://raw.githubusercontent.com/macports/macports-ports/b76d1e48dac/editors/nano/files/secure_snprintf.patch')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

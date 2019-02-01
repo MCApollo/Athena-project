@@ -1,0 +1,14 @@
+# stone.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/stone.rb
+# Converted on 02-01-2019
+
+name='stone'
+url=('http://www.gcd.org/sengoku/stone/stone-2.3e.tar.gz')
+description='TCP/IP packet repeater in the application layer'
+version='2.3' # Guessed version.
+priority='optional'
+homepage='http://www.gcd.org/sengoku/stone/'
+
+###### Install ######
+# system "make", "macosx"
+# bin.install "stone"

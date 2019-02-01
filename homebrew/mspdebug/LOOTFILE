@@ -1,0 +1,15 @@
+# mspdebug.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mspdebug.rb
+# Converted on 02-01-2019
+
+name='mspdebug'
+url=('https://github.com/dlbeer/mspdebug/archive/v0.25.tar.gz')
+description='Debugger for use with MSP430 MCUs'
+version='0.25' # Guessed version.
+priority='optional'
+homepage='https://dlbeer.co.nz/mspdebug/'
+depends=('hidapi' 'libusb-compat')
+
+###### Install ######
+# ENV.append_to_cflags "-I#{Formula["hidapi"].opt_include}/hidapi"
+# system "make", "PREFIX=#{prefix}", "install"

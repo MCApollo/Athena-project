@@ -1,0 +1,20 @@
+# bartycrouch.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bartycrouch.rb
+# Converted on 02-01-2019
+
+name='bartycrouch'
+url=('https://github.com/Flinesoft/BartyCrouch/archive/3.13.1.tar.gz')
+description='Incrementally update your Strings files'
+version='3.13.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/Flinesoft/BartyCrouch'
+depends=(':xcode')
+
+###### Install ######
+# xcodebuild "-project", "BartyCrouch.xcodeproj",
+# "-scheme", "BartyCrouch CLI",
+# "SYMROOT=build",
+# "DSTROOT=#{prefix}",
+# "INSTALL_PATH=/bin",
+# "-verbose",
+# "install"

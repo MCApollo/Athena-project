@@ -1,0 +1,13 @@
+# git-secrets.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-secrets.rb
+# Converted on 02-01-2019
+
+name='gitsecrets'
+url=('https://github.com/awslabs/git-secrets/archive/1.2.1.tar.gz')
+description='Prevents you from committing sensitive information to a git repo'
+version='1.2.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/awslabs/git-secrets'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

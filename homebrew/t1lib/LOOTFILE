@@ -1,0 +1,16 @@
+# t1lib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/t1lib.rb
+# Converted on 02-01-2019
+
+name='t1lib'
+url=('https://www.ibiblio.org/pub/linux/libs/graphics/t1lib-5.1.2.tar.gz')
+description='C library to generate/rasterize bitmaps from Type 1 fonts'
+version='5.1.2' # Guessed version.
+priority='optional'
+homepage='https://www.t1lib.org/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "without_doc"
+# system "make", "install"
+# share.install "Fonts" => "fonts"

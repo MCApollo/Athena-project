@@ -1,0 +1,19 @@
+# nfcutils.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nfcutils.rb
+# Converted on 02-01-2019
+
+name='nfcutils'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/nfc-tools/nfcutils-0.3.2.tar.gz')
+description='Near Field Communication (NFC) tools under POSIX systems'
+version='0.3.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/nfc-tools/nfcutils'
+depends=('libnfc' 'libusb')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

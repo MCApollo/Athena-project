@@ -1,0 +1,40 @@
+# onscripter.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/onscripter.rb
+# Converted on 02-01-2019
+
+name='onscripter'
+url=('https://onscripter.osdn.jp/onscripter-20181218.tar.gz')
+description='NScripter-compatible visual novel engine'
+version=' '
+priority='optional'
+homepage='https://onscripter.osdn.jp/'
+depends=('jpeg' 'lua' 'sdl' 'sdl_image' 'sdl_mixer' 'sdl_ttf' 'smpeg')
+makedepends=('pkg-config')
+
+###### Install ######
+# incs = [
+# `pkg-config --cflags sdl SDL_ttf SDL_image SDL_mixer`.chomp,
+# `smpeg-config --cflags`.chomp,
+# "-I#{Formula["jpeg"].include}",
+# "-I#{Formula["lua"].opt_include}/lua",
+# ]
+# libs = [
+# `pkg-config --libs sdl SDL_ttf SDL_image SDL_mixer`.chomp,
+# `smpeg-config --libs`.chomp,
+# "-ljpeg",
+# "-lbz2",
+# "-L#{Formula["lua"].opt_lib} -llua",
+# ]
+# defs = %w[
+# -DMACOSX
+# -DUSE_CDROM
+# -DUSE_LUA
+# -DUTF8_CAPTION
+# -DUTF8_FILESYSTEM
+# ]
+# ext_objs = ["LUAHandler.o"]
+# k = %w[INCS LIBS DEFS EXT_OBJS]
+# v = [incs, libs, defs, ext_objs].map { |x| x.join(" ") }
+# args = k.zip(v).map { |x| x.join("=") }
+# system "make", "-f", "Makefile.MacOSX", *args
+# bin.install %w[onscripter sardec nsadec sarconv nsaconv]

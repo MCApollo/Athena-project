@@ -1,0 +1,14 @@
+# genders.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/genders.rb
+# Converted on 02-01-2019
+
+name='genders'
+url=('https://downloads.sourceforge.net/project/genders/genders/1.22-1/genders-1.22.tar.gz')
+description='Static cluster configuration database for cluster management'
+version='1.22' # Guessed version.
+priority='optional'
+homepage='https://computing.llnl.gov/linux/genders.html'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--with-java-extensions=no"
+# system "make", "install"

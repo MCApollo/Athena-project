@@ -1,0 +1,18 @@
+# xmlstarlet.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmlstarlet.rb
+# Converted on 02-01-2019
+
+name='xmlstarlet'
+url=('https://downloads.sourceforge.net/project/xmlstar/xmlstarlet/1.6.1/xmlstarlet-1.6.1.tar.gz')
+description='XML command-line utilities'
+version='1.6.1' # Guessed version.
+priority='optional'
+homepage='https://xmlstar.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make"
+# system "make", "install"
+# bin.install_symlink "xml" => "xmlstarlet"

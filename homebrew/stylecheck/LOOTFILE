@@ -1,0 +1,16 @@
+# style-check.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/style-check.rb
+# Converted on 02-01-2019
+
+name='stylecheck'
+url=('https://www.cs.umd.edu/~nspring/software/style-check-0.14.tar.gz')
+description='Parses latex-formatted text in search of forbidden phrases'
+version='0.14' # Guessed version.
+priority='optional'
+homepage='https://www.cs.umd.edu/~nspring/software/style-check-readme.html'
+
+###### Install ######
+# inreplace "style-check.rb", "/etc/style-check.d/", etc/"style-check.d/"
+# system "make", "PREFIX=#{prefix}",
+# "SYSCONFDIR=#{etc}/style-check.d",
+# "install"

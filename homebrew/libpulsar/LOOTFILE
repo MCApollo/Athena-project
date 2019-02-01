@@ -1,0 +1,24 @@
+# libpulsar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpulsar.rb
+# Converted on 02-01-2019
+
+name='libpulsar'
+url=('https://www.apache.org/dyn/closer.cgi?path=pulsar/pulsar-2.2.1/apache-pulsar-2.2.1-src.tar.gz')
+description='Apache Pulsar C++ library'
+version='2.2.1' # Guessed version.
+priority='optional'
+homepage='https://pulsar.apache.org/'
+depends=('boost' 'jsoncpp' 'openssl' 'protobuf')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# cd "pulsar-client-cpp" do
+# system "cmake", ".", *std_cmake_args,
+# "-DBUILD_TESTS=OFF",
+# "-DBUILD_PYTHON_WRAPPER=OFF",
+# "-DBoost_INCLUDE_DIRS=#{Formula["boost"].include}",
+# "-DProtobuf_INCLUDE_DIR=#{Formula["protobuf"].include}",
+# "-DProtobuf_LIBRARIES=#{Formula["protobuf"].lib}/libprotobuf.dylib"
+# system "make", "pulsarShared", "pulsarStatic"
+# system "make", "install"
+# end

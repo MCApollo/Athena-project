@@ -1,0 +1,13 @@
+# chruby.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/chruby.rb
+# Converted on 02-01-2019
+
+name='chruby'
+url=('https://github.com/postmodern/chruby/archive/v0.3.9.tar.gz')
+description='Ruby environment tool'
+version='0.3.9' # Guessed version.
+priority='optional'
+homepage='https://github.com/postmodern/chruby#readme'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

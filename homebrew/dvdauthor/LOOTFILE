@@ -1,0 +1,20 @@
+# dvdauthor.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dvdauthor.rb
+# Converted on 02-01-2019
+
+name='dvdauthor'
+url=('https://downloads.sourceforge.net/project/dvdauthor/dvdauthor-0.7.2.tar.gz')
+description='DVD-authoring toolset'
+version='0.7.2' # Guessed version.
+priority='optional'
+homepage='https://dvdauthor.sourceforge.io/'
+depends=('freetype' 'libdvdread' 'libpng' 'libxml2')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make"
+# ENV.deparallelize
+# system "make", "install"

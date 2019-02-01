@@ -1,0 +1,22 @@
+# cake.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cake.rb
+# Converted on 02-01-2019
+
+name='cake'
+url=('https://github.com/cake-build/cake/releases/download/v0.32.1/Cake-bin-net461-v0.32.1.zip')
+description=''
+version='0.32.1' # Guessed version.
+priority='optional'
+homepage='https://cakebuild.net/'
+depends=('mono')
+makedepends=('')
+
+###### Install ######
+# libexec.install Dir["*.dll"]
+# libexec.install Dir["*.exe"]
+# libexec.install Dir["*.xml"]
+# bin.mkpath
+# (bin/"cake").write <<~EOS
+# #!/bin/bash
+# mono #{libexec}/Cake.exe "$@"
+# EOS

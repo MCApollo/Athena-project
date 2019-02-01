@@ -1,0 +1,14 @@
+# create-dmg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/create-dmg.rb
+# Converted on 02-01-2019
+
+name='createdmg'
+url=('https://github.com/andreyvit/create-dmg/archive/v1.0.0.5.tar.gz')
+description='Shell script to build fancy DMGs'
+version='1.0.0.5' # Guessed version.
+priority='optional'
+homepage='https://github.com/andreyvit/create-dmg'
+
+###### Install ######
+# system "support/brew-me.sh"
+# bin.install "create-dmg"

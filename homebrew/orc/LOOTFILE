@@ -1,0 +1,16 @@
+# orc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/orc.rb
+# Converted on 02-01-2019
+
+name='orc'
+url=('https://gstreamer.freedesktop.org/src/orc/orc-0.4.28.tar.xz')
+description='Oil Runtime Compiler (ORC)'
+version='0.4.28' # Guessed version.
+priority='optional'
+homepage='https://cgit.freedesktop.org/gstreamer/orc/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--disable-gtk-doc"
+# system "make", "install"

@@ -1,0 +1,16 @@
+# libyaml.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libyaml.rb
+# Converted on 02-01-2019
+
+name='libyaml'
+url=('https://github.com/yaml/libyaml/archive/0.2.1.tar.gz')
+description='YAML Parser'
+version='0.2.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/yaml/libyaml'
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# system "./bootstrap"
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,24 @@
+# genometools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/genometools.rb
+# Converted on 02-01-2019
+
+name='genometools'
+url=('http://genometools.org/pub/genometools-1.5.10.tar.gz')
+description='GenomeTools: The versatile open source genome analysis software'
+version='1.5.10' # Guessed version.
+priority='optional'
+homepage='http://genometools.org/'
+depends=('cairo' 'pango' 'python')
+makedepends=('pkg-config')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "make", "prefix=#{prefix}"
+# system "make", "install", "prefix=#{prefix}"
+# cd "gtpython" do
+# inreplace "gt/dlload.py",
+# "gtlib = CDLL(\"libgenometools\" + soext)",
+# "gtlib = CDLL(\"#{lib}/libgenometools\" + soext)"
+# system "python3", *Language::Python.setup_install_args(prefix)
+# system "python3", "-m", "unittest", "discover", "tests"
+# end

@@ -1,0 +1,16 @@
+# libcds.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcds.rb
+# Converted on 02-01-2019
+
+name='libcds'
+url=('https://github.com/khizmax/libcds/archive/v2.3.3.tar.gz')
+description='C++ library of Concurrent Data Structures'
+version='2.3.3' # Guessed version.
+priority='optional'
+homepage='https://libcds.sourceforge.io/doc/cds-api/index.html'
+depends=('boost' 'gcc')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

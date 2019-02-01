@@ -1,0 +1,14 @@
+# tractorgen.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tractorgen.rb
+# Converted on 02-01-2019
+
+name='tractorgen'
+url=('http://www.kfish.org/software/tractorgen/dl/tractorgen-0.31.7.tar.gz')
+description='Generates ASCII tractor art'
+version='0.31.7' # Guessed version.
+priority='optional'
+homepage='http://www.kfish.org/software/tractorgen/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

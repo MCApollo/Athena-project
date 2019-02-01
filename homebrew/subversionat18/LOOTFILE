@@ -1,0 +1,71 @@
+# subversion@1.8.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/subversion@1.8.rb
+# Converted on 02-01-2019
+
+name='subversionat18'
+url=('https://www.apache.org/dyn/closer.cgi?path=subversion/subversion-1.8.19.tar.bz2')
+description='Version control system'
+version='1.8.19' # Guessed version.
+priority='optional'
+homepage='https://subversion.apache.org/'
+depends=('apr' 'apr-util' 'openssl' 'sqlite')
+makedepends=('pkg-config' 'scons')
+
+# A diff file was written to subversionat18.diff
+# --> Patch the file before building.
+
+###### Resource ######
+# serf: https://www.apache.org/dyn/closer.cgi?path=serf/serf-1.3.9.tar.bz2
+
+###### Install ######
+# inreplace "Makefile.in",
+# "@APXS@ -i -S LIBEXECDIR=\"$(APACHE_LIBEXECDIR)\"",
+# "@APXS@ -i -S LIBEXECDIR=\"#{libexec.to_s.sub("@", "\\@")}\""
+# serf_prefix = libexec/"serf"
+# resource("serf").stage do
+# inreplace "SConstruct", "unique=1", "unique=0"
+# args = %W[PREFIX=#{serf_prefix} GSSAPI=/usr CC=#{ENV.cc}
+# CFLAGS=#{ENV.cflags} LINKFLAGS=#{ENV.ldflags}
+# OPENSSL=#{Formula["openssl"].opt_prefix}]
+# if MacOS.version >= :sierra || !MacOS::CLT.installed?
+# args << "APR=#{Formula["apr"].opt_prefix}"
+# args << "APU=#{Formula["apr-util"].opt_prefix}"
+# end
+# system "scons", *args
+# system "scons", "install"
+# end
+# if build.include? "unicode-path"
+# raise <<~EOS
+# The --unicode-path patch is not supported on Subversion 1.8.
+# Upgrading from a 1.7 version built with this patch is not supported.
+# You should stay on 1.7, install 1.7 from homebrew-versions, or
+# brew rm subversion && brew install subversion
+# to build a new version of 1.8 without this patch.
+# EOS
+# end
+# args = ["--disable-debug",
+# "--prefix=#{prefix}",
+# "--with-zlib=/usr",
+# "--with-sqlite=#{Formula["sqlite"].opt_prefix}",
+# "--with-serf=#{serf_prefix}",
+# "--disable-mod-activation",
+# "--disable-nls",
+# "--without-apache-libexecdir",
+# "--without-berkeley-db"]
+# if MacOS::CLT.installed? && MacOS.version < :sierra
+# args << "--with-apr=/usr"
+# args << "--with-apr-util=/usr"
+# else
+# args << "--with-apr=#{Formula["apr"].opt_prefix}"
+# args << "--with-apr-util=#{Formula["apr-util"].opt_prefix}"
+# args << "--with-apxs=no"
+# end
+# inreplace "Makefile.in",
+# "toolsdir = @bindir@/svn-tools",
+# "toolsdir = @libexecdir@/svn-tools"
+# system "./configure", *args
+# system "make"
+# system "make", "install"
+# bash_completion.install "tools/client-side/bash_completion" => "subversion"
+# system "make", "tools"
+# system "make", "install-tools"

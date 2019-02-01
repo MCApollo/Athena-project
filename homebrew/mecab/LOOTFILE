@@ -1,0 +1,20 @@
+# mecab.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mecab.rb
+# Converted on 02-01-2019
+
+name='mecab'
+url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/m/mecab/mecab_0.996.orig.tar.gz')
+description='Yet another part-of-speech and morphological analyzer'
+version='0.996' # Guessed version.
+priority='optional'
+homepage='https://taku910.github.io/mecab/'
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}"
+# system "make", "install"
+# inreplace "#{bin}/mecab-config", "${exec_prefix}/lib/mecab/dic", "#{HOMEBREW_PREFIX}/lib/mecab/dic"
+# inreplace "#{etc}/mecabrc", "#{lib}/mecab/dic", "#{HOMEBREW_PREFIX}/lib/mecab/dic"
+# (HOMEBREW_PREFIX/"lib/mecab/dic").mkpath

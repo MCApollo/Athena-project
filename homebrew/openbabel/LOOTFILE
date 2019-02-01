@@ -1,0 +1,22 @@
+# open-babel.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/open-babel.rb
+# Converted on 02-01-2019
+
+name='openbabel'
+url=('https://github.com/openbabel/openbabel/archive/openbabel-2-4-1.tar.gz')
+description='Chemical toolbox'
+version=' '
+priority='optional'
+homepage='https://openbabel.org'
+depends=('eigen')
+makedepends=('cmake' 'pkg-config')
+
+###### Install ######
+# args = std_cmake_args + %w[
+# -DCAIRO_LIBRARY:FILEPATH=
+# ]
+# mkdir "build" do
+# system "cmake", "..", *args
+# system "make"
+# system "make", "install"
+# end

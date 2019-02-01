@@ -1,0 +1,18 @@
+# fsh.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fsh.rb
+# Converted on 02-01-2019
+
+name='fsh'
+url=('https://www.lysator.liu.se/fsh/fsh-1.2.tar.gz')
+description='Provides remote command execution'
+version='1.2' # Guessed version.
+priority='optional'
+homepage='https://www.lysator.liu.se/fsh/'
+
+###### Install ######
+# inreplace "fshcompat.py", "FCNTL", "fcntl"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--infodir=#{info}"
+# system "make", "install"

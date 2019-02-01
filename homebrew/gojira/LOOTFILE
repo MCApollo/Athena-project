@@ -1,0 +1,20 @@
+# go-jira.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/go-jira.rb
+# Converted on 02-01-2019
+
+name='gojira'
+url=('https://github.com/Netflix-Skunkworks/go-jira/archive/v1.0.20.tar.gz')
+description='Simple jira command-line client in Go'
+version='1.0.20' # Guessed version.
+priority='optional'
+homepage='https://github.com/Netflix-Skunkworks/go-jira'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# dir = buildpath/"src/gopkg.in/Netflix-Skunkworks/go-jira.v1"
+# dir.install buildpath.children
+# cd dir do
+# system "go", "build", "-o", bin/"jira", "-ldflags", "-w -s", "cmd/jira/main.go"
+# prefix.install_metafiles
+# end

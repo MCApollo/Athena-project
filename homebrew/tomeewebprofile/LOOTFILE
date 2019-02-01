@@ -1,0 +1,23 @@
+# tomee-webprofile.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tomee-webprofile.rb
+# Converted on 02-01-2019
+
+name='tomeewebprofile'
+url=('https://www.apache.org/dyn/closer.cgi?path=tomee/tomee-1.7.5/apache-tomee-1.7.5-webprofile.tar.gz')
+description='All-Apache Java EE 6 Web Profile stack'
+version='1.7.5' # Guessed version.
+priority='optional'
+homepage='https://tomee.apache.org/'
+depends=(':java')
+
+###### Install ######
+# rm_rf Dir["bin/*.bat"]
+# rm_rf Dir["bin/*.bat.original"]
+# rm_rf Dir["bin/*.exe"]
+# prefix.install %w[NOTICE LICENSE RELEASE-NOTES RUNNING.txt]
+# libexec.install Dir["*"]
+# libexec.install_symlink "#{libexec}/bin/startup.sh" => "tomee-webprofile-startup"
+# env = Language::Java.java_home_env("1.8")
+# env[:JRE_HOME] = "$(#{Language::Java.java_home_cmd("1.8")})"
+# (bin/"tomee-webprofile-startup").write_env_script libexec/"tomee-webprofile-startup", env
+# (bin/"tomee-webprofile-configtest").write_env_script libexec/"bin/configtest.sh", env

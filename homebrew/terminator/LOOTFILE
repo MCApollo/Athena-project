@@ -1,0 +1,21 @@
+# terminator.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/terminator.rb
+# Converted on 02-01-2019
+
+name='terminator'
+url=('')
+description='Multiple terminals in one window'
+version=' '
+priority='optional'
+homepage='https://gnometerminator.blogspot.com/p/introduction.html'
+depends=('pango' 'pygobject' 'pygtk' 'python@2' 'vte')
+makedepends=('intltool' 'pkg-config')
+
+# A diff file was written to terminator.diff
+# --> Patch the file before building.
+
+###### Install ######
+# ENV.prepend_create_path "PYTHONPATH", lib/"python2.7/site-packages"
+# system "python", *Language::Python.setup_install_args(prefix)
+# system "#{Formula["gtk"].opt_bin}/gtk-update-icon-cache", "-f",
+# "-t", "#{HOMEBREW_PREFIX}/share/icons/hicolor"

@@ -1,0 +1,14 @@
+# opencore-amr.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/opencore-amr.rb
+# Converted on 02-01-2019
+
+name='opencoreamr'
+url=('https://downloads.sourceforge.net/opencore-amr/opencore-amr-0.1.5.tar.gz')
+description='Audio codecs extracted from Android open source project'
+version='0.1.5' # Guessed version.
+priority='optional'
+homepage='https://opencore-amr.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,15 @@
+# pdf2json.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdf2json.rb
+# Converted on 02-01-2019
+
+name='pdf2json'
+url=('https://github.com/flexpaper/pdf2json/releases/download/v0.69/pdf2json-0.69.tar.gz')
+description='PDF to JSON and XML converter'
+version='0.69' # Guessed version.
+priority='optional'
+homepage='https://github.com/flexpaper/pdf2json'
+
+###### Install ######
+# system "./configure"
+# system "make", "CC=#{ENV.cc}", "CXX=#{ENV.cxx}"
+# bin.install "src/pdf2json"

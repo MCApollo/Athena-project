@@ -1,0 +1,12 @@
+# sshrc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sshrc.rb
+# Converted on 02-01-2019
+
+name='sshrc'
+url=('https://github.com/Russell91/sshrc/archive/0.6.2.tar.gz')
+description='Bring your .bashrc, .vimrc, etc. with you when you SSH'
+version='0.6.2' # Guessed version.
+priority='optional'
+homepage='https://github.com/Russell91/sshrc'
+
+###### Install ######

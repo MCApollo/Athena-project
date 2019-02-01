@@ -1,0 +1,15 @@
+# tmx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tmx.rb
+# Converted on 02-01-2019
+
+name='tmx'
+url=('https://github.com/baylej/tmx/archive/tmx_1.0.0.tar.gz')
+description='Portable C library to load tiled maps in your games'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/baylej/tmx'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", "-DBUILD_SHARED_LIBS=on", *std_cmake_args
+# system "make", "install"

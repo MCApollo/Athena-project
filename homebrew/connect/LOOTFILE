@@ -1,0 +1,14 @@
+# connect.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/connect.rb
+# Converted on 02-01-2019
+
+name='connect'
+url=('https://bitbucket.org/gotoh/connect/get/1.105.tar.gz')
+description='Provides SOCKS and HTTPS proxy support to SSH'
+version='1.105' # Guessed version.
+priority='optional'
+homepage='https://bitbucket.org/gotoh/connect/wiki/Home'
+
+###### Install ######
+# system "make"
+# bin.install "connect"

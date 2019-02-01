@@ -1,0 +1,15 @@
+# epubcheck.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/epubcheck.rb
+# Converted on 02-01-2019
+
+name='epubcheck'
+url=('https://github.com/w3c/epubcheck/releases/download/v4.1.1/epubcheck-4.1.1.zip')
+description='Validate EPUB files, version 2.0 and later'
+version='4.1.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/w3c/epubcheck'
+
+###### Install ######
+# jarname = "epubcheck.jar"
+# libexec.install jarname, "lib"
+# bin.write_jar_script libexec/jarname, "epubcheck"

@@ -1,0 +1,21 @@
+# cxxtest.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cxxtest.rb
+# Converted on 02-01-2019
+
+name='cxxtest'
+url=('https://github.com/CxxTest/cxxtest/releases/download/4.4/cxxtest-4.4.tar.gz')
+description='xUnit-style unit testing framework for C++'
+version='4.4' # Guessed version.
+priority='optional'
+homepage='https://cxxtest.com/'
+depends=('python')
+
+###### Install ######
+# xy = Language::Python.major_minor_version "python3"
+# ENV.prepend_create_path "PYTHONPATH", lib/"python#{xy}/site-packages"
+# cd "./python" do
+# system "python3", *Language::Python.setup_install_args(prefix)
+# end
+# bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
+# include.install "cxxtest"
+# doc.install Dir["doc/*"]

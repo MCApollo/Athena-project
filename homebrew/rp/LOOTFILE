@@ -1,0 +1,21 @@
+# rp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rp.rb
+# Converted on 02-01-2019
+
+name='rp'
+url=('https://github.com/0vercl0k/rp/archive/v1.tar.gz')
+description='Tool to find ROP sequences in PE/Elf/Mach-O x86/x64 binaries'
+version=' '
+priority='optional'
+homepage='https://0vercl0k.github.io/rp/'
+makedepends=('cmake')
+
+# A diff file was written to rp.diff
+# --> Patch the file before building.
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", ".."
+# system "make"
+# end
+# bin.install "bin/rp-osx"

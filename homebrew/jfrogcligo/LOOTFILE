@@ -1,0 +1,20 @@
+# jfrog-cli-go.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jfrog-cli-go.rb
+# Converted on 02-01-2019
+
+name='jfrogcligo'
+url=('https://github.com/jfrog/jfrog-cli-go/archive/1.23.1.tar.gz')
+description='Command-line interface for Jfrog Artifactory and Bintray'
+version='1.23.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/jfrog/jfrog-cli-go'
+makedepends=('go')
+
+###### Install ######
+# ENV["GO111MODULE"] = "on"
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/jfrog/jfrog-cli-go").install Dir["*"]
+# cd "src/github.com/jfrog/jfrog-cli-go" do
+# system "go", "build", "-o", bin/"jfrog", "jfrog-cli/jfrog/main.go"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,15 @@
+# c-blosc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/c-blosc.rb
+# Converted on 02-01-2019
+
+name='cblosc'
+url=('https://github.com/Blosc/c-blosc/archive/v1.15.0.tar.gz')
+description='Blocking, shuffling and loss-less compression library'
+version='1.15.0' # Guessed version.
+priority='optional'
+homepage='http://blosc.org/'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

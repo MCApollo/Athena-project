@@ -1,0 +1,26 @@
+# gnu-chess.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-chess.rb
+# Converted on 02-01-2019
+
+name='gnuchess'
+url=('https://ftp.gnu.org/gnu/chess/gnuchess-6.2.5.tar.gz')
+description='GNU Chess'
+version='6.2.5' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/chess/'
+depends=('readline')
+
+###### Resource ######
+# book: https://ftp.gnu.org/gnu/chess/book_1.02.pgn.gz
+
+###### Install ######
+# if build.head?
+# system "autoreconf", "--install"
+# chmod 0755, "install-sh"
+# end
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# resource("book").stage do
+# doc.install "book_1.02.pgn"
+# end

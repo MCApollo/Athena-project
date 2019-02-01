@@ -1,0 +1,20 @@
+# dwatch.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dwatch.rb
+# Converted on 02-01-2019
+
+name='dwatch'
+url=('http://siag.nu/pub/dwatch/dwatch-0.1.1.tar.gz')
+description='Watch programs and perform actions based on a configuration file'
+version='0.1.1' # Guessed version.
+priority='optional'
+homepage='http://siag.nu/dwatch/'
+
+###### Install ######
+# bin.mkpath
+# man1.mkpath
+# system "make", "install",
+# "CC=#{ENV.cc}",
+# "PREFIX=#{prefix}",
+# "MANDIR=#{man}",
+# "ETCDIR=#{etc}"
+# etc.install "dwatch.conf"

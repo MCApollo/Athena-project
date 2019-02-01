@@ -1,0 +1,15 @@
+# argtable.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/argtable.rb
+# Converted on 02-01-2019
+
+name='argtable'
+url=('https://downloads.sourceforge.net/project/argtable/argtable/argtable-2.13/argtable2-13.tar.gz')
+description='ANSI C library for parsing GNU-style command-line options'
+version=' '
+priority='optional'
+homepage='https://argtable.sourceforge.io'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

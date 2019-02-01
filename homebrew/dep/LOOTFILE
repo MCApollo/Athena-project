@@ -1,0 +1,23 @@
+# dep.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dep.rb
+# Converted on 02-01-2019
+
+name='dep'
+url=('https://github.com/golang/dep.git')
+description='Go dependency management tool'
+version=' '
+priority='optional'
+homepage='https://github.com/golang/dep'
+depends=('go')
+makedepends=('')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/golang/dep").install buildpath.children
+# cd "src/github.com/golang/dep" do
+# ENV["DEP_BUILD_PLATFORMS"] = "darwin"
+# ENV["DEP_BUILD_ARCHS"] = "amd64"
+# system "hack/build-all.bash"
+# bin.install "release/dep-darwin-#{arch}" => "dep"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,31 @@
+# nghttp2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nghttp2.rb
+# Converted on 02-01-2019
+
+name='nghttp2'
+url=('https://github.com/nghttp2/nghttp2/releases/download/v1.35.1/nghttp2-1.35.1.tar.xz')
+description='HTTP/2 C Library'
+version='1.35.1' # Guessed version.
+priority='optional'
+homepage='https://nghttp2.org/'
+depends=('c-ares' 'jansson' 'jemalloc' 'libev' 'libevent' 'openssl')
+makedepends=('cunit' 'pkg-config' 'sphinx-doc')
+
+###### Resource ######
+# Cython: https://files.pythonhosted.org/packages/f0/f8/7f406aac4c6919d5a4ce16509bbe059cd256e9ad94bae5ccac14094b7c51/Cython-0.29.1.tar.gz
+
+###### Install ######
+# ENV.cxx11
+# args = %W[
+# --prefix=#{prefix}
+# --disable-silent-rules
+# --enable-app
+# --disable-python-bindings
+# --with-xml-prefix=/usr
+# ]
+# args << "--disable-threads" if MacOS.version < :el_capitan
+# system "autoreconf", "-ivf" if build.head?
+# system "./configure", *args
+# system "make"
+# system "make", "check"
+# system "make", "install"

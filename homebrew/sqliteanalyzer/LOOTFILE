@@ -1,0 +1,18 @@
+# sqlite-analyzer.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sqlite-analyzer.rb
+# Converted on 02-01-2019
+
+name='sqliteanalyzer'
+url=('https://sqlite.org/2018/sqlite-src-3260000.zip')
+description='Analyze how space is allocated inside an SQLite file'
+version=' '
+priority='optional'
+homepage='https://www.sqlite.org/'
+
+###### Install ######
+# sdkprefix = MacOS.sdk_path_if_needed ? MacOS.sdk_path : ""
+# system "./configure", "--disable-debug",
+# "--with-tcl=#{sdkprefix}/System/Library/Frameworks/Tcl.framework/",
+# "--prefix=#{prefix}"
+# system "make", "sqlite3_analyzer"
+# bin.install "sqlite3_analyzer"

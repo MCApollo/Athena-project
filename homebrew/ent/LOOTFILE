@@ -1,0 +1,15 @@
+# ent.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ent.rb
+# Converted on 02-01-2019
+
+name='ent'
+url=('https://github.com/psm14/ent/archive/1.0.tar.gz')
+description='Pseudorandom number sequence test program'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://www.fourmilab.ch/random/'
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}", "CFLAGS=#{ENV.cflags}"
+# bin.install "ent"
+# prefix.install "entest.mas", "entitle.gif"

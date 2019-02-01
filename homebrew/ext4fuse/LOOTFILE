@@ -1,0 +1,16 @@
+# ext4fuse.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ext4fuse.rb
+# Converted on 02-01-2019
+
+name='ext4fuse'
+url=('https://github.com/gerard/ext4fuse/archive/v0.1.3.tar.gz')
+description='Read-only implementation of ext4 for FUSE'
+version='0.1.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/gerard/ext4fuse'
+depends=(':osxfuse')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "make"
+# bin.install "ext4fuse"

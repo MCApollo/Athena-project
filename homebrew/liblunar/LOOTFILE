@@ -1,0 +1,17 @@
+# liblunar.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/liblunar.rb
+# Converted on 02-01-2019
+
+name='liblunar'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/liblunar/liblunar-2.2.5.tar.gz')
+description='Lunar date calendar'
+version='2.2.5' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/liblunar/'
+depends=('gettext' 'glib')
+makedepends=('intltool' 'pkg-config')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

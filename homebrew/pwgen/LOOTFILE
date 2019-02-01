@@ -1,0 +1,16 @@
+# pwgen.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pwgen.rb
+# Converted on 02-01-2019
+
+name='pwgen'
+url=('https://downloads.sourceforge.net/project/pwgen/pwgen/2.08/pwgen-2.08.tar.gz')
+description='Password generator'
+version='2.08' # Guessed version.
+priority='optional'
+homepage='https://pwgen.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

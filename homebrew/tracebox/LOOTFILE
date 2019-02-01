@@ -1,0 +1,22 @@
+# tracebox.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tracebox.rb
+# Converted on 02-01-2019
+
+name='tracebox'
+url=('https://github.com/tracebox/tracebox.git')
+description='Middlebox detection tool'
+version=' '
+priority='optional'
+homepage='https://www.tracebox.org/'
+depends=('json-c' 'lua')
+makedepends=('autoconf' 'automake' 'libtool')
+
+###### Install ######
+# ENV.libcxx
+# system "autoreconf", "--install"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

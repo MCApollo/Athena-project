@@ -1,0 +1,19 @@
+# esptool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/esptool.rb
+# Converted on 02-01-2019
+
+name='esptool'
+url=('https://github.com/espressif/esptool/archive/v2.5.1.tar.gz')
+description='ESP8266 and ESP32 serial bootloader utility'
+version='2.5.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/espressif/esptool'
+depends=('python')
+
+###### Resource ######
+# ecdsa: https://files.pythonhosted.org/packages/f9/e5/99ebb176e47f150ac115ffeda5fedb6a3dbb3c00c74a59fd84ddf12f5857/ecdsa-0.13.tar.gz
+# pyaes: https://files.pythonhosted.org/packages/44/66/2c17bae31c906613795711fc78045c285048168919ace2220daa372c7d72/pyaes-1.6.1.tar.gz
+# pyserial: https://files.pythonhosted.org/packages/cc/74/11b04703ec416717b247d789103277269d567db575d2fd88f25d9767fe3d/pyserial-3.4.tar.gz
+
+###### Install ######
+# virtualenv_install_with_resources

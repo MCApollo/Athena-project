@@ -1,0 +1,36 @@
+# arx-libertatis.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/arx-libertatis.rb
+# Converted on 02-01-2019
+
+name='arxlibertatis'
+url=('https://arx-libertatis.org/files/arx-libertatis-1.1.2.tar.xz')
+description='Cross-platform, open source port of Arx Fatalis'
+version='1.1.2' # Guessed version.
+priority='optional'
+homepage='https://arx-libertatis.org/'
+depends=('freetype' 'glew' 'innoextract' 'sdl')
+makedepends=('boost' 'cmake' 'glm')
+makedepends=('boost' 'cmake' 'glm')
+# Patches
+url+=('https://github.com/arx/ArxLibertatis/commit/442ba4af978160abd3856a9daec38f5b6e213cb4.patch?full_index=1')
+
+###### Install ######
+# args = std_cmake_args
+# if build.stable?
+# inreplace "src/platform/Time.cpp", "clock_t ", "clockid_t "
+# inreplace "src/core/Version.cpp.in" do |s|
+# s.gsub! "${VERSION_COUNT}", "5"
+# s.gsub! "${VERSION_2}", "10"
+# s.gsub! "${VERSION_0}", "1.1.2"
+# s.gsub! "${GIT_SUFFIX_5}", "+Homebrew-1"
+# s.gsub! "${VERSION_4}", "Rhaa Movis"
+# end
+# end
+# if build.head?
+# (buildpath/"arx-libertatis-data").install resource("arx-libertatis-data")
+# args << "-DDATA_FILES=#{buildpath}/arx-libertatis-data"
+# end
+# mkdir "build" do
+# system "cmake", "..", *args
+# system "make", "install"
+# end

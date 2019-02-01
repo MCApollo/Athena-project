@@ -1,0 +1,16 @@
+# dark-mode.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dark-mode.rb
+# Converted on 02-01-2019
+
+name='darkmode'
+url=('https://github.com/sindresorhus/dark-mode/archive/2.0.1.tar.gz')
+description='Control the macOS dark mode from the command-line'
+version='2.0.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/sindresorhus/dark-mode'
+depends=(':macos')
+makedepends=(':xcode')
+
+###### Install ######
+# system "./build"
+# bin.install "bin/dark-mode"

@@ -1,0 +1,25 @@
+# libvpx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libvpx.rb
+# Converted on 02-01-2019
+
+name='libvpx'
+url=('https://github.com/webmproject/libvpx/archive/v1.7.0.tar.gz')
+description='VP8/VP9 video codec'
+version='1.7.0' # Guessed version.
+priority='optional'
+homepage='https://www.webmproject.org/code/'
+makedepends=('yasm')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-dependency-tracking
+# --disable-examples
+# --disable-unit-tests
+# --enable-pic
+# ]
+# args << "--disable-avx512" if MacOS.version <= :el_capitan
+# mkdir "macbuild" do
+# system "../configure", *args
+# system "make", "install"
+# end

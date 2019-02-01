@@ -1,0 +1,18 @@
+# hadolint.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hadolint.rb
+# Converted on 02-01-2019
+
+name='hadolint'
+url=('https://github.com/hadolint/hadolint/archive/v1.15.0.tar.gz')
+description='Smarter Dockerfile linter to validate best practices'
+version='1.15.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/hadolint/hadolint'
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# cabal_sandbox do
+# cabal_install "hpack"
+# system "./.cabal-sandbox/bin/hpack"
+# end
+# install_cabal_package

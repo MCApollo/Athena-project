@@ -1,0 +1,30 @@
+# gtk-doc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtk-doc.rb
+# Converted on 02-01-2019
+
+name='gtkdoc'
+url=('https://download.gnome.org/sources/gtk-doc/1.28/gtk-doc-1.28.tar.xz')
+description='GTK+ documentation tool'
+version='1.28' # Guessed version.
+priority='optional'
+homepage='https://www.gtk.org/gtk-doc/'
+depends=('docbook' 'docbook-xsl' 'gettext' 'libxml2' 'python' 'source-highlight')
+makedepends=('itstool' 'pkg-config')
+
+###### Resource ######
+# six: https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz
+
+###### Install ######
+# xy = Language::Python.major_minor_version "python3"
+# ENV.prepend_create_path "PYTHONPATH", libexec/"vendor/lib/python#{xy}/site-packages"
+# resource("six").stage do
+# system "python3", *Language::Python.setup_install_args(libexec/"vendor")
+# end
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-highlight=source-highlight",
+# "--with-xml-catalog=#{etc}/xml/catalog"
+# system "make"
+# system "make", "install"
+# bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])

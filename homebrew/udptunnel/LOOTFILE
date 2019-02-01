@@ -1,0 +1,19 @@
+# udptunnel.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/udptunnel.rb
+# Converted on 02-01-2019
+
+name='udptunnel'
+url=('https://web.archive.org/web/20161224191851/www.cs.columbia.edu/~lennox/udptunnel/udptunnel-1.1.tar.gz')
+description='Tunnel UDP packets over a TCP connection'
+version='1.1' # Guessed version.
+priority='optional'
+homepage='https://web.archive.org/web/20161224191851/www.cs.columbia.edu/~lennox/udptunnel/'
+makedepends=('autoconf' 'automake')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# doc.install "udptunnel.html"

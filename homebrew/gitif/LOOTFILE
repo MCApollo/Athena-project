@@ -1,0 +1,20 @@
+# git-if.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-if.rb
+# Converted on 02-01-2019
+
+name='gitif'
+url=('https://ifarchive.org/if-archive/programming/glulx/interpreters/git/git-135.zip')
+description='Glulx interpreter that is optimized for speed'
+version=' '
+priority='optional'
+homepage='https://ifarchive.org/indexes/if-archiveXprogrammingXglulxXinterpretersXgit.html'
+makedepends=('glktermw')
+
+###### Install ######
+# glk = Formula["glktermw"]
+# inreplace "Makefile", "GLK = cheapglk", "GLK = #{glk.name}"
+# inreplace "Makefile", "GLKINCLUDEDIR = ../$(GLK)", "GLKINCLUDEDIR = #{glk.include}"
+# inreplace "Makefile", "GLKLIBDIR = ../$(GLK)", "GLKLIBDIR = #{glk.lib}"
+# inreplace "Makefile", /^OPTIONS = /, "OPTIONS = -DUSE_MMAP -DUSE_INLINE"
+# system "make"
+# bin.install "git" => "git-if"

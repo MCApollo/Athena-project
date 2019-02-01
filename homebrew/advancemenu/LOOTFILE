@@ -1,0 +1,16 @@
+# advancemenu.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/advancemenu.rb
+# Converted on 02-01-2019
+
+name='advancemenu'
+url=('https://github.com/amadvance/advancemame/releases/download/advancemenu-2.9/advancemenu-2.9.tar.gz')
+description='Frontend for AdvanceMAME/MESS'
+version='2.9' # Guessed version.
+priority='optional'
+homepage='https://www.advancemame.it/menu-readme.html'
+depends=('sdl')
+makedepends=('')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install", "LDFLAGS=#{ENV.ldflags}", "mandir=#{man}"

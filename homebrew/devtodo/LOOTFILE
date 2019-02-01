@@ -1,0 +1,26 @@
+# devtodo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/devtodo.rb
+# Converted on 02-01-2019
+
+name='devtodo'
+url=('https://swapoff.org/files/devtodo/devtodo-0.1.20.tar.gz')
+description='Command-line task lists'
+version='0.1.20' # Guessed version.
+priority='optional'
+homepage='https://swapoff.org/devtodo.html'
+depends=('readline')
+makedepends=('')
+
+# A diff file was written to devtodo.diff
+# --> Patch the file before building.
+
+###### Install ######
+# mv "util/Regex.h", "util/Regex.hh"
+# inreplace ["util/Lexer.h", "util/Makefile.in", "util/Regex.cc"],
+# "Regex.h", "Regex.hh"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"
+# doc.install "contrib"

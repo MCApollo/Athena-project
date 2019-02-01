@@ -1,0 +1,15 @@
+# sipp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sipp.rb
+# Converted on 02-01-2019
+
+name='sipp'
+url=('https://github.com/SIPp/sipp/releases/download/v3.5.2/sipp-3.5.2.tar.gz')
+description='Traffic generator for the SIP protocol'
+version='3.5.2' # Guessed version.
+priority='optional'
+homepage='https://sipp.sourceforge.io/'
+
+###### Install ######
+# system "./configure", "--with-pcap"
+# system "make", "DESTDIR=#{prefix}"
+# bin.install "sipp"

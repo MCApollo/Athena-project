@@ -1,0 +1,20 @@
+# libfreefare.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libfreefare.rb
+# Converted on 02-01-2019
+
+name='libfreefare'
+url=('https://github.com/nfc-tools/libfreefare/releases/download/libfreefare-0.4.0/libfreefare-0.4.0.tar.bz2')
+description='API for MIFARE card manipulations'
+version='0.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/nfc-tools/libfreefare'
+depends=('libnfc' 'openssl')
+makedepends=('pkg-config')
+# Patches
+url+=('https://github.com/nfc-tools/libfreefare/commit/358df775.diff?full_index=1')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"

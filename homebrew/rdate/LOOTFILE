@@ -1,0 +1,17 @@
+# rdate.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rdate.rb
+# Converted on 02-01-2019
+
+name='rdate'
+url=('https://www.aelius.com/njh/rdate/rdate-1.5.tar.gz')
+description='Set the system'\''s date from a remote host'
+version='1.5' # Guessed version.
+priority='optional'
+homepage='https://www.aelius.com/njh/rdate/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}"
+# system "make", "install"

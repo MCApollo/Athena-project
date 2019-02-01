@@ -1,0 +1,14 @@
+# rest-shell.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rest-shell.rb
+# Converted on 02-01-2019
+
+name='restshell'
+url=('http://download.gopivotal.com/rest-shell/1.2.1/rest-shell-1.2.1.RELEASE.tar.gz')
+description='Shell to work with Spring HATEOAS-compliant REST resources'
+version='1.2.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/spring-projects/rest-shell'
+
+###### Install ######
+# libexec.install Dir["*"]
+# bin.write_exec_script libexec/"bin/rest-shell"

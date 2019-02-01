@@ -1,0 +1,15 @@
+# aescrypt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aescrypt.rb
+# Converted on 02-01-2019
+
+name='aescrypt'
+url=('https://aescrypt.sourceforge.io/aescrypt-0.7.tar.gz')
+description='Program for encryption/decryption'
+version='0.7' # Guessed version.
+priority='optional'
+homepage='https://aescrypt.sourceforge.io/'
+
+###### Install ######
+# system "./configure"
+# system "make"
+# bin.install "aescrypt", "aesget"

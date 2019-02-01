@@ -1,0 +1,16 @@
+# scrypt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scrypt.rb
+# Converted on 02-01-2019
+
+name='scrypt'
+url=('https://www.tarsnap.com/scrypt/scrypt-1.2.1.tgz')
+description='Encrypt and decrypt files using memory-hard password function'
+version='1.2.1' # Guessed version.
+priority='optional'
+homepage='https://www.tarsnap.com/scrypt.html'
+depends=('openssl')
+
+###### Install ######
+# system "autoreconf", "-fvi" if build.head?
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

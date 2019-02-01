@@ -1,0 +1,17 @@
+# tokyo-dystopia.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tokyo-dystopia.rb
+# Converted on 02-01-2019
+
+name='tokyodystopia'
+url=('https://fallabs.com/tokyodystopia/tokyodystopia-0.9.15.tar.gz')
+description='Lightweight full-text search system'
+version='0.9.15' # Guessed version.
+priority='optional'
+homepage='https://fallabs.com/tokyodystopia/'
+depends=('tokyo-cabinet')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "check"
+# system "make", "install"

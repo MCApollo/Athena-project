@@ -1,0 +1,17 @@
+# sfst.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sfst.rb
+# Converted on 02-01-2019
+
+name='sfst'
+url=('http://www.cis.uni-muenchen.de/~schmid/tools/SFST/data/SFST-1.4.7d.tar.gz')
+description='Toolbox for morphological analysers and other FST-based tools'
+version='1.4.7' # Guessed version.
+priority='optional'
+homepage='http://www.cis.uni-muenchen.de/~schmid/tools/SFST/'
+
+###### Install ######
+# cd "src" do
+# system "make"
+# system "make", "DESTDIR=#{prefix}/", "install"
+# system "make", "DESTDIR=#{share}/", "maninstall"
+# end

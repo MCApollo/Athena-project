@@ -1,0 +1,14 @@
+# repo.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/repo.rb
+# Converted on 02-01-2019
+
+name='repo'
+url=('https://gerrit.googlesource.com/git-repo.git')
+description='Repository tool for Android development'
+version=' '
+priority='optional'
+homepage='https://source.android.com/source/developing.html'
+
+###### Install ######
+# bin.install "repo"
+# doc.install (buildpath/"docs").children

@@ -1,0 +1,14 @@
+# mp3val.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mp3val.rb
+# Converted on 02-01-2019
+
+name='mp3val'
+url=('https://downloads.sourceforge.net/mp3val/mp3val-0.1.8-src.tar.gz')
+description='Program for MPEG audio stream validation'
+version='0.1.8' # Guessed version.
+priority='optional'
+homepage='https://mp3val.sourceforge.io/'
+
+###### Install ######
+# system "gnumake", "-f", "Makefile.gcc"
+# bin.install "mp3val.exe" => "mp3val"

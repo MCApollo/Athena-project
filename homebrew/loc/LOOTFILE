@@ -1,0 +1,14 @@
+# loc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/loc.rb
+# Converted on 02-01-2019
+
+name='loc'
+url=('https://github.com/cgag/loc/archive/v0.4.1.tar.gz')
+description='Count lines of code quickly'
+version='0.4.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/cgag/loc'
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

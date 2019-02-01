@@ -1,0 +1,20 @@
+# teleconsole.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/teleconsole.rb
+# Converted on 02-01-2019
+
+name='teleconsole'
+url=('https://github.com/gravitational/teleconsole/archive/0.3.1.tar.gz')
+description='Free service to share your terminal session with people you trust'
+version='0.3.1' # Guessed version.
+priority='optional'
+homepage='https://www.teleconsole.com'
+makedepends=('go')
+# Patches
+url+=('https://github.com/gravitational/teleconsole/pull/8.patch?full_index=1')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# mkdir_p buildpath/"src/github.com/gravitational"
+# ln_s buildpath, buildpath/"src/github.com/gravitational/teleconsole"
+# Language::Go.stage_deps resources, buildpath/"src"
+# system "make", "OUT=#{bin}/teleconsole"

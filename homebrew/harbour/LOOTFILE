@@ -1,0 +1,23 @@
+# harbour.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/harbour.rb
+# Converted on 02-01-2019
+
+name='harbour'
+url=('')
+description='Portable, xBase-compatible programming language and environment'
+version=' '
+priority='optional'
+homepage='https://harbour.github.io'
+depends=('pcre')
+
+# A diff file was written to harbour.diff
+# --> Patch the file before building.
+
+###### Install ######
+# ENV["HB_INSTALL_PREFIX"] = prefix
+# ENV["HB_WITH_X11"] = "no"
+# ENV.deparallelize
+# system "make", "install"
+# rm Dir[bin/"hbmk2.*.hbl"]
+# rm bin/"contrib.hbr" if build.head?
+# rm bin/"harbour.ucf" if build.head?

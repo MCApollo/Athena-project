@@ -1,0 +1,15 @@
+# oclgrind.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/oclgrind.rb
+# Converted on 02-01-2019
+
+name='oclgrind'
+url=('https://github.com/jrprice/Oclgrind/archive/v18.3.tar.gz')
+description='OpenCL device simulator and debugger'
+version='18.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/jrprice/Oclgrind'
+makedepends=('cmake' 'llvm')
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"

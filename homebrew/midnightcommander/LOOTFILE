@@ -1,0 +1,27 @@
+# midnight-commander.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/midnight-commander.rb
+# Converted on 02-01-2019
+
+name='midnightcommander'
+url=('https://www.midnight-commander.org/downloads/mc-4.8.22.tar.xz')
+description='Terminal-based visual file manager'
+version='4.8.22' # Guessed version.
+priority='optional'
+homepage='https://www.midnight-commander.org/'
+depends=('glib' 'libssh2' 'openssl' 's-lang')
+makedepends=('pkg-config')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --prefix=#{prefix}
+# --without-x
+# --with-screen=slang
+# --enable-vfs-sftp
+# ]
+# ENV["ac_cv_func_utimensat"] = "no" if MacOS.version >= :high_sierra
+# system "./configure", *args
+# system "make", "install"

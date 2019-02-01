@@ -1,0 +1,14 @@
+# afl-fuzz.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/afl-fuzz.rb
+# Converted on 02-01-2019
+
+name='aflfuzz'
+url=('http://lcamtuf.coredump.cx/afl/releases/afl-2.52b.tgz')
+description='American fuzzy lop: Security-oriented fuzzer'
+version='2.52' # Guessed version.
+priority='optional'
+homepage='http://lcamtuf.coredump.cx/afl/'
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}"
+# system "make", "install", "PREFIX=#{prefix}"

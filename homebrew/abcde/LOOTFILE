@@ -1,0 +1,14 @@
+# abcde.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/abcde.rb
+# Converted on 02-01-2019
+
+name='abcde'
+url=('https://abcde.einval.com/download/abcde-2.9.2.tar.gz')
+description='Better CD Encoder'
+version='2.9.2' # Guessed version.
+priority='optional'
+homepage='https://abcde.einval.com'
+depends=('cd-discid' 'cdrtools' 'flac' 'glyr' 'id3v2' 'lame' 'mkcue' 'vorbis-tools')
+
+###### Install ######
+# system "make", "install", "prefix=#{prefix}", "sysconfdir=#{etc}"

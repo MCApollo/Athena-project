@@ -1,0 +1,13 @@
+# dropbox-uploader.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dropbox-uploader.rb
+# Converted on 02-01-2019
+
+name='dropboxuploader'
+url=('https://github.com/andreafabrizi/Dropbox-Uploader/archive/1.0.tar.gz')
+description='Bash script for interacting with Dropbox'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://www.andreafabrizi.it/2016/01/01/Dropbox-Uploader/'
+
+###### Install ######
+# bin.install "dropbox_uploader.sh", "dropShell.sh"

@@ -1,0 +1,15 @@
+# typescript.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/typescript.rb
+# Converted on 02-01-2019
+
+name='typescript'
+url=('https://registry.npmjs.org/typescript/-/typescript-3.2.4.tgz')
+description='Language for application scale JavaScript development'
+version='3.2.4' # Guessed version.
+priority='optional'
+homepage='https://www.typescriptlang.org/'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

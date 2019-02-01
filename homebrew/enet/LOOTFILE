@@ -1,0 +1,14 @@
+# enet.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/enet.rb
+# Converted on 02-01-2019
+
+name='enet'
+url=('http://enet.bespin.org/download/enet-1.3.14.tar.gz')
+description='Provides a network communication layer on top of UDP'
+version='1.3.14' # Guessed version.
+priority='optional'
+homepage='http://enet.bespin.org'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

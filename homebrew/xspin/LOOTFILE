@@ -1,0 +1,18 @@
+# xspin.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xspin.rb
+# Converted on 02-01-2019
+
+name='xspin'
+url=('https://spinroot.com/spin/Src/xspin525.tcl')
+description='Software verification tool (developed at Bell Labs)'
+version=' '
+priority='optional'
+homepage='https://spinroot.com/spin/Src/index.html'
+depends=('spin')
+
+# A diff file was written to xspin.diff
+# --> Patch the file before building.
+
+###### Install ######
+# inreplace "xspin525.tcl", "CELLAR", prefix
+# bin.install "xspin525.tcl" => "xspin"

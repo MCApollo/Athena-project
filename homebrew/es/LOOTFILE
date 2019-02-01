@@ -1,0 +1,17 @@
+# es.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/es.rb
+# Converted on 02-01-2019
+
+name='es'
+url=('https://github.com/wryun/es-shell/releases/download/v0.9.1/es-0.9.1.tar.gz')
+description='Extensible shell with first class functions, lexical scoping, and more'
+version='0.9.1' # Guessed version.
+priority='optional'
+homepage='https://wryun.github.io/es-shell/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--with-editline"
+# system "make"
+# bin.install "es"
+# doc.install %w[CHANGES README trip.es examples]
+# man1.install "doc/es.1"

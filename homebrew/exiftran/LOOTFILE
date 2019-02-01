@@ -1,0 +1,18 @@
+# exiftran.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/exiftran.rb
+# Converted on 02-01-2019
+
+name='exiftran'
+url=('https://www.kraxel.org/releases/fbida/fbida-2.14.tar.gz')
+description='Transform digital camera jpegs and their EXIF data'
+version='2.14' # Guessed version.
+priority='optional'
+homepage='https://www.kraxel.org/blog/linux/fbida/'
+depends=('jpeg' 'libexif' 'pixman')
+makedepends=('pkg-config')
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/185c281/exiftran/fix-build.diff')
+
+###### Install ######
+# system "make"
+# system "make", "prefix=#{prefix}", "install"

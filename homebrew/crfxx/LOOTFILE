@@ -1,0 +1,14 @@
+# crf++.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/crf++.rb
+# Converted on 02-01-2019
+
+name='crfxx'
+url=('https://ftp.heanet.ie/mirrors/gentoo.org/distfiles/CRF++-0.58.tar.gz')
+description='Conditional random fields for segmenting/labeling sequential data'
+version='0.58' # Guessed version.
+priority='optional'
+homepage='https://taku910.github.io/crfpp/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "CXXFLAGS=#{ENV.cflags}", "install"

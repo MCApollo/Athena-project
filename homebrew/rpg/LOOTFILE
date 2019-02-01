@@ -1,0 +1,15 @@
+# rpg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rpg.rb
+# Converted on 02-01-2019
+
+name='rpg'
+url=('https://github.com/downloads/rtomayko/rpg/rpg-0.3.0.tar.gz')
+description='Ruby package management for UNIX'
+version='0.3.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/rtomayko/rpg'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

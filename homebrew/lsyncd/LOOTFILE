@@ -1,0 +1,22 @@
+# lsyncd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lsyncd.rb
+# Converted on 02-01-2019
+
+name='lsyncd'
+url=('https://github.com/axkibe/lsyncd/archive/release-2.2.3.tar.gz')
+description='Synchronize local directories with remote targets'
+version='2.2.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/axkibe/lsyncd'
+depends=('lua')
+makedepends=('cmake')
+
+###### Resource ######
+# xnu: https://opensource.apple.com/tarballs/xnu/#{tarball}
+
+###### Install ######
+# inreplace "CMakeLists.txt", "DESTINATION man", "DESTINATION share/man/man1"
+# resource("xnu").stage buildpath/"xnu"
+# system "cmake", ".", "-DWITH_INOTIFY=OFF", "-DWITH_FSEVENTS=ON",
+# "-DXNU_DIR=#{buildpath}/xnu", *std_cmake_args
+# system "make", "install"

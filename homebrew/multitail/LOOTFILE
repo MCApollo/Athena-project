@@ -1,0 +1,16 @@
+# multitail.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/multitail.rb
+# Converted on 02-01-2019
+
+name='multitail'
+url=('https://vanheusden.com/multitail/multitail-6.4.2.tgz')
+description='Tail multiple files in one terminal simultaneously'
+version='6.4.2' # Guessed version.
+priority='optional'
+homepage='https://vanheusden.com/multitail/'
+
+###### Install ######
+# system "make", "-f", "makefile.macosx", "multitail", "DESTDIR=#{HOMEBREW_PREFIX}"
+# bin.install "multitail"
+# man1.install gzip("multitail.1")
+# etc.install "multitail.conf"

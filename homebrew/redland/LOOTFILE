@@ -1,0 +1,24 @@
+# redland.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/redland.rb
+# Converted on 02-01-2019
+
+name='redland'
+url=('http://download.librdf.org/source/redland-1.0.17.tar.gz')
+description='RDF Library'
+version='1.0.17' # Guessed version.
+priority='optional'
+homepage='http://librdf.org/'
+depends=('raptor' 'rasqal' 'sqlite' 'unixodbc')
+makedepends=('pkg-config')
+
+###### Resource ######
+# bindings: http://download.librdf.org/source/redland-bindings-1.0.17.1.tar.gz
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--with-bdb=no",
+# "--with-mysql=no",
+# "--with-sqlite=yes"
+# system "make", "install"

@@ -1,0 +1,21 @@
+# caddy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/caddy.rb
+# Converted on 02-01-2019
+
+name='caddy'
+url=('https://github.com/mholt/caddy/archive/v0.11.2.tar.gz')
+description='Alternative general-purpose HTTP/2 web server'
+version='0.11.2' # Guessed version.
+priority='optional'
+homepage='https://caddyserver.com/'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["GOOS"] = "darwin"
+# ENV["GOARCH"] = "amd64"
+# (buildpath/"src/github.com/mholt").mkpath
+# ln_s buildpath, "src/github.com/mholt/caddy"
+# system "go", "build", "-ldflags",
+# "-X github.com/mholt/caddy/caddy/caddymain.gitTag=#{version}",
+# "-o", bin/"caddy", "github.com/mholt/caddy/caddy"

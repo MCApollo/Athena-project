@@ -1,0 +1,27 @@
+# zxing-cpp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zxing-cpp.rb
+# Converted on 02-01-2019
+
+name='zxingcpp'
+url=('https://github.com/zxing/zxing/releases/download/zxing-2.3.0/ZXing-2.3.0.zip')
+description='C++ port of the ZXing barcode decoder'
+version='2.3.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/zxing/zxing'
+makedepends=('cmake')
+
+###### Install ######
+# cd "cpp" if build.stable?
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make"
+# if build.stable?
+# lib.install "libzxing.a"
+# bin.install "zxing"
+# cd "../core/src/"
+# Dir.glob "./zxing/**/*.h" do |header|
+# (include/File.dirname(header)).install header
+# end
+# end
+# system "make", "install" if build.head?
+# end

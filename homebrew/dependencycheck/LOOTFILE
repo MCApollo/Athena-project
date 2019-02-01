@@ -1,0 +1,25 @@
+# dependency-check.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dependency-check.rb
+# Converted on 02-01-2019
+
+name='dependencycheck'
+url=('https://dl.bintray.com/jeremy-long/owasp/dependency-check-4.0.2-release.zip')
+description='OWASP dependency-check'
+version='4.0.2' # Guessed version.
+priority='optional'
+homepage='https://www.owasp.org/index.php/OWASP_Dependency_Check'
+depends=(':java')
+
+###### Install ######
+# rm_f Dir["bin/*.bat"]
+# chmod 0755, "bin/dependency-check.sh"
+# libexec.install Dir["*"]
+# mv libexec/"bin/dependency-check.sh", libexec/"bin/dependency-check"
+# bin.install_symlink libexec/"bin/dependency-check"
+# (var/"dependencycheck").mkpath
+# libexec.install_symlink var/"dependencycheck" => "data"
+# (etc/"dependencycheck").mkpath
+# jar = "dependency-check-core-#{version}.jar"
+# corejar = libexec/"repo/org/owasp/dependency-check-core/#{version}/#{jar}"
+# system "unzip", "-o", corejar, "dependencycheck.properties", "-d", libexec/"etc"
+# (etc/"dependencycheck").install_symlink libexec/"etc/dependencycheck.properties"

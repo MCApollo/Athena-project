@@ -1,0 +1,25 @@
+# cwlogs.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cwlogs.rb
+# Converted on 02-01-2019
+
+name='cwlogs'
+url=('https://github.com/segmentio/cwlogs/archive/v1.2.0.tar.gz')
+description='CLI tool for reading logs from Cloudwatch Logs'
+version='1.2.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/segmentio/cwlogs'
+makedepends=('go' 'govendor')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["GOOS"] = "darwin"
+# ENV["GOARCH"] = "amd64"
+# ENV["CGO_ENABLED"] = "0"
+# path = buildpath/"src/github.com/segmentio/cwlogs"
+# path.install Dir["{*,.git}"]
+# cd "src/github.com/segmentio/cwlogs" do
+# system "govendor", "sync"
+# system "go", "build", "-o", bin/"cwlogs",
+# "-ldflags", "-X main.Version=#{version}"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,18 @@
+# rofs-filtered.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rofs-filtered.rb
+# Converted on 02-01-2019
+
+name='rofsfiltered'
+url=('https://github.com/gburca/rofs-filtered/archive/rel-1.7.tar.gz')
+description='Filtered read-only filesystem for FUSE'
+version='1.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/gburca/rofs-filtered/'
+depends=(':macos' ':osxfuse')
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", "-DCMAKE_INSTALL_SYSCONFDIR=#{etc}", *std_cmake_args
+# system "make", "install"
+# end

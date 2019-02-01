@@ -1,0 +1,22 @@
+# sdhash.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdhash.rb
+# Converted on 02-01-2019
+
+name='sdhash'
+url=('http://roussev.net/sdhash/releases/packages/sdhash-3.1.tar.gz')
+description='Tool for correlating binary blobs of data'
+version='3.1' # Guessed version.
+priority='optional'
+homepage='http://roussev.net/sdhash/sdhash.html'
+depends=('openssl')
+
+###### Install ######
+# inreplace "Makefile" do |s|
+# s.change_make_var! "LDFLAGS",
+# "-L. -L./external/stage/lib -lboost_regex -lboost_system -lboost_filesystem " \
+# "-lboost_program_options -lc -lm -lcrypto -lboost_thread -lpthread"
+# end
+# system "make", "boost"
+# system "make", "stream"
+# bin.install "sdhash"
+# man1.install Dir["man/*.1"]

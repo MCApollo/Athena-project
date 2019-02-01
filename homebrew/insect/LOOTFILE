@@ -1,0 +1,15 @@
+# insect.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/insect.rb
+# Converted on 02-01-2019
+
+name='insect'
+url=('https://registry.npmjs.org/insect/-/insect-5.0.0.tgz')
+description='High precision scientific calculator with support for physical units'
+version='5.0.0' # Guessed version.
+priority='optional'
+homepage='https://insect.sh/'
+depends=('node')
+
+###### Install ######
+# system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+# bin.install_symlink Dir["#{libexec}/bin/*"]

@@ -1,0 +1,12 @@
+# spaceman-diff.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/spaceman-diff.rb
+# Converted on 02-01-2019
+
+name='spacemandiff'
+url=('https://github.com/holman/spaceman-diff/archive/v1.0.3.tar.gz')
+description='Diff images from the command-line'
+version='1.0.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/holman/spaceman-diff'
+
+###### Install ######

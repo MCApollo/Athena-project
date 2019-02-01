@@ -1,0 +1,18 @@
+# libunistring.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/libunistring.rb
+# Converted on 02-01-2019
+
+name='libunistring'
+url=('https://ftp.gnu.org/gnu/libunistring/libunistring-0.9.10.tar.xz')
+description='C string library for manipulating Unicode strings'
+version='0.9.10' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/libunistring/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make"
+# system "make", "check"
+# system "make", "install"

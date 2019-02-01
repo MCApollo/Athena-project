@@ -1,0 +1,10 @@
+diff --git a/mat2 b/mat2
+index ff8a253..151cbf6 100755
+--- a/mat2
++++ b/mat2
+@@ -133,7 +133,7 @@ def show_parsers() -> bool:
+continue
+formats.add('  - %s (%s)' % (mtype, ', '.join(extensions)))
+print('\n'.join(sorted(formats)))
+-    return True
++    return 0

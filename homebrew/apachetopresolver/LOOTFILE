@@ -1,0 +1,21 @@
+# apachetop.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/apachetop.rb
+# Converted on 02-01-2019
+
+name='apachetopresolver'
+url=('https://deb.debian.org/debian/pool/main/a/apachetop/apachetop_0.12.6.orig.tar.gz')
+description='Top-like display of Apache log'
+version='0.12.6' # Guessed version.
+priority='optional'
+homepage='https://web.archive.org/web/20170809160553/freecode.com/projects/apachetop'
+
+# A diff file was written to apachetopresolver.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--disable-debug",
+# "--disable-dependency-tracking",
+# "--with-logfile=/var/log/apache2/access_log"
+# system "make", "install"

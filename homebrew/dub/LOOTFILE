@@ -1,0 +1,17 @@
+# dub.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dub.rb
+# Converted on 02-01-2019
+
+name='dub'
+url=('https://github.com/dlang/dub/archive/v1.13.0.tar.gz')
+description='Build tool for D projects'
+version='1.13.0' # Guessed version.
+priority='optional'
+homepage='https://code.dlang.org/getting_started'
+depends=('pkg-config')
+makedepends=('dmd')
+
+###### Install ######
+# ENV["GITVER"] = version.to_s
+# system "./build.sh"
+# bin.install "bin/dub"

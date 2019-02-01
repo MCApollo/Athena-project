@@ -1,0 +1,20 @@
+# xhyve.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/xhyve.rb
+# Converted on 02-01-2019
+
+name='xhyve'
+url=('https://github.com/machyve/xhyve/archive/v0.2.0.tar.gz')
+description='Lightweight macOS virtualization solution based on FreeBSD'\''s bhyve'
+version='0.2.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/machyve/xhyve'
+depends=(':macos')
+
+###### Install ######
+# args = []
+# args << "GIT_VERSION=#{version}" if build.stable?
+# system "make", *args
+# bin.install "build/xhyve"
+# pkgshare.install "test/"
+# pkgshare.install Dir["xhyverun*.sh"]
+# man1.install "xhyve.1" if build.head?

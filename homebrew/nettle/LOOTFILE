@@ -1,0 +1,24 @@
+# nettle.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nettle.rb
+# Converted on 02-01-2019
+
+name='nettle'
+url=('https://ftp.gnu.org/gnu/nettle/nettle-3.4.1.tar.gz')
+description='Low-level cryptographic library'
+version='3.4.1' # Guessed version.
+priority='optional'
+homepage='https://www.lysator.liu.se/~nisse/nettle/'
+depends=('gmp')
+
+###### Install ######
+# inreplace "testsuite/dlopen-test.c", "libnettle.so", "libnettle.dylib"
+# if DevelopmentTools.clang_build_version >= 1000
+# inreplace "testsuite/symbols-test", "get_pc_thunk",
+# "get_pc_thunk|(_*chkstk_darwin)"
+# end
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-shared"
+# system "make"
+# system "make", "install"
+# system "make", "check"

@@ -1,0 +1,26 @@
+# freedink.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/freedink.rb
+# Converted on 02-01-2019
+
+name='freedink'
+url=('https://ftp.gnu.org/gnu/freedink/freedink-108.4.tar.gz')
+description='Portable version of the Dink Smallwood game engine'
+version='108.4' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/freedink/'
+depends=('check' 'fontconfig' 'gettext' 'libzip' 'sdl2_image' 'sdl_gfx' 'sdl_image' 'sdl_mixer' 'sdl_ttf')
+makedepends=('pkg-config')
+
+###### Resource ######
+# freedink-data: https://ftp.gnu.org/gnu/freedink/freedink-data-1.08.20170409.tar.gz
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# resource("freedink-data").stage do
+# inreplace "Makefile", "xargs -0r", "xargs -0"
+# system "make", "install", "PREFIX=#{prefix}"
+# end

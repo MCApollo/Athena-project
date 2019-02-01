@@ -1,0 +1,22 @@
+# json_spirit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/json_spirit.rb
+# Converted on 02-01-2019
+
+name='jsonspirit'
+url=('https://github.com/png85/json_spirit/archive/json_spirit-4.07.tar.gz')
+description='C++ JSON parser/generator'
+version='4.07' # Guessed version.
+priority='optional'
+homepage='https://www.codeproject.com/Articles/20027/JSON-Spirit-A-C-JSON-Parser-Generator-Implemented'
+depends=('boost')
+makedepends=('cmake')
+
+###### Install ######
+# args = std_cmake_args
+# args << "-DBUILD_STATIC_LIBRARIES=ON"
+# system "cmake", *args
+# system "make"
+# args = std_cmake_args
+# args << "-DBUILD_STATIC_LIBRARIES=OFF"
+# system "cmake", *args
+# system "make", "install"

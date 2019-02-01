@@ -1,0 +1,18 @@
+# cryptominisat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cryptominisat.rb
+# Converted on 02-01-2019
+
+name='cryptominisat'
+url=('https://github.com/msoos/cryptominisat/archive/5.6.6.tar.gz')
+description='Advanced SAT solver'
+version='5.6.6' # Guessed version.
+priority='optional'
+homepage='https://www.msoos.org/cryptominisat5/'
+depends=(':arch' 'boost' 'python')
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args, "-DNOM4RI=ON"
+# system "make", "install"
+# end

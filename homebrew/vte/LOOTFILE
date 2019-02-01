@@ -1,0 +1,23 @@
+# vte.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/vte.rb
+# Converted on 02-01-2019
+
+name='vte'
+url=('https://download.gnome.org/sources/vte/0.28/vte-0.28.2.tar.xz')
+description='Terminal emulator widget used by GNOME terminal'
+version='0.28.2' # Guessed version.
+priority='optional'
+homepage='https://developer.gnome.org/vte/'
+depends=('gettext' 'glib' 'gtk+' 'pygobject' 'pygtk' 'python@2')
+makedepends=('intltool' 'pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --disable-Bsymbolic
+# --enable-python
+# ]
+# ENV["PYGTK_CODEGEN"] = Formula["pygobject"].bin/"pygobject-codegen-2.0"
+# system "./configure", *args
+# system "make", "install"

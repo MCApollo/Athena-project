@@ -1,0 +1,33 @@
+# latex2rtf.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/latex2rtf.rb
+# Converted on 02-01-2019
+
+name='latex2rtf'
+url=('https://downloads.sourceforge.net/project/latex2rtf/latex2rtf-unix/2.3.17/latex2rtf-2.3.17.tar.gz')
+description='Translate LaTeX to RTF'
+version='2.3.17' # Guessed version.
+priority='optional'
+homepage='https://latex2rtf.sourceforge.io/'
+
+###### Install ######
+# inreplace "Makefile", "cp -p doc/latex2rtf.html $(DESTDIR)$(SUPPORTDIR)", "cp -p doc/web/* $(DESTDIR)$(SUPPORTDIR)"
+# system "make", "DESTDIR=",
+# "BINDIR=#{bin}",
+# "MANDIR=#{man1}",
+# "INFODIR=#{info}",
+# "SUPPORTDIR=#{pkgshare}",
+# "CFGDIR=#{pkgshare}/cfg",
+# "install"
+# end
+# test do
+# (testpath/"test.tex").write <<~EOS
+# \\documentclass{article}
+# \\title{LaTeX to RTF}
+# \\begin{document}
+# \\maketitle
+# \\end{document}
+# EOS
+# system bin/"latex2rtf", "test.tex"
+# assert_predicate testpath/"test.rtf", :exist?
+# assert_match "LaTeX to RTF", File.read(testpath/"test.rtf")
+# end

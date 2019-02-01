@@ -1,0 +1,16 @@
+# dsh.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dsh.rb
+# Converted on 02-01-2019
+
+name='dsh'
+url=('https://www.netfort.gr.jp/~dancer/software/downloads/dsh-0.25.10.tar.gz')
+description='Dancer'\''s shell, or distributed shell'
+version='0.25.10' # Guessed version.
+priority='optional'
+homepage='https://www.netfort.gr.jp/~dancer/software/dsh.html.en'
+depends=('libdshconfig')
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

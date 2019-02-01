@@ -1,0 +1,18 @@
+# fcgi.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fcgi.rb
+# Converted on 02-01-2019
+
+name='fcgi'
+url=('https://downloads.sourceforge.net/project/slackbuildsdirectlinks/fcgi/fcgi-2.4.0.tar.gz')
+description='Protocol for interfacing interactive programs with a web server'
+version='2.4.0' # Guessed version.
+priority='optional'
+homepage='https://fastcgi-archives.github.io/'
+
+# A diff file was written to fcgi.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "./configure", "--disable-debug", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"

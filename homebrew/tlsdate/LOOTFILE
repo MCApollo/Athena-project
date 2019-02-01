@@ -1,0 +1,19 @@
+# tlsdate.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tlsdate.rb
+# Converted on 02-01-2019
+
+name='tlsdate'
+url=('https://github.com/ioerror/tlsdate/archive/tlsdate-0.0.13.tar.gz')
+description='Secure rdate replacement'
+version='0.0.13' # Guessed version.
+priority='optional'
+homepage='https://www.github.com/ioerror/tlsdate/'
+depends=('openssl')
+makedepends=('autoconf' 'automake' 'libevent' 'libtool' 'pkg-config')
+# Patches
+url+=('https://github.com/ioerror/tlsdate/pull/160.patch?full_index=1')
+
+###### Install ######
+# system "./autogen.sh"
+# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
+# system "make", "install"

@@ -1,0 +1,15 @@
+# hornetq.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hornetq.rb
+# Converted on 02-01-2019
+
+name='hornetq'
+url=('https://downloads.jboss.org/hornetq/hornetq-2.4.0.Final-bin.tar.gz')
+description='Multi-protocol, embeddable, clustered, asynchronous messaging system'
+version='2.4.0' # Guessed version.
+priority='optional'
+homepage='https://hornetq.jboss.org/'
+
+###### Install ######
+# libexec.install Dir["*"]
+# (bin+"hornet-start").write wrapper_script("run.sh")
+# (bin+"hornet-stop").write wrapper_script("stop.sh")

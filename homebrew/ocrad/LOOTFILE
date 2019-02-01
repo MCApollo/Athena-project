@@ -1,0 +1,14 @@
+# ocrad.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ocrad.rb
+# Converted on 02-01-2019
+
+name='ocrad'
+url=('https://ftp.gnu.org/gnu/ocrad/ocrad-0.26.tar.lz')
+description='Optical character recognition (OCR) program'
+version='0.26' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/ocrad/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install", "CXXFLAGS=#{ENV.cxxflags}"

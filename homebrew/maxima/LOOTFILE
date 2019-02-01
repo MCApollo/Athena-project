@@ -1,0 +1,24 @@
+# maxima.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/maxima.rb
+# Converted on 02-01-2019
+
+name='maxima'
+url=('https://downloads.sourceforge.net/project/maxima/Maxima-source/5.41.0-source/maxima-5.41.0.tar.gz')
+description='Computer algebra system'
+version='5.41.0' # Guessed version.
+priority='optional'
+homepage='https://maxima.sourceforge.io/'
+depends=('gettext' 'gnuplot' 'rlwrap')
+makedepends=('sbcl')
+
+###### Install ######
+# ENV["LANG"] = "C"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--enable-gettext",
+# "--enable-sbcl",
+# "--enable-sbcl-exec",
+# "--with-sbcl=#{Formula["sbcl"].opt_bin}/sbcl"
+# system "make"
+# system "make", "install"

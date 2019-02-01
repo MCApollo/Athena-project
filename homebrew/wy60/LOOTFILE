@@ -1,0 +1,14 @@
+# wy60.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/wy60.rb
+# Converted on 02-01-2019
+
+name='wy60'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wy60/wy60-2.0.9.tar.gz')
+description='Wyse 60 compatible terminal emulator'
+version='2.0.9' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/wy60/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make", "install"

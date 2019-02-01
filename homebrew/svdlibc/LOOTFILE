@@ -1,0 +1,16 @@
+# svdlibc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/svdlibc.rb
+# Converted on 02-01-2019
+
+name='svdlibc'
+url=('https://tedlab.mit.edu/~dr/SVDLIBC/svdlibc.tgz')
+description='C library to perform singular value decomposition'
+version=' '
+priority='optional'
+homepage='https://tedlab.mit.edu/~dr/SVDLIBC/'
+
+###### Install ######
+# system "make", "HOSTTYPE=target"
+# include.install "svdlib.h"
+# lib.install "target/libsvd.a"
+# bin.install "target/svd"

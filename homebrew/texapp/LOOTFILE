@@ -1,0 +1,13 @@
+# texapp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/texapp.rb
+# Converted on 02-01-2019
+
+name='texapp'
+url=('https://www.floodgap.com/software/texapp/dist0/0.6.11.txt')
+description='App.net client based on TTYtter'
+version='0.6.11' # Guessed version.
+priority='optional'
+homepage='https://www.floodgap.com/software/texapp/'
+
+###### Install ######
+# bin.install "#{version}.txt" => "texapp"

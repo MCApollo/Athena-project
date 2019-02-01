@@ -1,0 +1,26 @@
+# ssldump.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ssldump.rb
+# Converted on 02-01-2019
+
+name='ssldump'
+url=('https://downloads.sourceforge.net/project/ssldump/ssldump/0.9b3/ssldump-0.9b3.tar.gz')
+description='SSLv3/TLS network protocol analyzer'
+version='0.9' # Guessed version.
+priority='optional'
+homepage='https://ssldump.sourceforge.io/'
+depends=('openssl')
+
+# A diff file was written to ssldump.diff
+# --> Patch the file before building.
+
+###### Install ######
+# ENV["LIBS"] = "-lssl -lcrypto"
+# inreplace "configure", "if test -f $dir/libpcap.a; then",
+# "if test -f $dir/libpcap.dylib; then"
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "osx"
+# system "make"
+# system "make", "install", "-B"

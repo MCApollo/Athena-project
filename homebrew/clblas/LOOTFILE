@@ -1,0 +1,21 @@
+# clblas.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/clblas.rb
+# Converted on 02-01-2019
+
+name='clblas'
+url=('https://github.com/clMathLibraries/clBLAS/archive/v2.12.tar.gz')
+description='Library containing BLAS functions written in OpenCL'
+version='2.12' # Guessed version.
+priority='optional'
+homepage='https://github.com/clMathLibraries/clBLAS'
+makedepends=('boost' 'cmake')
+
+###### Install ######
+# system "cmake", "src", *std_cmake_args,
+# "-DBUILD_CLIENT=OFF",
+# "-DBUILD_KTEST=OFF",
+# "-DBUILD_TEST=OFF",
+# "-DCMAKE_MACOSX_RPATH:BOOL=ON",
+# "-DSUFFIX_LIB:STRING="
+# system "make", "install"
+# pkgshare.install "src/samples/example_srot.c"

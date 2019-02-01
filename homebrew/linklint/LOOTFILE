@@ -1,0 +1,15 @@
+# linklint.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/linklint.rb
+# Converted on 02-01-2019
+
+name='linklint'
+url=('http://linklint.org/download/linklint-2.3.5.tar.gz')
+description='Link checker and web site maintenance tool'
+version='2.3.5' # Guessed version.
+priority='optional'
+homepage='http://linklint.org'
+
+###### Install ######
+# mv "READ_ME.txt", "README"
+# doc.install "README"
+# bin.install "linklint-#{version}" => "linklint"

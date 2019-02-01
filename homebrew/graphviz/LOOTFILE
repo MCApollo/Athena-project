@@ -1,0 +1,34 @@
+# graphviz.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/graphviz.rb
+# Converted on 02-01-2019
+
+name='graphviz'
+url=('https://www.mirrorservice.org/sites/distfiles.macports.org/graphviz/graphviz-2.40.1.tar.gz')
+description='Graph visualization software from AT&T and Bell Labs'
+version='2.40.1' # Guessed version.
+priority='optional'
+homepage='https://www.graphviz.org/'
+depends=('gd' 'gts' 'libpng' 'libtool')
+makedepends=('pkg-config')
+
+###### Install ######
+# inreplace "lib/sfio/features/sfio", "lib qfrexp\nlib qldexp\n", "" unless build.head?
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --disable-php
+# --disable-swig
+# --with-quartz
+# --without-freetype2
+# --without-qt
+# --without-x
+# --with-gts
+# ]
+# if build.head?
+# system "./autogen.sh", *args
+# else
+# system "./configure", *args
+# end
+# system "make", "install"
+# (bin/"gvmap.sh").unlink

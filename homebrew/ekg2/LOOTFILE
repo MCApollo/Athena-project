@@ -1,0 +1,31 @@
+# ekg2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ekg2.rb
+# Converted on 02-01-2019
+
+name='ekg2'
+url=('https://src.fedoraproject.org/lookaside/extras/ekg2/ekg2-0.3.1.tar.gz/68fc05b432c34622df6561eaabef5a40/ekg2-0.3.1.tar.gz')
+description='Multiplatform, multiprotocol, plugin-based instant messenger'
+version='0.3.1' # Guessed version.
+priority='optional'
+homepage='https://github.com/ekg2/ekg2'
+depends=('openssl' 'readline')
+makedepends=('pkg-config')
+
+# A diff file was written to ekg2.diff
+# --> Patch the file before building.
+
+###### Install ######
+# readline = Formula["readline"].opt_prefix
+# args = %W[
+# --disable-debug
+# --disable-dependency-tracking
+# --prefix=#{prefix}
+# --enable-unicode
+# --with-readline=#{readline}
+# --without-gtk
+# --without-libgadu
+# --without-perl
+# --without-python
+# ]
+# system "./configure", *args
+# system "make", "install"

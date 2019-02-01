@@ -1,0 +1,15 @@
+# csv-fix.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/csv-fix.rb
+# Converted on 02-01-2019
+
+name='csvfix'
+url=('https://bitbucket.org/neilb/csvfix/get/version-1.6.tar.gz')
+description='Tool for manipulating CSV data'
+version='1.6' # Guessed version.
+priority='optional'
+homepage='https://neilb.bitbucket.io/csvfix/'
+
+###### Install ######
+# ENV.libcxx
+# system "make", "lin"
+# bin.install "csvfix/bin/csvfix"

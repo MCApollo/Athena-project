@@ -1,0 +1,14 @@
+# hyperfine.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/hyperfine.rb
+# Converted on 02-01-2019
+
+name='hyperfine'
+url=('https://github.com/sharkdp/hyperfine/archive/v1.5.0.tar.gz')
+description='Command-line benchmarking tool'
+version='1.5.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/sharkdp/hyperfine'
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

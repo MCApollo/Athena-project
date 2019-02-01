@@ -1,0 +1,40 @@
+# extract_url.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/extract_url.rb
+# Converted on 02-01-2019
+
+name='extracturl'
+url=('https://github.com/m3m0ryh0l3/extracturl/archive/v1.6.2.tar.gz')
+description='Perl script to extracts URLs from emails or plain text'
+version='1.6.2' # Guessed version.
+priority='optional'
+homepage='https://www.memoryhole.net/~kyle/extract_url/'
+
+###### Resource ######
+# MIME::Parser: https://cpan.metacpan.org/authors/id/D/DS/DSKOLL/MIME-tools-5.508.tar.gz
+# HTML::Parser: https://cpan.metacpan.org/authors/id/G/GA/GAAS/HTML-Parser-3.72.tar.gz
+# Pod::Usage: https://cpan.metacpan.org/authors/id/M/MA/MAREKR/Pod-Usage-1.69.tar.gz
+# Env: https://cpan.metacpan.org/authors/id/F/FL/FLORA/Env-1.04.tar.gz
+# Getopt::Long: https://cpan.metacpan.org/authors/id/J/JV/JV/Getopt-Long-2.49.1.tar.gz
+# URI::Find: https://cpan.metacpan.org/authors/id/M/MS/MSCHWERN/URI-Find-20160806.tar.gz
+# Curses: https://cpan.metacpan.org/authors/id/G/GI/GIRAFFED/Curses-1.36.tar.gz
+# Curses::UI: https://cpan.metacpan.org/authors/id/M/MD/MDXI/Curses-UI-0.9609.tar.gz
+
+###### Install ######
+# ENV.prepend_create_path "PERL5LIB", libexec/"lib/perl5"
+# ENV.prepend_path "PERL5LIB", libexec/"lib"
+# inreplace "extract_url.pl", "#!/usr/bin/env perl", "#!/usr/bin/perl"
+# %w[MIME::Parser HTML::Parser Pod::Usage Env Getopt::Long Curses Curses::UI].each do |r|
+# resource(r).stage do
+# system "perl", "Makefile.PL", "INSTALL_BASE=#{libexec}"
+# system "make"
+# system "make", "install"
+# end
+# end
+# resource("URI::Find").stage do
+# system "perl", "Build.PL", "--install_base", libexec
+# system "./Build"
+# system "./Build", "install"
+# end
+# system "make", "prefix=#{prefix}"
+# system "make", "prefix=#{prefix}", "install"
+# bin.env_script_all_files(libexec/"bin", :PERL5LIB => ENV["PERL5LIB"])

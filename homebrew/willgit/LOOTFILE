@@ -1,0 +1,12 @@
+# willgit.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/willgit.rb
+# Converted on 02-01-2019
+
+name='willgit'
+url=('https://github.com/DanielVartanov/willgit/archive/1.0.0.tar.gz')
+description='William'\''s miscellaneous git tools'
+version='1.0.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/DanielVartanov/willgit'
+
+###### Install ######

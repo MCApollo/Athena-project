@@ -1,0 +1,19 @@
+# gor.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gor.rb
+# Converted on 02-01-2019
+
+name='gor'
+url=('https://github.com/buger/goreplay.git')
+description='Real-time HTTP traffic replay tool written in Go'
+version=' '
+priority='optional'
+homepage='https://gortool.com'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/buger/goreplay").install buildpath.children
+# cd "src/github.com/buger/goreplay" do
+# system "go", "build", "-o", bin/"gor", "-ldflags", "-X main.VERSION=#{version}"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,20 @@
+# dnscontrol.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dnscontrol.rb
+# Converted on 02-01-2019
+
+name='dnscontrol'
+url=('https://github.com/StackExchange/dnscontrol/archive/v0.2.8.tar.gz')
+description='It is system for maintaining DNS zones'
+version='0.2.8' # Guessed version.
+priority='optional'
+homepage='https://github.com/StackExchange/dnscontrol'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# srcpath = buildpath/"src/github.com/StackExchange/dnscontrol"
+# srcpath.install buildpath.children
+# cd srcpath do
+# system "go", "build", "-o", bin/"dnscontrol"
+# prefix.install_metafiles
+# end

@@ -1,0 +1,14 @@
+# cowsay.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/cowsay.rb
+# Converted on 02-01-2019
+
+name='cowsay'
+url=('https://github.com/tnalpgge/rank-amateur-cowsay/archive/cowsay-3.04.tar.gz')
+description='Configurable talking characters in ASCII art'
+version='3.04' # Guessed version.
+priority='optional'
+homepage='https://github.com/tnalpgge/rank-amateur-cowsay'
+
+###### Install ######
+# system "/bin/sh", "install.sh", prefix
+# mv prefix/"man", share

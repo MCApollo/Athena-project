@@ -1,0 +1,18 @@
+# uncrustify.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/uncrustify.rb
+# Converted on 02-01-2019
+
+name='uncrustify'
+url=('https://github.com/uncrustify/uncrustify/archive/uncrustify-0.68.1.tar.gz')
+description='Source code beautifier'
+version='0.68.1' # Guessed version.
+priority='optional'
+homepage='https://uncrustify.sourceforge.io/'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", *std_cmake_args
+# system "make", "install"
+# end
+# doc.install (buildpath/"documentation").children

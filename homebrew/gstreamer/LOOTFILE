@@ -1,0 +1,31 @@
+# gstreamer.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gstreamer.rb
+# Converted on 02-01-2019
+
+name='gstreamer'
+url=('https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.14.4.tar.xz')
+description='Development framework for multimedia applications'
+version='1.14.4' # Guessed version.
+priority='optional'
+homepage='https://gstreamer.freedesktop.org/'
+depends=('gettext' 'glib')
+makedepends=('bison' 'gobject-introspection' 'pkg-config')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-debug
+# --disable-dependency-tracking
+# --disable-gtk-doc
+# --enable-introspection=yes
+# ]
+# if build.head?
+# ENV["NOCONFIGURE"] = "yes"
+# system "./autogen.sh"
+# args << "--with-ptp-helper-permissions=none"
+# end
+# inreplace "configure", 'PLUGINDIR="$full_var"',
+# "PLUGINDIR=\"#{HOMEBREW_PREFIX}/lib/gstreamer-1.0\""
+# system "./configure", *args
+# system "make"
+# system "make", "install"

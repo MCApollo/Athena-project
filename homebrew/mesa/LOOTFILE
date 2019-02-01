@@ -1,0 +1,28 @@
+# mesa.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mesa.rb
+# Converted on 02-01-2019
+
+name='mesa'
+url=('https://mesa.freedesktop.org/archive/mesa-18.3.2.tar.xz')
+description='Graphics Library'
+version='18.3.2' # Guessed version.
+priority='optional'
+homepage='https://www.mesa3d.org/'
+depends=('freeglut' 'expat' 'gettext' ':x11')
+makedepends=('meson-internal' 'ninja' 'pkg-config' 'python@2')
+
+###### Resource ######
+# Mako: https://files.pythonhosted.org/packages/eb/f3/67579bb486517c0d49547f9697e36582cd19dafb5df9e687ed8e22de57fa/Mako-1.0.7.tar.gz
+# gears.c: https://www.opengl.org/archives/resources/code/samples/glut_examples/mesademos/gears.c
+
+###### Install ######
+# ENV.prepend_create_path "PYTHONPATH", buildpath/"vendor/lib/python2.7/site-packages"
+# resource("Mako").stage do
+# system "python", *Language::Python.setup_install_args(buildpath/"vendor")
+# end
+# resource("gears.c").stage(pkgshare.to_s)
+# mkdir "build" do
+# system "meson", "--prefix=#{prefix}", "-D buildtype=plain", "-D b_ndebug=true", ".."
+# system "ninja"
+# system "ninja", "install"
+# end

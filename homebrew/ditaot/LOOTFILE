@@ -1,0 +1,16 @@
+# dita-ot.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/dita-ot.rb
+# Converted on 02-01-2019
+
+name='ditaot'
+url=('https://github.com/dita-ot/dita-ot/releases/download/3.2.1/dita-ot-3.2.1.zip')
+description='DITA Open Toolkit is an implementation of the OASIS DITA specification'
+version='3.2.1' # Guessed version.
+priority='optional'
+homepage='https://www.dita-ot.org/'
+depends=(':java')
+
+###### Install ######
+# rm_f Dir["bin/*.bat", "config/env.bat", "startcmd.*"]
+# libexec.install Dir["*"]
+# bin.install_symlink libexec/"bin/dita"

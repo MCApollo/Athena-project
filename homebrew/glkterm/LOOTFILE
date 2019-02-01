@@ -1,0 +1,15 @@
+# glkterm.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/glkterm.rb
+# Converted on 02-01-2019
+
+name='glkterm'
+url=('https://www.eblong.com/zarf/glk/glkterm-104.tar.gz')
+description='Terminal-window Glk library'
+version=' '
+priority='optional'
+homepage='https://www.eblong.com/zarf/glk/'
+
+###### Install ######
+# system "make"
+# lib.install "libglkterm.a"
+# include.install "glk.h", "glkstart.h", "gi_blorb.h", "gi_dispa.h", "Make.glkterm"

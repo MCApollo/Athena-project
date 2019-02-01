@@ -1,0 +1,21 @@
+# scw.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scw.rb
+# Converted on 02-01-2019
+
+name='scw'
+url=('https://github.com/scaleway/scaleway-cli/archive/v1.17.tar.gz')
+description='Manage BareMetal Servers from command-line (as easily as with Docker)'
+version='1.17' # Guessed version.
+priority='optional'
+homepage='https://github.com/scaleway/scaleway-cli'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["GOBIN"] = buildpath
+# (buildpath/"src/github.com/scaleway/scaleway-cli").install Dir["*"]
+# system "go", "build", "-o", "#{bin}/scw", "-v", "-ldflags",
+# "-X github.com/scaleway/scaleway-cli/pkg/scwversion.GITCOMMIT=homebrew",
+# "github.com/scaleway/scaleway-cli/cmd/scw/"
+# bash_completion.install "src/github.com/scaleway/scaleway-cli/contrib/completion/bash/scw.bash"
+# zsh_completion.install "src/github.com/scaleway/scaleway-cli/contrib/completion/zsh/_scw"

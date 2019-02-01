@@ -1,0 +1,21 @@
+# augeas.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/augeas.rb
+# Converted on 02-01-2019
+
+name='augeas'
+url=('http://download.augeas.net/augeas-1.11.0.tar.gz')
+description='Configuration editing tool and API'
+version='1.11.0' # Guessed version.
+priority='optional'
+homepage='http://augeas.net'
+depends=('readline')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[--disable-debug --disable-dependency-tracking --prefix=#{prefix}]
+# if build.head?
+# system "./autogen.sh", *args
+# else
+# system "./configure", *args
+# end
+# system "make", "install"

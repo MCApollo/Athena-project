@@ -1,0 +1,17 @@
+# lightning.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lightning.rb
+# Converted on 02-01-2019
+
+name='lightning'
+url=('https://ftp.gnu.org/gnu/lightning/lightning-2.1.2.tar.gz')
+description='Generates assembly language code at run-time'
+version='2.1.2' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/lightning/'
+makedepends=('binutils')
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--disable-silent-rules", "--prefix=#{prefix}"
+# system "make", "check", "-j1"
+# system "make", "install"

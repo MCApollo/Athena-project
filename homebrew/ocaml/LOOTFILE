@@ -1,0 +1,24 @@
+# ocaml.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ocaml.rb
+# Converted on 02-01-2019
+
+name='ocaml'
+url=('https://caml.inria.fr/pub/distrib/ocaml-4.07/ocaml-4.07.1.tar.xz')
+description='General purpose programming language in the ML family'
+version='4.07.1' # Guessed version.
+priority='optional'
+homepage='https://ocaml.org/'
+
+###### Install ######
+# ENV.deparallelize
+# args = [
+# "-prefix",
+# HOMEBREW_PREFIX.to_s,
+# "-with-debug-runtime",
+# "-mandir",
+# man.to_s,
+# "-no-graph",
+# ]
+# system "./configure", *args
+# system "make", "world.opt"
+# system "make", "install", "PREFIX=#{prefix}"

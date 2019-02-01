@@ -1,0 +1,15 @@
+# redir.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/redir.rb
+# Converted on 02-01-2019
+
+name='redir'
+url=('https://github.com/TracyWebTech/redir/archive/2.2.1-9.tar.gz')
+description='Port redirector'
+version='2.2.1' # Guessed version.
+priority='optional'
+homepage='http://sammy.net/~sammy/hacks/'
+
+###### Install ######
+# system "make"
+# bin.install "redir"
+# man1.install "redir.man"

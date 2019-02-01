@@ -1,0 +1,14 @@
+# moco.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/moco.rb
+# Converted on 02-01-2019
+
+name='moco'
+url=('https://search.maven.org/remotecontent?filepath=com/github/dreamhead/moco-runner/0.12.0/moco-runner-0.12.0-standalone.jar')
+description='Stub server with Maven, Gradle, Scala, and shell integration'
+version='0.12.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/dreamhead/moco'
+
+###### Install ######
+# libexec.install "moco-runner-#{version}-standalone.jar"
+# bin.write_jar_script libexec/"moco-runner-#{version}-standalone.jar", "moco"

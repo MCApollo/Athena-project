@@ -1,0 +1,17 @@
+# talloc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/talloc.rb
+# Converted on 02-01-2019
+
+name='talloc'
+url=('https://www.samba.org/ftp/talloc/talloc-2.1.14.tar.gz')
+description='Hierarchical, reference-counted memory pool with destructors'
+version='2.1.14' # Guessed version.
+priority='optional'
+homepage='https://talloc.samba.org/'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--disable-rpath",
+# "--without-gettext",
+# "--disable-python"
+# system "make", "install"

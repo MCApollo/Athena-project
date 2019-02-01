@@ -1,0 +1,20 @@
+# ncview.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ncview.rb
+# Converted on 02-01-2019
+
+name='ncview'
+url=('ftp://cirrus.ucsd.edu/pub/ncview/ncview-2.1.7.tar.gz')
+description='Visual browser for netCDF format files'
+version='2.1.7' # Guessed version.
+priority='optional'
+homepage='http://meteora.ucsd.edu/~pierce/ncview_home_page.html'
+depends=('netcdf' 'udunits' ':x11')
+
+###### Install ######
+# inreplace "configure",
+# "if test x$CC_TEST_SAME != x$NETCDF_CC_TEST_SAME; then",
+# "if false; then"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# man1.install "data/ncview.1"

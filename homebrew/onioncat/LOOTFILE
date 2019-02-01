@@ -1,0 +1,19 @@
+# onioncat.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/onioncat.rb
+# Converted on 02-01-2019
+
+name='onioncat'
+url=('https://www.cypherpunk.at/ocat/download/Source/current/onioncat-0.2.2.r578.tar.gz')
+description='VPN-adapter that provides location privacy using Tor or I2P'
+version='0.2.2' # Guessed version.
+priority='optional'
+homepage='https://www.onioncat.org'
+depends=('tor')
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}"
+# system "make", "install"
+# rm_f "

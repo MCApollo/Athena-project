@@ -1,0 +1,26 @@
+# pdnsrec.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdnsrec.rb
+# Converted on 02-01-2019
+
+name='pdnsrec'
+url=('https://downloads.powerdns.com/releases/pdns-recursor-4.1.4.tar.bz2')
+description='Non-authoritative/recursing DNS server'
+version='4.1.4' # Guessed version.
+priority='optional'
+homepage='https://www.powerdns.com/recursor.html'
+depends=('boost' 'gcc' 'lua' 'openssl')
+makedepends=('pkg-config')
+
+###### Install ######
+# ENV.cxx11
+# args = %W[
+# --prefix=#{prefix}
+# --sysconfdir=#{etc}/powerdns
+# --disable-silent-rules
+# --with-boost=#{Formula["boost"].opt_prefix}
+# --with-libcrypto=#{Formula["openssl"].opt_prefix}
+# --with-lua
+# --without-net-snmp
+# ]
+# system "./configure", *args
+# system "make", "install"

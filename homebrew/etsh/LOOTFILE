@@ -1,0 +1,17 @@
+# etsh.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/etsh.rb
+# Converted on 02-01-2019
+
+name='etsh'
+url=('https://etsh.io/src/etsh-5.2.0.tar.gz')
+description='Two ports of /bin/sh from V6 UNIX (circa 1975)'
+version='5.2.0' # Guessed version.
+priority='optional'
+homepage='https://etsh.io/'
+makedepends=('')
+
+###### Install ######
+# system "./configure"
+# system "make", "install", "PREFIX=#{prefix}", "SYSCONFDIR=#{etc}", "MANDIR=#{man1}"
+# bin.install_symlink "etsh" => "osh"
+# bin.install_symlink "tsh" => "sh6"

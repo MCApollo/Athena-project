@@ -1,0 +1,25 @@
+# qmmp.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/qmmp.rb
+# Converted on 02-01-2019
+
+name='qmmp'
+url=('http://qmmp.ylsoftware.com/files/qmmp-1.2.4.tar.bz2')
+description='Qt-based Multimedia Player'
+version='1.2.4' # Guessed version.
+priority='optional'
+homepage='http://qmmp.ylsoftware.com/'
+depends=('faad2' 'ffmpeg' 'flac' 'libbs2b' 'libmms' 'libogg' 'libsamplerate' 'libsndfile' 'libsoxr' 'libvorbis' 'mad' 'mplayer' 'musepack' 'opus' 'opusfile' 'qt' 'taglib')
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", "./", "-USE_SKINNED", "-USE_ENCA", "-USE_QMMP_DIALOG", *std_cmake_args
+# system "make", "install"
+# cd (lib.to_s) do
+# Dir["*.dylib", "qmmp/*/*.so"].select { |f| File.ftype(f) == "file" }.each do |f|
+# MachO::Tools.dylibs(f).select { |d| d.start_with?("/tmp") }.each do |d|
+# bname = File.dirname(d)
+# d_new = d.sub(bname, opt_lib.to_s)
+# MachO::Tools.change_install_name(f, d, d_new)
+# end
+# end
+# end

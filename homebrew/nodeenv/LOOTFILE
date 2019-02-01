@@ -1,0 +1,13 @@
+# nodeenv.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/nodeenv.rb
+# Converted on 02-01-2019
+
+name='nodeenv'
+url=('https://github.com/ekalinin/nodeenv/archive/1.3.3.tar.gz')
+description='Node.js virtual environment builder'
+version='1.3.3' # Guessed version.
+priority='optional'
+homepage='https://github.com/ekalinin/nodeenv'
+
+###### Install ######
+# bin.install "nodeenv.py" => "nodeenv"

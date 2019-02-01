@@ -1,0 +1,13 @@
+# zsh-navigation-tools.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zsh-navigation-tools.rb
+# Converted on 02-01-2019
+
+name='zshnavigationtools'
+url=('https://github.com/psprint/zsh-navigation-tools/archive/v2.2.7.tar.gz')
+description='Zsh curses-based tools, e.g. multi-word history searcher'
+version='2.2.7' # Guessed version.
+priority='optional'
+homepage='https://github.com/psprint/zsh-navigation-tools'
+
+###### Install ######
+# system "make", "install", "PREFIX=#{prefix}"

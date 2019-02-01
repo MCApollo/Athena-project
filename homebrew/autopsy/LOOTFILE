@@ -1,0 +1,24 @@
+# autopsy.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/autopsy.rb
+# Converted on 02-01-2019
+
+name='autopsy'
+url=('https://downloads.sourceforge.net/project/autopsy/autopsy/2.24/autopsy-2.24.tar.gz')
+description='Graphical interface to Sleuth Kit investigation tools'
+version='2.24' # Guessed version.
+priority='optional'
+homepage='https://www.sleuthkit.org/autopsy/index.php'
+depends=('sleuthkit')
+
+# A diff file was written to autopsy.diff
+# --> Patch the file before building.
+
+###### Install ######
+# (var+"lib/autopsy").mkpath
+# mv "lib", "libexec"
+# prefix.install %w[global.css help libexec pict]
+# prefix.install Dir["*.txt"]
+# (prefix+"conf.pl").write autcfg
+# inreplace "base/autopsy.base", "/tmp/autopsy", prefix
+# inreplace "base/autopsy.base", "lib/define.pl", "#{libexec}/define.pl"
+# bin.install "base/autopsy.base" => "autopsy"

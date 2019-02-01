@@ -1,0 +1,16 @@
+# w-calc.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/w-calc.rb
+# Converted on 02-01-2019
+
+name='wcalc'
+url=('https://downloads.sourceforge.net/w-calc/wcalc-2.5.tar.bz2')
+description='Very capable calculator'
+version='2.5' # Guessed version.
+priority='optional'
+homepage='https://w-calc.sourceforge.io/'
+depends=('gmp' 'mpfr')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# system "make", "install"

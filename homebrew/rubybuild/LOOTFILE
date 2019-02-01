@@ -1,0 +1,12 @@
+# ruby-build.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ruby-build.rb
+# Converted on 02-01-2019
+
+name='rubybuild'
+url=('https://github.com/rbenv/ruby-build/archive/v20190130.tar.gz')
+description='Install various Ruby versions and implementations'
+version=' '
+priority='optional'
+homepage='https://github.com/rbenv/ruby-build'
+
+###### Install ######

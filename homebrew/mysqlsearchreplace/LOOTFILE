@@ -1,0 +1,16 @@
+# mysql-search-replace.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mysql-search-replace.rb
+# Converted on 02-01-2019
+
+name='mysqlsearchreplace'
+url=('https://github.com/interconnectit/Search-Replace-DB/archive/3.1.tar.gz')
+description='Database search and replace script in PHP'
+version='3.1' # Guessed version.
+priority='optional'
+homepage='https://interconnectit.com/products/search-and-replace-for-wordpress-databases/'
+
+###### Install ######
+# libexec.install "srdb.class.php"
+# libexec.install "srdb.cli.php" => "srdb"
+# chmod 0755, libexec/"srdb"
+# bin.install_symlink libexec/"srdb"

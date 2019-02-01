@@ -1,0 +1,16 @@
+# makeicns.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/makeicns.rb
+# Converted on 02-01-2019
+
+name='makeicns'
+url=('https://bitbucket.org/mkae/makeicns/downloads/makeicns-1.4.10a.tar.bz2')
+description='Create icns files from the command-line'
+version='1.4.10' # Guessed version.
+priority='optional'
+homepage='https://bitbucket.org/mkae/makeicns'
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/e59da9d/makeicns/patch-IconFamily.m.diff')
+
+###### Install ######
+# system "make"
+# bin.install "makeicns"

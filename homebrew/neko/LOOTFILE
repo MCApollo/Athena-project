@@ -1,0 +1,17 @@
+# neko.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/neko.rb
+# Converted on 02-01-2019
+
+name='neko'
+url=('https://github.com/HaxeFoundation/neko/archive/v2-2-0/neko-2.2.0.tar.gz')
+description='High-level, dynamically typed programming language'
+version='2.2.0' # Guessed version.
+priority='optional'
+homepage='https://nekovm.org/'
+depends=('bdw-gc' 'mbedtls' 'openssl' 'pcre')
+makedepends=('cmake' 'ninja' 'pkg-config')
+
+###### Install ######
+# system "cmake", ".", "-G", "Ninja", "-DSTATIC_DEPS=MariaDBConnector",
+# "-DRELOCATABLE=OFF", "-DRUN_LDCONFIG=OFF", *std_cmake_args
+# system "ninja", "install"

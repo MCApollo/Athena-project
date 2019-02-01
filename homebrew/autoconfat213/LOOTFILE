@@ -1,0 +1,19 @@
+# autoconf@2.13.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/autoconf@2.13.rb
+# Converted on 02-01-2019
+
+name='autoconfat213'
+url=('https://ftp.gnu.org/gnu/autoconf/autoconf-2.13.tar.gz')
+description='Automatic configure script builder'
+version='2.13' # Guessed version.
+priority='optional'
+homepage='https://www.gnu.org/software/autoconf/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--program-suffix=213",
+# "--prefix=#{prefix}",
+# "--infodir=#{pkgshare}/info",
+# "--datadir=#{pkgshare}"
+# system "make", "install"

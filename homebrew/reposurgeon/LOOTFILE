@@ -1,0 +1,17 @@
+# reposurgeon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/reposurgeon.rb
+# Converted on 02-01-2019
+
+name='reposurgeon'
+url=('https://gitlab.com/esr/reposurgeon.git')
+description='Edit version-control repository history'
+version=' '
+priority='optional'
+homepage='http://www.catb.org/esr/reposurgeon/'
+depends=('pypy')
+makedepends=('asciidoc' 'xmlto')
+
+###### Install ######
+# ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
+# system "make", "install", "prefix=#{prefix}"
+# elisp.install "reposurgeon-mode.el"

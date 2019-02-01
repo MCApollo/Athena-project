@@ -1,0 +1,37 @@
+# imagemagick@6.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/imagemagick@6.rb
+# Converted on 02-01-2019
+
+name='imagemagickat6'
+url=('https://dl.bintray.com/homebrew/mirror/imagemagick%406--6.9.10-14.tar.xz')
+description='Tools and libraries to manipulate images in many formats'
+version='6.9.10' # Guessed version.
+priority='optional'
+homepage='https://www.imagemagick.org/'
+depends=('freetype' 'jpeg' 'libpng' 'libtiff' 'libtool' 'little-cms2' 'openjpeg' 'webp' 'xz')
+makedepends=('pkg-config')
+
+###### Install ######
+# args = %W[
+# --disable-osx-universal-binary
+# --prefix=#{prefix}
+# --disable-dependency-tracking
+# --disable-silent-rules
+# --disable-opencl
+# --disable-openmp
+# --enable-shared
+# --enable-static
+# --with-freetype=yes
+# --with-modules
+# --with-webp=yes
+# --with-openjp2
+# --without-gslib
+# --with-gs-font-dir=#{HOMEBREW_PREFIX}/share/ghostscript/fonts
+# --without-fftw
+# --without-pango
+# --without-x
+# --without-wmf
+# ]
+# inreplace "configure", "${PACKAGE_NAME}-${PACKAGE_VERSION}", "${PACKAGE_NAME}"
+# system "./configure", *args
+# system "make", "install"

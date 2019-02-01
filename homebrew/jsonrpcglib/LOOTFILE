@@ -1,0 +1,20 @@
+# jsonrpc-glib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsonrpc-glib.rb
+# Converted on 02-01-2019
+
+name='jsonrpcglib'
+url=('https://download.gnome.org/sources/jsonrpc-glib/3.30/jsonrpc-glib-3.30.1.tar.xz')
+description='GNOME library to communicate with JSON-RPC based peers'
+version='3.30.1' # Guessed version.
+priority='optional'
+homepage='https://gitlab.gnome.org/GNOME/jsonrpc-glib'
+depends=('glib' 'json-glib')
+makedepends=('gobject-introspection' 'meson-internal' 'ninja' 'pkg-config' 'python' 'vala')
+
+###### Install ######
+# ENV.refurbish_args
+# mkdir "build" do
+# system "meson", "--prefix=#{prefix}", "-Dwith_vapi=true", ".."
+# system "ninja"
+# system "ninja", "install"
+# end

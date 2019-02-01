@@ -1,0 +1,25 @@
+# jhiccup.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/jhiccup.rb
+# Converted on 02-01-2019
+
+name='jhiccup'
+url=('https://www.azul.com/files/jHiccup-2.0.9-dist.zip')
+description='Measure pauses and stalls of an app'\''s Java runtime platform'
+version='2.0.9' # Guessed version.
+priority='optional'
+homepage='https://www.azul.com/jhiccup/'
+
+###### Install ######
+# bin.install "jHiccup", "jHiccupLogProcessor"
+# (bin+"jHiccupPlotter").write <<~EOS
+# #!/bin/sh
+# TMPFILE="/tmp/jHiccupPlotter.$$.xls"
+# cp "#{prefix}/jHiccupPlotter.xls" $TMPFILE
+# open $TMPFILE
+# EOS
+# prefix.install "jHiccup.jar"
+# prefix.install "jHiccupPlotter.xls"
+# inreplace "#{bin}/jHiccup" do |s|
+# s.gsub! /^JHICCUP_JAR_FILE=.*$/,
+# "JHICCUP_JAR_FILE=#{prefix}/jHiccup.jar"
+# end

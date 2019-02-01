@@ -1,0 +1,22 @@
+# newt.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/newt.rb
+# Converted on 02-01-2019
+
+name='newt'
+url=('https://pagure.io/releases/newt/newt-0.52.20.tar.gz')
+description='Library for color text mode, widget based user interfaces'
+version='0.52.20' # Guessed version.
+priority='optional'
+homepage='https://pagure.io/newt'
+depends=('gettext' 'popt' 's-lang')
+
+###### Install ######
+# args = ["--prefix=#{prefix}", "--without-tcl"]
+# inreplace "Makefile.in" do |s|
+# s.gsub! "libnewt.$(SOEXT).$(SONAME)", "libnewt.$(SONAME).dylib"
+# s.gsub! "libnewt.$(SOEXT).$(VERSION)", "libnewt.$(VERSION).dylib"
+# s.gsub! "`$$pyconfig --ldflags`", '"-undefined dynamic_lookup"'
+# s.gsub! "`$$pyconfig --libs`", '""'
+# end
+# system "./configure", *args
+# system "make", "install"

@@ -1,0 +1,16 @@
+# peg-markdown.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/peg-markdown.rb
+# Converted on 02-01-2019
+
+name='pegmarkdown'
+url=('https://github.com/jgm/peg-markdown/archive/0.4.14.tar.gz')
+description='Markdown implementation based on a PEG grammar'
+version='0.4.14' # Guessed version.
+priority='optional'
+homepage='https://github.com/jgm/peg-markdown'
+depends=('glib')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "make"
+# bin.install "markdown" => "peg-markdown"

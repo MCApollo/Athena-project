@@ -1,0 +1,29 @@
+# gst-plugins-bad.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/gst-plugins-bad.rb
+# Converted on 02-01-2019
+
+name='gstpluginsbad'
+url=('https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.14.4.tar.xz')
+description='GStreamer plugins less supported, not fully tested'
+version='1.14.4' # Guessed version.
+priority='optional'
+homepage='https://gstreamer.freedesktop.org/'
+depends=('faac' 'faad2' 'gettext' 'gst-plugins-base' 'jpeg' 'libmms' 'openssl' 'opus' 'orc')
+makedepends=('gobject-introspection' 'libtool' 'pkg-config')
+
+###### Install ######
+# args = %W[
+# --prefix=#{prefix}
+# --disable-yadif
+# --disable-examples
+# --disable-debug
+# --disable-dependency-tracking
+# --enable-introspection=yes
+# ]
+# if build.head?
+# ENV["NOCONFIGURE"] = "yes"
+# system "./autogen.sh"
+# end
+# system "./configure", *args
+# system "make"
+# system "make", "install"

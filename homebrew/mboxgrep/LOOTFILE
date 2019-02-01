@@ -1,0 +1,18 @@
+# mboxgrep.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mboxgrep.rb
+# Converted on 02-01-2019
+
+name='mboxgrep'
+url=('https://downloads.sourceforge.net/project/mboxgrep/mboxgrep/0.7.9/mboxgrep-0.7.9.tar.gz')
+description='Scan a mailbox for messages matching a regular expression'
+version='0.7.9' # Guessed version.
+priority='optional'
+homepage='http://www.mboxgrep.org'
+depends=('pcre')
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}",
+# "--mandir=#{man}",
+# "--infodir=#{info}"
+# system "make"
+# system "make", "install"

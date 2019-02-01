@@ -1,0 +1,22 @@
+# scalapack.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/scalapack.rb
+# Converted on 02-01-2019
+
+name='scalapack'
+url=('https://www.netlib.org/scalapack/scalapack-2.0.2.tgz')
+description='High-performance linear algebra for distributed memory machines'
+version='2.0.2' # Guessed version.
+priority='optional'
+homepage='https://www.netlib.org/scalapack/'
+depends=('gcc' 'open-mpi' 'openblas')
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# blas = "-L#{Formula["openblas"].opt_lib} -lopenblas"
+# system "cmake", "..", *std_cmake_args, "-DBUILD_SHARED_LIBS=ON",
+# "-DBLAS_LIBRARIES=#{blas}", "-DLAPACK_LIBRARIES=#{blas}"
+# system "make", "all"
+# system "make", "install"
+# end
+# pkgshare.install "EXAMPLE"

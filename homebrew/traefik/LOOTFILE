@@ -1,0 +1,25 @@
+# traefik.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/traefik.rb
+# Converted on 02-01-2019
+
+name='traefik'
+url=('https://github.com/containous/traefik/releases/download/v1.7.8/traefik-v1.7.8.src.tar.gz')
+description='Modern reverse proxy'
+version='1.7.8' # Guessed version.
+priority='optional'
+homepage='https://traefik.io/'
+makedepends=('go' 'go-bindata' 'node' 'yarn')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# (buildpath/"src/github.com/containous/traefik").install buildpath.children
+# Pathname.new("#{ENV["HOME"]}/.yarnrc").write("ignore-engines true\n")
+# cd "src/github.com/containous/traefik" do
+# cd "webui" do
+# system "yarn", "install"
+# system "yarn", "run", "build"
+# end
+# system "go", "generate"
+# system "go", "build", "-o", bin/"traefik", "./cmd/traefik"
+# prefix.install_metafiles
+# end

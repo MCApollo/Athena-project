@@ -1,0 +1,18 @@
+# tta.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tta.rb
+# Converted on 02-01-2019
+
+name='tta'
+url=('https://downloads.sourceforge.net/project/tta/tta/libtta/libtta-2.2.tar.gz')
+description='Lossless audio codec'
+version='2.2' # Guessed version.
+priority='optional'
+homepage='https://web.archive.org/web/20100131140204/true-audio.com/'
+
+###### Install ######
+# system "./configure", "--disable-debug",
+# "--disable-dependency-tracking",
+# "--disable-silent-rules",
+# "--prefix=#{prefix}",
+# "--enable-sse4"
+# system "make", "install"

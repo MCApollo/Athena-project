@@ -1,0 +1,15 @@
+# pandoc-crossref.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/pandoc-crossref.rb
+# Converted on 02-01-2019
+
+name='pandoccrossref'
+url=('https://hackage.haskell.org/package/pandoc-crossref-0.3.4.0/pandoc-crossref-0.3.4.0.tar.gz')
+description='Pandoc filter for numbering and cross-referencing'
+version='0.3.4.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/lierdakil/pandoc-crossref'
+depends=('pandoc')
+makedepends=('cabal-install' 'ghc')
+
+###### Install ######
+# install_cabal_package

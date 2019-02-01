@@ -1,0 +1,14 @@
+# lsd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/lsd.rb
+# Converted on 02-01-2019
+
+name='lsd'
+url=('https://github.com/Peltoche/lsd/archive/0.12.0.tar.gz')
+description='Clone of ls with colorful output, file type icons, and more'
+version='0.12.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/Peltoche/lsd'
+makedepends=('rust')
+
+###### Install ######
+# system "cargo", "install", "--root", prefix, "--path", "."

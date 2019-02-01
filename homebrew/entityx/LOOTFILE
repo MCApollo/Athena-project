@@ -1,0 +1,15 @@
+# entityx.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/entityx.rb
+# Converted on 02-01-2019
+
+name='entityx'
+url=('https://github.com/alecthomas/entityx/archive/1.3.0.tar.gz')
+description='Fast, type-safe C++ Entity Component System'
+version='1.3.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/alecthomas/entityx'
+makedepends=('cmake')
+
+###### Install ######
+# system "cmake", ".", "-DENTITYX_BUILD_SHARED=off", "-DENTITYX_BUILD_TESTING=off", *std_cmake_args
+# system "make", "install"

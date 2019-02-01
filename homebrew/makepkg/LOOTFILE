@@ -1,0 +1,21 @@
+# makepkg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/makepkg.rb
+# Converted on 02-01-2019
+
+name='makepkg'
+url=('https://projects.archlinux.org/git/pacman.git')
+description='Compile and build packages suitable for installation with pacman'
+version=' '
+priority='optional'
+homepage='https://wiki.archlinux.org/index.php/makepkg'
+depends=('bash' 'fakeroot' 'gettext' 'libarchive' ':macos' 'openssl')
+makedepends=('asciidoc' 'autoconf' 'automake' 'docbook-xsl' 'libtool' 'pkg-config')
+
+###### Install ######
+# ENV["XML_CATALOG_FILES"] = etc/"xml/catalog"
+# system "./autogen.sh"
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}",
+# "--sysconfdir=#{etc}",
+# "--localstatedir=#{var}"
+# system "make", "install"

@@ -1,0 +1,18 @@
+# draco.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/draco.rb
+# Converted on 02-01-2019
+
+name='draco'
+url=('https://github.com/google/draco/archive/1.3.4.tar.gz')
+description='3D geometric mesh and point cloud compression library'
+version='1.3.4' # Guessed version.
+priority='optional'
+homepage='https://google.github.io/draco/'
+makedepends=('cmake')
+
+###### Install ######
+# mkdir "build" do
+# system "cmake", "..", * std_cmake_args
+# system "make", "install"
+# end
+# pkgshare.install "testdata/cube_att.ply"

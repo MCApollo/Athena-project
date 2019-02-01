@@ -1,0 +1,13 @@
+# yarn-completion.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/yarn-completion.rb
+# Converted on 02-01-2019
+
+name='yarncompletion'
+url=('https://github.com/dsifford/yarn-completion/archive/v0.8.0.tar.gz')
+description='Bash completion for Yarn'
+version='0.8.0' # Guessed version.
+priority='optional'
+homepage='https://github.com/dsifford/yarn-completion'
+
+###### Install ######
+# bash_completion.install "yarn-completion.bash" => "yarn"

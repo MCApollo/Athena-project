@@ -1,0 +1,14 @@
+# tag.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/tag.rb
+# Converted on 02-01-2019
+
+name='tag'
+url=('https://github.com/jdberry/tag/archive/v0.9.tar.gz')
+description='Manipulate and query tags on Mavericks files'
+version='0.9' # Guessed version.
+priority='optional'
+homepage='https://github.com/jdberry/tag/'
+
+###### Install ######
+# system "make"
+# bin.install "bin/tag"

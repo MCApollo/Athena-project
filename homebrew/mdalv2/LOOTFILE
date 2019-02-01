@@ -1,0 +1,17 @@
+# mda-lv2.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/mda-lv2.rb
+# Converted on 02-01-2019
+
+name='mdalv2'
+url=('https://download.drobilla.net/mda-lv2-1.2.2.tar.bz2')
+description='LV2 port of the MDA plugins'
+version='1.2.2' # Guessed version.
+priority='optional'
+homepage='https://drobilla.net/software/mda-lv2/'
+depends=('lv2')
+makedepends=('pkg-config')
+
+###### Install ######
+# system "./waf", "configure", "--prefix=#{prefix}"
+# system "./waf"
+# system "./waf", "install"

@@ -1,0 +1,19 @@
+# zmap.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zmap.rb
+# Converted on 02-01-2019
+
+name='zmap'
+url=('https://github.com/zmap/zmap/archive/v2.1.1.tar.gz')
+description='Network scanner for Internet-wide network studies'
+version='2.1.1' # Guessed version.
+priority='optional'
+homepage='https://zmap.io'
+depends=('gmp' 'json-c' 'libdnet')
+makedepends=('byacc' 'cmake' 'gengetopt' 'pkg-config')
+
+###### Install ######
+# inreplace ["conf/zmap.conf", "src/zmap.c", "src/zopt.ggo.in"], "/etc", etc
+# system "cmake", ".", *std_cmake_args, "-DENABLE_DEVELOPMENT=OFF",
+# "-DRESPECT_INSTALL_PREFIX_CONFIG=ON"
+# system "make"
+# system "make", "install"

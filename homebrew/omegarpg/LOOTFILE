@@ -1,0 +1,21 @@
+# omega-rpg.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/omega-rpg.rb
+# Converted on 02-01-2019
+
+name='omegarpg'
+url=('http://www.alcyone.com/binaries/omega/omega-0.80.2-src.tar.gz')
+description='The classic Roguelike game'
+version='0.80.2' # Guessed version.
+priority='optional'
+homepage='http://www.alcyone.com/max/projects/omega/'
+
+###### Install ######
+# inreplace "defs.h", "#define OMEGALIB \"./omegalib/\"", "#define OMEGALIB \"#{libexec}/\""
+# inreplace "Makefile" do |s|
+# s.remove_make_var! ["CC", "CFLAGS", "LDFLAGS"]
+# end
+# ENV.append_to_cflags "-DUNIX -DSYSV"
+# system "make"
+# bin.install "omega"
+# libexec.install Dir["omegalib/*"]
+# ln_s prefix/"license.txt", libexec/"license.txt"

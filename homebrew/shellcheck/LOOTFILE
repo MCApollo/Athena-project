@@ -1,0 +1,17 @@
+# shellcheck.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/shellcheck.rb
+# Converted on 02-01-2019
+
+name='shellcheck'
+url=('https://github.com/koalaman/shellcheck/archive/v0.6.0.tar.gz')
+description='Static analysis and lint tool, for (ba)sh scripts'
+version='0.6.0' # Guessed version.
+priority='optional'
+homepage='https://www.shellcheck.net/'
+makedepends=('cabal-install' 'ghc' 'pandoc')
+
+###### Install ######
+# install_cabal_package
+# system "pandoc", "-s", "-f", "markdown-smart", "-t", "man",
+# "shellcheck.1.md", "-o", "shellcheck.1"
+# man1.install "shellcheck.1"

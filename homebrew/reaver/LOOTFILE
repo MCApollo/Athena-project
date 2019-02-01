@@ -1,0 +1,21 @@
+# reaver.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/reaver.rb
+# Converted on 02-01-2019
+
+name='reaver'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/reaver-wps/reaver-1.4.tar.gz')
+description='Implements brute force attack to recover WPA/WPA2 passkeys'
+version='1.4' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/reaver-wps/'
+# Patches
+url+=('https://gist.githubusercontent.com/syndicut/6134996/raw/16f1b4336c104375ff93a88858809eced53c1171/reaver-osx.diff')
+
+###### Install ######
+# man1.install "docs/reaver.1.gz"
+# prefix.install_metafiles "docs"
+# cd "src"
+# system "./configure", "--prefix=#{prefix}"
+# system "make"
+# bin.mkpath
+# system "make", "install"

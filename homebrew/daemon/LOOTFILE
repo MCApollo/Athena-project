@@ -1,0 +1,18 @@
+# daemon.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/daemon.rb
+# Converted on 02-01-2019
+
+name='daemon'
+url=('http://libslack.org/daemon/download/daemon-0.6.4.tar.gz')
+description='Turn other processes into daemons'
+version='0.6.4' # Guessed version.
+priority='optional'
+homepage='http://libslack.org/daemon/'
+# Patches
+url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/3323958/daemon/daemon-0.6.4-ignore-strlcpy-strlcat.patch')
+
+###### Install ######
+# ENV.deparallelize
+# system "./config"
+# system "make"
+# system "make", "PREFIX=#{prefix}", "install"

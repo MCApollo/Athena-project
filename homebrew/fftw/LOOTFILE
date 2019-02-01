@@ -1,0 +1,31 @@
+# fftw.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/fftw.rb
+# Converted on 02-01-2019
+
+name='fftw'
+url=('http://fftw.org/fftw-3.3.8.tar.gz')
+description='C routines to compute the Discrete Fourier Transform'
+version='3.3.8' # Guessed version.
+priority='optional'
+homepage='http://www.fftw.org'
+depends=('gcc' 'open-mpi')
+
+###### Install ######
+# args = [
+# "--enable-shared",
+# "--disable-debug",
+# "--prefix=#{prefix}",
+# "--enable-threads",
+# "--disable-dependency-tracking",
+# "--enable-mpi",
+# "--enable-openmp",
+# ]
+# simd_args = ["--enable-sse2"]
+# system "./configure", "--enable-single", *(args + simd_args)
+# system "make", "install"
+# system "make", "clean"
+# system "./configure", *(args + simd_args)
+# system "make", "install"
+# system "make", "clean"
+# system "./configure", "--enable-long-double", *args
+# system "make", "install"

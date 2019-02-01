@@ -1,0 +1,15 @@
+# ant-contrib.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ant-contrib.rb
+# Converted on 02-01-2019
+
+name='antcontrib'
+url=('https://downloads.sourceforge.net/project/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3-bin.tar.gz')
+description='Collection of tasks for Apache Ant'
+version='1.0' # Guessed version.
+priority='optional'
+homepage='https://ant-contrib.sourceforge.io/'
+depends=('ant')
+
+###### Install ######
+# (share+"ant").install "ant-contrib-1.0b3.jar"
+# share.install "docs"

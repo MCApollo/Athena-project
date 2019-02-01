@@ -1,0 +1,24 @@
+# rack.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/rack.rb
+# Converted on 02-01-2019
+
+name='rack'
+url=('https://github.com/rackspace/rack.git')
+description='CLI for Rackspace'
+version=' '
+priority='optional'
+homepage='https://github.com/rackspace/rack'
+makedepends=('go')
+
+###### Install ######
+# ENV["GOPATH"] = buildpath
+# ENV["TRAVIS_TAG"] = version
+# rackpath = buildpath/"src/github.com/rackspace/rack"
+# rackpath.install Dir["{*,.??*}"]
+# cd rackpath do
+# inreplace "script/build", "go1.5", Utils.popen_read("go version")[/go1\.\d/]
+# ln_s "internal", "vendor"
+# system "script/build", "rack"
+# bin.install "rack"
+# prefix.install_metafiles
+# end

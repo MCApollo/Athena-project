@@ -1,0 +1,15 @@
+# esniper.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/esniper.rb
+# Converted on 02-01-2019
+
+name='esniper'
+url=('https://downloads.sourceforge.net/project/esniper/esniper/2.35.0/esniper-2-35-0.tgz')
+description='Snipe eBay auctions from the command-line'
+version=' '
+priority='optional'
+homepage='https://sourceforge.net/projects/esniper/'
+
+###### Install ######
+# system "./configure", "--disable-dependency-tracking",
+# "--prefix=#{prefix}"
+# system "make", "install"
