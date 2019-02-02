@@ -3,7 +3,7 @@ index 41329b9..8f5ed19 100755
 --- a/configure
 +++ b/configure
 @@ -15903,30 +15903,8 @@ ACLOCAL_AMFLAGS="-I m4 $ACLOCAL_AMFLAGS"
-use_msvc=no
+ use_msvc=no
 -case "$CXX" in
 -		cl*|CL*)
 -		CXXFLAGS="-nologo -W1 -EHsc -DWIN32"
@@ -25,15 +25,15 @@ use_msvc=no
 -  USE_MSVC_TRUE=
 -  USE_MSVC_FALSE='#'
 -else
-USE_MSVC_TRUE='#'
-USE_MSVC_FALSE=
+   USE_MSVC_TRUE='#'
+   USE_MSVC_FALSE=
 -fi
 @@ -22678,7 +22656,8 @@ $debug ||
-if test -n "$CONFIG_FILES"; then
+ if test -n "$CONFIG_FILES"; then
 -ac_cr='
 '
 +ac_cr='
 +'
-ac_cs_awk_cr=`$AWK 'BEGIN { print "a\rb" }' </dev/null 2>/dev/null`
-if test "$ac_cs_awk_cr" = "a${ac_cr}b"; then
-ac_cs_awk_cr='\\r'
+ ac_cs_awk_cr=`$AWK 'BEGIN { print "a\rb" }' </dev/null 2>/dev/null`
+ if test "$ac_cs_awk_cr" = "a${ac_cr}b"; then
+   ac_cs_awk_cr='\\r'

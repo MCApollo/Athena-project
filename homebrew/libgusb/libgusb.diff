@@ -3,18 +3,18 @@ index c39a8f1..4bee8ef 100644
 --- a/gusb/meson.build
 +++ b/gusb/meson.build
 @@ -37,8 +37,6 @@ install_headers([
-subdir : 'gusb-1/gusb',
-)
+   subdir : 'gusb-1/gusb',
+ )
 -mapfile = 'libgusb.ver'
 -vflag = '-Wl,--version-script,@0@/@1@'.format(meson.current_source_dir(), mapfile)
-gusb = shared_library(
-'gusb',
-sources : [
+ gusb = shared_library(
+   'gusb',
+   sources : [
 @@ -62,8 +60,6 @@ gusb = shared_library(
-root_incdir,
-lib_incdir,
-],
+       root_incdir,
+       lib_incdir,
+   ],
 -  link_args : vflag,
 -  link_depends : mapfile,
-install : true
-)
+   install : true
+ )

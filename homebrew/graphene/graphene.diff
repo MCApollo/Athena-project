@@ -3,12 +3,13 @@ index 0736994..5932028 100644
 --- a/meson.build
 +++ b/meson.build
 @@ -112,11 +112,6 @@ if host_system == 'linux' and cc.get_id() == 'gcc'
-common_ldflags = [ '-Wl,-Bsymbolic-functions', '-Wl,-z,relro', '-Wl,-z,now', ]
-endif
--
+   common_ldflags = [ '-Wl,-Bsymbolic-functions', '-Wl,-z,relro', '-Wl,-z,now', ]
+ endif
+-# Maintain compatibility with Autotools on macOS
 -if host_system == 'darwin'
 -  common_ldflags += [ '-compatibility_version 1', '-current_version 1.0', ]
 -endif
 -
-mathlib = cc.find_library('m', required: false)
-threadlib = dependency('threads')
+ # Required dependencies
+ mathlib = cc.find_library('m', required: false)
+ threadlib = dependency('threads')

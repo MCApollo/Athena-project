@@ -3,7 +3,10 @@ index ebe214a..4ba81d5 100644
 --- a/src/osd.c
 +++ b/src/osd.c
 @@ -516,7 +516,7 @@ osd_getPid ()
-int pid = _getpid ();
+ # if defined (WIN32) || defined (OS2) && defined (__IBMC__)
+   int pid = _getpid ();
+ # else
 -  __pid_t pid = getpid ();
 +  pid_t pid = getpid ();
-return (int) pid;
+ # endif
+   return (int) pid;

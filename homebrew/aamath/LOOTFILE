@@ -2,14 +2,14 @@
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aamath.rb
 # Converted on 02-02-2019
 
-name='aamathsumsymbolproductsymbolopsymbolsumorproduct'
+name='aamath'
 url=('http://fuse.superglue.se/aamath/aamath-0.3.tar.gz')
 description='Renders mathematical expressions as ASCII art'
 version='0.3' # Guessed version.
 priority='optional'
 homepage='http://fuse.superglue.se/aamath/'
 
-# A diff file was written to aamathsumsymbolproductsymbolopsymbolsumorproduct.diff
+# A diff file was written to aamath.diff
 # --> Patch the file before building.
 
 ###### Install ######

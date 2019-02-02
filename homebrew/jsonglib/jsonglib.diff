@@ -3,9 +3,9 @@ index cee6389..50808cf 100644
 --- a/meson.build
 +++ b/meson.build
 @@ -145,14 +145,6 @@ if host_system == 'linux'
-endforeach
-endif
--
+   endforeach
+ endif
+-# Maintain compatibility with autotools
 -if host_system == 'darwin'
 -  common_ldflags += [
 -    '-compatibility_version 1',
@@ -13,5 +13,5 @@ endif
 -  ]
 -endif
 -
-root_dir = include_directories('.')
-gnome = import('gnome')
+ root_dir = include_directories('.')
+ gnome = import('gnome')

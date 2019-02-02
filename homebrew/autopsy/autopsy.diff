@@ -6,4 +6,6 @@ index 3b3bbdc..a0d2632 100644
 +#!/usr/bin/perl -wT
 +use lib '/tmp/autopsy/';
 +use lib '/tmp/autopsy/libexec/';
-#
+ #
+ # autopsy gui server
+ # Autopsy Forensic Browser

@@ -3,18 +3,18 @@ index eba2fb1..510608e 100644
 --- a/code/core/header.cpp
 +++ b/code/core/header.cpp
 @@ -24,10 +24,6 @@
-#include <gtksourceview/gtksourcelanguage.h>
-#include <gdk/gdkkeysyms.h>
+ #include <gtksourceview/gtksourcelanguage.h>
+ #include <gdk/gdkkeysyms.h>
 -#ifdef PLATFORM_OSX_NATIVE
 -#include <ige-mac-menu.h>
 -#endif
 -
-namespace {
-Glib::ustring ui_desc =
-"<ui>"
+ namespace {
+	Glib::ustring ui_desc =
+		"<ui>"
 @@ -519,28 +515,7 @@ Gobby::Header::Header(Preferences& preferences,
-);
-}
+		);
+	}
 -#ifdef PLATFORM_OSX_NATIVE
 -	ige_mac_menu_set_menu_bar(GTK_MENU_SHELL(m_menubar->gobj()));
 -
@@ -35,18 +35,18 @@ Glib::ustring ui_desc =
 -			->gobj()),
 -		NULL);
 -#else
-pack_start(*m_menubar, Gtk::PACK_SHRINK);
+	pack_start(*m_menubar, Gtk::PACK_SHRINK);
 -#endif
-pack_start(*m_toolbar, Gtk::PACK_SHRINK);
-m_toolbar->set_toolbar_style(preferences.appearance.toolbar_style);
+	pack_start(*m_toolbar, Gtk::PACK_SHRINK);
+	m_toolbar->set_toolbar_style(preferences.appearance.toolbar_style);
 diff --git a/configure b/configure
 index 7dabb26..0987444 100755
 --- a/configure
 +++ b/configure
 @@ -4955,7 +4955,7 @@ $as_echo "#define PLATFORM_OSX 1" >>confdefs.h
-$as_echo "#define PLATFORM_OSX_NATIVE 1" >>confdefs.h
+ $as_echo "#define PLATFORM_OSX_NATIVE 1" >>confdefs.h
 -    required_libs="$required_libs ige-mac-integration"
 +    required_libs="$required_libs"
-fi
-fi
-cat >confcache <<\_ACEOF
+   fi
+ fi
+ cat >confcache <<\_ACEOF

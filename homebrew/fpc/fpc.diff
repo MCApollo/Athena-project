@@ -3,13 +3,14 @@ index b35a78ae..61d0817d 100644
 --- a/compiler/systems/t_bsd.pas
 +++ b/compiler/systems/t_bsd.pas
 @@ -310,7 +310,10 @@ begin
-if startupfile<>'' then
-begin
-if not librarysearchpath.FindFile(startupfile,false,result) then
+   if startupfile<>'' then
+     begin
+      if not librarysearchpath.FindFile(startupfile,false,result) then
 -       result:='/usr/lib/'+startupfile
 +       if sysutils.fileexists('/usr/lib/'+startupfile) then
 +         result:='/usr/lib/'+startupfile
 +       else if sysutils.fileexists('/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/') then
 +         result:='/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/'+startupfile
-else
-result:='';
+     end
+   else
+     result:='';

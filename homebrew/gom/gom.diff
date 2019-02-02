@@ -21,7 +21,7 @@ index feb4a9c..2fda8c1 100644
 -  purelibdir = sysconfig.get_path('purelib')
 -  overridedir = os.path.join(purelibdir, 'gi', 'overrides')
 -
--if overridedir.startswith(libdir):
+-if overridedir.startswith(libdir): # Should always be True..
 -  overridedir = overridedir[len(libdir) + 1:]
 -
 -print(overridedir)
@@ -35,4 +35,4 @@ index feb4a9c..2fda8c1 100644
 -  pygobject_override_dir = join_paths(get_option('libdir'), ret.stdout().strip())
 -endif
 -
-install_data('gi/overrides/Gom.py', install_dir: pygobject_override_dir)
+ install_data('gi/overrides/Gom.py', install_dir: pygobject_override_dir)

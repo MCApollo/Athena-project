@@ -3,13 +3,66 @@ index 793f2c2..fbc42da 100644
 --- a/libgitg/meson.build
 +++ b/libgitg/meson.build
 @@ -114,14 +114,13 @@ if gdk_targets.contains('quartz')
-sources += files('gitg-platform-support-osx.c')
-gio_system_pkg = 'gio-unix-2.0'
-deps += [
+   sources += files('gitg-platform-support-osx.c')
+   gio_system_pkg = 'gio-unix-2.0'
+   deps += [
 -    dependency(gio_system_pkg),
 -    find_library('objc')
 +    dependency(gio_system_pkg)
-]
-cflags += '-xobjective-c'
-endif
-endforeach
+   ]
+   cflags += '-xobjective-c'
+   test_ldflags += [
+-    '-framework Foundation',
+-    '-framework AppKit'
++    '-Wl,-framework', '-Wl,Foundation',
++    '-Wl,-framework', '-Wl,AppKit'
+   ]
+ elif gdk_targets.contains('win32')
+   sources += files('gitg-platform-support-win32.c')
+@@ -134,9 +133,7 @@ else
+ endif
+ foreach test_ldflag: test_ldflags
+-  if cc.has_argument(test_ldflag)
+     ldflags += test_ldflag
+-  endif
+ endforeach
+ libgitg = shared_library(
+diff --git a/meson.build b/meson.build
+index 0790c5e..61c7417 100644
+--- a/meson.build
++++ b/meson.build
+@@ -79,11 +79,9 @@ endif
+ if gitg_debug
+   test_cflags = [
+-    '-Werror=format=2',
+     '-Werror=implicit-function-declaration',
+     '-Werror=init-self',
+     '-Werror=missing-include-dirs',
+-    '-Werror=missing-prototypes',
+     '-Werror=pointer-arith',
+     '-Werror=return-type',
+     '-Wmissing-declarations',
+diff --git a/plugins/diff/meson.build b/plugins/diff/meson.build
+index efc0d5d..d92c558 100644
+--- a/plugins/diff/meson.build
++++ b/plugins/diff/meson.build
+@@ -17,5 +17,6 @@ libdiff = shared_module(
+   dependencies: plugin_deps,
+   c_args: plugin_cflags,
+   install: true,
+-  install_dir: plugin_dir
++  install_dir: plugin_dir,
++  name_suffix: 'so'
+ )
+diff --git a/plugins/files/meson.build b/plugins/files/meson.build
+index 74e34cc..f072fd3 100644
+--- a/plugins/files/meson.build
++++ b/plugins/files/meson.build
+@@ -24,5 +24,6 @@ libfiles = shared_module(
+   dependencies: plugin_deps,
+   c_args: plugin_cflags,
+   install: true,
+-  install_dir: plugin_dir
++  install_dir: plugin_dir,
++  name_suffix: 'so'
+ )
