@@ -1,6 +1,6 @@
 # unison.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/unison.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='unison'
 url=('https://github.com/bcpierce00/unison/archive/v2.51.2.tar.gz')

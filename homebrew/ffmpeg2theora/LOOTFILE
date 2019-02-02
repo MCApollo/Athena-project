@@ -1,6 +1,6 @@
 # ffmpeg2theora.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ffmpeg2theora.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ffmpeg2theora'
 url=('https://v2v.cc/~j/ffmpeg2theora/downloads/ffmpeg2theora-0.30.tar.bz2')

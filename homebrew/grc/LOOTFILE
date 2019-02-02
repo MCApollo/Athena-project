@@ -1,6 +1,6 @@
 # grc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/grc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='grc'
 url=('https://github.com/garabik/grc/archive/v1.11.3.tar.gz')

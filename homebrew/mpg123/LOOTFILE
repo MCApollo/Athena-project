@@ -1,6 +1,6 @@
 # mpg123.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpg123.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mpg123'
 url=('https://downloads.sourceforge.net/project/mpg123/mpg123/1.25.10/mpg123-1.25.10.tar.bz2')

@@ -1,6 +1,6 @@
 # bzr-upload.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bzr-upload.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bzrupload'
 url=('https://launchpad.net/bzr-upload/1.1/1.1.0/+download/bzr-upload-1.1.0.tar.gz')

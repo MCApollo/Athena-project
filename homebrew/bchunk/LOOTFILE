@@ -1,6 +1,6 @@
 # bchunk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bchunk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bchunk'
 url=('http://he.fi/bchunk/bchunk-1.2.2.tar.gz')

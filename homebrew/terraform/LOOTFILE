@@ -1,6 +1,6 @@
 # terraform.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/terraform.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='terraform'
 url=('https://github.com/hashicorp/terraform/archive/v0.11.11.tar.gz')

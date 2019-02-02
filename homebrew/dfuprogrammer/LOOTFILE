@@ -1,6 +1,6 @@
 # dfu-programmer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dfu-programmer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dfuprogrammer'
 url=('https://downloads.sourceforge.net/project/dfu-programmer/dfu-programmer/0.7.2/dfu-programmer-0.7.2.tar.gz')

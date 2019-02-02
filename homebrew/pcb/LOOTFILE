@@ -1,6 +1,6 @@
 # pcb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pcb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pcb'
 url=('https://downloads.sourceforge.net/project/pcb/pcb/pcb-4.1.2/pcb-4.1.2.tar.gz')

@@ -1,6 +1,6 @@
 # xdelta.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xdelta.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xdelta'
 url=('https://github.com/jmacd/xdelta/archive/v3.1.0.tar.gz')

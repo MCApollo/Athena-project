@@ -1,6 +1,6 @@
 # check_postgres.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/check_postgres.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='checkpostgres'
 url=('https://bucardo.org/downloads/check_postgres-2.23.0.tar.gz')

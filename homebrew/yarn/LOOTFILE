@@ -1,6 +1,6 @@
 # yarn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yarn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yarn'
 url=('https://yarnpkg.com/downloads/1.13.0/yarn-v1.13.0.tar.gz')

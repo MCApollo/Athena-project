@@ -1,6 +1,6 @@
 # beecrypt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/beecrypt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='beecrypt'
 url=('https://downloads.sourceforge.net/project/beecrypt/beecrypt/4.2.1/beecrypt-4.2.1.tar.gz')

@@ -1,6 +1,6 @@
 # openfortivpn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openfortivpn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openfortivpn'
 url=('https://github.com/adrienverge/openfortivpn/archive/v1.8.1.tar.gz')

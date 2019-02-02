@@ -1,6 +1,6 @@
 # nghttp2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nghttp2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nghttp2'
 url=('https://github.com/nghttp2/nghttp2/releases/download/v1.35.1/nghttp2-1.35.1.tar.xz')

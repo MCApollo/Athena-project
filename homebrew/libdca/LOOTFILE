@@ -1,6 +1,6 @@
 # libdca.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdca.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libdca'
 url=('https://download.videolan.org/pub/videolan/libdca/0.0.6/libdca-0.0.6.tar.bz2')

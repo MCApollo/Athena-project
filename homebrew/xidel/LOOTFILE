@@ -1,6 +1,6 @@
 # xidel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xidel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xidel'
 url=('https://github.com/benibela/xidel/releases/download/Xidel_0.9.8/xidel-0.9.8.src.tar.gz')

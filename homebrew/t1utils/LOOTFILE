@@ -1,6 +1,6 @@
 # t1utils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/t1utils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='t1utils'
 url=('https://www.lcdf.org/type/t1utils-1.41.tar.gz')

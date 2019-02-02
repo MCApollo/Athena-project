@@ -1,6 +1,6 @@
 # shairport-sync.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/shairport-sync.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='shairportsync'
 url=('https://github.com/mikebrady/shairport-sync/archive/3.2.2.tar.gz')

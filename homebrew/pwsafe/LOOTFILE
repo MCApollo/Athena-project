@@ -1,6 +1,6 @@
 # pwsafe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pwsafe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pwsafe'
 url=('https://src.fedoraproject.org/repo/pkgs/pwsafe/pwsafe-0.2.0.tar.gz/4bb36538a2772ecbf1a542bc7d4746c0/pwsafe-0.2.0.tar.gz')

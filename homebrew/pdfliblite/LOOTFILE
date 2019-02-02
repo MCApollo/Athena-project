@@ -1,6 +1,6 @@
 # pdflib-lite.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdflib-lite.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pdfliblite'
 url=('https://dl.bintray.com/homebrew/mirror/pdflib-lite--7.0.5p3.tar.xz')

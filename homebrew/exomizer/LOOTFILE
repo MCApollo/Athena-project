@@ -1,6 +1,6 @@
 # exomizer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/exomizer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='exomizer'
 url=('https://bitbucket.org/magli143/exomizer/wiki/downloads/exomizer-3.0.1.zip')

@@ -1,6 +1,6 @@
 # bibclean.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bibclean.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bibclean'
 url=('http://ftp.math.utah.edu/pub/bibclean/bibclean-2.17.tar.gz')

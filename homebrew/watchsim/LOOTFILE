@@ -1,6 +1,6 @@
 # watch-sim.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/watch-sim.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='watchsim'
 url=('https://github.com/alloy/watch-sim/archive/1.0.0.tar.gz')

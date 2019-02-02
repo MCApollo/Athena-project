@@ -1,6 +1,6 @@
 # google-java-format.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/google-java-format.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='googlejavaformat'
 url=('https://github.com/google/google-java-format/archive/google-java-format-1.6.tar.gz')

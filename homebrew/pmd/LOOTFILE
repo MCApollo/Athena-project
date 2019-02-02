@@ -1,6 +1,6 @@
 # pmd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pmd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pmd'
 url=('https://github.com/pmd/pmd/releases/download/pmd_releases/6.10.0/pmd-bin-6.10.0.zip')

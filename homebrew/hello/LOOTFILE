@@ -1,6 +1,6 @@
 # hello.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hello.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hello'
 url=('https://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz')

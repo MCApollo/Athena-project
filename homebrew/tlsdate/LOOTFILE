@@ -1,6 +1,6 @@
 # tlsdate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tlsdate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tlsdate'
 url=('https://github.com/ioerror/tlsdate/archive/tlsdate-0.0.13.tar.gz')

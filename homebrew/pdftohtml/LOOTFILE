@@ -1,6 +1,6 @@
 # pdftohtml.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdftohtml.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pdftohtml'
 url=('https://downloads.sourceforge.net/project/pdftohtml/Experimental%20Versions/pdftohtml%200.40/pdftohtml-0.40a.tar.gz')

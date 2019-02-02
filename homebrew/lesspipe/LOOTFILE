@@ -1,6 +1,6 @@
 # lesspipe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lesspipe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lesspipe'
 url=('https://downloads.sourceforge.net/project/lesspipe/lesspipe/1.83/lesspipe-1.83.tar.gz')

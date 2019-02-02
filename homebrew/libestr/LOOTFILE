@@ -1,6 +1,6 @@
 # libestr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libestr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libestr'
 url=('http://libestr.adiscon.com/files/download/libestr-0.1.10.tar.gz')

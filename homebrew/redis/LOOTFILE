@@ -1,6 +1,6 @@
 # redis.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/redis.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='redis'
 url=('http://download.redis.io/releases/redis-5.0.3.tar.gz')

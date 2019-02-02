@@ -1,6 +1,6 @@
 # atlassian-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/atlassian-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='atlassiancli'
 url=('https://bobswift.atlassian.net/wiki/download/attachments/16285777/atlassian-cli-8.0.0-distribution.zip')

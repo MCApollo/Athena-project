@@ -1,6 +1,6 @@
 # distcc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/distcc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='distcc'
 url=('https://github.com/distcc/distcc/releases/download/v3.3.2/distcc-3.3.2.tar.gz')

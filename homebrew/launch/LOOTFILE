@@ -1,6 +1,6 @@
 # launch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/launch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='launch'
 url=('https://sabi.net/nriley/software/launch-1.2.5.tar.gz')

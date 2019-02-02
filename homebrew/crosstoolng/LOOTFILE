@@ -1,6 +1,6 @@
 # crosstool-ng.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/crosstool-ng.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='crosstoolng'
 url=('http://crosstool-ng.org/download/crosstool-ng/crosstool-ng-1.23.0.tar.xz')

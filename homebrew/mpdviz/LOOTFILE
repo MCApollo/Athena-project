@@ -1,6 +1,6 @@
 # mpdviz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpdviz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mpdviz'
 url=('https://github.com/lucy/mpdviz/archive/0.4.6.tar.gz')

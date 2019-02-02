@@ -1,6 +1,6 @@
 # cmatrix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cmatrix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cmatrix'
 url=('https://www.asty.org/cmatrix/dist/cmatrix-1.2a.tar.gz')

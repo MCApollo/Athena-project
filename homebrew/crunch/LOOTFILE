@@ -1,6 +1,6 @@
 # crunch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/crunch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='crunch'
 url=('https://downloads.sourceforge.net/project/crunch-wordlist/crunch-wordlist/crunch-3.6.tgz')

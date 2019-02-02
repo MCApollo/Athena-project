@@ -1,6 +1,6 @@
 # mosquitto.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mosquitto.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mosquitto'
 url=('https://mosquitto.org/files/source/mosquitto-1.5.5.tar.gz')

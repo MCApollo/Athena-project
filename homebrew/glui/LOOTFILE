@@ -1,6 +1,6 @@
 # glui.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glui.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glui'
 url=('https://downloads.sourceforge.net/project/glui/Source/2.36/glui-2.36.tgz')

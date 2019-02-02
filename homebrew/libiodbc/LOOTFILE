@@ -1,6 +1,6 @@
 # libiodbc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libiodbc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libiodbc'
 url=('https://downloads.sourceforge.net/project/iodbc/iodbc/3.52.12/libiodbc-3.52.12.tar.gz')

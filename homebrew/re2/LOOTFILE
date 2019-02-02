@@ -1,6 +1,6 @@
 # re2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/re2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='re2'
 url=('https://github.com/google/re2/archive/2019-01-01.tar.gz')

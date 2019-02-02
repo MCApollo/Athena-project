@@ -1,6 +1,6 @@
 # libchewing.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libchewing.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libchewing'
 url=('https://github.com/chewing/libchewing/releases/download/v0.5.1/libchewing-0.5.1.tar.bz2')

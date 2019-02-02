@@ -1,6 +1,6 @@
 # pytouhou.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pytouhou.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pytouhou'
 url=('5270c34b4c00')

@@ -1,6 +1,6 @@
 # metabase.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/metabase.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='metabase'
 url=('http://downloads.metabase.com/v0.30.4/metabase.jar')

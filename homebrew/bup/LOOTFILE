@@ -1,6 +1,6 @@
 # bup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bup'
 url=('https://github.com/bup/bup/archive/0.29.2.tar.gz')

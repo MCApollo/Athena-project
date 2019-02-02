@@ -1,6 +1,6 @@
 # joshua.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/joshua.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='joshua'
 url=('https://cs.jhu.edu/~post/files/joshua-6.0.5.tgz')

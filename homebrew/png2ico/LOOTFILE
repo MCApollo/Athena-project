@@ -1,6 +1,6 @@
 # png2ico.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/png2ico.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='png2ico'
 url=('https://www.winterdrache.de/freeware/png2ico/data/png2ico-src-2002-12-08.tar.gz')

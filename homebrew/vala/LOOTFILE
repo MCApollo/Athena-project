@@ -1,6 +1,6 @@
 # vala.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vala.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vala'
 url=('https://download.gnome.org/sources/vala/0.42/vala-0.42.5.tar.xz')

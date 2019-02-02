@@ -1,6 +1,6 @@
 # leveldb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/leveldb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='leveldb'
 url=('https://github.com/google/leveldb/archive/v1.20.tar.gz')

@@ -1,6 +1,6 @@
 # zenity.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zenity.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zenity'
 url=('https://download.gnome.org/sources/zenity/3.30/zenity-3.30.0.tar.xz')

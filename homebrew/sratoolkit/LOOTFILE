@@ -1,6 +1,6 @@
 # sratoolkit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sratoolkit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sratoolkit'
 url=('https://github.com/ncbi/sra-tools/archive/2.9.3.tar.gz')

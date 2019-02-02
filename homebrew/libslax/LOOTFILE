@@ -1,6 +1,6 @@
 # libslax.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libslax.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libslax'
 url=('https://github.com/Juniper/libslax/releases/download/0.22.0/libslax-0.22.0.tar.gz')

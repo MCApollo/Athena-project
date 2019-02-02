@@ -1,6 +1,6 @@
 # libpuzzle.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpuzzle.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libpuzzle'
 url=('https://download.pureftpd.org/pub/pure-ftpd/misc/libpuzzle/releases/libpuzzle-0.11.tar.bz2')

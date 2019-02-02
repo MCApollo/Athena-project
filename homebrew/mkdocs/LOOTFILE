@@ -1,6 +1,6 @@
 # mkdocs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mkdocs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mkdocs'
 url=('https://github.com/mkdocs/mkdocs/archive/1.0.4.tar.gz')

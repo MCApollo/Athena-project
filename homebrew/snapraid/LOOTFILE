@@ -1,6 +1,6 @@
 # snapraid.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/snapraid.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snapraid'
 url=('https://github.com/amadvance/snapraid/releases/download/v11.3/snapraid-11.3.tar.gz')

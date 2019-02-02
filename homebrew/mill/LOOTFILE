@@ -1,6 +1,6 @@
 # mill.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mill.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mill'
 url=('https://github.com/lihaoyi/mill/releases/download/0.3.6/0.3.6')

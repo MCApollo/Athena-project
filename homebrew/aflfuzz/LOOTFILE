@@ -1,6 +1,6 @@
 # afl-fuzz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/afl-fuzz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aflfuzz'
 url=('http://lcamtuf.coredump.cx/afl/releases/afl-2.52b.tgz')

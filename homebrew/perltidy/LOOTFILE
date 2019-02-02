@@ -1,6 +1,6 @@
 # perltidy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/perltidy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='perltidy'
 url=('https://downloads.sourceforge.net/project/perltidy/20180220/Perl-Tidy-20180220.tar.gz')

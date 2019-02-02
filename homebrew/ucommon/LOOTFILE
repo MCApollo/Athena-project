@@ -1,6 +1,6 @@
 # ucommon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ucommon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ucommon'
 url=('https://ftp.gnu.org/gnu/commonc++/ucommon-7.0.0.tar.gz')

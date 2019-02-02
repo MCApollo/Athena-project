@@ -1,6 +1,6 @@
 # rancid.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rancid.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rancid'
 url=('ftp://ftp.shrubbery.net/pub/rancid/rancid-3.7.tar.gz')

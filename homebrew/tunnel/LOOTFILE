@@ -1,6 +1,6 @@
 # tunnel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tunnel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tunnel'
 url=('https://github.com/labstack/tunnel-client/archive/v0.2.12.tar.gz')

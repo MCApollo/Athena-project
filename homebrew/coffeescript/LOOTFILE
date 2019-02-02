@@ -1,6 +1,6 @@
 # coffeescript.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/coffeescript.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='coffeescript'
 url=('https://registry.npmjs.org/coffeescript/-/coffeescript-2.3.2.tgz')

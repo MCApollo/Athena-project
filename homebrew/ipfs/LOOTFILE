@@ -1,6 +1,6 @@
 # ipfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ipfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ipfs'
 url=('https://github.com/ipfs/go-ipfs.git')

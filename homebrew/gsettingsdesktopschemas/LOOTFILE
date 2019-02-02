@@ -1,6 +1,6 @@
 # gsettings-desktop-schemas.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gsettings-desktop-schemas.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gsettingsdesktopschemas'
 url=('https://download.gnome.org/sources/gsettings-desktop-schemas/3.28/gsettings-desktop-schemas-3.28.1.tar.xz')

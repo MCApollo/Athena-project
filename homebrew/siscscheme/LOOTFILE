@@ -1,6 +1,6 @@
 # sisc-scheme.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sisc-scheme.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='siscscheme'
 url=('https://downloads.sourceforge.net/project/sisc/SISC%20Lite/1.16.6/sisc-lite-1.16.6.tar.gz')

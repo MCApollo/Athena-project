@@ -1,6 +1,6 @@
 # hicolor-icon-theme.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hicolor-icon-theme.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hicoloricontheme'
 url=('https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.17.tar.xz')

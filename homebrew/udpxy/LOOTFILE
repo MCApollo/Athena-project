@@ -1,6 +1,6 @@
 # udpxy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/udpxy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='udpxy'
 url=('http://www.udpxy.com/download/1_23/udpxy.1.0.23-12-prod.tar.gz')

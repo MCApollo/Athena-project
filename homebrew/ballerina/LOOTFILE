@@ -1,6 +1,6 @@
 # ballerina.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ballerina.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ballerina'
 url=('https://product-dist.ballerina.io/downloads/0.990.2/ballerina-0.990.2.zip')

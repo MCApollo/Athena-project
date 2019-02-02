@@ -1,6 +1,6 @@
 # etcd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/etcd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='etcd'
 url=('https://github.com/etcd-io/etcd/archive/v3.3.11.tar.gz')

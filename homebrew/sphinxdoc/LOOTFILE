@@ -1,6 +1,6 @@
 # sphinx-doc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sphinx-doc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sphinxdoc'
 url=('https://files.pythonhosted.org/packages/4d/ed/4595274b5c9ce53a768cc0804ef65fd6282c956b93919a969e98d53894e4/Sphinx-1.8.3.tar.gz')

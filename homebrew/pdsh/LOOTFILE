@@ -1,6 +1,6 @@
 # pdsh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdsh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pdsh'
 url=('https://github.com/chaos/pdsh/releases/download/pdsh-2.33/pdsh-2.33.tar.gz')

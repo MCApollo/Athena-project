@@ -1,6 +1,6 @@
 # tnef.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tnef.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tnef'
 url=('https://github.com/verdammelt/tnef/archive/1.4.17.tar.gz')

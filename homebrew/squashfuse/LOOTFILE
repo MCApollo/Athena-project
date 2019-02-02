@@ -1,6 +1,6 @@
 # squashfuse.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/squashfuse.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='squashfuse'
 url=('https://github.com/vasi/squashfuse/releases/download/0.1.103/squashfuse-0.1.103.tar.gz')

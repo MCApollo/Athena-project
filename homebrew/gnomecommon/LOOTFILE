@@ -1,6 +1,6 @@
 # gnome-common.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnome-common.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnomecommon'
 url=('https://download.gnome.org/sources/gnome-common/3.18/gnome-common-3.18.0.tar.xz')

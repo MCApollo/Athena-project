@@ -1,6 +1,6 @@
 # deisctl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/deisctl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='deisctl'
 url=('https://github.com/deis/deis/archive/v1.13.4.tar.gz')

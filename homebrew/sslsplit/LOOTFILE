@@ -1,6 +1,6 @@
 # sslsplit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sslsplit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sslsplit'
 url=('https://mirror.roe.ch/rel/sslsplit/sslsplit-0.5.3.tar.bz2')

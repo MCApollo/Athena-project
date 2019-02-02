@@ -1,6 +1,6 @@
 # startup-notification.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/startup-notification.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='startupnotification'
 url=('https://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.12.tar.gz')

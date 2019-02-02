@@ -1,6 +1,6 @@
 # djbdns.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/djbdns.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='djbdns'
 url=('https://cr.yp.to/djbdns/djbdns-1.05.tar.gz')

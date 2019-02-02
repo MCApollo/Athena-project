@@ -1,6 +1,6 @@
 # rdesktop.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rdesktop.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rdesktop'
 url=('https://downloads.sourceforge.net/project/rdesktop/rdesktop/1.8.3/rdesktop-1.8.3.tar.gz')

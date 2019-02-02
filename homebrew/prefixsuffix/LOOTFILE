@@ -1,6 +1,6 @@
 # prefixsuffix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/prefixsuffix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='prefixsuffix'
 url=('https://download.gnome.org/sources/prefixsuffix/0.6/prefixsuffix-0.6.9.tar.xz')

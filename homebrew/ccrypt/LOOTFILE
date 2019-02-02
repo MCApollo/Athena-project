@@ -1,6 +1,6 @@
 # ccrypt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ccrypt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ccrypt'
 url=('https://downloads.sourceforge.net/project/ccrypt/1.11/ccrypt-1.11.tar.gz')

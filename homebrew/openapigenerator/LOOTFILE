@@ -1,6 +1,6 @@
 # openapi-generator.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openapi-generator.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openapigenerator'
 url=('https://search.maven.org/remotecontent?filepath=org/openapitools/openapi-generator-cli/3.3.4/openapi-generator-cli-3.3.4.jar')

@@ -1,6 +1,6 @@
 # swig@3.04.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/swig@3.04.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='swigat304'
 url=('https://downloads.sourceforge.net/project/swig/swig/swig-3.0.4/swig-3.0.4.tar.gz')

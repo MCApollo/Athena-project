@@ -1,6 +1,6 @@
 # synscan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/synscan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='synscan'
 url=('http://www.digit-labs.org/files/tools/synscan/releases/synscan-5.02.tar.gz')

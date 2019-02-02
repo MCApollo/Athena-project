@@ -1,6 +1,6 @@
 # dartsim.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dartsim.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dartsim'
 url=('https://github.com/dartsim/dart/archive/v6.7.2.tar.gz')

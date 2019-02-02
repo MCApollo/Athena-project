@@ -1,6 +1,6 @@
 # writerperfect.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/writerperfect.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='writerperfect'
 url=('https://downloads.sourceforge.net/project/libwpd/writerperfect/writerperfect-0.9.6/writerperfect-0.9.6.tar.xz')

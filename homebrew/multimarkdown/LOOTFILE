@@ -1,6 +1,6 @@
 # multimarkdown.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/multimarkdown.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='multimarkdown'
 url=('https://github.com/fletcher/MultiMarkdown-6/archive/6.4.0.tar.gz')

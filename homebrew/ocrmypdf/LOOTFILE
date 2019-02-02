@@ -1,6 +1,6 @@
 # ocrmypdf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ocrmypdf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ocrmypdf'
 url=('https://files.pythonhosted.org/packages/c1/32/06c0381653284bab21b26612dee0c923440f35143e59a43a744e4cf1bd12/ocrmypdf-7.2.1.tar.gz')

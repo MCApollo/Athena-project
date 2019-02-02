@@ -1,6 +1,6 @@
 # ta-lib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ta-lib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='talib'
 url=('https://downloads.sourceforge.net/project/ta-lib/ta-lib/0.4.0/ta-lib-0.4.0-src.tar.gz')

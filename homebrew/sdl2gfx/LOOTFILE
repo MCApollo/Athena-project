@@ -1,6 +1,6 @@
 # sdl2_gfx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdl2_gfx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sdl2gfx'
 url=('https://www.ferzkopp.net/Software/SDL2_gfx/SDL2_gfx-1.0.4.tar.gz')

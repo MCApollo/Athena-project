@@ -1,6 +1,6 @@
 # remarshal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/remarshal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='remarshal'
 url=('https://github.com/dbohdan/remarshal/archive/v0.9.0.tar.gz')

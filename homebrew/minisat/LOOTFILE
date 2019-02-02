@@ -1,6 +1,6 @@
 # minisat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minisat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minisat'
 url=('https://github.com/niklasso/minisat/archive/releases/2.2.0.tar.gz')

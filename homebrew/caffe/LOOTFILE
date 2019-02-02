@@ -1,6 +1,6 @@
 # caffe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/caffe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='caffe'
 url=('https://github.com/BVLC/caffe/archive/1.0.tar.gz')

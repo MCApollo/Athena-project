@@ -1,6 +1,6 @@
 # clamz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clamz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clamz'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/clamz/clamz-0.5.tar.gz')

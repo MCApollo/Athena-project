@@ -1,6 +1,6 @@
 # pidof.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pidof.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pidof'
 url=('http://www.nightproductions.net/downloads/pidof_source.tar.gz')

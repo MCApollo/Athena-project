@@ -1,6 +1,6 @@
 # htpdate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/htpdate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='htpdate'
 url=('http://www.vervest.org/htp/archive/c/htpdate-0.9.1.tar.bz2')

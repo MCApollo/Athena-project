@@ -1,6 +1,6 @@
 # hackrf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hackrf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hackrf'
 url=('https://github.com/mossmann/hackrf/archive/v2018.01.1.tar.gz')

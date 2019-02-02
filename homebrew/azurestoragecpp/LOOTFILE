@@ -1,6 +1,6 @@
 # azure-storage-cpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/azure-storage-cpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='azurestoragecpp'
 url=('https://github.com/Azure/azure-storage-cpp/archive/v5.2.0.tar.gz')

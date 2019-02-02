@@ -1,6 +1,6 @@
 # walkmod.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/walkmod.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='walkmod'
 url=('https://bitbucket.org/rpau/walkmod/downloads/walkmod-3.0.0-installer.zip')

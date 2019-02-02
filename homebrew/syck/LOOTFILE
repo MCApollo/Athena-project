@@ -1,6 +1,6 @@
 # syck.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/syck.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='syck'
 url=('https://github.s3.amazonaws.com/downloads/indeyets/syck/syck-0.70.tar.gz')

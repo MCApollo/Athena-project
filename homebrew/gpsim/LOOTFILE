@@ -1,6 +1,6 @@
 # gpsim.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gpsim.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gpsim'
 url=('https://downloads.sourceforge.net/project/gpsim/gpsim/0.30.0/gpsim-0.30.0.tar.gz')

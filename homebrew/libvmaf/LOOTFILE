@@ -1,6 +1,6 @@
 # libvmaf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libvmaf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libvmaf'
 url=('https://github.com/Netflix/vmaf/archive/v1.3.11.tar.gz')

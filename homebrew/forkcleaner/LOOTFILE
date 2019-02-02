@@ -1,6 +1,6 @@
 # fork-cleaner.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fork-cleaner.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='forkcleaner'
 url=('https://github.com/caarlos0/fork-cleaner/archive/v1.4.3.tar.gz')

@@ -1,6 +1,6 @@
 # rainbarf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rainbarf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rainbarf'
 url=('https://github.com/creaktive/rainbarf/archive/v1.4.tar.gz')

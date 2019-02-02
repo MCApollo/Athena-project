@@ -1,6 +1,6 @@
 # jhiccup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jhiccup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jhiccup'
 url=('https://www.azul.com/files/jHiccup-2.0.9-dist.zip')

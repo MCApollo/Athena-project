@@ -1,6 +1,6 @@
 # libusrsctp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libusrsctp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libusrsctp'
 url=('https://github.com/sctplab/usrsctp/archive/0.9.3.0.tar.gz')

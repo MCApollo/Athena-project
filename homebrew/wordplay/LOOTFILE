@@ -1,6 +1,6 @@
 # wordplay.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wordplay.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wordplay'
 url=('http://hsvmovies.com/static_subpages/personal_orig/wordplay/wordplay722.tar.Z')

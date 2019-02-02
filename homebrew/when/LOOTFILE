@@ -1,6 +1,6 @@
 # when.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/when.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='when'
 url=('https://deb.debian.org/debian/pool/main/w/when/when_1.1.38.orig.tar.gz')

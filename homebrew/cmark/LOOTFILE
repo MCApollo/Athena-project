@@ -1,6 +1,6 @@
 # cmark.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cmark.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cmark'
 url=('https://github.com/commonmark/cmark/archive/0.28.3.tar.gz')

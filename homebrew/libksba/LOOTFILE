@@ -1,6 +1,6 @@
 # libksba.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libksba.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libksba'
 url=('https://gnupg.org/ftp/gcrypt/libksba/libksba-1.3.5.tar.bz2')

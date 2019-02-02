@@ -1,6 +1,6 @@
 # mysql-cluster.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mysql-cluster.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mysqlcluster'
 url=('https://dev.mysql.com/get/Downloads/MySQL-Cluster-7.5/mysql-cluster-gpl-7.5.7.tar.gz')

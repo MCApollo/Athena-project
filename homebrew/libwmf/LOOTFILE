@@ -1,6 +1,6 @@
 # libwmf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libwmf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libwmf'
 url=('https://downloads.sourceforge.net/project/wvware/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz')

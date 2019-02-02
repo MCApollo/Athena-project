@@ -1,6 +1,6 @@
 # terraform_landscape.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/terraform_landscape.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='terraformlandscape'
 url=('https://github.com/coinbase/terraform-landscape/archive/v0.2.2.tar.gz')

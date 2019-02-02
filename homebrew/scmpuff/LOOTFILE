@@ -1,6 +1,6 @@
 # scmpuff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scmpuff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scmpuff'
 url=('https://github.com/mroth/scmpuff/archive/v0.2.1.tar.gz')

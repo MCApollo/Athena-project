@@ -1,6 +1,6 @@
 # minidjvu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minidjvu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minidjvu'
 url=('https://downloads.sourceforge.net/project/minidjvu/minidjvu/0.8/minidjvu-0.8.tar.gz')

@@ -1,6 +1,6 @@
 # jxrlib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jxrlib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jxrlib'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/j/jxrlib/jxrlib_1.1.orig.tar.gz')

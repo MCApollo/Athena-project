@@ -1,6 +1,6 @@
 # scons.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scons.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scons'
 url=('https://downloads.sourceforge.net/project/scons/scons/3.0.1/scons-3.0.1.tar.gz')

@@ -1,6 +1,6 @@
 # mdbtools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mdbtools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mdbtools'
 url=('https://github.com/brianb/mdbtools/archive/0.7.1.tar.gz')

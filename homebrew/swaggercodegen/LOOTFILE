@@ -1,6 +1,6 @@
 # swagger-codegen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/swagger-codegen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='swaggercodegen'
 url=('https://github.com/swagger-api/swagger-codegen/archive/v3.0.4.tar.gz')

@@ -1,6 +1,6 @@
 # httpdiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/httpdiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='httpdiff'
 url=('https://github.com/jgrahamc/httpdiff/archive/v1.0.0.tar.gz')

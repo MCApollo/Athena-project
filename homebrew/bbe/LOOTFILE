@@ -1,6 +1,6 @@
 # bbe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bbe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bbe'
 url=('https://downloads.sourceforge.net/project/bbe-/bbe/0.2.2/bbe-0.2.2.tar.gz')

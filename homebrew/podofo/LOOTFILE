@@ -1,6 +1,6 @@
 # podofo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/podofo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='podofo'
 url=('https://downloads.sourceforge.net/podofo/podofo-0.9.5.tar.gz')

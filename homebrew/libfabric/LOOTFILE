@@ -1,6 +1,6 @@
 # libfabric.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libfabric.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libfabric'
 url=('https://github.com/ofiwg/libfabric/releases/download/v1.6.2/libfabric-1.6.2.tar.bz2')

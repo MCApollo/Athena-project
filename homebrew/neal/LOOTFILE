@@ -1,6 +1,6 @@
 # neal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/neal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='neal'
 url=('https://github.com/uber/NEAL/archive/v0.2.4.tar.gz')

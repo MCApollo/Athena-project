@@ -1,6 +1,6 @@
 # gl2ps.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gl2ps.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gl2ps'
 url=('https://geuz.org/gl2ps/src/gl2ps-1.4.0.tgz')

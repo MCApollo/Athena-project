@@ -1,6 +1,6 @@
 # bartycrouch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bartycrouch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bartycrouch'
 url=('https://github.com/Flinesoft/BartyCrouch/archive/3.13.1.tar.gz')

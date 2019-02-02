@@ -1,6 +1,6 @@
 # freetds.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/freetds.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='freetds'
 url=('http://www.freetds.org/files/stable/freetds-1.00.109.tar.gz')

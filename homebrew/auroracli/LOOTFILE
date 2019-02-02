@@ -1,6 +1,6 @@
 # aurora-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aurora-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='auroracli'
 url=('https://www.apache.org/dyn/closer.cgi?path=/aurora/0.21.0/apache-aurora-0.21.0.tar.gz')

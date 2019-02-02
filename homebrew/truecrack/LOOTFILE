@@ -1,6 +1,6 @@
 # truecrack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/truecrack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='truecrack'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/truecrack/truecrack_v35.tar.gz')

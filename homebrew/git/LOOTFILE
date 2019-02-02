@@ -1,6 +1,6 @@
 # git.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='git'
 url=('https://www.kernel.org/pub/software/scm/git/git-2.20.1.tar.xz')

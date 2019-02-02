@@ -1,6 +1,6 @@
 # mahout.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mahout.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mahout'
 url=('https://www.apache.org/dyn/closer.cgi?path=mahout/0.13.0/apache-mahout-distribution-0.13.0.tar.gz')

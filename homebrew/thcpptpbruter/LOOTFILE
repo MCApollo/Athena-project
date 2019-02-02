@@ -1,6 +1,6 @@
 # thc-pptp-bruter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/thc-pptp-bruter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='thcpptpbruter'
 url=('https://freeworld.thc.org/releases/thc-pptp-bruter-0.1.4.tar.gz')

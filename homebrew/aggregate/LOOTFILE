@@ -1,6 +1,6 @@
 # aggregate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aggregate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aggregate'
 url=('https://ftp.isc.org/isc/aggregate/aggregate-1.6.tar.gz')

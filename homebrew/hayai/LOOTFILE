@@ -1,6 +1,6 @@
 # hayai.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hayai.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hayai'
 url=('https://github.com/nickbruun/hayai/archive/v1.0.2.tar.gz')

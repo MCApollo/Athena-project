@@ -1,6 +1,6 @@
 # ncdc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ncdc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ncdc'
 url=('https://dev.yorhel.nl/download/ncdc-1.20.tar.gz')

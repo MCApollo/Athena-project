@@ -1,6 +1,6 @@
 # nu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nu'
 url=('https://github.com/nulang/nu/archive/v2.2.2.tar.gz')

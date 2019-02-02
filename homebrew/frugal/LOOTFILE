@@ -1,6 +1,6 @@
 # frugal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/frugal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='frugal'
 url=('https://github.com/Workiva/frugal/archive/2.26.1.tar.gz')

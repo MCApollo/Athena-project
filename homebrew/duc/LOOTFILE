@@ -1,6 +1,6 @@
 # duc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/duc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='duc'
 url=('https://github.com/zevv/duc/releases/download/1.4.4/duc-1.4.4.tar.gz')

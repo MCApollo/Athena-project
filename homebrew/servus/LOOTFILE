@@ -1,6 +1,6 @@
 # servus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/servus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='servus'
 url=('https://github.com/HBPVIS/Servus.git')

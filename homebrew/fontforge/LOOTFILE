@@ -1,6 +1,6 @@
 # fontforge.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fontforge.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fontforge'
 url=('https://github.com/fontforge/fontforge/releases/download/20170731/fontforge-dist-20170731.tar.xz')

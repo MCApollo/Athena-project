@@ -1,6 +1,6 @@
 # tenyr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tenyr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tenyr'
 url=('https://github.com/kulp/tenyr/archive/v0.9.6.tar.gz')

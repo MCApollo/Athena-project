@@ -1,6 +1,6 @@
 # jumanpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jumanpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jumanpp'
 url=('https://lotus.kuee.kyoto-u.ac.jp/nl-resource/jumanpp/jumanpp-1.02.tar.xz')

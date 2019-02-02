@@ -1,6 +1,6 @@
 # xerces-c.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xerces-c.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xercesc'
 url=('https://www.apache.org/dyn/closer.cgi?path=xerces/c/3/sources/xerces-c-3.2.2.tar.gz')

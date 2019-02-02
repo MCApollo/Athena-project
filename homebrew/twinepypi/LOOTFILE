@@ -1,6 +1,6 @@
 # twine-pypi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/twine-pypi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='twinepypi'
 url=('https://files.pythonhosted.org/packages/29/4d/801bbad5968e674c1ca047118025243a475f986a6f5b3ca36e5afece0f9f/twine-1.12.1.tar.gz')

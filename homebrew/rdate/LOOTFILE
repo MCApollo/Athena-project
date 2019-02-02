@@ -1,6 +1,6 @@
 # rdate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rdate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rdate'
 url=('https://www.aelius.com/njh/rdate/rdate-1.5.tar.gz')

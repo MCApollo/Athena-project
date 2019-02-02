@@ -1,6 +1,6 @@
 # maxwell.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/maxwell.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='maxwell'
 url=('https://github.com/zendesk/maxwell/releases/download/v1.19.5/maxwell-1.19.5.tar.gz')

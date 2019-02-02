@@ -1,6 +1,6 @@
 # cgvg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cgvg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cgvg'
 url=('http://www.uzix.org/cgvg/cgvg-1.6.3.tar.gz')

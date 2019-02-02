@@ -1,6 +1,6 @@
 # gssh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gssh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gssh'
 url=('https://github.com/int128/groovy-ssh/archive/2.9.0.tar.gz')

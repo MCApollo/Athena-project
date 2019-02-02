@@ -1,6 +1,6 @@
 # dwarfutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dwarfutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dwarfutils'
 url=('https://www.prevanders.net/libdwarf-20180809.tar.gz')

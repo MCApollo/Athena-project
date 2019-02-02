@@ -1,6 +1,6 @@
 # icarus-verilog.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/icarus-verilog.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='icarusverilog'
 url=('ftp://icarus.com/pub/eda/verilog/v10/verilog-10.2.tar.gz')

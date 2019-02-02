@@ -1,6 +1,6 @@
 # ejabberd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ejabberd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ejabberd'
 url=('https://www.process-one.net/downloads/ejabberd/18.09/ejabberd-18.09.tgz')

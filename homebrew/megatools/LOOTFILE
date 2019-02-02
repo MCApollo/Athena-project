@@ -1,6 +1,6 @@
 # megatools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/megatools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='megatools'
 url=('https://megatools.megous.com/builds/megatools-1.10.2.tar.gz')

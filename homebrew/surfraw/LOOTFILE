@@ -1,6 +1,6 @@
 # surfraw.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/surfraw.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='surfraw'
 url=('https://ftp.openbsd.org/pub/OpenBSD/distfiles/surfraw-2.3.0.tar.gz')

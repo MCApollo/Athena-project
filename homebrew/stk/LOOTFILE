@@ -1,6 +1,6 @@
 # stk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stk'
 url=('https://ccrma.stanford.edu/software/stk/release/stk-4.6.0.tar.gz')

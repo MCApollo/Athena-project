@@ -1,6 +1,6 @@
 # compose2kube.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/compose2kube.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='compose2kube'
 url=('https://github.com/kelseyhightower/compose2kube/archive/0.0.2.tar.gz')

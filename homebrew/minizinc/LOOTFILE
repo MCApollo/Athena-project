@@ -1,6 +1,6 @@
 # minizinc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minizinc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minizinc'
 url=('https://github.com/MiniZinc/libminizinc/archive/2.2.3.tar.gz')

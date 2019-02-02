@@ -1,6 +1,6 @@
 # gjs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gjs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gjs'
 url=('https://download.gnome.org/sources/gjs/1.54/gjs-1.54.3.tar.xz')

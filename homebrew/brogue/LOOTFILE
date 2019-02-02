@@ -1,6 +1,6 @@
 # brogue.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/brogue.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='brogue'
 url=('https://sites.google.com/site/broguegame/brogue-1.7.5-linux-amd64.tbz2')

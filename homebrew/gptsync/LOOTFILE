@@ -1,6 +1,6 @@
 # gptsync.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gptsync.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gptsync'
 url=('https://downloads.sourceforge.net/refit/refit-src-0.14.tar.gz')

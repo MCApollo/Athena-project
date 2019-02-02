@@ -1,6 +1,6 @@
 # aws-shell.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-shell.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='awsshell'
 url=('https://files.pythonhosted.org/packages/46/5a/c01bbff96fcbe8051e0b59e6191e07f5917f7f2cf667557c7dcbb85f62c3/aws-shell-0.2.1.tar.gz')

@@ -1,6 +1,6 @@
 # robotfindskitten.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/robotfindskitten.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='robotfindskitten'
 url=('https://downloads.sourceforge.net/project/rfk/robotfindskitten-POSIX/mayan_apocalypse_edition/robotfindskitten-2.7182818.701.tar.gz')

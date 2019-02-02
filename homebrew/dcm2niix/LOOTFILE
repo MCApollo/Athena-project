@@ -1,6 +1,6 @@
 # dcm2niix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dcm2niix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dcm2niix'
 url=('https://github.com/rordenlab/dcm2niix/archive/v1.0.20181125.tar.gz')

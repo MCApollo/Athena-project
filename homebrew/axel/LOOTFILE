@@ -1,6 +1,6 @@
 # axel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/axel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='axel'
 url=('https://github.com/axel-download-accelerator/axel/archive/v2.15.tar.gz')

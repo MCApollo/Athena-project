@@ -1,6 +1,6 @@
 # nuxeo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nuxeo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nuxeo'
 url=('https://cdn.nuxeo.com/nuxeo-10.10/nuxeo-server-10.10-tomcat.zip')

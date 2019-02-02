@@ -1,6 +1,6 @@
 # clens.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clens.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clens'
 url=('https://github.com/conformal/clens/archive/CLENS_0_7_0.tar.gz')

@@ -1,6 +1,6 @@
 # python.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/python.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='python'
 url=('https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz')

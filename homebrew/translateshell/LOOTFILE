@@ -1,6 +1,6 @@
 # translate-shell.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/translate-shell.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='translateshell'
 url=('https://github.com/soimort/translate-shell/archive/v0.9.6.9.tar.gz')

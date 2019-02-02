@@ -1,6 +1,6 @@
 # dxpy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dxpy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dxpy'
 url=('https://files.pythonhosted.org/packages/50/2c/e0fdd293350ca01b3d7ee7a41ee6272f2f8f2ae70bacdf3888b99904b59b/dxpy-0.262.0.tar.gz')

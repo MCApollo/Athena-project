@@ -1,6 +1,6 @@
 # shared-mime-info.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/shared-mime-info.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sharedmimeinfo'
 url=('https://freedesktop.org/~hadess/shared-mime-info-1.10.tar.xz')

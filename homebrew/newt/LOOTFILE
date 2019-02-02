@@ -1,6 +1,6 @@
 # newt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/newt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='newt'
 url=('https://pagure.io/releases/newt/newt-0.52.20.tar.gz')

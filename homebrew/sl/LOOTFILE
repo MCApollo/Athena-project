@@ -1,6 +1,6 @@
 # sl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sl'
 url=('https://github.com/mtoyoda/sl/archive/5.02.tar.gz')

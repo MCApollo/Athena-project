@@ -1,6 +1,6 @@
 # agda.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/agda.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='agda'
 url=('https://hackage.haskell.org/package/Agda-2.5.4.2/Agda-2.5.4.2.tar.gz')

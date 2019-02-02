@@ -1,6 +1,6 @@
 # clozure-cl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clozure-cl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clozurecl'
 url=('https://github.com/Clozure/ccl/archive/v1.11.5.tar.gz')

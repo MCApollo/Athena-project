@@ -1,6 +1,6 @@
 # chakra.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chakra.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chakra'
 url=('https://github.com/Microsoft/ChakraCore/archive/v1.11.5.tar.gz')

@@ -1,6 +1,6 @@
 # mplayershell.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mplayershell.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mplayershell'
 url=('https://github.com/donmelton/MPlayerShell/archive/0.9.3.tar.gz')

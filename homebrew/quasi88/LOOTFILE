@@ -1,6 +1,6 @@
 # quasi88.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/quasi88.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='quasi88'
 url=('https://www.eonet.ne.jp/~showtime/quasi88/release/quasi88-0.6.4.tgz')

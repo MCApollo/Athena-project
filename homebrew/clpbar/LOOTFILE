@@ -1,6 +1,6 @@
 # clpbar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clpbar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clpbar'
 url=('https://downloads.sourceforge.net/project/clpbar/clpbar/bar-1.11.1/bar_1.11.1.tar.gz')

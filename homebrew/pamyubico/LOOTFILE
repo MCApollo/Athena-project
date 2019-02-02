@@ -1,6 +1,6 @@
 # pam_yubico.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pam_yubico.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pamyubico'
 url=('https://developers.yubico.com/yubico-pam/Releases/pam_yubico-2.26.tar.gz')

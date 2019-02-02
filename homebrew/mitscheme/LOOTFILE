@@ -1,6 +1,6 @@
 # mit-scheme.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mit-scheme.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mitscheme'
 url=('https://ftp.gnu.org/gnu/mit-scheme/stable.pkg/9.2/mit-scheme-c-9.2.tar.gz')

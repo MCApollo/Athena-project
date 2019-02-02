@@ -1,6 +1,6 @@
 # juman.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/juman.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='juman'
 url=('http://nlp.ist.i.kyoto-u.ac.jp/nl-resource/juman/juman-7.01.tar.bz2')

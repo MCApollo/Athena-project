@@ -1,6 +1,6 @@
 # php.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/php.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='php'
 url=('https://php.net/get/php-7.3.1.tar.xz/from/this/mirror')

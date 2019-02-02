@@ -1,6 +1,6 @@
 # grafana.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/grafana.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='grafana'
 url=('https://github.com/grafana/grafana/archive/v5.4.3.tar.gz')

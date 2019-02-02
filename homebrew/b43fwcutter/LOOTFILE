@@ -1,6 +1,6 @@
 # b43-fwcutter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/b43-fwcutter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='b43fwcutter'
 url=('https://bues.ch/b43/fwcutter/b43-fwcutter-019.tar.bz2')

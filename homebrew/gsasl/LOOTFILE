@@ -1,6 +1,6 @@
 # gsasl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gsasl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gsasl'
 url=('https://ftp.gnu.org/gnu/gsasl/gsasl-1.8.0.tar.gz')

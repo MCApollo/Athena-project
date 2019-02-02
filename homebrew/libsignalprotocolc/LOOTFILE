@@ -1,6 +1,6 @@
 # libsignal-protocol-c.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsignal-protocol-c.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libsignalprotocolc'
 url=('https://github.com/signalapp/libsignal-protocol-c/archive/v2.3.2.tar.gz')

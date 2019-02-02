@@ -1,6 +1,6 @@
 # ctl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ctl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ctl'
 url=('https://github.com/ampas/CTL/archive/ctl-1.5.2.tar.gz')

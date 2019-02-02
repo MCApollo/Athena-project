@@ -1,6 +1,6 @@
 # jruby.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jruby.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jruby'
 url=('https://search.maven.org/remotecontent?filepath=org/jruby/jruby-dist/9.2.0.0/jruby-dist-9.2.0.0-bin.tar.gz')

@@ -1,6 +1,6 @@
 # dnsmasq.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dnsmasq.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dnsmasq'
 url=('http://www.thekelleys.org.uk/dnsmasq/dnsmasq-2.80.tar.gz')

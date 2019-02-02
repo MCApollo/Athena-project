@@ -1,6 +1,6 @@
 # pdf2image.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdf2image.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pdf2image'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/pdf2image/pdf2image-0.53-source.tar.gz')

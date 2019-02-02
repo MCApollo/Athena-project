@@ -1,6 +1,6 @@
 # todolist.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/todolist.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='todolist'
 url=('https://github.com/gammons/todolist/archive/v0.8.1.tar.gz')

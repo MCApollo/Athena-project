@@ -1,6 +1,6 @@
 # gmediaserver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmediaserver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gmediaserver'
 url=('https://download.savannah.gnu.org/releases/gmediaserver/gmediaserver-0.13.0.tar.gz')

@@ -1,6 +1,6 @@
 # phoronix-test-suite.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/phoronix-test-suite.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='phoronixtestsuite'
 url=('https://github.com/phoronix-test-suite/phoronix-test-suite/archive/v8.4.1.tar.gz')

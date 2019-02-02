@@ -1,6 +1,6 @@
 # c14-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/c14-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='c14cli'
 url=('https://github.com/online-net/c14-cli/archive/0.3.tar.gz')

@@ -1,6 +1,6 @@
 # r.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/r.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='r'
 url=('https://cran.r-project.org/src/base/R-3/R-3.5.2.tar.gz')

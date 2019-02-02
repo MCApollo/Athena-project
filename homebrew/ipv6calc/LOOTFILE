@@ -1,6 +1,6 @@
 # ipv6calc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ipv6calc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ipv6calc'
 url=('https://github.com/pbiering/ipv6calc/archive/1.1.0.tar.gz')

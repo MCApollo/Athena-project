@@ -1,6 +1,6 @@
 # icecream.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/icecream.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='icecream'
 url=('https://github.com/icecc/icecream/archive/1.2.tar.gz')

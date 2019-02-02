@@ -1,6 +1,6 @@
 # muparser.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/muparser.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='muparser'
 url=('https://github.com/beltoforion/muparser/archive/v2.2.6.1.tar.gz')

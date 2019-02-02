@@ -1,6 +1,6 @@
 # grip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/grip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='grip'
 url=('https://files.pythonhosted.org/packages/3c/ea/2a475ed37e1b6476182e71223c98667f51704bdbc919608372b203c7ea04/grip-4.5.2.tar.gz')

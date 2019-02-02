@@ -1,6 +1,6 @@
 # textql.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/textql.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='textql'
 url=('https://github.com/dinedal/textql/archive/2.0.3.tar.gz')

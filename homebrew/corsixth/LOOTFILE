@@ -1,6 +1,6 @@
 # corsixth.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/corsixth.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='corsixth'
 url=('https://github.com/CorsixTH/CorsixTH/archive/v0.62.tar.gz')

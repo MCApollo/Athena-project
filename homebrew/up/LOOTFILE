@@ -1,6 +1,6 @@
 # up.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/up.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='up'
 url=('https://github.com/akavel/up/archive/v0.3.2.tar.gz')

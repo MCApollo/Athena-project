@@ -1,6 +1,6 @@
 # sip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sip'
 url=('https://dl.bintray.com/homebrew/mirror/sip-4.19.8.tar.gz')

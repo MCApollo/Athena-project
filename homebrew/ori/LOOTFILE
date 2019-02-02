@@ -1,6 +1,6 @@
 # ori.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ori.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ori'
 url=('https://bitbucket.org/orifs/ori/downloads/ori-0.8.1.tgz')

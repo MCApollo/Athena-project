@@ -1,6 +1,6 @@
 # groovy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/groovy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='groovy'
 url=('https://dl.bintray.com/groovy/maven/apache-groovy-binary-2.5.5.zip')

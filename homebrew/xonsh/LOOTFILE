@@ -1,6 +1,6 @@
 # xonsh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xonsh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xonsh'
 url=('https://github.com/xonsh/xonsh/archive/0.8.7.tar.gz')

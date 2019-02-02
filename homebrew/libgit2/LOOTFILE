@@ -1,6 +1,6 @@
 # libgit2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgit2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgit2'
 url=('https://github.com/libgit2/libgit2/archive/v0.27.8.tar.gz')

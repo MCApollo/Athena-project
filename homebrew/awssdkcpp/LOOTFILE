@@ -1,6 +1,6 @@
 # aws-sdk-cpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-sdk-cpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='awssdkcpp'
 url=('https://github.com/aws/aws-sdk-cpp/archive/1.7.40.tar.gz')

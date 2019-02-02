@@ -1,6 +1,6 @@
 # apktool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/apktool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='apktool'
 url=('https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.3.4.jar')

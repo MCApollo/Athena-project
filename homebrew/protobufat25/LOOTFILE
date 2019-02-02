@@ -1,6 +1,6 @@
 # protobuf@2.5.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/protobuf@2.5.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='protobufat25'
 url=('https://github.com/protocolbuffers/protobuf/releases/download/v2.5.0/protobuf-2.5.0.tar.bz2')

@@ -1,6 +1,6 @@
 # bamtools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bamtools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bamtools'
 url=('https://github.com/pezmaster31/bamtools/archive/v2.5.1.tar.gz')

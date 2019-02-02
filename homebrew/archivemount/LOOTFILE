@@ -1,6 +1,6 @@
 # archivemount.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/archivemount.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='archivemount'
 url=('https://www.cybernoia.de/software/archivemount/archivemount-0.8.12.tar.gz')

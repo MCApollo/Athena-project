@@ -1,6 +1,6 @@
 # sbtenv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sbtenv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sbtenv'
 url=('https://github.com/sbtenv/sbtenv/archive/version/0.0.15.tar.gz')

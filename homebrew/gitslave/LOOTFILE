@@ -1,6 +1,6 @@
 # gitslave.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gitslave.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitslave'
 url=('https://downloads.sourceforge.net/project/gitslave/gitslave-2.0.2.tar.gz')

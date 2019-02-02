@@ -1,6 +1,6 @@
 # freeradius-server.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/freeradius-server.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='freeradiusserver'
 url=('https://github.com/FreeRADIUS/freeradius-server/archive/release_3_0_17.tar.gz')

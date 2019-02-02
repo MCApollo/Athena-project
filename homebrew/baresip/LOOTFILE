@@ -1,6 +1,6 @@
 # baresip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/baresip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='baresip'
 url=('http://www.creytiv.com/pub/baresip-0.5.10.tar.gz')

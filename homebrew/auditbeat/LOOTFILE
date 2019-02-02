@@ -1,6 +1,6 @@
 # auditbeat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/auditbeat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='auditbeat'
 url=('https://github.com/elastic/beats/archive/v6.2.4.tar.gz')

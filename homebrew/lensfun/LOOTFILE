@@ -1,6 +1,6 @@
 # lensfun.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lensfun.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lensfun'
 url=('https://downloads.sourceforge.net/project/lensfun/0.3.95/lensfun-0.3.95.tar.gz')

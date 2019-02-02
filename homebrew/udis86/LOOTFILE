@@ -1,6 +1,6 @@
 # udis86.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/udis86.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='udis86'
 url=('https://downloads.sourceforge.net/udis86/udis86-1.7.2.tar.gz')

@@ -1,6 +1,6 @@
 # png++.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/png++.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pngxx'
 url=('https://savannah.nongnu.org/download/pngpp/png++-0.2.5.tar.gz')

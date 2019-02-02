@@ -1,6 +1,6 @@
 # kubernetes-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kubernetes-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kubernetescli'
 url=('https://github.com/kubernetes/kubernetes.git')

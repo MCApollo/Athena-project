@@ -1,6 +1,6 @@
 # libtorrent-rasterbar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtorrent-rasterbar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libtorrentrasterbar'
 url=('https://github.com/arvidn/libtorrent/releases/download/libtorrent_1_1_11/libtorrent-rasterbar-1.1.11.tar.gz')

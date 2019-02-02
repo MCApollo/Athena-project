@@ -1,6 +1,6 @@
 # midnight-commander.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/midnight-commander.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='midnightcommander'
 url=('https://www.midnight-commander.org/downloads/mc-4.8.22.tar.xz')

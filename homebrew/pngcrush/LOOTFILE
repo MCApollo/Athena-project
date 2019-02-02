@@ -1,6 +1,6 @@
 # pngcrush.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pngcrush.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pngcrush'
 url=('https://downloads.sourceforge.net/project/pmt/pngcrush/1.8.13/pngcrush-1.8.13.tar.xz')

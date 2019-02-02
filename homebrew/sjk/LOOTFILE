@@ -1,6 +1,6 @@
 # sjk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sjk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sjk'
 url=('https://search.maven.org/remotecontent?filepath=org/gridkit/jvmtool/sjk-plus/0.10.1/sjk-plus-0.10.1.jar')

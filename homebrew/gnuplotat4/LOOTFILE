@@ -1,6 +1,6 @@
 # gnuplot@4.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnuplot@4.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnuplotat4'
 url=('https://downloads.sourceforge.net/project/gnuplot/gnuplot/4.6.7/gnuplot-4.6.7.tar.gz')

@@ -1,6 +1,6 @@
 # vowpal-wabbit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vowpal-wabbit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vowpalwabbit'
 url=('https://github.com/JohnLangford/vowpal_wabbit/archive/8.6.1.tar.gz')

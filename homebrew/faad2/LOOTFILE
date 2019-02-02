@@ -1,6 +1,6 @@
 # faad2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/faad2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='faad2'
 url=('https://downloads.sourceforge.net/project/faac/faad2-src/faad2-2.8.0/faad2-2.8.8.tar.gz')

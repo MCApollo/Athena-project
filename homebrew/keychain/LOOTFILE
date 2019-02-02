@@ -1,6 +1,6 @@
 # keychain.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/keychain.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='keychain'
 url=('https://build.funtoo.org/distfiles/keychain/keychain-2.8.5.tar.bz2')

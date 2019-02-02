@@ -1,6 +1,6 @@
 # amdatu-bootstrap.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/amdatu-bootstrap.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='amdatubootstrap'
 url=('https://bitbucket.org/amdatuadm/amdatu-bootstrap/downloads/bootstrap-bin-r9.zip')

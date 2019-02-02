@@ -1,6 +1,6 @@
 # ucspi-tcp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ucspi-tcp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ucspitcp'
 url=('https://cr.yp.to/ucspi-tcp/ucspi-tcp-0.88.tar.gz')

@@ -1,6 +1,6 @@
 # aiccu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aiccu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aiccu'
 url=('https://deb.debian.org/debian/pool/main/a/aiccu/aiccu_20070115.orig.tar.gz')

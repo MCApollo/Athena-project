@@ -1,6 +1,6 @@
 # s3cmd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/s3cmd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='s3cmd'
 url=('https://downloads.sourceforge.net/project/s3tools/s3cmd/2.0.2/s3cmd-2.0.2.tar.gz')

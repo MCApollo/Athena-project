@@ -1,6 +1,6 @@
 # minidlna.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minidlna.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minidlna'
 url=('https://downloads.sourceforge.net/project/minidlna/minidlna/1.2.1/minidlna-1.2.1.tar.gz')

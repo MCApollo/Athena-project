@@ -1,6 +1,6 @@
 # virtualhost.sh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/virtualhost.sh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='virtualhostsh'
 url=('https://github.com/virtualhost/virtualhost.sh/archive/1.35.tar.gz')

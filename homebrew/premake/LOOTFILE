@@ -1,6 +1,6 @@
 # premake.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/premake.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='premake'
 url=('https://downloads.sourceforge.net/project/premake/Premake/4.4/premake-4.4-beta5-src.zip')

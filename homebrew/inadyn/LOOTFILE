@@ -1,6 +1,6 @@
 # inadyn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/inadyn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='inadyn'
 url=('https://github.com/troglobit/inadyn/releases/download/v2.5/inadyn-2.5.tar.gz')

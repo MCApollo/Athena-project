@@ -1,6 +1,6 @@
 # nicovideo-dl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nicovideo-dl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nicovideodl'
 url=('https://dotsrc.dl.osdn.net/osdn/nicovideo-dl/56304/nicovideo-dl-0.0.20120212.tar.gz')

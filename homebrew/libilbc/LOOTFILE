@@ -1,6 +1,6 @@
 # libilbc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libilbc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libilbc'
 url=('https://github.com/TimothyGu/libilbc/releases/download/v2.0.2/libilbc-2.0.2.tar.gz')

@@ -1,6 +1,6 @@
 # dosbox.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dosbox.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dosbox'
 url=('https://downloads.sourceforge.net/project/dosbox/dosbox/0.74-2/dosbox-0.74-2.tar.gz')

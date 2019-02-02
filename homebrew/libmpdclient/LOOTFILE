@@ -1,6 +1,6 @@
 # libmpdclient.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmpdclient.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmpdclient'
 url=('https://www.musicpd.org/download/libmpdclient/2/libmpdclient-2.14.tar.xz')

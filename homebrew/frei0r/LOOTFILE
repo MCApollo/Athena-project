@@ -1,6 +1,6 @@
 # frei0r.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/frei0r.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='frei0r'
 url=('https://files.dyne.org/frei0r/releases/frei0r-plugins-1.6.1.tar.gz')

@@ -1,6 +1,6 @@
 # sqlparse.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sqlparse.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sqlparse'
 url=('https://files.pythonhosted.org/packages/79/3c/2ad76ba49f9e3d88d2b58e135b7821d93741856d1fe49970171f73529303/sqlparse-0.2.4.tar.gz')

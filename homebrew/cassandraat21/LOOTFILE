@@ -1,6 +1,6 @@
 # cassandra@2.1.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cassandra@2.1.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cassandraat21'
 url=('https://archive.apache.org/dist/cassandra/2.1.13/apache-cassandra-2.1.13-bin.tar.gz')

@@ -1,6 +1,6 @@
 # libtar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libtar'
 url=('https://repo.or.cz/libtar.git')

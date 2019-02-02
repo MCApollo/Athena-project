@@ -1,6 +1,6 @@
 # mp3cat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mp3cat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mp3cat'
 url=('https://web.archive.org/web/20150904105157/tomclegg.net/software/mp3cat-0.4.tar.gz')

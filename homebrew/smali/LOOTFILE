@@ -1,6 +1,6 @@
 # smali.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/smali.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='smali'
 url=('https://bitbucket.org/JesusFreke/smali/downloads/smali-2.2.5.jar')

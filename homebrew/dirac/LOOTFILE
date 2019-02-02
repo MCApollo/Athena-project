@@ -1,6 +1,6 @@
 # dirac.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dirac.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dirac'
 url=('https://downloads.sourceforge.net/project/dirac/dirac-codec/Dirac-1.0.2/dirac-1.0.2.tar.gz')

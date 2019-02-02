@@ -1,6 +1,6 @@
 # vecx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vecx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vecx'
 url=('https://github.com/jhawthorn/vecx/archive/v1.1.tar.gz')

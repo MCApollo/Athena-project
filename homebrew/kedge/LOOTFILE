@@ -1,6 +1,6 @@
 # kedge.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kedge.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kedge'
 url=('https://github.com/kedgeproject/kedge/archive/v0.12.0.tar.gz')

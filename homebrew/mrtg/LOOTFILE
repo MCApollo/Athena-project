@@ -1,6 +1,6 @@
 # mrtg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mrtg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mrtg'
 url=('https://oss.oetiker.ch/mrtg/pub/mrtg-2.17.7.tar.gz')

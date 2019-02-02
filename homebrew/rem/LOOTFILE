@@ -1,6 +1,6 @@
 # rem.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rem.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rem'
 url=('https://github.com/kykim/rem/archive/20150618.tar.gz')

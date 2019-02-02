@@ -1,6 +1,6 @@
 # drafter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/drafter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='drafter'
 url=('https://github.com/apiaryio/drafter/releases/download/v3.2.7/drafter-v3.2.7.tar.gz')

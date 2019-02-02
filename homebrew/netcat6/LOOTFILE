@@ -1,6 +1,6 @@
 # netcat6.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/netcat6.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='netcat6'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/n/nc6/nc6_1.0.orig.tar.gz')

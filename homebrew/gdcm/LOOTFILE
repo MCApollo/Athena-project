@@ -1,6 +1,6 @@
 # gdcm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gdcm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gdcm'
 url=('https://downloads.sourceforge.net/project/gdcm/gdcm%202.x/GDCM%202.8.7/gdcm-2.8.7.tar.gz')

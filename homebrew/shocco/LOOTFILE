@@ -1,6 +1,6 @@
 # shocco.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/shocco.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='shocco'
 url=('https://github.com/rtomayko/shocco/archive/1.0.tar.gz')

@@ -1,6 +1,6 @@
 # stanford-parser.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stanford-parser.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stanfordparser'
 url=('https://nlp.stanford.edu/software/stanford-parser-full-2018-02-27.zip')

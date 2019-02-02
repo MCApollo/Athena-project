@@ -1,6 +1,6 @@
 # tidyp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tidyp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tidyp'
 url=('https://github.com/downloads/petdance/tidyp/tidyp-1.04.tar.gz')

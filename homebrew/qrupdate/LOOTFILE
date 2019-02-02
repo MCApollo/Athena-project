@@ -1,6 +1,6 @@
 # qrupdate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qrupdate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qrupdate'
 url=('https://downloads.sourceforge.net/qrupdate/qrupdate-1.1.2.tar.gz')

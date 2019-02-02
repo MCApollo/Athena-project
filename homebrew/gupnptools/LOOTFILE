@@ -1,6 +1,6 @@
 # gupnp-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gupnp-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gupnptools'
 url=('https://download.gnome.org/sources/gupnp-tools/0.8/gupnp-tools-0.8.15.tar.xz')

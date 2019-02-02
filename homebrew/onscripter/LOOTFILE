@@ -1,6 +1,6 @@
 # onscripter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/onscripter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='onscripter'
 url=('https://onscripter.osdn.jp/onscripter-20181218.tar.gz')

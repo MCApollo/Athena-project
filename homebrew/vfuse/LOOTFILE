@@ -1,6 +1,6 @@
 # vfuse.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vfuse.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vfuse'
 url=('https://github.com/chilcote/vfuse/archive/2.0.9.tar.gz')

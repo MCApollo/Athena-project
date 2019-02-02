@@ -1,6 +1,6 @@
 # mypy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mypy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mypy'
 url=('https://github.com/python/mypy.git')

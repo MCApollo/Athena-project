@@ -1,6 +1,6 @@
 # shyaml.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/shyaml.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='shyaml'
 url=('https://files.pythonhosted.org/packages/33/34/7ad4b645bdd5c6cd100748fc2429924b553439221aa9b9386f658e5a05f2/shyaml-0.5.2.tar.gz')

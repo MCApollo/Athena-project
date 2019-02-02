@@ -1,6 +1,6 @@
 # plplot.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/plplot.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='plplot'
 url=('https://downloads.sourceforge.net/project/plplot/plplot/5.14.0%20Source/plplot-5.14.0.tar.gz')

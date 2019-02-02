@@ -1,6 +1,6 @@
 # gitup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gitup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitup'
 url=('https://github.com/earwig/git-repo-updater.git')

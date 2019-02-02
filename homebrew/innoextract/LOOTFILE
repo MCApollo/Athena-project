@@ -1,6 +1,6 @@
 # innoextract.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/innoextract.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='innoextract'
 url=('https://constexpr.org/innoextract/files/innoextract-1.7.tar.gz')

@@ -1,6 +1,6 @@
 # sickle.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sickle.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sickle'
 url=('https://github.com/najoshi/sickle/archive/v1.33.tar.gz')

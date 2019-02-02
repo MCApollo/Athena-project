@@ -1,6 +1,6 @@
 # libcoap.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcoap.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libcoap'
 url=('https://github.com/obgm/libcoap/archive/v4.1.2.tar.gz')

@@ -1,6 +1,6 @@
 # aubio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aubio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aubio'
 url=('https://aubio.org/pub/aubio-0.4.7.tar.bz2')

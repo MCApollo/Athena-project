@@ -1,6 +1,6 @@
 # mikutter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mikutter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mikutterpost'
 url=('https://mikutter.hachune.net/bin/mikutter.3.7.4.tar.gz')

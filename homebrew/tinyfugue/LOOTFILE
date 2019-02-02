@@ -1,6 +1,6 @@
 # tiny-fugue.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tiny-fugue.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tinyfugue'
 url=('https://downloads.sourceforge.net/project/tinyfugue/tinyfugue/5.0%20beta%208/tf-50b8.tar.gz')

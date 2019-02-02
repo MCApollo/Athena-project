@@ -1,6 +1,6 @@
 # log4cxx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/log4cxx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='log4cxx'
 url=('https://www.apache.org/dyn/closer.cgi?path=logging/log4cxx/0.10.0/apache-log4cxx-0.10.0.tar.gz')

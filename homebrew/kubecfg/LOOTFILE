@@ -1,6 +1,6 @@
 # kubecfg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kubecfg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kubecfg'
 url=('https://github.com/ksonnet/kubecfg/archive/v0.9.0.tar.gz')

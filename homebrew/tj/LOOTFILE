@@ -1,6 +1,6 @@
 # tj.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tj.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tj'
 url=('https://github.com/sgreben/tj/archive/7.0.0.tar.gz')

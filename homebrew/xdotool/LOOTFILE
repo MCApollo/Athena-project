@@ -1,6 +1,6 @@
 # xdotool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xdotool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xdotool'
 url=('https://github.com/jordansissel/xdotool/archive/v3.20160805.1.tar.gz')

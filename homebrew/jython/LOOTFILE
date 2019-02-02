@@ -1,6 +1,6 @@
 # jython.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jython.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jython'
 url=('https://search.maven.org/remotecontent?filepath=org/python/jython-installer/2.7.1/jython-installer-2.7.1.jar')

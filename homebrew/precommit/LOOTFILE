@@ -1,6 +1,6 @@
 # pre-commit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pre-commit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='precommit'
 url=('https://github.com/pre-commit/pre-commit/archive/v1.14.2.tar.gz')

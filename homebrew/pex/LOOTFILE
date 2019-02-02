@@ -1,6 +1,6 @@
 # pex.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pex.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pex'
 url=('https://github.com/petere/pex/archive/1.20140409.tar.gz')

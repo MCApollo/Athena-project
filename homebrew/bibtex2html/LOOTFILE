@@ -1,6 +1,6 @@
 # bibtex2html.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bibtex2html.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bibtex2html'
 url=('https://www.lri.fr/~filliatr/ftp/bibtex2html/bibtex2html-1.99.tar.gz')

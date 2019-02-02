@@ -1,6 +1,6 @@
 # lemon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lemon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lemon'
 url=('https://tx97.net/pub/distfiles/lemon-1.69.tar.bz2')

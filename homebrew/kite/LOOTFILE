@@ -1,6 +1,6 @@
 # kite.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kite.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kite'
 url=('http://www.kite-language.org/files/kite-1.0.4.tar.gz')

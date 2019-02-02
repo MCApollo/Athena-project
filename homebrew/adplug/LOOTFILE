@@ -1,6 +1,6 @@
 # adplug.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/adplug.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='adplug'
 url=('https://github.com/adplug/adplug/releases/download/adplug-2.3.1/adplug-2.3.1.tar.bz2')

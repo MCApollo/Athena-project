@@ -1,6 +1,6 @@
 # webfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/webfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='webfs'
 url=('https://www.kraxel.org/releases/webfs/webfs-1.21.tar.gz')

@@ -1,6 +1,6 @@
 # js-test-driver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/js-test-driver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jstestdriver'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/js-test-driver/JsTestDriver-1.3.5.jar')

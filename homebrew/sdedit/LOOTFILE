@@ -1,6 +1,6 @@
 # sdedit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdedit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sdedit'
 url=('https://downloads.sourceforge.net/project/sdedit/sdedit/4.0/sdedit-4.01.jar')

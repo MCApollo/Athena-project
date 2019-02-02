@@ -1,6 +1,6 @@
 # pass.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pass.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pass'
 url=('https://git.zx2c4.com/password-store/snapshot/password-store-1.7.3.tar.xz')

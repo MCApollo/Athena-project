@@ -1,6 +1,6 @@
 # libmpd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmpd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmpd'
 url=('https://www.musicpd.org/download/libmpd/11.8.17/libmpd-11.8.17.tar.gz')

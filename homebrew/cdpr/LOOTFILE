@@ -1,6 +1,6 @@
 # cdpr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cdpr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cdpr'
 url=('https://downloads.sourceforge.net/project/cdpr/cdpr/2.4/cdpr-2.4.tgz')

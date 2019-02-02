@@ -1,6 +1,6 @@
 # nspr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nspr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nspr'
 url=('https://archive.mozilla.org/pub/mozilla.org/nspr/releases/v4.20/src/nspr-4.20.tar.gz')

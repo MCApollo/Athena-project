@@ -1,6 +1,6 @@
 # weboob.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/weboob.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='weboob'
 url=('https://git.weboob.org/weboob/weboob/uploads/08dad6b2a68fd618ba8c87c627393d06/weboob-1.4.tar.gz')

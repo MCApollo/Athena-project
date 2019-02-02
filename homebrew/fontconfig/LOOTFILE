@@ -1,6 +1,6 @@
 # fontconfig.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fontconfig.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fontconfig'
 url=('https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.13.1.tar.bz2')

@@ -1,6 +1,6 @@
 # olsrd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/olsrd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='olsrd'
 url=('http://www.olsr.org/releases/0.9/olsrd-0.9.0.3.tar.bz2')

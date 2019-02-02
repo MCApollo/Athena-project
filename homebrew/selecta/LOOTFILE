@@ -1,6 +1,6 @@
 # selecta.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/selecta.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='selecta'
 url=('https://github.com/garybernhardt/selecta/archive/v0.0.7.tar.gz')

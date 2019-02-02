@@ -1,6 +1,6 @@
 # link-grammar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/link-grammar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='linkgrammar'
 url=('https://www.abisource.com/downloads/link-grammar/5.5.1/link-grammar-5.5.1.tar.gz')

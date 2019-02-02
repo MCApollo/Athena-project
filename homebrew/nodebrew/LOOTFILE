@@ -1,6 +1,6 @@
 # nodebrew.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nodebrew.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nodebrew'
 url=('https://github.com/hokaccha/nodebrew/archive/v1.0.1.tar.gz')

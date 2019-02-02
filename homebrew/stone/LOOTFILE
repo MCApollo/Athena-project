@@ -1,6 +1,6 @@
 # stone.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stone.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stone'
 url=('http://www.gcd.org/sengoku/stone/stone-2.3e.tar.gz')

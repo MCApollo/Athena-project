@@ -1,6 +1,6 @@
 # imagesnap.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/imagesnap.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='imagesnap'
 url=('https://github.com/rharder/imagesnap/archive/0.2.6.tar.gz')

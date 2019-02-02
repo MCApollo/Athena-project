@@ -1,6 +1,6 @@
 # tass64.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tass64.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tass64'
 url=('https://downloads.sourceforge.net/project/tass64/source/64tass-1.53.1515-src.zip')

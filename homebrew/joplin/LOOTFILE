@@ -1,6 +1,6 @@
 # joplin.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/joplin.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='joplin'
 url=('https://registry.npmjs.org/joplin/-/joplin-1.0.120.tgz')

@@ -1,6 +1,6 @@
 # smimesign.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/smimesign.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='smimesign'
 url=('https://github.com/github/smimesign/archive/0.0.10.tar.gz')

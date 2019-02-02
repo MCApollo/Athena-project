@@ -1,6 +1,6 @@
 # libgphoto2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgphoto2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgphoto2'
 url=('https://downloads.sourceforge.net/project/gphoto/libgphoto/2.5.20/libgphoto2-2.5.20.tar.bz2')

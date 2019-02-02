@@ -1,6 +1,6 @@
 # pakchois.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pakchois.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pakchois'
 url=('https://web.archive.org/web/20161220165909/www.manyfish.co.uk/pakchois/pakchois-0.4.tar.gz')

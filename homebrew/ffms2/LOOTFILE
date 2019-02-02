@@ -1,6 +1,6 @@
 # ffms2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ffms2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ffms2'
 url=('https://github.com/FFMS/ffms2/archive/2.23.tar.gz')

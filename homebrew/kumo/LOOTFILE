@@ -1,6 +1,6 @@
 # kumo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kumo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kumo'
 url=('https://search.maven.org/remotecontent?filepath=com/kennycason/kumo-cli/1.17/kumo-cli-1.17.jar')

@@ -1,6 +1,6 @@
 # cclive.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cclive.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cclive'
 url=('https://downloads.sourceforge.net/project/cclive/0.7/cclive-0.7.16.tar.xz')

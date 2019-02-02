@@ -1,6 +1,6 @@
 # redshift.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/redshift.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='redshift'
 url=('https://github.com/jonls/redshift/releases/download/v1.12/redshift-1.12.tar.xz')

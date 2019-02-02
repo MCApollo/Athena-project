@@ -1,6 +1,6 @@
 # git-annex.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-annex.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitannex'
 url=('https://hackage.haskell.org/package/git-annex-7.20181121/git-annex-7.20181121.tar.gz')

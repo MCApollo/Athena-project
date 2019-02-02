@@ -1,6 +1,6 @@
 # pwnat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pwnat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pwnat'
 url=('https://samy.pl/pwnat/pwnat-0.3-beta.tgz')

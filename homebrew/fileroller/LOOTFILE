@@ -1,6 +1,6 @@
 # file-roller.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/file-roller.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fileroller'
 url=('https://download.gnome.org/sources/file-roller/3.30/file-roller-3.30.1.tar.xz')

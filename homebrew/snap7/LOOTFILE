@@ -1,6 +1,6 @@
 # snap7.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/snap7.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snap7'
 url=('https://downloads.sourceforge.net/project/snap7/1.4.2/snap7-full-1.4.2.7z')

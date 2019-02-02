@@ -1,6 +1,6 @@
 # netperf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/netperf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='netperf'
 url=('https://github.com/HewlettPackard/netperf/archive/netperf-2.7.0.tar.gz')

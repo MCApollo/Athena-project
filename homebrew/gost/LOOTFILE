@@ -1,6 +1,6 @@
 # gost.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gost.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gost'
 url=('https://github.com/wilhelm-murdoch/gost/archive/1.2.0.tar.gz')

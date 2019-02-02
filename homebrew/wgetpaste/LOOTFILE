@@ -1,6 +1,6 @@
 # wgetpaste.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wgetpaste.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wgetpaste'
 url=('https://wgetpaste.zlin.dk/wgetpaste-2.28.tar.bz2')

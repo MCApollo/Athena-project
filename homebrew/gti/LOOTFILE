@@ -1,6 +1,6 @@
 # gti.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gti.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gti'
 url=('https://github.com/rwos/gti/archive/v1.6.1.tar.gz')

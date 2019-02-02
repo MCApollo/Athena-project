@@ -1,6 +1,6 @@
 # gloox.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gloox.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gloox'
 url=('https://camaya.net/download/gloox-1.0.21.tar.bz2')

@@ -1,6 +1,6 @@
 # enigma.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/enigma.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='enigma'
 url=('https://downloads.sourceforge.net/project/enigma-game/Release%201.21/enigma-1.21.tar.gz')

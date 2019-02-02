@@ -1,6 +1,6 @@
 # cadubi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cadubi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cadubi'
 url=('https://github.com/statico/cadubi/archive/v1.3.4.tar.gz')

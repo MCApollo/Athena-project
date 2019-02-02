@@ -1,6 +1,6 @@
 # slimerjs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/slimerjs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='slimerjs'
 url=('https://github.com/laurentj/slimerjs/archive/1.0.0.tar.gz')

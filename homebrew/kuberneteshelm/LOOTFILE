@@ -1,6 +1,6 @@
 # kubernetes-helm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kubernetes-helm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kuberneteshelm'
 url=('https://github.com/helm/helm.git')

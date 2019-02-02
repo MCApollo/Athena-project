@@ -1,6 +1,6 @@
 # kafka.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kafka.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kafka'
 url=('https://www.apache.org/dyn/closer.cgi?path=/kafka/2.1.0/kafka_2.12-2.1.0.tgz')

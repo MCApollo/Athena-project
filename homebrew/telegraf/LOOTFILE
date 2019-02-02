@@ -1,6 +1,6 @@
 # telegraf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/telegraf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='telegraf'
 url=('https://github.com/influxdata/telegraf/archive/1.9.3.tar.gz')

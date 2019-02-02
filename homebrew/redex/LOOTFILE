@@ -1,6 +1,6 @@
 # redex.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/redex.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='redex'
 url=('https://github.com/facebook/redex/archive/v2017.10.31.tar.gz')

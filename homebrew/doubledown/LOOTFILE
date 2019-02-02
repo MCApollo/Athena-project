@@ -1,6 +1,6 @@
 # doubledown.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/doubledown.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='doubledown'
 url=('https://github.com/devstructure/doubledown/archive/v0.0.2.tar.gz')

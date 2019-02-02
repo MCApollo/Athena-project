@@ -1,6 +1,6 @@
 # urlview.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/urlview.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='urlview'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/u/urlview/urlview_0.9.orig.tar.gz')

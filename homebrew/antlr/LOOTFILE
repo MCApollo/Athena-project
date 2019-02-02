@@ -1,6 +1,6 @@
 # antlr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/antlr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='antlr'
 url=('https://www.antlr.org/download/antlr-4.7.2-complete.jar')

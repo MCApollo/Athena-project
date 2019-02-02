@@ -1,6 +1,6 @@
 # wallpaper.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wallpaper.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wallpaper'
 url=('https://github.com/sindresorhus/macos-wallpaper/archive/v2.0.0.tar.gz')

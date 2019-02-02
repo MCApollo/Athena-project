@@ -1,6 +1,6 @@
 # eslint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/eslint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='eslint'
 url=('https://registry.npmjs.org/eslint/-/eslint-5.12.1.tgz')

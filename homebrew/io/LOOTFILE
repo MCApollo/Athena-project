@@ -1,6 +1,6 @@
 # io.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/io.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='io'
 url=('https://github.com/stevedekorte/io/archive/2017.09.06.tar.gz')

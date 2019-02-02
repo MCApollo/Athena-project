@@ -1,6 +1,6 @@
 # vstr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vstr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vstr'
 url=('http://www.and.org/vstr/1.0.15/vstr-1.0.15.tar.bz2')

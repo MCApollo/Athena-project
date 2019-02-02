@@ -1,6 +1,6 @@
 # usbmuxd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/usbmuxd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='usbmuxd'
 url=('https://www.libimobiledevice.org/downloads/libusbmuxd-1.0.10.tar.bz2')

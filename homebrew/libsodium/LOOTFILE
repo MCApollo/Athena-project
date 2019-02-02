@@ -1,6 +1,6 @@
 # libsodium.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsodium.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libsodium'
 url=('https://github.com/jedisct1/libsodium/releases/download/1.0.17/libsodium-1.0.17.tar.gz')

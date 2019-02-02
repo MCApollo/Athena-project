@@ -1,6 +1,6 @@
 # snakemake.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/snakemake.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snakemake'
 url=('https://files.pythonhosted.org/packages/5a/a5/704ff1f58a121acf8b96f13a9b0abdbbb27a1a78cf52c676bd0bbd2c5f40/snakemake-5.2.2.tar.gz')

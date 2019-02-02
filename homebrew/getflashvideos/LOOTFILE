@@ -1,6 +1,6 @@
 # get-flash-videos.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/get-flash-videos.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='getflashvideos'
 url=('https://github.com/monsieurvideo/get-flash-videos/archive/1.25.99.03.tar.gz')

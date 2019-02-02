@@ -1,6 +1,6 @@
 # tgif.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tgif.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tgif'
 url=('https://downloads.sourceforge.net/project/tgif/tgif/4.2.5/tgif-QPL-4.2.5.tar.gz')

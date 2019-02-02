@@ -1,6 +1,6 @@
 # mpd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mpd'
 url=('https://www.musicpd.org/download/mpd/0.21/mpd-0.21.3.tar.xz')

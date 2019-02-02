@@ -1,6 +1,6 @@
 # t1lib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/t1lib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='t1lib'
 url=('https://www.ibiblio.org/pub/linux/libs/graphics/t1lib-5.1.2.tar.gz')

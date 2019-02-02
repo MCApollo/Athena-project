@@ -1,6 +1,6 @@
 # slackcat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/slackcat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='slackcat'
 url=('https://github.com/vektorlab/slackcat/archive/v1.4.tar.gz')

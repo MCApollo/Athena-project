@@ -1,6 +1,6 @@
 # libmwaw.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmwaw.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmwaw'
 url=('https://downloads.sourceforge.net/project/libmwaw/libmwaw/libmwaw-0.3.14/libmwaw-0.3.14.tar.xz')

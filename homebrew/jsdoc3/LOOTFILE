@@ -1,6 +1,6 @@
 # jsdoc3.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsdoc3.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jsdoc3'
 url=('https://registry.npmjs.org/jsdoc/-/jsdoc-3.5.5.tgz')

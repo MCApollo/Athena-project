@@ -1,6 +1,6 @@
 # node-build.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/node-build.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nodebuild'
 url=('https://github.com/nodenv/node-build/archive/v4.4.1.tar.gz')

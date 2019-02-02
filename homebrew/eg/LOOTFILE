@@ -1,6 +1,6 @@
 # eg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/eg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='eg'
 url=('https://github.com/davep/eg/archive/v1.02.tar.gz')

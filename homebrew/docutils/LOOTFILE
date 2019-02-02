@@ -1,6 +1,6 @@
 # docutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='docutils'
 url=('https://downloads.sourceforge.net/project/docutils/docutils/0.14/docutils-0.14.tar.gz')

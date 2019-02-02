@@ -1,6 +1,6 @@
 # hg-flow.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hg-flow.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hgflow'
 url=('https://bitbucket.org/yujiewu/hgflow/downloads/hgflow-v0.9.8.3.tar.bz2')

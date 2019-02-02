@@ -1,6 +1,6 @@
 # libtermkey.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtermkey.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libtermkey'
 url=('http://www.leonerd.org.uk/code/libtermkey/libtermkey-0.20.tar.gz')

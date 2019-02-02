@@ -1,6 +1,6 @@
 # unzip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/unzip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='unzip'
 url=('https://downloads.sourceforge.net/project/infozip/UnZip%206.x%20%28latest%29/UnZip%206.0/unzip60.tar.gz')

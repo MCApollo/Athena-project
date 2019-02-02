@@ -1,6 +1,6 @@
 # allure.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/allure.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='allure'
 url=('https://dl.bintray.com/qameta/maven/io/qameta/allure/allure-commandline/2.9.0/allure-commandline-2.9.0.zip')

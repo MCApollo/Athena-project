@@ -1,6 +1,6 @@
 # djvulibre.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/djvulibre.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='djvulibre'
 url=('https://downloads.sourceforge.net/project/djvu/DjVuLibre/3.5.27/djvulibre-3.5.27.tar.gz')

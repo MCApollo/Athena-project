@@ -1,6 +1,6 @@
 # pygobject3.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pygobject3.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pygobject3'
 url=('https://download.gnome.org/sources/pygobject/3.30/pygobject-3.30.4.tar.xz')

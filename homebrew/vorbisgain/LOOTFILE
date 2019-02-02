@@ -1,6 +1,6 @@
 # vorbisgain.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vorbisgain.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vorbisgain'
 url=('https://sjeng.org/ftp/vorbis/vorbisgain-0.37.tar.gz')

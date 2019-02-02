@@ -1,6 +1,6 @@
 # ispc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ispc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ispc'
 url=('https://github.com/ispc/ispc/archive/v1.9.2.tar.gz')

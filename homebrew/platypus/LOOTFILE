@@ -1,6 +1,6 @@
 # platypus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/platypus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='platypus'
 url=('https://sveinbjorn.org/files/software/platypus/platypus5.2.src.zip')

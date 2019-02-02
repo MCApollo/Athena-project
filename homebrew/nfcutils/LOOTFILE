@@ -1,6 +1,6 @@
 # nfcutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nfcutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nfcutils'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/nfc-tools/nfcutils-0.3.2.tar.gz')

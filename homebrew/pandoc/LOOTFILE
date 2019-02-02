@@ -1,6 +1,6 @@
 # pandoc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pandoc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pandoc'
 url=('https://hackage.haskell.org/package/pandoc-2.5/pandoc-2.5.tar.gz')

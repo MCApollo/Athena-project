@@ -1,6 +1,6 @@
 # saldl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/saldl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='saldl'
 url=('https://github.com/saldl/saldl/archive/v40.tar.gz')

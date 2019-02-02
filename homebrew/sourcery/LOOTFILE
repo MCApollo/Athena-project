@@ -1,6 +1,6 @@
 # sourcery.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sourcery.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sourcery'
 url=('https://github.com/krzysztofzablocki/Sourcery/archive/0.15.0.tar.gz')

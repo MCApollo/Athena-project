@@ -1,6 +1,6 @@
 # linkerd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/linkerd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='linkerd'
 url=('https://github.com/linkerd/linkerd/releases/download/1.6.0/linkerd-1.6.0.tgz')

@@ -1,6 +1,6 @@
 # spandsp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spandsp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spandsp'
 url=('https://www.soft-switch.org/downloads/spandsp/spandsp-0.0.6.tar.gz')

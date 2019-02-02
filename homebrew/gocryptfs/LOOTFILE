@@ -1,6 +1,6 @@
 # gocryptfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gocryptfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gocryptfs'
 url=('https://github.com/rfjakob/gocryptfs/releases/download/v1.6.1/gocryptfs_v1.6.1_src-deps.tar.gz')

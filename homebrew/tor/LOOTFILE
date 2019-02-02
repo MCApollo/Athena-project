@@ -1,6 +1,6 @@
 # tor.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tor.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tor'
 url=('https://www.torproject.org/dist/tor-0.3.5.7.tar.gz')

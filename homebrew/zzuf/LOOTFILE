@@ -1,6 +1,6 @@
 # zzuf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zzuf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zzuf'
 url=('https://github.com/samhocevar/zzuf/releases/download/v0.15/zzuf-0.15.tar.bz2')

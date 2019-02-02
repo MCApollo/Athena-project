@@ -1,6 +1,6 @@
 # recon-ng.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/recon-ng.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='reconng'
 url=('https://bitbucket.org/LaNMaSteR53/recon-ng/get/v4.9.4.tar.gz')

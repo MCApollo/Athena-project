@@ -1,6 +1,6 @@
 # dependency-check.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dependency-check.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dependencycheck'
 url=('https://dl.bintray.com/jeremy-long/owasp/dependency-check-4.0.2-release.zip')

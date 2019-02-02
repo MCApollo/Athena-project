@@ -1,6 +1,6 @@
 # wmctrl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wmctrl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wmctrl'
 url=('https://sites.google.com/site/tstyblo/wmctrl/wmctrl-1.07.tar.gz')

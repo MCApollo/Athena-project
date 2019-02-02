@@ -1,6 +1,6 @@
 # fx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fx'
 url=('https://registry.npmjs.org/fx/-/fx-11.0.1.tgz')

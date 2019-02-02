@@ -1,6 +1,6 @@
 # rtptools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rtptools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rtptools'
 url=('https://www.cs.columbia.edu/irt/software/rtptools/download/rtptools-1.22.tar.gz')

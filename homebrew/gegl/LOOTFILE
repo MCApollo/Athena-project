@@ -1,6 +1,6 @@
 # gegl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gegl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gegl'
 url=('https://download.gimp.org/pub/gegl/0.4/gegl-0.4.12.tar.bz2')

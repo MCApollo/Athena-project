@@ -1,6 +1,6 @@
 # libical.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libical.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libical'
 url=('https://github.com/libical/libical/releases/download/v3.0.4/libical-3.0.4.tar.gz')

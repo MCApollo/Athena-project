@@ -1,6 +1,6 @@
 # overmind.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/overmind.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='overmind'
 url=('https://github.com/DarthSim/overmind/archive/v1.2.1.tar.gz')

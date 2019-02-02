@@ -1,6 +1,6 @@
 # appscale-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/appscale-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='appscaletools'
 url=('https://github.com/AppScale/appscale-tools/archive/3.5.3.tar.gz')

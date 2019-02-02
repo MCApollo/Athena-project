@@ -1,6 +1,6 @@
 # ykpers.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ykpers.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ykpers'
 url=('https://developers.yubico.com/yubikey-personalization/Releases/ykpers-1.19.0.tar.gz')

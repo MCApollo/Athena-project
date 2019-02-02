@@ -1,6 +1,6 @@
 # brag.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/brag.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='brag'
 url=('https://downloads.sourceforge.net/project/brag/brag/1.4.3/brag-1.4.3.tar.gz')

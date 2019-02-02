@@ -1,6 +1,6 @@
 # sqldiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sqldiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sqldiff'
 url=('https://sqlite.org/2018/sqlite-src-3260000.zip')

@@ -1,6 +1,6 @@
 # jhead.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jhead.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jhead'
 url=('http://www.sentex.net/~mwandel/jhead/jhead-3.00.tar.gz')

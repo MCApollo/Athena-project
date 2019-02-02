@@ -1,6 +1,6 @@
 # lxc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lxc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lxc'
 url=('https://linuxcontainers.org/downloads/lxd/lxd-3.9.tar.gz')

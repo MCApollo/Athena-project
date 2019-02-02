@@ -1,6 +1,6 @@
 # tinycdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tinycdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tinycdb'
 url=('http://www.corpit.ru/mjt/tinycdb/tinycdb-0.78.tar.gz')

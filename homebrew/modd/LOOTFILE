@@ -1,6 +1,6 @@
 # modd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/modd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='modd'
 url=('https://github.com/cortesi/modd/archive/v0.8.tar.gz')

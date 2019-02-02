@@ -1,6 +1,6 @@
 # cweb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cweb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cweb'
 url=('https://cs.stanford.edu/pub/cweb/cweb-3.64b.tar.gz')

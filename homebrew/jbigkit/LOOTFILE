@@ -1,6 +1,6 @@
 # jbigkit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jbigkit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jbigkit'
 url=('https://www.cl.cam.ac.uk/~mgk25/jbigkit/download/jbigkit-2.1.tar.gz')

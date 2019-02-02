@@ -1,6 +1,6 @@
 # srmio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/srmio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='srmio'
 url=('http://www.zuto.de/project/files/srmio/srmio-0.1.1~git1.tar.gz')

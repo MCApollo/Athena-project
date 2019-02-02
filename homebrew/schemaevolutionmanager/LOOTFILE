@@ -1,6 +1,6 @@
 # schema-evolution-manager.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/schema-evolution-manager.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='schemaevolutionmanager'
 url=('https://github.com/mbryzek/schema-evolution-manager/archive/0.9.41.tar.gz')

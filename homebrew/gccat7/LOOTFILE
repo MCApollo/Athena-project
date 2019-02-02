@@ -1,6 +1,6 @@
 # gcc@7.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gcc@7.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gccat7'
 url=('https://ftp.gnu.org/gnu/gcc/gcc-7.4.0/gcc-7.4.0.tar.xz')

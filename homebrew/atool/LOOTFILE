@@ -1,6 +1,6 @@
 # atool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/atool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='atool'
 url=('https://savannah.nongnu.org/download/atool/atool-0.39.0.tar.gz')

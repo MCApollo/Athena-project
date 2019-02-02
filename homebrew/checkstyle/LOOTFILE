@@ -1,6 +1,6 @@
 # checkstyle.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/checkstyle.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='checkstyle'
 url=('https://github.com/checkstyle/checkstyle/releases/download/checkstyle-8.17/checkstyle-8.17-all.jar')

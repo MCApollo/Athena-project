@@ -1,6 +1,6 @@
 # exiftran.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/exiftran.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='exiftran'
 url=('https://www.kraxel.org/releases/fbida/fbida-2.14.tar.gz')

@@ -1,6 +1,6 @@
 # libb2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libb2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libb2'
 url=('https://blake2.net/libb2-0.97.tar.gz')

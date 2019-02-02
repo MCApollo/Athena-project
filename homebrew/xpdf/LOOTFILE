@@ -1,6 +1,6 @@
 # xpdf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xpdf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xpdf'
 url=('https://xpdfreader-dl.s3.amazonaws.com/xpdf-4.00.tar.gz')

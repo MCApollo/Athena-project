@@ -1,6 +1,6 @@
 # logcheck.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/logcheck.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='logcheck'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/l/logcheck/logcheck_1.3.19.tar.xz')

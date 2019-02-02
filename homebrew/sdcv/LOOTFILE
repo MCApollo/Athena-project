@@ -1,6 +1,6 @@
 # sdcv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdcv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sdcv'
 url=('https://github.com/Dushistov/sdcv/archive/v0.5.2.tar.gz')

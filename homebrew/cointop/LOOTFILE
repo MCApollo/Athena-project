@@ -1,6 +1,6 @@
 # cointop.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cointop.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cointop'
 url=('https://github.com/miguelmota/cointop/archive/1.1.2.tar.gz')

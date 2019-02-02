@@ -1,6 +1,6 @@
 # aurora.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aurora.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aurora'
 url=('https://github.com/xuri/aurora/archive/2.1.tar.gz')

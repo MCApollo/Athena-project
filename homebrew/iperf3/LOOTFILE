@@ -1,6 +1,6 @@
 # iperf3.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/iperf3.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='iperf3'
 url=('https://github.com/esnet/iperf/archive/3.6.tar.gz')

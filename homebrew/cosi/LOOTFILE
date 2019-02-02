@@ -1,6 +1,6 @@
 # cosi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cosi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cosi'
 url=('https://github.com/dedis/cosi/archive/0.8.5.tar.gz')

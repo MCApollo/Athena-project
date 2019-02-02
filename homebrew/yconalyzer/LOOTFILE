@@ -1,6 +1,6 @@
 # yconalyzer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yconalyzer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yconalyzer'
 url=('https://downloads.sourceforge.net/project/yconalyzer/yconalyzer-1.0.4.tar.bz2')

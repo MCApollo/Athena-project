@@ -1,6 +1,6 @@
 # bubbros.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bubbros.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bubbros'
 url=('https://downloads.sourceforge.net/project/bub-n-bros/bub-n-bros/1.6.2/bubbros-1.6.2.tar.gz')

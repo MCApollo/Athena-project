@@ -1,6 +1,6 @@
 # re2c.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/re2c.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='re2c'
 url=('https://github.com/skvadrik/re2c/releases/download/1.1.1/re2c-1.1.1.tar.gz')

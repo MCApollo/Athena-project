@@ -1,6 +1,6 @@
 # w3m.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/w3m.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='w3m'
 url=('')

@@ -1,6 +1,6 @@
 # fabio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fabio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fabio'
 url=('https://github.com/fabiolb/fabio/archive/v1.5.10.tar.gz')

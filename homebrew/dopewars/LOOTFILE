@@ -1,6 +1,6 @@
 # dopewars.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dopewars.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dopewars'
 url=('https://downloads.sourceforge.net/project/dopewars/dopewars/1.5.12/dopewars-1.5.12.tar.gz')

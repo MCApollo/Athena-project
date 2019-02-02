@@ -1,6 +1,6 @@
 # c-kermit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/c-kermit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ckermit'
 url=('http://www.kermitproject.org/ftp/kermit/archives/cku302.tar.gz')

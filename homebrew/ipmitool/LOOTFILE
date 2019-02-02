@@ -1,6 +1,6 @@
 # ipmitool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ipmitool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ipmitool'
 url=('https://downloads.sourceforge.net/project/ipmitool/ipmitool/1.8.18/ipmitool-1.8.18.tar.bz2')

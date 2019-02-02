@@ -1,6 +1,6 @@
 # languagetool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/languagetool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='languagetool'
 url=('https://languagetool.org/download/LanguageTool-4.4.zip')

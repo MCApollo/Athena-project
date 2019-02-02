@@ -1,6 +1,6 @@
 # mksh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mksh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mksh'
 url=('https://www.mirbsd.org/MirOS/dist/mir/mksh/mksh-R56c.tgz')

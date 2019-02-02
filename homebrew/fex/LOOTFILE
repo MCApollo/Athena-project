@@ -1,6 +1,6 @@
 # fex.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fex.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fex'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/semicomplete/fex-2.0.0.tar.gz')

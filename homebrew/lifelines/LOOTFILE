@@ -1,6 +1,6 @@
 # lifelines.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lifelines.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lifelines'
 url=('https://downloads.sourceforge.net/project/lifelines/lifelines/3.0.62/lifelines-3.0.62.tar.gz')

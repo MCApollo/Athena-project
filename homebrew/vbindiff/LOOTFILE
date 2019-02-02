@@ -1,6 +1,6 @@
 # vbindiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vbindiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vbindiff'
 url=('https://www.cjmweb.net/vbindiff/vbindiff-3.0_beta5.tar.gz')

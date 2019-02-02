@@ -1,6 +1,6 @@
 # clean.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clean.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clean'
 url=('https://downloads.sourceforge.net/project/clean/clean/3.4/clean-3.4.tar.bz2')

@@ -1,6 +1,6 @@
 # vnstat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vnstat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vnstat'
 url=('https://humdi.net/vnstat/vnstat-1.18.tar.gz')

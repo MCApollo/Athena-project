@@ -1,6 +1,6 @@
 # libbind.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbind.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbind'
 url=('https://ftp.isc.org/isc/libbind/6.0/libbind-6.0.tar.gz')

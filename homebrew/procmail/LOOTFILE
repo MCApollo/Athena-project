@@ -1,6 +1,6 @@
 # procmail.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/procmail.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='procmail'
 url=('https://opensource.apple.com/tarballs/procmail/procmail-14.tar.gz')

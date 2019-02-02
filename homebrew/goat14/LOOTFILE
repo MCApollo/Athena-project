@@ -1,6 +1,6 @@
 # go@1.4.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/go@1.4.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='goat14'
 url=('https://github.com/golang/go.git')

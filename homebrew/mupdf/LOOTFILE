@@ -1,6 +1,6 @@
 # mupdf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mupdf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mupdf'
 url=('https://mupdf.com/downloads/archive/mupdf-1.14.0-source.tar.gz')

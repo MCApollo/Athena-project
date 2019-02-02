@@ -1,6 +1,6 @@
 # deployer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/deployer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='deployer'
 url=('https://deployer.org/releases/v6.3.0/deployer.phar')

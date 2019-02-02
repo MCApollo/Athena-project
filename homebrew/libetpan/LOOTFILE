@@ -1,6 +1,6 @@
 # libetpan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libetpan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libetpan'
 url=('https://github.com/dinhviethoa/libetpan/archive/1.9.2.tar.gz')

@@ -1,6 +1,6 @@
 # gmail-backup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmail-backup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gmailbackup'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gmail-backup-com/gmail-backup-20110307.tar.gz')

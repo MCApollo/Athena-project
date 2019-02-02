@@ -1,6 +1,6 @@
 # catimg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/catimg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='catimg'
 url=('https://github.com/posva/catimg/archive/2.5.0.tar.gz')

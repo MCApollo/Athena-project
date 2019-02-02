@@ -1,6 +1,6 @@
 # tty-clock.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tty-clock.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ttyclock'
 url=('https://github.com/xorg62/tty-clock/archive/v2.3.tar.gz')

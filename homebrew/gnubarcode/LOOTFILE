@@ -1,6 +1,6 @@
 # gnu-barcode.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-barcode.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnubarcode'
 url=('https://ftp.gnu.org/gnu/barcode/barcode-0.99.tar.gz')

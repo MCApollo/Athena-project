@@ -1,6 +1,6 @@
 # gifsicle.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gifsicle.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gifsicle'
 url=('https://www.lcdf.org/gifsicle/gifsicle-1.91.tar.gz')

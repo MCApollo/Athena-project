@@ -1,6 +1,6 @@
 # mcpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mcpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mcpp'
 url=('https://downloads.sourceforge.net/project/mcpp/mcpp/V.2.7.2/mcpp-2.7.2.tar.gz')

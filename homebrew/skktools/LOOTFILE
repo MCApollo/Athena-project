@@ -1,6 +1,6 @@
 # skktools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/skktools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='skktools'
 url=('https://deb.debian.org/debian/pool/main/s/skktools/skktools_1.3.4.orig.tar.gz')

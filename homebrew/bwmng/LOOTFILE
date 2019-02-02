@@ -1,6 +1,6 @@
 # bwm-ng.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bwm-ng.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bwmng'
 url=('https://github.com/vgropp/bwm-ng/releases/download/v0.6.1/bwm-ng-0.6.1.tar.gz')

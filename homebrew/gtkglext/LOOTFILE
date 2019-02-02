@@ -1,6 +1,6 @@
 # gtkglext.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtkglext.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gtkglext'
 url=('https://download.gnome.org/sources/gtkglext/1.2/gtkglext-1.2.0.tar.gz')

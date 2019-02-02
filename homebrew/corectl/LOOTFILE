@@ -1,6 +1,6 @@
 # corectl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/corectl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='corectl'
 url=('https://github.com/TheNewNormal/corectl/archive/v0.7.18.tar.gz')

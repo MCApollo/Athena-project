@@ -1,6 +1,6 @@
 # bc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bc'
 url=('https://ftp.gnu.org/gnu/bc/bc-1.07.1.tar.gz')

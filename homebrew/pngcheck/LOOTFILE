@@ -1,6 +1,6 @@
 # pngcheck.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pngcheck.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pngcheck'
 url=('https://downloads.sourceforge.net/project/png-mng/pngcheck/2.3.0/pngcheck-2.3.0.tar.gz')

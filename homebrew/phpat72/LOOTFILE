@@ -1,6 +1,6 @@
 # php@7.2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/php@7.2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='phpat72'
 url=('https://php.net/get/php-7.2.14.tar.xz/from/this/mirror')

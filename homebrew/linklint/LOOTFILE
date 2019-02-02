@@ -1,6 +1,6 @@
 # linklint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/linklint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='linklint'
 url=('http://linklint.org/download/linklint-2.3.5.tar.gz')

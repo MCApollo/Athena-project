@@ -1,6 +1,6 @@
 # pbc-sig.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pbc-sig.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pbcsig'
 url=('https://crypto.stanford.edu/pbc/sig/files/pbc_sig-0.0.8.tar.gz')

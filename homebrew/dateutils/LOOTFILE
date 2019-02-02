@@ -1,6 +1,6 @@
 # dateutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dateutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dateutils'
 url=('https://github.com/hroptatyr/dateutils/releases/download/v0.4.5/dateutils-0.4.5.tar.xz')

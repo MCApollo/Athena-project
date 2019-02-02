@@ -1,6 +1,6 @@
 # yle-dl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yle-dl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yledl'
 url=('https://github.com/aajanki/yle-dl/archive/20181221.tar.gz')

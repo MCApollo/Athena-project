@@ -1,6 +1,6 @@
 # chapel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chapel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chapel'
 url=('https://github.com/chapel-lang/chapel/releases/download/1.18.0/chapel-1.18.0.tar.gz')

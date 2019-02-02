@@ -1,6 +1,6 @@
 # azure-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/azure-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='azurecli'
 url=('https://codeload.github.com/Azure/azure-cli/legacy.tar.gz/bd417ea165f8f1f528a10fbc6d33c81fd7fa5f17')

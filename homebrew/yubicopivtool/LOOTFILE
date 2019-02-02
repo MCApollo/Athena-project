@@ -1,6 +1,6 @@
 # yubico-piv-tool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yubico-piv-tool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yubicopivtool'
 url=('https://developers.yubico.com/yubico-piv-tool/Releases/yubico-piv-tool-1.6.2.tar.gz')

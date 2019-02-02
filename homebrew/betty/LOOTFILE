@@ -1,6 +1,6 @@
 # betty.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/betty.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='betty'
 url=('https://github.com/pickhardt/betty/archive/v0.1.7.tar.gz')

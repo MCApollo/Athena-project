@@ -1,6 +1,6 @@
 # jsonlint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsonlint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jsonlint'
 url=('https://github.com/zaach/jsonlint/archive/v1.6.0.tar.gz')

@@ -1,6 +1,6 @@
 # harfbuzz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/harfbuzz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='harfbuzz'
 url=('https://www.freedesktop.org/software/harfbuzz/release/harfbuzz-2.3.0.tar.bz2')

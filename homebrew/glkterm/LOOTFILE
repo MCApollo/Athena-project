@@ -1,6 +1,6 @@
 # glkterm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glkterm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glkterm'
 url=('https://www.eblong.com/zarf/glk/glkterm-104.tar.gz')

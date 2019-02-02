@@ -1,6 +1,6 @@
 # glide.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glide.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glide'
 url=('https://github.com/Masterminds/glide/archive/v0.13.2.tar.gz')

@@ -1,6 +1,6 @@
 # flatbuffers.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/flatbuffers.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='flatbuffers'
 url=('https://github.com/google/flatbuffers/archive/v1.10.0.tar.gz')

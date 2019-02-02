@@ -1,6 +1,6 @@
 # libfixposix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libfixposix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libfixposix'
 url=('https://github.com/sionescu/libfixposix/archive/v0.4.3.tar.gz')

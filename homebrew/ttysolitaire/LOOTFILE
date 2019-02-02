@@ -1,6 +1,6 @@
 # tty-solitaire.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tty-solitaire.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ttysolitaire'
 url=('https://github.com/mpereira/tty-solitaire/archive/v1.1.1.tar.gz')

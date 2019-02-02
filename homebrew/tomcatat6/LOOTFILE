@@ -1,6 +1,6 @@
 # tomcat@6.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tomcat@6.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tomcatat6'
 url=('https://www.apache.org/dyn/closer.cgi?path=tomcat/tomcat-6/v6.0.53/bin/apache-tomcat-6.0.53.tar.gz')

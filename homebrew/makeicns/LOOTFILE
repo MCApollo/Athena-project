@@ -1,6 +1,6 @@
 # makeicns.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/makeicns.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='makeicns'
 url=('https://bitbucket.org/mkae/makeicns/downloads/makeicns-1.4.10a.tar.bz2')

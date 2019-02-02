@@ -1,6 +1,6 @@
 # cminpack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cminpack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cminpack'
 url=('https://github.com/devernay/cminpack/archive/v1.3.6.tar.gz')

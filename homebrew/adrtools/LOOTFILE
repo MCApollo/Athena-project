@@ -1,6 +1,6 @@
 # adr-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/adr-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='adrtools'
 url=('https://github.com/npryce/adr-tools/archive/3.0.0.tar.gz')

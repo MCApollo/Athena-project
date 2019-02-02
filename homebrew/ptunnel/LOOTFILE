@@ -1,6 +1,6 @@
 # ptunnel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ptunnel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ptunnel'
 url=('https://www.cs.uit.no/~daniels/PingTunnel/PingTunnel-0.72.tar.gz')

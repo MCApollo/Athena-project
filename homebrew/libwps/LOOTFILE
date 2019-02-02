@@ -1,6 +1,6 @@
 # libwps.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libwps.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libwps'
 url=('https://downloads.sourceforge.net/project/libwps/libwps/libwps-0.4.10/libwps-0.4.10.tar.xz')

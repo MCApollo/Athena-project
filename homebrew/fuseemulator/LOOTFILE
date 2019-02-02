@@ -1,6 +1,6 @@
 # fuse-emulator.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fuse-emulator.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fuseemulator'
 url=('https://downloads.sourceforge.net/project/fuse-emulator/fuse/1.5.5/fuse-1.5.5.tar.gz')

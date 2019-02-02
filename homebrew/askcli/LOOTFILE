@@ -1,6 +1,6 @@
 # ask-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ask-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='askcli'
 url=('https://registry.npmjs.org/ask-cli/-/ask-cli-1.6.0.tgz')

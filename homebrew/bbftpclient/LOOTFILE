@@ -1,6 +1,6 @@
 # bbftp-client.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bbftp-client.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bbftpclient'
 url=('https://software.in2p3.fr/bbftp/dist/bbftp-client-3.2.1.tar.gz')

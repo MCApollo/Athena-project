@@ -1,6 +1,6 @@
 # ringojs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ringojs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ringojs'
 url=('https://github.com/ringo/ringojs/releases/download/v1.2.1/ringojs-1.2.1.tar.gz')

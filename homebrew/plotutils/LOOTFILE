@@ -1,6 +1,6 @@
 # plotutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/plotutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='plotutils'
 url=('https://ftp.gnu.org/gnu/plotutils/plotutils-2.6.tar.gz')

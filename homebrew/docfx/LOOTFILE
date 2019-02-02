@@ -1,6 +1,6 @@
 # docfx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docfx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='docfx'
 url=('https://github.com/dotnet/docfx/releases/download/v2.40.7/docfx.zip')

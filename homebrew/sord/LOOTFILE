@@ -1,6 +1,6 @@
 # sord.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sord.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sord'
 url=('https://download.drobilla.net/sord-0.16.2.tar.bz2')

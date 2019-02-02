@@ -1,6 +1,6 @@
 # cvsutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cvsutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cvsutils'
 url=('https://www.red-bean.com/cvsutils/releases/cvsutils-0.2.6.tar.gz')

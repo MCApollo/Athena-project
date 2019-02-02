@@ -1,6 +1,6 @@
 # libextractor.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libextractor.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libextractor'
 url=('https://ftp.gnu.org/gnu/libextractor/libextractor-1.8.tar.gz')

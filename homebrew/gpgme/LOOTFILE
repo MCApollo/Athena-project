@@ -1,6 +1,6 @@
 # gpgme.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gpgme.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gpgme'
 url=('https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.12.0.tar.bz2')

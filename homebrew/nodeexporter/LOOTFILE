@@ -1,6 +1,6 @@
 # node_exporter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/node_exporter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nodeexporter'
 url=('https://github.com/prometheus/node_exporter/archive/v0.16.0.tar.gz')

@@ -1,6 +1,6 @@
 # babl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/babl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='babl'
 url=('https://download.gimp.org/pub/babl/0.1/babl-0.1.60.tar.bz2')

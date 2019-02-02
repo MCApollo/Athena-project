@@ -1,6 +1,6 @@
 # libpst.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpst.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libpst'
 url=('https://www.five-ten-sg.com/libpst/packages/libpst-0.6.72.tar.gz')

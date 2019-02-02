@@ -1,6 +1,6 @@
 # gitversion.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gitversion.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitversion'
 url=('https://github.com/GitTools/GitVersion/releases/download/v4.0.0/GitVersion-bin-net40-v4.0.0.zip')

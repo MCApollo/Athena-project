@@ -1,6 +1,6 @@
 # derby.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/derby.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='derby'
 url=('https://www.apache.org/dyn/closer.cgi?path=db/derby/db-derby-10.14.2.0/db-derby-10.14.2.0-bin.tar.gz')

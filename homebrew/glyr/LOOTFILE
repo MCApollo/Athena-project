@@ -1,6 +1,6 @@
 # glyr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glyr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glyr'
 url=('https://github.com/sahib/glyr/archive/1.0.10.tar.gz')

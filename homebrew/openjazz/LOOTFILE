@@ -1,6 +1,6 @@
 # openjazz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openjazz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openjazz'
 url=('https://github.com/AlisterT/openjazz/releases/download/20180522/openjazz-20180522.tar.xz')

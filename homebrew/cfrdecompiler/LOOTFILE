@@ -1,6 +1,6 @@
 # cfr-decompiler.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cfr-decompiler.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cfrdecompiler'
 url=('https://www.benf.org/other/cfr/cfr_0_132.jar')

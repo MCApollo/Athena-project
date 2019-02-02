@@ -1,6 +1,6 @@
 # alure.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/alure.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='alure'
 url=('https://kcat.strangesoft.net/alure-releases/alure-1.2.tar.bz2')

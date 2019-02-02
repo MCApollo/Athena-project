@@ -1,6 +1,6 @@
 # archey.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/archey.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='archey'
 url=('https://github.com/obihann/archey-osx/archive/1.6.0.tar.gz')

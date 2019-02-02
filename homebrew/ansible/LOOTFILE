@@ -1,6 +1,6 @@
 # ansible.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ansible.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ansible'
 url=('https://releases.ansible.com/ansible/ansible-2.7.6.tar.gz')

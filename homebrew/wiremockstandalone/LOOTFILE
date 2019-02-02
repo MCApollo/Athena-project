@@ -1,6 +1,6 @@
 # wiremock-standalone.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wiremock-standalone.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wiremockstandalone'
 url=('https://search.maven.org/remotecontent?filepath=com/github/tomakehurst/wiremock-standalone/2.18.0/wiremock-standalone-2.18.0.jar')

@@ -1,6 +1,6 @@
 # mysql-utilities.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mysql-utilities.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mysqlutilities'
 url=('https://github.com/mysql/mysql-utilities/archive/release-1.6.5.tar.gz')

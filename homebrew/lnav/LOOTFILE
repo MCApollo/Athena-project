@@ -1,6 +1,6 @@
 # lnav.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lnav.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lnav'
 url=('https://github.com/tstack/lnav/releases/download/v0.8.4/lnav-0.8.4.tar.gz')

@@ -1,6 +1,6 @@
 # density.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/density.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='density'
 url=('https://github.com/centaurean/density/archive/density-0.14.2.tar.gz')

@@ -1,6 +1,6 @@
 # unifdef.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/unifdef.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='unifdef'
 url=('https://dotat.at/prog/unifdef/unifdef-2.11.tar.gz')

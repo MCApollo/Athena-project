@@ -1,6 +1,6 @@
 # xrootd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xrootd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xrootd'
 url=('http://xrootd.org/download/v4.8.3/xrootd-4.8.3.tar.gz')

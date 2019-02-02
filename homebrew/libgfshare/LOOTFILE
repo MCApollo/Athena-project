@@ -1,6 +1,6 @@
 # libgfshare.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgfshare.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgfshare'
 url=('https://www.digital-scurf.org/files/libgfshare/libgfshare-2.0.0.tar.bz2')

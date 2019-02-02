@@ -1,6 +1,6 @@
 # pandoc-crossref.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pandoc-crossref.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pandoccrossref'
 url=('https://hackage.haskell.org/package/pandoc-crossref-0.3.4.0/pandoc-crossref-0.3.4.0.tar.gz')

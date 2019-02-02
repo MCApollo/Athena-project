@@ -1,6 +1,6 @@
 # cgoban.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cgoban.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cgoban'
 url=('http://www.igoweb.org/~wms/comp/cgoban/cgoban-1.9.12.tar.gz')

@@ -1,6 +1,6 @@
 # solr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/solr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='solr'
 url=('https://www.apache.org/dyn/closer.cgi?path=lucene/solr/7.6.0/solr-7.6.0.tgz')

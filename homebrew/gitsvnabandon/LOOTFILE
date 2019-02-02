@@ -1,6 +1,6 @@
 # git-svn-abandon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-svn-abandon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitsvnabandon'
 url=('https://github.com/nothingmuch/git-svn-abandon/archive/0.0.1.tar.gz')

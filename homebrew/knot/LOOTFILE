@@ -1,6 +1,6 @@
 # knot.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/knot.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='knot'
 url=('https://secure.nic.cz/files/knot-dns/knot-2.7.5.tar.xz')

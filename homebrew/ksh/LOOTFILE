@@ -1,6 +1,6 @@
 # ksh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ksh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ksh'
 url=('https://opensource.apple.com/source/ksh/ksh-23/ast-ksh.2012-08-01.tgz')

@@ -1,6 +1,6 @@
 # ratfor.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ratfor.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ratfor'
 url=('http://www.dgate.org/ratfor/tars/ratfor-1.03.tar.gz')

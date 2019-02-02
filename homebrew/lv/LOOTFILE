@@ -1,6 +1,6 @@
 # lv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lv'
 url=('https://web.archive.org/web/20150915000000/www.ff.iij4u.or.jp/~nrt/freeware/lv451.tar.gz')

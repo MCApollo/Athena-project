@@ -1,6 +1,6 @@
 # docker-swarm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-swarm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockerswarm'
 url=('https://github.com/docker/swarm/archive/v1.2.9.tar.gz')

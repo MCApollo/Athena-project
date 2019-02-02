@@ -1,6 +1,6 @@
 # sproxy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sproxy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sproxy'
 url=('http://download.joedog.org/sproxy/sproxy-1.02.tar.gz')

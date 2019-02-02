@@ -1,6 +1,6 @@
 # ncp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ncp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ncp'
 url=('https://dl.fefe.de/ncp-1.2.4.tar.bz2')

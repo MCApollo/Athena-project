@@ -1,6 +1,6 @@
 # libpointing.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpointing.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libpointing'
 url=('https://github.com/INRIA/libpointing/releases/download/v1.0.7/libpointing-mac-1.0.7.tar.gz')

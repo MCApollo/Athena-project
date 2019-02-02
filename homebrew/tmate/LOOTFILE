@@ -1,6 +1,6 @@
 # tmate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tmate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tmate'
 url=('https://github.com/tmate-io/tmate/archive/2.2.1.tar.gz')

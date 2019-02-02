@@ -1,6 +1,6 @@
 # hardlink.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hardlink.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hardlink'
 url=('https://jak-linux.org/projects/hardlink/hardlink_0.3.0.tar.xz')

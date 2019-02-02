@@ -1,6 +1,6 @@
 # darkstat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/darkstat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='darkstat'
 url=('https://unix4lyfe.org/darkstat/darkstat-3.0.719.tar.bz2')

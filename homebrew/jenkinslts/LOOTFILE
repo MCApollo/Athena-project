@@ -1,6 +1,6 @@
 # jenkins-lts.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jenkins-lts.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jenkinslts'
 url=('http://mirrors.jenkins.io/war-stable/2.150.2/jenkins.war')

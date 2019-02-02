@@ -1,6 +1,6 @@
 # paperkey.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/paperkey.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='paperkey'
 url=('https://www.jabberwocky.com/software/paperkey/paperkey-1.5.tar.gz')

@@ -1,6 +1,6 @@
 # objfw.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/objfw.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='objfw'
 url=('https://heap.zone/objfw/downloads/objfw-0.90.2.tar.gz')

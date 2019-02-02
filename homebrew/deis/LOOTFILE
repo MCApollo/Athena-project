@@ -1,6 +1,6 @@
 # deis.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/deis.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='deis'
 url=('https://github.com/deis/workflow-cli/archive/v2.18.0.tar.gz')

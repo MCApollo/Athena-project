@@ -1,6 +1,6 @@
 # dtrx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dtrx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dtrx'
 url=('https://brettcsmith.org/2007/dtrx/dtrx-7.1.tar.gz')

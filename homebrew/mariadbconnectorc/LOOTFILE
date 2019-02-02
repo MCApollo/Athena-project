@@ -1,6 +1,6 @@
 # mariadb-connector-c.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mariadb-connector-c.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mariadbconnectorc'
 url=('https://downloads.mariadb.org/f/connector-c-3.0.8/mariadb-connector-c-3.0.8-src.tar.gz')

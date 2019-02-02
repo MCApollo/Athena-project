@@ -1,6 +1,6 @@
 # libmrss.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmrss.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmrss'
 url=('https://www.autistici.org/bakunin/libmrss/libmrss-0.19.2.tar.gz')

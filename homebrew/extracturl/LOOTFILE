@@ -1,6 +1,6 @@
 # extract_url.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/extract_url.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='extracturl'
 url=('https://github.com/m3m0ryh0l3/extracturl/archive/v1.6.2.tar.gz')

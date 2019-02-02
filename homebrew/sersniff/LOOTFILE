@@ -1,6 +1,6 @@
 # sersniff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sersniff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sersniff'
 url=('https://www.earth.li/projectpurple/files/sersniff-0.0.5.tar.gz')

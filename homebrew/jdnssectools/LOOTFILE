@@ -1,6 +1,6 @@
 # jdnssec-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jdnssec-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jdnssectools'
 url=('https://github.com/dblacka/jdnssec-tools/releases/download/0.14/jdnssec-tools-0.14.tar.gz')

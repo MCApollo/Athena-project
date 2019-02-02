@@ -1,6 +1,6 @@
 # dvm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dvm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dvm'
 url=('https://github.com/howtowhale/dvm/archive/1.0.2.tar.gz')

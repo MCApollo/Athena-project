@@ -1,6 +1,6 @@
 # spin.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spin.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spin'
 url=('https://spinroot.com/spin/Src/spin648.tar.gz')

@@ -1,6 +1,6 @@
 # par.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/par.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='par'
 url=('http://www.nicemice.net/par/Par152.tar.gz')

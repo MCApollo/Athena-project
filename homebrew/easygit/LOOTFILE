@@ -1,6 +1,6 @@
 # easy-git.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/easy-git.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='easygit'
 url=('https://people.gnome.org/~newren/eg/download/1.7.5.2/eg')

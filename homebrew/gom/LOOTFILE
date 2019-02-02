@@ -1,6 +1,6 @@
 # gom.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gom.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gom'
 url=('https://download.gnome.org/sources/gom/0.3/gom-0.3.3.tar.xz')

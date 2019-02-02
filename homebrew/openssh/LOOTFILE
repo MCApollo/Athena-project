@@ -1,6 +1,6 @@
 # openssh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openssh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openssh'
 url=('https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-7.9p1.tar.gz')

@@ -1,6 +1,6 @@
 # dmalloc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dmalloc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dmalloc'
 url=('http://dmalloc.com/releases/dmalloc-5.5.2.tgz')

@@ -1,6 +1,6 @@
 # psftools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/psftools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='psftools'
 url=('https://www.seasip.info/Unix/PSF/psftools-1.1.10.tar.gz')

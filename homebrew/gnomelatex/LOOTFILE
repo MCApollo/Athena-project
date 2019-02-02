@@ -1,6 +1,6 @@
 # gnome-latex.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnome-latex.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnomelatex'
 url=('https://download.gnome.org/sources/gnome-latex/3.30/gnome-latex-3.30.2.tar.xz')

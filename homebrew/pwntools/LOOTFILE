@@ -1,6 +1,6 @@
 # pwntools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pwntools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pwntools'
 url=('https://github.com/Gallopsled/pwntools/archive/3.12.2.tar.gz')

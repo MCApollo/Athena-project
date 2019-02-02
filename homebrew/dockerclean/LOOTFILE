@@ -1,6 +1,6 @@
 # docker-clean.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-clean.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockerclean'
 url=('https://github.com/ZZROTDesign/docker-clean/archive/v2.0.4.tar.gz')

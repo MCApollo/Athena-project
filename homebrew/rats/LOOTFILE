@@ -1,6 +1,6 @@
 # rats.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rats.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rats'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/rough-auditing-tool-for-security/rats-2.4.tgz')

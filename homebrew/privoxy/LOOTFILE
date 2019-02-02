@@ -1,6 +1,6 @@
 # privoxy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/privoxy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='privoxy'
 url=('https://downloads.sourceforge.net/project/ijbswa/Sources/3.0.26%20%28stable%29/privoxy-3.0.26-stable-src.tar.gz')

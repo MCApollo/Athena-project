@@ -1,6 +1,6 @@
 # dropbear.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dropbear.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dropbear'
 url=('https://matt.ucc.asn.au/dropbear/releases/dropbear-2018.76.tar.bz2')

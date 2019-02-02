@@ -1,6 +1,6 @@
 # klavaro.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/klavaro.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='klavaro'
 url=('https://downloads.sourceforge.net/project/klavaro/klavaro-3.03.tar.bz2')

@@ -1,6 +1,6 @@
 # pioneer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pioneer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pioneer'
 url=('https://github.com/pioneerspacesim/pioneer/archive/20180203.tar.gz')

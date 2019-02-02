@@ -1,6 +1,6 @@
 # wireguard-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wireguard-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wireguardtools'
 url=('https://git.zx2c4.com/WireGuard/snapshot/WireGuard-0.0.20190123.tar.xz')

@@ -1,6 +1,6 @@
 # srclib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/srclib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='srclib'
 url=('https://github.com/sourcegraph/srclib/archive/v0.2.5.tar.gz')

@@ -1,6 +1,6 @@
 # frotz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/frotz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='frotz'
 url=('https://github.com/DavidGriffith/frotz/archive/2.44.tar.gz')

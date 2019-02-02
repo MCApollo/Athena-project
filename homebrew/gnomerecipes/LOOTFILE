@@ -1,6 +1,6 @@
 # gnome-recipes.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnome-recipes.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnomerecipes'
 url=('https://download.gnome.org/sources/gnome-recipes/2.0/gnome-recipes-2.0.2.tar.xz')

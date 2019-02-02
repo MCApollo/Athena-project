@@ -1,6 +1,6 @@
 # dfc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dfc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dfc'
 url=('https://projects.gw-computing.net/attachments/download/615/dfc-3.1.1.tar.gz')

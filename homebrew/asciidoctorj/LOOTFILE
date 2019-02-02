@@ -1,6 +1,6 @@
 # asciidoctorj.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/asciidoctorj.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='asciidoctorj'
 url=('https://dl.bintray.com/asciidoctor/maven/org/asciidoctor/asciidoctorj/1.5.6/asciidoctorj-1.5.6-bin.zip')

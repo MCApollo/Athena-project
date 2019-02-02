@@ -1,6 +1,6 @@
 # libgeotiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgeotiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgeotiff'
 url=('https://download.osgeo.org/geotiff/libgeotiff/libgeotiff-1.4.2.tar.gz')

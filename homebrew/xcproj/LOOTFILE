@@ -1,6 +1,6 @@
 # xcproj.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xcproj.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xcproj'
 url=('https://github.com/0xced/xcproj/archive/0.2.1.tar.gz')

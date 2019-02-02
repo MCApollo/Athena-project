@@ -1,6 +1,6 @@
 # discount.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/discount.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='discount'
 url=('https://www.pell.portland.or.us/~orc/Code/discount/discount-2.2.4.tar.bz2')

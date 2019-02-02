@@ -1,6 +1,6 @@
 # libopendkim.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libopendkim.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libopendkim'
 url=('https://downloads.sourceforge.net/project/opendkim/opendkim-2.10.3.tar.gz')

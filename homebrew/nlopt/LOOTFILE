@@ -1,6 +1,6 @@
 # nlopt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nlopt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nlopt'
 url=('https://github.com/stevengj/nlopt/releases/download/nlopt-2.4.2/nlopt-2.4.2.tar.gz')

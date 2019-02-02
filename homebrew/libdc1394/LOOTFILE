@@ -1,6 +1,6 @@
 # libdc1394.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdc1394.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libdc1394'
 url=('https://downloads.sourceforge.net/project/libdc1394/libdc1394-2/2.2.2/libdc1394-2.2.2.tar.gz')

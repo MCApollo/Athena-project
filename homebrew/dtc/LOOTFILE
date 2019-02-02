@@ -1,6 +1,6 @@
 # dtc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dtc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dtc'
 url=('https://www.kernel.org/pub/software/utils/dtc/dtc-1.4.7.tar.xz')

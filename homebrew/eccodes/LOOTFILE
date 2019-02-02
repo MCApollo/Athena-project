@@ -1,6 +1,6 @@
 # eccodes.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/eccodes.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='eccodes'
 url=('https://software.ecmwf.int/wiki/download/attachments/45757960/eccodes-2.10.0-Source.tar.gz')

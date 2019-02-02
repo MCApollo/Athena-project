@@ -1,6 +1,6 @@
 # gtkspell3.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtkspell3.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gtkspell3'
 url=('https://downloads.sourceforge.net/project/gtkspell/3.0.10/gtkspell3-3.0.10.tar.xz')

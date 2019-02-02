@@ -1,6 +1,6 @@
 # libosinfo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libosinfo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libosinfo'
 url=('https://releases.pagure.org/libosinfo/libosinfo-1.2.0.tar.gz')

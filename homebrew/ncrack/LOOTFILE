@@ -1,6 +1,6 @@
 # ncrack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ncrack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ncrack'
 url=('https://github.com/nmap/ncrack/archive/v0.6.0.tar.gz')

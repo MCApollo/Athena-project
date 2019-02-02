@@ -1,6 +1,6 @@
 # pygitup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pygitup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pygitup'
 url=('https://files.pythonhosted.org/packages/46/45/32dc0bf07c620644a8ed899e381309f4f25b50f20a91e555285522592833/git-up-1.6.1.tar.gz')

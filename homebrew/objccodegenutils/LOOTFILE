@@ -1,6 +1,6 @@
 # objc-codegenutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/objc-codegenutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='objccodegenutils'
 url=('https://github.com/square/objc-codegenutils/archive/v1.0.tar.gz')

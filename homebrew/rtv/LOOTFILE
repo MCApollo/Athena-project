@@ -1,6 +1,6 @@
 # rtv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rtv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rtv'
 url=('https://github.com/michael-lazar/rtv/archive/v1.24.0.tar.gz')

@@ -1,6 +1,6 @@
 # snow.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/snow.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snow'
 url=('https://dl.bintray.com/homebrew/mirror/snow-20130616.tar.gz')

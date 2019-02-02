@@ -1,6 +1,6 @@
 # montage.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/montage.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='montage'
 url=('http://montage.ipac.caltech.edu/download/Montage_v4.0.tar.gz')

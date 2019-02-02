@@ -1,6 +1,6 @@
 # curlish.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/curlish.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='curlish'
 url=('https://github.com/fireteam/curlish/archive/1.22.tar.gz')

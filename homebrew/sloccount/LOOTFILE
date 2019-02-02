@@ -1,6 +1,6 @@
 # sloccount.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sloccount.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sloccount'
 url=('https://www.dwheeler.com/sloccount/sloccount-2.26.tar.gz')

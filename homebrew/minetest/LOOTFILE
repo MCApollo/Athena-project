@@ -1,6 +1,6 @@
 # minetest.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minetest.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minetest'
 url=('https://github.com/minetest/minetest/archive/0.4.17.1.tar.gz')

@@ -1,6 +1,6 @@
 # libheif.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libheif.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libheif'
 url=('https://github.com/strukturag/libheif/releases/download/v1.3.2/libheif-1.3.2.tar.gz')

@@ -1,6 +1,6 @@
 # pg_top.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pg_top.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pgtop'
 url=('https://ftp.postgresql.org/pub/projects/pgFoundry/ptop/pg_top/3.7.0/pg_top-3.7.0.tar.bz2')

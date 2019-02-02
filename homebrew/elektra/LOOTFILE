@@ -1,6 +1,6 @@
 # elektra.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/elektra.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='elektra'
 url=('https://www.libelektra.org/ftp/elektra/releases/elektra-0.8.25.tar.gz')

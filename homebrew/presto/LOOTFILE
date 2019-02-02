@@ -1,6 +1,6 @@
 # presto.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/presto.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='presto'
 url=('https://search.maven.org/remotecontent?filepath=com/facebook/presto/presto-server/0.216/presto-server-0.216.tar.gz')

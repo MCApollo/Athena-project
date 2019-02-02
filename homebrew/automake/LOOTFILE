@@ -1,6 +1,6 @@
 # automake.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/automake.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='automake'
 url=('https://ftp.gnu.org/gnu/automake/automake-1.16.1.tar.xz')

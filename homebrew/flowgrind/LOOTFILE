@@ -1,6 +1,6 @@
 # flowgrind.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/flowgrind.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='flowgrind'
 url=('https://launchpad.net/flowgrind/trunk/flowgrind-0.8.0/+download/flowgrind-0.8.0.tar.bz2')

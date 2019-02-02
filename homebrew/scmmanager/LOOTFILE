@@ -1,6 +1,6 @@
 # scm-manager.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scm-manager.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scmmanager'
 url=('https://maven.scm-manager.org/nexus/content/repositories/releases/sonia/scm/scm-server/1.59/scm-server-1.59-app.tar.gz')

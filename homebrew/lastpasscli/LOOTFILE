@@ -1,6 +1,6 @@
 # lastpass-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lastpass-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lastpasscli'
 url=('https://github.com/lastpass/lastpass-cli/archive/v1.3.1.tar.gz')

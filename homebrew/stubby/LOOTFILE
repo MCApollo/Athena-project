@@ -1,6 +1,6 @@
 # stubby.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stubby.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stubby'
 url=('https://github.com/getdnsapi/stubby/archive/v0.2.5.tar.gz')

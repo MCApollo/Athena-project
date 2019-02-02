@@ -1,6 +1,6 @@
 # ipython.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ipython.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ipython'
 url=('https://files.pythonhosted.org/packages/42/bb/0ed1fb1d57d697326f9e9b827d9a74b81dee56031ed7c252bc716195ad7a/ipython-7.2.0.tar.gz')

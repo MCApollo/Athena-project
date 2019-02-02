@@ -1,6 +1,6 @@
 # anycable-go.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/anycable-go.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='anycablego'
 url=('https://github.com/anycable/anycable-go/archive/v0.6.1.tar.gz')

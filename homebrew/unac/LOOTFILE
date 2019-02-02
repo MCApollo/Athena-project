@@ -1,6 +1,6 @@
 # unac.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/unac.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='unac'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/u/unac/unac_1.8.0.orig.tar.gz')

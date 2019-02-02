@@ -1,6 +1,6 @@
 # ino.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ino.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ino'
 url=('https://files.pythonhosted.org/packages/source/i/ino/ino-0.3.6.tar.gz')

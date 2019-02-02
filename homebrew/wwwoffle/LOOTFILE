@@ -1,6 +1,6 @@
 # wwwoffle.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wwwoffle.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wwwoffle'
 url=('https://www.gedanken.org.uk/software/wwwoffle/download/wwwoffle-2.9j.tgz')

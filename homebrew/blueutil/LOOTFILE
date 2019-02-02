@@ -1,6 +1,6 @@
 # blueutil.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/blueutil.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='blueutil'
 url=('https://github.com/toy/blueutil/archive/v2.4.0.tar.gz')

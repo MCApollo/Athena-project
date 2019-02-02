@@ -1,6 +1,6 @@
 # coreos-ct.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/coreos-ct.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='coreosct'
 url=('https://github.com/coreos/container-linux-config-transpiler/archive/v0.9.0.tar.gz')

@@ -1,6 +1,6 @@
 # hexgui.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hexgui.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hexgui'
 url=('https://github.com/apetresc/hexgui/archive/v0.9.2.tar.gz')

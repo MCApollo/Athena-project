@@ -1,6 +1,6 @@
 # math-comp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/math-comp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mathcomp'
 url=('https://github.com/math-comp/math-comp/archive/mathcomp-1.7.0.tar.gz')

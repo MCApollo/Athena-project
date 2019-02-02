@@ -1,6 +1,6 @@
 # openjpeg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openjpeg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openjpeg'
 url=('https://github.com/uclouvain/openjpeg/archive/v2.3.0.tar.gz')

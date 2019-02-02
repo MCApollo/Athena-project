@@ -1,6 +1,6 @@
 # cdparanoia.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cdparanoia.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cdparanoia'
 url=('https://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz')

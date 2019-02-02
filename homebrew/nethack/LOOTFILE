@@ -1,6 +1,6 @@
 # nethack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nethack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nethack'
 url=('https://www.nethack.org/download/3.6.1/nethack-361-src.tgz')

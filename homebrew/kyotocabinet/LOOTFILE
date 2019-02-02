@@ -1,6 +1,6 @@
 # kyoto-cabinet.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kyoto-cabinet.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kyotocabinet'
 url=('https://fallabs.com/kyotocabinet/pkg/kyotocabinet-1.2.76.tar.gz')

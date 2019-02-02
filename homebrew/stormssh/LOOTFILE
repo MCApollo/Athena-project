@@ -1,6 +1,6 @@
 # stormssh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stormssh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stormssh'
 url=('https://files.pythonhosted.org/packages/0a/18/85d12be676ae0c1d98173b07cc289bbf9e0c67d6c7054b8df3e1003bf992/stormssh-0.7.0.tar.gz')

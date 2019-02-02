@@ -1,6 +1,6 @@
 # woof.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/woof.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='woof'
 url=('http://www.home.unix-ag.org/simon/woof-2012-05-31.py')

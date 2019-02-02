@@ -1,6 +1,6 @@
 # ecm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ecm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ecm'
 url=('https://web.archive.org/web/20091021035854/www.neillcorlett.com/downloads/ecm100.zip')

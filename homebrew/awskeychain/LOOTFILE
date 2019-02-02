@@ -1,6 +1,6 @@
 # aws-keychain.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-keychain.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='awskeychain'
 url=('https://github.com/pda/aws-keychain/archive/v3.0.0.tar.gz')

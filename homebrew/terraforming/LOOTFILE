@@ -1,6 +1,6 @@
 # terraforming.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/terraforming.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='terraforming'
 url=('https://github.com/dtan4/terraforming.git')

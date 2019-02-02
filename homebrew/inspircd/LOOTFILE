@@ -1,6 +1,6 @@
 # inspircd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/inspircd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='inspircd'
 url=('https://github.com/inspircd/inspircd/archive/v2.0.27.tar.gz')

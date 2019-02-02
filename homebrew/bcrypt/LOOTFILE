@@ -1,6 +1,6 @@
 # bcrypt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bcrypt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bcrypt'
 url=('https://bcrypt.sourceforge.io/bcrypt-1.1.tar.gz')

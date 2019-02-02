@@ -1,6 +1,6 @@
 # dspdfviewer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dspdfviewer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dspdfviewer'
 url=('https://github.com/dannyedel/dspdfviewer/archive/v1.15.1.tar.gz')

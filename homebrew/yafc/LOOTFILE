@@ -1,6 +1,6 @@
 # yafc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yafc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yafc'
 url=('https://deb.debian.org/debian/pool/main/y/yafc/yafc_1.3.7.orig.tar.xz')

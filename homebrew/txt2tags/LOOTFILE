@@ -1,6 +1,6 @@
 # txt2tags.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/txt2tags.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='txt2tags'
 url=('https://github.com/txt2tags/txt2tags/archive/2.6.tar.gz')

@@ -1,6 +1,6 @@
 # cityhash.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cityhash.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cityhash'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cityhash/cityhash-1.1.1.tar.gz')

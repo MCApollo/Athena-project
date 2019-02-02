@@ -1,6 +1,6 @@
 # utimer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/utimer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='utimer'
 url=('https://launchpad.net/utimer/0.4/0.4/+download/utimer-0.4.tar.gz')

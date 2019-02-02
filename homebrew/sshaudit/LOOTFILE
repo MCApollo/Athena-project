@@ -1,6 +1,6 @@
 # ssh-audit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ssh-audit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sshaudit'
 url=('https://github.com/arthepsy/ssh-audit/archive/v1.7.0.tar.gz')

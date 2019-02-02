@@ -1,6 +1,6 @@
 # jhipster.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jhipster.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jhipster'
 url=('https://registry.npmjs.org/generator-jhipster/-/generator-jhipster-5.8.1.tgz')

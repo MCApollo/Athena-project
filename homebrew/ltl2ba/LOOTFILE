@@ -1,6 +1,6 @@
 # ltl2ba.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ltl2ba.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ltl2ba'
 url=('https://www.lsv.ens-cachan.fr/~gastin/ltl2ba/ltl2ba-1.2b1.tar.gz')

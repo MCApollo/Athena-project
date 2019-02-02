@@ -1,6 +1,6 @@
 # parallelstl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/parallelstl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='parallelstl'
 url=('https://github.com/intel/parallelstl/archive/20181204.tar.gz')

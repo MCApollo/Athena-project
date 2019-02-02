@@ -1,6 +1,6 @@
 # cmake.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cmake.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cmake'
 url=('https://github.com/Kitware/CMake/releases/download/v3.13.3/cmake-3.13.3.tar.gz')

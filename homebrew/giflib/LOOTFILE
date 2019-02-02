@@ -1,6 +1,6 @@
 # giflib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/giflib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='giflib'
 url=('https://downloads.sourceforge.net/project/giflib/giflib-5.1.4.tar.bz2')

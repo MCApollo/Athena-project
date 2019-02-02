@@ -1,6 +1,6 @@
 # bundletool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bundletool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bundletool'
 url=('https://github.com/google/bundletool/releases/download/0.8.0/bundletool-all-0.8.0.jar')

@@ -1,6 +1,6 @@
 # nu-smv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nu-smv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nusmv'
 url=('http://nusmv.fbk.eu/distrib/NuSMV-2.6.0.tar.gz')

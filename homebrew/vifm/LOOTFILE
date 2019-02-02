@@ -1,6 +1,6 @@
 # vifm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vifm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vifm'
 url=('https://github.com/vifm/vifm/releases/download/v0.9.1/vifm-0.9.1.tar.bz2')

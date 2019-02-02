@@ -1,6 +1,6 @@
 # yank.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yank.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yank'
 url=('https://github.com/mptre/yank/archive/v1.1.0.tar.gz')

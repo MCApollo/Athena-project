@@ -1,6 +1,6 @@
 # proof-general.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/proof-general.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='proofgeneral'
 url=('https://github.com/ProofGeneral/PG/archive/v4.4.tar.gz')

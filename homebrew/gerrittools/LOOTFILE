@@ -1,6 +1,6 @@
 # gerrit-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gerrit-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gerrittools'
 url=('https://github.com/indirect/gerrit-tools/archive/v1.0.0.tar.gz')

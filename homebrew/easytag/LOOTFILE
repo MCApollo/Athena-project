@@ -1,6 +1,6 @@
 # easy-tag.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/easy-tag.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='easytag'
 url=('https://download.gnome.org//sources/easytag/2.4/easytag-2.4.3.tar.xz')

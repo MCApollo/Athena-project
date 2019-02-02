@@ -1,6 +1,6 @@
 # tcpkali.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tcpkali.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tcpkali'
 url=('https://github.com/machinezone/tcpkali/releases/download/v1.1.1/tcpkali-1.1.1.tar.gz')

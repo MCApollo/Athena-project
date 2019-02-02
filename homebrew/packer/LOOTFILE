@@ -1,6 +1,6 @@
 # packer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/packer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='packer'
 url=('https://github.com/hashicorp/packer.git')

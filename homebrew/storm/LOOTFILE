@@ -1,6 +1,6 @@
 # storm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/storm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='storm'
 url=('https://www.apache.org/dyn/closer.cgi?path=storm/apache-storm-1.2.2/apache-storm-1.2.2.tar.gz')

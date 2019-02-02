@@ -1,6 +1,6 @@
 # pyvim.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pyvim.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pyvim'
 url=('https://files.pythonhosted.org/packages/96/3f/2fc173e4fec288adc9cd1dd52de15ca2a9947a941ee98d0ea3c678f89cd9/pyvim-2.0.22.tar.gz')

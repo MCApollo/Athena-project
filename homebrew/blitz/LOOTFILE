@@ -1,6 +1,6 @@
 # blitz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/blitz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='blitz'
 url=('https://downloads.sourceforge.net/project/blitz/blitz/Blitz++%200.10/blitz-0.10.tar.gz')

@@ -1,6 +1,6 @@
 # hebcal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hebcal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hebcal'
 url=('https://github.com/hebcal/hebcal/archive/v4.15.tar.gz')

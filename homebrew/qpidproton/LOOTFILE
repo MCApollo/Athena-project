@@ -1,6 +1,6 @@
 # qpid-proton.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qpid-proton.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qpidproton'
 url=('https://www.apache.org/dyn/closer.lua?path=qpid/proton/0.26.0/qpid-proton-0.26.0.tar.gz')

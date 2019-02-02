@@ -1,6 +1,6 @@
 # arangodb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/arangodb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='arangodb'
 url=('https://download.arangodb.com/Source/ArangoDB-3.4.0.tar.gz')

@@ -1,6 +1,6 @@
 # jbig2enc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jbig2enc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jbig2enc'
 url=('https://github.com/agl/jbig2enc/archive/0.29.tar.gz')

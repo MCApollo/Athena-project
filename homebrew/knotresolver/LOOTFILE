@@ -1,6 +1,6 @@
 # knot-resolver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/knot-resolver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='knotresolver'
 url=('https://secure.nic.cz/files/knot-resolver/knot-resolver-3.2.1.tar.xz')

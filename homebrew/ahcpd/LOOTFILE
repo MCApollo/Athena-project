@@ -1,6 +1,6 @@
 # ahcpd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ahcpd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ahcpd'
 url=('https://www.irif.univ-paris-diderot.fr/~jch/software/files/ahcpd-0.53.tar.gz')

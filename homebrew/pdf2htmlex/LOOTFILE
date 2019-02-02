@@ -1,6 +1,6 @@
 # pdf2htmlex.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdf2htmlex.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pdf2htmlex'
 url=('https://github.com/coolwanglu/pdf2htmlEX/archive/v0.14.6.tar.gz')

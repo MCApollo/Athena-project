@@ -1,6 +1,6 @@
 # mecab-unidic.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mecab-unidic.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mecabunidic'
 url=('https://dotsrc.dl.osdn.net/osdn/unidic/58338/unidic-mecab-2.1.2_src.zip')

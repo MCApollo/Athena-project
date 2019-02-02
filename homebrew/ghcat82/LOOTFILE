@@ -1,6 +1,6 @@
 # ghc@8.2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ghc@8.2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ghcat82'
 url=('https://downloads.haskell.org/~ghc/8.2.2/ghc-8.2.2-src.tar.xz')

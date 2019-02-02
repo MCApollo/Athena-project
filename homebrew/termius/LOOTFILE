@@ -1,6 +1,6 @@
 # termius.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/termius.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='termius'
 url=('https://github.com/Crystalnix/termius-cli/archive/v1.2.12.tar.gz')

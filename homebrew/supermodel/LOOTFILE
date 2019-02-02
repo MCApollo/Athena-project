@@ -1,6 +1,6 @@
 # supermodel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/supermodel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='supermodel'
 url=('https://www.supermodel3.com/Files/Supermodel_0.2a_Src.zip')

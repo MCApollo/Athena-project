@@ -1,6 +1,6 @@
 # arabica.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/arabica.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='arabica'
 url=('https://github.com/jezhiggins/arabica/archive/2016-January.tar.gz')

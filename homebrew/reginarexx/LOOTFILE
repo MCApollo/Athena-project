@@ -1,6 +1,6 @@
 # regina-rexx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/regina-rexx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='reginarexx'
 url=('https://downloads.sourceforge.net/project/regina-rexx/regina-rexx/3.9.1/Regina-REXX-3.9.1.tar.gz')

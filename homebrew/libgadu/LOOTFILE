@@ -1,6 +1,6 @@
 # libgadu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgadu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgadu'
 url=('https://github.com/wojtekka/libgadu/releases/download/1.12.2/libgadu-1.12.2.tar.gz')

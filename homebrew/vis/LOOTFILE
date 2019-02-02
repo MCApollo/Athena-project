@@ -1,6 +1,6 @@
 # vis.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vis.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vis'
 url=('https://github.com/martanne/vis/archive/v0.5.tar.gz')

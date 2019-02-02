@@ -1,6 +1,6 @@
 # imagejs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/imagejs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='imagejs'
 url=('https://github.com/jklmnn/imagejs/archive/0.7.2.tar.gz')

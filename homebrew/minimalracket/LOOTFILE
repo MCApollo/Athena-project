@@ -1,6 +1,6 @@
 # minimal-racket.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minimal-racket.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minimalracket'
 url=('https://mirror.racket-lang.org/installers/7.1/racket-minimal-7.1-src-builtpkgs.tgz')

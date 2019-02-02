@@ -1,6 +1,6 @@
 # maxima.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/maxima.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='maxima'
 url=('https://downloads.sourceforge.net/project/maxima/Maxima-source/5.41.0-source/maxima-5.41.0.tar.gz')

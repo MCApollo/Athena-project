@@ -1,6 +1,6 @@
 # graphicsmagick.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/graphicsmagick.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='graphicsmagick'
 url=('https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.31/GraphicsMagick-1.3.31.tar.xz')

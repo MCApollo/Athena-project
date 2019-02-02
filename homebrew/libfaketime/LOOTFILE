@@ -1,6 +1,6 @@
 # libfaketime.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libfaketime.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libfaketime'
 url=('https://github.com/wolfcw/libfaketime/archive/v0.9.7.tar.gz')

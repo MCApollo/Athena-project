@@ -1,6 +1,6 @@
 # man2html.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/man2html.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='man2html'
 url=('https://www.mhonarc.org/release/misc/man2html3.0.1.tar.gz')

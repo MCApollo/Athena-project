@@ -1,6 +1,6 @@
 # remake.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/remake.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='remake'
 url=('https://downloads.sourceforge.net/project/bashdb/remake/4.2%2Bdbg-1.4/remake-4.2.1%2Bdbg-1.4.tar.bz2')

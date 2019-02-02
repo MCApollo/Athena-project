@@ -1,6 +1,6 @@
 # hadolint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hadolint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hadolint'
 url=('https://github.com/hadolint/hadolint/archive/v1.15.0.tar.gz')

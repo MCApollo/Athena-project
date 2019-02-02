@@ -1,6 +1,6 @@
 # gxml.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gxml.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gxml'
 url=('https://download.gnome.org/sources/gxml/0.16/gxml-0.16.3.tar.xz')

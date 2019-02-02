@@ -1,6 +1,6 @@
 # coccinelle.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/coccinelle.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='coccinelle'
 url=('http://coccinelle.lip6.fr/distrib/coccinelle-1.0.6.tgz')

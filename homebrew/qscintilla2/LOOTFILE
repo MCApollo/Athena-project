@@ -1,6 +1,6 @@
 # qscintilla2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qscintilla2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qscintilla2'
 url=('https://downloads.sourceforge.net/project/pyqt/QScintilla2/QScintilla-2.10.4/QScintilla_gpl-2.10.4.tar.gz')

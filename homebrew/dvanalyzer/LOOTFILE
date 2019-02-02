@@ -1,6 +1,6 @@
 # dvanalyzer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dvanalyzer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dvanalyzer'
 url=('https://mediaarea.net/download/binary/dvanalyzer/1.4.2/DVAnalyzer_CLI_1.4.2_GNU_FromSource.tar.bz2')

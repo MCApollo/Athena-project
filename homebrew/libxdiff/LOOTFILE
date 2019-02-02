@@ -1,6 +1,6 @@
 # libxdiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxdiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libxdiff'
 url=('http://www.xmailserver.org/libxdiff-0.23.tar.gz')

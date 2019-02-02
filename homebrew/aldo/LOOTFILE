@@ -1,6 +1,6 @@
 # aldo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aldo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aldo'
 url=('https://savannah.nongnu.org/download/aldo/aldo-0.7.7.tar.bz2')

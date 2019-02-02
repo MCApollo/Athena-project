@@ -1,6 +1,6 @@
 # libgdata.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgdata.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgdata'
 url=('https://download.gnome.org/sources/libgdata/0.16/libgdata-0.16.1.tar.xz')

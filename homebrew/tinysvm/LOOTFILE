@@ -1,6 +1,6 @@
 # tinysvm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tinysvm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tinysvm'
 url=('http://chasen.org/~taku/software/TinySVM/src/TinySVM-0.09.tar.gz')

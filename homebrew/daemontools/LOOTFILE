@@ -1,6 +1,6 @@
 # daemontools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/daemontools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='daemontools'
 url=('https://cr.yp.to/daemontools/daemontools-0.76.tar.gz')

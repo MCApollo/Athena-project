@@ -1,6 +1,6 @@
 # jrnl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jrnl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jrnl'
 url=('https://github.com/maebert/jrnl/archive/1.9.8.tar.gz')

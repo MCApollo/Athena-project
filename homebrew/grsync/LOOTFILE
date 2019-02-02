@@ -1,6 +1,6 @@
 # grsync.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/grsync.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='grsync'
 url=('https://downloads.sourceforge.net/project/grsync/grsync-1.2.6.tar.gz')

@@ -1,6 +1,6 @@
 # jetty-runner.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jetty-runner.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jettyrunner'
 url=('https://search.maven.org/remotecontent?filepath=org/eclipse/jetty/jetty-runner/9.4.12.v20180830/jetty-runner-9.4.12.v20180830.jar')

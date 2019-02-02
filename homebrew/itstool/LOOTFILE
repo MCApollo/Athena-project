@@ -1,6 +1,6 @@
 # itstool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/itstool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='itstool'
 url=('https://github.com/itstool/itstool/archive/2.0.5.tar.gz')

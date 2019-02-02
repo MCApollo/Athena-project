@@ -1,6 +1,6 @@
 # aws-sns-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-sns-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='awssnscli'
 url=('https://sns-public-resources.s3.amazonaws.com/SimpleNotificationServiceCli-2010-03-31.zip')

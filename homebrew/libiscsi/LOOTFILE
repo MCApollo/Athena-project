@@ -1,6 +1,6 @@
 # libiscsi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libiscsi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libiscsi'
 url=('https://sites.google.com/site/libiscsitarballs/libiscsitarballs/libiscsi-1.18.0.tar.gz')

@@ -1,6 +1,6 @@
 # fribidi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fribidi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fribidi'
 url=('https://github.com/fribidi/fribidi/releases/download/v1.0.5/fribidi-1.0.5.tar.bz2')

@@ -1,6 +1,6 @@
 # libcerf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcerf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libcerf'
 url=('http://apps.jcns.fz-juelich.de/src/libcerf/libcerf-1.11.tgz')

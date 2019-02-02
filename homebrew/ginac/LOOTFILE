@@ -1,6 +1,6 @@
 # ginac.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ginac.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ginac'
 url=('https://www.ginac.de/ginac-1.7.4.tar.bz2')

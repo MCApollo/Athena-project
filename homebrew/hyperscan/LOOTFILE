@@ -1,6 +1,6 @@
 # hyperscan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hyperscan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hyperscan'
 url=('https://github.com/intel/hyperscan/archive/v5.1.0.tar.gz')

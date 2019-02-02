@@ -1,6 +1,6 @@
 # armadillo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/armadillo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='armadillo'
 url=('https://downloads.sourceforge.net/project/arma/armadillo-9.100.5.tar.xz')

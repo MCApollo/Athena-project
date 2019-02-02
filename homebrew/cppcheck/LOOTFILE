@@ -1,6 +1,6 @@
 # cppcheck.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cppcheck.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cppcheck'
 url=('https://github.com/danmar/cppcheck/archive/1.86.tar.gz')

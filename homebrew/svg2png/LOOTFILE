@@ -1,6 +1,6 @@
 # svg2png.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/svg2png.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='svg2png'
 url=('https://cairographics.org/snapshots/svg2png-0.1.3.tar.gz')

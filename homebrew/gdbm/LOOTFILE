@@ -1,6 +1,6 @@
 # gdbm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gdbm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gdbm'
 url=('https://ftp.gnu.org/gnu/gdbm/gdbm-1.18.1.tar.gz')

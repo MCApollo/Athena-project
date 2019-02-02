@@ -1,6 +1,6 @@
 # ndiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ndiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ndiff'
 url=('http://ftp.math.utah.edu/pub/misc/ndiff-2.00.tar.gz')

@@ -1,6 +1,6 @@
 # hidapi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hidapi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hidapi'
 url=('https://github.com/signal11/hidapi/archive/hidapi-0.8.0-rc1.tar.gz')

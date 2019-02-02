@@ -1,6 +1,6 @@
 # opencbm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/opencbm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opencbm'
 url=('https://spiro.trikaliotis.net/Download/opencbm-0.4.99.99/opencbm-0.4.99.99.tar.bz2')

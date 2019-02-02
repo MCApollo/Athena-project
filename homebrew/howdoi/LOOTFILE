@@ -1,6 +1,6 @@
 # howdoi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/howdoi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='howdoi'
 url=('https://files.pythonhosted.org/packages/bc/21/87dd3caacaa7c372a9838de8e2a2a9640043e72f382cf1300574e78e9a86/howdoi-1.1.13.tar.gz')

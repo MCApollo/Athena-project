@@ -1,6 +1,6 @@
 # qxmpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qxmpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qxmpp'
 url=('https://github.com/qxmpp-project/qxmpp/archive/v0.9.3.tar.gz')

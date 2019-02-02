@@ -1,6 +1,6 @@
 # safe-rm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/safe-rm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='saferm'
 url=('https://launchpad.net/safe-rm/trunk/0.12/+download/safe-rm-0.12.tar.gz')

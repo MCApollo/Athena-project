@@ -1,6 +1,6 @@
 # mysql-connector-c++.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mysql-connector-c++.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mysqlconnectorcxx'
 url=('https://cdn.mysql.com/Downloads/Connector-C++/mysql-connector-c++-1.1.9.tar.gz')

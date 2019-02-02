@@ -1,6 +1,6 @@
 # gtk-doc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtk-doc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gtkdoc'
 url=('https://download.gnome.org/sources/gtk-doc/1.28/gtk-doc-1.28.tar.xz')

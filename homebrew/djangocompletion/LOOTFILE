@@ -1,6 +1,6 @@
 # django-completion.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/django-completion.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='djangocompletion'
 url=('https://github.com/django/django/archive/2.1.5.tar.gz')

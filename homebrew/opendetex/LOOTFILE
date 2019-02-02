@@ -1,6 +1,6 @@
 # opendetex.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/opendetex.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opendetex'
 url=('https://github.com/pkubowicz/opendetex/archive/v2.8.4.tar.gz')

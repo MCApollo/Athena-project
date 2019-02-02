@@ -1,6 +1,6 @@
 # greed.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/greed.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='greed'
 url=('http://www.catb.org/~esr/greed/greed-4.2.tar.gz')

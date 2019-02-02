@@ -1,6 +1,6 @@
 # log4c.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/log4c.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='log4c'
 url=('https://downloads.sourceforge.net/project/log4c/log4c/1.2.4/log4c-1.2.4.tar.gz')

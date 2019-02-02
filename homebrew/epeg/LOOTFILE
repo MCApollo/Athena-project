@@ -1,6 +1,6 @@
 # epeg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/epeg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='epeg'
 url=('https://github.com/mattes/epeg/archive/v0.9.2.tar.gz')

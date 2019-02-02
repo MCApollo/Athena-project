@@ -1,6 +1,6 @@
 # udns.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/udns.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='udns'
 url=('http://www.corpit.ru/mjt/udns/udns-0.4.tar.gz')

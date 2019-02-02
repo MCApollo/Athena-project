@@ -1,6 +1,6 @@
 # spaceman-diff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spaceman-diff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spacemandiff'
 url=('https://github.com/holman/spaceman-diff/archive/v1.0.3.tar.gz')

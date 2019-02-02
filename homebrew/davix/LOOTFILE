@@ -1,6 +1,6 @@
 # davix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/davix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='davix'
 url=('https://github.com/cern-it-sdc-id/davix.git')

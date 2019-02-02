@@ -1,6 +1,6 @@
 # libharu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libharu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libharu'
 url=('https://github.com/libharu/libharu/archive/RELEASE_2_3_0.tar.gz')

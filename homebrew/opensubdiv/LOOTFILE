@@ -1,6 +1,6 @@
 # opensubdiv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/opensubdiv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opensubdiv'
 url=('https://github.com/PixarAnimationStudios/OpenSubdiv/archive/v3_3_3.tar.gz')

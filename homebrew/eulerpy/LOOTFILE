@@ -1,6 +1,6 @@
 # euler-py.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/euler-py.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='eulerpy'
 url=('https://github.com/iKevinY/EulerPy/archive/v1.3.0.tar.gz')

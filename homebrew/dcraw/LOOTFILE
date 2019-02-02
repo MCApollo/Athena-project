@@ -1,6 +1,6 @@
 # dcraw.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dcraw.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dcraw'
 url=('https://www.cybercom.net/~dcoffin/dcraw/archive/dcraw-9.28.0.tar.gz')

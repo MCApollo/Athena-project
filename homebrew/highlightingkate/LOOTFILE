@@ -1,6 +1,6 @@
 # highlighting-kate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/highlighting-kate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='highlightingkate'
 url=('https://hackage.haskell.org/package/highlighting-kate-0.6.4/highlighting-kate-0.6.4.tar.gz')

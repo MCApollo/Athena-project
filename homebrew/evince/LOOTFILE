@@ -1,6 +1,6 @@
 # evince.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/evince.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='evince'
 url=('https://download.gnome.org/sources/evince/3.30/evince-3.30.2.tar.xz')

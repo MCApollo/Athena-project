@@ -1,6 +1,6 @@
 # fdk-aac.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fdk-aac.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fdkaac'
 url=('https://downloads.sourceforge.net/project/opencore-amr/fdk-aac/fdk-aac-2.0.0.tar.gz')

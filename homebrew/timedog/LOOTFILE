@@ -1,6 +1,6 @@
 # timedog.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/timedog.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='timedog'
 url=('https://github.com/nlfiedler/timedog/archive/v1.4.tar.gz')

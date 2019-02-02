@@ -1,6 +1,6 @@
 # hfsutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hfsutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hfsutils'
 url=('ftp://ftp.mars.org/pub/hfs/hfsutils-3.2.6.tar.gz')

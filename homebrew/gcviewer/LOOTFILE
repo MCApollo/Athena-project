@@ -1,6 +1,6 @@
 # gcviewer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gcviewer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gcviewer'
 url=('https://downloads.sourceforge.net/project/gcviewer/gcviewer-1.35.jar')

@@ -1,6 +1,6 @@
 # vavrdiasm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vavrdiasm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vavrdiasm'
 url=('https://github.com/vsergeev/vavrdisasm/archive/v3.1.tar.gz')

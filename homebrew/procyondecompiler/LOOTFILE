@@ -1,6 +1,6 @@
 # procyon-decompiler.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/procyon-decompiler.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='procyondecompiler'
 url=('https://bitbucket.org/mstrobel/procyon/downloads/procyon-decompiler-0.5.30.jar')

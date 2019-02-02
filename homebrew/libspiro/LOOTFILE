@@ -1,6 +1,6 @@
 # libspiro.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libspiro.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libspiro'
 url=('https://github.com/fontforge/libspiro/releases/download/0.5.20150702/libspiro-0.5.20150702.tar.gz')

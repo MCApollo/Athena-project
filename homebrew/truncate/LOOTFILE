@@ -1,6 +1,6 @@
 # truncate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/truncate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='truncate'
 url=('https://github.com/flok99/truncate/archive/0.9.tar.gz')

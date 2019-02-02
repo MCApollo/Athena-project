@@ -1,6 +1,6 @@
 # moco.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/moco.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='moco'
 url=('https://search.maven.org/remotecontent?filepath=com/github/dreamhead/moco-runner/0.12.0/moco-runner-0.12.0-standalone.jar')

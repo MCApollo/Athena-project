@@ -1,6 +1,6 @@
 # qalculate-gtk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qalculate-gtk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qalculategtk'
 url=('https://github.com/Qalculate/qalculate-gtk/releases/download/v2.8.2/qalculate-gtk-2.8.2.tar.gz')

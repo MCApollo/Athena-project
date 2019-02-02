@@ -1,6 +1,6 @@
 # pass-otp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pass-otp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='passotp'
 url=('https://github.com/tadfisher/pass-otp/releases/download/v1.2.0/pass-otp-1.2.0.tar.gz')

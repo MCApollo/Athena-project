@@ -1,6 +1,6 @@
 # fuseki.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fuseki.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fuseki'
 url=('https://www.apache.org/dyn/closer.lua?path=/jena/binaries/apache-jena-fuseki-3.10.0.tar.gz')

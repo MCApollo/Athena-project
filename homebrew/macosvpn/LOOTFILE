@@ -1,6 +1,6 @@
 # macosvpn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/macosvpn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='macosvpn'
 url=('https://github.com/halo/macosvpn/archive/0.3.5.tar.gz')

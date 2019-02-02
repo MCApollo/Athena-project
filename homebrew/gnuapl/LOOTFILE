@@ -1,6 +1,6 @@
 # gnu-apl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-apl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnuapl'
 url=('https://ftp.gnu.org/gnu/apl/apl-1.7.tar.gz')

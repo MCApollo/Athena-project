@@ -1,6 +1,6 @@
 # rubberband.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rubberband.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rubberband'
 url=('https://breakfastquay.com/files/releases/rubberband-1.8.2.tar.bz2')

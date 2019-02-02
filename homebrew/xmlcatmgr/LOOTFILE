@@ -1,6 +1,6 @@
 # xmlcatmgr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmlcatmgr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xmlcatmgr'
 url=('https://downloads.sourceforge.net/project/xmlcatmgr/xmlcatmgr/2.2/xmlcatmgr-2.2.tar.gz')

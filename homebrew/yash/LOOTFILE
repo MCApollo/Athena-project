@@ -1,6 +1,6 @@
 # yash.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yash.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yash'
 url=('https://dotsrc.dl.osdn.net/osdn/yash/69353/yash-2.47.tar.xz')

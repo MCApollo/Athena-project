@@ -1,6 +1,6 @@
 # freetype.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/freetype.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='freetype'
 url=('https://downloads.sourceforge.net/project/freetype/freetype2/2.9.1/freetype-2.9.1.tar.bz2')

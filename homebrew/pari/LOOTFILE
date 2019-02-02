@@ -1,6 +1,6 @@
 # pari.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pari.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pari'
 url=('https://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.11.0.tar.gz')

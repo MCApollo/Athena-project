@@ -1,6 +1,6 @@
 # pacapt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pacapt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pacapt'
 url=('https://github.com/icy/pacapt/archive/v2.4.0.tar.gz')

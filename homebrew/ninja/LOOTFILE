@@ -1,6 +1,6 @@
 # ninja.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ninja.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ninja'
 url=('https://github.com/ninja-build/ninja/archive/v1.8.2.tar.gz')

@@ -1,6 +1,6 @@
 # mmv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mmv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mmv'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/m/mmv/mmv_1.01b.orig.tar.gz')

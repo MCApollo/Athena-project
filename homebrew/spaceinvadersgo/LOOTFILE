@@ -1,6 +1,6 @@
 # spaceinvaders-go.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spaceinvaders-go.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spaceinvadersgo'
 url=('https://github.com/asib/spaceinvaders/archive/v1.2.tar.gz')

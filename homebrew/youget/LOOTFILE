@@ -1,6 +1,6 @@
 # you-get.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/you-get.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='youget'
 url=('https://github.com/soimort/you-get/archive/v0.4.1205.tar.gz')

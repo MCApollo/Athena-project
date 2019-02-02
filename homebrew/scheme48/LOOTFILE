@@ -1,6 +1,6 @@
 # scheme48.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scheme48.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scheme48'
 url=('http://s48.org/1.9.2/scheme48-1.9.2.tgz')

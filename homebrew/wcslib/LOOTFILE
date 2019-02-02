@@ -1,6 +1,6 @@
 # wcslib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wcslib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wcslib'
 url=('https://www.atnf.csiro.au/pub/software/wcslib/wcslib-6.2.tar.bz2')

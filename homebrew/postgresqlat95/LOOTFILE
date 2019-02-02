@@ -1,6 +1,6 @@
 # postgresql@9.5.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/postgresql@9.5.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='postgresqlat95'
 url=('https://ftp.postgresql.org/pub/source/v9.5.14/postgresql-9.5.14.tar.bz2')

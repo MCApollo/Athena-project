@@ -1,6 +1,6 @@
 # libquantum.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libquantum.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libquantum'
 url=('http://www.libquantum.de/files/libquantum-1.0.0.tar.gz')

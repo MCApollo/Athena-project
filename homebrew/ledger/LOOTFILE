@@ -1,6 +1,6 @@
 # ledger.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ledger.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ledger'
 url=('https://github.com/ledger/ledger/archive/v3.1.1.tar.gz')

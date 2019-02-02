@@ -1,6 +1,6 @@
 # bullet.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bullet.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bullet'
 url=('https://github.com/bulletphysics/bullet3/archive/2.88.tar.gz')

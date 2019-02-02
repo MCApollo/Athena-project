@@ -1,6 +1,6 @@
 # getdns.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/getdns.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='getdns'
 url=('https://getdnsapi.net/releases/getdns-1-5-1/getdns-1.5.1.tar.gz')

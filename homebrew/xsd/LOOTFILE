@@ -1,6 +1,6 @@
 # xsd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xsd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xsd'
 url=('https://www.codesynthesis.com/download/xsd/4.0/xsd-4.0.0+dep.tar.bz2')

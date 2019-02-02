@@ -1,6 +1,6 @@
 # waon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/waon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='waon'
 url=('https://github.com/kichiki/WaoN/archive/v0.11.tar.gz')

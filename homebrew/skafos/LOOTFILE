@@ -1,6 +1,6 @@
 # skafos.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/skafos.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='skafos'
 url=('https://github.com/MetisMachine/skafos/archive/1.7.7.tar.gz')

@@ -1,6 +1,6 @@
 # feedgnuplot.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/feedgnuplot.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='feedgnuplot'
 url=('https://github.com/dkogan/feedgnuplot/archive/v1.51.tar.gz')

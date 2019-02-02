@@ -1,6 +1,6 @@
 # xar-mackyle.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xar-mackyle.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xarmackyle'
 url=('https://github.com/downloads/mackyle/xar/xar-1.6.1.tar.gz')

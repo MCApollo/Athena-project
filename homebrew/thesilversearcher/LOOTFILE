@@ -1,6 +1,6 @@
 # the_silver_searcher.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/the_silver_searcher.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='thesilversearcher'
 url=('https://github.com/ggreer/the_silver_searcher/archive/2.2.0.tar.gz')

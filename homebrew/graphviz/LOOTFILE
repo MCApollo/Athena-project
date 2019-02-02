@@ -1,6 +1,6 @@
 # graphviz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/graphviz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='graphviz'
 url=('https://www.mirrorservice.org/sites/distfiles.macports.org/graphviz/graphviz-2.40.1.tar.gz')

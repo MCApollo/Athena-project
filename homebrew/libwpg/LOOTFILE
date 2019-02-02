@@ -1,6 +1,6 @@
 # libwpg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libwpg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libwpg'
 url=('https://dev-www.libreoffice.org/src/libwpg-0.3.2.tar.xz')

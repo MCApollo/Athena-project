@@ -1,6 +1,6 @@
 # nacl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nacl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nacl'
 url=('https://hyperelliptic.org/nacl/nacl-20110221.tar.bz2')

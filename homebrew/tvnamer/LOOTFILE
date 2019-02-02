@@ -1,6 +1,6 @@
 # tvnamer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tvnamer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tvnamer'
 url=('https://github.com/dbr/tvnamer/archive/2.4.tar.gz')

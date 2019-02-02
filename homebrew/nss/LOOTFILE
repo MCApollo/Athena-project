@@ -1,6 +1,6 @@
 # nss.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nss.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nss'
 url=('https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_42_RTM/src/nss-3.42.tar.gz')

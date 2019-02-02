@@ -1,6 +1,6 @@
 # dnstracer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dnstracer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dnstracer'
 url=('https://www.mavetju.org/download/dnstracer-1.9.tar.gz')

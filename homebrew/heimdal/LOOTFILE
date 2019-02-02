@@ -1,6 +1,6 @@
 # heimdal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/heimdal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='heimdal'
 url=('https://github.com/heimdal/heimdal/releases/download/heimdal-7.5.0/heimdal-7.5.0.tar.gz')

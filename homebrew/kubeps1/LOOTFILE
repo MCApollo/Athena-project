@@ -1,6 +1,6 @@
 # kube-ps1.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kube-ps1.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kubeps1'
 url=('https://github.com/jonmosco/kube-ps1/archive/0.6.0.tar.gz')

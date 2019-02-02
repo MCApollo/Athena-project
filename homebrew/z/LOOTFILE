@@ -1,6 +1,6 @@
 # z.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/z.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='z'
 url=('https://github.com/rupa/z/archive/v1.9.tar.gz')

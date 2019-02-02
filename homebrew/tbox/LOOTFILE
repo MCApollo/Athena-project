@@ -1,6 +1,6 @@
 # tbox.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tbox.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tbox'
 url=('https://github.com/waruqi/tbox/archive/v1.6.3.tar.gz')

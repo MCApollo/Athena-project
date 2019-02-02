@@ -1,6 +1,6 @@
 # fon-flash-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fon-flash-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fonflashcli'
 url=('https://www.gargoyle-router.com/downloads/src/gargoyle_1.10.0-src.tar.gz')

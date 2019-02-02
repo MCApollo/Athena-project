@@ -1,6 +1,6 @@
 # arpack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/arpack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='arpack'
 url=('https://github.com/opencollab/arpack-ng/archive/3.6.3.tar.gz')

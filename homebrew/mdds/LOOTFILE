@@ -1,6 +1,6 @@
 # mdds.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mdds.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mdds'
 url=('https://kohei.us/files/mdds/src/mdds-1.4.2.tar.bz2')

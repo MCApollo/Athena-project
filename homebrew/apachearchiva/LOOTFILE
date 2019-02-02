@@ -1,6 +1,6 @@
 # apache-archiva.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/apache-archiva.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='apachearchiva'
 url=('https://www.apache.org/dyn/closer.cgi?path=archiva/2.2.3/binaries/apache-archiva-2.2.3-bin.tar.gz')

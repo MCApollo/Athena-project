@@ -1,6 +1,6 @@
 # audiofile.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/audiofile.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='audiofile'
 url=('https://audiofile.68k.org/audiofile-0.3.6.tar.gz')

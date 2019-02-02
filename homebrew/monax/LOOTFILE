@@ -1,6 +1,6 @@
 # monax.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/monax.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='monax'
 url=('https://github.com/monax/monax/archive/v0.18.0.tar.gz')

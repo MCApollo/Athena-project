@@ -1,6 +1,6 @@
 # cmark-gfm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cmark-gfm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cmarkgfm'
 url=('https://github.com/github/cmark-gfm/archive/0.28.3.gfm.19.tar.gz')

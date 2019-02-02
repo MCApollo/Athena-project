@@ -1,6 +1,6 @@
 # gnu-getopt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-getopt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnugetopt'
 url=('http://frodo.looijaard.name/system/files/software/getopt/getopt-1.1.6.tar.gz')

@@ -1,6 +1,6 @@
 # bgpq3.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bgpq3.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bgpq3'
 url=('https://github.com/snar/bgpq3/archive/v0.1.35.tar.gz')

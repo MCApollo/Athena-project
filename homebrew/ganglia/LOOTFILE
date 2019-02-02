@@ -1,6 +1,6 @@
 # ganglia.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ganglia.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ganglia'
 url=('https://downloads.sourceforge.net/project/ganglia/ganglia%20monitoring%20core/3.7.2/ganglia-3.7.2.tar.gz')

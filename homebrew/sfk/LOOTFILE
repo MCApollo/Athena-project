@@ -1,6 +1,6 @@
 # sfk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sfk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sfk'
 url=('https://downloads.sourceforge.net/project/swissfileknife/1-swissfileknife/1.9.2.0/sfk-1.9.2.tar.gz')

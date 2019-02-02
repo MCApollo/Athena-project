@@ -1,6 +1,6 @@
 # libgit2-glib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgit2-glib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgit2glib'
 url=('https://download.gnome.org/sources/libgit2-glib/0.27/libgit2-glib-0.27.7.tar.xz')

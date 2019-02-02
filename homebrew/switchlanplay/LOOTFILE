@@ -1,6 +1,6 @@
 # switch-lan-play.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/switch-lan-play.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='switchlanplay'
 url=('https://github.com/spacemeowx2/switch-lan-play.git')

@@ -1,6 +1,6 @@
 # aalib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aalib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aalib'
 url=('https://downloads.sourceforge.net/aa-project/aalib-1.4rc5.tar.gz')

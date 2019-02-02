@@ -1,6 +1,6 @@
 # gearsystem.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gearsystem.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gearsystem'
 url=('https://github.com/drhelius/Gearsystem/archive/gearsystem-2.2.tar.gz')

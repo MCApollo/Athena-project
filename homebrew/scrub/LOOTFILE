@@ -1,6 +1,6 @@
 # scrub.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scrub.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scrub'
 url=('https://github.com/chaos/scrub/releases/download/2.6.1/scrub-2.6.1.tar.gz')

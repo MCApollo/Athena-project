@@ -1,6 +1,6 @@
 # bitwarden-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bitwarden-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bitwardencli'
 url=('https://registry.npmjs.org/@bitwarden/cli/-/cli-1.7.0.tgz')

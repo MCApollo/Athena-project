@@ -1,6 +1,6 @@
 # logentries.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/logentries.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='logentries'
 url=('https://github.com/rapid7/le/archive/v1.4.43.tar.gz')

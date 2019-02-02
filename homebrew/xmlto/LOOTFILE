@@ -1,6 +1,6 @@
 # xmlto.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmlto.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xmlto'
 url=('https://releases.pagure.org/xmlto/xmlto-0.0.28.tar.bz2')

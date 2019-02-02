@@ -1,6 +1,6 @@
 # ucloud.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ucloud.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ucloud'
 url=('https://github.com/ucloud/ucloud-cli/archive/0.1.9.tar.gz')

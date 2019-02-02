@@ -1,6 +1,6 @@
 # monetdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/monetdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='monetdb'
 url=('https://www.monetdb.org/downloads/sources/Aug2018-SP2/MonetDB-11.31.13.tar.xz')

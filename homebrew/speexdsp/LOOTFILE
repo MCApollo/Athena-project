@@ -1,6 +1,6 @@
 # speexdsp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/speexdsp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='speexdsp'
 url=('https://github.com/xiph/speexdsp/archive/SpeexDSP-1.2rc3.tar.gz')

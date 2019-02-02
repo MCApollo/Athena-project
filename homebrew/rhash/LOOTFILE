@@ -1,6 +1,6 @@
 # rhash.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rhash.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rhash'
 url=('https://downloads.sourceforge.net/project/rhash/rhash/1.3.6/rhash-1.3.6-src.tar.gz')

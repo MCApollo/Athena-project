@@ -1,6 +1,6 @@
 # json-table.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/json-table.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jsontable'
 url=('https://github.com/micha/json-table/archive/4.3.3.tar.gz')

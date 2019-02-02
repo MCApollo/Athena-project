@@ -1,6 +1,6 @@
 # libftdi0.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libftdi0.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libftdi0'
 url=('https://www.intra2net.com/en/developer/libftdi/download/libftdi-0.20.tar.gz')

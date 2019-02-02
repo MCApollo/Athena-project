@@ -1,6 +1,6 @@
 # aptly.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aptly.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aptly'
 url=('https://github.com/aptly-dev/aptly/archive/v1.3.0.tar.gz')

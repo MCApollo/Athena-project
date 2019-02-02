@@ -1,6 +1,6 @@
 # clblas.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clblas.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clblas'
 url=('https://github.com/clMathLibraries/clBLAS/archive/v2.12.tar.gz')

@@ -1,6 +1,6 @@
 # boot-clj.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/boot-clj.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bootclj'
 url=('https://github.com/boot-clj/boot-bin/releases/download/2.7.2/boot.sh')

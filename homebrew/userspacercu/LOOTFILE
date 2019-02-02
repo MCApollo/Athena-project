@@ -1,6 +1,6 @@
 # userspace-rcu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/userspace-rcu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='userspacercu'
 url=('https://lttng.org/files/urcu/userspace-rcu-0.10.2.tar.bz2')

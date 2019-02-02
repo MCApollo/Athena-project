@@ -1,6 +1,6 @@
 # grakn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/grakn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='grakn'
 url=('https://github.com/graknlabs/grakn/releases/download/v1.4.3/grakn-core-1.4.3.zip')

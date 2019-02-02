@@ -1,6 +1,6 @@
 # gtmess.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtmess.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gtmess'
 url=('https://downloads.sourceforge.net/project/gtmess/gtmess/0.97/gtmess-0.97.tar.gz')

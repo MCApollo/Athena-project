@@ -1,6 +1,6 @@
 # open-babel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/open-babel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openbabel'
 url=('https://github.com/openbabel/openbabel/archive/openbabel-2-4-1.tar.gz')

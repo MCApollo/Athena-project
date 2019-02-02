@@ -1,6 +1,6 @@
 # csfml.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/csfml.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='csfml'
 url=('https://github.com/SFML/CSFML/archive/2.4.tar.gz')

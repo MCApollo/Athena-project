@@ -1,6 +1,6 @@
 # cromwell.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cromwell.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cromwell'
 url=('https://github.com/broadinstitute/cromwell/releases/download/36/cromwell-36.jar')

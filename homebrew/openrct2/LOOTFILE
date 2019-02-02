@@ -1,6 +1,6 @@
 # openrct2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openrct2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openrct2'
 url=('https://github.com/OpenRCT2/OpenRCT2.git')

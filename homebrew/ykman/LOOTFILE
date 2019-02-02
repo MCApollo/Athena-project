@@ -1,6 +1,6 @@
 # ykman.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ykman.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ykman'
 url=('https://developers.yubico.com/yubikey-manager/Releases/yubikey-manager-2.0.0.tar.gz')

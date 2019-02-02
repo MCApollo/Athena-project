@@ -1,6 +1,6 @@
 # proctools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/proctools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='proctools'
 url=('https://downloads.sourceforge.net/project/proctools/proctools/0.4pre1/proctools-0.4pre1.tar.gz')

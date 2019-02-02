@@ -1,6 +1,6 @@
 # transmission.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/transmission.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='transmission'
 url=('https://github.com/transmission/transmission-releases/raw/dc77bea/transmission-2.94.tar.xz')

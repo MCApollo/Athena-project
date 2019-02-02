@@ -1,6 +1,6 @@
 # cln.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cln.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cln'
 url=('https://www.ginac.de/CLN/cln-1.3.4.tar.bz2')

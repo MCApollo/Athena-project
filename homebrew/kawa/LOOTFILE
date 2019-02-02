@@ -1,6 +1,6 @@
 # kawa.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kawa.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kawa'
 url=('https://ftp.gnu.org/gnu/kawa/kawa-3.0.zip')

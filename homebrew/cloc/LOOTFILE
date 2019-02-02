@@ -1,6 +1,6 @@
 # cloc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cloc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cloc'
 url=('https://github.com/AlDanial/cloc/releases/download/1.80/cloc-1.80.tar.gz')

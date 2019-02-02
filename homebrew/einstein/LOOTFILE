@@ -1,6 +1,6 @@
 # einstein.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/einstein.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='einstein'
 url=('https://web.archive.org/web/20120621005109/games.flowix.com/files/einstein/einstein-2.0-src.tar.gz')

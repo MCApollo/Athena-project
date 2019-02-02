@@ -1,6 +1,6 @@
 # ncmpc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ncmpc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ncmpc'
 url=('https://www.musicpd.org/download/ncmpc/0/ncmpc-0.30.tar.xz')

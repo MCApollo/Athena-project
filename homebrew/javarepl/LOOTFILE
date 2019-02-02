@@ -1,6 +1,6 @@
 # javarepl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/javarepl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='javarepl'
 url=('https://github.com/albertlatacz/java-repl/releases/download/428/javarepl-428.jar')

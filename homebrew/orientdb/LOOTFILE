@@ -1,6 +1,6 @@
 # orientdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/orientdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='orientdb'
 url=('https://orientdb.com/download.php?file=orientdb-community-importers-2.2.29.tar.gz')

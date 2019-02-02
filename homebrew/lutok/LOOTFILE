@@ -1,6 +1,6 @@
 # lutok.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lutok.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lutok'
 url=('https://github.com/jmmv/lutok/releases/download/lutok-0.4/lutok-0.4.tar.gz')

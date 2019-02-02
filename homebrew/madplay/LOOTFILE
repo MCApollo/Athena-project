@@ -1,6 +1,6 @@
 # madplay.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/madplay.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='madplay'
 url=('https://downloads.sourceforge.net/project/mad/madplay/0.15.2b/madplay-0.15.2b.tar.gz')

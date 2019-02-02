@@ -1,6 +1,6 @@
 # makefile2graph.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/makefile2graph.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='makefile2graph'
 url=('https://github.com/lindenb/makefile2graph/archive/v1.5.0.tar.gz')

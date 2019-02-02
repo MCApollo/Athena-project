@@ -1,6 +1,6 @@
 # bzip2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bzip2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bzip2'
 url=('https://ftp.osuosl.org/pub/clfs/conglomeration/bzip2/bzip2-1.0.6.tar.gz')

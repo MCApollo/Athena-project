@@ -1,6 +1,6 @@
 # libiconv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libiconv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libiconv'
 url=('https://ftp.gnu.org/gnu/libiconv/libiconv-1.15.tar.gz')

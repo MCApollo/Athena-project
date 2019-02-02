@@ -1,6 +1,6 @@
 # stockfish.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stockfish.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stockfish'
 url=('https://github.com/official-stockfish/Stockfish/files/2629649/sf_10.zip')

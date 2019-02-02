@@ -1,6 +1,6 @@
 # sonar-scanner.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sonar-scanner.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sonarscanner'
 url=('https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.3.0.1492.zip')

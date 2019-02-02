@@ -1,6 +1,6 @@
 # argyll-cms.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/argyll-cms.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='argyllcms'
 url=('https://www.argyllcms.com/Argyll_V2.0.1_src.zip')

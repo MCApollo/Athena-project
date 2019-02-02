@@ -1,6 +1,6 @@
 # libggz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libggz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libggz'
 url=('https://mirrors.dotsrc.org/ggzgamingzone/ggz/0.0.14.1/libggz-0.0.14.1.tar.gz')

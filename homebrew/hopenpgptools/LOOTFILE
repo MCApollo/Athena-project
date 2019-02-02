@@ -1,6 +1,6 @@
 # hopenpgp-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hopenpgp-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hopenpgptools'
 url=('https://hackage.haskell.org/package/hopenpgp-tools-0.21.2/hopenpgp-tools-0.21.2.tar.gz')

@@ -1,6 +1,6 @@
 # libuninameslist.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libuninameslist.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libuninameslist'
 url=('https://github.com/fontforge/libuninameslist/releases/download/20180701/libuninameslist-dist-20180701.tar.gz')

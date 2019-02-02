@@ -1,6 +1,6 @@
 # ykclient.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ykclient.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ykclient'
 url=('https://developers.yubico.com/yubico-c-client/Releases/ykclient-2.15.tar.gz')

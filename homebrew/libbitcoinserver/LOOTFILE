@@ -1,6 +1,6 @@
 # libbitcoin-server.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbitcoin-server.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbitcoinserver'
 url=('https://github.com/libbitcoin/libbitcoin-server/archive/v3.5.0.tar.gz')

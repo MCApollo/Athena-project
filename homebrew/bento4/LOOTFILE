@@ -1,6 +1,6 @@
 # bento4.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bento4.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bento4'
 url=('https://github.com/axiomatic-systems/Bento4/archive/v1.5.1-628.tar.gz')

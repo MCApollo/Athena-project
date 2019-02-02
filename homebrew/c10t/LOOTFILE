@@ -1,6 +1,6 @@
 # c10t.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/c10t.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='c10t'
 url=('https://github.com/udoprog/c10t/archive/1.7.tar.gz')

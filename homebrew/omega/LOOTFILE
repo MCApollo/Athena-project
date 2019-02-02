@@ -1,6 +1,6 @@
 # omega.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/omega.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='omega'
 url=('https://oligarchy.co.uk/xapian/1.4.3/xapian-omega-1.4.3.tar.xz')

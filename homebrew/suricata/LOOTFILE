@@ -1,6 +1,6 @@
 # suricata.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/suricata.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='suricata'
 url=('https://www.openinfosecfoundation.org/download/suricata-4.0.5.tar.gz')

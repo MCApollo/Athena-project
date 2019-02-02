@@ -1,6 +1,6 @@
 # fauna-shell.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fauna-shell.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='faunashell'
 url=('https://registry.npmjs.org/fauna-shell/-/fauna-shell-0.9.2.tgz')

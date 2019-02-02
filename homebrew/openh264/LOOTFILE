@@ -1,6 +1,6 @@
 # openh264.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openh264.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openh264'
 url=('https://github.com/cisco/openh264/archive/v1.8.0.tar.gz')

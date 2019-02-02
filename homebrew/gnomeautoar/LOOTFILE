@@ -1,6 +1,6 @@
 # gnome-autoar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnome-autoar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnomeautoar'
 url=('https://download.gnome.org/sources/gnome-autoar/0.2/gnome-autoar-0.2.3.tar.xz')

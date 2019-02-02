@@ -1,6 +1,6 @@
 # zxcc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zxcc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zxcc'
 url=('https://www.seasip.info/Unix/Zxcc/zxcc-0.5.7.tar.gz')

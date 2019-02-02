@@ -1,6 +1,6 @@
 # gr-osmosdr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gr-osmosdr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='grosmosdr'
 url=('https://cgit.osmocom.org/gr-osmosdr/snapshot/gr-osmosdr-0.1.4.tar.gz')

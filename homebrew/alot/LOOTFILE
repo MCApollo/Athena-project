@@ -1,6 +1,6 @@
 # alot.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/alot.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='alot'
 url=('https://github.com/pazz/alot/archive/0.7.tar.gz')

@@ -1,6 +1,6 @@
 # lcdproc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lcdproc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lcdproc'
 url=('https://github.com/lcdproc/lcdproc/releases/download/v0.5.9/lcdproc-0.5.9.tar.gz')

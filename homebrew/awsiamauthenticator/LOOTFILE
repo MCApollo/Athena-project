@@ -1,6 +1,6 @@
 # aws-iam-authenticator.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-iam-authenticator.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='awsiamauthenticator'
 url=('https://github.com/kubernetes-sigs/aws-iam-authenticator/archive/v0.3.0.tar.gz')

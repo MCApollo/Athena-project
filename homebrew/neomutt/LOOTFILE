@@ -1,6 +1,6 @@
 # neomutt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/neomutt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='neomutt'
 url=('https://github.com/neomutt/neomutt/archive/neomutt-20180716.tar.gz')

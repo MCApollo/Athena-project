@@ -1,6 +1,6 @@
 # mp3splt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mp3splt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mp3splt'
 url=('https://downloads.sourceforge.net/project/mp3splt/mp3splt/2.6.2/mp3splt-2.6.2.tar.gz')

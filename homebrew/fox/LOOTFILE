@@ -1,6 +1,6 @@
 # fox.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fox.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fox'
 url=('http://fox-toolkit.org/ftp/fox-1.6.56.tar.gz')

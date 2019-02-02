@@ -1,6 +1,6 @@
 # fluent-bit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fluent-bit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fluentbit'
 url=('https://github.com/fluent/fluent-bit/archive/v0.14.9.tar.gz')

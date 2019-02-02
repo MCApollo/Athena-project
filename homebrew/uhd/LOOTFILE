@@ -1,6 +1,6 @@
 # uhd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/uhd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='uhd'
 url=('https://github.com/EttusResearch/uhd/archive/v3.13.1.0.tar.gz')

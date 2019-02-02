@@ -1,6 +1,6 @@
 # libcec.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcec.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libcec'
 url=('https://github.com/Pulse-Eight/libcec/archive/libcec-4.0.4.tar.gz')

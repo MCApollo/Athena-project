@@ -1,6 +1,6 @@
 # osmfilter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/osmfilter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='osmfilter'
 url=('https://gitlab.com/osm-c-tools/osmctools.git')

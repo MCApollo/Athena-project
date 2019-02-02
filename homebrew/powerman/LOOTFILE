@@ -1,6 +1,6 @@
 # powerman.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/powerman.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='powerman'
 url=('https://github.com/chaos/powerman/releases/download/2.3.24/powerman-2.3.24.tar.gz')

@@ -1,6 +1,6 @@
 # geoserver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/geoserver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='geoserver'
 url=('https://downloads.sourceforge.net/project/geoserver/GeoServer/2.13.2/geoserver-2.13.2-bin.zip')

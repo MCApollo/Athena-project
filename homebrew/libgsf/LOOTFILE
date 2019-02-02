@@ -1,6 +1,6 @@
 # libgsf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgsf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgsf'
 url=('https://download.gnome.org/sources/libgsf/1.14/libgsf-1.14.45.tar.xz')

@@ -1,6 +1,6 @@
 # micro.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/micro.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='micro'
 url=('https://github.com/zyedidia/micro/releases/download/v1.4.1/micro-1.4.1-src.tar.gz')

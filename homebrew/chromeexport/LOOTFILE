@@ -1,6 +1,6 @@
 # chrome-export.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chrome-export.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chromeexport'
 url=('https://github.com/bdesham/chrome-export/archive/v2.0.1.tar.gz')

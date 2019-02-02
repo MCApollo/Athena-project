@@ -1,6 +1,6 @@
 # libgxps.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgxps.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgxps'
 url=('https://download.gnome.org/sources/libgxps/0.3/libgxps-0.3.1.tar.xz')

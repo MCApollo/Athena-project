@@ -1,6 +1,6 @@
 # closure-stylesheets.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/closure-stylesheets.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='closurestylesheets'
 url=('https://github.com/google/closure-stylesheets/releases/download/v1.5.0/closure-stylesheets.jar')

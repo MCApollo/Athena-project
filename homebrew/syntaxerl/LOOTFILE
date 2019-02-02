@@ -1,6 +1,6 @@
 # syntaxerl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/syntaxerl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='syntaxerl'
 url=('https://github.com/ten0s/syntaxerl/archive/0.14.0.tar.gz')

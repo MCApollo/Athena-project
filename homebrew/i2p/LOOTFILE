@@ -1,6 +1,6 @@
 # i2p.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/i2p.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='i2p'
 url=('https://download.i2p2.de/releases/0.9.37/i2pinstall_0.9.37.jar')

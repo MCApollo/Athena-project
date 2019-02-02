@@ -1,6 +1,6 @@
 # nq.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nq.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nq'
 url=('https://github.com/chneukirchen/nq/archive/v0.3.1.tar.gz')

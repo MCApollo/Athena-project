@@ -1,6 +1,6 @@
 # cern-ndiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cern-ndiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cernndiff'
 url=('https://github.com/MethodicalAcceleratorDesign/MAD-X/archive/v5.04.02.tar.gz')

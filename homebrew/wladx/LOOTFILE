@@ -1,6 +1,6 @@
 # wla-dx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wla-dx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wladx'
 url=('https://github.com/vhelin/wla-dx/archive/v9.7.tar.gz')

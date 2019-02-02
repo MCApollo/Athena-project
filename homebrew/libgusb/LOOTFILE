@@ -1,6 +1,6 @@
 # libgusb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgusb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgusb'
 url=('https://people.freedesktop.org/~hughsient/releases/libgusb-0.3.0.tar.xz')

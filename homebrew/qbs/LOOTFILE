@@ -1,6 +1,6 @@
 # qbs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qbs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qbs'
 url=('https://download.qt.io/official_releases/qbs/1.12.2/qbs-src-1.12.2.tar.gz')

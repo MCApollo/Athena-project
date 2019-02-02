@@ -1,6 +1,6 @@
 # openttd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openttd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openttd'
 url=('https://binaries.openttd.org/releases/1.8.0/openttd-1.8.0-source.tar.xz')

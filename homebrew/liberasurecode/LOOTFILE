@@ -1,6 +1,6 @@
 # liberasurecode.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/liberasurecode.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='liberasurecode'
 url=('https://github.com/openstack/liberasurecode/archive/1.6.0.tar.gz')

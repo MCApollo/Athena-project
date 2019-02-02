@@ -1,6 +1,6 @@
 # chrome-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chrome-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chromecli'
 url=('https://github.com/prasmussen/chrome-cli/archive/1.6.0.tar.gz')

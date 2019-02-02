@@ -1,6 +1,6 @@
 # go@1.10.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/go@1.10.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='goat110'
 url=('https://dl.google.com/go/go1.10.7.src.tar.gz')

@@ -1,6 +1,6 @@
 # streamripper.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/streamripper.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='streamripper'
 url=('https://downloads.sourceforge.net/sourceforge/streamripper/streamripper-1.64.6.tar.gz')

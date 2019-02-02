@@ -1,6 +1,6 @@
 # idutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/idutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='idutils'
 url=('https://ftp.gnu.org/gnu/idutils/idutils-4.6.tar.xz')

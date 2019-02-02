@@ -1,6 +1,6 @@
 # traefik.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/traefik.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='traefik'
 url=('https://github.com/containous/traefik/releases/download/v1.7.8/traefik-v1.7.8.src.tar.gz')

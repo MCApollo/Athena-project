@@ -1,6 +1,6 @@
 # lpc21isp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lpc21isp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lpc21isp'
 url=('https://downloads.sourceforge.net/project/lpc21isp/lpc21isp/1.97/lpc21isp_197.tar.gz')

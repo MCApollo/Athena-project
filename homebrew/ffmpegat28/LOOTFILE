@@ -1,6 +1,6 @@
 # ffmpeg@2.8.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ffmpeg@2.8.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ffmpegat28'
 url=('https://ffmpeg.org/releases/ffmpeg-2.8.15.tar.bz2')

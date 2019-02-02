@@ -1,6 +1,6 @@
 # zebra.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zebra.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zebra'
 url=('http://ftp.indexdata.dk/pub/zebra/idzebra-2.1.4.tar.gz')

@@ -1,6 +1,6 @@
 # shellcheck.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/shellcheck.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='shellcheck'
 url=('https://github.com/koalaman/shellcheck/archive/v0.6.0.tar.gz')

@@ -1,6 +1,6 @@
 # lwtools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lwtools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lwtools'
 url=('http://lwtools.projects.l-w.ca/releases/lwtools/lwtools-4.15.tar.gz')

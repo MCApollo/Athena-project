@@ -1,6 +1,6 @@
 # theora.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/theora.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='theora'
 url=('https://downloads.xiph.org/releases/theora/libtheora-1.1.1.tar.bz2')

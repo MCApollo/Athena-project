@@ -1,6 +1,6 @@
 # instead.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/instead.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='instead'
 url=('https://github.com/instead-hub/instead/archive/3.2.2.tar.gz')

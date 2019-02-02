@@ -1,6 +1,6 @@
 # unyaffs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/unyaffs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='unyaffs'
 url=('https://github.com/ehlers/unyaffs/archive/0.9.7.tar.gz')

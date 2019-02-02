@@ -1,6 +1,6 @@
 # sourcekitten.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sourcekitten.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sourcekitten'
 url=('https://github.com/jpsim/SourceKitten.git')

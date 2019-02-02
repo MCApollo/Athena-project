@@ -1,6 +1,6 @@
 # classads.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/classads.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='classads'
 url=('http://ftp.cs.wisc.edu/condor/classad/c++/classads-1.0.10.tar.gz')

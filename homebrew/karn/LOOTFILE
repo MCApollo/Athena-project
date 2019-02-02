@@ -1,6 +1,6 @@
 # karn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/karn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='karn'
 url=('https://github.com/prydonius/karn/archive/v0.0.4.tar.gz')

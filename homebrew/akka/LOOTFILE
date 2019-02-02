@@ -1,6 +1,6 @@
 # akka.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/akka.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='akka'
 url=('https://downloads.typesafe.com/akka/akka_2.11-2.4.17.zip')

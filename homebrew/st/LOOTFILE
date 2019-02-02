@@ -1,6 +1,6 @@
 # st.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/st.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='st'
 url=('https://github.com/nferraz/st/archive/v1.1.4.tar.gz')

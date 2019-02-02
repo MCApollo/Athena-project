@@ -1,6 +1,6 @@
 # optipng.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/optipng.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='optipng'
 url=('https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-0.7.7/optipng-0.7.7.tar.gz')

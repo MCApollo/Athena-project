@@ -1,6 +1,6 @@
 # wdfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wdfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wdfs'
 url=('http://noedler.de/projekte/wdfs/wdfs-1.4.2.tar.gz')

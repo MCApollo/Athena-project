@@ -1,6 +1,6 @@
 # mosml.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mosml.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mosml'
 url=('https://github.com/kfl/mosml/archive/ver-2.10.1.tar.gz')

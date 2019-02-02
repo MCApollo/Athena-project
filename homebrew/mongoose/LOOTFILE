@@ -1,6 +1,6 @@
 # mongoose.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mongoose.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mongoose'
 url=('https://github.com/cesanta/mongoose/archive/6.13.tar.gz')

@@ -1,6 +1,6 @@
 # rbenv-aliases.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rbenv-aliases.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rbenvaliases'
 url=('https://github.com/tpope/rbenv-aliases/archive/v1.1.0.tar.gz')

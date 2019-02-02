@@ -1,6 +1,6 @@
 # mkhexgrid.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mkhexgrid.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mkhexgrid'
 url=('http://www.nomic.net/~uckelman/mkhexgrid/releases/mkhexgrid-0.1.1.src.tar.bz2')

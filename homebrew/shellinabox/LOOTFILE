@@ -1,6 +1,6 @@
 # shellinabox.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/shellinabox.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='shellinabox'
 url=('https://github.com/shellinabox/shellinabox/archive/v2.20.tar.gz')

@@ -1,6 +1,6 @@
 # squid.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/squid.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='squid'
 url=('http://www.squid-cache.org/Versions/v3/3.5/squid-3.5.28.tar.xz')

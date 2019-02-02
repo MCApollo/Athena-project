@@ -1,6 +1,6 @@
 # chmlib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chmlib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chmlib'
 url=('http://www.jedrea.com/chmlib/chmlib-0.40.tar.gz')

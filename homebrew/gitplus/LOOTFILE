@@ -1,6 +1,6 @@
 # git-plus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-plus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitplus'
 url=('https://github.com/tkrajina/git-plus/archive/v0.3.1.tar.gz')

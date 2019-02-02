@@ -1,6 +1,6 @@
 # jrtplib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jrtplib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jrtplib'
 url=('https://research.edm.uhasselt.be/jori/jrtplib/jrtplib-3.11.1.tar.bz2')

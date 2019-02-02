@@ -1,6 +1,6 @@
 # ondir.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ondir.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ondir'
 url=('https://swapoff.org/files/ondir/ondir-0.2.3.tar.gz')

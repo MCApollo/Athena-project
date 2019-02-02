@@ -1,6 +1,6 @@
 # flyway.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/flyway.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='flyway'
 url=('https://search.maven.org/remotecontent?filepath=org/flywaydb/flyway-commandline/5.2.4/flyway-commandline-5.2.4.tar.gz')

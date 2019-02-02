@@ -1,6 +1,6 @@
 # woboq_codebrowser.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/woboq_codebrowser.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='woboqcodebrowser'
 url=('https://github.com/woboq/woboq_codebrowser/archive/2.1.tar.gz')

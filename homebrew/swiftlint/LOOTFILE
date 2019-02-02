@@ -1,6 +1,6 @@
 # swiftlint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/swiftlint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='swiftlint'
 url=('https://github.com/realm/SwiftLint.git')

@@ -1,6 +1,6 @@
 # hive.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hive.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hive'
 url=('https://www.apache.org/dyn/closer.cgi?path=hive/hive-3.1.1/apache-hive-3.1.1-bin.tar.gz')

@@ -1,6 +1,6 @@
 # bcftools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bcftools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bcftools'
 url=('https://github.com/samtools/bcftools/releases/download/1.9/bcftools-1.9.tar.bz2')

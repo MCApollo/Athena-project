@@ -1,6 +1,6 @@
 # internetarchive.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/internetarchive.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='internetarchive'
 url=('https://files.pythonhosted.org/packages/a6/11/461f00d057a39f987c293cd9122ae3c1e13eb000a317d59c4cd00b84446d/internetarchive-1.7.7.tar.gz')

@@ -1,6 +1,6 @@
 # rdiff-backup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rdiff-backup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rdiffbackup'
 url=('https://savannah.nongnu.org/download/rdiff-backup/rdiff-backup-1.2.8.tar.gz')

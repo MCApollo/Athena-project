@@ -1,6 +1,6 @@
 # gifski.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gifski.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gifski'
 url=('https://github.com/ImageOptim/gifski/archive/0.8.5.tar.gz')

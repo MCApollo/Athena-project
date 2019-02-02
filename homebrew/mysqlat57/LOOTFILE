@@ -1,6 +1,6 @@
 # mysql@5.7.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mysql@5.7.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mysqlat57'
 url=('https://cdn.mysql.com/Downloads/MySQL-5.7/mysql-boost-5.7.24.tar.gz')

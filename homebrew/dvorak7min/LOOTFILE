@@ -1,6 +1,6 @@
 # dvorak7min.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dvorak7min.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dvorak7min'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/d/dvorak7min/dvorak7min_1.6.1+repack.orig.tar.gz')

@@ -1,6 +1,6 @@
 # wumpus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wumpus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wumpus'
 url=('http://www.catb.org/~esr/wumpus/wumpus-1.6.tar.gz')

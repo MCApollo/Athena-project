@@ -1,6 +1,6 @@
 # libmill.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmill.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmill'
 url=('http://libmill.org/libmill-1.18.tar.gz')

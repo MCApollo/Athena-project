@@ -1,6 +1,6 @@
 # expect.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/expect.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='expect'
 url=('https://downloads.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz')

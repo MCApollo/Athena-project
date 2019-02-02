@@ -1,6 +1,6 @@
 # glpk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glpk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glpk'
 url=('https://ftp.gnu.org/gnu/glpk/glpk-4.65.tar.gz')

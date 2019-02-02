@@ -1,6 +1,6 @@
 # insect.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/insect.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='insect'
 url=('https://registry.npmjs.org/insect/-/insect-5.0.0.tgz')

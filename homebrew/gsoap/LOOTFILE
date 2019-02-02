@@ -1,6 +1,6 @@
 # gsoap.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gsoap.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gsoap'
 url=('https://downloads.sourceforge.net/project/gsoap2/gsoap-2.8/gsoap_2.8.70.zip')

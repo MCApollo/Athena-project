@@ -1,6 +1,6 @@
 # open-zwave.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/open-zwave.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openzwave'
 url=('http://old.openzwave.com/downloads/openzwave-1.2.919.tar.gz')

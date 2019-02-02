@@ -1,6 +1,6 @@
 # yydecode.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yydecode.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yydecode'
 url=('https://downloads.sourceforge.net/project/yydecode/yydecode/0.2.10/yydecode-0.2.10.tar.gz')

@@ -1,6 +1,6 @@
 # abcmidi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/abcmidi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='abcmidi'
 url=('https://www.ifdo.ca/~seymour/runabc/abcMIDI-2018.06.23.zip')

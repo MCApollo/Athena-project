@@ -1,6 +1,6 @@
 # pkgdiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pkgdiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pkgdiff'
 url=('https://github.com/lvc/pkgdiff/archive/1.7.2.tar.gz')

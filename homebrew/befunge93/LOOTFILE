@@ -1,6 +1,6 @@
 # befunge93.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/befunge93.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='befunge93'
 url=('https://catseye.tc/distfiles/befunge-93-2.23-2015.0101.zip')

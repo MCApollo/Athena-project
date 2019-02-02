@@ -1,6 +1,6 @@
 # yamllint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yamllint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yamllint'
 url=('https://github.com/adrienverge/yamllint/archive/v1.14.0.tar.gz')

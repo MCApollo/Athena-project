@@ -1,6 +1,6 @@
 # qpdf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qpdf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qpdf'
 url=('https://github.com/qpdf/qpdf/releases/download/release-qpdf-8.3.0/qpdf-8.3.0.tar.gz')

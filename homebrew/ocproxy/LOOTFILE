@@ -1,6 +1,6 @@
 # ocproxy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ocproxy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ocproxy'
 url=('https://github.com/cernekee/ocproxy/archive/v1.60.tar.gz')

@@ -1,6 +1,6 @@
 # docker-machine-nfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-machine-nfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockermachinenfs'
 url=('https://github.com/adlogix/docker-machine-nfs/archive/0.5.2.tar.gz')

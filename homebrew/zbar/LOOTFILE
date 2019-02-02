@@ -1,6 +1,6 @@
 # zbar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zbar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zbar'
 url=('https://downloads.sourceforge.net/project/zbar/zbar/0.10/zbar-0.10.tar.bz2')

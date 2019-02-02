@@ -1,6 +1,6 @@
 # swift.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/swift.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='swift'
 url=('https://github.com/apple/swift/archive/swift-4.2.1-RELEASE.tar.gz')

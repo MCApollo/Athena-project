@@ -1,6 +1,6 @@
 # zsh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zsh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zsh'
 url=('https://downloads.sourceforge.net/project/zsh/zsh/5.7/zsh-5.7.tar.xz')

@@ -1,6 +1,6 @@
 # irods.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/irods.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='irods'
 url=('https://github.com/irods/irods-legacy/archive/3.3.1.tar.gz')

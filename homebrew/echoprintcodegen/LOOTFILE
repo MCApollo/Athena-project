@@ -1,6 +1,6 @@
 # echoprint-codegen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/echoprint-codegen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='echoprintcodegen'
 url=('https://github.com/echonest/echoprint-codegen/archive/v4.12.tar.gz')

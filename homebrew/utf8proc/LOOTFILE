@@ -1,6 +1,6 @@
 # utf8proc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/utf8proc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='utf8proc'
 url=('https://github.com/JuliaStrings/utf8proc/archive/v2.2.0.tar.gz')

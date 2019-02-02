@@ -1,6 +1,6 @@
 # serd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/serd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='serd'
 url=('https://download.drobilla.net/serd-0.28.0.tar.bz2')

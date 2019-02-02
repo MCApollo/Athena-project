@@ -1,6 +1,6 @@
 # mp3gain.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mp3gain.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mp3gain'
 url=('https://downloads.sourceforge.net/project/mp3gain/mp3gain/1.6.2/mp3gain-1_6_2-src.zip')

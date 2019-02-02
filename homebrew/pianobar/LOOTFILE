@@ -1,6 +1,6 @@
 # pianobar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pianobar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pianobar'
 url=('https://6xq.net/pianobar/pianobar-2018.06.22.tar.bz2')

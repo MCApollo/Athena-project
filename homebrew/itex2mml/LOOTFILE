@@ -1,6 +1,6 @@
 # itex2mml.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/itex2mml.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='itex2mml'
 url=('https://golem.ph.utexas.edu/~distler/blog/files/itexToMML-1.5.7.tar.gz')

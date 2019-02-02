@@ -1,6 +1,6 @@
 # ski.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ski.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ski'
 url=('http://www.catb.org/~esr/ski/ski-6.12.tar.gz')

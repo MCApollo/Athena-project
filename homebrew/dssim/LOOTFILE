@@ -1,6 +1,6 @@
 # dssim.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dssim.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dssim'
 url=('https://github.com/kornelski/dssim/archive/2.9.7.tar.gz')

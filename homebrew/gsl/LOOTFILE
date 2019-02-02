@@ -1,6 +1,6 @@
 # gsl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gsl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gsl'
 url=('https://ftp.gnu.org/gnu/gsl/gsl-2.5.tar.gz')

@@ -1,6 +1,6 @@
 # deja-gnu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/deja-gnu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dejagnu'
 url=('https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.1.tar.gz')

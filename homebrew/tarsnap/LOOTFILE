@@ -1,6 +1,6 @@
 # tarsnap.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tarsnap.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tarsnap'
 url=('https://www.tarsnap.com/download/tarsnap-autoconf-1.0.39.tgz')

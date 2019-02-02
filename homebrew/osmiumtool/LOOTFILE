@@ -1,6 +1,6 @@
 # osmium-tool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/osmium-tool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='osmiumtool'
 url=('https://github.com/osmcode/osmium-tool/archive/v1.10.0.tar.gz')

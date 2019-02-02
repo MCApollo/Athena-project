@@ -1,6 +1,6 @@
 # diamond.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/diamond.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='diamond'
 url=('https://github.com/bbuchfink/diamond/archive/v0.9.24.tar.gz')

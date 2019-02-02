@@ -1,6 +1,6 @@
 # icon-naming-utils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/icon-naming-utils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='iconnamingutils'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/i/icon-naming-utils/icon-naming-utils_0.8.90.orig.tar.gz')

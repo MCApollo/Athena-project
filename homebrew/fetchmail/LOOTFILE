@@ -1,6 +1,6 @@
 # fetchmail.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fetchmail.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fetchmail'
 url=('https://downloads.sourceforge.net/project/fetchmail/branch_6.3/fetchmail-6.3.26.tar.xz')

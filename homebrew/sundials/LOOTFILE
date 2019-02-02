@@ -1,6 +1,6 @@
 # sundials.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sundials.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sundials'
 url=('https://computation.llnl.gov/projects/sundials/download/sundials-4.0.0.tar.gz')

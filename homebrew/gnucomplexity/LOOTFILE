@@ -1,6 +1,6 @@
 # gnu-complexity.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-complexity.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnucomplexity'
 url=('https://ftp.gnu.org/gnu/complexity/complexity-1.10.tar.xz')

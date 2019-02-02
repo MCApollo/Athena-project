@@ -1,6 +1,6 @@
 # jsonschema2pojo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsonschema2pojo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jsonschema2pojo'
 url=('https://github.com/joelittlejohn/jsonschema2pojo/releases/download/jsonschema2pojo-0.5.1/jsonschema2pojo-0.5.1.tar.gz')

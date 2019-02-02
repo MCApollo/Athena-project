@@ -1,6 +1,6 @@
 # payara.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/payara.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='payara'
 url=('https://search.maven.org/remotecontent?filepath=fish/payara/distributions/payara/5.183/payara-5.183.zip')

@@ -1,6 +1,6 @@
 # lynx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lynx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lynx'
 url=('https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2')

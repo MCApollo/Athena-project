@@ -1,6 +1,6 @@
 # quazip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/quazip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='quazip'
 url=('https://downloads.sourceforge.net/project/quazip/quazip/0.7.3/quazip-0.7.3.tar.gz')

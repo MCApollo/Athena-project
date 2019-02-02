@@ -1,6 +1,6 @@
 # nsnake.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nsnake.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nsnake'
 url=('https://downloads.sourceforge.net/project/nsnake/GNU-Linux/nsnake-3.0.1.tar.gz')

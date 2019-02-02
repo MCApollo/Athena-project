@@ -1,6 +1,6 @@
 # cscope.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cscope.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cscope'
 url=('https://downloads.sourceforge.net/project/cscope/cscope/15.8b/cscope-15.8b.tar.gz')

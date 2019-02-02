@@ -1,6 +1,6 @@
 # libmagic.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmagic.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmagic'
 url=('ftp://ftp.astron.com/pub/file/file-5.35.tar.gz')

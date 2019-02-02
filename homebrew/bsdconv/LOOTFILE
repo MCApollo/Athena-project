@@ -1,6 +1,6 @@
 # bsdconv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bsdconv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bsdconv'
 url=('https://github.com/buganini/bsdconv/archive/11.5.tar.gz')

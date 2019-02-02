@@ -1,6 +1,6 @@
 # gts.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gts.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gts'
 url=('https://downloads.sourceforge.net/project/gts/gts/0.7.6/gts-0.7.6.tar.gz')

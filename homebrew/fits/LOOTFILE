@@ -1,6 +1,6 @@
 # fits.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fits.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fits'
 url=('https://github.com/harvard-lts/fits/archive/1.2.1.tar.gz')

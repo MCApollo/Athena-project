@@ -1,6 +1,6 @@
 # advancescan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/advancescan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='advancescan'
 url=('https://github.com/amadvance/advancescan/releases/download/v1.18/advancescan-1.18.tar.gz')

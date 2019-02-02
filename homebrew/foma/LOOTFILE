@@ -1,6 +1,6 @@
 # foma.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/foma.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='foma'
 url=('https://bitbucket.org/mhulden/foma/downloads/foma-0.9.18.tar.gz')

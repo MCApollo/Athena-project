@@ -1,6 +1,6 @@
 # rabbitmq.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rabbitmq.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rabbitmq'
 url=('https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.7.10/rabbitmq-server-generic-unix-3.7.10.tar.xz')

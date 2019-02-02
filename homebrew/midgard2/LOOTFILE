@@ -1,6 +1,6 @@
 # midgard2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/midgard2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='midgard2'
 url=('https://github.com/downloads/midgardproject/midgard-core/midgard2-core-12.09.tar.gz')

@@ -1,6 +1,6 @@
 # kyua.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kyua.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kyua'
 url=('https://github.com/jmmv/kyua/releases/download/kyua-0.13/kyua-0.13.tar.gz')

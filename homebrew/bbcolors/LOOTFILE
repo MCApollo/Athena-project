@@ -1,6 +1,6 @@
 # bbcolors.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bbcolors.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bbcolors'
 url=('https://daringfireball.net/projects/downloads/bbcolors_1.0.1.zip')

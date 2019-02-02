@@ -1,6 +1,6 @@
 # editorconfig.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/editorconfig.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='editorconfig'
 url=('https://github.com/editorconfig/editorconfig-core-c/archive/v0.12.3.tar.gz')

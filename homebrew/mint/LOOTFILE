@@ -1,6 +1,6 @@
 # mint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mint'
 url=('https://github.com/yonaskolb/Mint/archive/0.11.3.tar.gz')

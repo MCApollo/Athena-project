@@ -1,6 +1,6 @@
 # g3log.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/g3log.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='g3log'
 url=('https://github.com/KjellKod/g3log/archive/1.3.2.tar.gz')

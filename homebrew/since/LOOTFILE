@@ -1,6 +1,6 @@
 # since.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/since.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='since'
 url=('http://welz.org.za/projects/since/since-1.1.tar.gz')

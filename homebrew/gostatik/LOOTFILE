@@ -1,6 +1,6 @@
 # go-statik.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/go-statik.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gostatik'
 url=('https://github.com/rakyll/statik/archive/v0.1.5.tar.gz')

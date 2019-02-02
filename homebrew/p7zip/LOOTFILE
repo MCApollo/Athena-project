@@ -1,6 +1,6 @@
 # p7zip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/p7zip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='p7zip'
 url=('https://downloads.sourceforge.net/project/p7zip/p7zip/16.02/p7zip_16.02_src_all.tar.bz2')

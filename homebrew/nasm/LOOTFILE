@@ -1,6 +1,6 @@
 # nasm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nasm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nasm'
 url=('https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/nasm-2.14.02.tar.xz')

@@ -1,6 +1,6 @@
 # intercal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/intercal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='intercal'
 url=('http://catb.org/~esr/intercal/intercal-0.30.tar.gz')

@@ -1,6 +1,6 @@
 # fastqc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fastqc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fastqc'
 url=('https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.7.zip')

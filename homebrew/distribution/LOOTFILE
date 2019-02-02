@@ -1,6 +1,6 @@
 # distribution.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/distribution.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='distribution'
 url=('https://github.com/philovivero/distribution/archive/1.3.tar.gz')

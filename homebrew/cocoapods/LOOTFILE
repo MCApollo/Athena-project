@@ -1,6 +1,6 @@
 # cocoapods.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cocoapods.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cocoapods'
 url=('https://github.com/CocoaPods/CocoaPods/archive/1.5.3.tar.gz')

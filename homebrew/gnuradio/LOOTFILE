@@ -1,6 +1,6 @@
 # gnuradio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnuradio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnuradio'
 url=('https://gnuradio.org/releases/gnuradio/gnuradio-3.7.13.4.tar.gz')

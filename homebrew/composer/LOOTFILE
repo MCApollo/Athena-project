@@ -1,6 +1,6 @@
 # composer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/composer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='composer'
 url=('https://getcomposer.org/download/1.8.3/composer.phar')

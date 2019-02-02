@@ -1,6 +1,6 @@
 # sqlite.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sqlite.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sqlite'
 url=('https://sqlite.org/2018/sqlite-autoconf-3260000.tar.gz')

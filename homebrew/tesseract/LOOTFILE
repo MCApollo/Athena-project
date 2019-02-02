@@ -1,6 +1,6 @@
 # tesseract.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tesseract.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tesseract'
 url=('https://github.com/tesseract-ocr/tesseract/archive/4.0.0.tar.gz')

@@ -1,6 +1,6 @@
 # go-bindata.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/go-bindata.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gobindata'
 url=('https://github.com/kevinburke/go-bindata/archive/v3.13.0.tar.gz')

@@ -1,6 +1,6 @@
 # libagg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libagg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libagg'
 url=('http://www.antigrain.com/agg-2.5.tar.gz')

@@ -1,6 +1,6 @@
 # mikmod.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mikmod.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mikmod'
 url=('https://downloads.sourceforge.net/project/mikmod/mikmod/3.2.8/mikmod-3.2.8.tar.gz')

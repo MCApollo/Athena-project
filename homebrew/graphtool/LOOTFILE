@@ -1,6 +1,6 @@
 # graph-tool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/graph-tool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='graphtool'
 url=('https://downloads.skewed.de/graph-tool/graph-tool-2.27.tar.bz2')

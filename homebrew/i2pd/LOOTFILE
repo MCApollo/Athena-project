@@ -1,6 +1,6 @@
 # i2pd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/i2pd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='i2pd'
 url=('https://github.com/PurpleI2P/i2pd/archive/2.23.0.tar.gz')

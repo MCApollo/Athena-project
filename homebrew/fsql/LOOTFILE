@@ -1,6 +1,6 @@
 # fsql.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fsql.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fsql'
 url=('https://github.com/kshvmdn/fsql/archive/v0.3.1.tar.gz')

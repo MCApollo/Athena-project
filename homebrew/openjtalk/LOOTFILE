@@ -1,6 +1,6 @@
 # open-jtalk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/open-jtalk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openjtalk'
 url=('https://downloads.sourceforge.net/project/open-jtalk/Open%20JTalk/open_jtalk-1.10/open_jtalk-1.10.tar.gz')

@@ -1,6 +1,6 @@
 # github-release.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/github-release.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='githubrelease'
 url=('https://github.com/aktau/github-release/archive/v0.7.2.tar.gz')

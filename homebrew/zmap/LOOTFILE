@@ -1,6 +1,6 @@
 # zmap.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zmap.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zmap'
 url=('https://github.com/zmap/zmap/archive/v2.1.1.tar.gz')

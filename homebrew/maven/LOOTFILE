@@ -1,6 +1,6 @@
 # maven.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/maven.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='maven'
 url=('https://www.apache.org/dyn/closer.cgi?path=maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz')

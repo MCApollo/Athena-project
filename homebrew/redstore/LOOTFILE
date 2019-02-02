@@ -1,6 +1,6 @@
 # redstore.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/redstore.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='redstore'
 url=('https://www.aelius.com/njh/redstore/redstore-0.5.4.tar.gz')

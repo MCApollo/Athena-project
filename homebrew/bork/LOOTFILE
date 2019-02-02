@@ -1,6 +1,6 @@
 # bork.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bork.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bork'
 url=('https://github.com/mattly/bork/archive/v0.11.1.tar.gz')

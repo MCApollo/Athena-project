@@ -1,6 +1,6 @@
 # keepassc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/keepassc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='keepassc'
 url=('https://files.pythonhosted.org/packages/c8/87/a7d40d4a884039e9c967fb2289aa2aefe7165110a425c4fb74ea758e9074/keepassc-1.8.2.tar.gz')

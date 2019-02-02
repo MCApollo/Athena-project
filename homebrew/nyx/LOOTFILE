@@ -1,6 +1,6 @@
 # nyx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nyx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nyx'
 url=('https://files.pythonhosted.org/packages/42/37/85890dae5680f36f5b1c964ad41674ebb8d1186383fbca58f82e76de734c/nyx-2.0.4.tar.gz')

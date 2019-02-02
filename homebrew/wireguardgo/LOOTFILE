@@ -1,6 +1,6 @@
 # wireguard-go.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wireguard-go.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wireguardgo'
 url=('https://git.zx2c4.com/wireguard-go/snapshot/wireguard-go-0.0.20181222.tar.xz')

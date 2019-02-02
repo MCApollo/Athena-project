@@ -1,6 +1,6 @@
 # tokyo-dystopia.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tokyo-dystopia.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tokyodystopia'
 url=('https://fallabs.com/tokyodystopia/tokyodystopia-0.9.15.tar.gz')

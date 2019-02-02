@@ -1,6 +1,6 @@
 # ftimes.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ftimes.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ftimes'
 url=('https://downloads.sourceforge.net/project/ftimes/ftimes/3.11.0/ftimes-3.11.0.tgz')

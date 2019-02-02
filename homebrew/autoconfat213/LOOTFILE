@@ -1,6 +1,6 @@
 # autoconf@2.13.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/autoconf@2.13.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='autoconfat213'
 url=('https://ftp.gnu.org/gnu/autoconf/autoconf-2.13.tar.gz')

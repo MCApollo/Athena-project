@@ -1,6 +1,6 @@
 # open-mpi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/open-mpi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openmpi'
 url=('https://download.open-mpi.org/release/open-mpi/v4.0/openmpi-4.0.0.tar.bz2')

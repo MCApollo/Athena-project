@@ -1,6 +1,6 @@
 # morse.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/morse.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='morse'
 url=('http://www.catb.org/~esr/morse/morse-2.5.tar.gz')

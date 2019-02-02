@@ -1,6 +1,6 @@
 # batik.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/batik.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='batik'
 url=('https://www.apache.org/dist/xmlgraphics/batik/binaries/batik-bin-1.10.tar.gz')

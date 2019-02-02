@@ -1,6 +1,6 @@
 # nfdump.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nfdump.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nfdump'
 url=('https://github.com/phaag/nfdump/archive/v1.6.17.tar.gz')

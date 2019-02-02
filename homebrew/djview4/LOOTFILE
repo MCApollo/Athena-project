@@ -1,6 +1,6 @@
 # djview4.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/djview4.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='djview4'
 url=('https://downloads.sourceforge.net/project/djvu/DjView/4.10/djview-4.10.6.tar.gz')

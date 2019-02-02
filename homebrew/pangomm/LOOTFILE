@@ -1,6 +1,6 @@
 # pangomm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pangomm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pangomm'
 url=('https://download.gnome.org/sources/pangomm/2.42/pangomm-2.42.0.tar.xz')

@@ -1,6 +1,6 @@
 # switchaudio-osx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/switchaudio-osx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='switchaudioosx'
 url=('https://github.com/deweller/switchaudio-osx/archive/1.0.0.tar.gz')

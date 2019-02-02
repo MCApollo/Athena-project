@@ -1,6 +1,6 @@
 # bochs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bochs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bochs'
 url=('https://downloads.sourceforge.net/project/bochs/bochs/2.6.9/bochs-2.6.9.tar.gz')

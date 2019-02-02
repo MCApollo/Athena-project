@@ -1,6 +1,6 @@
 # scummvm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scummvm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scummvm'
 url=('https://www.scummvm.org/frs/scummvm/2.0.0/scummvm-2.0.0.tar.xz')

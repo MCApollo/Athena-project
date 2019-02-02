@@ -1,6 +1,6 @@
 # imapsync.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/imapsync.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='imapsync'
 url=('https://imapsync.lamiral.info/dist2/imapsync-1.882.tgz')

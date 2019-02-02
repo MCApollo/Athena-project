@@ -1,6 +1,6 @@
 # ffe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ffe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ffe'
 url=('https://downloads.sourceforge.net/project/ff-extractor/ff-extractor/0.3.8/ffe-0.3.8.tar.gz')

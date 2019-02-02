@@ -1,6 +1,6 @@
 # gucharmap.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gucharmap.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gucharmap'
 url=('https://download.gnome.org/sources/gucharmap/11.0/gucharmap-11.0.3.tar.xz')

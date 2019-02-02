@@ -1,6 +1,6 @@
 # hg-fast-export.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hg-fast-export.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hgfastexport'
 url=('https://github.com/frej/fast-export/archive/v180610.tar.gz')

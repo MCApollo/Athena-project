@@ -1,6 +1,6 @@
 # jsawk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsawk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jsawk'
 url=('https://github.com/micha/jsawk/archive/1.4.tar.gz')

@@ -1,6 +1,6 @@
 # gst-validate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gst-validate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gstvalidate'
 url=('https://gstreamer.freedesktop.org/src/gst-validate/gst-validate-1.14.4.tar.xz')

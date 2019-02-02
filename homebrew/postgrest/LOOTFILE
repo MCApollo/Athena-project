@@ -1,6 +1,6 @@
 # postgrest.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/postgrest.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='postgrest'
 url=('https://github.com/PostgREST/postgrest/archive/v0.5.0.0.tar.gz')

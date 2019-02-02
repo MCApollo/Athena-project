@@ -1,6 +1,6 @@
 # lib3ds.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lib3ds.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lib3ds'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/lib3ds/lib3ds-1.3.0.zip')

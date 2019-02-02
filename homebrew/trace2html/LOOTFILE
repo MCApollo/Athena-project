@@ -1,6 +1,6 @@
 # trace2html.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/trace2html.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='trace2html'
 url=('https://github.com/google/trace-viewer/archive/2015-07-07.tar.gz')

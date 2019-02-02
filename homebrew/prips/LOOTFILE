@@ -1,6 +1,6 @@
 # prips.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/prips.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='prips'
 url=('https://devel.ringlet.net/files/sys/prips/prips-1.1.0.tar.xz')

@@ -1,6 +1,6 @@
 # chinadns-c.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chinadns-c.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chinadnsc'
 url=('https://github.com/shadowsocks/ChinaDNS/releases/download/1.3.2/chinadns-1.3.2.tar.gz')

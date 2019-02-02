@@ -1,6 +1,6 @@
 # chocolate-doom.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chocolate-doom.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chocolatedoom'
 url=('https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.tar.gz')

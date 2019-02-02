@@ -1,6 +1,6 @@
 # gpsd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gpsd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gpsd'
 url=('https://download.savannah.gnu.org/releases/gpsd/gpsd-3.17.tar.gz')

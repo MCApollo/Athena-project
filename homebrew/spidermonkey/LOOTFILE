@@ -1,6 +1,6 @@
 # spidermonkey.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spidermonkey.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spidermonkey'
 url=('https://archive.mozilla.org/pub/mozilla.org/js/js185-1.0.0.tar.gz')

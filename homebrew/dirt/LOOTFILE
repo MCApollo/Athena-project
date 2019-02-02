@@ -1,6 +1,6 @@
 # dirt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dirt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dirt'
 url=('https://github.com/tidalcycles/Dirt/archive/1.1.tar.gz')

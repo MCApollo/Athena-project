@@ -1,6 +1,6 @@
 # resty.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/resty.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='resty'
 url=('https://github.com/micha/resty/archive/v3.0.tar.gz')

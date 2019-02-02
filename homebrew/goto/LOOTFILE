@@ -1,6 +1,6 @@
 # goto.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/goto.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='goto'
 url=('https://github.com/iridakos/goto/archive/v1.2.3.tar.gz')

@@ -1,6 +1,6 @@
 # star.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/star.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='star'
 url=('https://downloads.sourceforge.net/project/s-tar/star-1.5.3.tar.bz2')

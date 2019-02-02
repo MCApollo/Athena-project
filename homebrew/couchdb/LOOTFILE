@@ -1,6 +1,6 @@
 # couchdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/couchdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='couchdb'
 url=('https://www.apache.org/dyn/closer.cgi?path=/couchdb/source/1.7.1/apache-couchdb-1.7.1.tar.gz')

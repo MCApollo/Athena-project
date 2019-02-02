@@ -1,6 +1,6 @@
 # b2-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/b2-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='b2tools'
 url=('https://github.com/Backblaze/B2_Command_Line_Tool/archive/v1.3.8.tar.gz')

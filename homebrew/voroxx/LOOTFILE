@@ -1,6 +1,6 @@
 # voro++.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/voro++.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='voroxx'
 url=('http://math.lbl.gov/voro++/download/dir/voro++-0.4.6.tar.gz')

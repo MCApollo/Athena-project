@@ -1,6 +1,6 @@
 # librealsense.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/librealsense.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='librealsense'
 url=('https://github.com/IntelRealSense/librealsense/archive/v2.17.1.tar.gz')

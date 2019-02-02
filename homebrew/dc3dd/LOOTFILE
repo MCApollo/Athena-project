@@ -1,6 +1,6 @@
 # dc3dd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dc3dd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dc3dd'
 url=('https://downloads.sourceforge.net/project/dc3dd/dc3dd/7.2.646/dc3dd%207.2.646/dc3dd-7.2.646.zip')

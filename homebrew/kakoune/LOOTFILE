@@ -1,6 +1,6 @@
 # kakoune.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kakoune.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kakoune'
 url=('https://github.com/mawww/kakoune/releases/download/v2019.01.20/kakoune-2019.01.20.tar.bz2')

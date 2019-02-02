@@ -1,6 +1,6 @@
 # zip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zip'
 url=('https://downloads.sourceforge.net/project/infozip/Zip%203.x%20%28latest%29/3.0/zip30.tar.gz')

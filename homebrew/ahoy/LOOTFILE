@@ -1,6 +1,6 @@
 # ahoy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ahoy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ahoy'
 url=('https://github.com/ahoy-cli/ahoy/archive/2.0.0.tar.gz')

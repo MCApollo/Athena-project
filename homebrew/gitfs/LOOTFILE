@@ -1,6 +1,6 @@
 # gitfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gitfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitfs'
 url=('https://github.com/PressLabs/gitfs/archive/0.4.5.1.tar.gz')

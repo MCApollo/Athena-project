@@ -1,6 +1,6 @@
 # geos.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/geos.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='geos'
 url=('https://download.osgeo.org/geos/geos-3.7.1.tar.bz2')

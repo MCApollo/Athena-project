@@ -1,6 +1,6 @@
 # ios-class-guard.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ios-class-guard.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='iosclassguard'
 url=('https://github.com/Polidea/ios-class-guard/archive/0.8.tar.gz')

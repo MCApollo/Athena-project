@@ -1,6 +1,6 @@
 # freeipmi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/freeipmi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='freeipmi'
 url=('https://ftp.gnu.org/gnu/freeipmi/freeipmi-1.6.2.tar.gz')

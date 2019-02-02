@@ -1,6 +1,6 @@
 # rbenv-ctags.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rbenv-ctags.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rbenvctags'
 url=('https://github.com/tpope/rbenv-ctags/archive/v1.0.2.tar.gz')

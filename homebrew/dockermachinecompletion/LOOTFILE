@@ -1,6 +1,6 @@
 # docker-machine-completion.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-machine-completion.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockermachinecompletion'
 url=('https://github.com/docker/machine/archive/v0.16.1.tar.gz')

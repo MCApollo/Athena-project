@@ -1,6 +1,6 @@
 # aspcud.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aspcud.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aspcud'
 url=('https://github.com/potassco/aspcud/archive/v1.9.4.tar.gz')

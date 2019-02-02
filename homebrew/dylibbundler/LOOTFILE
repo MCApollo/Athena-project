@@ -1,6 +1,6 @@
 # dylibbundler.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dylibbundler.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dylibbundler'
 url=('https://downloads.sourceforge.net/project/macdylibbundler/macdylibbundler/0.4.4/dylibbundler-0.4.4.zip')

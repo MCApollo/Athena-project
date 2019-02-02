@@ -1,6 +1,6 @@
 # jp2a.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jp2a.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jp2a'
 url=('https://downloads.sourceforge.net/project/jp2a/jp2a/1.0.6/jp2a-1.0.6.tar.gz')

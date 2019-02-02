@@ -1,6 +1,6 @@
 # amazon-ecs-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/amazon-ecs-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='amazonecscli'
 url=('https://github.com/aws/amazon-ecs-cli/archive/v1.12.1.tar.gz')

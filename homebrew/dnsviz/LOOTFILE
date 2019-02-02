@@ -1,6 +1,6 @@
 # dnsviz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dnsviz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dnsviz'
 url=('https://github.com/dnsviz/dnsviz/releases/download/v0.6.7/dnsviz-0.6.7.tar.gz')

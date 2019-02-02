@@ -1,6 +1,6 @@
 # luabind.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/luabind.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='luabind'
 url=('https://downloads.sourceforge.net/project/luabind/luabind/0.9.1/luabind-0.9.1.tar.gz')

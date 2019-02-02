@@ -1,6 +1,6 @@
 # eject.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/eject.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='eject'
 url=('https://github.com/Raizlabs/Eject/archive/0.1.27.tar.gz')

@@ -1,6 +1,6 @@
 # spice-protocol.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spice-protocol.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spiceprotocol'
 url=('https://www.spice-space.org/download/releases/spice-protocol-0.12.15.tar.bz2')

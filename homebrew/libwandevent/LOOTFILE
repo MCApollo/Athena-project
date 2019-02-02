@@ -1,6 +1,6 @@
 # libwandevent.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libwandevent.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libwandevent'
 url=('https://research.wand.net.nz/software/libwandevent/libwandevent-3.0.2.tar.gz')

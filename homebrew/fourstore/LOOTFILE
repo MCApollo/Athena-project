@@ -1,6 +1,6 @@
 # fourstore.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fourstore.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fourstore'
 url=('https://github.com/4store/4store/archive/v1.1.6.tar.gz')

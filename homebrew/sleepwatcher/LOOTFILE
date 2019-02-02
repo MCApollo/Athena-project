@@ -1,6 +1,6 @@
 # sleepwatcher.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sleepwatcher.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sleepwatcher'
 url=('https://www.bernhard-baehr.de/sleepwatcher_2.2.tgz')

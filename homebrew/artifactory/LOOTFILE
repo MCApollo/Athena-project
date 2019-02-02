@@ -1,6 +1,6 @@
 # artifactory.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/artifactory.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='artifactory'
 url=('https://dl.bintray.com/jfrog/artifactory/jfrog-artifactory-oss-6.3.2.zip')

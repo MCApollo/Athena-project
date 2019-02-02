@@ -1,6 +1,6 @@
 # titlecase.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/titlecase.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='titlecase'
 url=('https://github.com/ap/titlecase/archive/v1.004.tar.gz')

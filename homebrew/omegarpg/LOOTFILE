@@ -1,6 +1,6 @@
 # omega-rpg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/omega-rpg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='omegarpg'
 url=('http://www.alcyone.com/binaries/omega/omega-0.80.2-src.tar.gz')

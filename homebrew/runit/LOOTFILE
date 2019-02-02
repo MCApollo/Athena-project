@@ -1,6 +1,6 @@
 # runit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/runit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='runit'
 url=('http://smarden.org/runit/runit-2.1.2.tar.gz')

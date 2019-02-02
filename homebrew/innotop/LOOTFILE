@@ -1,6 +1,6 @@
 # innotop.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/innotop.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='innotop'
 url=('https://github.com/innotop/innotop/archive/v1.12.0.tar.gz')

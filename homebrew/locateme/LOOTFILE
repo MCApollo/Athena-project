@@ -1,6 +1,6 @@
 # locateme.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/locateme.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='locateme'
 url=('https://downloads.sourceforge.net/project/iharder/locateme/LocateMe-v0.2.1.zip')

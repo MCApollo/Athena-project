@@ -1,6 +1,6 @@
 # libcuefile.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcuefile.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libcuefile'
 url=('https://files.musepack.net/source/libcuefile_r475.tar.gz')

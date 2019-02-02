@@ -1,6 +1,6 @@
 # marst.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/marst.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='marst'
 url=('https://ftp.gnu.org/gnu/marst/marst-2.7.tar.gz')

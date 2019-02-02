@@ -1,6 +1,6 @@
 # piknik.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/piknik.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='piknik'
 url=('https://github.com/jedisct1/piknik/archive/0.9.1.tar.gz')

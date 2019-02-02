@@ -1,6 +1,6 @@
 # the_platinum_searcher.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/the_platinum_searcher.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='theplatinumsearcher'
 url=('https://github.com/monochromegane/the_platinum_searcher/archive/v2.2.0.tar.gz')

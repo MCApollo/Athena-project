@@ -1,6 +1,6 @@
 # ctop.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ctop.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ctop'
 url=('https://github.com/bcicen/ctop/archive/v0.7.2.tar.gz')

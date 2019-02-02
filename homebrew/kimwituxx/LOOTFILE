@@ -1,6 +1,6 @@
 # kimwitu++.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kimwitu++.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kimwituxx'
 url=('https://download.savannah.gnu.org/releases/kimwitu-pp/kimwitu++-2.3.13.tar.gz')

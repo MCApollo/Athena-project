@@ -1,6 +1,6 @@
 # git-test.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-test.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gittest'
 url=('https://github.com/spotify/git-test/archive/v1.0.4.tar.gz')

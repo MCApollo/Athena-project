@@ -1,6 +1,6 @@
 # jbig2dec.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jbig2dec.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jbig2dec'
 url=('https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs924/jbig2dec-0.15.tar.gz')

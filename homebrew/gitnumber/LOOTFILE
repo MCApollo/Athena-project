@@ -1,6 +1,6 @@
 # git-number.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-number.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitnumber'
 url=('https://github.com/holygeek/git-number/archive/1.0.1.tar.gz')

@@ -1,6 +1,6 @@
 # oauth2_proxy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/oauth2_proxy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='oauth2proxy'
 url=('https://github.com/bitly/oauth2_proxy/archive/v2.2.tar.gz')

@@ -1,6 +1,6 @@
 # tta.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tta.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tta'
 url=('https://downloads.sourceforge.net/project/tta/tta/libtta/libtta-2.2.tar.gz')

@@ -1,6 +1,6 @@
 # minicom.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minicom.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minicom'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/m/minicom/minicom_2.7.1.orig.tar.gz')

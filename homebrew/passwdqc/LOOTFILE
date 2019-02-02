@@ -1,6 +1,6 @@
 # passwdqc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/passwdqc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='passwdqc'
 url=('https://www.openwall.com/passwdqc/passwdqc-1.3.1.tar.gz')

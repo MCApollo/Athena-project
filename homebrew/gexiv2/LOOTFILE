@@ -1,6 +1,6 @@
 # gexiv2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gexiv2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gexiv2'
 url=('https://download.gnome.org/sources/gexiv2/0.10/gexiv2-0.10.10.tar.xz')

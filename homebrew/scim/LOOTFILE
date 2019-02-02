@@ -1,6 +1,6 @@
 # sc-im.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sc-im.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scim'
 url=('https://github.com/andmarti1424/sc-im/archive/v0.7.0.tar.gz')

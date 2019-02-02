@@ -1,6 +1,6 @@
 # ps2eps.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ps2eps.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ps2eps'
 url=('https://www.tm.uka.de/~bless/ps2eps-1.68.tar.gz')

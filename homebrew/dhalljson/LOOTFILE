@@ -1,6 +1,6 @@
 # dhall-json.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dhall-json.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dhalljson'
 url=('https://hackage.haskell.org/package/dhall-json-1.2.6/dhall-json-1.2.6.tar.gz')

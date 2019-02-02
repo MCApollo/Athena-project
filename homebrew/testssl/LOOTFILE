@@ -1,6 +1,6 @@
 # testssl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/testssl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='testssl'
 url=('https://github.com/drwetter/testssl.sh/archive/v2.9.5-7.tar.gz')

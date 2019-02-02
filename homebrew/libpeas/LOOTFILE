@@ -1,6 +1,6 @@
 # libpeas.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpeas.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libpeas'
 url=('https://download.gnome.org/sources/libpeas/1.22/libpeas-1.22.0.tar.xz')

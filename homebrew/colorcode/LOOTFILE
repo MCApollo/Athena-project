@@ -1,6 +1,6 @@
 # color-code.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/color-code.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='colorcode'
 url=('http://colorcode.laebisch.com/download/ColorCode-0.8.5.tar.gz')

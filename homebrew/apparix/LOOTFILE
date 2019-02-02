@@ -1,6 +1,6 @@
 # apparix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/apparix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='apparix'
 url=('https://micans.org/apparix/src/apparix-11-062.tar.gz')

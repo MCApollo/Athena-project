@@ -1,6 +1,6 @@
 # yara.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yara.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yara'
 url=('https://github.com/VirusTotal/yara/archive/v3.8.1.tar.gz')

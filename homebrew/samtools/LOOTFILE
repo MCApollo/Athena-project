@@ -1,6 +1,6 @@
 # samtools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/samtools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='samtools'
 url=('https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2')

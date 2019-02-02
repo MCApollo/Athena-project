@@ -1,6 +1,6 @@
 # dict.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dict.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dict'
 url=('https://downloads.sourceforge.net/project/dict/dictd/dictd-1.12.1/dictd-1.12.1.tar.gz')

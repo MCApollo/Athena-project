@@ -1,6 +1,6 @@
 # fq.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fq.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fq'
 url=('https://github.com/circonus-labs/fq/archive/v0.10.14.tar.gz')

@@ -1,6 +1,6 @@
 # libbitcoin-blockchain.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbitcoin-blockchain.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbitcoinblockchain'
 url=('https://github.com/libbitcoin/libbitcoin-blockchain/archive/v3.5.0.tar.gz')

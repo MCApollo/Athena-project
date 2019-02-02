@@ -1,6 +1,6 @@
 # vim@7.4.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vim@7.4.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vimat74'
 url=('https://github.com/vim/vim/archive/v7.4.2367.tar.gz')

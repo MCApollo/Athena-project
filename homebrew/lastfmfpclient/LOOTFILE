@@ -1,6 +1,6 @@
 # lastfmfpclient.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lastfmfpclient.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lastfmfpclient'
 url=('https://github.com/lastfm/Fingerprinter/archive/9ee83a51ac9058ff53c9.tar.gz')

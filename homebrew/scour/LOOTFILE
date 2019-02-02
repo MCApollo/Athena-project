@@ -1,6 +1,6 @@
 # scour.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scour.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scour'
 url=('https://github.com/scour-project/scour/archive/v0.37.tar.gz')

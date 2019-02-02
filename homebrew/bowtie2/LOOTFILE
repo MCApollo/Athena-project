@@ -1,6 +1,6 @@
 # bowtie2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bowtie2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bowtie2'
 url=('https://github.com/BenLangmead/bowtie2/archive/v2.3.4.3.tar.gz')

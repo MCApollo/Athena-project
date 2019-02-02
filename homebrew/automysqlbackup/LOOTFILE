@@ -1,6 +1,6 @@
 # automysqlbackup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/automysqlbackup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='automysqlbackup'
 url=('https://downloads.sourceforge.net/project/automysqlbackup/AutoMySQLBackup/AutoMySQLBackup%20VER%203.0/automysqlbackup-v3.0_rc6.tar.gz')

@@ -1,6 +1,6 @@
 # gitlab-gem.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gitlab-gem.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitlabgem'
 url=('https://github.com/NARKOZ/gitlab/archive/v4.8.0.tar.gz')

@@ -1,6 +1,6 @@
 # xaric.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xaric.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xaric'
 url=('https://xaric.org/software/xaric/releases/xaric-0.13.7.tar.gz')

@@ -1,6 +1,6 @@
 # ghq.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ghq.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ghq'
 url=('https://github.com/motemen/ghq/archive/v0.8.0.tar.gz')

@@ -1,6 +1,6 @@
 # eiffelstudio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/eiffelstudio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='eiffelstudio'
 url=('https://ftp.eiffel.com/pub/download/17.01/eiffelstudio-17.01.9.9700.tar')

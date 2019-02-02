@@ -1,6 +1,6 @@
 # bandcamp-dl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bandcamp-dl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bandcampdl'
 url=('https://github.com/iheanyi/bandcamp-dl/archive/v0.0.8-12.tar.gz')

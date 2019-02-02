@@ -1,6 +1,6 @@
 # trezor-agent.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/trezor-agent.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='trezoragent'
 url=('https://files.pythonhosted.org/packages/16/0f/077ff482453b92ad78736fe63cdb8050351f0fefa734eb0d0c4ebcbae4e0/trezor_agent-0.9.3.tar.gz')

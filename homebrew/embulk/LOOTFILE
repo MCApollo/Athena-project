@@ -1,6 +1,6 @@
 # embulk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/embulk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='embulk'
 url=('https://bintray.com/artifact/download/embulk/maven/embulk-0.9.14.jar')

@@ -1,6 +1,6 @@
 # neopop-sdl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/neopop-sdl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='neopopsdl'
 url=('https://nih.at/NeoPop-SDL/NeoPop-SDL-0.2.tar.bz2')

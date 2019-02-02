@@ -1,6 +1,6 @@
 # pgpdump.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pgpdump.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pgpdump'
 url=('https://github.com/kazu-yamamoto/pgpdump/archive/v0.33.tar.gz')

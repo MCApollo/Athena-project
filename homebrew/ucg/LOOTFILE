@@ -1,6 +1,6 @@
 # ucg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ucg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ucg'
 url=('https://github.com/gvansickle/ucg/releases/download/0.3.3/universalcodegrep-0.3.3.tar.gz')

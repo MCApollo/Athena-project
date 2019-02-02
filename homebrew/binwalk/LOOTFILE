@@ -1,6 +1,6 @@
 # binwalk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/binwalk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='binwalk'
 url=('https://github.com/ReFirmLabs/binwalk/archive/v2.1.1.tar.gz')

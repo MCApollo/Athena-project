@@ -1,6 +1,6 @@
 # pbrt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pbrt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pbrt'
 url=('https://github.com/mmp/pbrt-v2/archive/2.0.342.tar.gz')

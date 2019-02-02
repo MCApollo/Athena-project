@@ -1,6 +1,6 @@
 # commandbox.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/commandbox.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='commandbox'
 url=('https://downloads.ortussolutions.com/ortussolutions/commandbox/4.5.0/commandbox-bin-4.5.0.zip')

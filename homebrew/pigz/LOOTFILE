@@ -1,6 +1,6 @@
 # pigz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pigz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pigz'
 url=('https://zlib.net/pigz/pigz-2.4.tar.gz')

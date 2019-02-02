@@ -1,6 +1,6 @@
 # mingw-w64.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mingw-w64.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mingww64'
 url=('https://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v5.0.4.tar.bz2')

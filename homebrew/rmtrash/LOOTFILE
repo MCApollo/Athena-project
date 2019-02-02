@@ -1,6 +1,6 @@
 # rmtrash.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rmtrash.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rmtrash'
 url=('http://www.nightproductions.net/downloads/rmtrash_source.tar.gz')

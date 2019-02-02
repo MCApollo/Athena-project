@@ -1,6 +1,6 @@
 # seexpr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/seexpr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='seexpr'
 url=('https://github.com/wdas/SeExpr/archive/v2.11.tar.gz')

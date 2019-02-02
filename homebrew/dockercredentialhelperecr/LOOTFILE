@@ -1,6 +1,6 @@
 # docker-credential-helper-ecr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-credential-helper-ecr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockercredentialhelperecr'
 url=('https://github.com/awslabs/amazon-ecr-credential-helper.git')

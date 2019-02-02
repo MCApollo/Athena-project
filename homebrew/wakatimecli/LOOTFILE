@@ -1,6 +1,6 @@
 # wakatime-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wakatime-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wakatimecli'
 url=('https://files.pythonhosted.org/packages/04/db/9917533f8fd503f636f8c5655d9055f2fbef6f90a12a0210b92994f6f823/wakatime-10.4.1.tar.gz')

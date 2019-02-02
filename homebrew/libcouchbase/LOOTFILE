@@ -1,6 +1,6 @@
 # libcouchbase.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcouchbase.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libcouchbase'
 url=('https://packages.couchbase.com/clients/c/libcouchbase-2.10.3.tar.gz')

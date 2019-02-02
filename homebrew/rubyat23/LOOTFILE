@@ -1,6 +1,6 @@
 # ruby@2.3.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ruby@2.3.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rubyat23'
 url=('https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.xz')

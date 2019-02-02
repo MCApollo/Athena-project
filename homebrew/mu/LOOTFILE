@@ -1,6 +1,6 @@
 # mu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mu'
 url=('https://github.com/djcb/mu/releases/download/v1.0/mu-1.0.tar.xz')

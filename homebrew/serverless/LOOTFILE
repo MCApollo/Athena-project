@@ -1,6 +1,6 @@
 # serverless.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/serverless.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='serverless'
 url=('https://registry.npmjs.org/serverless/-/serverless-1.35.1.tgz')

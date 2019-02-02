@@ -1,6 +1,6 @@
 # sbcl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sbcl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sbcl'
 url=('https://downloads.sourceforge.net/project/sbcl/sbcl/1.4.16/sbcl-1.4.16-source.tar.bz2')

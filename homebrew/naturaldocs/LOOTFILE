@@ -1,6 +1,6 @@
 # naturaldocs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/naturaldocs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='naturaldocs'
 url=('https://downloads.sourceforge.net/project/naturaldocs/Stable%20Releases/2.0.2/Natural_Docs_2.0.2.zip')

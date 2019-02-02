@@ -1,6 +1,6 @@
 # ltc-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ltc-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ltctools'
 url=('https://github.com/x42/ltc-tools/archive/v0.6.4.tar.gz')

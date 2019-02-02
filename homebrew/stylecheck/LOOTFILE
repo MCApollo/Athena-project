@@ -1,6 +1,6 @@
 # style-check.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/style-check.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stylecheck'
 url=('https://www.cs.umd.edu/~nspring/software/style-check-0.14.tar.gz')

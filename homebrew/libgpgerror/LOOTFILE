@@ -1,6 +1,6 @@
 # libgpg-error.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgpg-error.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgpgerror'
 url=('https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.35.tar.bz2')

@@ -1,6 +1,6 @@
 # reminiscence.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/reminiscence.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='reminiscence'
 url=('http://cyxdown.free.fr/reminiscence/REminiscence-0.3.7.tar.bz2')

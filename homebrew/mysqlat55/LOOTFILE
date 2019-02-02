@@ -1,6 +1,6 @@
 # mysql@5.5.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mysql@5.5.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mysqlat55'
 url=('https://dev.mysql.com/get/Downloads/MySQL-5.5/mysql-5.5.62.tar.gz')

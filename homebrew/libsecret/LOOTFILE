@@ -1,6 +1,6 @@
 # libsecret.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libsecret.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libsecret'
 url=('https://download.gnome.org/sources/libsecret/0.18/libsecret-0.18.7.tar.xz')

@@ -1,6 +1,6 @@
 # miller.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/miller.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='miller'
 url=('https://github.com/johnkerl/miller/releases/download/5.4.0/mlr-5.4.0.tar.gz')

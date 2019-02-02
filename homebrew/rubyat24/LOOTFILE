@@ -1,6 +1,6 @@
 # ruby@2.4.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ruby@2.4.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rubyat24'
 url=('https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.tar.xz')

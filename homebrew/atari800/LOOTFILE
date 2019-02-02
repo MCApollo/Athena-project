@@ -1,6 +1,6 @@
 # atari800.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/atari800.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='atari800'
 url=('https://downloads.sourceforge.net/project/atari800/atari800/4.0.0/atari800-4.0.0.tar.gz')

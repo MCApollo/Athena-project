@@ -1,6 +1,6 @@
 # griffon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/griffon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='griffon'
 url=('https://dl.bintray.com/content/aalmiray/Griffon/griffon-1.5.0-bin.tgz')

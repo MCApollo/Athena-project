@@ -1,6 +1,6 @@
 # binaryen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/binaryen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='binaryen'
 url=('https://github.com/WebAssembly/binaryen/archive/version_66.tar.gz')

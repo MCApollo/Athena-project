@@ -1,6 +1,6 @@
 # teensy_loader_cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/teensy_loader_cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='teensyloadercli'
 url=('https://github.com/PaulStoffregen/teensy_loader_cli/archive/2.1.tar.gz')

@@ -1,6 +1,6 @@
 # nordugrid-arc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nordugrid-arc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nordugridarc'
 url=('https://download.nordugrid.org/packages/nordugrid-arc/releases/5.0.2/src/nordugrid-arc-5.0.2.tar.gz')

@@ -1,6 +1,6 @@
 # lcm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lcm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lcm'
 url=('https://github.com/lcm-proj/lcm/releases/download/v1.4.0/lcm-1.4.0.zip')

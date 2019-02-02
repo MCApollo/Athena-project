@@ -1,6 +1,6 @@
 # libcdio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcdio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libcdio'
 url=('https://ftp.gnu.org/gnu/libcdio/libcdio-2.0.0.tar.gz')

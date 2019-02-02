@@ -1,6 +1,6 @@
 # unittest-cpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/unittest-cpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='unittestcpp'
 url=('https://github.com/unittest-cpp/unittest-cpp/releases/download/v2.0.0/unittest-cpp-2.0.0.tar.gz')

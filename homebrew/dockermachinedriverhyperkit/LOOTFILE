@@ -1,6 +1,6 @@
 # docker-machine-driver-hyperkit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-machine-driver-hyperkit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockermachinedriverhyperkit'
 url=('https://github.com/machine-drivers/docker-machine-driver-hyperkit.git')

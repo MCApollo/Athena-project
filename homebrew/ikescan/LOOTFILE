@@ -1,6 +1,6 @@
 # ike-scan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ike-scan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ikescan'
 url=('https://github.com/royhills/ike-scan/archive/1.9.4.tar.gz')

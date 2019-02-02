@@ -1,6 +1,6 @@
 # telnet.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/telnet.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='telnet'
 url=('https://opensource.apple.com/tarballs/remote_cmds/remote_cmds-60.tar.gz')

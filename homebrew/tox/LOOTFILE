@@ -1,6 +1,6 @@
 # tox.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tox.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tox'
 url=('https://files.pythonhosted.org/packages/d7/42/82308785b76b374456218b4f1f9f69075d081cb5b4f287766d21a30565dc/tox-3.7.0.tar.gz')

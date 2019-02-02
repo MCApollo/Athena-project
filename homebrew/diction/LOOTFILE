@@ -1,6 +1,6 @@
 # diction.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/diction.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='diction'
 url=('https://ftp.gnu.org/gnu/diction/diction-1.11.tar.gz')

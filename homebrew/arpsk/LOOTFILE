@@ -1,6 +1,6 @@
 # arp-sk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/arp-sk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='arpsk'
 url=('https://web.archive.org/web/20180223202629/sid.rstack.org/arp-sk/files/arp-sk-0.0.16.tgz')

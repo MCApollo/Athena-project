@@ -1,6 +1,6 @@
 # ship.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ship.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ship'
 url=('https://github.com/replicatedhq/ship/archive/v0.32.0.tar.gz')

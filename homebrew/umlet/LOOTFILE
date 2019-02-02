@@ -1,6 +1,6 @@
 # umlet.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/umlet.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='umlet'
 url=('https://www.umlet.com/umlet_14_2/umlet-standalone-14.2.zip')

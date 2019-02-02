@@ -1,6 +1,6 @@
 # cdrtools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cdrtools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cdrtools'
 url=('https://downloads.sourceforge.net/project/cdrtools/cdrtools-3.01.tar.bz2')

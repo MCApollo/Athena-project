@@ -1,6 +1,6 @@
 # pango.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pango.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pango'
 url=('https://download.gnome.org/sources/pango/1.42/pango-1.42.4.tar.xz')

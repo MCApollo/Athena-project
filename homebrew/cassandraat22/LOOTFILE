@@ -1,6 +1,6 @@
 # cassandra@2.2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cassandra@2.2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cassandraat22'
 url=('https://www.apache.org/dyn/closer.cgi?path=/cassandra/2.2.11/apache-cassandra-2.2.11-bin.tar.gz')

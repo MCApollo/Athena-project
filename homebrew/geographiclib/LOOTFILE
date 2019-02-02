@@ -1,6 +1,6 @@
 # geographiclib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/geographiclib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='geographiclib'
 url=('https://downloads.sourceforge.net/project/geographiclib/distrib/GeographicLib-1.49.tar.gz')

@@ -1,6 +1,6 @@
 # wireshark.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wireshark.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wireshark'
 url=('https://www.wireshark.org/download/src/all-versions/wireshark-2.6.6.tar.xz')

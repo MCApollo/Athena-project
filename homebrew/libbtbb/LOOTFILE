@@ -1,6 +1,6 @@
 # libbtbb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbtbb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbtbb'
 url=('https://github.com/greatscottgadgets/libbtbb/archive/2018-12-R1.tar.gz')

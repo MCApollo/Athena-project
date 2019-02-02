@@ -1,6 +1,6 @@
 # smlnj.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/smlnj.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='smlnj'
 url=('http://smlnj.cs.uchicago.edu/dist/working/110.84/config.tgz')

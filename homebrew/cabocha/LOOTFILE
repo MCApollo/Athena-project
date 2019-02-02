@@ -1,6 +1,6 @@
 # cabocha.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cabocha.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cabocha'
 url=('https://dl.bintray.com/homebrew/mirror/cabocha-0.69.tar.bz2')

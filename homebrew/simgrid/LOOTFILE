@@ -1,6 +1,6 @@
 # simgrid.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/simgrid.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='simgrid'
 url=('https://gforge.inria.fr/frs/download.php/file/37602/SimGrid-3.20.tar.gz')

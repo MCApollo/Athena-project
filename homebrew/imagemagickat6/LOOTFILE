@@ -1,6 +1,6 @@
 # imagemagick@6.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/imagemagick@6.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='imagemagickat6'
 url=('https://dl.bintray.com/homebrew/mirror/imagemagick%406--6.9.10-14.tar.xz')

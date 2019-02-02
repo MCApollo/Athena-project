@@ -1,6 +1,6 @@
 # opam.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/opam.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opam'
 url=('https://github.com/ocaml/opam/releases/download/2.0.3/opam-full-2.0.3.tar.gz')

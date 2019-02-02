@@ -1,6 +1,6 @@
 # frege-repl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/frege-repl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fregerepl'
 url=('https://github.com/Frege/frege-repl/releases/download/1.4-SNAPSHOT/frege-repl-1.4-SNAPSHOT.zip')

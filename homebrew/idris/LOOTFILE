@@ -1,6 +1,6 @@
 # idris.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/idris.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='idris'
 url=('https://github.com/idris-lang/Idris-dev/archive/v1.3.1.tar.gz')

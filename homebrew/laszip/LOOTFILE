@@ -1,6 +1,6 @@
 # laszip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/laszip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='laszip'
 url=('https://github.com/LASzip/LASzip/releases/download/3.2.9/laszip-src-3.2.9.tar.gz')

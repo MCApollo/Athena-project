@@ -1,6 +1,6 @@
 # web100clt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/web100clt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='web100clt'
 url=('https://software.internet2.edu/sources/ndt/ndt-3.7.0.2.tar.gz')

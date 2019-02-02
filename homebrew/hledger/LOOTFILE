@@ -1,6 +1,6 @@
 # hledger.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hledger.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hledger'
 url=('https://hackage.haskell.org/package/hledger-1.11.1/hledger-1.11.1.tar.gz')

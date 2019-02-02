@@ -1,6 +1,6 @@
 # tbb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tbb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tbb'
 url=('https://github.com/01org/tbb/archive/2019_U3.tar.gz')

@@ -1,6 +1,6 @@
 # vice.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vice.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vice'
 url=('https://downloads.sourceforge.net/project/vice-emu/releases/vice-3.3.tar.gz')

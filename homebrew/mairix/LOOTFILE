@@ -1,6 +1,6 @@
 # mairix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mairix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mairix'
 url=('https://downloads.sourceforge.net/project/mairix/mairix/0.24/mairix-0.24.tar.gz')

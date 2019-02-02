@@ -1,6 +1,6 @@
 # szip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/szip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='szip'
 url=('https://support.hdfgroup.org/ftp/lib-external/szip/2.1.1/src/szip-2.1.1.tar.gz')

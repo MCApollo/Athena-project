@@ -1,6 +1,6 @@
 # vassh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vassh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vassh'
 url=('https://github.com/x-team/vassh/archive/0.2.tar.gz')

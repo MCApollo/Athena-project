@@ -1,6 +1,6 @@
 # cppi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cppi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cppi'
 url=('https://ftp.gnu.org/gnu/cppi/cppi-1.18.tar.xz')

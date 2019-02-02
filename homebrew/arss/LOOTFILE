@@ -1,6 +1,6 @@
 # arss.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/arss.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='arss'
 url=('https://downloads.sourceforge.net/project/arss/arss/0.2.3/arss-0.2.3-src.tar.gz')

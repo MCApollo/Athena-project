@@ -1,6 +1,6 @@
 # fcgiwrap.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fcgiwrap.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fcgiwrap'
 url=('https://github.com/gnosek/fcgiwrap/archive/1.1.0.tar.gz')

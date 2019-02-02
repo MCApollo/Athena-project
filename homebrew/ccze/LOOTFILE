@@ -1,6 +1,6 @@
 # ccze.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ccze.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ccze'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/c/ccze/ccze_0.2.1.orig.tar.gz')

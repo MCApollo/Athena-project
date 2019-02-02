@@ -1,6 +1,6 @@
 # freeglut.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/freeglut.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='freeglut'
 url=('https://downloads.sourceforge.net/project/freeglut/freeglut/3.0.0/freeglut-3.0.0.tar.gz')

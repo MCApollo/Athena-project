@@ -1,6 +1,6 @@
 # stanford-corenlp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stanford-corenlp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stanfordcorenlp'
 url=('https://nlp.stanford.edu/software/stanford-corenlp-full-2018-02-27.zip')

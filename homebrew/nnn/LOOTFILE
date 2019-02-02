@@ -1,6 +1,6 @@
 # nnn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nnn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nnn'
 url=('https://github.com/jarun/nnn/archive/v2.2.tar.gz')

@@ -1,6 +1,6 @@
 # redland.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/redland.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='redland'
 url=('http://download.librdf.org/source/redland-1.0.17.tar.gz')

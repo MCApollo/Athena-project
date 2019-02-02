@@ -1,6 +1,6 @@
 # calabash.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/calabash.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='calabash'
 url=('https://github.com/ndw/xmlcalabash1/releases/download/1.1.22-98/xmlcalabash-1.1.22-98.zip')

@@ -1,6 +1,6 @@
 # dwm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dwm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dwm'
 url=('https://dl.suckless.org/dwm/dwm-6.1.tar.gz')

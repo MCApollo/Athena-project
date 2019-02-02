@@ -1,6 +1,6 @@
 # todo-txt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/todo-txt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='todotxt'
 url=('https://github.com/todotxt/todo.txt-cli/releases/download/v2.11.0/todo.txt_cli-2.11.0.tar.gz')

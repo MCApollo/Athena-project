@@ -1,6 +1,6 @@
 # duff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/duff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='duff'
 url=('https://downloads.sourceforge.net/project/duff/duff/0.5.2/duff-0.5.2.tar.gz')

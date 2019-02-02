@@ -1,6 +1,6 @@
 # httpie.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/httpie.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='httpie'
 url=('https://files.pythonhosted.org/packages/09/8d/581ef7bd9a09dc30b621638a4fa805a2073bbfb45fa06ed37f998f172419/httpie-1.0.2.tar.gz')

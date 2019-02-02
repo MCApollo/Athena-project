@@ -1,6 +1,6 @@
 # dark-mode.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dark-mode.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='darkmode'
 url=('https://github.com/sindresorhus/dark-mode/archive/2.0.1.tar.gz')

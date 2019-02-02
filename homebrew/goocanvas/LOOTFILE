@@ -1,6 +1,6 @@
 # goocanvas.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/goocanvas.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='goocanvas'
 url=('https://download.gnome.org/sources/goocanvas/2.0/goocanvas-2.0.4.tar.xz')

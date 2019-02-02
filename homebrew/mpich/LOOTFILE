@@ -1,6 +1,6 @@
 # mpich.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpich.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mpich'
 url=('https://www.mpich.org/static/downloads/3.3/mpich-3.3.tar.gz')

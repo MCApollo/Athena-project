@@ -1,6 +1,6 @@
 # libstxxl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libstxxl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libstxxl'
 url=('https://downloads.sourceforge.net/project/stxxl/stxxl/1.4.1/stxxl-1.4.1.tar.gz')

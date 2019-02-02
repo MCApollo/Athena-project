@@ -1,6 +1,6 @@
 # taktuk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/taktuk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='taktuk'
 url=('https://gforge.inria.fr/frs/download.php/file/37055/taktuk-3.7.7.tar.gz')

@@ -1,6 +1,6 @@
 # tal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tal'
 url=('https://www.mirrorservice.org/sites/download.salixos.org/x86_64/extra-14.2/source/misc/tal/tal-1.9.tar.gz')

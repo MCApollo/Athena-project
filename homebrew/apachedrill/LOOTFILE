@@ -1,6 +1,6 @@
 # apache-drill.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/apache-drill.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='apachedrill'
 url=('https://www.apache.org/dyn/closer.cgi?path=drill/drill-1.15.0/apache-drill-1.15.0.tar.gz')

@@ -1,6 +1,6 @@
 # ceres-solver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ceres-solver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ceressolver'
 url=('http://ceres-solver.org/ceres-solver-1.14.0.tar.gz')

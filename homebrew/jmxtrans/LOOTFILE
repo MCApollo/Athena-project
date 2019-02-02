@@ -1,6 +1,6 @@
 # jmxtrans.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jmxtrans.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jmxtrans'
 url=('https://github.com/jmxtrans/jmxtrans/archive/jmxtrans-parent-270.tar.gz')

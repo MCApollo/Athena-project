@@ -1,6 +1,6 @@
 # groovyserv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/groovyserv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='groovyserv'
 url=('https://bitbucket.org/kobo/groovyserv-mirror/downloads/groovyserv-1.2.0-src.zip')

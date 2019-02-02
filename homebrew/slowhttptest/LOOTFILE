@@ -1,6 +1,6 @@
 # slowhttptest.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/slowhttptest.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='slowhttptest'
 url=('https://github.com/shekyan/slowhttptest/archive/v1.7.tar.gz')

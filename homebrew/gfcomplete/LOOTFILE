@@ -1,6 +1,6 @@
 # gf-complete.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gf-complete.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gfcomplete'
 url=('http://lab.jerasure.org/jerasure/gf-complete/repository/archive.tar.gz?ref=v2.0')

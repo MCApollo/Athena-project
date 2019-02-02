@@ -1,6 +1,6 @@
 # ocaml-findlib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ocaml-findlib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ocamlfindlib'
 url=('http://download.camlcity.org/download/findlib-1.8.0.tar.gz')

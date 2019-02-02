@@ -1,6 +1,6 @@
 # gbdfed.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gbdfed.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gbdfed'
 url=('http://sofia.nmsu.edu/~mleisher/Software/gbdfed/gbdfed-1.6.tar.gz')

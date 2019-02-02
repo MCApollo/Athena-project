@@ -1,6 +1,6 @@
 # otf2bdf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/otf2bdf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='otf2bdf'
 url=('https://www.math.nmsu.edu/~mleisher/Software/otf2bdf/otf2bdf-3.1.tbz2')

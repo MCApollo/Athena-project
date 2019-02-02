@@ -1,6 +1,6 @@
 # mecab-jumandic.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mecab-jumandic.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mecabjumandic'
 url=('https://www.mirrorservice.org/sites/distfiles.macports.org/mecab/mecab-jumandic-7.0-20130310.tar.gz')

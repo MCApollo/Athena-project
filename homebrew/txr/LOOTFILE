@@ -1,6 +1,6 @@
 # txr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/txr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='txr'
 url=('http://www.kylheku.com/cgit/txr/snapshot/txr-198.tar.bz2')

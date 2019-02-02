@@ -1,6 +1,6 @@
 # ocrad.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ocrad.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ocrad'
 url=('https://ftp.gnu.org/gnu/ocrad/ocrad-0.26.tar.lz')

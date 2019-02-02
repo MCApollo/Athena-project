@@ -1,6 +1,6 @@
 # clfft.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clfft.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clfft'
 url=('https://github.com/clMathLibraries/clFFT/archive/v2.12.2.tar.gz')

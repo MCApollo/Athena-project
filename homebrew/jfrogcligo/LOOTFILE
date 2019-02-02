@@ -1,6 +1,6 @@
 # jfrog-cli-go.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jfrog-cli-go.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jfrogcligo'
 url=('https://github.com/jfrog/jfrog-cli-go/archive/1.23.1.tar.gz')

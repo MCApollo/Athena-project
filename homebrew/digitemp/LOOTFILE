@@ -1,6 +1,6 @@
 # digitemp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/digitemp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='digitemp'
 url=('https://github.com/bcl/digitemp/archive/v3.7.2.tar.gz')

@@ -1,6 +1,6 @@
 # atk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/atk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='atk'
 url=('https://download.gnome.org/sources/atk/2.30/atk-2.30.0.tar.xz')

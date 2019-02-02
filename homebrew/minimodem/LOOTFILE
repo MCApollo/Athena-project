@@ -1,6 +1,6 @@
 # minimodem.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minimodem.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minimodem'
 url=('http://www.whence.com/minimodem/minimodem-0.24.tar.gz')

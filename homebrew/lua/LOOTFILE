@@ -1,6 +1,6 @@
 # lua.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lua.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lua'
 url=('https://www.lua.org/ftp/lua-5.3.5.tar.gz')

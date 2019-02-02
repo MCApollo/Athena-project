@@ -1,6 +1,6 @@
 # supertux.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/supertux.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='supertux'
 url=('https://github.com/SuperTux/supertux/releases/download/v0.5.1/SuperTux-v0.5.1-Source.tar.gz')

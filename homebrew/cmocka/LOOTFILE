@@ -1,6 +1,6 @@
 # cmocka.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cmocka.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cmocka'
 url=('https://cmocka.org/files/1.1/cmocka-1.1.3.tar.xz')

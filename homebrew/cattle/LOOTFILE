@@ -1,6 +1,6 @@
 # cattle.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cattle.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cattle'
 url=('https://kiyuko.org/software/cattle/releases/cattle-1.2.2.tar.gz')

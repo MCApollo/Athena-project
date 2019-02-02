@@ -1,6 +1,6 @@
 # slrn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/slrn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='slrn'
 url=('https://jedsoft.org/releases/slrn/slrn-1.0.3a.tar.bz2')

@@ -1,6 +1,6 @@
 # pachi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pachi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pachi'
 url=('https://repo.or.cz/pachi.git/snapshot/pachi-11.00-retsugen.tar.gz')

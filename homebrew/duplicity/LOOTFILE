@@ -1,6 +1,6 @@
 # duplicity.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/duplicity.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='duplicity'
 url=('https://launchpad.net/duplicity/0.7-series/0.7.18.2/+download/duplicity-0.7.18.2.tar.gz')

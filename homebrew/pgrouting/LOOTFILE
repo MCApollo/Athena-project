@@ -1,6 +1,6 @@
 # pgrouting.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pgrouting.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pgrouting'
 url=('https://github.com/pgRouting/pgrouting/archive/v2.6.2.tar.gz')

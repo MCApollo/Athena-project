@@ -1,6 +1,6 @@
 # wxpython.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wxpython.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wxpython'
 url=('https://downloads.sourceforge.net/project/wxpython/wxPython/3.0.2.0/wxPython-src-3.0.2.0.tar.bz2')

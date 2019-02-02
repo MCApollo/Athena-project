@@ -1,6 +1,6 @@
 # librasterlite.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/librasterlite.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='librasterlite'
 url=('https://www.gaia-gis.it/gaia-sins/librasterlite-sources/librasterlite-1.1g.tar.gz')

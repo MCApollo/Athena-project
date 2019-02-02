@@ -1,6 +1,6 @@
 # mda-lv2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mda-lv2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mdalv2'
 url=('https://download.drobilla.net/mda-lv2-1.2.2.tar.bz2')

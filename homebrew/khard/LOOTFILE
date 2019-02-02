@@ -1,6 +1,6 @@
 # khard.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/khard.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='khard'
 url=('https://files.pythonhosted.org/packages/19/91/6309d5b0477582b9b663cd65f1346cec6ed5f44e734bac722e1ca2ddc1e3/khard-0.12.2.tar.gz')

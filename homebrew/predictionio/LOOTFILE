@@ -1,6 +1,6 @@
 # predictionio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/predictionio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='predictionio'
 url=('https://github.com/apache/incubator-predictionio/releases/download/v0.9.6/PredictionIO-0.9.6.tar.gz')

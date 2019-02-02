@@ -1,6 +1,6 @@
 # arcade-learning-environment.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/arcade-learning-environment.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='arcadelearningenvironment'
 url=('https://github.com/mgbellemare/Arcade-Learning-Environment/archive/v0.6.0.tar.gz')

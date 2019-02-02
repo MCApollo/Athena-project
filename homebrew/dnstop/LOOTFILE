@@ -1,6 +1,6 @@
 # dnstop.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dnstop.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dnstop'
 url=('http://dns.measurement-factory.com/tools/dnstop/src/dnstop-20140915.tar.gz')

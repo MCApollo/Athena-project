@@ -1,6 +1,6 @@
 # sceptre.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sceptre.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sceptre'
 url=('https://github.com/cloudreach/sceptre/archive/v2.0.0.tar.gz')

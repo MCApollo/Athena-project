@@ -1,6 +1,6 @@
 # mailutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mailutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mailutils'
 url=('https://ftp.gnu.org/gnu/mailutils/mailutils-3.4.tar.gz')

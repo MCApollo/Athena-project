@@ -1,6 +1,6 @@
 # libffi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libffi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libffi'
 url=('https://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz')

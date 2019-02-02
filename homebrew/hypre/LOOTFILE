@@ -1,6 +1,6 @@
 # hypre.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hypre.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hypre'
 url=('https://computation.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods/download/hypre-2.11.2.tar.gz')

@@ -1,6 +1,6 @@
 # pc6001vx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pc6001vx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pc6001vx'
 url=('http://eighttails.up.seesaa.net/bin/PC6001VX_3.0.0_src.tar.gz')

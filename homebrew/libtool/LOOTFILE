@@ -1,6 +1,6 @@
 # libtool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libtool'
 url=('https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.xz')

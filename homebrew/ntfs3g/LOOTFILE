@@ -1,6 +1,6 @@
 # ntfs-3g.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ntfs-3g.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ntfs3g'
 url=('https://tuxera.com/opensource/ntfs-3g_ntfsprogs-2017.3.23.tgz')

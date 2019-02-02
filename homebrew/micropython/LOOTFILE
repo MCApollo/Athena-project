@@ -1,6 +1,6 @@
 # micropython.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/micropython.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='micropython'
 url=('https://github.com/micropython/micropython.git')

@@ -1,6 +1,6 @@
 # dcled.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dcled.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dcled'
 url=('https://www.jeffrika.com/~malakai/dcled/dcled-2.2.tgz')

@@ -1,6 +1,6 @@
 # docbook2x.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docbook2x.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='docbook2x'
 url=('https://downloads.sourceforge.net/docbook2x/docbook2X-0.8.8.tar.gz')

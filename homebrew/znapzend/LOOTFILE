@@ -1,6 +1,6 @@
 # znapzend.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/znapzend.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='znapzend'
 url=('https://github.com/oetiker/znapzend/releases/download/v0.19.1/znapzend-0.19.1.tar.gz')

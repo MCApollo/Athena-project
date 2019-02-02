@@ -1,6 +1,6 @@
 # ripgrep.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ripgrep.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ripgrep'
 url=('https://github.com/BurntSushi/ripgrep/archive/0.10.0.tar.gz')

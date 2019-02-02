@@ -1,6 +1,6 @@
 # ttfautohint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ttfautohint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ttfautohint'
 url=('https://downloads.sourceforge.net/project/freetype/ttfautohint/1.8.2/ttfautohint-1.8.2.tar.gz')

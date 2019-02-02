@@ -1,6 +1,6 @@
 # mlton.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mlton.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mlton'
 url=('https://downloads.sourceforge.net/project/mlton/mlton/20180207/mlton-20180207.src.tgz')

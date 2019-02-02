@@ -1,6 +1,6 @@
 # sync_gateway.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sync_gateway.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='syncgateway'
 url=('https://github.com/couchbase/sync_gateway.git')

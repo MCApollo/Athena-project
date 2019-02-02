@@ -1,6 +1,6 @@
 # cfv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cfv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cfv'
 url=('https://downloads.sourceforge.net/project/cfv/cfv/1.18.3/cfv-1.18.3.tar.gz')

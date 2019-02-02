@@ -1,6 +1,6 @@
 # creduce.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/creduce.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='creduce'
 url=('https://embed.cs.utah.edu/creduce/creduce-2.8.0.tar.gz')

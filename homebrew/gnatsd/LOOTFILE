@@ -1,6 +1,6 @@
 # gnatsd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnatsd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnatsd'
 url=('https://github.com/nats-io/gnatsd/archive/v1.4.0.tar.gz')

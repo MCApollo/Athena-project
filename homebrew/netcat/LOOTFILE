@@ -1,6 +1,6 @@
 # netcat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/netcat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='netcat'
 url=('https://downloads.sourceforge.net/project/netcat/netcat/0.7.1/netcat-0.7.1.tar.bz2')

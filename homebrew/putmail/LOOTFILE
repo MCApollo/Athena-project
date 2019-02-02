@@ -1,6 +1,6 @@
 # putmail.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/putmail.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='putmail'
 url=('https://downloads.sourceforge.net/project/putmail/putmail.py/1.4/putmail.py-1.4.tar.bz2')

@@ -1,6 +1,6 @@
 # googler.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/googler.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='googler'
 url=('https://github.com/jarun/googler/archive/v3.7.1.tar.gz')

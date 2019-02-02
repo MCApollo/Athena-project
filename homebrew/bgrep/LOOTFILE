@@ -1,6 +1,6 @@
 # bgrep.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bgrep.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bgrep'
 url=('https://github.com/tmbinc/bgrep/archive/bgrep-0.2.tar.gz')

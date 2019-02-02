@@ -1,6 +1,6 @@
 # hbase.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hbase.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hbase'
 url=('https://www.apache.org/dyn/closer.cgi?path=hbase/hbase-1.2.9/hbase-1.2.9-bin.tar.gz')

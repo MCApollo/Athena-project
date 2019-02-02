@@ -1,6 +1,6 @@
 # ddclient.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ddclient.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ddclient'
 url=('https://downloads.sourceforge.net/project/ddclient/ddclient/ddclient-3.9.0/ddclient-3.9.0.tar.gz')

@@ -1,6 +1,6 @@
 # bcpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bcpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bcpp'
 url=('https://invisible-mirror.net/archives/bcpp/bcpp-20180401.tgz')

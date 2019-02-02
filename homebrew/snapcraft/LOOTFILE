@@ -1,6 +1,6 @@
 # snapcraft.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/snapcraft.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snapcraft'
 url=('https://files.pythonhosted.org/packages/fc/c6/d3a59d1f08c0b8bc3d166bc6e0a26a29dd61627d2e6266bd81b26fc02142/snapcraft-3.0.1.tar.gz')

@@ -1,6 +1,6 @@
 # qmmp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qmmp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qmmp'
 url=('http://qmmp.ylsoftware.com/files/qmmp-1.2.4.tar.bz2')

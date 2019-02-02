@@ -1,6 +1,6 @@
 # passenger.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/passenger.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='passenger'
 url=('https://github.com/phusion/passenger/releases/download/release-6.0.1/passenger-6.0.1.tar.gz')

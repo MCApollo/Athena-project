@@ -1,6 +1,6 @@
 # bzr-xmloutput.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bzr-xmloutput.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bzrxmloutput'
 url=('https://launchpad.net/bzr-xmloutput/trunk/0.8.8/+download/bzr-xmloutput-0.8.8.tar.gz')

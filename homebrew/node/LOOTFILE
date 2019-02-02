@@ -1,6 +1,6 @@
 # node.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/node.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='node'
 url=('https://nodejs.org/dist/v11.9.0/node-v11.9.0.tar.gz')

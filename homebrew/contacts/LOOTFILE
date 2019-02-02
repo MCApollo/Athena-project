@@ -1,6 +1,6 @@
 # contacts.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/contacts.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='contacts'
 url=('https://github.com/dhess/contacts/archive/4092a3c6615d7a22852a3bafc44e4aeeb698aa8f.tar.gz')

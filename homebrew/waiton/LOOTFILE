@@ -1,6 +1,6 @@
 # wait_on.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wait_on.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='waiton'
 url=('https://pkg.freebsd.org/ports-distfiles/wait_on-1.1.tar.gz')

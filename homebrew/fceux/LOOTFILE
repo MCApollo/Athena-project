@@ -1,6 +1,6 @@
 # fceux.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fceux.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fceux'
 url=('https://downloads.sourceforge.net/project/fceultra/Source%20Code/2.2.3%20src/fceux-2.2.3.src.tar.gz')

@@ -1,6 +1,6 @@
 # rds-command-line-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rds-command-line-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rdscommandlinetools'
 url=('https://s3.amazonaws.com/rds-downloads/RDSCli-1.19.004.zip')

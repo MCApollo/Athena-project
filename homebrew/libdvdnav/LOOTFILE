@@ -1,6 +1,6 @@
 # libdvdnav.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdvdnav.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libdvdnav'
 url=('https://download.videolan.org/pub/videolan/libdvdnav/6.0.0/libdvdnav-6.0.0.tar.bz2')

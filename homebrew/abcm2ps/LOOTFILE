@@ -1,6 +1,6 @@
 # abcm2ps.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/abcm2ps.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='abcm2ps'
 url=('https://github.com/leesavide/abcm2ps/archive/v8.14.2.tar.gz')

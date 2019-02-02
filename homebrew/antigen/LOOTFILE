@@ -1,6 +1,6 @@
 # antigen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/antigen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='antigen'
 url=('https://github.com/zsh-users/antigen/releases/download/v2.2.3/v2.2.3.tar.gz')

@@ -1,6 +1,6 @@
 # maven-shell.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/maven-shell.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mavenshell'
 url=('https://search.maven.org/remotecontent?filepath=org/sonatype/maven/shell/dist/mvnsh-assembly/1.1.0/mvnsh-assembly-1.1.0-bin.tar.gz')

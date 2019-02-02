@@ -1,6 +1,6 @@
 # debianutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/debianutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='debianutils'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/d/debianutils/debianutils_4.8.6.tar.xz')

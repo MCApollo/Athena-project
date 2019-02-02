@@ -1,6 +1,6 @@
 # xmltoman.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmltoman.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xmltoman'
 url=('https://downloads.sourceforge.net/project/xmltoman/xmltoman/xmltoman-0.4.tar.gz/xmltoman-0.4.tar.gz')

@@ -1,6 +1,6 @@
 # h264bitstream.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/h264bitstream.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='h264bitstream'
 url=('https://downloads.sourceforge.net/project/h264bitstream/h264bitstream/0.1.9/h264bitstream-0.1.9.tar.gz')

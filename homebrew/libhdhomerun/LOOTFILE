@@ -1,6 +1,6 @@
 # libhdhomerun.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libhdhomerun.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libhdhomerun'
 url=('https://download.silicondust.com/hdhomerun/libhdhomerun_20180817.tgz')

@@ -1,6 +1,6 @@
 # gd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gd'
 url=('https://github.com/libgd/libgd/releases/download/gd-2.2.5/libgd-2.2.5.tar.xz')

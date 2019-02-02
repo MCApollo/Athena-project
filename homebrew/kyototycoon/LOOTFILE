@@ -1,6 +1,6 @@
 # kyoto-tycoon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kyoto-tycoon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kyototycoon'
 url=('https://fallabs.com/kyototycoon/pkg/kyototycoon-0.9.56.tar.gz')

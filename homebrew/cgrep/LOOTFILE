@@ -1,6 +1,6 @@
 # cgrep.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cgrep.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cgrep'
 url=('https://github.com/awgn/cgrep/archive/v6.6.27.tar.gz')

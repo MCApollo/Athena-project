@@ -1,6 +1,6 @@
 # haskell-stack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/haskell-stack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='haskellstack'
 url=('https://github.com/commercialhaskell/stack/releases/download/v1.9.3/stack-1.9.3-sdist-1.tar.gz')

@@ -1,6 +1,6 @@
 # patchutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/patchutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='patchutils'
 url=('http://cyberelk.net/tim/data/patchutils/stable/patchutils-0.3.4.tar.xz')

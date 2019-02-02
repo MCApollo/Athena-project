@@ -1,6 +1,6 @@
 # csmith.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/csmith.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='csmith'
 url=('https://embed.cs.utah.edu/csmith/csmith-2.3.0.tar.gz')

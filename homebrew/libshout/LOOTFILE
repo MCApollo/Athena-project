@@ -1,6 +1,6 @@
 # libshout.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libshout.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libshout'
 url=('https://downloads.xiph.org/releases/libshout/libshout-2.4.1.tar.gz')

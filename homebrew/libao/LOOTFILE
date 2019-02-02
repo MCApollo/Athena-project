@@ -1,6 +1,6 @@
 # libao.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libao.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libao'
 url=('https://github.com/xiph/libao/archive/1.2.2.tar.gz')

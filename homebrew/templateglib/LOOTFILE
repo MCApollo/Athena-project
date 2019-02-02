@@ -1,6 +1,6 @@
 # template-glib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/template-glib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='templateglib'
 url=('https://download.gnome.org/sources/template-glib/3.30/template-glib-3.30.0.tar.xz')

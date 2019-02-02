@@ -1,6 +1,6 @@
 # krakend.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/krakend.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='krakend'
 url=('https://github.com/devopsfaith/krakend-ce/archive/0.7.1.tar.gz')

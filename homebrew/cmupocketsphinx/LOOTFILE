@@ -1,6 +1,6 @@
 # cmu-pocketsphinx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cmu-pocketsphinx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cmupocketsphinx'
 url=('https://downloads.sourceforge.net/project/cmusphinx/pocketsphinx/0.8/pocketsphinx-0.8.tar.gz')

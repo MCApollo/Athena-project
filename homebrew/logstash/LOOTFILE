@@ -1,6 +1,6 @@
 # logstash.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/logstash.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='logstash'
 url=('https://artifacts.elastic.co/downloads/logstash/logstash-oss-6.5.4.tar.gz')

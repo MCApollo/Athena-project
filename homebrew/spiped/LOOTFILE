@@ -1,6 +1,6 @@
 # spiped.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spiped.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spiped'
 url=('https://www.tarsnap.com/spiped/spiped-1.6.0.tgz')

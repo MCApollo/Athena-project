@@ -1,6 +1,6 @@
 # mpage.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpage.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mpage'
 url=('https://mesa.nl/pub/mpage/mpage-2.5.7.tgz')

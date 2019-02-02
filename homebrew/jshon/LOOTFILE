@@ -1,6 +1,6 @@
 # jshon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jshon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jshon'
 url=('https://github.com/keenerd/jshon/archive/20131105.tar.gz')

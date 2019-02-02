@@ -1,6 +1,6 @@
 # tn5250.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tn5250.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tn5250'
 url=('https://downloads.sourceforge.net/project/tn5250/tn5250/0.17.4/tn5250-0.17.4.tar.gz')

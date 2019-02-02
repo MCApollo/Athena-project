@@ -1,6 +1,6 @@
 # id3tool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/id3tool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='id3tool'
 url=('http://nekohako.xware.cx/id3tool/id3tool-1.2a.tar.gz')

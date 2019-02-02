@@ -1,6 +1,6 @@
 # zork.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zork.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zork'
 url=('https://github.com/devshane/zork/archive/v1.0.2.tar.gz')

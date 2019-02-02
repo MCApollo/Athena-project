@@ -1,6 +1,6 @@
 # gnome-themes-standard.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnome-themes-standard.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnomethemesstandard'
 url=('https://download.gnome.org/sources/gnome-themes-standard/3.22/gnome-themes-standard-3.22.3.tar.xz')

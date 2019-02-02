@@ -1,6 +1,6 @@
 # libmowgli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmowgli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmowgli'
 url=('https://github.com/atheme/libmowgli-2/archive/v2.1.3.tar.gz')

@@ -1,6 +1,6 @@
 # rtf2latex2e.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rtf2latex2e.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rtf2latex2e'
 url=('https://downloads.sourceforge.net/project/rtf2latex2e/rtf2latex2e-unix/2-2/rtf2latex2e-2-2-3.tar.gz')

@@ -1,6 +1,6 @@
 # python-yq.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/python-yq.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pythonyq'
 url=('https://files.pythonhosted.org/packages/0c/23/aa30f88c916128aa60de9d4f53dd40c8f6c31cb7ebb808aab1b0501a701f/yq-2.7.2.tar.gz')

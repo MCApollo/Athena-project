@@ -1,6 +1,6 @@
 # charm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/charm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='charm'
 url=('https://github.com/juju/charmstore-client/archive/v2.3.0.tar.gz')

@@ -1,6 +1,6 @@
 # paket.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/paket.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='paket'
 url=('https://github.com/fsprojects/Paket/releases/download/5.195.1/paket.exe')

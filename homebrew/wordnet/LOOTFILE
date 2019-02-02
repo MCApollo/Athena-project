@@ -1,6 +1,6 @@
 # wordnet.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wordnet.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wordnet'
 url=('http://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.bz2')

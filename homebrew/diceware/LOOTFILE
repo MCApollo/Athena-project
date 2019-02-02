@@ -1,6 +1,6 @@
 # diceware.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/diceware.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='diceware'
 url=('https://github.com/ulif/diceware/archive/v0.9.6.tar.gz')

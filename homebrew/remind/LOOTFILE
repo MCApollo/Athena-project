@@ -1,6 +1,6 @@
 # remind.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/remind.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='remind'
 url=('https://www.roaringpenguin.com/files/download/remind-03.01.15.tar.gz')

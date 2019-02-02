@@ -1,6 +1,6 @@
 # pulseaudio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pulseaudio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pulseaudio'
 url=('https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-12.2.tar.xz')

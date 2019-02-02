@@ -1,6 +1,6 @@
 # pyenv-pip-migrate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pyenv-pip-migrate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pyenvpipmigrate'
 url=('https://github.com/pyenv/pyenv-pip-migrate/archive/v20130527.tar.gz')

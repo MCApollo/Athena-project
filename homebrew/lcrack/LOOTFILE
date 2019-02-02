@@ -1,6 +1,6 @@
 # lcrack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lcrack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lcrack'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/l/lcrack/lcrack_20040914.orig.tar.gz')

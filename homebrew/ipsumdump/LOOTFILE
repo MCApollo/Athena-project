@@ -1,6 +1,6 @@
 # ipsumdump.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ipsumdump.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ipsumdump'
 url=('https://read.seas.harvard.edu/~kohler/ipsumdump/ipsumdump-1.86.tar.gz')

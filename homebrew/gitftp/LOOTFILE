@@ -1,6 +1,6 @@
 # git-ftp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-ftp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitftp'
 url=('https://github.com/git-ftp/git-ftp/archive/1.5.1.tar.gz')

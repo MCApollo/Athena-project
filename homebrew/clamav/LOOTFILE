@@ -1,6 +1,6 @@
 # clamav.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clamav.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clamav'
 url=('https://www.clamav.net/downloads/production/clamav-0.101.1.tar.gz')

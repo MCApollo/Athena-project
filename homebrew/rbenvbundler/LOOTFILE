@@ -1,6 +1,6 @@
 # rbenv-bundler.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rbenv-bundler.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rbenvbundler'
 url=('https://github.com/carsomyr/rbenv-bundler/archive/1.00.tar.gz')

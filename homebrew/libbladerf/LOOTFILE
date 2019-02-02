@@ -1,6 +1,6 @@
 # libbladerf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbladerf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbladerf'
 url=('https://github.com/Nuand/bladeRF/archive/2018.08.tar.gz')

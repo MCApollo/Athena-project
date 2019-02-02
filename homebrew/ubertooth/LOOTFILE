@@ -1,6 +1,6 @@
 # ubertooth.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ubertooth.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ubertooth'
 url=('https://github.com/greatscottgadgets/ubertooth/releases/download/2018-12-R1/ubertooth-2018-12-R1.tar.xz')

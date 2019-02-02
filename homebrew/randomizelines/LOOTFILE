@@ -1,6 +1,6 @@
 # randomize-lines.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/randomize-lines.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='randomizelines'
 url=('https://arthurdejong.org/rl/rl-0.2.7.tar.gz')

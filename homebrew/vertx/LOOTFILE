@@ -1,6 +1,6 @@
 # vert.x.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vert.x.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vertx'
 url=('https://dl.bintray.com/vertx/downloads/vert.x-3.6.3-full.tar.gz')

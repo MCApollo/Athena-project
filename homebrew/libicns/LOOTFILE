@@ -1,6 +1,6 @@
 # libicns.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libicns.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libicns'
 url=('https://downloads.sourceforge.net/project/icns/libicns-0.8.1.tar.gz')

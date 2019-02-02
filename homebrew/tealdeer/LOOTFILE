@@ -1,6 +1,6 @@
 # tealdeer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tealdeer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tealdeer'
 url=('https://github.com/dbrgn/tealdeer/archive/v1.1.0.tar.gz')

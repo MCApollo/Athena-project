@@ -1,6 +1,6 @@
 # sqoop.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sqoop.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sqoop'
 url=('https://archive.apache.org/dist/sqoop/1.4.6/sqoop-1.4.6.bin__hadoop-2.0.4-alpha.tar.gz')

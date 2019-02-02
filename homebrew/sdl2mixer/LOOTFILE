@@ -1,6 +1,6 @@
 # sdl2_mixer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdl2_mixer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sdl2mixer'
 url=('https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.4.tar.gz')

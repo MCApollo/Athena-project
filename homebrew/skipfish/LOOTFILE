@@ -1,6 +1,6 @@
 # skipfish.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/skipfish.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='skipfish'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/skipfish/skipfish-2.10b.tgz')

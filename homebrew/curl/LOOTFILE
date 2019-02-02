@@ -1,6 +1,6 @@
 # curl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/curl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='curl'
 url=('https://curl.haxx.se/download/curl-7.63.0.tar.bz2')

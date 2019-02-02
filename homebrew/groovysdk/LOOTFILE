@@ -1,6 +1,6 @@
 # groovysdk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/groovysdk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='groovysdk'
 url=('https://dl.bintray.com/groovy/maven/apache-groovy-sdk-2.5.4.zip')

@@ -1,6 +1,6 @@
 # msdl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/msdl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='msdl'
 url=('https://downloads.sourceforge.net/msdl/msdl-1.2.7-r2.tar.gz')

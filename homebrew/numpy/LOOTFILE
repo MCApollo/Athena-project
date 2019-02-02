@@ -1,6 +1,6 @@
 # numpy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/numpy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='numpy'
 url=('https://files.pythonhosted.org/packages/04/b6/d7faa70a3e3eac39f943cc6a6a64ce378259677de516bd899dd9eb8f9b32/numpy-1.16.0.zip')

@@ -1,6 +1,6 @@
 # miniupnpc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/miniupnpc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='miniupnpc'
 url=('https://miniupnp.tuxfamily.org/files/download.php?file=miniupnpc-2.1.tar.gz')

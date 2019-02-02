@@ -1,6 +1,6 @@
 # glslang.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glslang.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glslang'
 url=('https://github.com/KhronosGroup/glslang/archive/7.10.2984.tar.gz')

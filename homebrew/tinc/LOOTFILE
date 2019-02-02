@@ -1,6 +1,6 @@
 # tinc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tinc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tinc'
 url=('https://tinc-vpn.org/packages/tinc-1.0.35.tar.gz')

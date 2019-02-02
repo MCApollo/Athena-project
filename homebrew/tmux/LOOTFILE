@@ -1,6 +1,6 @@
 # tmux.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tmux.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tmux'
 url=('https://github.com/tmux/tmux/releases/download/2.8/tmux-2.8.tar.gz')

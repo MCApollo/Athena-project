@@ -1,6 +1,6 @@
 # ogmtools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ogmtools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ogmtools'
 url=('https://www.bunkus.org/videotools/ogmtools/ogmtools-1.5.tar.bz2')

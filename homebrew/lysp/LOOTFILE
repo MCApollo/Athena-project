@@ -1,6 +1,6 @@
 # lysp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lysp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lysp'
 url=('http://www.piumarta.com/software/lysp/lysp-1.1.tar.gz')

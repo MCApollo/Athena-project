@@ -1,6 +1,6 @@
 # translate-toolkit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/translate-toolkit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='translatetoolkit'
 url=('https://github.com/translate/translate/archive/2.3.1.tar.gz')

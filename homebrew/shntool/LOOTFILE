@@ -1,6 +1,6 @@
 # shntool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/shntool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='shntool'
 url=('https://web.archive.org/web/20180903160820/etree.org/shnutils/shntool/dist/src/shntool-3.0.10.tar.gz')

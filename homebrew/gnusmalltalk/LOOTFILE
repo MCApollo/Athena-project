@@ -1,6 +1,6 @@
 # gnu-smalltalk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-smalltalk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnusmalltalk'
 url=('https://ftp.gnu.org/gnu/smalltalk/smalltalk-3.2.5.tar.xz')

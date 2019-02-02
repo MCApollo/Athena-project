@@ -1,6 +1,6 @@
 # flann.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/flann.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='flann'
 url=('https://github.com/mariusmuja/flann/archive/1.9.1.tar.gz')

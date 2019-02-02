@@ -1,6 +1,6 @@
 # signify-osx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/signify-osx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='signifyosx'
 url=('https://github.com/jpouellet/signify-osx/archive/1.4.tar.gz')

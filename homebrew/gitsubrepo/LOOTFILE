@@ -1,6 +1,6 @@
 # git-subrepo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-subrepo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitsubrepo'
 url=('https://github.com/ingydotnet/git-subrepo/archive/0.4.0.tar.gz')

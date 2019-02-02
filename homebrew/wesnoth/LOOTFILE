@@ -1,6 +1,6 @@
 # wesnoth.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wesnoth.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wesnoth'
 url=('https://downloads.sourceforge.net/project/wesnoth/wesnoth-1.12/wesnoth-1.12.6/wesnoth-1.12.6.tar.bz2')

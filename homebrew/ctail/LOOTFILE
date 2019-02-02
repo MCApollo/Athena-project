@@ -1,6 +1,6 @@
 # ctail.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ctail.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ctail'
 url=('https://github.com/pquerna/ctail/archive/ctail-0.1.0.tar.gz')

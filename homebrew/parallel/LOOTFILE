@@ -1,6 +1,6 @@
 # parallel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/parallel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='parallel'
 url=('https://ftp.gnu.org/gnu/parallel/parallel-20190122.tar.bz2')

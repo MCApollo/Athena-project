@@ -1,6 +1,6 @@
 # dmenu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dmenu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dmenu'
 url=('https://dl.suckless.org/tools/dmenu-4.8.tar.gz')

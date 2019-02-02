@@ -1,6 +1,6 @@
 # gplcver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gplcver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gplcver'
 url=('https://downloads.sourceforge.net/project/gplcver/gplcver/2.12a/gplcver-2.12a.src.tar.bz2')

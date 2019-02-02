@@ -1,6 +1,6 @@
 # lzo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lzo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lzo'
 url=('https://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz')

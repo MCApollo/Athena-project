@@ -1,6 +1,6 @@
 # cpputest.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cpputest.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cpputest'
 url=('https://github.com/cpputest/cpputest/releases/download/v3.8/cpputest-3.8.tar.gz')

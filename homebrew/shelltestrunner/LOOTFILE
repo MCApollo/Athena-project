@@ -1,6 +1,6 @@
 # shelltestrunner.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/shelltestrunner.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='shelltestrunner'
 url=('https://hackage.haskell.org/package/shelltestrunner-1.9/shelltestrunner-1.9.tar.gz')

@@ -1,6 +1,6 @@
 # apgdiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/apgdiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='apgdiff'
 url=('https://www.apgdiff.com/download/apgdiff-2.4-bin.zip')

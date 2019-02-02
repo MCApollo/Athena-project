@@ -1,6 +1,6 @@
 # pygobject.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pygobject.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pygobject'
 url=('https://download.gnome.org/sources/pygobject/2.28/pygobject-2.28.7.tar.xz')

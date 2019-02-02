@@ -1,6 +1,6 @@
 # wsk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wsk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wsk'
 url=('https://github.com/apache/incubator-openwhisk-cli/archive/0.9.0-incubating.tar.gz')

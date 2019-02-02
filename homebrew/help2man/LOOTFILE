@@ -1,6 +1,6 @@
 # help2man.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/help2man.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='help2man'
 url=('https://ftp.gnu.org/gnu/help2man/help2man-1.47.8.tar.xz')

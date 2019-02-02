@@ -1,6 +1,6 @@
 # generate-json-schema.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/generate-json-schema.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='generatejsonschema'
 url=('https://registry.npmjs.org/generate-schema/-/generate-schema-2.6.0.tgz')

@@ -1,6 +1,6 @@
 # stdman.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stdman.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stdman'
 url=('https://github.com/jeaye/stdman/archive/2018.03.11.tar.gz')

@@ -1,6 +1,6 @@
 # advancemame.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/advancemame.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='advancemame'
 url=('https://github.com/amadvance/advancemame/releases/download/v3.9/advancemame-3.9.tar.gz')

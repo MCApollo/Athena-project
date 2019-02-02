@@ -1,6 +1,6 @@
 # whatmp3.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/whatmp3.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='whatmp3'
 url=('https://github.com/RecursiveForest/whatmp3/archive/v3.8.tar.gz')

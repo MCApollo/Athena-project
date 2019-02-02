@@ -1,6 +1,6 @@
 # gitg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gitg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitg'
 url=('https://download.gnome.org/sources/gitg/3.30/gitg-3.30.0.tar.xz')

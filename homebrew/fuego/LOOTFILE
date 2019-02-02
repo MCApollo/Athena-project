@@ -1,6 +1,6 @@
 # fuego.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fuego.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fuego'
 url=('http://svn.code.sf.net/p/fuego/code/trunk')

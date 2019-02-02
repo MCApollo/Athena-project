@@ -1,6 +1,6 @@
 # zboy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zboy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zboy'
 url=('https://downloads.sourceforge.net/project/zboy/zBoy%20v0.60/zboy-0.60.tar.gz')

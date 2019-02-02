@@ -1,6 +1,6 @@
 # libmatio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmatio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmatio'
 url=('https://downloads.sourceforge.net/project/matio/matio/1.5.12/matio-1.5.12.tar.gz')

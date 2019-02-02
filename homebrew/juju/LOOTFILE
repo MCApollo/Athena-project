@@ -1,6 +1,6 @@
 # juju.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/juju.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='juju'
 url=('https://launchpad.net/juju/2.5/2.5.0/+download/juju-core_2.5.0.tar.gz')

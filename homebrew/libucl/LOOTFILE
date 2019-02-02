@@ -1,6 +1,6 @@
 # libucl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libucl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libucl'
 url=('https://github.com/vstakhov/libucl/archive/0.8.1.tar.gz')

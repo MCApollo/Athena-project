@@ -1,6 +1,6 @@
 # timidity.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/timidity.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='timidity'
 url=('https://downloads.sourceforge.net/project/timidity/TiMidity++/TiMidity++-2.14.0/TiMidity++-2.14.0.tar.bz2')

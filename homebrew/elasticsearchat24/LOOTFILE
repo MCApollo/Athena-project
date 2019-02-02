@@ -1,6 +1,6 @@
 # elasticsearch@2.4.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/elasticsearch@2.4.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='elasticsearchat24'
 url=('https://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.6/elasticsearch-2.4.6.tar.gz')

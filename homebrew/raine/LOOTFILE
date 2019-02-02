@@ -1,6 +1,6 @@
 # raine.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/raine.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='raine'
 url=('https://github.com/zelurker/raine/archive/0.64.15.tar.gz')

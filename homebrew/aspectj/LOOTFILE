@@ -1,6 +1,6 @@
 # aspectj.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aspectj.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aspectj'
 url=('https://www.eclipse.org/downloads/download.php?r=1&file=/tools/aspectj/aspectj-1.9.2.jar')

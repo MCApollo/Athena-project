@@ -1,6 +1,6 @@
 # geckodriver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/geckodriver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='geckodriver'
 url=('https://github.com/mozilla/geckodriver/archive/v0.23.0.tar.gz')

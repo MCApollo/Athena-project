@@ -1,6 +1,6 @@
 # kestrel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kestrel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kestrel'
 url=('https://twitter-archive.github.io/kestrel/download/kestrel-2.4.1.zip')

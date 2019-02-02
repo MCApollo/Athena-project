@@ -1,6 +1,6 @@
 # rclone.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rclone.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rclone'
 url=('https://github.com/ncw/rclone/archive/v1.45.tar.gz')

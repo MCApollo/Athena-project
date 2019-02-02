@@ -1,6 +1,6 @@
 # mediaconch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mediaconch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mediaconch'
 url=('https://mediaarea.net/download/binary/mediaconch/18.03.2/MediaConch_CLI_18.03.2_GNU_FromSource.tar.bz2')

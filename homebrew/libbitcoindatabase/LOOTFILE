@@ -1,6 +1,6 @@
 # libbitcoin-database.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbitcoin-database.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbitcoindatabase'
 url=('https://github.com/libbitcoin/libbitcoin-database/archive/v3.5.0.tar.gz')

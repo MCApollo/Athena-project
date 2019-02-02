@@ -1,6 +1,6 @@
 # clblast.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clblast.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clblast'
 url=('https://github.com/CNugteren/CLBlast/archive/1.5.0.tar.gz')

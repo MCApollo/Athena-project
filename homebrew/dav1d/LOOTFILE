@@ -1,6 +1,6 @@
 # dav1d.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dav1d.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dav1d'
 url=('https://code.videolan.org/videolan/dav1d/-/archive/0.1.0/dav1d-0.1.0.tar.bz2')

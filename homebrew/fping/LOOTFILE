@@ -1,6 +1,6 @@
 # fping.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fping.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fping'
 url=('https://fping.org/dist/fping-4.1.tar.gz')

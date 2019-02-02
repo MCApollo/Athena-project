@@ -1,6 +1,6 @@
 # cdogs-sdl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cdogs-sdl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cdogssdl'
 url=('https://github.com/cxong/cdogs-sdl/archive/0.6.2.tar.gz')

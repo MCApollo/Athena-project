@@ -1,6 +1,6 @@
 # coreutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/coreutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='coreutils'
 url=('https://ftp.gnu.org/gnu/coreutils/coreutils-8.30.tar.xz')

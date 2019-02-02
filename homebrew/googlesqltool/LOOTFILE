@@ -1,6 +1,6 @@
 # google-sql-tool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/google-sql-tool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='googlesqltool'
 url=('https://dl.google.com/cloudsql/tools/google_sql_tool.zip')

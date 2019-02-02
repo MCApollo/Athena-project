@@ -1,6 +1,6 @@
 # afio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/afio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='afio'
 url=('http://members.chello.nl/~k.holtman/afio-2.5.1.tgz')

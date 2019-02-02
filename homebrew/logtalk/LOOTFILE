@@ -1,6 +1,6 @@
 # logtalk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/logtalk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='logtalk'
 url=('https://github.com/LogtalkDotOrg/logtalk3/archive/lgt3230stable.tar.gz')

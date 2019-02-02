@@ -1,6 +1,6 @@
 # libmpeg2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmpeg2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmpeg2'
 url=('https://libmpeg2.sourceforge.io/files/libmpeg2-0.5.1.tar.gz')

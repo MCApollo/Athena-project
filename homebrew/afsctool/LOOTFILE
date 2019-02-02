@@ -1,6 +1,6 @@
 # afsctool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/afsctool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='afsctool'
 url=('https://dl.bintray.com/homebrew/mirror/afsctool-1.6.4.zip')

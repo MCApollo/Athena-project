@@ -1,6 +1,6 @@
 # mariadb@10.2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mariadb@10.2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mariadbat102'
 url=('https://downloads.mariadb.org/f/mariadb-10.2.21/source/mariadb-10.2.21.tar.gz')

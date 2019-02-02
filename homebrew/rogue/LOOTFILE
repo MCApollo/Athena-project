@@ -1,6 +1,6 @@
 # rogue.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rogue.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rogue'
 url=('https://src.fedoraproject.org/repo/pkgs/rogue/rogue5.4.4-src.tar.gz/033288f46444b06814c81ea69d96e075/rogue5.4.4-src.tar.gz')

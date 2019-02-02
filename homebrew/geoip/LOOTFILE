@@ -1,6 +1,6 @@
 # geoip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/geoip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='geoip'
 url=('https://github.com/maxmind/geoip-api-c/releases/download/v1.6.12/GeoIP-1.6.12.tar.gz')

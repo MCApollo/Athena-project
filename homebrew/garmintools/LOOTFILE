@@ -1,6 +1,6 @@
 # garmintools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/garmintools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='garmintools'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/garmintools/garmintools-0.10.tar.gz')

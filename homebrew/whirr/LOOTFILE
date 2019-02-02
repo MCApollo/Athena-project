@@ -1,6 +1,6 @@
 # whirr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/whirr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='whirr'
 url=('https://archive.apache.org/dist/whirr/whirr-0.8.2/whirr-0.8.2.tar.gz')

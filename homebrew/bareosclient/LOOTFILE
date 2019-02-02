@@ -1,6 +1,6 @@
 # bareos-client.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bareos-client.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bareosclient'
 url=('https://github.com/bareos/bareos/archive/Release/17.2.7.tar.gz')

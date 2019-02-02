@@ -1,6 +1,6 @@
 # hexcurse.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hexcurse.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hexcurse'
 url=('https://github.com/LonnyGomes/hexcurse/archive/v1.60.0.tar.gz')

@@ -1,6 +1,6 @@
 # opentracing-cpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/opentracing-cpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opentracingcpp'
 url=('https://github.com/opentracing/opentracing-cpp/archive/v1.5.0.tar.gz')

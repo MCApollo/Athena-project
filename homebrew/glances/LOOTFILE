@@ -1,6 +1,6 @@
 # glances.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glances.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glances'
 url=('https://github.com/nicolargo/glances/archive/v3.0.2.tar.gz')

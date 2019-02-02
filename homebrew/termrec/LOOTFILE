@@ -1,6 +1,6 @@
 # termrec.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/termrec.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='termrec'
 url=('https://github.com/kilobyte/termrec/archive/v0.18.tar.gz')

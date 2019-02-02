@@ -1,6 +1,6 @@
 # bltool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bltool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bltool'
 url=('https://github.com/ToxicFrog/bltool/releases/download/v0.2.4/bltool-0.2.4.zip')

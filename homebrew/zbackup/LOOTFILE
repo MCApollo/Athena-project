@@ -1,6 +1,6 @@
 # zbackup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zbackup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zbackup'
 url=('https://github.com/zbackup/zbackup/archive/1.4.4.tar.gz')

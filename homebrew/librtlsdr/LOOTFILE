@@ -1,6 +1,6 @@
 # librtlsdr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/librtlsdr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='librtlsdr'
 url=('https://github.com/steve-m/librtlsdr/archive/0.6.0.tar.gz')

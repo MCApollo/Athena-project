@@ -1,6 +1,6 @@
 # terragrunt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/terragrunt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='terragrunt'
 url=('https://github.com/gruntwork-io/terragrunt/archive/v0.17.4.tar.gz')

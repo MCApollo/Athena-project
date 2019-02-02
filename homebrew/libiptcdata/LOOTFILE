@@ -1,6 +1,6 @@
 # libiptcdata.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libiptcdata.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libiptcdata'
 url=('https://downloads.sourceforge.net/project/libiptcdata/libiptcdata/1.0.4/libiptcdata-1.0.4.tar.gz')

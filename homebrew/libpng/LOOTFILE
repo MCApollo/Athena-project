@@ -1,6 +1,6 @@
 # libpng.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libpng.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libpng'
 url=('https://downloads.sourceforge.net/libpng/libpng-1.6.36.tar.xz')

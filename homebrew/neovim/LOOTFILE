@@ -1,6 +1,6 @@
 # neovim.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/neovim.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='neovim'
 url=('https://github.com/neovim/neovim/archive/v0.3.4.tar.gz')

@@ -1,6 +1,6 @@
 # icdiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/icdiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='icdiff'
 url=('https://github.com/jeffkaufman/icdiff/archive/release-1.9.4.tar.gz')

@@ -1,6 +1,6 @@
 # fmdiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fmdiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fmdiff'
 url=('https://github.com/brunodefraine/fmscripts/archive/20150915.tar.gz')

@@ -1,6 +1,6 @@
 # botan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/botan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='botan'
 url=('https://botan.randombit.net/releases/Botan-2.9.0.tgz')

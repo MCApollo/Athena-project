@@ -1,6 +1,6 @@
 # ndpi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ndpi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ndpi'
 url=('https://github.com/ntop/nDPI/archive/2.2.tar.gz')

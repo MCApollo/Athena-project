@@ -1,6 +1,6 @@
 # csvkit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/csvkit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='csvkit'
 url=('https://files.pythonhosted.org/packages/01/69/476d4e74d84bcc5196f6b6a87b419363e163bc8c31d0660166f9e447bd97/csvkit-1.0.3.tar.gz')

@@ -1,6 +1,6 @@
 # pgbouncer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pgbouncer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pgbouncer'
 url=('https://pgbouncer.github.io/downloads/files/1.9.0/pgbouncer-1.9.0.tar.gz')

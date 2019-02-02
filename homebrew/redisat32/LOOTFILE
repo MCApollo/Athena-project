@@ -1,6 +1,6 @@
 # redis@3.2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/redis@3.2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='redisat32'
 url=('http://download.redis.io/releases/redis-3.2.12.tar.gz')

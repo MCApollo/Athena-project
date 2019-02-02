@@ -1,6 +1,6 @@
 # terminal-notifier.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/terminal-notifier.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='terminalnotifier'
 url=('https://github.com/julienXX/terminal-notifier/archive/2.0.0.tar.gz')

@@ -1,6 +1,6 @@
 # owamp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/owamp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='owamp'
 url=('https://software.internet2.edu/sources/owamp/owamp-3.4-10.tar.gz')

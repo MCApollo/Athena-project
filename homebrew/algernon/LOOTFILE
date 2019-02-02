@@ -1,6 +1,6 @@
 # algernon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/algernon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='algernon'
 url=('https://github.com/xyproto/algernon.git')

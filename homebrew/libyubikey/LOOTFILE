@@ -1,6 +1,6 @@
 # libyubikey.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libyubikey.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libyubikey'
 url=('https://developers.yubico.com/yubico-c/Releases/libyubikey-1.13.tar.gz')

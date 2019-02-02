@@ -1,6 +1,6 @@
 # apache-flink.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/apache-flink.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='apacheflink'
 url=('https://www.apache.org/dyn/closer.lua?path=flink/flink-1.7.1/flink-1.7.1-bin-hadoop27-scala_2.11.tgz')

@@ -1,6 +1,6 @@
 # scala@2.10.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scala@2.10.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scalaat210'
 url=('https://downloads.lightbend.com/scala/2.10.7/scala-2.10.7.tgz')

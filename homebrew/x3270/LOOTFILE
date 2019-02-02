@@ -1,6 +1,6 @@
 # x3270.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/x3270.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='x3270'
 url=('https://downloads.sourceforge.net/project/x3270/x3270/3.6ga5/suite3270-3.6ga5-src.tgz')

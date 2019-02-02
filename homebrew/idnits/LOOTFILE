@@ -1,6 +1,6 @@
 # idnits.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/idnits.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='idnits'
 url=('https://tools.ietf.org/tools/idnits/idnits-2.15.01.tgz')

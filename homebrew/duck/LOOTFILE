@@ -1,6 +1,6 @@
 # duck.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/duck.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='duck'
 url=('https://dist.duck.sh/duck-src-6.8.0.28825.tar.gz')

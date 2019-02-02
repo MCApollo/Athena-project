@@ -1,6 +1,6 @@
 # raylib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/raylib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='raylib'
 url=('https://github.com/raysan5/raylib/archive/2.0.0.tar.gz')

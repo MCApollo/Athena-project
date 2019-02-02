@@ -1,6 +1,6 @@
 # gflags.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gflags.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gflags'
 url=('https://github.com/gflags/gflags/archive/v2.2.2.tar.gz')

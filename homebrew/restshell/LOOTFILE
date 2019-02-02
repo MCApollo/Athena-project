@@ -1,6 +1,6 @@
 # rest-shell.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rest-shell.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='restshell'
 url=('http://download.gopivotal.com/rest-shell/1.2.1/rest-shell-1.2.1.RELEASE.tar.gz')

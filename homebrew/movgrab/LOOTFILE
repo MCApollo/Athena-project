@@ -1,6 +1,6 @@
 # movgrab.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/movgrab.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='movgrab'
 url=('https://sites.google.com/site/columscode/files/movgrab-1.2.1.tar.gz')

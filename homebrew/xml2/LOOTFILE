@@ -1,6 +1,6 @@
 # xml2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xml2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xml2'
 url=('https://web.archive.org/web/20160427221603/download.ofb.net/gale/xml2-0.5.tar.gz')

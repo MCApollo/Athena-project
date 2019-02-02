@@ -1,6 +1,6 @@
 # tig.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tig.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tig'
 url=('https://github.com/jonas/tig/releases/download/tig-2.4.1/tig-2.4.1.tar.gz')

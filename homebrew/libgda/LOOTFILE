@@ -1,6 +1,6 @@
 # libgda.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgda.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgda'
 url=('https://download.gnome.org/sources/libgda/5.2/libgda-5.2.8.tar.xz')

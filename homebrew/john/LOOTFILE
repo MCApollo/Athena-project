@@ -1,6 +1,6 @@
 # john.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/john.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='john'
 url=('https://www.openwall.com/john/j/john-1.8.0.tar.xz')

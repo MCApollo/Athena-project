@@ -1,6 +1,6 @@
 # zxing-cpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zxing-cpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zxingcpp'
 url=('https://github.com/zxing/zxing/releases/download/zxing-2.3.0/ZXing-2.3.0.zip')

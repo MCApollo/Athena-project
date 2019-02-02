@@ -1,6 +1,6 @@
 # goaccess.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/goaccess.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='goaccess'
 url=('https://tar.goaccess.io/goaccess-1.2.tar.gz')

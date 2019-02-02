@@ -1,6 +1,6 @@
 # ec2-ami-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ec2-ami-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ec2amitools'
 url=('https://ec2-downloads.s3.amazonaws.com/ec2-ami-tools-1.5.7.zip')

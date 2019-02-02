@@ -1,6 +1,6 @@
 # lhasa.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lhasa.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lhasa'
 url=('https://github.com/fragglet/lhasa/archive/v0.3.1.tar.gz')

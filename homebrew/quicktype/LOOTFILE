@@ -1,6 +1,6 @@
 # quicktype.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/quicktype.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='quicktype'
 url=('https://registry.npmjs.org/quicktype/-/quicktype-15.0.170.tgz')

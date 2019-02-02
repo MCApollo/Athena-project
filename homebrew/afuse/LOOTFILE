@@ -1,6 +1,6 @@
 # afuse.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/afuse.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='afuse'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/afuse/afuse-0.4.1.tar.gz')

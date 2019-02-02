@@ -1,6 +1,6 @@
 # flactag.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/flactag.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='flactag'
 url=('https://downloads.sourceforge.net/project/flactag/v2.0.4/flactag-2.0.4.tar.gz')

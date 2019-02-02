@@ -1,6 +1,6 @@
 # rolldice.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rolldice.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rolldice'
 url=('https://github.com/sstrickl/rolldice/archive/v1.16.tar.gz')

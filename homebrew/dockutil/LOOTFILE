@@ -1,6 +1,6 @@
 # dockutil.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dockutil.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockutil'
 url=('https://github.com/kcrawford/dockutil/archive/2.0.5.tar.gz')

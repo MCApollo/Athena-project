@@ -1,6 +1,6 @@
 # ark.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ark.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ark'
 url=('https://github.com/heptio/ark/archive/v0.10.1.tar.gz')

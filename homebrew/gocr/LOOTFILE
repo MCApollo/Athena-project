@@ -1,6 +1,6 @@
 # gocr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gocr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gocr'
 url=('https://wasd.urz.uni-magdeburg.de/jschulen/ocr/gocr-0.51.tar.gz')

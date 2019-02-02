@@ -1,6 +1,6 @@
 # collector-sidecar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/collector-sidecar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='collectorsidecar'
 url=('https://github.com/Graylog2/collector-sidecar/archive/0.1.7.tar.gz')

@@ -1,6 +1,6 @@
 # swift-protobuf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/swift-protobuf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='swiftprotobuf'
 url=('https://github.com/apple/swift-protobuf/archive/1.2.0.tar.gz')

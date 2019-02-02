@@ -1,6 +1,6 @@
 # ddate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ddate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ddate'
 url=('https://github.com/bo0ts/ddate/archive/v0.2.2.tar.gz')

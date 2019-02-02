@@ -1,6 +1,6 @@
 # yaml-cpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yaml-cpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yamlcpp'
 url=('https://github.com/jbeder/yaml-cpp/archive/yaml-cpp-0.6.2.tar.gz')

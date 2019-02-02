@@ -1,6 +1,6 @@
 # imgur-screenshot.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/imgur-screenshot.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='imgurscreenshot'
 url=('https://github.com/jomo/imgur-screenshot/archive/v1.7.4.tar.gz')

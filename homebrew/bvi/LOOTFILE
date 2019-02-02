@@ -1,6 +1,6 @@
 # bvi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bvi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bvi'
 url=('https://downloads.sourceforge.net/bvi/bvi-1.4.0.src.tar.gz')

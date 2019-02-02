@@ -1,6 +1,6 @@
 # guetzli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/guetzli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='guetzli'
 url=('https://github.com/google/guetzli/archive/v1.0.1.tar.gz')

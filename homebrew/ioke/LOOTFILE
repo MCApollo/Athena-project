@@ -1,6 +1,6 @@
 # ioke.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ioke.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ioke'
 url=('https://ioke.org/dist/ioke-P-ikj-0.4.0.tar.gz')

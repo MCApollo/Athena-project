@@ -1,6 +1,6 @@
 # bulk_extractor.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bulk_extractor.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bulkextractor'
 url=('https://digitalcorpora.org/downloads/bulk_extractor/bulk_extractor-1.5.5.tar.gz')

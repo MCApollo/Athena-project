@@ -1,6 +1,6 @@
 # libcdr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libcdr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libcdr'
 url=('https://dev-www.libreoffice.org/src/libcdr/libcdr-0.1.4.tar.xz')

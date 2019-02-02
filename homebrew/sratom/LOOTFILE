@@ -1,6 +1,6 @@
 # sratom.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sratom.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sratom'
 url=('https://download.drobilla.net/sratom-0.6.0.tar.bz2')

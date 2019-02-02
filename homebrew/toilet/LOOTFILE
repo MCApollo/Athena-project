@@ -1,6 +1,6 @@
 # toilet.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/toilet.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='toilet'
 url=('http://caca.zoy.org/raw-attachment/wiki/toilet/toilet-0.3.tar.gz')

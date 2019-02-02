@@ -1,6 +1,6 @@
 # php-code-sniffer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/php-code-sniffer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='phpcodesniffer'
 url=('https://github.com/squizlabs/PHP_CodeSniffer/releases/download/3.4.0/phpcs.phar')

@@ -1,6 +1,6 @@
 # gerbil-scheme.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gerbil-scheme.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gerbilscheme'
 url=('https://github.com/vyzo/gerbil/archive/v0.14.tar.gz')

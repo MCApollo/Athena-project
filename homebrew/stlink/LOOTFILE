@@ -1,6 +1,6 @@
 # stlink.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stlink.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stlink'
 url=('https://github.com/texane/stlink/archive/v1.5.1.tar.gz')

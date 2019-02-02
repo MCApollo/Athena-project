@@ -1,6 +1,6 @@
 # libdrawtext.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdrawtext.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libdrawtext'
 url=('https://github.com/jtsiomb/libdrawtext/archive/release_0.4.tar.gz')

@@ -1,6 +1,6 @@
 # liblwgeom.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/liblwgeom.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='liblwgeom'
 url=('https://download.osgeo.org/postgis/source/postgis-2.4.4.tar.gz')

@@ -1,6 +1,6 @@
 # irssi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/irssi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='irssi'
 url=('https://github.com/irssi/irssi/releases/download/1.1.1/irssi-1.1.1.tar.xz')

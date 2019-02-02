@@ -1,6 +1,6 @@
 # xmrig.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmrig.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xmrig'
 url=('https://github.com/xmrig/xmrig/archive/v2.8.3.tar.gz')

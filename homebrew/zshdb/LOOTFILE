@@ -1,6 +1,6 @@
 # zshdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zshdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zshdb'
 url=('https://downloads.sourceforge.net/project/bashdb/zshdb/0.92/zshdb-0.92.tar.bz2')

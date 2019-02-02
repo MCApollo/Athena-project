@@ -1,6 +1,6 @@
 # lxsplit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lxsplit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lxsplit'
 url=('https://downloads.sourceforge.net/lxsplit/lxsplit-0.2.4.tar.gz')

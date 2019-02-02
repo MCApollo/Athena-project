@@ -1,6 +1,6 @@
 # telegram-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/telegram-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='telegramcli'
 url=('https://github.com/vysheng/tg.git')

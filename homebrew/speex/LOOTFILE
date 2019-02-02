@@ -1,6 +1,6 @@
 # speex.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/speex.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='speex'
 url=('https://downloads.xiph.org/releases/speex/speex-1.2.0.tar.gz')

@@ -1,6 +1,6 @@
 # ncftp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ncftp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ncftp'
 url=('ftp://ftp.ncftp.com/ncftp/ncftp-3.2.6-src.tar.gz')

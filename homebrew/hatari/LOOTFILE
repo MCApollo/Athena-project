@@ -1,6 +1,6 @@
 # hatari.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hatari.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hatari'
 url=('https://download.tuxfamily.org/hatari/2.1.0/hatari-2.1.0.tar.bz2')

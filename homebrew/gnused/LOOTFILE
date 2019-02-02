@@ -1,6 +1,6 @@
 # gnu-sed.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-sed.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnused'
 url=('https://ftp.gnu.org/gnu/sed/sed-4.7.tar.xz')

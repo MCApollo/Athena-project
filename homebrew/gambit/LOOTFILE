@@ -1,6 +1,6 @@
 # gambit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gambit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gambit'
 url=('https://github.com/gambitproject/gambit/archive/v15.1.1.tar.gz')

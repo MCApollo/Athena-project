@@ -1,6 +1,6 @@
 # carrot2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/carrot2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='carrot2'
 url=('https://github.com/carrot2/carrot2/releases/download/release%2F3.16.0/carrot2-dcs-3.16.0.zip')

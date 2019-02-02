@@ -1,6 +1,6 @@
 # geomview.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/geomview.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='geomview'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/g/geomview/geomview_1.9.5.orig.tar.gz')

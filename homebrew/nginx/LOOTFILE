@@ -1,6 +1,6 @@
 # nginx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nginx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nginx'
 url=('https://nginx.org/download/nginx-1.15.8.tar.gz')

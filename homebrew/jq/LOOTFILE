@@ -1,6 +1,6 @@
 # jq.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jq.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jq'
 url=('https://github.com/stedolan/jq/releases/download/jq-1.6/jq-1.6.tar.gz')

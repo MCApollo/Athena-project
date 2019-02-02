@@ -1,6 +1,6 @@
 # dita-ot.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dita-ot.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ditaot'
 url=('https://github.com/dita-ot/dita-ot/releases/download/3.2.1/dita-ot-3.2.1.zip')

@@ -1,6 +1,6 @@
 # bwctl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bwctl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bwctl'
 url=('https://software.internet2.edu/sources/bwctl/bwctl-1.5.4.tar.gz')

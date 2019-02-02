@@ -1,6 +1,6 @@
 # kytea.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kytea.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kytea'
 url=('http://www.phontron.com/kytea/download/kytea-0.4.7.tar.gz')

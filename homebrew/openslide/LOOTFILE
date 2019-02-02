@@ -1,6 +1,6 @@
 # openslide.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openslide.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openslide'
 url=('https://github.com/openslide/openslide/releases/download/v3.4.1/openslide-3.4.1.tar.xz')

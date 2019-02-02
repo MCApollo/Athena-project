@@ -1,6 +1,6 @@
 # sipp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sipp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sipp'
 url=('https://github.com/SIPp/sipp/releases/download/v3.5.2/sipp-3.5.2.tar.gz')

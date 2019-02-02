@@ -1,6 +1,6 @@
 # sub2srt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sub2srt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sub2srt'
 url=('https://github.com/robelix/sub2srt/archive/0.5.5.tar.gz')

@@ -1,6 +1,6 @@
 # mstch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mstch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mstch'
 url=('https://github.com/no1msd/mstch/archive/1.0.2.tar.gz')

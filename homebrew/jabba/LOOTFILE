@@ -1,6 +1,6 @@
 # jabba.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jabba.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jabba'
 url=('https://github.com/shyiko/jabba/archive/0.11.2.tar.gz')

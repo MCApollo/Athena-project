@@ -1,6 +1,6 @@
 # autogen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/autogen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='autogen'
 url=('https://ftp.gnu.org/gnu/autogen/rel5.18.12/autogen-5.18.12.tar.xz')

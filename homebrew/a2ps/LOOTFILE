@@ -1,6 +1,6 @@
 # a2ps.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/a2ps.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='a2ps'
 url=('https://ftp.gnu.org/gnu/a2ps/a2ps-4.14.tar.gz')

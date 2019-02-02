@@ -1,6 +1,6 @@
 # tivodecode.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tivodecode.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tivodecode'
 url=('https://downloads.sourceforge.net/project/tivodecode/tivodecode/0.2pre4/tivodecode-0.2pre4.tar.gz')

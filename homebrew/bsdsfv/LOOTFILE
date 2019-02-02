@@ -1,6 +1,6 @@
 # bsdsfv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bsdsfv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bsdsfv'
 url=('https://downloads.sourceforge.net/project/bsdsfv/bsdsfv/1.18/bsdsfv-1.18.tar.gz')

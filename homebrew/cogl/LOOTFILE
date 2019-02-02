@@ -1,6 +1,6 @@
 # cogl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cogl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cogl'
 url=('https://download.gnome.org/sources/cogl/1.22/cogl-1.22.2.tar.xz')

@@ -1,6 +1,6 @@
 # bench.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bench.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bench'
 url=('https://hackage.haskell.org/package/bench-1.0.12/bench-1.0.12.tar.gz')

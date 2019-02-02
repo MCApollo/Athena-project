@@ -1,6 +1,6 @@
 # docker-cloud.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-cloud.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockercloud'
 url=('https://files.pythonhosted.org/packages/78/75/511a967ccabff691b57f97bde04cff29af2f493c6ec91a5f57c42badc3b0/docker-cloud-1.0.9.tar.gz')

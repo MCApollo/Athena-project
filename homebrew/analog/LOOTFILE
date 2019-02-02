@@ -1,6 +1,6 @@
 # analog.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/analog.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='analog'
 url=('https://deb.debian.org/debian/pool/main/a/analog/analog_6.0.orig.tar.gz')

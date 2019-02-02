@@ -1,6 +1,6 @@
 # pgformatter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pgformatter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pgformatter'
 url=('https://github.com/darold/pgFormatter/archive/v3.3.tar.gz')

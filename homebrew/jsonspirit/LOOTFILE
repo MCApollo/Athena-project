@@ -1,6 +1,6 @@
 # json_spirit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/json_spirit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jsonspirit'
 url=('https://github.com/png85/json_spirit/archive/json_spirit-4.07.tar.gz')

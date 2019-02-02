@@ -1,6 +1,6 @@
 # dfu-util.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dfu-util.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dfuutil'
 url=('https://downloads.sourceforge.net/project/dfu-util/dfu-util-0.9.tar.gz')

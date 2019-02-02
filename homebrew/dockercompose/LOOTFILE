@@ -1,6 +1,6 @@
 # docker-compose.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-compose.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockercompose'
 url=('https://github.com/docker/compose/archive/1.23.2.tar.gz')

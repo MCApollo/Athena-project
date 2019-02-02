@@ -1,6 +1,6 @@
 # hyperkit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hyperkit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hyperkit'
 url=('https://github.com/moby/hyperkit/archive/v0.20180403.tar.gz')

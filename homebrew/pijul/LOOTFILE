@@ -1,6 +1,6 @@
 # pijul.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pijul.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pijul'
 url=('https://pijul.org/releases/pijul-0.11.0.tar.gz')

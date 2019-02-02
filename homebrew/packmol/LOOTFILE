@@ -1,6 +1,6 @@
 # packmol.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/packmol.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='packmol'
 url=('https://github.com/leandromartinez98/packmol/archive/18.169.tar.gz')

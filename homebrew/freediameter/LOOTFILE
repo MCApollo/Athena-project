@@ -1,6 +1,6 @@
 # freediameter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/freediameter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='freediameter'
 url=('http://www.freediameter.net/hg/freeDiameter/archive/1.2.1.tar.gz')

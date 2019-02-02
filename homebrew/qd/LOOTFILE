@@ -1,6 +1,6 @@
 # qd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qd'
 url=('https://crd.lbl.gov/~dhbailey/mpdist/qd-2.3.21.tar.gz')

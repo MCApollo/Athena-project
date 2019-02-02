@@ -1,6 +1,6 @@
 # libgtop.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgtop.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgtop'
 url=('https://download.gnome.org/sources/libgtop/2.38/libgtop-2.38.0.tar.xz')

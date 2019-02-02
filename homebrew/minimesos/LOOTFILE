@@ -1,6 +1,6 @@
 # minimesos.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minimesos.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minimesos'
 url=('https://github.com/ContainerSolutions/minimesos/archive/0.13.0.tar.gz')

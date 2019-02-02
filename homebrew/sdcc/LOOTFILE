@@ -1,6 +1,6 @@
 # sdcc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdcc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sdcc'
 url=('https://downloads.sourceforge.net/project/sdcc/sdcc/3.8.0/sdcc-src-3.8.0.tar.bz2')

@@ -1,6 +1,6 @@
 # cryfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cryfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cryfs'
 url=('https://github.com/cryfs/cryfs/releases/download/0.9.10/cryfs-0.9.10.tar.xz')

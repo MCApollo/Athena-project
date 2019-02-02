@@ -1,6 +1,6 @@
 # libusb-compat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libusb-compat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libusbcompat'
 url=('https://downloads.sourceforge.net/project/libusb/libusb-compat-0.1/libusb-compat-0.1.5/libusb-compat-0.1.5.tar.bz2')

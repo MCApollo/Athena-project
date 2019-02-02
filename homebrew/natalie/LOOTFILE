@@ -1,6 +1,6 @@
 # natalie.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/natalie.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='natalie'
 url=('https://github.com/krzyzanowskim/Natalie/archive/0.7.0.tar.gz')

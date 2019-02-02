@@ -1,6 +1,6 @@
 # pygtkglext.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pygtkglext.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pygtkglext'
 url=('https://download.gnome.org/sources/pygtkglext/1.1/pygtkglext-1.1.0.tar.gz')

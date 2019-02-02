@@ -1,6 +1,6 @@
 # legit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/legit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='legit'
 url=('https://files.pythonhosted.org/packages/44/72/a086485566cf7b5ff7b6858b7dc144c76323e021d88f455ceacd5a6c02fd/legit-1.0.1.tar.gz')

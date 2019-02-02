@@ -1,6 +1,6 @@
 # jcal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jcal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jcal'
 url=('https://download.savannah.gnu.org/releases/jcal/jcal-0.4.1.tar.gz')

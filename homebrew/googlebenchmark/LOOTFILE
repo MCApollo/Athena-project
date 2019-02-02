@@ -1,6 +1,6 @@
 # google-benchmark.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/google-benchmark.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='googlebenchmark'
 url=('https://github.com/google/benchmark/archive/v1.4.1.tar.gz')

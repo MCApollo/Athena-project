@@ -1,6 +1,6 @@
 # spatialite-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spatialite-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spatialitetools'
 url=('https://www.gaia-gis.it/gaia-sins/spatialite-tools-sources/spatialite-tools-4.3.0.tar.gz')

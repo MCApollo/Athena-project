@@ -1,6 +1,6 @@
 # shibboleth-sp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/shibboleth-sp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='shibbolethsp'
 url=('https://shibboleth.net/downloads/service-provider/3.0.2/shibboleth-sp-3.0.2.tar.bz2')

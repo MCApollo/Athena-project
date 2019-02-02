@@ -1,6 +1,6 @@
 # rpg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rpg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rpg'
 url=('https://github.com/downloads/rtomayko/rpg/rpg-0.3.0.tar.gz')

@@ -1,6 +1,6 @@
 # libebur128.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libebur128.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libebur128'
 url=('https://github.com/jiixyj/libebur128/archive/v1.2.4.tar.gz')

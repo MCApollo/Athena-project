@@ -1,6 +1,6 @@
 # emscripten.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/emscripten.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='emscripten'
 url=('https://github.com/emscripten-core/emscripten/archive/1.38.25.tar.gz')

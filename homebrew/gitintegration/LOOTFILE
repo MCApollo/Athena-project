@@ -1,6 +1,6 @@
 # git-integration.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-integration.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitintegration'
 url=('https://github.com/johnkeeping/git-integration/archive/v0.4.tar.gz')

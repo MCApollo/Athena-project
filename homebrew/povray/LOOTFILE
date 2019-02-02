@@ -1,6 +1,6 @@
 # povray.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/povray.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='povray'
 url=('https://github.com/POV-Ray/povray/archive/v3.7.0.8.tar.gz')

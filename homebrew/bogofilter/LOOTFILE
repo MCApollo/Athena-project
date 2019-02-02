@@ -1,6 +1,6 @@
 # bogofilter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bogofilter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bogofilter'
 url=('https://downloads.sourceforge.net/project/bogofilter/bogofilter-1.2.4/bogofilter-1.2.4.tar.bz2')

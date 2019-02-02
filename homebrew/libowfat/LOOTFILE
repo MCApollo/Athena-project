@@ -1,6 +1,6 @@
 # libowfat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libowfat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libowfat'
 url=('https://www.fefe.de/libowfat/libowfat-0.31.tar.xz')

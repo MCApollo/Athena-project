@@ -1,6 +1,6 @@
 # pdnsrec.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdnsrec.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pdnsrec'
 url=('https://downloads.powerdns.com/releases/pdns-recursor-4.1.4.tar.bz2')

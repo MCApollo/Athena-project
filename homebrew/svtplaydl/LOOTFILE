@@ -1,6 +1,6 @@
 # svtplay-dl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/svtplay-dl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='svtplaydl'
 url=('https://files.pythonhosted.org/packages/1f/95/5ef43ad627206dbfbca43e377a855a37aa8d005f136ff43974ba6b30fd3e/svtplay-dl-2.1.tar.gz')

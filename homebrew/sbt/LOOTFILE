@@ -1,6 +1,6 @@
 # sbt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sbt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sbt'
 url=('https://github.com/sbt/sbt/releases/download/v1.2.8/sbt-1.2.8.tgz')

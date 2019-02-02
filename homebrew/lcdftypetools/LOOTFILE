@@ -1,6 +1,6 @@
 # lcdf-typetools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lcdf-typetools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lcdftypetools'
 url=('https://www.lcdf.org/type/lcdf-typetools-2.107.tar.gz')

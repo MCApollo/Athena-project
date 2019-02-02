@@ -1,6 +1,6 @@
 # algol68g.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/algol68g.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='algol68g'
 url=('https://jmvdveer.home.xs4all.nl/algol68g-2.8.4.tar.gz')

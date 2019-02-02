@@ -1,6 +1,6 @@
 # frege.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/frege.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='frege'
 url=('https://github.com/Frege/frege/releases/download/3.24public/frege3.24.405.jar')

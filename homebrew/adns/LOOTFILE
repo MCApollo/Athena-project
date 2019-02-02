@@ -1,6 +1,6 @@
 # adns.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/adns.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='adns'
 url=('https://www.chiark.greenend.org.uk/~ian/adns/ftp/adns-1.5.1.tar.gz')

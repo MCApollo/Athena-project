@@ -1,6 +1,6 @@
 # osslsigncode.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/osslsigncode.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='osslsigncode'
 url=('https://downloads.sourceforge.net/project/osslsigncode/osslsigncode/osslsigncode-1.7.1.tar.gz')

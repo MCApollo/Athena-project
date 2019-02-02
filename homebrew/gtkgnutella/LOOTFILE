@@ -1,6 +1,6 @@
 # gtk-gnutella.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtk-gnutella.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gtkgnutella'
 url=('https://downloads.sourceforge.net/project/gtk-gnutella/gtk-gnutella/1.1.13/gtk-gnutella-1.1.13.tar.xz')

@@ -1,6 +1,6 @@
 # dmg2img.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dmg2img.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dmg2img'
 url=('http://vu1tur.eu.org/tools/dmg2img-1.6.7.tar.gz')

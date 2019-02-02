@@ -1,6 +1,6 @@
 # cake.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cake.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cake'
 url=('https://github.com/cake-build/cake/releases/download/v0.32.1/Cake-bin-net461-v0.32.1.zip')

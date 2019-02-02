@@ -1,6 +1,6 @@
 # ldapvi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ldapvi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ldapvi'
 url=('http://www.lichteblau.com/download/ldapvi-1.7.tar.gz')

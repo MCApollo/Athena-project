@@ -1,6 +1,6 @@
 # irrlicht.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/irrlicht.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='irrlicht'
 url=('https://downloads.sourceforge.net/project/irrlicht/Irrlicht%20SDK/1.8/1.8.4/irrlicht-1.8.4.zip')

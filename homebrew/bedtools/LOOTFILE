@@ -1,6 +1,6 @@
 # bedtools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bedtools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bedtools'
 url=('https://github.com/arq5x/bedtools2/archive/v2.27.1.tar.gz')

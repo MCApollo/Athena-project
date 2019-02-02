@@ -1,6 +1,6 @@
 # jmxterm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jmxterm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jmxterm'
 url=('https://downloads.sourceforge.net/project/cyclops-group/jmxterm/1.0.0/jmxterm-1.0.0-uber.jar')

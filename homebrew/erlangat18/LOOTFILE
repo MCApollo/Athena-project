@@ -1,6 +1,6 @@
 # erlang@18.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/erlang@18.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='erlangat18'
 url=('https://github.com/erlang/otp/archive/OTP-18.3.4.11.tar.gz')

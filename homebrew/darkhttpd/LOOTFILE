@@ -1,6 +1,6 @@
 # darkhttpd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/darkhttpd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='darkhttpd'
 url=('https://unix4lyfe.org/darkhttpd/darkhttpd-1.12.tar.bz2')

@@ -1,6 +1,6 @@
 # nwchem.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nwchem.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nwchem'
 url=('https://github.com/nwchemgit/nwchem/releases/download/6.8.1-release/nwchem-6.8.1-release.revision-v6.8-133-ge032219-src.2018-06-14.tar.bz2')

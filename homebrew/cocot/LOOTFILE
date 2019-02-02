@@ -1,6 +1,6 @@
 # cocot.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cocot.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cocot'
 url=('https://github.com/vmi/cocot/archive/cocot-1.2-20171118.tar.gz')

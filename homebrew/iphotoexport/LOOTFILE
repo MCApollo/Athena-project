@@ -1,6 +1,6 @@
 # iphotoexport.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/iphotoexport.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='iphotoexport'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/iphotoexport/iphotoexport-1.6.4.zip')

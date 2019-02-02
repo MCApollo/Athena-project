@@ -1,6 +1,6 @@
 # fastme.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fastme.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fastme'
 url=('https://gite.lirmm.fr/atgc/FastME/raw/v2.1.6/tarball/fastme-2.1.6.tar.gz')

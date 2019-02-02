@@ -1,6 +1,6 @@
 # pip-completion.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pip-completion.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pipcompletion'
 url=('https://github.com/ekalinin/pip-bash-completion.git')

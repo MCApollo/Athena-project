@@ -1,6 +1,6 @@
 # etl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/etl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='etl'
 url=('https://downloads.sourceforge.net/project/synfig/releases/1.0.2/source/ETL-0.04.19.tar.gz')

@@ -1,6 +1,6 @@
 # nxengine.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nxengine.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nxengine'
 url=('https://nxengine.sourceforge.io/dl/nx-src-1006.tar.bz2')

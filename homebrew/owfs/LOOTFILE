@@ -1,6 +1,6 @@
 # owfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/owfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='owfs'
 url=('https://downloads.sourceforge.net/project/owfs/owfs/3.2p2/owfs-3.2p2.tar.gz')

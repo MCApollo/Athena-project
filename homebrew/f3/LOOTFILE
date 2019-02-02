@@ -1,6 +1,6 @@
 # f3.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/f3.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='f3'
 url=('https://github.com/AltraMayor/f3/archive/v7.1.tar.gz')

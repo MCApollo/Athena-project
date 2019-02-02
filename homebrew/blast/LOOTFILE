@@ -1,6 +1,6 @@
 # blast.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/blast.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='blast'
 url=('https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.8.1/ncbi-blast-2.8.1+-src.tar.gz')

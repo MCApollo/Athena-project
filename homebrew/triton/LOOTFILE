@@ -1,6 +1,6 @@
 # triton.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/triton.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='triton'
 url=('https://registry.npmjs.org/triton/-/triton-6.1.2.tgz')

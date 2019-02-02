@@ -1,6 +1,6 @@
 # blackbox.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/blackbox.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='blackbox'
 url=('https://github.com/StackExchange/blackbox/archive/v1.20181219.tar.gz')

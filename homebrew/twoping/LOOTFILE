@@ -1,6 +1,6 @@
 # twoping.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/twoping.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='twoping'
 url=('https://www.finnie.org/software/2ping/2ping-4.3.tar.gz')

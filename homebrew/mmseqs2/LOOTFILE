@@ -1,6 +1,6 @@
 # mmseqs2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mmseqs2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mmseqs2'
 url=('https://github.com/soedinglab/MMseqs2/archive/7-4e23d.tar.gz')

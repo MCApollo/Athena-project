@@ -1,6 +1,6 @@
 # pazpar2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pazpar2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pazpar2'
 url=('http://ftp.indexdata.dk/pub/pazpar2/pazpar2-1.13.1.tar.gz')

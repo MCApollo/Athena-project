@@ -1,6 +1,6 @@
 # nagios.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nagios.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nagios'
 url=('https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.4.2/nagios-4.4.2.tar.gz')

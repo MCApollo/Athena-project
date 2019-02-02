@@ -1,6 +1,6 @@
 # rswift.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rswift.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rswift'
 url=('https://github.com/mac-cain13/R.swift.git')

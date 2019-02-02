@@ -1,6 +1,6 @@
 # jose.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jose.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jose'
 url=('https://github.com/latchset/jose/releases/download/v10/jose-10.tar.bz2')

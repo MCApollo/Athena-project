@@ -1,6 +1,6 @@
 # sops.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sops.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sops'
 url=('https://github.com/mozilla/sops/archive/3.2.0.tar.gz')

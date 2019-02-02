@@ -1,6 +1,6 @@
 # phplint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/phplint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='phplint'
 url=('https://www.icosaedro.it/phplint/phplint-3.2_20180727.tar.gz')

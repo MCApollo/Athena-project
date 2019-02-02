@@ -1,6 +1,6 @@
 # ext4fuse.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ext4fuse.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ext4fuse'
 url=('https://github.com/gerard/ext4fuse/archive/v0.1.3.tar.gz')

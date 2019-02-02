@@ -1,6 +1,6 @@
 # bash-git-prompt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bash-git-prompt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bashgitprompt'
 url=('https://github.com/magicmonty/bash-git-prompt/archive/2.7.1.tar.gz')

@@ -1,6 +1,6 @@
 # jnethack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jnethack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jnethack'
 url=('https://downloads.sourceforge.net/project/nethack/nethack/3.4.3/nethack-343-src.tgz')

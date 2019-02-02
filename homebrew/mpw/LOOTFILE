@@ -1,6 +1,6 @@
 # mpw.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpw.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mpw'
 url=('https://masterpasswordapp.com/mpw-2.6-cli-5-0-g344771db.tar.gz')

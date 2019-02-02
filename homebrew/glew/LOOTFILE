@@ -1,6 +1,6 @@
 # glew.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glew.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glew'
 url=('https://downloads.sourceforge.net/project/glew/glew/2.1.0/glew-2.1.0.tgz')

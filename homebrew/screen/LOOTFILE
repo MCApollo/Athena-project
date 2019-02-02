@@ -1,6 +1,6 @@
 # screen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/screen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='screen'
 url=('https://ftp.gnu.org/gnu/screen/screen-4.6.2.tar.gz')

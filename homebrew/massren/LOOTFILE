@@ -1,6 +1,6 @@
 # massren.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/massren.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='massren'
 url=('https://github.com/laurent22/massren/archive/v1.5.4.tar.gz')

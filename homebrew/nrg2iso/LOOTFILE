@@ -1,6 +1,6 @@
 # nrg2iso.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nrg2iso.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nrg2iso'
 url=('http://gregory.kokanosky.free.fr/v4/linux/nrg2iso-0.4.tar.gz')

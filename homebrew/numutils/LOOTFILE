@@ -1,6 +1,6 @@
 # num-utils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/num-utils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='numutils'
 url=('https://suso.suso.org/programs/num-utils/downloads/num-utils-0.5.tar.gz')

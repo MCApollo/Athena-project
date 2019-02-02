@@ -1,6 +1,6 @@
 # bcal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bcal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bcal'
 url=('https://github.com/jarun/bcal/archive/v2.1.tar.gz')

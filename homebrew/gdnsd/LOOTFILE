@@ -1,6 +1,6 @@
 # gdnsd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gdnsd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gdnsd'
 url=('https://github.com/gdnsd/gdnsd/releases/download/v2.4.0/gdnsd-2.4.0.tar.xz')

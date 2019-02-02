@@ -1,6 +1,6 @@
 # watson.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/watson.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='watson'
 url=('https://files.pythonhosted.org/packages/a6/c4/bb84f25803a8f03388e4ce68fc635beb6be8735a27397c00cf14ff26d948/td-watson-1.6.0.tar.gz')

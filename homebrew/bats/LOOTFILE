@@ -1,6 +1,6 @@
 # bats.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bats.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bats'
 url=('https://github.com/sstephenson/bats/archive/v0.4.0.tar.gz')

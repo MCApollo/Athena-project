@@ -1,6 +1,6 @@
 # libstfl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libstfl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libstfl'
 url=('http://www.clifford.at/stfl/stfl-0.24.tar.gz')

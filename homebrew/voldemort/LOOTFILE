@@ -1,6 +1,6 @@
 # voldemort.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/voldemort.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='voldemort'
 url=('https://github.com/voldemort/voldemort/archive/release-1.10.26-cutoff.tar.gz')

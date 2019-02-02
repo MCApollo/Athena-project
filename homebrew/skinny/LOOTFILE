@@ -1,6 +1,6 @@
 # skinny.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/skinny.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='skinny'
 url=('https://github.com/skinny-framework/skinny-framework/releases/download/3.0.1/skinny-3.0.1.tar.gz')

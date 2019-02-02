@@ -1,6 +1,6 @@
 # syncthing-inotify.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/syncthing-inotify.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='syncthinginotify'
 url=('https://github.com/syncthing/syncthing-inotify/archive/v0.8.7.tar.gz')

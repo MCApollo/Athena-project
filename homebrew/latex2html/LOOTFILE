@@ -1,6 +1,6 @@
 # latex2html.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/latex2html.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='latex2html'
 url=('http://mirrors.ctan.org/support/latex2html/latex2html-2018.tar.gz')

@@ -1,6 +1,6 @@
 # iperf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/iperf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='iperf'
 url=('https://downloads.sourceforge.net/project/iperf2/iperf-2.0.12.tar.gz')

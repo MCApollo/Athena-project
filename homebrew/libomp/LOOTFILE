@@ -1,6 +1,6 @@
 # libomp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libomp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libomp'
 url=('https://releases.llvm.org/7.0.0/openmp-7.0.0.src.tar.xz')

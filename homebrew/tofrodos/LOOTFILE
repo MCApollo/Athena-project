@@ -1,6 +1,6 @@
 # tofrodos.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tofrodos.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tofrodos'
 url=('https://tofrodos.sourceforge.io/download/tofrodos-1.7.13.tar.gz')

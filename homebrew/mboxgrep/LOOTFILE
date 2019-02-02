@@ -1,6 +1,6 @@
 # mboxgrep.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mboxgrep.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mboxgrep'
 url=('https://downloads.sourceforge.net/project/mboxgrep/mboxgrep/0.7.9/mboxgrep-0.7.9.tar.gz')

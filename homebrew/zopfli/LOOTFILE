@@ -1,6 +1,6 @@
 # zopfli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zopfli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zopfli'
 url=('https://github.com/google/zopfli/archive/zopfli-1.0.2.tar.gz')

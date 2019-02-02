@@ -1,6 +1,6 @@
 # wget.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wget.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wget'
 url=('https://ftp.gnu.org/gnu/wget/wget-1.20.1.tar.gz')

@@ -1,6 +1,6 @@
 # golo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/golo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='golo'
 url=('https://bintray.com/artifact/download/golo-lang/downloads/golo-3.2.0.zip')

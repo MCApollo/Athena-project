@@ -1,6 +1,6 @@
 # gconf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gconf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gconf'
 url=('https://download.gnome.org/sources/GConf/3.2/GConf-3.2.6.tar.xz')

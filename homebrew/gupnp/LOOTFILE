@@ -1,6 +1,6 @@
 # gupnp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gupnp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gupnp'
 url=('https://download.gnome.org/sources/gupnp/1.0/gupnp-1.0.3.tar.xz')

@@ -1,6 +1,6 @@
 # gdl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gdl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gdl'
 url=('https://download.gnome.org/sources/gdl/3.28/gdl-3.28.0.tar.xz')

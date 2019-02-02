@@ -1,6 +1,6 @@
 # alac.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/alac.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='alac'
 url=('https://web.archive.org/web/20150510210401/craz.net/programs/itunes/files/alac_decoder-0.2.0.tgz')

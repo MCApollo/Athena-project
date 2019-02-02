@@ -1,6 +1,6 @@
 # kubeprod.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kubeprod.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kubeprod'
 url=('https://github.com/bitnami/kube-prod-runtime/archive/v1.1.0.tar.gz')

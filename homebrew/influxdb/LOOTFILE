@@ -1,6 +1,6 @@
 # influxdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/influxdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='influxdb'
 url=('https://github.com/influxdata/influxdb.git')

@@ -1,6 +1,6 @@
 # gst-rtsp-server.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gst-rtsp-server.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gstrtspserver'
 url=('https://gstreamer.freedesktop.org/src/gst-rtsp-server/gst-rtsp-server-1.14.4.tar.xz')

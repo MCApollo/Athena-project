@@ -1,6 +1,6 @@
 # gpsbabel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gpsbabel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gpsbabel'
 url=('https://github.com/gpsbabel/gpsbabel/archive/gpsbabel_1_5_4.tar.gz')

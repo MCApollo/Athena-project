@@ -1,6 +1,6 @@
 # sf-pwgen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sf-pwgen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sfpwgen'
 url=('https://github.com/anders/pwgen/archive/v1.4.tar.gz')

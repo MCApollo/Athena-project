@@ -1,6 +1,6 @@
 # dwatch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dwatch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dwatch'
 url=('http://siag.nu/pub/dwatch/dwatch-0.1.1.tar.gz')

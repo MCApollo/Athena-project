@@ -1,6 +1,6 @@
 # ufraw.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ufraw.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ufraw'
 url=('https://downloads.sourceforge.net/project/ufraw/ufraw/ufraw-0.22/ufraw-0.22.tar.gz')

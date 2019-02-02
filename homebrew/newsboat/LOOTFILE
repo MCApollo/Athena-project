@@ -1,6 +1,6 @@
 # newsboat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/newsboat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='newsboat'
 url=('https://github.com/newsboat/newsboat/archive/r2.14.tar.gz')

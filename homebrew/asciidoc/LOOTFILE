@@ -1,6 +1,6 @@
 # asciidoc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/asciidoc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='asciidoc'
 url=('https://github.com/asciidoc/asciidoc/archive/8.6.10.tar.gz')

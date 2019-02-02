@@ -1,6 +1,6 @@
 # aws-elasticbeanstalk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-elasticbeanstalk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='awselasticbeanstalk'
 url=('https://files.pythonhosted.org/packages/cd/52/74d6fb2c789f061c5abfd0084b9f0592b3d7f39ae73c24b8a885a07d09d4/awsebcli-3.14.6.tar.gz')

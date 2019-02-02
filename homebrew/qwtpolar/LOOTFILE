@@ -1,6 +1,6 @@
 # qwtpolar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qwtpolar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qwtpolar'
 url=('https://downloads.sourceforge.net/project/qwtpolar/qwtpolar/1.1.1/qwtpolar-1.1.1.tar.bz2')

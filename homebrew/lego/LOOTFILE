@@ -1,6 +1,6 @@
 # lego.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lego.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lego'
 url=('https://github.com/xenolf/lego/archive/v1.2.1.tar.gz')

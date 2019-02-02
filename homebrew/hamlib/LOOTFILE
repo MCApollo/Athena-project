@@ -1,6 +1,6 @@
 # hamlib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hamlib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hamlib'
 url=('https://src.fedoraproject.org/repo/pkgs/hamlib/hamlib-1.2.15.3.tar.gz/3cad8987e995a00e5e9d360e2be0eb43/hamlib-1.2.15.3.tar.gz')

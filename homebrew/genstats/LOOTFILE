@@ -1,6 +1,6 @@
 # genstats.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/genstats.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='genstats'
 url=('https://www.vanheusden.com/genstats/genstats-1.2.tgz')

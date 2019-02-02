@@ -1,6 +1,6 @@
 # libopkele.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libopkele.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libopkele'
 url=('http://kin.klever.net/dist/libopkele-2.0.4.tar.bz2')

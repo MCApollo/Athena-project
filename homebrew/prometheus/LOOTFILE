@@ -1,6 +1,6 @@
 # prometheus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/prometheus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='prometheus'
 url=('https://github.com/prometheus/prometheus/archive/v2.7.0.tar.gz')

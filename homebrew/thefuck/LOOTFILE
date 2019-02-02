@@ -1,6 +1,6 @@
 # thefuck.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/thefuck.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='thefuck'
 url=('https://files.pythonhosted.org/packages/79/5e/a8a5ae5bfbe14f6ec01b1b9cee68383b1ff71e59be41a8923e3290c6fc21/thefuck-3.28.tar.gz')

@@ -1,6 +1,6 @@
 # gtk+3.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gtk+3.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gtkx3'
 url=('https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.4.tar.xz')

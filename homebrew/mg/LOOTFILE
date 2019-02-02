@@ -1,6 +1,6 @@
 # mg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mg'
 url=('https://dl.bintray.com/homebrew/mirror/mg-20180421.tar.gz')

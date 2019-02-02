@@ -1,6 +1,6 @@
 # augustus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/augustus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='augustus'
 url=('http://bioinf.uni-greifswald.de/augustus/binaries/augustus-3.3.2.tar.gz')

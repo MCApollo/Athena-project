@@ -1,6 +1,6 @@
 # pam-u2f.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pam-u2f.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pamu2f'
 url=('https://developers.yubico.com/pam-u2f/Releases/pam_u2f-1.0.7.tar.gz')

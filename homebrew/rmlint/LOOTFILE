@@ -1,6 +1,6 @@
 # rmlint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rmlint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rmlint'
 url=('https://github.com/sahib/rmlint/archive/v2.8.0.tar.gz')

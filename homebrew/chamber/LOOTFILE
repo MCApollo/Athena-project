@@ -1,6 +1,6 @@
 # chamber.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chamber.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chamber'
 url=('https://github.com/segmentio/chamber/archive/v2.3.2.tar.gz')

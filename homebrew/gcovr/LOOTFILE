@@ -1,6 +1,6 @@
 # gcovr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gcovr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gcovr'
 url=('https://github.com/gcovr/gcovr/archive/4.1.tar.gz')

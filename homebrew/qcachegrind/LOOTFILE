@@ -1,6 +1,6 @@
 # qcachegrind.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qcachegrind.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qcachegrind'
 url=('https://download.kde.org/stable/applications/18.04.3/src/kcachegrind-18.04.3.tar.xz')

@@ -1,6 +1,6 @@
 # hss.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hss.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hss'
 url=('https://github.com/six-ddc/hss/archive/1.8.tar.gz')

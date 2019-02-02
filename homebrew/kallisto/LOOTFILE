@@ -1,6 +1,6 @@
 # kallisto.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kallisto.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kallisto'
 url=('https://github.com/pachterlab/kallisto/archive/v0.45.0.tar.gz')

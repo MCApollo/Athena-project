@@ -1,6 +1,6 @@
 # fdk-aac-encoder.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fdk-aac-encoder.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fdkaacencoder'
 url=('https://github.com/nu774/fdkaac/archive/1.0.0.tar.gz')

@@ -1,6 +1,6 @@
 # git-fresh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-fresh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitfresh'
 url=('https://github.com/imsky/git-fresh/archive/v1.12.0.tar.gz')

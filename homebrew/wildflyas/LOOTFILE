@@ -1,6 +1,6 @@
 # wildfly-as.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wildfly-as.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wildflyas'
 url=('https://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final.tar.gz')

@@ -1,6 +1,6 @@
 # mm-common.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mm-common.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mmcommon'
 url=('https://download.gnome.org/sources/mm-common/0.9/mm-common-0.9.12.tar.xz')

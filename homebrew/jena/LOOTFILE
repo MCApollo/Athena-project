@@ -1,6 +1,6 @@
 # jena.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jena.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jena'
 url=('https://archive.apache.org/dist/jena/binaries/apache-jena-3.9.0.tar.gz')

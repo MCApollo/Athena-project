@@ -1,6 +1,6 @@
 # ipinfo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ipinfo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ipinfo'
 url=('http://kyberdigi.cz/projects/ipinfo/files/ipinfo-1.2.tar.gz')

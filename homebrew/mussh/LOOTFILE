@@ -1,6 +1,6 @@
 # mussh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mussh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mussh'
 url=('https://downloads.sourceforge.net/project/mussh/mussh/1.0/mussh-1.0.tgz')

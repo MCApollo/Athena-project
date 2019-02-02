@@ -1,6 +1,6 @@
 # winexe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/winexe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='winexe'
 url=('https://downloads.sourceforge.net/project/winexe/winexe-1.00.tar.gz')

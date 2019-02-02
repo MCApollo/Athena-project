@@ -1,6 +1,6 @@
 # cling.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cling.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cling'
 url=('https://github.com/root-project/cling.git')

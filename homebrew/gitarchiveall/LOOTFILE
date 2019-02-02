@@ -1,6 +1,6 @@
 # git-archive-all.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-archive-all.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitarchiveall'
 url=('https://github.com/Kentzo/git-archive-all/archive/1.19.4.tar.gz')

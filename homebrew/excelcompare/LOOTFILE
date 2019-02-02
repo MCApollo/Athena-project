@@ -1,6 +1,6 @@
 # excel-compare.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/excel-compare.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='excelcompare'
 url=('https://github.com/na-ka-na/ExcelCompare/releases/download/0.6.1/ExcelCompare-0.6.1.zip')

@@ -1,6 +1,6 @@
 # kube-aws.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kube-aws.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kubeaws'
 url=('https://github.com/kubernetes-incubator/kube-aws.git')

@@ -1,6 +1,6 @@
 # gecode.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gecode.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gecode'
 url=('https://github.com/Gecode/gecode/archive/release-6.1.0.tar.gz')

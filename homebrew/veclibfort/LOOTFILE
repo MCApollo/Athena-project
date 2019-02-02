@@ -1,6 +1,6 @@
 # veclibfort.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/veclibfort.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='veclibfort'
 url=('https://github.com/mcg1969/vecLibFort/archive/0.4.2.tar.gz')

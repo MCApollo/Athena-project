@@ -1,6 +1,6 @@
 # rxvt-unicode.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rxvt-unicode.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rxvtunicode'
 url=('http://dist.schmorp.de/rxvt-unicode/rxvt-unicode-9.22.tar.bz2')

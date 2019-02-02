@@ -1,6 +1,6 @@
 # clojure.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clojure.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clojure'
 url=('https://download.clojure.org/install/clojure-tools-1.10.0.411.tar.gz')

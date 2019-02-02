@@ -1,6 +1,6 @@
 # libbpg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbpg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbpg'
 url=('https://bellard.org/bpg/libbpg-0.9.8.tar.gz')

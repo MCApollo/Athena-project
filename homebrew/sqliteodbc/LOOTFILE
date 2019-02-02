@@ -1,6 +1,6 @@
 # sqliteodbc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sqliteodbc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sqliteodbc'
 url=('https://ch-werner.homepage.t-online.de/sqliteodbc/sqliteodbc-0.9996.tar.gz')

@@ -1,6 +1,6 @@
 # multitail.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/multitail.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='multitail'
 url=('https://vanheusden.com/multitail/multitail-6.4.2.tgz')

@@ -1,6 +1,6 @@
 # historian.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/historian.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='historian'
 url=('https://github.com/jcsalterego/historian/archive/0.0.2.tar.gz')

@@ -1,6 +1,6 @@
 # xctool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xctool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xctool'
 url=('https://github.com/facebook/xctool/archive/0.3.5.tar.gz')

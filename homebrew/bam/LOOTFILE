@@ -1,6 +1,6 @@
 # bam.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bam.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bam'
 url=('https://github.com/matricks/bam/archive/v0.5.1.tar.gz')

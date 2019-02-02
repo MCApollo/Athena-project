@@ -1,6 +1,6 @@
 # jvgrep.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jvgrep.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jvgrep'
 url=('https://github.com/mattn/jvgrep/archive/v5.6.0.tar.gz')

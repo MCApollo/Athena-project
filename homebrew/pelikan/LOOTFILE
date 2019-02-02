@@ -1,6 +1,6 @@
 # pelikan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pelikan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pelikan'
 url=('https://github.com/twitter/pelikan/archive/0.1.2.tar.gz')

@@ -1,6 +1,6 @@
 # vnu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vnu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vnu'
 url=('https://github.com/validator/validator/releases/download/18.11.5/vnu.jar_18.11.5.zip')

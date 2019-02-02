@@ -1,6 +1,6 @@
 # diffutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/diffutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='diffutils'
 url=('https://ftp.gnu.org/gnu/diffutils/diffutils-3.7.tar.xz')

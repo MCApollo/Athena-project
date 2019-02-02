@@ -1,6 +1,6 @@
 # goenv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/goenv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='goenv'
 url=('https://github.com/syndbg/goenv/archive/1.23.3.tar.gz')

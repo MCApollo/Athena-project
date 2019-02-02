@@ -1,6 +1,6 @@
 # bib-tool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bib-tool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bibtool'
 url=('https://github.com/ge-ne/bibtool/releases/download/BibTool_2_67/BibTool-2.67.tar.gz')

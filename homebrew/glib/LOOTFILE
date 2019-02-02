@@ -1,6 +1,6 @@
 # glib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glib'
 url=('https://download.gnome.org/sources/glib/2.58/glib-2.58.3.tar.xz')

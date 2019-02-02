@@ -1,6 +1,6 @@
 # glib-openssl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glib-openssl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glibopenssl'
 url=('https://download.gnome.org/sources/glib-openssl/2.50/glib-openssl-2.50.8.tar.xz')

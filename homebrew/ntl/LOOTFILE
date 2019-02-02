@@ -1,6 +1,6 @@
 # ntl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ntl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ntl'
 url=('https://www.shoup.net/ntl/ntl-11.3.0.tar.gz')

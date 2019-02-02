@@ -1,6 +1,6 @@
 # pony-stable.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pony-stable.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ponystable'
 url=('https://github.com/ponylang/pony-stable/archive/0.1.6.tar.gz')

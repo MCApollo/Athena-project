@@ -1,6 +1,6 @@
 # mafft.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mafft.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mafft'
 url=('https://mafft.cbrc.jp/alignment/software/mafft-7.407-with-extensions-src.tgz')

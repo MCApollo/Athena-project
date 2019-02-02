@@ -1,6 +1,6 @@
 # shivavg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/shivavg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='shivavg'
 url=('https://downloads.sourceforge.net/project/shivavg/ShivaVG/0.2.1/ShivaVG-0.2.1.zip')

@@ -1,6 +1,6 @@
 # recode.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/recode.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='recode'
 url=('https://github.com/pinard/Recode/archive/v3.7-beta2.tar.gz')

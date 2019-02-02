@@ -1,6 +1,6 @@
 # rcs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rcs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rcs'
 url=('https://ftp.gnu.org/gnu/rcs/rcs-5.9.4.tar.xz')

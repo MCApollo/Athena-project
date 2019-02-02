@@ -1,6 +1,6 @@
 # openmotif.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openmotif.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openmotif'
 url=('https://downloads.sourceforge.net/project/motif/Motif%202.3.8%20Source%20Code/motif-2.3.8.tar.gz')

@@ -1,6 +1,6 @@
 # graphite2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/graphite2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='graphite2'
 url=('https://github.com/silnrsi/graphite/releases/download/1.3.13/graphite2-1.3.13.tgz')

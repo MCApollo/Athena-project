@@ -1,6 +1,6 @@
 # ponysay.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ponysay.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ponysay'
 url=('https://github.com/erkin/ponysay/archive/3.0.3.tar.gz')

@@ -1,6 +1,6 @@
 # wxmaxima.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wxmaxima.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wxmaxima'
 url=('https://github.com/wxMaxima-developers/wxmaxima/archive/Version-19.01.0.tar.gz')

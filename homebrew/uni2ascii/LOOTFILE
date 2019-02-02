@@ -1,6 +1,6 @@
 # uni2ascii.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/uni2ascii.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='uni2ascii'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/u/uni2ascii/uni2ascii_4.18.orig.tar.gz')

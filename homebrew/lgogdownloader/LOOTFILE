@@ -1,6 +1,6 @@
 # lgogdownloader.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lgogdownloader.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lgogdownloader'
 url=('https://sites.google.com/site/gogdownloader/lgogdownloader-3.3.tar.gz')

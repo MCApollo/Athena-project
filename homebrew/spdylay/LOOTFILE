@@ -1,6 +1,6 @@
 # spdylay.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spdylay.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spdylay'
 url=('https://github.com/tatsuhiro-t/spdylay/archive/v1.4.0.tar.gz')

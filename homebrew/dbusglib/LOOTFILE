@@ -1,6 +1,6 @@
 # dbus-glib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dbus-glib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dbusglib'
 url=('https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.110.tar.gz')

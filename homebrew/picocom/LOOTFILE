@@ -1,6 +1,6 @@
 # picocom.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/picocom.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='picocom'
 url=('https://github.com/npat-efault/picocom/archive/3.1.tar.gz')

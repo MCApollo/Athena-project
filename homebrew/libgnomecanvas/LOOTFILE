@@ -1,6 +1,6 @@
 # libgnomecanvas.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgnomecanvas.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgnomecanvas'
 url=('https://download.gnome.org/sources/libgnomecanvas/2.30/libgnomecanvas-2.30.3.tar.bz2')

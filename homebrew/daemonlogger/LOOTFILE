@@ -1,6 +1,6 @@
 # daemonlogger.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/daemonlogger.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='daemonlogger'
 url=('https://downloads.sourceforge.net/project/daemonlogger/daemonlogger-1.2.1.tar.gz')

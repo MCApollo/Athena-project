@@ -1,6 +1,6 @@
 # bash-snippets.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bash-snippets.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bashsnippets'
 url=('https://github.com/alexanderepstein/Bash-Snippets/archive/v1.22.1.tar.gz')

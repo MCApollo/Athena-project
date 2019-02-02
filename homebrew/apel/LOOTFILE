@@ -1,6 +1,6 @@
 # apel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/apel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='apel'
 url=('http://git.chise.org/elisp/dist/apel/apel-10.8.tar.gz')

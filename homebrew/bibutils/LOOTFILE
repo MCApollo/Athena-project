@@ -1,6 +1,6 @@
 # bibutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bibutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bibutils'
 url=('https://downloads.sourceforge.net/project/bibutils/bibutils_6.7_src.tgz')

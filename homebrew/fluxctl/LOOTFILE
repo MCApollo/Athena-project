@@ -1,6 +1,6 @@
 # fluxctl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fluxctl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fluxctl'
 url=('https://github.com/weaveworks/flux.git')

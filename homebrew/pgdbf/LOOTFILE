@@ -1,6 +1,6 @@
 # pgdbf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pgdbf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pgdbf'
 url=('https://downloads.sourceforge.net/project/pgdbf/pgdbf/0.6.2/pgdbf-0.6.2.tar.xz')

@@ -1,6 +1,6 @@
 # n.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/n.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='n'
 url=('https://github.com/tj/n/archive/v2.1.12.tar.gz')

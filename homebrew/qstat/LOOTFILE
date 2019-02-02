@@ -1,6 +1,6 @@
 # qstat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qstat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qstat'
 url=('https://downloads.sourceforge.net/project/qstat/qstat/qstat-2.11/qstat-2.11.tar.gz')

@@ -1,6 +1,6 @@
 # git-remote-hg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-remote-hg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitremotehg'
 url=('https://github.com/felipec/git-remote-hg/archive/v0.3.tar.gz')

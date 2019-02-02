@@ -1,6 +1,6 @@
 # mackup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mackup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mackup'
 url=('https://github.com/lra/mackup/archive/0.8.22.tar.gz')

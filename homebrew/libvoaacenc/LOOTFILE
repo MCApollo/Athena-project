@@ -1,6 +1,6 @@
 # libvo-aacenc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libvo-aacenc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libvoaacenc'
 url=('https://downloads.sourceforge.net/project/opencore-amr/vo-aacenc/vo-aacenc-0.1.3.tar.gz')

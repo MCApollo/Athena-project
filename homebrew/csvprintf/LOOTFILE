@@ -1,6 +1,6 @@
 # csvprintf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/csvprintf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='csvprintf'
 url=('https://github.com/archiecobbs/csvprintf/archive/1.0.4.tar.gz')

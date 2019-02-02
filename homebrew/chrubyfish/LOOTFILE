@@ -1,6 +1,6 @@
 # chruby-fish.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chruby-fish.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chrubyfish'
 url=('https://github.com/JeanMertz/chruby-fish/archive/v0.8.2.tar.gz')

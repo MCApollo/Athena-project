@@ -1,6 +1,6 @@
 # fcgi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fcgi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fcgi'
 url=('https://downloads.sourceforge.net/project/slackbuildsdirectlinks/fcgi/fcgi-2.4.0.tar.gz')

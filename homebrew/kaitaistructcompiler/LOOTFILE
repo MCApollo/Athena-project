@@ -1,6 +1,6 @@
 # kaitai-struct-compiler.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kaitai-struct-compiler.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kaitaistructcompiler'
 url=('https://bintray.com/artifact/download/kaitai-io/universal/0.8/kaitai-struct-compiler-0.8.zip')

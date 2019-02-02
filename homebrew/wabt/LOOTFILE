@@ -1,6 +1,6 @@
 # wabt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wabt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wabt'
 url=('https://github.com/WebAssembly/wabt/archive/1.0.6.tar.gz')

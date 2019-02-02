@@ -1,6 +1,6 @@
 # zlog.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zlog.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zlog'
 url=('https://github.com/HardySimpson/zlog/archive/1.2.12.tar.gz')

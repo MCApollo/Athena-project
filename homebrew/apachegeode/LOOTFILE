@@ -1,6 +1,6 @@
 # apache-geode.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/apache-geode.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='apachegeode'
 url=('https://www.apache.org/dyn/closer.cgi?path=geode/1.8.0/apache-geode-1.8.0.tgz')

@@ -1,6 +1,6 @@
 # dub.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dub.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dub'
 url=('https://github.com/dlang/dub/archive/v1.13.0.tar.gz')

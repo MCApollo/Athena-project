@@ -1,6 +1,6 @@
 # nut.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nut.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nut'
 url=('https://networkupstools.org/source/2.7/nut-2.7.4.tar.gz')

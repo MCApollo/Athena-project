@@ -1,6 +1,6 @@
 # postmark.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/postmark.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='postmark'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/p/postmark/postmark_1.53.orig.tar.gz')

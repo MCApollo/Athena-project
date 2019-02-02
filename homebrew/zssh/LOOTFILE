@@ -1,6 +1,6 @@
 # zssh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zssh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zssh'
 url=('https://downloads.sourceforge.net/project/zssh/zssh/1.5/zssh-1.5c.tgz')

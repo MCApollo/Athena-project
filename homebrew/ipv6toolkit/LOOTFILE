@@ -1,6 +1,6 @@
 # ipv6toolkit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ipv6toolkit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ipv6toolkit'
 url=('https://www.si6networks.com/tools/ipv6toolkit/ipv6toolkit-v2.0.tar.gz')

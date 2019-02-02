@@ -1,6 +1,6 @@
 # jpeg-turbo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jpeg-turbo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jpegturbo'
 url=('https://downloads.sourceforge.net/project/libjpeg-turbo/2.0.0/libjpeg-turbo-2.0.0.tar.gz')

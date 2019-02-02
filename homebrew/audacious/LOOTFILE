@@ -1,6 +1,6 @@
 # audacious.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/audacious.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='audacious'
 url=('https://distfiles.audacious-media-player.org/audacious-3.9.tar.bz2')

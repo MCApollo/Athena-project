@@ -1,6 +1,6 @@
 # puzzles.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/puzzles.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='puzzles'
 url=('https://www.chiark.greenend.org.uk/~sgtatham/puzzles/puzzles-20181213.ced51ad.tar.gz')

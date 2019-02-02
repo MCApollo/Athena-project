@@ -1,6 +1,6 @@
 # eye-d3.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/eye-d3.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='eyed3'
 url=('http://eyed3.nicfit.net/releases/eyeD3-0.8.8.tar.gz')

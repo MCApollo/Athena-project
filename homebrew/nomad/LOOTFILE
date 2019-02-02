@@ -1,6 +1,6 @@
 # nomad.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nomad.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nomad'
 url=('https://github.com/hashicorp/nomad/archive/v0.8.7.tar.gz')

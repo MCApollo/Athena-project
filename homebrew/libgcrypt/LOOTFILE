@@ -1,6 +1,6 @@
 # libgcrypt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgcrypt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgcrypt'
 url=('https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.8.4.tar.bz2')

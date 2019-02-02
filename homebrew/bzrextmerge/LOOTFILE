@@ -1,6 +1,6 @@
 # bzr-extmerge.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bzr-extmerge.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bzrextmerge'
 url=('https://launchpad.net/bzr-extmerge/trunk/1.0.0/+download/bzr-extmerge-1.0.0.tar.gz')

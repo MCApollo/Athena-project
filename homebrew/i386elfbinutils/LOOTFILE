@@ -1,6 +1,6 @@
 # i386-elf-binutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/i386-elf-binutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='i386elfbinutils'
 url=('https://ftp.gnu.org/gnu/binutils/binutils-2.31.1.tar.xz')

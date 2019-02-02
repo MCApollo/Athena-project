@@ -1,6 +1,6 @@
 # hping.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hping.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hping'
 url=('http://www.hping.org/hping3-20051105.tar.gz')

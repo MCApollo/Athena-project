@@ -1,6 +1,6 @@
 # kanif.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kanif.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kanif'
 url=('https://gforge.inria.fr/frs/download.php/26773/kanif-1.2.2.tar.gz')

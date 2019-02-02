@@ -1,6 +1,6 @@
 # freerdp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/freerdp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='freerdp'
 url=('https://github.com/FreeRDP/FreeRDP/archive/1.0.2.tar.gz')

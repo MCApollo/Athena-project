@@ -1,6 +1,6 @@
 # webpack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/webpack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='webpack'
 url=('https://registry.npmjs.org/webpack/-/webpack-4.28.1.tgz')

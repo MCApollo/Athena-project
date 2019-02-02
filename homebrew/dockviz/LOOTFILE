@@ -1,6 +1,6 @@
 # dockviz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dockviz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockviz'
 url=('https://github.com/justone/dockviz.git')

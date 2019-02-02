@@ -1,6 +1,6 @@
 # finatra.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/finatra.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='finatra'
 url=('https://github.com/twitter/finatra/archive/1.5.3.tar.gz')

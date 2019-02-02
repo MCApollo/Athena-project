@@ -1,6 +1,6 @@
 # giter8.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/giter8.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='giter8'
 url=('https://github.com/foundweekends/giter8/archive/v0.11.0.tar.gz')

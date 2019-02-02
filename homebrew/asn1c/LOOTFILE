@@ -1,6 +1,6 @@
 # asn1c.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/asn1c.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='asn1c'
 url=('https://github.com/vlm/asn1c/releases/download/v0.9.28/asn1c-0.9.28.tar.gz')

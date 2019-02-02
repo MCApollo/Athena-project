@@ -1,6 +1,6 @@
 # uru.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/uru.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='uru'
 url=('https://bitbucket.org/jonforums/uru/get/v0.8.5.tar.gz')

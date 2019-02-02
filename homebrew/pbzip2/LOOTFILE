@@ -1,6 +1,6 @@
 # pbzip2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pbzip2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pbzip2'
 url=('https://launchpad.net/pbzip2/1.1/1.1.13/+download/pbzip2-1.1.13.tar.gz')

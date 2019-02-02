@@ -1,6 +1,6 @@
 # ttf2pt1.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ttf2pt1.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ttf2pt1'
 url=('https://downloads.sourceforge.net/ttf2pt1/ttf2pt1-3.4.4.tgz')

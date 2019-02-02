@@ -1,6 +1,6 @@
 # rawgl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rawgl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rawgl'
 url=('https://github.com/cyxx/rawgl/archive/rawgl-0.2.1.tar.gz')

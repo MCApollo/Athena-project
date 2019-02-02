@@ -1,6 +1,6 @@
 # xvid.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xvid.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xvid'
 url=('https://downloads.xvid.com/downloads/xvidcore-1.3.5.tar.bz2')

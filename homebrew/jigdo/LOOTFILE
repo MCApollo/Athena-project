@@ -1,6 +1,6 @@
 # jigdo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jigdo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jigdo'
 url=('http://atterer.org/sites/atterer/files/2009-08/jigdo/jigdo-0.7.3.tar.bz2')

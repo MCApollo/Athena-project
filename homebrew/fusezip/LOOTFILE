@@ -1,6 +1,6 @@
 # fuse-zip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fuse-zip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fusezip'
 url=('https://bitbucket.org/agalanin/fuse-zip/downloads/fuse-zip-0.4.5.tar.gz')

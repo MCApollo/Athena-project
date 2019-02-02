@@ -1,6 +1,6 @@
 # putty.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/putty.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='putty'
 url=('https://the.earth.li/~sgtatham/putty/0.70/putty-0.70.tar.gz')

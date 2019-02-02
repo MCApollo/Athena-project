@@ -1,6 +1,6 @@
 # libxmp-lite.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxmp-lite.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libxmplite'
 url=('https://downloads.sourceforge.net/project/xmp/libxmp/4.4.1/libxmp-lite-4.4.1.tar.gz')

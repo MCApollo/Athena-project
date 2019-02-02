@@ -1,6 +1,6 @@
 # gnu-prolog.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-prolog.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnuprolog'
 url=('http://www.gprolog.org/gprolog-1.4.5.tar.gz')

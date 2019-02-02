@@ -1,6 +1,6 @@
 # nuvie.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nuvie.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nuvie'
 url=('https://downloads.sourceforge.net/project/nuvie/Nuvie/0.5/nuvie-0.5.tgz')

@@ -1,6 +1,6 @@
 # openssl@1.1.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openssl@1.1.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opensslat11'
 url=('https://www.openssl.org/source/openssl-1.1.1a.tar.gz')

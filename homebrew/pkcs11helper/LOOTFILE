@@ -1,6 +1,6 @@
 # pkcs11-helper.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pkcs11-helper.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pkcs11helper'
 url=('https://github.com/OpenSC/pkcs11-helper/releases/download/pkcs11-helper-1.25.1/pkcs11-helper-1.25.1.tar.bz2')

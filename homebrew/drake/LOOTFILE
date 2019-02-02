@@ -1,6 +1,6 @@
 # drake.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/drake.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='drake'
 url=('https://raw.githubusercontent.com/Factual/drake/1.0.3/bin/drake-pkg')

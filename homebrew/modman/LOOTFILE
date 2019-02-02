@@ -1,6 +1,6 @@
 # modman.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/modman.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='modman'
 url=('https://github.com/colinmollenhour/modman/archive/1.12.tar.gz')

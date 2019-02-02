@@ -1,6 +1,6 @@
 # mmsrip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mmsrip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mmsrip'
 url=('https://nbenoit.tuxfamily.org/projects/mmsrip/mmsrip-0.7.0.tar.gz')

@@ -1,6 +1,6 @@
 # questdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/questdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='questdb'
 url=('https://www.questdb.org/download/questdb-1.0.4-bin.tar.gz')

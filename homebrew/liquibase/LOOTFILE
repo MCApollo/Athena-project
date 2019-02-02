@@ -1,6 +1,6 @@
 # liquibase.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/liquibase.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='liquibase'
 url=('https://github.com/liquibase/liquibase/releases/download/liquibase-parent-3.6.2/liquibase-3.6.2-bin.tar.gz')

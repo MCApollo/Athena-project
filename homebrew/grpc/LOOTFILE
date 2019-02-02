@@ -1,6 +1,6 @@
 # grpc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/grpc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='grpc'
 url=('https://github.com/grpc/grpc/archive/v1.18.0.tar.gz')

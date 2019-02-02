@@ -1,6 +1,6 @@
 # somagic-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/somagic-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='somagictools'
 url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/easycap-somagic-linux/somagic-easycap-tools_1.1.tar.gz')

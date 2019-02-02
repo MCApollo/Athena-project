@@ -1,6 +1,6 @@
 # libu2f-host.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libu2f-host.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libu2fhost'
 url=('https://developers.yubico.com/libu2f-host/Releases/libu2f-host-1.1.6.tar.xz')

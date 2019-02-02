@@ -1,6 +1,6 @@
 # hana.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hana.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hana'
 url=('https://github.com/boostorg/hana/archive/v1.5.0.tar.gz')

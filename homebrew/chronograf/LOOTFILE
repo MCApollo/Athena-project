@@ -1,6 +1,6 @@
 # chronograf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chronograf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chronograf'
 url=('https://github.com/influxdata/chronograf/archive/1.7.7.tar.gz')

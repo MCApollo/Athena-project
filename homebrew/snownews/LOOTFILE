@@ -1,6 +1,6 @@
 # snownews.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/snownews.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snownews'
 url=('https://github.com/kouya/snownews/archive/v1.5.13.tar.gz')

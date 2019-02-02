@@ -1,6 +1,6 @@
 # libgraphqlparser.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgraphqlparser.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgraphqlparser'
 url=('https://github.com/graphql/libgraphqlparser/archive/0.7.0.tar.gz')

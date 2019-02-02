@@ -1,6 +1,6 @@
 # libbitcoin-network.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbitcoin-network.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbitcoinnetwork'
 url=('https://github.com/libbitcoin/libbitcoin-network/archive/v3.5.0.tar.gz')

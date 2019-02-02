@@ -1,6 +1,6 @@
 # pincaster.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pincaster.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pincaster'
 url=('https://download.pureftpd.org/pincaster/releases/pincaster-0.6.tar.bz2')

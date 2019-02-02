@@ -1,6 +1,6 @@
 # gollum.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gollum.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gollum'
 url=('https://github.com/trivago/gollum/archive/v0.5.3.tar.gz')

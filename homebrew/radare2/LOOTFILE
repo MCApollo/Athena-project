@@ -1,6 +1,6 @@
 # radare2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/radare2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='radare2'
 url=('https://radare.mikelloc.com/get/2.8.0/radare2-2.8.0.tar.gz')

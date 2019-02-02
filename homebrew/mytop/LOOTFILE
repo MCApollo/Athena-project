@@ -1,6 +1,6 @@
 # mytop.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mytop.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mytop'
 url=('http://www.mysqlfanboy.com/mytop-3/mytop-1.9.1.tar.gz')

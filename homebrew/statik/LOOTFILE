@@ -1,6 +1,6 @@
 # statik.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/statik.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='statik'
 url=('https://github.com/thanethomson/statik/archive/v0.22.2.tar.gz')

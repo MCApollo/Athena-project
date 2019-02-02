@@ -1,6 +1,6 @@
 # fabric-completion.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fabric-completion.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fabriccompletion'
 url=('https://github.com/kbakulin/fabric-completion.git')

@@ -1,6 +1,6 @@
 # pstoedit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pstoedit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pstoedit'
 url=('https://downloads.sourceforge.net/project/pstoedit/pstoedit/3.73/pstoedit-3.73.tar.gz')

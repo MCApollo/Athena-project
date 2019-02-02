@@ -1,6 +1,6 @@
 # forego.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/forego.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='forego'
 url=('https://github.com/ddollar/forego/archive/20180216151118.tar.gz')

@@ -1,6 +1,6 @@
 # s-search.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/s-search.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ssearch'
 url=('https://github.com/zquestz/s/archive/v0.5.13.tar.gz')

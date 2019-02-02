@@ -1,6 +1,6 @@
 # pngquant.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pngquant.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pngquant'
 url=('https://pngquant.org/pngquant-2.12.2-src.tar.gz')

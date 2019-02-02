@@ -1,6 +1,6 @@
 # subnetcalc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/subnetcalc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='subnetcalc'
 url=('https://www.uni-due.de/~be0001/subnetcalc/download/subnetcalc-2.4.9.tar.gz')

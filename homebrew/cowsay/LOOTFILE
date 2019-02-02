@@ -1,6 +1,6 @@
 # cowsay.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cowsay.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cowsay'
 url=('https://github.com/tnalpgge/rank-amateur-cowsay/archive/cowsay-3.04.tar.gz')

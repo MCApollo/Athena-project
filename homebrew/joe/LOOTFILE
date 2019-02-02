@@ -1,6 +1,6 @@
 # joe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/joe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='joe'
 url=('https://downloads.sourceforge.net/project/joe-editor/JOE%20sources/joe-4.6/joe-4.6.tar.gz')

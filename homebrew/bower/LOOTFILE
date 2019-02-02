@@ -1,6 +1,6 @@
 # bower.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bower.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bower'
 url=('https://github.com/bower/bower/archive/v1.8.8.tar.gz')

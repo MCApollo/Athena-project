@@ -1,6 +1,6 @@
 # groonga.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/groonga.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='groonga'
 url=('https://packages.groonga.org/source/groonga/groonga-8.0.5.tar.gz')

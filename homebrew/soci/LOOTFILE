@@ -1,6 +1,6 @@
 # soci.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/soci.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='soci'
 url=('https://downloads.sourceforge.net/project/soci/soci/soci-3.2.3/soci-3.2.3.zip')

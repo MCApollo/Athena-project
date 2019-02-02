@@ -1,6 +1,6 @@
 # libghthash.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libghthash.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libghthash'
 url=('https://web.archive.org/web/20170824230514/www.bth.se/people/ska/sim_home/filer/libghthash-0.6.2.tar.gz')

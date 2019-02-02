@@ -1,6 +1,6 @@
 # gcsfuse.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gcsfuse.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gcsfuse'
 url=('https://github.com/GoogleCloudPlatform/gcsfuse/archive/v0.23.0.tar.gz')

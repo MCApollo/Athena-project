@@ -1,6 +1,6 @@
 # ansible@2.0.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ansible@2.0.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ansibleat20'
 url=('https://releases.ansible.com/ansible/ansible-2.0.2.0.tar.gz')

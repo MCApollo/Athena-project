@@ -1,6 +1,6 @@
 # s3fs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/s3fs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='s3fs'
 url=('https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.84.tar.gz')

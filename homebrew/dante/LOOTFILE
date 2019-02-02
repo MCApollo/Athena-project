@@ -1,6 +1,6 @@
 # dante.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dante.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dante'
 url=('https://www.inet.no/dante/files/dante-1.4.2.tar.gz')

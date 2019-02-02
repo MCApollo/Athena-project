@@ -1,6 +1,6 @@
 # xmoto.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmoto.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xmoto'
 url=('https://download.tuxfamily.org/xmoto/xmoto/0.5.11/xmoto-0.5.11-src.tar.gz')

@@ -1,6 +1,6 @@
 # bagit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bagit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bagit'
 url=('https://github.com/LibraryOfCongress/bagit-java/releases/download/v4.12.3/bagit-v4.12.3.zip')

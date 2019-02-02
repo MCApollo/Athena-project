@@ -1,6 +1,6 @@
 # huexpress.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/huexpress.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='huexpress'
 url=('https://github.com/kallisti5/huexpress/archive/3.0.4.tar.gz')

@@ -1,6 +1,6 @@
 # flvstreamer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/flvstreamer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='flvstreamer'
 url=('https://download.savannah.gnu.org/releases/flvstreamer/source/flvstreamer-2.1c1.tar.gz')

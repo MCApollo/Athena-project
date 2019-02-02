@@ -1,6 +1,6 @@
 # vimpc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vimpc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vimpc'
 url=('https://downloads.sourceforge.net/project/vimpc/Release%200.09.1/vimpc-0.09.1.tar.gz')

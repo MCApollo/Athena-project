@@ -1,6 +1,6 @@
 # tarsnapper.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tarsnapper.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tarsnapper'
 url=('https://github.com/miracle2k/tarsnapper/archive/0.4.tar.gz')

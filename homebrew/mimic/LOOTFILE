@@ -1,6 +1,6 @@
 # mimic.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mimic.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mimic'
 url=('https://github.com/MycroftAI/mimic/archive/1.2.0.2.tar.gz')

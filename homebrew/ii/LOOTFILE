@@ -1,6 +1,6 @@
 # ii.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ii.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ii'
 url=('https://dl.suckless.org/tools/ii-1.8.tar.gz')

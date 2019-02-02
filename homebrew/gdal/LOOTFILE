@@ -1,6 +1,6 @@
 # gdal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gdal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gdal'
 url=('https://download.osgeo.org/gdal/2.4.0/gdal-2.4.0.tar.xz')

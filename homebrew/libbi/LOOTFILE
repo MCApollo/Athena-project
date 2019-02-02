@@ -1,6 +1,6 @@
 # libbi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbi'
 url=('https://github.com/lawmurray/LibBi/archive/1.4.4.tar.gz')

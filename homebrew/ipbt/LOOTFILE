@@ -1,6 +1,6 @@
 # ipbt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ipbt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ipbt'
 url=('https://www.chiark.greenend.org.uk/~sgtatham/ipbt/ipbt-20170831.3c40fd3.tar.gz')

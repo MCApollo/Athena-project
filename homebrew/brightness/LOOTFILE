@@ -1,6 +1,6 @@
 # brightness.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/brightness.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='brightness'
 url=('https://github.com/nriley/brightness/archive/1.2.tar.gz')

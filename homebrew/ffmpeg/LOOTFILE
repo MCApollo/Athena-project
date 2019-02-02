@@ -1,6 +1,6 @@
 # ffmpeg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ffmpeg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ffmpeg'
 url=('https://ffmpeg.org/releases/ffmpeg-4.1.tar.xz')

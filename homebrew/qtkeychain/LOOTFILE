@@ -1,6 +1,6 @@
 # qtkeychain.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qtkeychain.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qtkeychain'
 url=('https://github.com/frankosterfeld/qtkeychain/archive/v0.9.1.tar.gz')

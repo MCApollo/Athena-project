@@ -1,6 +1,6 @@
 # jboss-forge.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jboss-forge.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jbossforge'
 url=('https://downloads.jboss.org/forge/releases/3.9.2.Final/forge-distribution-3.9.2.Final-offline.zip')

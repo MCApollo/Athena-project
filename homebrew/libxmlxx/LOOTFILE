@@ -1,6 +1,6 @@
 # libxml++.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxml++.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libxmlxx'
 url=('https://download.gnome.org/sources/libxml++/2.40/libxml++-2.40.1.tar.xz')

@@ -1,6 +1,6 @@
 # dcal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dcal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dcal'
 url=('https://alexeyt.freeshell.org/code/dcal.c')

@@ -1,6 +1,6 @@
 # gibbslda.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gibbslda.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gibbslda'
 url=('https://downloads.sourceforge.net/project/gibbslda/GibbsLDA%2B%2B/0.2/GibbsLDA%2B%2B-0.2.tar.gz')

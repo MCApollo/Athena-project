@@ -1,6 +1,6 @@
 # cvs2svn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cvs2svn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cvs2svn'
 url=('http://cvs2svn.tigris.org/files/documents/1462/49543/cvs2svn-2.5.0.tar.gz')

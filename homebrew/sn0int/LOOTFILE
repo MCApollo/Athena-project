@@ -1,6 +1,6 @@
 # sn0int.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sn0int.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sn0int'
 url=('https://github.com/kpcyrd/sn0int/archive/v0.9.0.tar.gz')

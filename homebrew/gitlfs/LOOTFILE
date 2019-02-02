@@ -1,6 +1,6 @@
 # git-lfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-lfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitlfs'
 url=('https://github.com/git-lfs/git-lfs/releases/download/v2.6.1/git-lfs-v2.6.1.tar.gz')

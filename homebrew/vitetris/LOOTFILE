@@ -1,6 +1,6 @@
 # vitetris.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vitetris.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vitetris'
 url=('https://www.victornils.net/tetris/vitetris-0.57.tar.gz')

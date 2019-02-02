@@ -1,6 +1,6 @@
 # mercurial.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mercurial.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mercurial'
 url=('https://www.mercurial-scm.org/release/mercurial-4.8.2.tar.gz')

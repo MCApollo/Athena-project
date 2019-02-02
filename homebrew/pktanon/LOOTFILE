@@ -1,6 +1,6 @@
 # pktanon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pktanon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pktanon'
 url=('https://www.tm.uka.de/software/pktanon/download/pktanon-1.4.0-dev.tar.gz')

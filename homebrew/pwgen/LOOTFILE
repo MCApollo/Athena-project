@@ -1,6 +1,6 @@
 # pwgen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pwgen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pwgen'
 url=('https://downloads.sourceforge.net/project/pwgen/pwgen/2.08/pwgen-2.08.tar.gz')

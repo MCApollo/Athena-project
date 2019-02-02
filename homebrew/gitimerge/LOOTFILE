@@ -1,6 +1,6 @@
 # git-imerge.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-imerge.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitimerge'
 url=('https://github.com/mhagger/git-imerge/archive/v1.1.0.tar.gz')

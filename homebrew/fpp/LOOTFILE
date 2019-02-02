@@ -1,6 +1,6 @@
 # fpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fpp'
 url=('https://github.com/facebook/PathPicker/releases/download/0.7.2/fpp.0.7.2.tar.gz')

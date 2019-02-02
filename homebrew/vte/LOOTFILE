@@ -1,6 +1,6 @@
 # vte.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vte.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vte'
 url=('https://download.gnome.org/sources/vte/0.28/vte-0.28.2.tar.xz')

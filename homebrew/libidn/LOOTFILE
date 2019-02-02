@@ -1,6 +1,6 @@
 # libidn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libidn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libidn'
 url=('https://ftp.gnu.org/gnu/libidn/libidn-1.35.tar.gz')

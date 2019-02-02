@@ -1,6 +1,6 @@
 # libserialport.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libserialport.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libserialport'
 url=('https://sigrok.org/download/source/libserialport/libserialport-0.1.1.tar.gz')

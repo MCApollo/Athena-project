@@ -1,6 +1,6 @@
 # mariadb-connector-odbc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mariadb-connector-odbc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mariadbconnectorodbc'
 url=('https://downloads.mariadb.org/f/connector-odbc-3.0.2/mariadb-connector-odbc-3.0.2-ga-src.tar.gz')

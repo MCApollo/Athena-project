@@ -1,6 +1,6 @@
 # macvim.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/macvim.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='macvim'
 url=('https://github.com/macvim-dev/macvim/archive/snapshot-153.tar.gz')

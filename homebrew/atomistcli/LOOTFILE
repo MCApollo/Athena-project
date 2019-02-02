@@ -1,6 +1,6 @@
 # atomist-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/atomist-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='atomistcli'
 url=('https://registry.npmjs.org/@atomist/cli/-/@atomist/cli-1.1.0.tgz')

@@ -1,6 +1,6 @@
 # liquidprompt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/liquidprompt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='liquidprompt'
 url=('https://github.com/nojhan/liquidprompt/archive/v_1.11.tar.gz')

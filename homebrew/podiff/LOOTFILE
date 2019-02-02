@@ -1,6 +1,6 @@
 # podiff.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/podiff.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='podiff'
 url=('https://download.gnu.org.ua/pub/release/podiff/podiff-1.1.tar.gz')

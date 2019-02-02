@@ -1,6 +1,6 @@
 # sflowtool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sflowtool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sflowtool'
 url=('https://github.com/sflow/sflowtool/releases/download/v3.41/sflowtool-3.41.tar.gz')

@@ -1,6 +1,6 @@
 # mkl-dnn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mkl-dnn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mkldnn'
 url=('https://github.com/intel/mkl-dnn/archive/v0.17.2.tar.gz')

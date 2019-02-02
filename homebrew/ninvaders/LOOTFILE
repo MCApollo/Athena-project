@@ -1,6 +1,6 @@
 # ninvaders.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ninvaders.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ninvaders'
 url=('https://downloads.sourceforge.net/project/ninvaders/ninvaders/0.1.1/ninvaders-0.1.1.tar.gz')

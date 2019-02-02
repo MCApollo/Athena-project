@@ -1,6 +1,6 @@
 # abcde.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/abcde.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='abcde'
 url=('https://abcde.einval.com/download/abcde-2.9.2.tar.gz')

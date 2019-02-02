@@ -1,6 +1,6 @@
 # log4cplus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/log4cplus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='log4cplus'
 url=('https://downloads.sourceforge.net/project/log4cplus/log4cplus-stable/2.0.2/log4cplus-2.0.2.tar.xz')

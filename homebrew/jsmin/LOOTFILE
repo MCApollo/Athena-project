@@ -1,6 +1,6 @@
 # jsmin.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jsmin.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jsmin'
 url=('https://github.com/douglascrockford/JSMin/archive/1bf6ce5f74a9f8752ac7f5d115b8d7ccb31cfe1b.tar.gz')

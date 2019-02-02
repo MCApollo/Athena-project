@@ -1,6 +1,6 @@
 # badtouch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/badtouch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='badtouch'
 url=('https://github.com/kpcyrd/badtouch/archive/v0.6.1.tar.gz')

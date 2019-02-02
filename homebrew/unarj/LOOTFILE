@@ -1,6 +1,6 @@
 # unarj.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/unarj.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='unarj'
 url=('https://src.fedoraproject.org/repo/pkgs/unarj/unarj-2.65.tar.gz/c6fe45db1741f97155c7def322aa74aa/unarj-2.65.tar.gz')

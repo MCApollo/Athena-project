@@ -1,6 +1,6 @@
 # autopano-sift-c.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/autopano-sift-c.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='autopanosiftc'
 url=('https://downloads.sourceforge.net/project/hugin/autopano-sift-C/autopano-sift-C-2.5.1/autopano-sift-C-2.5.1.tar.gz')

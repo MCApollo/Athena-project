@@ -1,6 +1,6 @@
 # setweblocthumb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/setweblocthumb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='setweblocthumb'
 url=('https://github.com/ali-rantakari/setWeblocThumb/archive/v1.0.0.tar.gz')

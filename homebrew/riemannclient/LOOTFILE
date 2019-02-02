@@ -1,6 +1,6 @@
 # riemann-client.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/riemann-client.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='riemannclient'
 url=('https://github.com/algernon/riemann-c-client/archive/riemann-c-client-1.10.4.tar.gz')

@@ -1,6 +1,6 @@
 # rpm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rpm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rpm'
 url=('http://ftp.rpm.org/releases/rpm-4.14.x/rpm-4.14.2.1.tar.bz2')

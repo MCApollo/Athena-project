@@ -1,6 +1,6 @@
 # tmux-mem-cpu-load.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tmux-mem-cpu-load.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tmuxmemcpuload'
 url=('https://github.com/thewtex/tmux-mem-cpu-load/archive/v3.4.0.tar.gz')

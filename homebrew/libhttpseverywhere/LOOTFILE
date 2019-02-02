@@ -1,6 +1,6 @@
 # libhttpseverywhere.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libhttpseverywhere.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libhttpseverywhere'
 url=('https://download.gnome.org/sources/libhttpseverywhere/0.8/libhttpseverywhere-0.8.3.tar.xz')

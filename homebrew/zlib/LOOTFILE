@@ -1,6 +1,6 @@
 # zlib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zlib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zlib'
 url=('https://zlib.net/zlib-1.2.11.tar.gz')

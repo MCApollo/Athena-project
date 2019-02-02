@@ -1,6 +1,6 @@
 # ditaa.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ditaa.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ditaa'
 url=('https://github.com/stathissideris/ditaa/releases/download/v0.11.0/ditaa-0.11.0-standalone.jar')

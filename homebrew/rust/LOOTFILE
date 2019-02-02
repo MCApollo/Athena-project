@@ -1,6 +1,6 @@
 # rust.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rust.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rust'
 url=('https://static.rust-lang.org/dist/rustc-1.32.0-src.tar.gz')

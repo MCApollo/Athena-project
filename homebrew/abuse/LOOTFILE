@@ -1,6 +1,6 @@
 # abuse.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/abuse.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='abuse'
 url=('http://abuse.zoy.org/raw-attachment/wiki/download/abuse-0.8.tar.gz')

@@ -1,6 +1,6 @@
 # backupninja.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/backupninja.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='backupninja'
 url=('https://sourcearchive.raspbian.org/main/b/backupninja/backupninja_1.0.2.orig.tar.gz')

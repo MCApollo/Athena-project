@@ -1,6 +1,6 @@
 # mk-configure.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mk-configure.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mkconfigure'
 url=('https://downloads.sourceforge.net/project/mk-configure/mk-configure/mk-configure-0.30.0/mk-configure-0.30.0.tar.gz')

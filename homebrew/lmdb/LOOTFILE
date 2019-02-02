@@ -1,6 +1,6 @@
 # lmdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lmdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lmdb'
 url=('https://github.com/LMDB/lmdb/archive/LMDB_0.9.23.tar.gz')

@@ -1,6 +1,6 @@
 # pygtk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pygtk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pygtk'
 url=('https://download.gnome.org/sources/pygtk/2.24/pygtk-2.24.0.tar.bz2')

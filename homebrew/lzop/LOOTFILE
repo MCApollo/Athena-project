@@ -1,6 +1,6 @@
 # lzop.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lzop.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lzop'
 url=('https://dl.bintray.com/homebrew/mirror/lzop-1.04.tar.gz')

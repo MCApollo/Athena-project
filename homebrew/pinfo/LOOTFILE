@@ -1,6 +1,6 @@
 # pinfo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pinfo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pinfo'
 url=('https://mirrorservice.org/sites/distfiles.macports.org/pinfo/pinfo-0.6.10.tar.bz2')

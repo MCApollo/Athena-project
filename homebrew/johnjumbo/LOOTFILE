@@ -1,6 +1,6 @@
 # john-jumbo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/john-jumbo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='johnjumbo'
 url=('https://openwall.com/john/j/john-1.8.0-jumbo-1.tar.xz')

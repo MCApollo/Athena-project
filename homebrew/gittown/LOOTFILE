@@ -1,6 +1,6 @@
 # git-town.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-town.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gittown'
 url=('https://github.com/Originate/git-town/archive/v7.2.0.tar.gz')

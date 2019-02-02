@@ -1,6 +1,6 @@
 # center-im.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/center-im.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='centerim'
 url=('https://www.centerim.org/download/releases/centerim-4.22.10.tar.gz')

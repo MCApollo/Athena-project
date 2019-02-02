@@ -1,6 +1,6 @@
 # libnfc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libnfc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libnfc'
 url=('https://bintray.com/artifact/download/nfc-tools/sources/libnfc-1.7.1.tar.bz2')

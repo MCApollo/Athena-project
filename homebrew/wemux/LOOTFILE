@@ -1,6 +1,6 @@
 # wemux.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wemux.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wemux'
 url=('https://github.com/zolrath/wemux/archive/v3.2.0.tar.gz')

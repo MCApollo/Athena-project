@@ -1,6 +1,6 @@
 # go.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/go.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='go'
 url=('https://dl.google.com/go/go1.11.5.src.tar.gz')

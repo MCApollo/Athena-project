@@ -1,6 +1,6 @@
 # gstreamer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gstreamer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gstreamer'
 url=('https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.14.4.tar.xz')

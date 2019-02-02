@@ -1,6 +1,6 @@
 # libnids.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libnids.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libnids'
 url=('https://downloads.sourceforge.net/project/libnids/libnids/1.24/libnids-1.24.tar.gz')

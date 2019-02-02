@@ -1,6 +1,6 @@
 # tika.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tika.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tika'
 url=('https://www.apache.org/dyn/closer.cgi?path=tika/tika-app-1.20.jar')

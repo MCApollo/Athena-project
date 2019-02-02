@@ -1,6 +1,6 @@
 # liboping.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/liboping.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='liboping'
 url=('https://noping.cc/files/liboping-1.10.0.tar.bz2')

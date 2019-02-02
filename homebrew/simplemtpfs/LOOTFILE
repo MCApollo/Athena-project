@@ -1,6 +1,6 @@
 # simple-mtpfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/simple-mtpfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='simplemtpfs'
 url=('https://github.com/phatina/simple-mtpfs/archive/simple-mtpfs-0.3.0.tar.gz')

@@ -1,6 +1,6 @@
 # spdlog.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spdlog.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spdlog'
 url=('https://github.com/gabime/spdlog/archive/v1.3.1.tar.gz')

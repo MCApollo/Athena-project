@@ -1,6 +1,6 @@
 # scalastyle.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scalastyle.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scalastyle'
 url=('https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.12/1.0.0/scalastyle_2.12-1.0.0-batch.jar')

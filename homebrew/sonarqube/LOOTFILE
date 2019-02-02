@@ -1,6 +1,6 @@
 # sonarqube.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sonarqube.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sonarqube'
 url=('https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.4.zip')

@@ -1,6 +1,6 @@
 # pdf2json.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdf2json.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pdf2json'
 url=('https://github.com/flexpaper/pdf2json/releases/download/v0.69/pdf2json-0.69.tar.gz')

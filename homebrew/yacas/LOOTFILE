@@ -1,6 +1,6 @@
 # yacas.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yacas.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yacas'
 url=('https://github.com/grzegorzmazur/yacas/archive/v1.6.1.tar.gz')

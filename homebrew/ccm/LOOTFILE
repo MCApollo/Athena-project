@@ -1,6 +1,6 @@
 # ccm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ccm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ccm'
 url=('https://files.pythonhosted.org/packages/fc/ab/b51afd466cc4acf2192e230ddb6fd3adb56066f05c7be1852af7bd655068/ccm-3.1.4.tar.gz')

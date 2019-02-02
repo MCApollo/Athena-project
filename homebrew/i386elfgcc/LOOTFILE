@@ -1,6 +1,6 @@
 # i386-elf-gcc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/i386-elf-gcc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='i386elfgcc'
 url=('https://mirrors.nju.edu.cn/gnu/gcc/gcc-8.2.0/gcc-8.2.0.tar.xz')

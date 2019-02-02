@@ -1,6 +1,6 @@
 # s3ql.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/s3ql.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='s3ql'
 url=('https://github.com/s3ql/s3ql/releases/download/release-2.33/s3ql-2.33.tar.bz2')

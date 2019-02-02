@@ -1,6 +1,6 @@
 # sane-backends.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sane-backends.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sanebackends'
 url=('https://mirrors.kernel.org/debian/pool/main/s/sane-backends/sane-backends_1.0.27.orig.tar.gz')

@@ -1,6 +1,6 @@
 # cookiecutter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cookiecutter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cookiecutter'
 url=('https://github.com/audreyr/cookiecutter/archive/1.6.0.tar.gz')

@@ -1,6 +1,6 @@
 # sslscan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sslscan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sslscan'
 url=('https://github.com/rbsec/sslscan/archive/1.11.12-rbsec.tar.gz')

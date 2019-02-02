@@ -1,6 +1,6 @@
 # galen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/galen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='galen'
 url=('https://github.com/galenframework/galen/releases/download/galen-2.3.7/galen-bin-2.3.7.zip')

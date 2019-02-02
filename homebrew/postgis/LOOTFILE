@@ -1,6 +1,6 @@
 # postgis.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/postgis.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='postgis'
 url=('https://download.osgeo.org/postgis/source/postgis-2.5.1.tar.gz')

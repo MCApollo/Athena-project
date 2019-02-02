@@ -1,6 +1,6 @@
 # hydra.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hydra.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hydra'
 url=('https://github.com/vanhauser-thc/thc-hydra/archive/v8.8.tar.gz')

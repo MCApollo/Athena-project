@@ -1,6 +1,6 @@
 # widelands.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/widelands.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='widelands'
 url=('https://launchpad.net/widelands/build19/build19/+download/widelands-build19-src.tar.bz2')

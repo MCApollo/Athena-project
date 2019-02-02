@@ -1,6 +1,6 @@
 # mockserver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mockserver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mockserver'
 url=('https://oss.sonatype.org/content/repositories/releases/org/mock-server/mockserver-netty/5.5.1/mockserver-netty-5.5.1-brew-tar.tar')

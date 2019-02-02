@@ -1,6 +1,6 @@
 # polipo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/polipo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='polipo'
 url=('https://www.irif.univ-paris-diderot.fr/~jch/software/files/polipo/polipo-1.1.1.tar.gz')

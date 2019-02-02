@@ -1,6 +1,6 @@
 # cgit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cgit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cgit'
 url=('https://git.zx2c4.com/cgit/snapshot/cgit-1.2.1.tar.xz')

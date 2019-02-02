@@ -1,6 +1,6 @@
 # byobu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/byobu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='byobu'
 url=('https://launchpad.net/byobu/trunk/5.127/+download/byobu_5.127.orig.tar.gz')

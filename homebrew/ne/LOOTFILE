@@ -1,6 +1,6 @@
 # ne.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ne.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ne'
 url=('https://github.com/vigna/ne/archive/3.1.2.tar.gz')

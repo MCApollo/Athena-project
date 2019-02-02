@@ -1,6 +1,6 @@
 # miniserve.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/miniserve.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='miniserve'
 url=('https://github.com/svenstaro/miniserve/archive/v0.2.1.tar.gz')

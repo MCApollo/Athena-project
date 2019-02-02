@@ -1,6 +1,6 @@
 # clipsafe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clipsafe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clipsafe'
 url=('http://waxandwane.org/download/clipsafe-1.1.tar.gz')

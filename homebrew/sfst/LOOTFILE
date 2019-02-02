@@ -1,6 +1,6 @@
 # sfst.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sfst.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sfst'
 url=('http://www.cis.uni-muenchen.de/~schmid/tools/SFST/data/SFST-1.4.7d.tar.gz')

@@ -1,6 +1,6 @@
 # cataclysm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cataclysm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cataclysm'
 url=('https://github.com/CleverRaven/Cataclysm-DDA/archive/0.C.tar.gz')

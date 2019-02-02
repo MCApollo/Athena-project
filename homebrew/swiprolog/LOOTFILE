@@ -1,6 +1,6 @@
 # swi-prolog.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/swi-prolog.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='swiprolog'
 url=('http://www.swi-prolog.org/download/stable/src/swipl-7.6.4.tar.gz')

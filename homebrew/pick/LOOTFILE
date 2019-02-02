@@ -1,6 +1,6 @@
 # pick.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pick.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pick'
 url=('https://github.com/calleerlandsson/pick/releases/download/v2.0.2/pick-2.0.2.tar.gz')

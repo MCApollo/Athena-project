@@ -1,6 +1,6 @@
 # gcutil.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gcutil.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gcutil'
 url=('https://dl.google.com/dl/cloudsdk/release/artifacts/gcutil-1.16.1.zip')

@@ -1,6 +1,6 @@
 # black.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/black.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='black'
 url=('https://files.pythonhosted.org/packages/e8/5f/0f79fcd943ba465cbd4bf303c9794970c13a95e5456630de9f72e7f37ad4/black-18.9b0.tar.gz')

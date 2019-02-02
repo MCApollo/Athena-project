@@ -1,6 +1,6 @@
 # cutter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cutter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cutter'
 url=('https://downloads.sourceforge.net/project/cutter/cutter/1.2.6/cutter-1.2.6.tar.gz')

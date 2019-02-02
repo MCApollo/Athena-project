@@ -1,6 +1,6 @@
 # basex.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/basex.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='basex'
 url=('http://files.basex.org/releases/9.1.2/BaseX912.zip')

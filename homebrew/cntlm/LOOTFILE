@@ -1,6 +1,6 @@
 # cntlm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cntlm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cntlm'
 url=('https://downloads.sourceforge.net/project/cntlm/cntlm/cntlm%200.92.3/cntlm-0.92.3.tar.bz2')

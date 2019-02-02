@@ -1,6 +1,6 @@
 # kerl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/kerl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='kerl'
 url=('https://github.com/kerl/kerl/archive/1.8.5.tar.gz')

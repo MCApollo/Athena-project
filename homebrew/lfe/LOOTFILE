@@ -1,6 +1,6 @@
 # lfe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lfe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lfe'
 url=('https://github.com/rvirding/lfe/archive/v1.3.tar.gz')

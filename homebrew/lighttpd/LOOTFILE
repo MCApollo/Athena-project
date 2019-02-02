@@ -1,6 +1,6 @@
 # lighttpd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lighttpd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lighttpd'
 url=('https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.52.tar.xz')

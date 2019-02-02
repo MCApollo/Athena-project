@@ -1,6 +1,6 @@
 # libstatgrab.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libstatgrab.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libstatgrab'
 url=('https://ftp.i-scream.org/pub/i-scream/libstatgrab/libstatgrab-0.91.tar.gz')

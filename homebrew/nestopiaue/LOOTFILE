@@ -1,6 +1,6 @@
 # nestopia-ue.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nestopia-ue.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nestopiaue'
 url=('https://downloads.sourceforge.net/project/nestopiaue/1.49/nestopia-1.49.tgz')

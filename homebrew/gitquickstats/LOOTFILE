@@ -1,6 +1,6 @@
 # git-quick-stats.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-quick-stats.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitquickstats'
 url=('https://github.com/arzzen/git-quick-stats/archive/2.0.2.tar.gz')

@@ -1,6 +1,6 @@
 # configen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/configen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='configen'
 url=('https://github.com/theappbusiness/ConfigGenerator/archive/v1.0.2.tar.gz')

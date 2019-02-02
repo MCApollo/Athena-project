@@ -1,6 +1,6 @@
 # gzip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gzip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gzip'
 url=('https://ftp.gnu.org/gnu/gzip/gzip-1.10.tar.gz')

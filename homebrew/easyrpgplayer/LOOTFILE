@@ -1,6 +1,6 @@
 # easyrpg-player.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/easyrpg-player.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='easyrpgplayer'
 url=('https://easyrpg.org/downloads/player/easyrpg-player-0.5.3.tar.gz')

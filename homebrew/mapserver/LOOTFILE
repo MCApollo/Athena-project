@@ -1,6 +1,6 @@
 # mapserver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mapserver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mapserver'
 url=('https://download.osgeo.org/mapserver/mapserver-7.2.1.tar.gz')

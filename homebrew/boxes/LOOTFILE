@@ -1,6 +1,6 @@
 # boxes.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/boxes.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='boxes'
 url=('https://github.com/ascii-boxes/boxes/archive/v1.2.tar.gz')

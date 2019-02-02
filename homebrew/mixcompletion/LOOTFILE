@@ -1,6 +1,6 @@
 # mix-completion.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mix-completion.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mixcompletion'
 url=('https://github.com/davidhq/mix-power-completion/archive/0.8.2.tar.gz')

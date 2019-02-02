@@ -1,6 +1,6 @@
 # libxslt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxslt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libxslt'
 url=('http://xmlsoft.org/sources/libxslt-1.1.33.tar.gz')

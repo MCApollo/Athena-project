@@ -1,6 +1,6 @@
 # libmtp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmtp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmtp'
 url=('https://downloads.sourceforge.net/project/libmtp/libmtp/1.1.15/libmtp-1.1.15.tar.gz')

@@ -1,6 +1,6 @@
 # plzip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/plzip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='plzip'
 url=('https://download.savannah.gnu.org/releases/lzip/plzip/plzip-1.7.tar.gz')

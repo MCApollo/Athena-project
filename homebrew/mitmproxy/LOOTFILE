@@ -1,6 +1,6 @@
 # mitmproxy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mitmproxy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mitmproxy'
 url=('https://github.com/mitmproxy/mitmproxy/archive/v4.0.4.tar.gz')

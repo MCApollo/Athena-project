@@ -1,6 +1,6 @@
 # libbdplus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbdplus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbdplus'
 url=('https://download.videolan.org/pub/videolan/libbdplus/0.1.2/libbdplus-0.1.2.tar.bz2')

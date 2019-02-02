@@ -1,6 +1,6 @@
 # gammaray.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gammaray.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gammaray'
 url=('https://github.com/KDAB/GammaRay/releases/download/v2.10.0/gammaray-2.10.0.tar.gz')

@@ -1,6 +1,6 @@
 # redo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/redo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='redo'
 url=('https://github.com/apenwarr/redo/archive/redo-0.21.tar.gz')

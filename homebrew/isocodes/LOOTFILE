@@ -1,6 +1,6 @@
 # iso-codes.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/iso-codes.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='isocodes'
 url=('https://deb.debian.org/debian/pool/main/i/iso-codes/iso-codes_4.2.orig.tar.xz')

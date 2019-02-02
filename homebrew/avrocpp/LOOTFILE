@@ -1,6 +1,6 @@
 # avro-cpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/avro-cpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='avrocpp'
 url=('https://www.apache.org/dyn/closer.cgi?path=avro/avro-1.8.2/cpp/avro-cpp-1.8.2.tar.gz')

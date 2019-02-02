@@ -1,6 +1,6 @@
 # libvbucket.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libvbucket.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libvbucket'
 url=('https://s3.amazonaws.com/packages.couchbase.com/clients/c/libvbucket-1.8.0.4.tar.gz')

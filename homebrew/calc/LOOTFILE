@@ -1,6 +1,6 @@
 # calc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/calc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='calc'
 url=('https://downloads.sourceforge.net/project/calc/calc/2.12.7.1/calc-2.12.7.1.tar.bz2')

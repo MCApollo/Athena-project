@@ -1,6 +1,6 @@
 # dex2jar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dex2jar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dex2jar'
 url=('https://downloads.sourceforge.net/project/dex2jar/dex2jar-2.0.zip')

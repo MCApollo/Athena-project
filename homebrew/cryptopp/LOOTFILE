@@ -1,6 +1,6 @@
 # cryptopp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cryptopp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cryptopp'
 url=('https://github.com/weidai11/cryptopp/archive/CRYPTOPP_8_0_0.tar.gz')

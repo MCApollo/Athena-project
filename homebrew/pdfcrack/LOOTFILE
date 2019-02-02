@@ -1,6 +1,6 @@
 # pdfcrack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdfcrack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pdfcrack'
 url=('https://downloads.sourceforge.net/project/pdfcrack/pdfcrack/pdfcrack-0.16/pdfcrack-0.16.tar.gz')

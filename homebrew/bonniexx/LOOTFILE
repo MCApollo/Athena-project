@@ -1,6 +1,6 @@
 # bonnie++.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bonnie++.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bonniexx'
 url=('https://www.coker.com.au/bonnie++/bonnie++-1.97.3.tgz')

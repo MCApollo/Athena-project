@@ -1,6 +1,6 @@
 # fn.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fn.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fn'
 url=('https://github.com/fnproject/cli/archive/0.5.44.tar.gz')

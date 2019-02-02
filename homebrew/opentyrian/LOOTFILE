@@ -1,6 +1,6 @@
 # open-tyrian.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/open-tyrian.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opentyrian'
 url=('https://www.camanis.net/opentyrian/releases/opentyrian-2.1.20130907-src.tar.gz')

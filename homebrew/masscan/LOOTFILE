@@ -1,6 +1,6 @@
 # masscan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/masscan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='masscan'
 url=('https://github.com/robertdavidgraham/masscan/archive/1.0.5.tar.gz')

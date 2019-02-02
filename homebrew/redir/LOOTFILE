@@ -1,6 +1,6 @@
 # redir.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/redir.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='redir'
 url=('https://github.com/TracyWebTech/redir/archive/2.2.1-9.tar.gz')

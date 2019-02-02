@@ -1,6 +1,6 @@
 # gdmap.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gdmap.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gdmap'
 url=('https://downloads.sourceforge.net/project/gdmap/gdmap/0.8.1/gdmap-0.8.1.tar.gz')

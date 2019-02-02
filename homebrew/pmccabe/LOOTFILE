@@ -1,6 +1,6 @@
 # pmccabe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pmccabe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pmccabe'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/p/pmccabe/pmccabe_2.6.tar.gz')

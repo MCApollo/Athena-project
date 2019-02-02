@@ -1,6 +1,6 @@
 # openmsx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openmsx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openmsx'
 url=('https://github.com/openMSX/openMSX/releases/download/RELEASE_0_15_0/openmsx-0.15.0.tar.gz')

@@ -1,6 +1,6 @@
 # sofia-sip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sofia-sip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sofiasip'
 url=('https://downloads.sourceforge.net/project/sofia-sip/sofia-sip/1.12.11/sofia-sip-1.12.11.tar.gz')

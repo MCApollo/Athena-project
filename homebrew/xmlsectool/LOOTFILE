@@ -1,6 +1,6 @@
 # xmlsectool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmlsectool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xmlsectool'
 url=('https://shibboleth.net/downloads/tools/xmlsectool/latest/xmlsectool-2.0.0-bin.zip')

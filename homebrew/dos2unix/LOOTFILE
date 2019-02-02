@@ -1,6 +1,6 @@
 # dos2unix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dos2unix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dos2unix'
 url=('https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.4.0.tar.gz')

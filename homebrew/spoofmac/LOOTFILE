@@ -1,6 +1,6 @@
 # spoof-mac.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spoof-mac.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spoofmac'
 url=('https://files.pythonhosted.org/packages/9c/59/cc52a4c5d97b01fac7ff048353f8dc96f217eadc79022f78455e85144028/SpoofMAC-2.1.1.tar.gz')

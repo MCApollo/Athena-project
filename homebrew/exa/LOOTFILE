@@ -1,6 +1,6 @@
 # exa.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/exa.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='exa'
 url=('https://github.com/ogham/exa/archive/v0.8.0.tar.gz')

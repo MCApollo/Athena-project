@@ -1,6 +1,6 @@
 # minised.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minised.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minised'
 url=('https://dl.exactcode.de/oss/minised/minised-1.15.tar.gz')

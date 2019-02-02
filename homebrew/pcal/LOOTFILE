@@ -1,6 +1,6 @@
 # pcal.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pcal.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pcal'
 url=('https://downloads.sourceforge.net/project/pcal/pcal/pcal-4.11.0/pcal-4.11.0.tgz')

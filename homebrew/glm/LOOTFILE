@@ -1,6 +1,6 @@
 # glm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glm'
 url=('https://github.com/g-truc/glm/releases/download/0.9.9.3/glm-0.9.9.3.zip')

@@ -1,6 +1,6 @@
 # mydumper.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mydumper.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mydumper'
 url=('https://launchpad.net/mydumper/0.9/0.9.1/+download/mydumper-0.9.1.tar.gz')

@@ -1,6 +1,6 @@
 # docker-machine-parallels.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-machine-parallels.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockermachineparallels'
 url=('https://github.com/Parallels/docker-machine-parallels/archive/v1.4.0.tar.gz')

@@ -1,6 +1,6 @@
 # rst-lint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rst-lint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rstlint'
 url=('https://github.com/twolfson/restructuredtext-lint/archive/1.2.1.tar.gz')

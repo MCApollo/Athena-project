@@ -1,6 +1,6 @@
 # amqp-cpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/amqp-cpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='amqpcpp'
 url=('https://github.com/CopernicaMarketingSoftware/AMQP-CPP/archive/v4.1.1.tar.gz')

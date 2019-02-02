@@ -1,6 +1,6 @@
 # recoverjpeg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/recoverjpeg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='recoverjpeg'
 url=('https://www.rfc1149.net/download/recoverjpeg/recoverjpeg-2.6.2.tar.gz')

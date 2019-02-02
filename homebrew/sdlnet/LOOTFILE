@@ -1,6 +1,6 @@
 # sdl_net.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdl_net.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sdlnet'
 url=('https://www.libsdl.org/projects/SDL_net/release/SDL_net-1.2.8.tar.gz')

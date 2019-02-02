@@ -1,6 +1,6 @@
 # yaze-ag.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yaze-ag.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yazeag'
 url=('http://www.mathematik.uni-ulm.de/users/ag/yaze-ag/devel/yaze-ag-2.40.5_with_keytrans.tar.gz')

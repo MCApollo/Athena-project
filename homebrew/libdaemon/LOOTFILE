@@ -1,6 +1,6 @@
 # libdaemon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdaemon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libdaemon'
 url=('http://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz')

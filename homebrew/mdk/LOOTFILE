@@ -1,6 +1,6 @@
 # mdk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mdk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mdk'
 url=('https://ftp.gnu.org/gnu/mdk/v1.2.9/mdk-1.2.9.tar.gz')

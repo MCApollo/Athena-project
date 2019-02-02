@@ -1,6 +1,6 @@
 # ponyc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ponyc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ponyc'
 url=('https://github.com/ponylang/ponyc/archive/0.26.0.tar.gz')

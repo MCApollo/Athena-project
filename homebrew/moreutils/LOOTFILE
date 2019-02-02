@@ -1,6 +1,6 @@
 # moreutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/moreutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='moreutils'
 url=('https://git.joeyh.name/git/moreutils.git')

@@ -1,6 +1,6 @@
 # vtclock.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vtclock.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vtclock'
 url=('https://webonastick.com/vtclock/vtclock-2005-02-20.tar.gz')

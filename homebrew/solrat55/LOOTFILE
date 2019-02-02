@@ -1,6 +1,6 @@
 # solr@5.5.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/solr@5.5.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='solrat55'
 url=('https://www.apache.org/dyn/closer.cgi?path=lucene/solr/5.5.4/solr-5.5.4.tgz')

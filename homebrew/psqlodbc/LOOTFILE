@@ -1,6 +1,6 @@
 # psqlodbc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/psqlodbc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='psqlodbc'
 url=('https://ftp.postgresql.org/pub/odbc/versions/src/psqlodbc-10.03.0000.tar.gz')

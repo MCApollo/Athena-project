@@ -1,6 +1,6 @@
 # elixir.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/elixir.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='elixir'
 url=('https://github.com/elixir-lang/elixir/archive/v1.8.0.tar.gz')

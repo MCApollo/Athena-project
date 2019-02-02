@@ -1,6 +1,6 @@
 # viewvc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/viewvc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='viewvc'
 url=('https://github.com/viewvc/viewvc/releases/download/1.1.26/viewvc-1.1.26.tar.gz')

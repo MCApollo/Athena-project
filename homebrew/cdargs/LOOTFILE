@@ -1,6 +1,6 @@
 # cdargs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cdargs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cdargs'
 url=('https://www.skamphausen.de/downloads/cdargs/cdargs-1.35.tar.gz')

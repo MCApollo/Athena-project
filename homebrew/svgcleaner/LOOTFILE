@@ -1,6 +1,6 @@
 # svgcleaner.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/svgcleaner.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='svgcleaner'
 url=('https://github.com/RazrFalcon/svgcleaner/archive/v0.9.5.tar.gz')

@@ -1,6 +1,6 @@
 # tldr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tldr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tldr'
 url=('https://github.com/tldr-pages/tldr-cpp-client/archive/v1.3.0.tar.gz')

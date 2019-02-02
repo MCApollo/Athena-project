@@ -1,6 +1,6 @@
 # neo4j.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/neo4j.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='neo4j'
 url=('https://neo4j.com/artifact.php\?name\=neo4j-community-3.5.0-unix.tar.gz')

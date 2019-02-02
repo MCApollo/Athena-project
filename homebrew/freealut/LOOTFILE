@@ -1,6 +1,6 @@
 # freealut.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/freealut.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='freealut'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/f/freealut/freealut_1.1.0.orig.tar.gz')

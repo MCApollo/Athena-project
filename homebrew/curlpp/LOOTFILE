@@ -1,6 +1,6 @@
 # curlpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/curlpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='curlpp'
 url=('https://github.com/jpbarrette/curlpp/archive/v0.8.1.tar.gz')

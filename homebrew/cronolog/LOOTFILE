@@ -1,6 +1,6 @@
 # cronolog.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cronolog.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cronolog'
 url=('https://www.mirrorservice.org/sites/distfiles.macports.org/cronolog/cronolog-1.6.2.tar.gz')

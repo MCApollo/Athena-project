@@ -1,6 +1,6 @@
 # libusb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libusb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libusb'
 url=('https://github.com/libusb/libusb/releases/download/v1.0.22/libusb-1.0.22.tar.bz2')

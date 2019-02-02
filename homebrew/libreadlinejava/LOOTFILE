@@ -1,6 +1,6 @@
 # libreadline-java.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libreadline-java.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libreadlinejava'
 url=('https://downloads.sourceforge.net/project/java-readline/java-readline/0.8.0/libreadline-java-0.8.0-src.tar.gz')

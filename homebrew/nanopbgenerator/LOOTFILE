@@ -1,6 +1,6 @@
 # nanopb-generator.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nanopb-generator.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nanopbgenerator'
 url=('https://jpa.kapsi.fi/nanopb/download/nanopb-0.3.9.1.tar.gz')

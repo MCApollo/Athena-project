@@ -1,6 +1,6 @@
 # rbenv-vars.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rbenv-vars.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rbenvvars'
 url=('https://github.com/sstephenson/rbenv-vars/archive/v1.2.0.tar.gz')

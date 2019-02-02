@@ -1,6 +1,6 @@
 # cayley.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cayley.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cayley'
 url=('https://github.com/cayleygraph/cayley/archive/v0.7.5.tar.gz')

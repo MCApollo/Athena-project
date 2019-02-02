@@ -1,6 +1,6 @@
 # dgen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dgen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dgen'
 url=('https://downloads.sourceforge.net/project/dgen/dgen/1.33/dgen-sdl-1.33.tar.gz')

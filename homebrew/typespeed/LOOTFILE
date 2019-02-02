@@ -1,6 +1,6 @@
 # typespeed.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/typespeed.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='typespeed'
 url=('https://downloads.sourceforge.net/project/typespeed/typespeed/0.6.5/typespeed-0.6.5.tar.gz')

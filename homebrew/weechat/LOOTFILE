@@ -1,6 +1,6 @@
 # weechat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/weechat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='weechat'
 url=('https://weechat.org/files/src/weechat-2.3.tar.xz')

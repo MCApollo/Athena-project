@@ -1,6 +1,6 @@
 # httest.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/httest.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='httest'
 url=('https://downloads.sourceforge.net/project/htt/htt2.4/httest-2.4.23/httest-2.4.23.tar.gz')

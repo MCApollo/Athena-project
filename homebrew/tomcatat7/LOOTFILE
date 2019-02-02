@@ -1,6 +1,6 @@
 # tomcat@7.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tomcat@7.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tomcatat7'
 url=('https://www.apache.org/dyn/closer.cgi?path=tomcat/tomcat-7/v7.0.92/bin/apache-tomcat-7.0.92.tar.gz')

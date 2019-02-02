@@ -1,6 +1,6 @@
 # httpry.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/httpry.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='httpry'
 url=('https://github.com/jbittel/httpry/archive/httpry-0.1.8.tar.gz')

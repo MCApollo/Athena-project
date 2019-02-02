@@ -1,6 +1,6 @@
 # gnu-cobol.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-cobol.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnucobol'
 url=('https://downloads.sourceforge.net/project/open-cobol/gnu-cobol/2.2/gnucobol-2.2.tar.xz')

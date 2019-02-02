@@ -1,6 +1,6 @@
 # libmaa.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmaa.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmaa'
 url=('https://downloads.sourceforge.net/project/dict/libmaa/libmaa-1.4.2/libmaa-1.4.2.tar.gz')

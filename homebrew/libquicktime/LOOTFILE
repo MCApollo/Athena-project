@@ -1,6 +1,6 @@
 # libquicktime.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libquicktime.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libquicktime'
 url=('https://downloads.sourceforge.net/project/libquicktime/libquicktime/1.2.4/libquicktime-1.2.4.tar.gz')

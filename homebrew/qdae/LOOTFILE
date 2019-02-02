@@ -1,6 +1,6 @@
 # qdae.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qdae.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qdae'
 url=('https://www.seasip.info/Unix/QDAE/qdae-0.0.10.tar.gz')

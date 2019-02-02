@@ -1,6 +1,6 @@
 # stress-ng.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stress-ng.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stressng'
 url=('https://kernel.ubuntu.com/~cking/tarballs/stress-ng/stress-ng-0.09.11.tar.xz')

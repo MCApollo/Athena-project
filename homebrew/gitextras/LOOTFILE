@@ -1,6 +1,6 @@
 # git-extras.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-extras.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitextras'
 url=('https://github.com/tj/git-extras/archive/4.6.0.tar.gz')

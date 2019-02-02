@@ -1,6 +1,6 @@
 # fizsh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fizsh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fizsh'
 url=('https://downloads.sourceforge.net/project/fizsh/fizsh-1.0.9.tar.gz')

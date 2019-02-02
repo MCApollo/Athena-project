@@ -1,6 +1,6 @@
 # znc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/znc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='znc'
 url=('https://znc.in/releases/archive/znc-1.7.1.tar.gz')

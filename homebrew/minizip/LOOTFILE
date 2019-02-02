@@ -1,6 +1,6 @@
 # minizip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minizip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minizip'
 url=('https://zlib.net/zlib-1.2.11.tar.gz')

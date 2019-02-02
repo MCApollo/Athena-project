@@ -1,6 +1,6 @@
 # game-music-emu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/game-music-emu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gamemusicemu'
 url=('https://bitbucket.org/mpyne/game-music-emu/downloads/game-music-emu-0.6.2.tar.xz')

@@ -1,6 +1,6 @@
 # ebook-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ebook-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ebooktools'
 url=('https://downloads.sourceforge.net/project/ebook-tools/ebook-tools/0.2.2/ebook-tools-0.2.2.tar.gz')

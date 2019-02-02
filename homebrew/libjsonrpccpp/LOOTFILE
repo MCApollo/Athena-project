@@ -1,6 +1,6 @@
 # libjson-rpc-cpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libjson-rpc-cpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libjsonrpccpp'
 url=('https://github.com/cinemast/libjson-rpc-cpp/archive/v1.1.1.tar.gz')

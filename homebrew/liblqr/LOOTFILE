@@ -1,6 +1,6 @@
 # liblqr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/liblqr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='liblqr'
 url=('https://liblqr.wdfiles.com/local--files/en:download-page/liblqr-1-0.4.2.tar.bz2')

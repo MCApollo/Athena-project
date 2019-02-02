@@ -1,6 +1,6 @@
 # rancher-compose.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rancher-compose.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ranchercompose'
 url=('https://github.com/rancher/rancher-compose/archive/v0.12.5.tar.gz')

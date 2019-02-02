@@ -1,6 +1,6 @@
 # nanomsg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nanomsg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nanomsg'
 url=('https://github.com/nanomsg/nanomsg/archive/1.1.5.tar.gz')

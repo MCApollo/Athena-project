@@ -1,6 +1,6 @@
 # libtrace.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtrace.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libtrace'
 url=('https://research.wand.net.nz/software/libtrace/libtrace-4.0.4.tar.bz2')

@@ -1,6 +1,6 @@
 # sshfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sshfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sshfs'
 url=('https://github.com/libfuse/sshfs/releases/download/sshfs-2.10/sshfs-2.10.tar.gz')

@@ -1,6 +1,6 @@
 # fdroidserver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fdroidserver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fdroidserver'
 url=('https://files.pythonhosted.org/packages/74/54/dc4be6eba84682eda5ac72f430aeefa44d52e03665567eab59c0adc7c68f/fdroidserver-1.0.9.tar.gz')

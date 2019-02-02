@@ -1,6 +1,6 @@
 # rt-audio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rt-audio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rtaudio'
 url=('https://www.music.mcgill.ca/~gary/rtaudio/release/rtaudio-5.0.0.tar.gz')

@@ -1,6 +1,6 @@
 # fairymax.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fairymax.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fairymax'
 url=('http://hgm.nubati.net/git/fairymax.git')

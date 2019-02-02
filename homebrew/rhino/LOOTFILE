@@ -1,6 +1,6 @@
 # rhino.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rhino.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rhino'
 url=('https://github.com/mozilla/rhino/releases/download/Rhino1_7_9_Release/rhino-1.7.9.zip')

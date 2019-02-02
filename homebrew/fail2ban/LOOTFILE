@@ -1,6 +1,6 @@
 # fail2ban.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fail2ban.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fail2ban'
 url=('https://github.com/fail2ban/fail2ban/archive/0.10.4.tar.gz')

@@ -1,6 +1,6 @@
 # vault-cli.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vault-cli.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vaultcli'
 url=('https://search.maven.org/remotecontent?filepath=org/apache/jackrabbit/vault/vault-cli/3.1.40/vault-cli-3.1.40-bin.tar.gz')

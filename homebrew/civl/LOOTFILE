@@ -1,6 +1,6 @@
 # civl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/civl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='civl'
 url=('https://vsl.cis.udel.edu/lib/sw/civl/1.7/r3157/release/CIVL-1.7_3157.tgz')

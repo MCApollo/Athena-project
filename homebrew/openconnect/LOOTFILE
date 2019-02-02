@@ -1,6 +1,6 @@
 # openconnect.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openconnect.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openconnect'
 url=('ftp://ftp.infradead.org/pub/openconnect/openconnect-8.02.tar.gz')

@@ -1,6 +1,6 @@
 # exiftags.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/exiftags.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='exiftags'
 url=('https://johnst.org/sw/exiftags/exiftags-1.01.tar.gz')

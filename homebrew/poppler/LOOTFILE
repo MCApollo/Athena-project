@@ -1,6 +1,6 @@
 # poppler.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/poppler.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='poppler'
 url=('https://poppler.freedesktop.org/poppler-0.73.0.tar.xz')

@@ -1,6 +1,6 @@
 # burp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/burp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='burp'
 url=('https://downloads.sourceforge.net/project/burp/burp-2.1.32/burp-2.1.32.tar.bz2')

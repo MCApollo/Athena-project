@@ -1,6 +1,6 @@
 # lesstif.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lesstif.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lesstif'
 url=('https://downloads.sourceforge.net/project/lesstif/lesstif/0.95.2/lesstif-0.95.2.tar.bz2')

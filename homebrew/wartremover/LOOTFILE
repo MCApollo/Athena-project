@@ -1,6 +1,6 @@
 # wartremover.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wartremover.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wartremover'
 url=('https://github.com/wartremover/wartremover/archive/v2.3.7.tar.gz')

@@ -1,6 +1,6 @@
 # libspnav.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libspnav.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libspnav'
 url=('https://downloads.sourceforge.net/project/spacenav/spacenav%20library%20%28SDK%29/libspnav%200.2.3/libspnav-0.2.3.tar.gz')

@@ -1,6 +1,6 @@
 # ragel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ragel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ragel'
 url=('https://www.colm.net/files/ragel/ragel-6.10.tar.gz')

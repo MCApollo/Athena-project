@@ -1,6 +1,6 @@
 # depqbf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/depqbf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='depqbf'
 url=('https://github.com/lonsing/depqbf/archive/version-6.03.tar.gz')

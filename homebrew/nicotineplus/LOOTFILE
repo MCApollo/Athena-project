@@ -1,6 +1,6 @@
 # nicotine-plus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nicotine-plus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nicotineplus'
 url=('https://github.com/Nicotine-Plus/nicotine-plus/archive/1.4.1.tar.gz')

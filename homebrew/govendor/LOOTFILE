@@ -1,6 +1,6 @@
 # govendor.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/govendor.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='govendor'
 url=('https://github.com/kardianos/govendor/archive/v1.0.9.tar.gz')

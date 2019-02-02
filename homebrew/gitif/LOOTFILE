@@ -1,6 +1,6 @@
 # git-if.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-if.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitif'
 url=('https://ifarchive.org/if-archive/programming/glulx/interpreters/git/git-135.zip')

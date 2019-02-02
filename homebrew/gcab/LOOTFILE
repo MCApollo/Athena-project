@@ -1,6 +1,6 @@
 # gcab.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gcab.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gcab'
 url=('https://download.gnome.org/sources/gcab/1.2/gcab-1.2.tar.xz')

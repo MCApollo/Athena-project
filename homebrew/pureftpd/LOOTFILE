@@ -1,6 +1,6 @@
 # pure-ftpd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pure-ftpd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pureftpd'
 url=('https://download.pureftpd.org/pub/pure-ftpd/releases/pure-ftpd-1.0.47.tar.gz')

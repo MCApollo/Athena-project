@@ -1,6 +1,6 @@
 # igv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/igv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='igv'
 url=('https://data.broadinstitute.org/igv/projects/downloads/2.4/IGV_2.4.14.zip')

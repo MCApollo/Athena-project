@@ -1,6 +1,6 @@
 # google-authenticator-libpam.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/google-authenticator-libpam.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='googleauthenticatorlibpam'
 url=('https://github.com/google/google-authenticator-libpam/archive/1.05.tar.gz')

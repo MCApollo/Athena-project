@@ -1,6 +1,6 @@
 # pms.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pms.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pms'
 url=('https://downloads.sourceforge.net/project/pms/pms/0.42/pms-0.42.tar.bz2')

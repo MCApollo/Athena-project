@@ -1,6 +1,6 @@
 # jenkins.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jenkins.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jenkins'
 url=('http://mirrors.jenkins.io/war/2.162/jenkins.war')

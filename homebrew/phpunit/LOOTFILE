@@ -1,6 +1,6 @@
 # phpunit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/phpunit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='phpunit'
 url=('https://phar.phpunit.de/phpunit-7.5.2.phar')

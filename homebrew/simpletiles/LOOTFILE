@@ -1,6 +1,6 @@
 # simple-tiles.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/simple-tiles.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='simpletiles'
 url=('https://github.com/propublica/simple-tiles/archive/v0.6.1.tar.gz')

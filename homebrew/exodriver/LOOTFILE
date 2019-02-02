@@ -1,6 +1,6 @@
 # exodriver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/exodriver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='exodriver'
 url=('https://github.com/labjack/exodriver/archive/v2.5.3.tar.gz')

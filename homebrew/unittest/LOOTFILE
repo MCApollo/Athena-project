@@ -1,6 +1,6 @@
 # unittest.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/unittest.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='unittest'
 url=('http://unittest.red-bean.com/tar/unittest-0.50-62.tar.gz')

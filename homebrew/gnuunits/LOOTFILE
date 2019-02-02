@@ -1,6 +1,6 @@
 # gnu-units.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-units.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnuunits'
 url=('https://ftp.gnu.org/gnu/units/units-2.18.tar.gz')

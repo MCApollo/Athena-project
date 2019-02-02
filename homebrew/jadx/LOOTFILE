@@ -1,6 +1,6 @@
 # jadx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jadx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jadx'
 url=('https://github.com/skylot/jadx/releases/download/v0.8.0/jadx-0.8.0.zip')

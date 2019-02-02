@@ -1,6 +1,6 @@
 # annie.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/annie.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='annie'
 url=('https://github.com/iawia002/annie/archive/0.9.1.tar.gz')

@@ -1,6 +1,6 @@
 # wine.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wine.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wine'
 url=('https://dl.winehq.org/wine/source/4.0/wine-4.0.tar.xz')

@@ -1,6 +1,6 @@
 # stone-soup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stone-soup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stonesoup'
 url=('https://crawl.develz.org/release/0.22/stone_soup-0.22.1.tar.xz')

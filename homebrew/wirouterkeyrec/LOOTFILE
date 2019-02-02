@@ -1,6 +1,6 @@
 # wirouter_keyrec.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wirouter_keyrec.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wirouterkeyrec'
 url=('https://www.mirrorservice.org/sites/distfiles.macports.org/wirouterkeyrec/WiRouter_KeyRec_1.1.2.zip')

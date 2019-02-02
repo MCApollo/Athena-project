@@ -1,6 +1,6 @@
 # snap-telemetry.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/snap-telemetry.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snaptelemetry'
 url=('https://github.com/intelsdi-x/snap/archive/2.0.0.tar.gz')

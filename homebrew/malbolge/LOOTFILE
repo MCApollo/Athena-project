@@ -1,6 +1,6 @@
 # malbolge.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/malbolge.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='malbolge'
 url=('https://esoteric.sange.fi/orphaned/malbolge/malbolge.c')

@@ -1,6 +1,6 @@
 # rssh.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rssh.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rssh'
 url=('https://downloads.sourceforge.net/project/rssh/rssh/2.3.4/rssh-2.3.4.tar.gz')

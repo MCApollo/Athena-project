@@ -1,6 +1,6 @@
 # mpck.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpck.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mpck'
 url=('http://checkmate.gissen.nl/checkmate-0.19.tar.gz')

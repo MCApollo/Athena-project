@@ -1,6 +1,6 @@
 # mp3info.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mp3info.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mp3info'
 url=('https://www.ibiblio.org/pub/linux/apps/sound/mp3-utils/mp3info/mp3info-0.8.5a.tgz')

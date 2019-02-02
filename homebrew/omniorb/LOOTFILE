@@ -1,6 +1,6 @@
 # omniorb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/omniorb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='omniorb'
 url=('https://downloads.sourceforge.net/project/omniorb/omniORB/omniORB-4.2.2/omniORB-4.2.2.tar.bz2')

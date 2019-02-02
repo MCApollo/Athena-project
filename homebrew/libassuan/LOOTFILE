@@ -1,6 +1,6 @@
 # libassuan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libassuan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libassuan'
 url=('https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.2.tar.bz2')

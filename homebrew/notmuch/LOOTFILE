@@ -1,6 +1,6 @@
 # notmuch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/notmuch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='notmuch'
 url=('https://notmuchmail.org/releases/notmuch-0.27.tar.gz')

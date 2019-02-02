@@ -1,6 +1,6 @@
 # superlu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/superlu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='superlu'
 url=('http://crd-legacy.lbl.gov/~xiaoye/SuperLU/superlu_5.2.1.tar.gz')

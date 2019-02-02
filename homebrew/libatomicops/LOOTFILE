@@ -1,6 +1,6 @@
 # libatomic_ops.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libatomic_ops.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libatomicops'
 url=('https://github.com/ivmai/libatomic_ops/releases/download/v7.6.8/libatomic_ops-7.6.8.tar.gz')

@@ -1,6 +1,6 @@
 # biogeme.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/biogeme.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='biogeme'
 url=('https://biogeme.epfl.ch/distrib/biogeme-2.6a.tar.gz')

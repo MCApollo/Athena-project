@@ -1,6 +1,6 @@
 # archi-steam-farm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/archi-steam-farm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='archisteamfarm'
 url=('https://github.com/JustArchi/ArchiSteamFarm/releases/download/2.3.2.0/ASF.zip')

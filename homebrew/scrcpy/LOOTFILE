@@ -1,6 +1,6 @@
 # scrcpy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scrcpy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scrcpy'
 url=('https://github.com/Genymobile/scrcpy/archive/v1.6.tar.gz')

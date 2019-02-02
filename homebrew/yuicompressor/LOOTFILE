@@ -1,6 +1,6 @@
 # yuicompressor.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yuicompressor.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yuicompressor'
 url=('https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.zip')

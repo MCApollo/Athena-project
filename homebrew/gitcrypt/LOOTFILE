@@ -1,6 +1,6 @@
 # git-crypt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-crypt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitcrypt'
 url=('https://www.agwa.name/projects/git-crypt/downloads/git-crypt-0.6.0.tar.gz')

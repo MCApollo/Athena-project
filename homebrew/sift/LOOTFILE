@@ -1,6 +1,6 @@
 # sift.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sift.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sift'
 url=('https://github.com/svent/sift/archive/v0.9.0.tar.gz')

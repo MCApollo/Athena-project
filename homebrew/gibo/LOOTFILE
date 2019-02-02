@@ -1,6 +1,6 @@
 # gibo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gibo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gibo'
 url=('https://github.com/simonwhitaker/gibo/archive/2.1.2.tar.gz')

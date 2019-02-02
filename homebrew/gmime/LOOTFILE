@@ -1,6 +1,6 @@
 # gmime.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmime.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gmime'
 url=('https://download.gnome.org/sources/gmime/3.2/gmime-3.2.3.tar.xz')

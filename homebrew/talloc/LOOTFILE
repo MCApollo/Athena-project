@@ -1,6 +1,6 @@
 # talloc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/talloc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='talloc'
 url=('https://www.samba.org/ftp/talloc/talloc-2.1.14.tar.gz')

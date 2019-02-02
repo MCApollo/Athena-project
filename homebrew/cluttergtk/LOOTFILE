@@ -1,6 +1,6 @@
 # clutter-gtk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clutter-gtk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cluttergtk'
 url=('https://download.gnome.org/sources/clutter-gtk/1.8/clutter-gtk-1.8.4.tar.xz')

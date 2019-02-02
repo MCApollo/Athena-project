@@ -1,6 +1,6 @@
 # arx-libertatis.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/arx-libertatis.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='arxlibertatis'
 url=('https://arx-libertatis.org/files/arx-libertatis-1.1.2.tar.xz')

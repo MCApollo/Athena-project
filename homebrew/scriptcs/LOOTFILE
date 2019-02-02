@@ -1,6 +1,6 @@
 # scriptcs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scriptcs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scriptcs'
 url=('https://github.com/scriptcs/scriptcs/archive/v0.17.1.tar.gz')

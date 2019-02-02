@@ -1,6 +1,6 @@
 # libmspub.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libmspub.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libmspub'
 url=('https://dev-www.libreoffice.org/src/libmspub/libmspub-0.1.4.tar.xz')

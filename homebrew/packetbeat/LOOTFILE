@@ -1,6 +1,6 @@
 # packetbeat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/packetbeat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='packetbeat'
 url=('https://github.com/elastic/beats/archive/v6.2.4.tar.gz')

@@ -1,6 +1,6 @@
 # libming.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libming.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libming'
 url=('https://github.com/libming/libming/archive/ming-0_4_8.tar.gz')

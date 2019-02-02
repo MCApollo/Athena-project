@@ -1,6 +1,6 @@
 # boom-completion.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/boom-completion.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='boomcompletion'
 url=('https://github.com/holman/boom/archive/v0.5.0.tar.gz')

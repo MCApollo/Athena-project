@@ -1,6 +1,6 @@
 # docker2aci.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker2aci.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='docker2aci'
 url=('https://github.com/appc/docker2aci/archive/v0.17.2.tar.gz')

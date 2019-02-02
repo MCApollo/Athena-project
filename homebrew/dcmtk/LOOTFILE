@@ -1,6 +1,6 @@
 # dcmtk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dcmtk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dcmtk'
 url=('https://dicom.offis.de/download/dcmtk/dcmtk363/dcmtk-3.6.3.tar.gz')

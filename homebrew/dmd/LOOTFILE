@@ -1,6 +1,6 @@
 # dmd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dmd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dmd'
 url=('https://github.com/dlang/dmd/archive/v2.084.0.tar.gz')

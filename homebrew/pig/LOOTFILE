@@ -1,6 +1,6 @@
 # pig.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pig.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pig'
 url=('https://www.apache.org/dyn/closer.cgi?path=pig/pig-0.17.0/pig-0.17.0.tar.gz')

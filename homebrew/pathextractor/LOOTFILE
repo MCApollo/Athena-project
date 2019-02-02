@@ -1,6 +1,6 @@
 # path-extractor.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/path-extractor.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pathextractor'
 url=('https://github.com/edi9999/path-extractor/archive/v0.2.0.tar.gz')

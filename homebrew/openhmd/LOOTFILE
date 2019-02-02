@@ -1,6 +1,6 @@
 # openhmd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openhmd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openhmd'
 url=('https://github.com/OpenHMD/OpenHMD/archive/0.2.0.tar.gz')

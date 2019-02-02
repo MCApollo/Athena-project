@@ -1,6 +1,6 @@
 # mvtools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mvtools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mvtools'
 url=('https://github.com/dubhater/vapoursynth-mvtools/archive/v20.tar.gz')

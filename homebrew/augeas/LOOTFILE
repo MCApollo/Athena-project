@@ -1,6 +1,6 @@
 # augeas.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/augeas.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='augeas'
 url=('http://download.augeas.net/augeas-1.11.0.tar.gz')

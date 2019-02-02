@@ -1,6 +1,6 @@
 # opendbx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/opendbx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opendbx'
 url=('https://linuxnetworks.de/opendbx/download/opendbx-1.4.6.tar.gz')

@@ -1,6 +1,6 @@
 # jasmin.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jasmin.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jasmin'
 url=('https://downloads.sourceforge.net/project/jasmin/jasmin/jasmin-2.4/jasmin-2.4.zip')

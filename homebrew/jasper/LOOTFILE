@@ -1,6 +1,6 @@
 # jasper.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jasper.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jasper'
 url=('https://github.com/mdadams/jasper/archive/version-2.0.14.tar.gz')

@@ -1,6 +1,6 @@
 # czmq.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/czmq.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='czmq'
 url=('https://github.com/zeromq/czmq/releases/download/v4.1.1/czmq-4.1.1.tar.gz')

@@ -1,6 +1,6 @@
 # cc65.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cc65.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cc65'
 url=('https://github.com/cc65/cc65/archive/V2.17.tar.gz')

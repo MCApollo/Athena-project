@@ -1,6 +1,6 @@
 # mpdas.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpdas.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mpdas'
 url=('https://www.50hz.ws/mpdas/mpdas-0.4.5.tar.gz')

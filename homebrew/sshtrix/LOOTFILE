@@ -1,6 +1,6 @@
 # sshtrix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sshtrix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sshtrix'
 url=('https://github.com/nullsecuritynet/tools/raw/master/cracker/sshtrix/release/sshtrix-0.0.2.tar.gz')

@@ -1,6 +1,6 @@
 # tarsnap-gui.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tarsnap-gui.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tarsnapgui'
 url=('https://github.com/Tarsnap/tarsnap-gui/archive/v1.0.2.tar.gz')

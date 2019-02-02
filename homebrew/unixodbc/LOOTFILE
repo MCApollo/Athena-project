@@ -1,6 +1,6 @@
 # unixodbc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/unixodbc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='unixodbc'
 url=('http://www.unixodbc.org/unixODBC-2.3.7.tar.gz')

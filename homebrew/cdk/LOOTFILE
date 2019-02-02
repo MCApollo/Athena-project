@@ -1,6 +1,6 @@
 # cdk.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cdk.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cdk'
 url=('https://invisible-mirror.net/archives/cdk/cdk-5.0-20180306.tgz')

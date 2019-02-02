@@ -1,6 +1,6 @@
 # clipper.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clipper.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clipper'
 url=('https://github.com/wincent/clipper/archive/2.0.0.tar.gz')

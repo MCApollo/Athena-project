@@ -1,6 +1,6 @@
 # ccd2iso.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ccd2iso.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ccd2iso'
 url=('https://downloads.sourceforge.net/project/ccd2iso/ccd2iso/ccd2iso-0.3/ccd2iso-0.3.tar.gz')

@@ -1,6 +1,6 @@
 # disktype.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/disktype.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='disktype'
 url=('https://downloads.sourceforge.net/project/disktype/disktype/9/disktype-9.tar.gz')

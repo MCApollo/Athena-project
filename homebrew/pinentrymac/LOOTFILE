@@ -1,6 +1,6 @@
 # pinentry-mac.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pinentry-mac.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pinentrymac'
 url=('https://github.com/GPGTools/pinentry-mac/archive/v0.9.4.tar.gz')

@@ -1,6 +1,6 @@
 # calcurse.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/calcurse.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='calcurse'
 url=('https://calcurse.org/files/calcurse-4.3.0.tar.gz')

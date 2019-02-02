@@ -1,6 +1,6 @@
 # anttweakbar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/anttweakbar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='anttweakbar'
 url=('https://downloads.sourceforge.net/project/anttweakbar/AntTweakBar_116.zip')

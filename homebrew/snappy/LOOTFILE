@@ -1,6 +1,6 @@
 # snappy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/snappy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snappy'
 url=('https://github.com/google/snappy/archive/1.1.7.tar.gz')

@@ -1,6 +1,6 @@
 # tnftpd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tnftpd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tnftpd'
 url=('https://opensource.apple.com/tarballs/lukemftpd/lukemftpd-51.tar.gz')

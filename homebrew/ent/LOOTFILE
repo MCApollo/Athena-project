@@ -1,6 +1,6 @@
 # ent.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ent.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ent'
 url=('https://github.com/psm14/ent/archive/1.0.tar.gz')

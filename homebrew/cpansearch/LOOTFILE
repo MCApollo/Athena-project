@@ -1,6 +1,6 @@
 # cpansearch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cpansearch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cpansearch'
 url=('https://github.com/c9s/cpansearch/archive/0.2.tar.gz')

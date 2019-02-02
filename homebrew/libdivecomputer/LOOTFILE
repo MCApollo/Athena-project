@@ -1,6 +1,6 @@
 # libdivecomputer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libdivecomputer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libdivecomputer'
 url=('https://www.libdivecomputer.org/releases/libdivecomputer-0.6.0.tar.gz')

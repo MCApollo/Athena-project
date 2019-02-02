@@ -1,6 +1,6 @@
 # dcadec.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dcadec.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dcadec'
 url=('https://github.com/foo86/dcadec.git')

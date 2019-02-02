@@ -1,6 +1,6 @@
 # mmix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mmix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mmix'
 url=('http://mmix.cs.hm.edu/src/mmix-20160804.tgz')

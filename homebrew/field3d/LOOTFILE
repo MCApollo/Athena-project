@@ -1,6 +1,6 @@
 # field3d.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/field3d.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='field3d'
 url=('https://github.com/imageworks/Field3D/archive/v1.7.2.tar.gz')

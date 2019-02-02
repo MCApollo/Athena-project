@@ -1,6 +1,6 @@
 # node@6.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/node@6.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nodeat6'
 url=('https://nodejs.org/dist/v6.16.0/node-v6.16.0.tar.xz')

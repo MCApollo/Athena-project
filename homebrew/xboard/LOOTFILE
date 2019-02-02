@@ -1,6 +1,6 @@
 # xboard.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xboard.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xboard'
 url=('https://ftp.gnu.org/gnu/xboard/xboard-4.9.1.tar.gz')

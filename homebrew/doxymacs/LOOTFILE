@@ -1,6 +1,6 @@
 # doxymacs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/doxymacs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='doxymacs'
 url=('https://downloads.sourceforge.net/project/doxymacs/doxymacs/1.8.0/doxymacs-1.8.0.tar.gz')

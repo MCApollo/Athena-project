@@ -1,6 +1,6 @@
 # fmt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fmt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fmt'
 url=('https://github.com/fmtlib/fmt/archive/5.3.0.tar.gz')

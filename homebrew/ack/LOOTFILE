@@ -1,6 +1,6 @@
 # ack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ack'
 url=('https://beyondgrep.com/ack-2.24-single-file')

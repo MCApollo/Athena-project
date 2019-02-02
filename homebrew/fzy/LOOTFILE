@@ -1,6 +1,6 @@
 # fzy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fzy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fzy'
 url=('https://github.com/jhawthorn/fzy/releases/download/1.0/fzy-1.0.tar.gz')

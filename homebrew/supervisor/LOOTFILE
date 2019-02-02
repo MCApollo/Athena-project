@@ -1,6 +1,6 @@
 # supervisor.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/supervisor.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='supervisor'
 url=('https://github.com/Supervisor/supervisor/archive/3.3.5.tar.gz')

@@ -1,6 +1,6 @@
 # libart.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libart.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libart'
 url=('https://download.gnome.org/sources/libart_lgpl/2.3/libart_lgpl-2.3.21.tar.bz2')

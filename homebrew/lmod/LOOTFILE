@@ -1,6 +1,6 @@
 # lmod.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lmod.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lmod'
 url=('https://github.com/TACC/Lmod/archive/7.8.15.tar.gz')

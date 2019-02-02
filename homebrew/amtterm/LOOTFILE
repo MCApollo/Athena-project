@@ -1,6 +1,6 @@
 # amtterm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/amtterm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='amtterm'
 url=('https://www.kraxel.org/releases/amtterm/amtterm-1.6.tar.gz')

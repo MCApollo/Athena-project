@@ -1,6 +1,6 @@
 # xsane.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xsane.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xsane'
 url=('https://ftp.osuosl.org/pub/blfs/conglomeration/xsane/xsane-0.999.tar.gz')

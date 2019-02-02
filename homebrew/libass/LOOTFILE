@@ -1,6 +1,6 @@
 # libass.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libass.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libass'
 url=('https://github.com/libass/libass/releases/download/0.14.0/libass-0.14.0.tar.xz')

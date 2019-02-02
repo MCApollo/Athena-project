@@ -1,6 +1,6 @@
 # rpm2cpio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rpm2cpio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rpm2cpio'
 url=('https://svnweb.freebsd.org/ports/head/archivers/rpm2cpio/files/rpm2cpio?revision=259745&view=co')

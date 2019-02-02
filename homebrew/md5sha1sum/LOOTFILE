@@ -1,6 +1,6 @@
 # md5sha1sum.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/md5sha1sum.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='md5sha1sum'
 url=('http://microbrew.org/tools/md5sha1sum/md5sha1sum-0.9.5.tar.gz')

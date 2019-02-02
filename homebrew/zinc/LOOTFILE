@@ -1,6 +1,6 @@
 # zinc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zinc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zinc'
 url=('https://downloads.typesafe.com/zinc/0.3.15/zinc-0.3.15.tgz')

@@ -1,6 +1,6 @@
 # little-cms2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/little-cms2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='littlecms2'
 url=('https://downloads.sourceforge.net/project/lcms/lcms/2.9/lcms2-2.9.tar.gz')

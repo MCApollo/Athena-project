@@ -1,6 +1,6 @@
 # minbif.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/minbif.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='minbif'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/m/minbif/minbif_1.0.5+git20150505.orig.tar.gz')

@@ -1,6 +1,6 @@
 # libuecc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libuecc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libuecc'
 url=('https://git.universe-factory.net/libuecc/snapshot/libuecc-7.tar')

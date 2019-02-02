@@ -1,6 +1,6 @@
 # bazel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bazel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bazel'
 url=('https://github.com/bazelbuild/bazel/releases/download/0.20.0/bazel-0.20.0-dist.zip')

@@ -1,6 +1,6 @@
 # mtr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mtr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mtr'
 url=('https://github.com/traviscross/mtr/archive/v0.92.tar.gz')

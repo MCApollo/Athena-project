@@ -1,6 +1,6 @@
 # gst-plugins-good.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gst-plugins-good.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gstpluginsgood'
 url=('https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.14.4.tar.xz')

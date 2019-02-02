@@ -1,6 +1,6 @@
 # runcocoa.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/runcocoa.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='runcocoa'
 url=('https://github.com/michaeltyson/Commandline-Cocoa/archive/834f73b4b5d0d2be0d336c9869973f5f0db55949.tar.gz')

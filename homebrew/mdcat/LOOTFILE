@@ -1,6 +1,6 @@
 # mdcat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mdcat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mdcat'
 url=('https://github.com/lunaryorn/mdcat/archive/mdcat-0.12.1.tar.gz')

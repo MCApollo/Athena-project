@@ -1,6 +1,6 @@
 # ftjam.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ftjam.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ftjam'
 url=('https://downloads.sourceforge.net/project/freetype/ftjam/2.5.2/ftjam-2.5.2.tar.bz2')

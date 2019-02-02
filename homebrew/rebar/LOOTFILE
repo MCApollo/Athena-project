@@ -1,6 +1,6 @@
 # rebar.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rebar.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rebar'
 url=('https://github.com/rebar/rebar/archive/2.6.4.tar.gz')

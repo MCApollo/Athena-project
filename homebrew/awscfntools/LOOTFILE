@@ -1,6 +1,6 @@
 # aws-cfn-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-cfn-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='awscfntools'
 url=('https://s3.amazonaws.com/cloudformation-cli/AWSCloudFormation-cli.zip')

@@ -1,6 +1,6 @@
 # aws-okta.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aws-okta.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='awsokta'
 url=('https://github.com/segmentio/aws-okta/archive/v0.19.4.tar.gz')

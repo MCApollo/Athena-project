@@ -1,6 +1,6 @@
 # dlib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dlib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dlib'
 url=('http://dlib.net/files/dlib-19.16.tar.bz2')

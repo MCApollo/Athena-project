@@ -1,6 +1,6 @@
 # gqlplus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gqlplus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gqlplus'
 url=('https://downloads.sourceforge.net/project/gqlplus/gqlplus/1.16/gqlplus-1.16.tar.gz')

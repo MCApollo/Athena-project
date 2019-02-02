@@ -1,6 +1,6 @@
 # spades.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/spades.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='spades'
 url=('http://cab.spbu.ru/files/release3.13.0/SPAdes-3.13.0.tar.gz')

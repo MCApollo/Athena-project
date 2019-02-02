@@ -1,6 +1,6 @@
 # sslmate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sslmate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sslmate'
 url=('https://packages.sslmate.com/other/sslmate-1.7.0.tar.gz')

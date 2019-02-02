@@ -1,6 +1,6 @@
 # clutter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clutter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clutter'
 url=('https://download.gnome.org/sources/clutter/1.26/clutter-1.26.2.tar.xz')

@@ -1,6 +1,6 @@
 # bitchx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bitchx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bitchx'
 url=('https://downloads.sourceforge.net/project/bitchx/ircii-pana/bitchx-1.2.1/bitchx-1.2.1.tar.gz')

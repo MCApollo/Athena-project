@@ -1,6 +1,6 @@
 # globe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/globe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='globe'
 url=('https://www.acme.com/software/globe/globe_14Aug2014.tar.gz')

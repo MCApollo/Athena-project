@@ -1,6 +1,6 @@
 # homebank.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/homebank.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='homebank'
 url=('http://homebank.free.fr/public/homebank-5.2.2.tar.gz')

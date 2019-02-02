@@ -1,6 +1,6 @@
 # giflossy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/giflossy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='giflossy'
 url=('https://github.com/kornelski/giflossy/archive/1.91.tar.gz')

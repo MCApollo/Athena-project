@@ -1,6 +1,6 @@
 # smake.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/smake.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='smake'
 url=('https://downloads.sourceforge.net/project/s-make/smake-1.2.5.tar.bz2')

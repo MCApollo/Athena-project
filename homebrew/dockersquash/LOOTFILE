@@ -1,6 +1,6 @@
 # docker-squash.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/docker-squash.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dockersquash'
 url=('https://github.com/goldmann/docker-squash/archive/1.0.7.tar.gz')

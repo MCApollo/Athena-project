@@ -1,6 +1,6 @@
 # autojump.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/autojump.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='autojump'
 url=('https://github.com/wting/autojump/archive/release-v22.5.1.tar.gz')

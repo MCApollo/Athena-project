@@ -1,6 +1,6 @@
 # cockroach.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cockroach.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cockroach'
 url=('https://binaries.cockroachdb.com/cockroach-v2.1.4.src.tgz')

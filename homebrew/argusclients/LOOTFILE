@@ -1,6 +1,6 @@
 # argus-clients.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/argus-clients.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='argusclients'
 url=('https://qosient.com/argus/src/argus-clients-3.0.8.2.tar.gz')

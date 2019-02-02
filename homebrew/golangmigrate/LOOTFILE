@@ -1,6 +1,6 @@
 # golang-migrate.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/golang-migrate.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='golangmigrate'
 url=('https://github.com/golang-migrate/migrate/archive/v4.2.2.tar.gz')

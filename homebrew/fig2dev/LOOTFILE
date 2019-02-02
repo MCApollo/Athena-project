@@ -1,6 +1,6 @@
 # fig2dev.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fig2dev.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fig2dev'
 url=('https://downloads.sourceforge.net/project/mcj/fig2dev-3.2.7a.tar.xz')

@@ -1,6 +1,6 @@
 # netpbm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/netpbm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='netpbm'
 url=('http://svn.code.sf.net/p/netpbm/code/stable')

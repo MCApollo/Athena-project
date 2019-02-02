@@ -1,6 +1,6 @@
 # screenfetch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/screenfetch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='screenfetch'
 url=('https://github.com/KittyKatt/screenFetch/archive/v3.8.0.tar.gz')

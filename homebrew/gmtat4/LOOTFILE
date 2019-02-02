@@ -1,6 +1,6 @@
 # gmt@4.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gmt@4.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gmtat4'
 url=('ftp://ftp.soest.hawaii.edu/gmt/gmt-4.5.18-src.tar.bz2')

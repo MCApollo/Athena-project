@@ -1,6 +1,6 @@
 # net-snmp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/net-snmp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='netsnmp'
 url=('https://downloads.sourceforge.net/project/net-snmp/net-snmp/5.8/net-snmp-5.8.tar.gz')

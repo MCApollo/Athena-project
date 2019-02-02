@@ -1,6 +1,6 @@
 # gkrellm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gkrellm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gkrellm'
 url=('http://gkrellm.srcbox.net/releases/gkrellm-2.3.10.tar.bz2')

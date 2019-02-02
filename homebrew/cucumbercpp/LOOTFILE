@@ -1,6 +1,6 @@
 # cucumber-cpp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cucumber-cpp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cucumbercpp'
 url=('https://github.com/cucumber/cucumber-cpp/archive/v0.5.tar.gz')

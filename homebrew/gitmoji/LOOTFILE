@@ -1,6 +1,6 @@
 # gitmoji.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gitmoji.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitmoji'
 url=('https://registry.npmjs.org/gitmoji-cli/-/gitmoji-cli-1.9.2.tgz')

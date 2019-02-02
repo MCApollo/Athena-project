@@ -1,6 +1,6 @@
 # ant-contrib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ant-contrib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='antcontrib'
 url=('https://downloads.sourceforge.net/project/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3-bin.tar.gz')

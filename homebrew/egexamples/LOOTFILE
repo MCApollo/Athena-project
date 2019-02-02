@@ -1,6 +1,6 @@
 # eg-examples.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/eg-examples.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='egexamples'
 url=('https://files.pythonhosted.org/packages/a6/93/38075713a7968a9e8484e894f604f99a68e443e0f9db0ed48063b1241969/eg-1.1.1.tar.gz')

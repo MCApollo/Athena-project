@@ -1,6 +1,6 @@
 # mitie.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mitie.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mitie'
 url=('https://github.com/mit-nlp/MITIE/archive/v0.6.tar.gz')

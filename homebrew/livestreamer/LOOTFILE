@@ -1,6 +1,6 @@
 # livestreamer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/livestreamer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='livestreamer'
 url=('https://files.pythonhosted.org/packages/ee/d6/efbe3456160a2c62e3dd841c5d9504d071c94449a819148bb038b50d862a/livestreamer-1.12.2.tar.gz')

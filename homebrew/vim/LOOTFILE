@@ -1,6 +1,6 @@
 # vim.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vim.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vim'
 url=('https://github.com/vim/vim/archive/v8.1.0850.tar.gz')

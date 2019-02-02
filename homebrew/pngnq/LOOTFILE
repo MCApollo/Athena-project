@@ -1,6 +1,6 @@
 # pngnq.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pngnq.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pngnq'
 url=('https://downloads.sourceforge.net/project/pngnq/pngnq/1.1/pngnq-1.1.tar.gz')

@@ -1,6 +1,6 @@
 # nethacked.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nethacked.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nethacked'
 url=('https://github.com/nethacked/nethacked/archive/1.0.tar.gz')

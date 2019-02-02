@@ -1,6 +1,6 @@
 # popt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/popt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='popt'
 url=('http://rpm5.org/files/popt/popt-1.16.tar.gz')

@@ -1,6 +1,6 @@
 # dhex.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dhex.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dhex'
 url=('http://www.dettus.net/dhex/dhex_0.68.tar.gz')

@@ -1,6 +1,6 @@
 # srecord.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/srecord.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='srecord'
 url=('https://downloads.sourceforge.net/project/srecord/srecord/1.64/srecord-1.64.tar.gz')

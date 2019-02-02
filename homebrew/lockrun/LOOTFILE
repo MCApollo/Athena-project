@@ -1,6 +1,6 @@
 # lockrun.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lockrun.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lockrun'
 url=('http://unixwiz.net/tools/lockrun.c')

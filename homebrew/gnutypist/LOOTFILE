@@ -1,6 +1,6 @@
 # gnu-typist.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-typist.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnutypist'
 url=('https://ftp.gnu.org/gnu/gtypist/gtypist-2.9.5.tar.xz')

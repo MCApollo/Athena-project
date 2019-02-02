@@ -1,6 +1,6 @@
 # esniper.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/esniper.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='esniper'
 url=('https://downloads.sourceforge.net/project/esniper/esniper/2.35.0/esniper-2-35-0.tgz')

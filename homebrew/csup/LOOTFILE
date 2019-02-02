@@ -1,6 +1,6 @@
 # csup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/csup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='csup'
 url=('https://bitbucket.org/mux/csup/get/REL_20120305.tar.gz')

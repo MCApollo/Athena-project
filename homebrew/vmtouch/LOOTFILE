@@ -1,6 +1,6 @@
 # vmtouch.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vmtouch.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vmtouch'
 url=('https://github.com/hoytech/vmtouch/archive/v1.3.0.tar.gz')

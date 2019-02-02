@@ -1,6 +1,6 @@
 # openal-soft.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/openal-soft.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='openalsoft'
 url=('https://openal-soft.org/openal-releases/openal-soft-1.18.2.tar.bz2')

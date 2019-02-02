@@ -1,6 +1,6 @@
 # rsyslog.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rsyslog.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rsyslog'
 url=('https://www.rsyslog.com/files/download/rsyslog/rsyslog-8.37.0.tar.gz')

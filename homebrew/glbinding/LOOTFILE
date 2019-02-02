@@ -1,6 +1,6 @@
 # glbinding.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glbinding.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glbinding'
 url=('https://github.com/cginternals/glbinding/archive/v2.1.4.tar.gz')

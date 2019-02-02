@@ -1,6 +1,6 @@
 # mapnik.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mapnik.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mapnik'
 url=('https://github.com/mapnik/mapnik/releases/download/v3.0.21/mapnik-v3.0.21.tar.bz2')

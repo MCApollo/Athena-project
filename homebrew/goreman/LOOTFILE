@@ -1,6 +1,6 @@
 # goreman.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/goreman.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='goreman'
 url=('https://github.com/mattn/goreman/archive/v0.2.1.tar.gz')

@@ -1,6 +1,6 @@
 # inetutils.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/inetutils.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='inetutils'
 url=('https://ftp.gnu.org/gnu/inetutils/inetutils-1.9.4.tar.xz')

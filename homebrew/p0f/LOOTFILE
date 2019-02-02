@@ -1,6 +1,6 @@
 # p0f.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/p0f.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='p0f'
 url=('http://lcamtuf.coredump.cx/p0f3/releases/p0f-3.09b.tgz')

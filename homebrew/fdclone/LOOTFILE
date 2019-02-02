@@ -1,6 +1,6 @@
 # fdclone.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fdclone.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fdclone'
 url=('http://www.unixusers.net/src/fdclone/FD-3.01h.tar.gz')

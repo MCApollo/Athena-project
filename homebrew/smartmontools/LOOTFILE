@@ -1,6 +1,6 @@
 # smartmontools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/smartmontools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='smartmontools'
 url=('https://downloads.sourceforge.net/project/smartmontools/smartmontools/7.0/smartmontools-7.0.tar.gz')

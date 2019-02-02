@@ -1,6 +1,6 @@
 # css-crush.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/css-crush.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='csscrush'
 url=('https://github.com/peteboere/css-crush/archive/v2.4.0.tar.gz')

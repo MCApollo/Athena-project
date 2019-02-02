@@ -1,6 +1,6 @@
 # trafficserver.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/trafficserver.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='trafficserver'
 url=('https://www.apache.org/dyn/closer.cgi?path=trafficserver/trafficserver-7.1.4.tar.bz2')

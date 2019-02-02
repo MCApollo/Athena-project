@@ -1,6 +1,6 @@
 # gspell.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gspell.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gspell'
 url=('https://download.gnome.org/sources/gspell/1.8/gspell-1.8.1.tar.xz')

@@ -1,6 +1,6 @@
 # liblinear.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/liblinear.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='liblinear'
 url=('https://www.csie.ntu.edu.tw/~cjlin/liblinear/oldfiles/liblinear-2.20.tar.gz')

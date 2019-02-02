@@ -1,6 +1,6 @@
 # ansible-cmdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ansible-cmdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ansiblecmdb'
 url=('https://github.com/fboender/ansible-cmdb/releases/download/1.30/ansible-cmdb-1.30.tar.gz')

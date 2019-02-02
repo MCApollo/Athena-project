@@ -1,6 +1,6 @@
 # freeling.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/freeling.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='freeling'
 url=('https://github.com/TALP-UPC/FreeLing/releases/download/4.1/FreeLing-4.1.tar.gz')

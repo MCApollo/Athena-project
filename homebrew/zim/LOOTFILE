@@ -1,6 +1,6 @@
 # zim.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zim.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zim'
 url=('https://github.com/jaap-karssenberg/zim-desktop-wiki/archive/0.69.tar.gz')

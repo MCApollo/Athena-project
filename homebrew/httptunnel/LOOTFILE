@@ -1,6 +1,6 @@
 # httptunnel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/httptunnel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='httptunnel'
 url=('https://ftp.gnu.org/gnu/httptunnel/httptunnel-3.3.tar.gz')

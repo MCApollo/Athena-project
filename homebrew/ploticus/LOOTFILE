@@ -1,6 +1,6 @@
 # ploticus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ploticus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ploticus'
 url=('https://downloads.sourceforge.net/project/ploticus/ploticus/2.42/ploticus242_src.tar.gz')

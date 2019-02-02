@@ -1,6 +1,6 @@
 # sysdig.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sysdig.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sysdig'
 url=('https://github.com/draios/sysdig/archive/0.24.2.tar.gz')

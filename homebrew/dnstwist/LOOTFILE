@@ -1,6 +1,6 @@
 # dnstwist.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dnstwist.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dnstwist'
 url=('https://github.com/elceef/dnstwist/archive/v1.02.tar.gz')

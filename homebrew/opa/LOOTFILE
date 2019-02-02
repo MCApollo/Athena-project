@@ -1,6 +1,6 @@
 # opa.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/opa.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opa'
 url=('https://github.com/open-policy-agent/opa/archive/v0.10.2.tar.gz')

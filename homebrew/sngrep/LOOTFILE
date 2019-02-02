@@ -1,6 +1,6 @@
 # sngrep.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sngrep.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sngrep'
 url=('https://github.com/irontec/sngrep/archive/v1.4.6.tar.gz')

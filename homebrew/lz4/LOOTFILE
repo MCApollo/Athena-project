@@ -1,6 +1,6 @@
 # lz4.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lz4.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lz4'
 url=('https://github.com/lz4/lz4/archive/v1.8.3.tar.gz')

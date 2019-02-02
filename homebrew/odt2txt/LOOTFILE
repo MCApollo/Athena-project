@@ -1,6 +1,6 @@
 # odt2txt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/odt2txt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='odt2txt'
 url=('https://github.com/dstosberg/odt2txt/archive/v0.5.tar.gz')

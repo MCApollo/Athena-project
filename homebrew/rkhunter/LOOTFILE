@@ -1,6 +1,6 @@
 # rkhunter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rkhunter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rkhunter'
 url=('https://downloads.sourceforge.net/project/rkhunter/rkhunter/1.4.6/rkhunter-1.4.6.tar.gz')

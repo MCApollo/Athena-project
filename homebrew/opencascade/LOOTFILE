@@ -1,6 +1,6 @@
 # opencascade.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/opencascade.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opencascade'
 url=('https://git.dev.opencascade.org/gitweb/?p=occt.git;a=snapshot;h=refs/tags/V7_3_0;sf=tgz')

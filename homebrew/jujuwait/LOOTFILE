@@ -1,6 +1,6 @@
 # juju-wait.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/juju-wait.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jujuwait'
 url=('https://files.pythonhosted.org/packages/3d/c2/8cce9ec8386be418a76566fcd2e7dcbaa7138a92b0b9b463306d9191cfd7/juju-wait-2.6.2.tar.gz')

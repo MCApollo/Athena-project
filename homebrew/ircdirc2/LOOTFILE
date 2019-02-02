@@ -1,6 +1,6 @@
 # ircd-irc2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ircd-irc2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ircdirc2'
 url=('http://www.irc.org/ftp/irc/server/irc2.11.2p3.tgz')

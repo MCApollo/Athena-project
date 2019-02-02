@@ -1,6 +1,6 @@
 # bitrise.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bitrise.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bitrise'
 url=('https://github.com/bitrise-io/bitrise/archive/1.26.0.tar.gz')

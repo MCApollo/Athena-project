@@ -1,6 +1,6 @@
 # ansifilter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ansifilter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ansifilter'
 url=('http://www.andre-simon.de/zip/ansifilter-2.13.tar.bz2')

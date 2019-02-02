@@ -1,6 +1,6 @@
 # pdf-redact-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdf-redact-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pdfredacttools'
 url=('https://github.com/firstlookmedia/pdf-redact-tools/archive/v0.1.2.tar.gz')

@@ -1,6 +1,6 @@
 # aravis.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aravis.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aravis'
 url=('https://github.com/AravisProject/aravis/archive/ARAVIS_0_6_0.tar.gz')

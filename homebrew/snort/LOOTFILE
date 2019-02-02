@@ -1,6 +1,6 @@
 # snort.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/snort.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snort'
 url=('https://www.snort.org/downloads/snort/snort-2.9.11.1.tar.gz')

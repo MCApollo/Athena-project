@@ -1,6 +1,6 @@
 # tepl.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tepl.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tepl'
 url=('https://download.gnome.org/sources/tepl/4.2/tepl-4.2.0.tar.xz')

@@ -1,6 +1,6 @@
 # rbspy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rbspy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rbspy'
 url=('https://github.com/rbspy/rbspy/archive/v0.3.3.tar.gz')

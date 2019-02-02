@@ -1,6 +1,6 @@
 # arpoison.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/arpoison.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='arpoison'
 url=('http://www.arpoison.net/arpoison-0.7.tar.gz')

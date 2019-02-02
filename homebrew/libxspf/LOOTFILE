@@ -1,6 +1,6 @@
 # libxspf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libxspf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libxspf'
 url=('https://downloads.xiph.org/releases/xspf/libxspf-1.2.0.tar.bz2')

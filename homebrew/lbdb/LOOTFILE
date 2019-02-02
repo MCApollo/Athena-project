@@ -1,6 +1,6 @@
 # lbdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lbdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lbdb'
 url=('https://www.spinnaker.de/lbdb/download/lbdb_0.47.tar.gz')

@@ -1,6 +1,6 @@
 # rfcstrip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rfcstrip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rfcstrip'
 url=('https://trac.tools.ietf.org/tools/rfcstrip/rfcstrip-1.03.tgz')

@@ -1,6 +1,6 @@
 # opensc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/opensc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='opensc'
 url=('https://github.com/OpenSC/OpenSC/releases/download/0.19.0/opensc-0.19.0.tar.gz')

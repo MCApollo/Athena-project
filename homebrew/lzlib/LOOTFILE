@@ -1,6 +1,6 @@
 # lzlib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lzlib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lzlib'
 url=('https://download.savannah.gnu.org/releases/lzip/lzlib/lzlib-1.10.tar.gz')

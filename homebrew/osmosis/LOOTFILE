@@ -1,6 +1,6 @@
 # osmosis.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/osmosis.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='osmosis'
 url=('https://bretth.dev.openstreetmap.org/osmosis-build/osmosis-0.45.zip')

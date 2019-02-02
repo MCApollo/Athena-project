@@ -1,6 +1,6 @@
 # temporal_tables.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/temporal_tables.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='temporaltables'
 url=('https://github.com/arkhipov/temporal_tables/archive/v1.2.0.tar.gz')

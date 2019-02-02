@@ -1,6 +1,6 @@
 # simple-obfs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/simple-obfs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='simpleobfs'
 url=('https://github.com/shadowsocks/simple-obfs.git')

@@ -1,6 +1,6 @@
 # rp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rp'
 url=('https://github.com/0vercl0k/rp/archive/v1.tar.gz')

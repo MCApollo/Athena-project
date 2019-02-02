@@ -1,6 +1,6 @@
 # mergepbx.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mergepbx.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mergepbx'
 url=('https://github.com/simonwagner/mergepbx/archive/v0.10.tar.gz')

@@ -1,6 +1,6 @@
 # exiv2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/exiv2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='exiv2'
 url=('http://www.exiv2.org/builds/exiv2-0.27.0a-Source.tar.gz')

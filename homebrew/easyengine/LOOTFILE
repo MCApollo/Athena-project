@@ -1,6 +1,6 @@
 # easyengine.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/easyengine.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='easyengine'
 url=('https://github.com/EasyEngine/easyengine/releases/download/v4.0.10/easyengine.phar')

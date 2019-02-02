@@ -1,6 +1,6 @@
 # astrometry-net.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/astrometry-net.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='astrometrynet'
 url=('https://github.com/dstndstn/astrometry.net/releases/download/0.76/astrometry.net-0.76.tar.gz')

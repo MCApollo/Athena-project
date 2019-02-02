@@ -1,6 +1,6 @@
 # wakeonlan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wakeonlan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wakeonlan'
 url=('https://github.com/jpoliv/wakeonlan/archive/wakeonlan-0.41.tar.gz')

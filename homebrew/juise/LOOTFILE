@@ -1,6 +1,6 @@
 # juise.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/juise.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='juise'
 url=('https://github.com/Juniper/juise/releases/download/0.8.0/juise-0.8.0.tar.gz')

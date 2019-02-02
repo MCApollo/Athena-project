@@ -1,6 +1,6 @@
 # libgosu.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libgosu.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libgosu'
 url=('https://github.com/gosu/gosu/archive/v0.14.4.tar.gz')

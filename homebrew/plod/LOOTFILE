@@ -1,6 +1,6 @@
 # plod.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/plod.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='plod'
 url=('http://www.deer-run.com/~hal/plod/plod.shar')

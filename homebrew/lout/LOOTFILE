@@ -1,6 +1,6 @@
 # lout.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/lout.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='lout'
 url=('https://download.savannah.gnu.org/releases/lout/lout-3.40.tar.gz')

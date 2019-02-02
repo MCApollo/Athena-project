@@ -1,6 +1,6 @@
 # clang-format.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/clang-format.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='clangformat'
 url=('http://llvm.org/svn/llvm-project/llvm/tags/google/stable/2018-12-18/')

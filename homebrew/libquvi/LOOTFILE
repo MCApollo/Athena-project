@@ -1,6 +1,6 @@
 # libquvi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libquvi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libquvi'
 url=('https://downloads.sourceforge.net/project/quvi/0.4/libquvi/libquvi-0.4.1.tar.bz2')

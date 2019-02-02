@@ -1,6 +1,6 @@
 # libtrng.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libtrng.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libtrng'
 url=('https://www.numbercrunch.de/trng/trng-4.20.tar.gz')

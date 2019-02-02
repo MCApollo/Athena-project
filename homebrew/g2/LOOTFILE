@@ -1,6 +1,6 @@
 # g2.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/g2.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='g2'
 url=('https://github.com/orefalo/g2/archive/v1.1.tar.gz')

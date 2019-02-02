@@ -1,6 +1,6 @@
 # luaradio.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/luaradio.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='luaradio'
 url=('https://github.com/vsergeev/luaradio/archive/v0.5.1.tar.gz')

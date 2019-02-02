@@ -1,6 +1,6 @@
 # gwt.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gwt.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gwt'
 url=('https://storage.googleapis.com/gwt-releases/gwt-2.8.2.zip')

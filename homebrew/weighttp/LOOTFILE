@@ -1,6 +1,6 @@
 # weighttp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/weighttp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='weighttp'
 url=('https://github.com/lighttpd/weighttp/archive/weighttp-0.4.tar.gz')

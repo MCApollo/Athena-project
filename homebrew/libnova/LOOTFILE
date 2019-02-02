@@ -1,6 +1,6 @@
 # libnova.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libnova.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libnova'
 url=('https://downloads.sourceforge.net/project/libnova/libnova/v%200.15.0/libnova-0.15.0.tar.gz')

@@ -1,6 +1,6 @@
 # subversion.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/subversion.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='subversion'
 url=('https://www.apache.org/dyn/closer.cgi?path=subversion/subversion-1.11.1.tar.bz2')

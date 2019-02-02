@@ -1,6 +1,6 @@
 # gws.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gws.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gws'
 url=('https://github.com/StreakyCobra/gws/archive/0.2.0.tar.gz')

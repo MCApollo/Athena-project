@@ -1,6 +1,6 @@
 # bashish.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bashish.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bashish'
 url=('https://downloads.sourceforge.net/project/bashish/bashish/2.2.4/bashish-2.2.4.tar.gz')

@@ -1,6 +1,6 @@
 # snzip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/snzip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snzip'
 url=('https://bintray.com/artifact/download/kubo/generic/snzip-1.0.4.tar.gz')

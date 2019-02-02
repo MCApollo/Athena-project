@@ -1,6 +1,6 @@
 # afflib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/afflib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='afflib'
 url=('https://github.com/sshock/AFFLIBv3/archive/v3.7.17.tar.gz')

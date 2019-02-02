@@ -1,6 +1,6 @@
 # igraph.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/igraph.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='igraph'
 url=('https://igraph.org/nightly/get/c/igraph-0.7.1.tar.gz')

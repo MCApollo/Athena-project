@@ -1,6 +1,6 @@
 # prototool.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/prototool.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='prototool'
 url=('https://github.com/uber/prototool/archive/v1.3.0.tar.gz')

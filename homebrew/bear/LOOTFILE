@@ -1,6 +1,6 @@
 # bear.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/bear.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='bear'
 url=('https://github.com/rizsotto/Bear/archive/2.3.13.tar.gz')

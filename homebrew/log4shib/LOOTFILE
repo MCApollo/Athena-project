@@ -1,6 +1,6 @@
 # log4shib.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/log4shib.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='log4shib'
 url=('https://shibboleth.net/downloads/log4shib/1.0.9/log4shib-1.0.9.tar.gz')

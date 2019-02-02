@@ -1,6 +1,6 @@
 # libzzip.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libzzip.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libzzip'
 url=('https://github.com/gdraheim/zziplib/archive/v0.13.69.tar.gz')

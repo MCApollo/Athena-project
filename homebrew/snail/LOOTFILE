@@ -1,6 +1,6 @@
 # s-nail.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/s-nail.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='snail'
 url=('https://www.sdaoden.eu/downloads/s-nail-14.9.11.tar.gz')

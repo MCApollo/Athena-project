@@ -1,6 +1,6 @@
 # tup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tup'
 url=('https://github.com/gittup/tup/archive/v0.7.8.tar.gz')

@@ -1,6 +1,6 @@
 # qprint.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/qprint.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='qprint'
 url=('https://www.fourmilab.ch/webtools/qprint/qprint-1.1.tar.gz')

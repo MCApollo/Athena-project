@@ -1,6 +1,6 @@
 # redpen.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/redpen.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='redpen'
 url=('https://github.com/redpen-cc/redpen/releases/download/redpen-1.10.1/redpen-1.10.1.tar.gz')

@@ -1,6 +1,6 @@
 # rsync-time-backup.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rsync-time-backup.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rsynctimebackup'
 url=('https://github.com/laurent22/rsync-time-backup/archive/v1.1.5.tar.gz')

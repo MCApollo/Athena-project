@@ -1,6 +1,6 @@
 # yaz.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yaz.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yaz'
 url=('http://ftp.indexdata.dk/pub/yaz/yaz-5.27.0.tar.gz')

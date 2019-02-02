@@ -1,6 +1,6 @@
 # osc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/osc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='osc'
 url=('https://github.com/openSUSE/osc/archive/0.163.0.tar.gz')

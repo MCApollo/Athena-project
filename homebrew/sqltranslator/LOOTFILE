@@ -1,6 +1,6 @@
 # sql-translator.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sql-translator.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sqltranslator'
 url=('https://cpan.metacpan.org/authors/id/I/IL/ILMARI/SQL-Translator-0.11024.tar.gz')

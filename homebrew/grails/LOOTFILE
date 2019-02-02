@@ -1,6 +1,6 @@
 # grails.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/grails.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='grails'
 url=('https://github.com/grails/grails-core/releases/download/v3.3.9/grails-3.3.9.zip')

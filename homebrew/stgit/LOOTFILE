@@ -1,6 +1,6 @@
 # stgit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stgit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stgit'
 url=('https://github.com/ctmarinas/stgit/archive/v0.19.tar.gz')

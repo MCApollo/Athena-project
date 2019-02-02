@@ -1,6 +1,6 @@
 # pstree.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pstree.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pstree'
 url=('ftp://ftp.thp.uni-duisburg.de/pub/source/pstree-2.39.tar.gz')

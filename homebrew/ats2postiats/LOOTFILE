@@ -1,6 +1,6 @@
 # ats2-postiats.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ats2-postiats.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ats2postiats'
 url=('https://downloads.sourceforge.net/project/ats2-lang/ats2-lang/ats2-postiats-0.3.11/ATS2-Postiats-0.3.11.tgz')

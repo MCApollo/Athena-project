@@ -1,6 +1,6 @@
 # exempi.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/exempi.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='exempi'
 url=('https://libopenraw.freedesktop.org/download/exempi-2.4.5.tar.bz2')

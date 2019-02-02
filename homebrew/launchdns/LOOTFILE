@@ -1,6 +1,6 @@
 # launchdns.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/launchdns.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='launchdns'
 url=('https://github.com/josh/launchdns/archive/v1.0.3.tar.gz')

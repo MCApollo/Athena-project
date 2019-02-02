@@ -1,6 +1,6 @@
 # roswell.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/roswell.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='roswell'
 url=('https://github.com/roswell/roswell/archive/v19.1.10.96.tar.gz')

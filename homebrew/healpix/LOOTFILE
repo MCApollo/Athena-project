@@ -1,6 +1,6 @@
 # healpix.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/healpix.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='healpix'
 url=('https://downloads.sourceforge.net/project/healpix/Healpix_3.50/Healpix_3.50_2018Dec10.tar.gz')

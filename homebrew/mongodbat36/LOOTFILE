@@ -1,6 +1,6 @@
 # mongodb@3.6.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mongodb@3.6.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mongodbat36'
 url=('https://fastdl.mongodb.org/src/mongodb-src-r3.6.8.tar.gz')

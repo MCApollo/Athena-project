@@ -1,6 +1,6 @@
 # mobiledevice.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mobiledevice.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mobiledevice'
 url=('https://github.com/imkira/mobiledevice/archive/v2.0.0.tar.gz')

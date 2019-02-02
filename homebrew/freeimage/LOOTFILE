@@ -1,6 +1,6 @@
 # freeimage.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/freeimage.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='freeimage'
 url=('https://downloads.sourceforge.net/project/freeimage/Source%20Distribution/3.18.0/FreeImage3180.zip')

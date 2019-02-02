@@ -1,6 +1,6 @@
 # daemon.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/daemon.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='daemon'
 url=('http://libslack.org/daemon/download/daemon-0.6.4.tar.gz')

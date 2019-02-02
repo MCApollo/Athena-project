@@ -1,6 +1,6 @@
 # xmount.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xmount.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xmount'
 url=('https://code.pinguin.lu/diffusion/XMOUNT/xmount.git')

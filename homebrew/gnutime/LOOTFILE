@@ -1,6 +1,6 @@
 # gnu-time.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-time.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnutime'
 url=('https://ftp.gnu.org/gnu/time/time-1.9.tar.gz')

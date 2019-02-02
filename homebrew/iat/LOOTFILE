@@ -1,6 +1,6 @@
 # iat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/iat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='iat'
 url=('https://downloads.sourceforge.net/project/iat.berlios/iat-0.1.7.tar.bz2')

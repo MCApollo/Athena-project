@@ -1,6 +1,6 @@
 # darcs.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/darcs.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='darcs'
 url=('https://hackage.haskell.org/package/darcs-2.14.1/darcs-2.14.1.tar.gz')

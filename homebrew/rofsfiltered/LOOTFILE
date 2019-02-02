@@ -1,6 +1,6 @@
 # rofs-filtered.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/rofs-filtered.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='rofsfiltered'
 url=('https://github.com/gburca/rofs-filtered/archive/rel-1.7.tar.gz')

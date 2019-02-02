@@ -1,6 +1,6 @@
 # ghc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ghc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ghc'
 url=('https://downloads.haskell.org/~ghc/8.4.4/ghc-8.4.4-src.tar.xz')

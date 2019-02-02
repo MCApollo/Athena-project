@@ -1,6 +1,6 @@
 # mysql-connector-c.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mysql-connector-c.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mysqlconnectorc'
 url=('https://dev.mysql.com/get/Downloads/Connector-C/mysql-connector-c-6.1.11-src.tar.gz')

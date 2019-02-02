@@ -1,6 +1,6 @@
 # git-appraise.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-appraise.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitappraise'
 url=('https://github.com/google/git-appraise/archive/v0.6.tar.gz')

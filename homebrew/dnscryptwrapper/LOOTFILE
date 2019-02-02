@@ -1,6 +1,6 @@
 # dnscrypt-wrapper.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/dnscrypt-wrapper.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='dnscryptwrapper'
 url=('https://github.com/cofyc/dnscrypt-wrapper/archive/v0.4.2.tar.gz')

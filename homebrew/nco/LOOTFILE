@@ -1,6 +1,6 @@
 # nco.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nco.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nco'
 url=('https://downloads.sourceforge.net/project/nco/nco-4.7.6.tar.gz')

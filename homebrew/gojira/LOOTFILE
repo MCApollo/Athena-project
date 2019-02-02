@@ -1,6 +1,6 @@
 # go-jira.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/go-jira.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gojira'
 url=('https://github.com/Netflix-Skunkworks/go-jira/archive/v1.0.20.tar.gz')

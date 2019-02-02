@@ -1,6 +1,6 @@
 # gabedit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gabedit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gabedit'
 url=('https://downloads.sourceforge.net/project/gabedit/gabedit/Gabedit250/GabeditSrc250.tar.gz')

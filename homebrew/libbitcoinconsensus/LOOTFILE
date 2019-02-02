@@ -1,6 +1,6 @@
 # libbitcoin-consensus.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libbitcoin-consensus.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libbitcoinconsensus'
 url=('https://github.com/libbitcoin/libbitcoin-consensus/archive/v3.5.0.tar.gz')

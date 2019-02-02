@@ -1,6 +1,6 @@
 # gnu-which.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gnu-which.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gnuwhich'
 url=('https://ftp.gnu.org/gnu/which/which-2.21.tar.gz')

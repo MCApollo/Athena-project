@@ -1,6 +1,6 @@
 # zdelta.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zdelta.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zdelta'
 url=('https://web.archive.org/web/20150804051752/cis.poly.edu/zdelta/downloads/zdelta-2.1.tar.gz')

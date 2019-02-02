@@ -1,6 +1,6 @@
 # sshguard.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/sshguard.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='sshguard'
 url=('https://downloads.sourceforge.net/project/sshguard/sshguard/2.2.0/sshguard-2.2.0.tar.gz')

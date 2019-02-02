@@ -1,6 +1,6 @@
 # binkd.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/binkd.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='binkd'
 url=('https://happy.kiev.ua/pub/fidosoft/mailer/binkd/binkd-1.0.4.tar.gz')

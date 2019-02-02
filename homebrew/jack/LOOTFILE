@@ -1,6 +1,6 @@
 # jack.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jack.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jack'
 url=('http://jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz')

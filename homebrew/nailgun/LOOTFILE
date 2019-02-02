@@ -1,6 +1,6 @@
 # nailgun.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nailgun.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nailgun'
 url=('https://github.com/facebook/nailgun/archive/nailgun-all-v1.0.0.tar.gz')

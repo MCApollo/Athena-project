@@ -1,6 +1,6 @@
 # yeti.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/yeti.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='yeti'
 url=('https://github.com/mth/yeti/archive/v0.9.9.1.tar.gz')

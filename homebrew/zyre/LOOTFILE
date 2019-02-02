@@ -1,6 +1,6 @@
 # zyre.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zyre.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zyre'
 url=('https://github.com/zeromq/zyre/releases/download/v2.0.0/zyre-2.0.0.tar.gz')

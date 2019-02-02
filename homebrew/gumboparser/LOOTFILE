@@ -1,6 +1,6 @@
 # gumbo-parser.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gumbo-parser.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gumboparser'
 url=('https://github.com/google/gumbo-parser/archive/v0.10.1.tar.gz')

@@ -1,6 +1,6 @@
 # elinks.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/elinks.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='elinks'
 url=('http://elinks.or.cz/download/elinks-0.11.7.tar.bz2')

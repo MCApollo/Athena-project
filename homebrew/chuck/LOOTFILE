@@ -1,6 +1,6 @@
 # chuck.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chuck.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chuck'
 url=('http://chuck.cs.princeton.edu/release/files/chuck-1.4.0.0.tgz')

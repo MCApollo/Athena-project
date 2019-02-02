@@ -1,6 +1,6 @@
 # krb5.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/krb5.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='krb5'
 url=('https://kerberos.org/dist/krb5/1.16/krb5-1.16.2.tar.gz')

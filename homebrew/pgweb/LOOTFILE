@@ -1,6 +1,6 @@
 # pgweb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/pgweb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='pgweb'
 url=('https://github.com/sosedoff/pgweb/archive/v0.11.0.tar.gz')

@@ -1,6 +1,6 @@
 # aterm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/aterm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='aterm'
 url=('http://www.meta-environment.org/releases/aterm-2.8.tar.gz')

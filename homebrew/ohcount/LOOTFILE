@@ -1,6 +1,6 @@
 # ohcount.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ohcount.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ohcount'
 url=('https://github.com/blackducksw/ohcount/archive/v3.1.1.tar.gz')

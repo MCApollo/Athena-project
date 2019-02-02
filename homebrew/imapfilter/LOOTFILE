@@ -1,6 +1,6 @@
 # imapfilter.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/imapfilter.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='imapfilter'
 url=('https://github.com/lefcha/imapfilter/archive/v2.6.12.tar.gz')

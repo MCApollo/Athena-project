@@ -1,6 +1,6 @@
 # ldns.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ldns.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ldns'
 url=('https://nlnetlabs.nl/downloads/ldns/ldns-1.7.0.tar.gz')

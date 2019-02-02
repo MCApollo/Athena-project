@@ -1,6 +1,6 @@
 # es.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/es.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='es'
 url=('https://github.com/wryun/es-shell/releases/download/v0.9.1/es-0.9.1.tar.gz')

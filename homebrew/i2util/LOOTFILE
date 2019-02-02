@@ -1,6 +1,6 @@
 # i2util.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/i2util.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='i2util'
 url=('https://software.internet2.edu/sources/I2util/I2util-1.2.tar.gz')

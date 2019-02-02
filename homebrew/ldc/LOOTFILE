@@ -1,6 +1,6 @@
 # ldc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ldc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ldc'
 url=('https://github.com/ldc-developers/ldc/releases/download/v1.13.0/ldc-1.13.0-src.tar.gz')

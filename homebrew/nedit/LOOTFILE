@@ -1,6 +1,6 @@
 # nedit.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nedit.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nedit'
 url=('https://downloads.sourceforge.net/project/nedit/nedit-source/nedit-5.7-src.tar.gz')

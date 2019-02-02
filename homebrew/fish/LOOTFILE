@@ -1,6 +1,6 @@
 # fish.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/fish.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='fish'
 url=('https://github.com/fish-shell/fish-shell/releases/download/3.0.0/fish-3.0.0.tar.gz')

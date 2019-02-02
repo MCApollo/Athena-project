@@ -1,6 +1,6 @@
 # verilator.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/verilator.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='verilator'
 url=('https://www.veripool.org/ftp/verilator-4.010.tgz')

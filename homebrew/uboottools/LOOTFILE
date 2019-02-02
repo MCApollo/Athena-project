@@ -1,6 +1,6 @@
 # u-boot-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/u-boot-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='uboottools'
 url=('http://ftp.denx.de/pub/u-boot/u-boot-2018.07.tar.bz2')

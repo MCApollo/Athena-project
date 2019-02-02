@@ -1,6 +1,6 @@
 # ghr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ghr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ghr'
 url=('https://github.com/tcnksm/ghr/archive/v0.12.0.tar.gz')

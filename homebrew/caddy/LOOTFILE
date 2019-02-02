@@ -1,6 +1,6 @@
 # caddy.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/caddy.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='caddy'
 url=('https://github.com/mholt/caddy/archive/v0.11.2.tar.gz')

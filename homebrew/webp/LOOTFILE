@@ -1,6 +1,6 @@
 # webp.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/webp.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='webp'
 url=('https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.0.2.tar.gz')

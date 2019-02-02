@@ -1,6 +1,6 @@
 # mame.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mame.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mame'
 url=('https://github.com/mamedev/mame/archive/mame0205.tar.gz')

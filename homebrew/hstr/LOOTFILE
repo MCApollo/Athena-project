@@ -1,6 +1,6 @@
 # hstr.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/hstr.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='hstr'
 url=('https://github.com/dvorka/hstr/archive/2.0.tar.gz')

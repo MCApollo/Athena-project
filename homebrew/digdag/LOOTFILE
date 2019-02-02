@@ -1,6 +1,6 @@
 # digdag.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/digdag.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='digdag'
 url=('https://dl.digdag.io/digdag-0.9.32.jar')

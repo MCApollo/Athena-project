@@ -1,6 +1,6 @@
 # magic-wormhole.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/magic-wormhole.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='magicwormhole'
 url=('https://files.pythonhosted.org/packages/a2/1e/1566408c0cae5c565297f7d087404d7fc18d950f1fc12f34862c47d60698/magic-wormhole-0.11.0.tar.gz')

@@ -1,6 +1,6 @@
 # gradle-completion.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/gradle-completion.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gradlecompletion'
 url=('https://github.com/gradle/gradle-completion/archive/v1.3.1.tar.gz')

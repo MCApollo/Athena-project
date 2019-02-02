@@ -1,6 +1,6 @@
 # safe.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/safe.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='safe'
 url=('https://github.com/starkandwayne/safe/archive/v1.0.0.tar.gz')

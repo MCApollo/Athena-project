@@ -1,6 +1,6 @@
 # xtail.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/xtail.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='xtail'
 url=('https://www.unicom.com/files/xtail-2.1.tar.gz')

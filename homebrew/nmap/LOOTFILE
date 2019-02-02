@@ -1,6 +1,6 @@
 # nmap.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nmap.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nmap'
 url=('https://nmap.org/dist/nmap-7.70.tar.bz2')

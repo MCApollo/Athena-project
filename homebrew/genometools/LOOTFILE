@@ -1,6 +1,6 @@
 # genometools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/genometools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='genometools'
 url=('http://genometools.org/pub/genometools-1.5.10.tar.gz')

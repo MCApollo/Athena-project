@@ -1,6 +1,6 @@
 # iproute2mac.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/iproute2mac.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='iproute2mac'
 url=('https://github.com/brona/iproute2mac/releases/download/v1.2.2/iproute2mac-1.2.2.tar.gz')

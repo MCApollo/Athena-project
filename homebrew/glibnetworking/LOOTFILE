@@ -1,6 +1,6 @@
 # glib-networking.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/glib-networking.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='glibnetworking'
 url=('https://download.gnome.org/sources/glib-networking/2.58/glib-networking-2.58.0.tar.xz')

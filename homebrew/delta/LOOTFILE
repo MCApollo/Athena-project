@@ -1,6 +1,6 @@
 # delta.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/delta.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='delta'
 url=('https://mirrors.ocf.berkeley.edu/debian/pool/main/d/delta/delta_2006.08.03.orig.tar.gz')

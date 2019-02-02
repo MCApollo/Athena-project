@@ -1,6 +1,6 @@
 # mktorrent.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mktorrent.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mktorrent'
 url=('https://github.com/Rudde/mktorrent/archive/v1.1.tar.gz')

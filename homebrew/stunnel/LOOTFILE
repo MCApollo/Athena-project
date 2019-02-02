@@ -1,6 +1,6 @@
 # stunnel.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stunnel.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stunnel'
 url=('https://www.stunnel.org/downloads/stunnel-5.50.tar.gz')

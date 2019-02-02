@@ -1,6 +1,6 @@
 # twarc.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/twarc.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='twarc'
 url=('https://files.pythonhosted.org/packages/e1/f2/2d79badd5fab00826d5fb2a66b0d1923933ef937338edbdbdd01ae3f5181/twarc-1.6.1.tar.gz')

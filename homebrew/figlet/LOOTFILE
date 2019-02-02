@@ -1,6 +1,6 @@
 # figlet.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/figlet.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='figlet'
 url=('http://ftp.figlet.org/pub/figlet/program/unix/figlet-2.2.5.tar.gz')

@@ -1,6 +1,6 @@
 # abyss.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/abyss.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='abyss'
 url=('https://github.com/bcgsc/abyss/releases/download/2.1.5/abyss-2.1.5.tar.gz')

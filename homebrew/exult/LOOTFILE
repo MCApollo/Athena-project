@@ -1,6 +1,6 @@
 # exult.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/exult.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='exult'
 url=('75aff2e97a4867d7810f8907796f58cb11b87a39')

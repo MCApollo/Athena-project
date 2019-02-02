@@ -1,6 +1,6 @@
 # h2o.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/h2o.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='h2o'
 url=('https://github.com/h2o/h2o/archive/v2.2.5.tar.gz')

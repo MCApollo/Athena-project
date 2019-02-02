@@ -1,6 +1,6 @@
 # scalaenv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/scalaenv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='scalaenv'
 url=('https://github.com/scalaenv/scalaenv/archive/version/0.1.2.tar.gz')

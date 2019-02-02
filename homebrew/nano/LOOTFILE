@@ -1,6 +1,6 @@
 # nano.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/nano.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='nano'
 url=('https://nano-editor.org/dist/v3/nano-3.2.tar.gz')

@@ -1,6 +1,6 @@
 # chicken.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/chicken.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='chicken'
 url=('https://code.call-cc.org/releases/5.0.0/chicken-5.0.0.tar.gz')

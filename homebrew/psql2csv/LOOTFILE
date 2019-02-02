@@ -1,6 +1,6 @@
 # psql2csv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/psql2csv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='psql2csv'
 url=('https://github.com/fphilipe/psql2csv/archive/v0.9.tar.gz')

@@ -1,6 +1,6 @@
 # ddrescue.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ddrescue.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ddrescue'
 url=('https://ftp.gnu.org/gnu/ddrescue/ddrescue-1.23.tar.lz')

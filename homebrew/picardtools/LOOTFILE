@@ -1,6 +1,6 @@
 # picard-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/picard-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='picardtools'
 url=('https://github.com/broadinstitute/picard/releases/download/2.18.23/picard.jar')

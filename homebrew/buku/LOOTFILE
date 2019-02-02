@@ -1,6 +1,6 @@
 # buku.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/buku.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='buku'
 url=('https://github.com/jarun/Buku/archive/v4.1.tar.gz')

@@ -1,6 +1,6 @@
 # thrift.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/thrift.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='thrift'
 url=('https://www.apache.org/dyn/closer.cgi?path=/thrift/0.11.0/thrift-0.11.0.tar.gz')

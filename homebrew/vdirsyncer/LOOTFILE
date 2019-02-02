@@ -1,6 +1,6 @@
 # vdirsyncer.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vdirsyncer.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vdirsyncer'
 url=('https://github.com/pimutils/vdirsyncer.git')

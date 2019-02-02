@@ -1,6 +1,6 @@
 # cksfv.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cksfv.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cksfv'
 url=('http://zakalwe.fi/~shd/foss/cksfv/files/cksfv-1.3.14.tar.bz2')

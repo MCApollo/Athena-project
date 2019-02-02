@@ -1,6 +1,6 @@
 # eprover.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/eprover.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='eprover'
 url=('https://wwwlehre.dhbw-stuttgart.de/~sschulz/WORK/E_DOWNLOAD/V_2.2/E.tgz')

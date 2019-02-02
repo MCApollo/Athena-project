@@ -1,6 +1,6 @@
 # reattach-to-user-namespace.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/reattach-to-user-namespace.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='reattachtousernamespace'
 url=('https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/archive/v2.7.tar.gz')

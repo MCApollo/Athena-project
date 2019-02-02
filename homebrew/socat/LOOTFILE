@@ -1,6 +1,6 @@
 # socat.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/socat.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='socat'
 url=('http://www.dest-unreach.org/socat/download/socat-1.7.3.2.tar.gz')

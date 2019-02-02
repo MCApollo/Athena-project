@@ -1,6 +1,6 @@
 # norm.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/norm.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='norm'
 url=('https://downloads.pf.itd.nrl.navy.mil/norm/archive/src-norm-1.5r6.tgz')

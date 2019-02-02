@@ -1,6 +1,6 @@
 # slashem.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/slashem.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='slashem'
 url=('https://downloads.sourceforge.net/project/slashem/slashem-source/0.0.8E0F1/se008e0f1.tar.gz')

@@ -1,6 +1,6 @@
 # cxxtest.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/cxxtest.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='cxxtest'
 url=('https://github.com/CxxTest/cxxtest/releases/download/4.4/cxxtest-4.4.tar.gz')

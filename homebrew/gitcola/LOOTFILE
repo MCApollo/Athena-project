@@ -1,6 +1,6 @@
 # git-cola.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/git-cola.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='gitcola'
 url=('https://github.com/git-cola/git-cola/archive/v3.2.tar.gz')

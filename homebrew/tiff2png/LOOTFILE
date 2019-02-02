@@ -1,6 +1,6 @@
 # tiff2png.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/tiff2png.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='tiff2png'
 url=('https://github.com/rillian/tiff2png/archive/v0.92.tar.gz')

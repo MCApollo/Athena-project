@@ -1,6 +1,6 @@
 # jpeginfo.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/jpeginfo.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jpeginfo'
 url=('https://www.kokkonen.net/tjko/src/jpeginfo-1.6.1.tar.gz')

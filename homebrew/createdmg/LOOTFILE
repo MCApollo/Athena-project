@@ -1,6 +1,6 @@
 # create-dmg.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/create-dmg.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='createdmg'
 url=('https://github.com/andreyvit/create-dmg/archive/v1.0.0.5.tar.gz')

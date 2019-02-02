@@ -1,6 +1,6 @@
 # mkvtomp4.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mkvtomp4.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mkvtomp4'
 url=('https://github.com/gavinbeatty/mkvtomp4/archive/mkvtomp4-v1.3.tar.gz')

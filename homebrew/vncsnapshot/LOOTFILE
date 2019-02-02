@@ -1,6 +1,6 @@
 # vncsnapshot.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/vncsnapshot.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='vncsnapshot'
 url=('https://downloads.sourceforge.net/project/vncsnapshot/vncsnapshot/1.2a/vncsnapshot-1.2a-src.tar.gz')

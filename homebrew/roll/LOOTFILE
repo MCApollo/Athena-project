@@ -1,6 +1,6 @@
 # roll.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/roll.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='roll'
 url=('https://github.com/matteocorti/roll/releases/download/v2.4.0/roll-2.4.0.tar.gz')

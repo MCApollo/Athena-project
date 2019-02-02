@@ -1,6 +1,6 @@
 # ssdb.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ssdb.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='ssdb'
 url=('https://github.com/ideawu/ssdb/archive/1.9.4.tar.gz')

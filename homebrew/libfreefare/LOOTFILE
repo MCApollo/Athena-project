@@ -1,6 +1,6 @@
 # libfreefare.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/libfreefare.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='libfreefare'
 url=('https://github.com/nfc-tools/libfreefare/releases/download/libfreefare-0.4.0/libfreefare-0.4.0.tar.bz2')

@@ -1,6 +1,6 @@
 # netdata.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/netdata.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='netdata'
 url=('https://github.com/netdata/netdata/releases/download/v1.11.1/netdata-v1.11.1.tar.gz')

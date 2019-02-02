@@ -1,6 +1,6 @@
 # handbrake.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/handbrake.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='handbrake'
 url=('https://download.handbrake.fr/releases/1.2.0/HandBrake-1.2.0-source.tar.bz2')

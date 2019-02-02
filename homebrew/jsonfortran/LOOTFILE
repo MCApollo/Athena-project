@@ -1,6 +1,6 @@
 # json-fortran.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/json-fortran.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='jsonfortran'
 url=('https://github.com/jacobwilliams/json-fortran/archive/6.10.0.tar.gz')

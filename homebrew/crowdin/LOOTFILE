@@ -1,6 +1,6 @@
 # crowdin.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/crowdin.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='crowdin'
 url=('https://downloads.crowdin.com/cli/v2/crowdin-cli-2.0.25.zip')

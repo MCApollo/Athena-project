@@ -1,6 +1,6 @@
 # zsh-navigation-tools.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/zsh-navigation-tools.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='zshnavigationtools'
 url=('https://github.com/psprint/zsh-navigation-tools/archive/v2.2.7.tar.gz')

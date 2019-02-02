@@ -1,6 +1,6 @@
 # wpscan.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/wpscan.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='wpscan'
 url=('https://github.com/wpscanteam/wpscan/archive/2.9.4.tar.gz')

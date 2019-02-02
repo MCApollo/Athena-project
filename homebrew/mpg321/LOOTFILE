@@ -1,6 +1,6 @@
 # mpg321.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpg321.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='mpg321'
 url=('https://downloads.sourceforge.net/project/mpg321/mpg321/0.3.2/mpg321_0.3.2.orig.tar.gz')

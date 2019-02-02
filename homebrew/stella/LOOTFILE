@@ -1,6 +1,6 @@
 # stella.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/stella.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='stella'
 url=('https://github.com/stella-emu/stella/releases/download/5.1.3/stella-5.1.3-src.tar.xz')

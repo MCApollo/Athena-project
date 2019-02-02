@@ -1,6 +1,6 @@
 # puf.rb
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/puf.rb
-# Converted on 02-01-2019
+# Converted on 02-02-2019
 
 name='puf'
 url=('https://downloads.sourceforge.net/project/puf/puf/1.0.0/puf-1.0.0.tar.gz')
