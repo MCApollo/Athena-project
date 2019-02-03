@@ -1,0 +1,36 @@
+# antiword.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/antiword.rb
+# Converted on 02-02-2019
+
+name='antiword'
+url=('http://www.winfield.demon.nl/linux/antiword-0.37.tar.gz')
+description='Utility to read Word (.doc) files'
+version='0.37' # Guessed version.
+priority='optional'
+homepage='http://www.winfield.demon.nl/'
+tags='purpose::console'
+section='Utilities'
+
+###### Resource ######
+# sample.doc: https://gist.github.com/bfontaine/f7e29599d329c41737ce/raw/ed4a3c5461924ed3bc18beb6b82681af9ad143d1/sample.doc
+
+###### Install ######
+# inreplace "antiword.h", "/usr/share/antiword", pkgshare
+# system "make", "CC=#{ENV.cc}",
+# "LD=#{ENV.cc}",
+# "CFLAGS=#{ENV.cflags} -DNDEBUG",
+# "GLOBAL_INSTALL_DIR=#{bin}",
+# "GLOBAL_RESOURCES_DIR=#{pkgshare}"
+# bin.install "antiword"
+# pkgshare.install Dir["Resources/*"]
+# man1.install "Docs/antiword.1"
+
+package(){
+	cd $name-$version
+	sed -i 's/\/usr\/share\/antiword/\/usr\/local\/share\/antiword/' antiword.h
+	pkg:make LDFLAGS="${SDK-:/nonexist}/usr/lib/libc.tbd -ios_version_min 9.0" GLOBAL_INSTALL_DIR=/usr/local/bin GLOBAL_RESOURCES_DIR=/usr/local/share/antiword
+	mkdir -p $pkgdir/usr/local/{bin,share/man/man1,share/antiword}
+	cp antiword $pkgdir/usr/local/bin
+	cp Docs/antiword.1 $pkgdir/usr/local/share/man/man1
+	cp Resources/* $pkgdir/usr/local/share/antiword
+}

@@ -1,0 +1,35 @@
+# analog.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/analog.rb
+# Converted on 02-02-2019
+
+name='analog'
+url=('https://deb.debian.org/debian/pool/main/a/analog/analog_6.0.orig.tar.gz')
+description='Logfile analyzer'
+version='6.0' # Guessed version.
+priority='optional'
+homepage='https://tracker.debian.org/pkg/analog'
+depends=('gd' 'jpeg' 'libpng')
+tags='purpose::console'
+section='Utilities'
+
+###### Install ######
+# system "make", "CC=#{ENV.cc}",
+# "CFLAGS=#{ENV.cflags}",
+# "DEFS='-DLANGDIR=\"#{pkgshare}/lang/\"' -DHAVE_ZLIB",
+# "LIBS=-lz",
+# "OS=OSX"
+# bin.install "analog"
+# pkgshare.install "examples", "how-to", "images", "lang"
+# pkgshare.install "analog.cfg" => "analog.cfg-dist"
+# (pkgshare/"examples").install "logfile.log"
+# man1.install "analog.man" => "analog.1"
+
+package(){
+	cd $name-$version
+	pkg:make LIBS=-lz DEFS='-DLANGDIR=\"/usr/local/share/analog/lang\" -DHAVE_ZLIB' OS=OSX
+	mkdir -p $pkgdir/usr/local/{bin,share/man/man1,share/analog}
+	cp analog $pkgdir/usr/local/bin/
+	cp -r examples how-to images lang $pkgdir/usr/local/share/analog/
+	cp analog.cfg $pkgdir/usr/local/share/analog/analog.cfg-dist
+	cp analog.man $pkgdir/usr/local/share/man/man1/analog.1
+}

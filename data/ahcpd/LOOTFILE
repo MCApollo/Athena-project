@@ -1,0 +1,26 @@
+# ahcpd.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ahcpd.rb
+# Converted on 02-02-2019
+
+name='ahcpd'
+url=('https://www.irif.univ-paris-diderot.fr/~jch/software/files/ahcpd-0.53.tar.gz')
+description='Autoconfiguration protocol for IPv6 and IPv6/IPv4 networks'
+version='0.53' # Guessed version.
+priority='optional'
+homepage='https://www.irif.univ-paris-diderot.fr/~jch/software/ahcp/'
+
+# A diff file was written to ahcpd.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system "make", "LDLIBS=''"
+# system "make", "install", "PREFIX=", "TARGET=#{prefix}"
+
+package(){
+	cd $name-$version
+	pkg:setenv
+	make LDLIBS=''
+	make install PREFIX=/usr/local TARGET=$pkgdir
+	mkdir $pkgdir/usr/local/share
+	mv $pkgdir/usr/local/man $pkgdir/usr/local/share
+}

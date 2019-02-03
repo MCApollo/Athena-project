@@ -1,0 +1,32 @@
+# afsctool.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/afsctool.rb
+# Converted on 02-02-2019
+
+name='afsctool'
+url=('https://dl.bintray.com/homebrew/mirror/afsctool-1.6.4.zip')
+description='Utility for manipulating HFS+ compressed files'
+version='1.6.4' # Guessed version.
+priority='optional'
+homepage='https://brkirch.wordpress.com/afsctool/'
+tags='purpose::console'
+section='Utilities'
+
+# Patches
+url+=('https://github.com/vfx01j/afsctool/commit/26293a3809c9ad1db5f9bff9dffaefb8e201a089.diff?full_index=1')
+
+# A diff file was written to afsctool.diff
+# --> Patch the file before building.
+
+###### Install ######
+# system ENV.cc, ENV.cflags, "-lz", "afsctool.c",
+# "-framework", "CoreServices", "-o", "afsctool"
+# bin.install "afsctool"
+
+package(){
+	cd ${name}_34
+	patch -p2 < ../*.diff || :
+	mv ../hfs .
+	${TARGET}-clang -I. -lz afsctool.c -framework CoreServices -o afsctool
+	mkdir -p $pkgdir/usr/local/bin
+	cp afsctool $pkgdir/usr/local/bin
+}

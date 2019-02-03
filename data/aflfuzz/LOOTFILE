@@ -1,0 +1,48 @@
+# afl-fuzz.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/afl-fuzz.rb
+# Converted on 02-02-2019
+
+name='aflfuzz'
+url=('http://lcamtuf.coredump.cx/afl/releases/afl-2.52b.tgz')
+description='American fuzzy lop: Security-oriented fuzzer'
+version='2.52b'
+priority='optional'
+homepage='http://lcamtuf.coredump.cx/afl/'
+tags='purpose::console'
+section='Utilities'
+
+###### Install ######
+# system "make", "PREFIX=#{prefix}"
+# system "make", "install", "PREFIX=#{prefix}"
+
+# NOTE:
+# This is likely broken (shgmet IPC/sysv doesn't usually work)
+# https://github.com/Proteas/afl-ios/commit/866af8ad1cb230d5d753b546380a4af1e55d6946
+
+build(){
+	cd afl-$version
+	pkg:setenv
+
+	for v in 3.0 4.0 5.0 6.0 7.0; do
+		if command -v llvm-config-$v; then
+			export LLVM_CONFIG=llvm-config-$v
+			X=$v
+		fi
+	done
+
+	sed -i "s/-O3/-O3 -I\/usr\/lib\/llvm-$X\/include -DSYSTEM_ALLOW_IOS/" Makefile llvm_mode/Makefile # Edited header for system
+	sed -i 's/shell uname/shell echo Darwin/' llvm_mode/Makefile
+	sed -i 's/test_build all_done//' llvm_mode/Makefile
+	sed -i 's/error/warning/' afl-as.c # We're not 32-bit ;)
+	# Probably needs code work for iOS/arm64
+	make PREFIX=/usr/local AFL_NO_X86=1
+	cd llvm_mode
+	#LLVM_CONFIG=$LLVM_CONFIG make PREFIX=/usr/local
+	LLVM_CONFIG="true" make PREFIX=/usr/local AFL_NO_X86=1
+}
+
+package(){
+	cd afl-$version
+	make PREFIX=/usr/local DESTDIR=$pkgdir AFL_NO_X86=1 install
+	cd llvm_mode
+}

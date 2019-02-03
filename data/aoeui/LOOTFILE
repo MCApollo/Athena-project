@@ -1,0 +1,18 @@
+# aoeui.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aoeui.rb
+# Converted on 02-02-2019
+
+name='aoeui'
+url=('https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/aoeui/aoeui-1.6.tgz')
+description='Lightweight text editor optimized for Dvorak and QWERTY keyboards'
+version='1.6' # Guessed version.
+priority='optional'
+homepage='https://code.google.com/archive/p/aoeui/'
+
+###### Install ######
+# system "make", "INST_DIR=#{prefix}", "install"
+
+package(){
+	cd $name-$version
+	pkg:make INST_DIR=$pkgdir/usr/local install
+}

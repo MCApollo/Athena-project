@@ -1,0 +1,29 @@
+# antlr4-cpp-runtime.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/antlr4-cpp-runtime.rb
+# Converted on 02-02-2019
+
+name='antlr4cppruntime'
+url=('https://www.antlr.org/download/antlr4-cpp-runtime-4.7.2-source.zip')
+description='ANother Tool for Language Recognition C++ Runtime Library'
+version='4.7.2' # Guessed version.
+priority='optional'
+homepage='https://www.antlr.org/'
+makedepends=('cmake')
+tags='purpose::library'
+section='Utilities'
+
+###### Install ######
+# system "cmake", ".", *std_cmake_args
+# system "make", "install"
+
+build(){
+	mkdir build
+	cd build
+	pkg:cmake ..
+	make
+}
+
+package(){
+	cd build
+	make DESTDIR=$pkgdir install
+}
