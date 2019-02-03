@@ -1,0 +1,31 @@
+# adns.rb
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/adns.rb
+# Converted on 02-02-2019
+
+name='adns'
+url=('https://www.chiark.greenend.org.uk/~ian/adns/ftp/adns-1.5.1.tar.gz')
+description='C/C++ resolver library and DNS resolver utilities'
+version='1.5.1' # Guessed version.
+priority='optional'
+homepage='https://www.chiark.greenend.org.uk/~ian/adns/'
+tags='purpose::library'
+section='Utilities'
+
+###### Install ######
+# system "./configure", "--prefix=#{prefix}", "--disable-dynamic"
+# system "make"
+# system "make", "install"
+
+build(){
+	cd $name-$version
+	pkg:configure --disable-dynamic
+	make
+}
+
+package(){
+	cd $name-$version
+	x=$(echo $pkgdir | sed 's_/_\\/_g')
+	sed -i "s/\/usr\/local/$x\/usr\/local/" common.make
+	make DESTDIR=$pkgdir install
+}
+

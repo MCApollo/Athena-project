@@ -8,6 +8,7 @@ description='Renders mathematical expressions as ASCII art'
 version='0.3' # Guessed version.
 priority='optional'
 homepage='http://fuse.superglue.se/aamath/'
+depends=('ncurses')
 section='Utilities'
 tags='purpose::console'
 
@@ -21,6 +22,8 @@ tags='purpose::console'
 build(){
 	cd $name
 	patch -p1 < ../*.diff
+	sed -i "s/g++/${TARGET}-clang/" Makefile
+	sed -i "s/-ltermcap/-lncurses -lc++/" Makefile
 	pkg:setenv
 	make
 }
