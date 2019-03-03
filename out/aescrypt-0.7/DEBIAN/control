@@ -1,0 +1,11 @@
+Package: com.mc.aescrypt
+Name: aescrypt
+Version: 0.7
+Section: Utilities
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://aescrypt.sourceforge.io/
+Tags: purpose::console
+Description: Athena Project | Compiled for ARM64.
+	Program for encryption/decryption

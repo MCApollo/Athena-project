@@ -1,0 +1,17 @@
+name='Readline'
+url='https://ftp.gnu.org/gnu/readline/readline-8.0.tar.gz'
+description='Library for command-line editing'
+section='Development'
+version='8.0.0'
+priority='optional'
+homepage='https://tiswww.case.edu/php/chet/readline/rltop.html'
+tags='purpose::library'
+
+build(){
+	pkg:configure ac_cv_func_strcoll_works=yes bash_cv_func_sigsetjmp=present bash_cv_func_ctype_nonascii=no bash_cv_must_reinstall_sighandlers=no bash_cv_func_strcoll_broken=yes
+	make CFLAGS='-O2'
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

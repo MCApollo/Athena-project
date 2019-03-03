@@ -1,0 +1,11 @@
+Package: com.mc.readline
+Name: Readline
+Version: 8.0.0
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	Library for command-line editing

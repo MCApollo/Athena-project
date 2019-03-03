@@ -1,0 +1,34 @@
+name='Perl'
+version='5.29.8'
+description='Highly capable, feature-rich programming language'
+section='Scripting'
+url='https://www.cpan.org/src/5.0/perl-5.29.8.tar.gz'
+priority='optional'
+homepage='https://www.perl.org/'
+tags='purpose::console'
+
+_cross="https://github.com/arsv/perl-cross/releases/download/1.2.2/perl-cross-1.2.2.tar.gz"
+build(){
+	cross=$(_extract $(_download ${_cross}))
+	cp -af ${cross:-nonexist}/* .
+	for x in $srcdir/*.diff; do
+		patch -p1 < $x
+	done
+	cp -r -- cnf/diffs/perl5-5.29.7 cnf/diffs/perl5-${version}
+	CFLAGS="-DPERL_DARWIN" ./configure --build="x86_64-pc-linux-gnu" --target="aarch64-apple-darwin18.2" --prefix="$PKGPREFIX" \
+	-Duseshphlib -Dusevendorprefix --vendorprefix="$PKGPREFIX" -Dusethreads -Dvendorlib="$PKGPREFIX/share/perl5" \
+	-Dvendorarch="$PKGPREFIX/perl5/5.29.8" -Dosname="darwin"
+	# The sed commands are temp fixes.
+	sed -i 's/# HAS_NANOSLEEP/#define HAS_NANOSLEEP/' config.h
+	sed -i 's/#  ifndef MY_HAS_SETENV/#if  1/' util.c # Conflicting things led to undefined 'S_env_alloc'
+	sed -i "s/SED_REPLACE_ME/${TARGET}-clang/" ext/Errno/Errno_pm.PL # Hard-coded system checks
+	for x in $srcdir/*.patch; do
+		patch -p1 < $x
+	done
+	make LDDLFLAGS=" -shared -undefined dynamic_lookup"
+}
+
+package(){
+	make LDDLFLAGS=" -shared -undefined dynamic_lookup" DESTDIR=$pkgdir install
+	# TODO: after patch for on device compilier.
+}

@@ -1,0 +1,192 @@
+The Dvorak Simplified Keyboard layout
+
+       ESC FFFFF FFFFF DEL
+	 ` 12345 67890 [] BCK
+       TAB ',.py fgcrl /= \
+       CTL AoeuI dhtns -  ENT
+       SHF ;qJkx bMwvz SHF
+       LCK ALT SPC ALT CTL arrows
+
+Commands are denoted here in these notes by ^, which signifies use
+of Control, Alt, or a leading Escape before a key.  (Some Control
+keys don't work the same in a Linux console; Escape always works.
+Control-[ is the same as Escape.)
+
+Non-command characters are inserted or searched for.
+Self-insertion automatically cuts when cursor < mark.
+
+There are multiple windows, views, and texts.  Every window has a view,
+but not every view has a window.  Every view has a text and every text
+has at least one view.  Some texts have files.  The cursor, mark, and
+macro are local to their view.
+
+* below means "must be this character".
+() indicate synonyms
+[;] indicate variants activated by ^Space, possibly with value
+/  indicates behavior with mark unset / set
+
+Command characters
+*  ESC	function keys and query responses, ALT
+*  Fk	global macro execute [start; repeat]
+  ^@	(^Space)
+  ^^	literal, control [; unicode]
+* ^[	(ESC or "smaller font")
+  ^]	move to corresponding or nearest bracket [AVAILABLE]
+*  TAB	tab / tab completion [align; set tab stop]
+  ^P	select another window [closing current; by index]
+  ^Y	split window [vertically] / narrow to selection
+  ^F	AVAILABLE / copy [pre/append; replicate]
+  ^G	backward to line start [paragraph start; multiple lines]
+  ^C	forward to line end [paragraph end; multiple lines]
+  ^R	backward screen(s) [beginning of view]
+  ^L	forward screen(s) [end of view]
+  ^/	(^_)
+* ^?	(BCK) delete character before cursor
+* ^+	-- larger font
+  ^\	[quit without saving]
+* ^A	-- reserved by screen(1), synonym for ^/(^_)
+  ^O	macro end, macro execute [macro start; repeat]
+  ^E	shell [end children] / pipe clipbuffer to command
+  ^U	undo [redo]
+* ^I	(TAB)
+  ^D	cut char [select whitespace] / cut [pre/append; replicate]
+  ^H	backward char(s) [up line; multiple chars]
+  ^T	forward char(s) [down line; multiple chars]
+  ^N	backward word(s) [sentence; multiple words]
+  ^S	forward word(s) [sentence; multiple words]
+* ^-	-- smaller font in some WMs, otherwise (^_)
+* ^_	(^/) incremental search mode [regexp]
+*  ENT	(^M) newline
+  ^ENT	(^J)
+  ^Q	suspend editor [quit]
+* ^J	(^ENT) newline with automatic alignment
+  ^K	save all [single]
+  ^X	get path / visit file [set path]
+  ^B	paste / exchange with clip buffer [; register]
+* ^M	(ENT)
+  ^W	select other view [closing current]
+  ^V	set/unset mark [select line / exchange mark with cursor; force unset]
+  ^Z	recenter view [single window, reset display; go to line]
+  ^SP	(^@) variant, beginning of value
+
+Non-control characters -- commands must be [variants]
+  =	[; set bookmark]
+  -	[; go to bookmark]
+  ;	[new anonymous text]
+  '	[go to tag]
+  ,	[fold view on indentation] / [fold selection]
+  .	[unfold; unfold entire view] / [unfold selection once]
+  #	[get current position]
+  ?	[help]
+  0-9	decimal argument
+  x 0-9 a-f A-F		hexadecimal argument
+  unused: ` ~ ! @ $ % & ( ) { } " <  >  | :
+
+Missing features:
+	multiple column characters (using wcwidth)
+	preserving window layouts
+	moving to prior window
+	saving, restoring, rewriting F-key definitions
+
+Idioms
+- search and replace: cut replacement text, search for first occurrence,
+  then repeat ^B^F^/^/ to exchange target with replacement, restore
+  replacement text in the clip buffer, and proceed to the next hit
+- also, can pipe text through sed 's/X/Y/g' for global replacement
+- also, can use a macro
+- exchanging cursor and mark and then retyping with automatic cut
+  is often faster than an explicit cut.
+- going forward or back a half screenful: use ^R/^L, then ^Z
+- inserting with a repeat count: cut with repeat, then paste
+
+
+QWERTY->Dvorak command mapping
+
+	qwert yuIop
+	Asdfg hJkl;
+	zxcvb nM,./
+
+navigation:	G:t	C:y	R:o	L:p
+		H:g	T:h	N:k	S:l
+		Z:n
+selection:	V:u	F:c	D:x	B:v
+windows:	P:s	Y:d	W:f
+files:		Q:q	K:w	X:e
+others:		O:b	E:r	U:z
+
+
+Unicode tips:
+0x2000-206f	general punctuation
+0x2100-22ff	math
+0x2300-23ff	misc. technical
+0x2400-24ff	printable control chars, boxed numbers and letters
+0x2500-25ff	block graphics
+0x2600-26b2	misc. symbols
+0x2700-27ff	dingbats
+
+Compose key sequences for Latin-1:
+
+		0xa1 (¡) !!	0xa2 (¢) c/	0xa3 (£) l-
+0xa4 (¤) ox	0xa5 (¥) Y=	0xa6 (¦)	0xa7 (§) so
+0xa8 (¨) ""	0xa9 (©) OC	0xaa (ª) a_	0xab («) <<
+0xac (¬) ,-	0xad (­) ---	0xae (®) OR	0xaf (¯) ^-
+0xb0 (°)	0xb1 (±) +-	0xb2 (²) ^2	0xb3 (³) ^3
+0xb4 (´) ''	0xb5 (µ) u/	0xb6 (¶) p!	0xb7 (·) ^.
+0xb8 (¸) ,,	0xb9 (¹) ^1	0xba (º) o_	0xbb (») >>
+0xbc (¼)	0xbd (½)	0xbe (¾)	0xbf (¿) ??
+				0xc6 (Æ) AE
+0xd0 (Ð) D-
+						0xd7 (×) xx
+				0xde (Þ) TH	0xdf (ß) ss
+				0xe6 (æ) ae
+0xf0 (ð)
+						0xf7 (÷) :-
+				0xfe (þ) th
+(€) C=
+
+0x203b ※  0x2230 ∰  0x237e ⍾  0x2615 ☕  0x2620 ☠  0x2767 ❧
+
+
+	---- no mark ----		------ mark ------
+	raw	^Space	arg		raw	^Space	arg
+ Q	suspend	quit
+ U Z	undo	redo
+ K W	save	save 1
+ \	AVAIL	abort
+ X E	(get path)			visit	(set path)
+
+ H G	<-ch	up	<-chs
+ T H	ch->	down	chs->
+ N K	<-wd	<-sent	<-wds
+ S L	wd->	sent->	wds->
+ G T	<-ln	<-pp	<-lns
+ C Y	ln->	pp->	lns->
+ R O	<-pg	home
+ L P	pg->	end
+ ]	[]
+ Z N	center	reset	->line#
+ _	search	regexp
+
+ J	(auto-align new line)
+ Tab	(tab complete)			Tab
+ ^	(literal/ctl)	unicode
+
+ V U	mark	selline	unmark		unmark	swap	unmark
+ F C	AVAIL				copy	append	repl
+ D X	cutch	selwhite		cut	append	repl
+ B V	paste				exch		register
+
+ W F	view	close
+ Y D	split	vsplit			narrow
+ P S	window	close	->window#
+
+ O B	macro	macstart macros
+ E R	shell	endchildren		pipe
+ =		bookmk	bookmk#
+ -		gotomk	gotomk#
+ ;		(new anon text)
+ '		(go to tag)
+ ,		(fold view)			(fold selection)
+ .		unfold	unfoldall		(unfold selection)
+ #		where
+ ?		help

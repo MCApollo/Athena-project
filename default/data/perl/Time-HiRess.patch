@@ -1,0 +1,47 @@
+--- a/dist/Time-HiRes/Makefile.PL	2019-01-31 00:27:46.000000000 -0600
++++ b/dist/Time-HiRes/Makefile.PL	2019-03-03 02:34:21.637525177 -0600
+@@ -600,13 +600,13 @@
+ 
+     print "Looking for clockid_t... ";
+     my $has_clockid_t;
+-    if (has_clockid_t()) {
++#    if (has_clockid_t()) {
+ 	print "found.\n";
+         $has_clockid_t++;
+ 	$DEFINE .= ' -DTIME_HIRES_CLOCKID_T';
+-    } else {
+-	print "NOT found, will use int.\n";
+-    }
++#    } else {
++#	print "NOT found, will use int.\n";
++#    }
+ 
+     print "Looking for clock_gettime()... ";
+     my $has_clock_gettime;
+@@ -624,6 +624,9 @@
+        $has_clock_gettime++;
+        $DEFINE .= ' -DTIME_HIRES_CLOCK_GETTIME -DTIME_HIRES_CLOCK_GETTIME_EMULATION';
+     }
++       $has_clock_gettime_emulation++;
++       $has_clock_gettime++;
++       $DEFINE .= ' -DTIME_HIRES_CLOCK_GETTIME -DTIME_HIRES_CLOCK_GETTIME_EMULATION';
+ 
+     if ($has_clock_gettime) {
+         if ($DEFINE =~ /-DTIME_HIRES_CLOCK_GETTIME_SYSCALL/) {
+@@ -692,12 +695,12 @@
+ 
+     print "Looking for clock()... ";
+     my $has_clock;
+-    if (exists $Config{d_clock}) {
+-        $has_clock++ if $Config{d_clock}; # Unlikely...
+-    } elsif (has_clock()) {
++#    if (exists $Config{d_clock}) {
++#        $has_clock++ if $Config{d_clock}; # Unlikely...
++#    } elsif (has_clock()) {
+         $has_clock++;
+ 	$DEFINE .= ' -DTIME_HIRES_CLOCK';
+-    }
++#    }
+ 
+     if ($has_clock) {
+         print "found.\n";

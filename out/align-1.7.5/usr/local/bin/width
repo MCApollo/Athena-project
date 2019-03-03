@@ -1,0 +1,81 @@
+#!/usr/bin/perl                        
+
+# width - determine the printing widths of input lines
+# Steve Kinzler, steve@kinzler.com, Oct 93
+# see website http://kinzler.com/me/align/
+# http://kinzler.com/me/home.html#unix
+
+use Getopt::Std;	$Getopt::Std::STANDARD_HELP_VERSION = 1;
+
+$usage = "usage: $0 [ -haApcwfnl ] [ file ... ]
+	-h	display just this help message
+	-a	display all of the longest lines
+	-A	display all lines
+	-p	display processed lines instead of raw lines
+	-c	use number of characters instead of printing width
+	-w	display line widths
+	-f	display filenames
+	-n	display line numbers
+	-l	display lines
+	default is -wfnl of the first longest line\n";
+
+getopts('haApcwfnl') || die $usage;
+
+die $usage if $opt_h;
+
+$opt_w = $opt_f = $opt_n = $opt_l = 1
+	unless grep($_, ($opt_w, $opt_f, $opt_n, $opt_l));
+$process = $opt_p && $opt_l || ! ($opt_c || $opt_A && ! $opt_w);
+
+$Width = -1;
+
+while (<>) {
+	s/[\r\n]*$//;
+	$line = $_;
+
+	if ($process) {
+		s/.*[\f\r]//;
+		s/[\000-\007\013\016-\037\177-\237]//g;
+		1 while s/[ -~]\010//g; s/^\010*//;
+		while (($t = index($_, "\t")) >= $[) {
+			$s = 8 - $t % 8;
+			substr($_, $t, 1) = ' ' x $s;
+			1 while s/[ -~]\010//g; s/^\010*//;
+		}
+	}
+
+	$width = length(($opt_c) ? $line : $_);
+	$line = $_ if $opt_p;
+
+	if ($opt_A) {
+		&printline($width, $ARGV, $., $line);
+	} elsif ($width > $Width) {
+		$Width = $width;
+		@files = ($ARGV);
+		@lnums = ($.);
+		@lines = ($line);
+	} elsif ($width == $Width && $opt_a) {
+		push(@files, $ARGV);
+		push(@lnums, $.);
+		push(@lines, $line);
+	}
+
+	close ARGV if eof;
+}
+
+exit if $opt_A;
+
+foreach (@files) {
+	&printline($Width, $_, shift @lnums, shift @lines);
+}
+
+sub printline {
+	local($width, $file, $lnum, $line) = @_;
+	local(@output) = ();
+
+	push(@output, $width) if $opt_w;
+	push(@output, $file)  if $opt_f;
+	push(@output, $lnum)  if $opt_n;
+	push(@output, $line)  if $opt_l;
+	print join(':', @output), "\n";
+}

@@ -1,0 +1,97 @@
+diff -Naur a/Configure b/Configure
+--- a/Configure	2019-02-13 18:01:20.000000000 -0600
++++ b/Configure	2019-03-02 20:59:19.556322111 -0600
+@@ -1,4 +1,4 @@
+-#! /bin/sh
++#! /bin/bash
+ #
+ # If these # comments don't work, trim them. Don't worry about any other
+ # shell scripts, Configure will trim # comments from them for you.
+diff -Naur a/cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Unix.pm b/cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Unix.pm
+--- a/cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Unix.pm	2019-01-31 00:27:45.000000000 -0600
++++ b/cpan/ExtUtils-MakeMaker/lib/ExtUtils/MM_Unix.pm	2019-03-02 21:00:48.060571043 -0600
+@@ -32,6 +32,7 @@
+     $Is{Interix} = $^O eq 'interix';
+     $Is{SunOS4}  = $^O eq 'sunos';
+     $Is{Solaris} = $^O eq 'solaris';
++    $Is{Darwin}  = $^O eq 'darwin';
+     $Is{SunOS}   = $Is{SunOS4} || $Is{Solaris};
+     $Is{BSD}     = ($^O =~ /^(?:free|net|open)bsd$/ or
+                    grep( $^O eq $_, qw(bsdos interix dragonfly) )
+@@ -1028,7 +1029,7 @@
+     push(@m,"	\$(RM_F) \$\@\n");
+ 
+     my $libs = '$(LDLOADLIBS)';
+-    if (($Is{NetBSD} || $Is{Interix} || $Is{Android}) && $Config{'useshrplib'} eq 'true') {
++    if (($Is{NetBSD} || $Is{Interix} || $Is{Android} || $Is{Darwin}) && $Config{'useshrplib'} eq 'true') {
+         # Use nothing on static perl platforms, and to the flags needed
+         # to link against the shared libperl library on shared perl
+         # platforms.  We peek at lddlflags to see if we need -Wl,-R
+@@ -1802,7 +1803,7 @@
+ 	}
+     }
+ 
+-    if ($Is{Android}) {
++    if ($Is{Android} || $Is{Darwin}) {
+     	# Android fun times!
+     	# ../../perl -I../../lib -MFile::Glob -e1 works
+     	# ../../../perl -I../../../lib -MFile::Glob -e1 fails to find
+diff -Naur a/ext/Errno/Errno_pm.PL b/ext/Errno/Errno_pm.PL
+--- a/ext/Errno/Errno_pm.PL	2019-02-13 18:01:20.000000000 -0600
++++ b/ext/Errno/Errno_pm.PL	2019-03-02 21:02:06.168766432 -0600
+@@ -105,6 +105,7 @@
+ 		and -f $upup_cppstdin
+ 		    and -x $upup_cppstdin);
+ 	$cppstdin = $upup_cppstdin if $cppstdin_is_wrapper;
++	$cppstdin =~ s/-P//;
+     }
+     return "$cppstdin $Config{cppflags} $Config{cppminus}";
+ }
+@@ -114,44 +115,11 @@
+     # When cross-compiling we may store a path for gcc's "sysroot" option:
+     my $sysroot = $Config{sysroot} || '';
+     my $linux_errno_h;
+-    if ($^O eq 'linux') {
+-	# Some Linuxes have weird errno.hs which generate
+-	# no #file or #line directives
+-	($linux_errno_h) = grep { -e $_ } map { "$_/errno.h" }
+-	    "$sysroot/usr/include", "$sysroot/usr/local/include",
+-	    split / / => $Config{locincpth};
+-    }
+-
+-    # VMS keeps its include files in system libraries
+-    if ($^O eq 'VMS') {
+-	$file{'Sys$Library:DECC$RTLDEF.TLB'} = 1;
+-    } elsif ($^O eq 'os390') {
+-	# OS/390 C compiler doesn't generate #file or #line directives
+-	$file{'/usr/include/errno.h'} = 1;
+-    } elsif ($Config{archname} eq 'arm-riscos') {
+-	# Watch out for cross compiling for RISC OS
+-	my $dep = `echo "#include <errno.h>" | gcc -E -M -`;
++    if (1) {
++	my $dep = `echo "#include <errno.h>" | SED_REPLACE_ME -E -M -`;
+ 	if ($dep =~ /(\S+errno\.h)/) {
+-	     $file{$1} = 1;
++		$file{$1} = 1;
+ 	}
+-    } elsif ($^O eq 'linux' &&
+-	      $Config{gccversion} ne '' && 
+-	      $Config{gccversion} !~ /intel/i &&
+-	      # might be using, say, Intel's icc
+-	      $linux_errno_h
+-	     ) {
+-	$file{$linux_errno_h} = 1;
+-    } elsif ($^O eq 'haiku') {
+-	# hidden in a special place
+-	$file{'/boot/develop/headers/posix/errno.h'} = 1;
+-
+-    } elsif ($^O eq 'vos') {
+-	# avoid problem where cpp returns non-POSIX pathnames
+-	$file{'/system/include_library/errno.h'} = 1;
+-    } elsif ($IsSymbian) {
+-        my $SDK = $ENV{SDK};
+-        $SDK =~ s!\\!/!g;
+-	$file{"$SDK/epoc32/include/libc/sys/errno.h"} = 1;
+     } else {
+ 	open(CPPI, '>', 'errno.c') or
+ 	    die "Cannot open errno.c";

@@ -1,0 +1,249 @@
+diff -Naur a/cnf/config.guess b/cnf/config.guess
+--- a/cnf/config.guess	2018-12-02 12:35:51.000000000 -0600
++++ b/cnf/config.guess	2019-03-02 21:11:28.452122219 -0600
+@@ -1,4 +1,4 @@
+-#! /bin/sh
++#! /bin/bash
+ # Attempt to guess a canonical system name.
+ #   Copyright 1992-2016 Free Software Foundation, Inc.
+ 
+@@ -925,7 +925,7 @@
+ 	  EV67)  UNAME_MACHINE=alphaev67 ;;
+ 	  EV68*) UNAME_MACHINE=alphaev68 ;;
+ 	esac
+-	objdump --private-headers /bin/sh | grep -q ld.so.1
++	objdump --private-headers /bin/bash | grep -q ld.so.1
+ 	if test "$?" = 0 ; then LIBC=gnulibc1 ; fi
+ 	echo ${UNAME_MACHINE}-unknown-linux-${LIBC}
+ 	exit ;;
+diff -Naur a/cnf/configure b/cnf/configure
+--- a/cnf/configure	2018-12-02 12:35:51.000000000 -0600
++++ b/cnf/configure	2019-03-02 21:11:54.136489452 -0600
+@@ -1,4 +1,4 @@
+-#!/bin/sh
++#!/bin/bash
+ 
+ base=${0%/*}; test -z "$base" && base=.
+ 
+@@ -8,7 +8,7 @@
+ appendlog() { cat "$cfglog" >> "$1"; rm -f "$cfglog"; cfglog="$1"; }
+ 
+ config="config.sh.$$"
+-echo "#!/bin/sh" > $config
++echo "#!/bin/bash" > $config
+ echo "" >> $config
+ setconfig() { mv "$config" "$1"; config="$1"; }
+ delconfig() { rm "$config"; }
+diff -Naur a/cnf/configure__f.sh b/cnf/configure__f.sh
+--- a/cnf/configure__f.sh	2018-12-02 12:35:51.000000000 -0600
++++ b/cnf/configure__f.sh	2019-03-02 21:12:51.461257758 -0600
+@@ -266,10 +266,16 @@
+ 	try_link_libs $libs $*
+ }
+ 
+-try_readelf() {
+-	require 'readelf'
++#try_readelf() {
++#	require 'readelf'
++#	require '_o'
++#	run $readelf $* try$_o
++#}
++
++try_nm() {
++	require 'nm'
+ 	require '_o'
+-	run $readelf $* try$_o
++	run $nm $* try$_o
+ }
+ 
+ try_objdump() {
+diff -Naur a/cnf/configure_func.sh b/cnf/configure_func.sh
+--- a/cnf/configure_func.sh	2018-12-02 12:35:51.000000000 -0600
++++ b/cnf/configure_func.sh	2019-03-02 21:13:18.609598597 -0600
+@@ -7,7 +7,7 @@
+ 		try_start
+ 		funcincludes "$3" "$4" "$includes"
+ 		try_add "int main(void) { $2($3); return 0; }"
+-		try_link -O0 -fno-builtin
++		try_link -O0 -fno-builtin -Wno-error=implicit-function-declaration
+ 		resdef $1 'found' 'missing'
+ 	fi
+ }
+diff -Naur a/cnf/configure_misc.sh b/cnf/configure_misc.sh
+--- a/cnf/configure_misc.sh	2018-12-02 12:35:51.000000000 -0600
++++ b/cnf/configure_misc.sh	2019-03-02 21:13:47.509946335 -0600
+@@ -92,7 +92,7 @@
+ define extras ''
+ 
+ # These are important but we don't test them
+-define startsh '#!/bin/sh'
++define startsh '#!/bin/bash'
+ define spitshell 'cat'
+ define d_Gconvert 'sprintf((b),"%.*g",(n),(x))'
+ define d_modfl_pow32_bug 'undef'
+@@ -287,7 +287,7 @@
+ define runnm false # unused
+ define sed sed # unused
+ define sendmail
+-define sh /bin/sh
++define sh /bin/bash
+ define shar # unused
+ define sleep # unused
+ define smail # unused
+@@ -335,7 +335,7 @@
+ define mallocobj
+ define mallocsrc
+ define mistrustnm
+-define n '-n'
++# define n '-n'
+ define orderlib
+ define perl
+ define perl5
+diff -Naur a/cnf/configure_path.sh b/cnf/configure_path.sh
+--- a/cnf/configure_path.sh	2018-12-02 12:35:51.000000000 -0600
++++ b/cnf/configure_path.sh	2019-03-02 21:14:11.886228150 -0600
+@@ -109,6 +109,7 @@
+ define binexp "$bin"
+ 
+ define libpth "/lib /usr/lib /usr/local/lib"
++define libpth ""
+ define glibpth "$libpth"
+ define plibpth
+ 
+diff -Naur a/cnf/configure_tool.sh b/cnf/configure_tool.sh
+--- a/cnf/configure_tool.sh	2018-12-02 12:35:51.000000000 -0600
++++ b/cnf/configure_tool.sh	2019-03-02 21:16:27.683627669 -0600
+@@ -86,9 +86,9 @@
+ whichprog cc CC gcc || whichprog cc CC cc || die "No C compiler found"
+ #whichprog ld LD ld # while correct, this breaks MM library test
+ whichprog ar AR ar || die "Cannot find ar"
+-whichprog nm NM nm
++whichprog nm NM nm || die "Cannot find nm"
+ whichprog ranlib RANLIB ranlib
+-whichprog readelf READELF readelf || die "Cannot find readelf"
++# whichprog readelf READELF readelf || die "Cannot find readelf"
+ whichprog objdump OBJDUMP objdump || die "Cannot find objdump"
+ 
+ # XXX: this looks wrong, but the usemmldlt code depends on $ld being able
+@@ -154,7 +154,7 @@
+ 
+ # Used only for modules
+ define cccdlflags '-fPIC -Wno-unused-function'
+-define ccdlflags '-Wl,-E'
++#define ccdlflags '-Wl,-E'
+ 
+ # Misc flags setup
+ predef lddlflags "-shared"	# modules
+@@ -262,6 +262,10 @@
+ 			define osname "linux"
+ 			result "Linux"
+ 			;;
++		*-darwin-*)
++			define osname "darwin"
++			result "Darwin";
++			;;
+ 		*-bsd*)
+ 			define osname "bsd"
+ 			result "BSD"
+diff -Naur a/cnf/configure_type_sel.sh b/cnf/configure_type_sel.sh
+--- a/cnf/configure_type_sel.sh	2018-12-02 12:35:51.000000000 -0600
++++ b/cnf/configure_type_sel.sh	2019-03-02 21:17:57.072414605 -0600
+@@ -114,7 +114,7 @@
+ 	fi
+ 
+ 	# Most targets use .data but PowerPC has .sdata instead
+-	if try_compile && try_objdump -j .data -j .sdata -s; then
++	if try_compile && try_objdump -s ; then
+ 		bo=`grep '11' try.out | grep '44' | sed -e 's/  .*//' -e 's/[^1-8]//g' -e 's/\([1-8]\)\1/\1/g'`
+ 	else
+ 		bo=''
+diff -Naur a/cnf/configure_type.sh b/cnf/configure_type.sh
+--- a/cnf/configure_type.sh	2018-12-02 12:35:51.000000000 -0600
++++ b/cnf/configure_type.sh	2019-03-02 21:17:29.664183246 -0600
+@@ -38,13 +38,13 @@
+ 		return
+ 	fi
+ 
+-	if not try_readelf --syms > try.out 2>>$cfglog; then
++	if not try_nm -g > try.out 2>>$cfglog; then
+ 		result 'unknown'
+ 		die "Cannot determine sizeof($2), use -D${1}size="
+ 		return
+ 	fi
+ 
+-	result=`grep foo try.out | sed -r -e 's/.*: [0-9]+ +//' -e 's/ .*//' -e 's/^0+//g'`
++	result=`grep foo try.out | sed -e s/' .*'// -e s/^0*//`
+ 	if [ -z "$result" -o "$result" -le 0 ]; then
+ 		result "unknown"
+ 		die "Cannot determine sizeof($2)"
+diff -Naur a/cnf/diffs/dedup.px b/cnf/diffs/dedup.px
+--- a/cnf/diffs/dedup.px	2018-12-02 12:35:51.000000000 -0600
++++ b/cnf/diffs/dedup.px	2019-03-02 21:18:11.788535444 -0600
+@@ -2,7 +2,7 @@
+ 
+ @files = (ls("perl*/*.patch"), ls("cperl*/*.patch"));
+ 
+-print "#!/bin/sh\n\n";
++print "#!/bin/bash\n\n";
+ 
+ %map = ( );
+ 
+diff -Naur a/cnf/hints/darwin b/cnf/hints/darwin
+--- a/cnf/hints/darwin	1969-12-31 18:00:00.000000000 -0600
++++ b/cnf/hints/darwin	2019-03-02 21:18:31.536694034 -0600
+@@ -0,0 +1,7 @@
++# Linux syscalls
++d_voidsig='undef'
++d_nanosleep='define'
++d_clock_gettime='define'
++d_clock_getres='define'
++d_clock_nanosleep='undef'
++d_clock='define'
+diff -Naur a/configure b/configure
+--- a/configure	2018-12-02 12:35:51.000000000 -0600
++++ b/configure	2019-03-02 21:18:39.160754194 -0600
+@@ -1,4 +1,4 @@
+-#!/bin/sh
++#!/bin/bash
+ 
+ earlydie() { echo "$@" >&2; exit 1; }
+ 
+diff -Naur a/Makefile b/Makefile
+--- a/Makefile	2019-01-27 16:12:19.000000000 -0600
++++ b/Makefile	2019-03-02 21:10:51.459566266 -0600
+@@ -142,7 +142,7 @@
+ perl$x: LDFLAGS += -Wl,-rpath,$(archlib)/CORE
+ endif
+ endif # or should it be "else"?
+-perl$x: LDFLAGS += -Wl,-E
++# perl$x: LDFLAGS += -Wl,-E
+ 
+ perl$x: perlmain$o $(LIBPERL) $(static_tgt) static.list ext.libs
+ 	$(eval extlibs=$(shell cat ext.libs))
+@@ -187,7 +187,7 @@
+ 
+ ifeq ($(useshrplib),true)
+ $(LIBPERL):
+-	$(CC) $(LDDLFLAGS) -o $@ $(filter %$o,$^) $(LIBS)
++	$(CC) $(LDDLFLAGS) -install_name $(archlib)/CORE/$@ -o $@ $(filter %$o,$^) $(LIBS)
+ else
+ $(LIBPERL):
+ 	$(AR) cru $@ $(filter %$o,$^)
+diff -Naur a/Makefile.config.SH b/Makefile.config.SH
+--- a/Makefile.config.SH	2018-12-02 12:35:51.000000000 -0600
++++ b/Makefile.config.SH	2019-03-02 21:11:05.255777460 -0600
+@@ -1,4 +1,4 @@
+-#!/bin/sh
++#!/bin/bash
+ 
+ if [ ! -f config.sh ]; then
+ 	echo "config.sh not found" >&2
+diff -Naur a/miniperl_top b/miniperl_top
+--- a/miniperl_top	2019-01-27 12:45:27.000000000 -0600
++++ b/miniperl_top	2019-03-02 21:18:43.412787496 -0600
+@@ -1,4 +1,4 @@
+-#!/bin/sh
++#!/bin/bash
+ 
+ # This script can be used to run Makefile.PL 
+ # Note that is relies on $0 to tell where lib/ is; typically
