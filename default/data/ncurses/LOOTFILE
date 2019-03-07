@@ -1,0 +1,28 @@
+name="Ncurses"
+version='6.1'
+description='Text-based UI library'
+section='System'
+url='https://ftp.gnu.org/gnu/ncurses/ncurses-6.1.tar.gz'
+priority='optional'
+homepage='https://www.gnu.org/software/ncurses/'
+tags='purpose::library'
+
+_f="--enable-pc-files --enable-sigwinch --enable-symlinks --enable-termcap --disable-mixed-case"
+build(){
+	SHARED=--with-shared STATIC="--with-normal" pkg:configure ${f}
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir INSTALL="${TARGET}-install -c" install
+	#	Wrapper program taget-install: --strip-program=XXX to `install`
+	#	gnu `install` doesn't understand mach-o files.
+	#	--disable-stripping is also a option for bypass this.
+	# We have to rerun configure in fakeroot due to how marauder works.
+
+	_message "Making for widec support"
+	make distclean
+	SHARED=--with-shared STATIC="--with-normal" pkg:configure ${f} --enable-widec \
+		 --enable-colorfgbg --enable-ext-mouse # extra options for fun.
+	make DESTDIR=$pkgdir INSTALL="${TARGET}-install -c" install
+}
