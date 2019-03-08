@@ -1,0 +1,81 @@
+ALGOL68G - ALGOL 68 GENIE
+
+Algol68G is an implementation of Algol 68 as defined by the Revised Report.
+It ranks among the most complete implementations of the language.
+
+Algol68G is free software, you can redistribute it and/or modify it under the 
+terms of the GNU General Public License. This software is distributed in the 
+hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. The author of 
+this software does not accept responsibility to anyone for the consequences of 
+using it or for whether it serves any particular purpose or works at all. See 
+the GNU General Public License for more details. The GNU General Public License
+does not permit this software to be redistributed in proprietary programs.
+
+
+THE ALGOL 68 GENIE PROJECT
+
+The development of Algol played an important role in establishing computer 
+science as an academic discipline. The Algol 68 Genie project preserves and 
+promotes Algol 68 out of educational as well as scientific-historical interest,
+by making available a recent checkout compiler-interpreter written from scratch
+by Marcel van der Veer.
+
+Algol 68 Genie is a fast compiler-interpreter which ranks among the most
+complete implementations of the language; it supports for instance 
+
+* partial parametrisation,
+* parallel processing,  
+* formatted transput and a
+* refinement preprocessor.
+
+A detailed description of Algol 68 is in the book 
+
+        Learning Algol 68 Genie
+
+which contains an informal introduction to the language, a manual for 
+Algol 68 Genie, and the Revised Report on Algol 68.
+
+Algol 68 is a secure, expression-oriented programming language with which you 
+elegantly code algorithms without having to bother too much about irrelevant 
+technical details and limitations inherent to many other languages.
+
+Algol 68 Genie offers for example:
+
+* many runtime checks facilitating debugging and improving the 
+  reliability of your programs,
+* native support for arbitrary precision arithmetic including 
+  complex numbers, 
+* syntactic constructions to support linear algebra,
+* a gdb-style debugger and a pretty-printer to 
+  beautify source code,
+* optional linkage to GNU plotutils, the GNU scientific library or 
+  PostgreSQL, 
+* extensions as UNIX pipes, regular expression matching, and 
+  web page content fetching.
+
+Author of Algol68G is Marcel van der Veer <algol68g@xs4all.nl>.
+Web pages for Algol68G are at <http://jmvdveer.home.xs4all.nl/>.
+Documentation is available from the web pages for Algol68G.
+
+
+INSTALLATION
+
+1) WIN32 BINARY PACKAGE
+
+Unpack the distribution and start command shell cmd.exe. 
+From this shell, enter algol68g-VERSION's directory and start a68g.exe. 
+
+2) LINUX, UNIX, BSD, MACOS X
+
+Please refer to file INSTALL or the manual for detailed instructions.
+Since Algol 68 Genie complies with the GNU build system, a reasonably 
+experienced user can execute:
+
+tar -xzvf algol68g-VERSION.tgz
+cd algol68g-VERSION
+./configure
+make
+[su]
+make install
+

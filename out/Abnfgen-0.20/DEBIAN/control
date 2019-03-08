@@ -1,0 +1,9 @@
+Package: com.mc.abnfgen
+Name: Abnfgen
+Version: 0.20
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: http://www.quut.com/abnfgen/
+Description: Athena Project | Compiled for ARM64.
+	Quickly generate random documents that match an ABFN grammar

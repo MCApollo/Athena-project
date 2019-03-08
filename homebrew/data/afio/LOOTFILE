@@ -1,0 +1,19 @@
+name='Afio'
+description='Creates cpio-format archives'
+url='http://members.chello.nl/~k.holtman/afio-2.5.2.tgz'
+homepage='http://members.chello.nl/~k.holtman/afio.html'
+version='2.5.2'
+
+brew(){
+	echo "
+	#include <sys/types.h>
+	#include <utime.h>
+	#include <signal.h>
+	#include <strings.h>
+	#include <sys/wait.h>
+	" >> afio.h
+	pkg:make DESTDIR=$PKGPREFIX
+	bin.install "afio"
+	man1.install "afio.1"
+	share.install script*
+}

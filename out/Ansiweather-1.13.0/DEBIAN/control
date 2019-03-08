@@ -1,0 +1,10 @@
+Package: com.mc.ansiweather
+Name: Ansiweather
+Version: 1.13.0
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://github.com/fcambus/ansiweather
+Depends: jq
+Description: Athena Project | Compiled for ARM64.
+	Weather in your terminal, with ANSI colors and Unicode symbols

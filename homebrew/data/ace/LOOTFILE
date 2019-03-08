@@ -1,0 +1,20 @@
+name='Ace'
+description='ADAPTIVE Communication Environment: OO network programming in C++'
+url='https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-6_5_4/ACE-6.5.4.tar.bz2'
+homepage='https://www.dre.vanderbilt.edu/~schmidt/ACE.html'
+version='6.5.4'
+depends=('openssl')
+
+brew(){
+	ln -rsf ace/config-macosx.h ace/config.h
+	ln -rsf include/makeinclude/platform_macosx_common.GNU include/makeinclude/platform_macros.GNU
+	#ln -rsf platform_macosx.GNU include/makeinclude/platform_macros.GNU
+	sed -i '1s/^/#define __MAC_OS_X_VERSION_MAX_ALLOWED 101400\n/' ace/config.h
+	export ACE_ROOT=$PWD
+	export DYLD_LIBRARY_PATH=$PWD/lib
+	pkg:make -C ace LINK.cc=$TARGET-clang \
+		-f GNUmakefile.ACE INSTALL_PREFIX=$PKGPREFIX LDFLAGS= INST_DIR=/ace debug=0 shared_libs=1 static_libs=0 DESTDIR=$pkgdir install
+	pkg:make -C LINK.cc=$TARGET-clang examples
+	pkgshare.install "examples"
+	# Note: This doesn't work due to cross-compiling
+}

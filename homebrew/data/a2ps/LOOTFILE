@@ -1,0 +1,15 @@
+name='A2ps'
+description='Any-to-PostScript filter'
+url='https://ftp.gnu.org/gnu/a2ps/a2ps-4.14.tar.gz'
+mirror='https://ftpmirror.gnu.org/a2ps/a2ps-4.14.tar.gz'
+homepage='https://www.gnu.org/software/a2ps/'
+version='4.14'
+patches=('p0#https://raw.githubusercontent.com/Homebrew/formula-patches/0ae366e6/a2ps/patch-lib__xstrrpl.c')
+
+brew(){
+	pkg:configsub */config.sub
+	CFLAGS="-include stdlib.h" jm_cv_func_working_realloc=yes jm_cv_func_working_malloc=yes ac_cv_func_rename=yes ac_cv_func_rename_works=yes ac_cv_func_on_exit=yes ac_cv_check_symbol_sys_siglist=yes ac_cv_func_atexit=yes \
+		pkg:configure --disable-debug --disable-dependency-tracking # --with-lispdir=#{elisp}
+	echo -e "#include <string.h>\n#include <sys/ioctl.h>" >> config.h
+	make DESTDIR=$pkgdir install
+}

@@ -1,0 +1,9 @@
+Package: com.mc.agedu
+Name: Agedu
+Version: 20180918.80
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.chiark.greenend.org.uk/~sgtatham/agedu/
+Description: Athena Project | Compiled for ARM64.
+	Unix utility for tracking down wasted disk space

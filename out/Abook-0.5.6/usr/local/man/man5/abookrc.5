@@ -1,0 +1,179 @@
+.TH ABOOKRC 5 "Jun 4, 2003"
+.nh
+.SH NAME
+\fB$HOME/.abook/abookrc\fP \- configuration file for abook address book program
+.SH DESCRIPTION
+This manual page documents briefly the
+.B abookrc
+file.
+.br
+.B abookrc
+is the (optional) configuration file for use with the
+.B abook(1)
+address book program.
+
+.B abookrc
+is stored in a user's $HOME/.abook directory. It follows a format of
+\(lq\fBset option=value\fP\(rq.
+The following information lists each of these options and the values they
+may take.
+
+If a variable is not set in 
+.B abookrc
+, a sensible default, as 
+listed with the description below, will be used.
+
+Comments in 
+.B abookrc
+are on lines beginning with '#'.
+
+.SH VARIABLES
+
+.TP
+\fBautosave\fP=[true|false]
+Defines whether the addressbook is automatically saved on exit. Default is true.
+
+.TP
+\fBshow_all_emails\fP=[true|false]
+Defines whether all email addresses for a contact are shown in the main list view. Default is true
+
+.TP
+\fBemailpos\fP=column
+Defines the screen column on the main list where the email address is to begin. Default is 25.
+
+.TP
+\fBextra_column\fP=field
+Defines the field to display in the extra (third) column on the main list. Default is "phone" (Home Phone).
+.br
+\fIfield\fP can be any of the following:
+.br
+-1			disabled
+.br
+phone		Home Phone
+.br
+workphone		Work Phone
+.br
+fax			Fax
+.br
+mobile		Mobile Phone
+.br
+nick			Nickname/Alias
+.br
+url			URL
+.br
+notes		Notes
+
+.TP
+\fBextra_alternative\fP=field
+This is an optional setting that allows you to specify an alternative field to be displayed in the extra (third) column if there is no data for the field specified in extra_column for a particular item. The strings for the fields are the same as above. Please note that the data shown where the alternative field has been used will NOT be marked differently in any way from the rest of the extra column. There is no default.
+
+.TP
+\fBextrapos\fP=column
+Defines the screen column on the main list where the extra field is to begin. Default is 65.
+
+.TP
+\fBmutt_command\fP=command
+Defines the command to start mutt. Default is "mutt".
+
+.TP
+\fBmutt_return_all_emails\fP=[true|false]
+Defines whether to return all email addresses matching the search criteria to a mutt query. Default is true.
+
+.TP
+\fBprint_command\fP=command
+Defines the command to used when printing the addressbook. Default is "lpr".
+
+.TP
+\fBwww_command\fP=command
+Defines the command used to start the web browser to view a contact's URL. Default is "lynx".
+
+.TP
+\fBaddress_style\fP=[eu|uk|us]
+Defines the style of address formatting to be used when exporting as text / printing the database (European, UK, or USA). Default is European ("eu").
+
+.TP
+\fBuse_ascii_only\fP=[true|false]
+This option allows you to force Abook use only ASCII characters. This option is useful if your terminal doesn't support non-ASCII characters. Default is false.
+
+.TP
+\fBadd_email_prevent_duplicates\fP=[true|false]
+Defines whether to avoid adding addresses already in data. Default is false.
+
+.TP
+\fBsort_field\fP=field
+Defines the field to be used by the "sort by field" command. Default is "nick" (Nickname/Alias).
+
+.TP
+\fBshow_cursor\fP=[true|false]
+Defines if the cursor is visible in main display. Default is false.
+
+.SH SAMPLE CONFIGURATION FILE
+
+.nf
+# sample abook configuration file
+#
+
+# Automatically save database on exit
+set autosave=true
+
+# Show all email addresses in list
+set show_all_emails=true
+
+# Screen column for email field to start
+set emailpos=25
+
+# Field to be used in the extra column
+set extra_column=phone
+# frequently used values:
+#	-1          disabled
+#	phone       Home Phone
+#	workphone   Work Phone
+#	fax         Fax
+#	mobile      Mobile Phone
+#	nick        Nickname/Alias
+#	url         URL
+
+#
+set extra_alternative=-1
+
+# Screen column for the extra field to start
+set extrapos=65
+
+# Command used to start mutt
+set mutt_command=mutt
+
+# Return all email addresses to a mutt query
+set mutt_return_all_emails=true
+
+# Command used to print
+set print_command=lpr
+
+# Command used to start the web browser
+set www_command=lynx
+
+# address style [eu|us|uk]
+set address_style=eu
+
+# use ASCII characters only
+set use_ascii_only=false
+
+# Prevent double entry
+set add_email_prevent_duplicates=false
+
+# field to be used with "sort by field" command
+set sort_field=nick
+
+# show cursor in main display
+set show_cursor=false
+
+.fi
+
+.SH SEE ALSO
+.BR abook (1).
+.br
+.SH AUTHOR
+This manual page was written by Alan Ford <alan@whirlnet.co.uk>.
+
+.br
+.B abook
+was written by Jaakko Heinonen <jheinonen@users.sourceforge.net>

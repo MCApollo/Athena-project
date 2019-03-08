@@ -1,0 +1,79 @@
+.\" returns the canonicalized absolute pathname.
+.TH "REALPATH" "1" "Dec. 23, 2003" "LAFFEY Computer Imaging" "Aardvark Shell Utils"
+.SH "NAME"
+.LP 
+.B realpath
+\- returns the canonicalized absolute pathname.
+.SH "USAGE"
+.LP 
+.B realpath
+<full or partial pathname>
+.SH "DESCRIPTION"
+.LP 
+.B realpath
+calls the realpath(3) function to resolve all symbolic links, extra ``/''
+characters and references to /./ and /../ in pathname, and prints the
+resulting absolute pathname to the standard output.
+.P
+The
+.B realpath
+command will resolve both absolute and relative paths and return the
+absolute pathname corresponding to the input pathname.  (If your system's
+realpath(3) function does not return the absolute path then
+.B realpath
+will not either. Most will return the absolute path, but some versions of Solaris have been
+reported not to. See realpath(3) for details.) All but the last component of
+pathname must exist when
+.B realpath
+is called.
+.P
+.B realpath
+is especially useful for shell scripts.
+.P
+If no command line arguments are given then
+.B realpath
+will read from standard input, and thus it can be used in pipes. Standard
+input will be processed one line at a time, which each path on each line
+being resolved separately.
+.SH "EXAMPLES"
+The following sets the shell variable FOO to /usr/bin/false
+           #create a symlink(1) on ls in /tmp/bar
+           ln -s /usr/bin/false /tmp/bar
+           FOO=`realpath /tmp/bar`
+
+.SH "RETURN VALUES"
+.B realpath
+returns zero on success. Upon failure
+.B realpath
+prints the name of the path which caused the error followed by the error
+description to standard error. Then
+.B realpath 
+returns the numeric error code of the error, which will always be greater
+than zero.
+
+.SH "SEE ALSO"
+realpath(3)
+
+.SH "BUGS"
+Report bugs to <software@laffeycomputer.com>
+
+.SH "CONTRIBUTORS"
+Original code:
+.RS
+Joe Laffey <software@laffeycomputer.com>
+.RE
+.P
+Manpage adapted from NetBSD Programmer's Manual entry for realpath(3)
+
+.SH "UPDATES"
+.B realpath
+is part of the
+.B Aardvark Shell Utilities
+.P
+Official
+.B Aardvark Shell Utilities
+website:   
+.RS
+http://www.laffeycomputer.com/shellutils.html
+.RE
+

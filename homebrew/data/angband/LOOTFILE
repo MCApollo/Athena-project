@@ -1,45 +1,14 @@
-# angband.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/angband.rb
-# Converted on 02-02-2019
-
-name='angband'
-url=('https://rephial.org/downloads/4.1/angband-4.1.3.tar.gz')
+name='Angband'
 description='Dungeon exploration game'
-version='4.1.3' # Guessed version.
-priority='optional'
+url='https://rephial.org/downloads/4.1/angband-4.1.3.tar.gz'
 homepage='https://rephial.org/'
-makedepends=('autoconf' 'automake')
-tags='purpose::console'
-section='Utilities'
+version='4.1.3'
+depends=('ncurses')
+build=('autoconf' 'automake')
 
-###### Install ######
-# ENV["NCURSES_CONFIG"] = "#{MacOS.sdk_path}/usr/bin/ncurses5.4-config"
-# system "./autogen.sh"
-# system "./configure", "--prefix=#{prefix}",
-# "--bindir=#{bin}",
-# "--libdir=#{libexec}",
-# "--enable-curses",
-# "--disable-ncursestest",
-# "--disable-sdltest",
-# "--disable-x11",
-# "--with-ncurses-prefix=#{MacOS.sdk_path}/usr"
-# system "make"
-# system "make", "install"
-
-build(){
-	cd $name-$version
+brew(){
 	./autogen.sh
-	if true; then
-		sed -i 's/\# include <ncurses.h>/\# include <ncursesw\/ncurses.h>/' src/main-gcu.c
-	fi
-
-	pkg:configure --enable-curses --disable-ncursestest --disable-sdltest --disable-x11 \
-		NCURSES_LIBS="-lncursesw" NCURSES_CFLAGS="-I${SDK:-/nonexist}/usr/local/include/ncursesw"
-	# ncursesw has a define we need.
+	pkg:configure --enable-curses --disable-ncursestest --disable-sdltest --disable-x11
 	make
-}
-
-package(){
-	cd $name-$version
 	make DESTDIR=$pkgdir install
 }

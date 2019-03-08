@@ -1,22 +1,10 @@
-# ansifilter.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/ansifilter.rb
-# Converted on 02-02-2019
-
-name='ansifilter'
-url=('http://www.andre-simon.de/zip/ansifilter-2.13.tar.bz2')
+name='Ansifilter'
 description='Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode'
-version='2.13' # Guessed version.
-priority='optional'
+url='http://www.andre-simon.de/zip/ansifilter-2.13.tar.bz2'
 homepage='http://www.andre-simon.de/doku/ansifilter/ansifilter.html'
-tags='purpose::console'
-section='Utilities'
+version='2.13'
 
-###### Install ######
-# system "make", "PREFIX=#{prefix}"
-# system "make", "PREFIX=#{prefix}", "install"
-
-package(){
-	cd $name-$version
-	pkg:make LDFLAGS=-lc++ PREFIX=/usr/local
-	pkg:make PREFIX=/usr/local DESTDIR=$pkgdir install
+brew(){
+	pkg:make PREFIX=$PKGPREFIX LDFLAGS="-lc++"
+	pkg:make PREFIX=$PKGPREFIX LDFLAGS="-lc++" DESTDIR=$pkgdir install
 }

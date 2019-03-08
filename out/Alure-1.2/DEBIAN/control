@@ -1,0 +1,9 @@
+Package: com.mc.alure
+Name: Alure
+Version: 1.2
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://kcat.strangesoft.net/alure.html
+Description: Athena Project | Compiled for ARM64.
+	Manage common tasks with OpenAL applications

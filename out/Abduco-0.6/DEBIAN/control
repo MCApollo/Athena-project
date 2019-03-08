@@ -1,0 +1,9 @@
+Package: com.mc.abduco
+Name: Abduco
+Version: 0.6
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: http://www.brain-dump.org/projects/abduco
+Description: Athena Project | Compiled for ARM64.
+	Provides session management: i.e. separate programs from terminals

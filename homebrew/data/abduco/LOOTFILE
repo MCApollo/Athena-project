@@ -1,24 +1,10 @@
-# abduco.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/abduco.rb
-# Converted on 02-02-2019
-
-name='abduco'
-url=('http://www.brain-dump.org/projects/abduco/abduco-0.6.tar.gz')
+name='Abduco'
 description='Provides session management: i.e. separate programs from terminals'
-version='0.6' # Guessed version.
-priority='optional'
+url='http://www.brain-dump.org/projects/abduco/abduco-0.6.tar.gz'
 homepage='http://www.brain-dump.org/projects/abduco'
-section='Utilities'
-tags='purpose::console'
+version='0.6'
 
-###### Install ######
-# ENV.append_to_cflags "-D_DARWIN_C_SOURCE"
-# system "make", "PREFIX=#{prefix}", "install"
-
-package(){
-#	cd $name-$version
-	pkg:setenv
-	export CFLAGS="-include 'sys/termios.h' -D_DARWIN_C_SOURCE"
-	make
-	make PREFIX=/usr/local DESTDIR=$pkgdir install
+brew(){
+	export CFLAGS="${CFLAGS} -O2 -D_DARWIN_C_SOURCE"
+	pkg:make PREFIX=$PKGPREFIX DESTDIR=$pkgdir install
 }

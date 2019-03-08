@@ -1,0 +1,9 @@
+Package: com.mc.acpica
+Name: Acpica
+Version: 20180810
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.acpica.org/
+Description: Athena Project | Compiled for ARM64.
+	OS-independent implementation of the ACPI specification

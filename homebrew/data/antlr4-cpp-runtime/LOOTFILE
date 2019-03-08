@@ -1,0 +1,11 @@
+name='Antlr4CppRuntime'
+description='ANother Tool for Language Recognition C++ Runtime Library'
+url='https://www.antlr.org/download/antlr4-cpp-runtime-4.7.2-source.zip'
+homepage='https://www.antlr.org/'
+version='4.7.2'
+build=('cmake')
+
+brew(){
+	cmake . -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE}
+	make DESTDIR=$pkgdir install
+}

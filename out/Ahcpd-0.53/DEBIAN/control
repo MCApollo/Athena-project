@@ -1,0 +1,9 @@
+Package: com.mc.ahcpd
+Name: Ahcpd
+Version: 0.53
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.irif.univ-paris-diderot.fr/~jch/software/ahcp/
+Description: Athena Project | Compiled for ARM64.
+	Autoconfiguration protocol for IPv6 and IPv6/IPv4 networks

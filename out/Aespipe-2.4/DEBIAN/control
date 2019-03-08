@@ -1,0 +1,9 @@
+Package: com.mc.aespipe
+Name: Aespipe
+Version: 2.4
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://loop-aes.sourceforge.io/
+Description: Athena Project | Compiled for ARM64.
+	AES encryption or decryption for pipes

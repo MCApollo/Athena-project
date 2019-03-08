@@ -1,0 +1,299 @@
+= Ansifilter ChangeLog
+
+=== ansifilter 2.13
+
+08.12.2018
+
+ - line numbers do not trigger default style span in HTML (https://gitlab.com/saalen/ansifilter/issues/19)
+ - fixed line numbering in batch mode
+ - CLI: added --derived-styles option for HTML output (https://gitlab.com/saalen/ansifilter/issues/11)
+ - CLI: added "self" argument to --anchors to generate self-referencing anchors
+
+=== ansifilter 2.12
+
+07.11.2018
+
+ - fixed -w char count if line contains escape sequences (thanks to Jason James)
+ - GUI: added stylesheet input filed (suggested by Davor Petri?)
+ 
+=== ansifilter 2.11
+
+10.10.2018
+
+ - fixed parsing of "7" and "8" sequences (https://gitlab.com/saalen/ansifilter/issues/16)
+ - added --ignore-clear option (https://gitlab.com/saalen/ansifilter/issues/16)
+ - converted README and ChangeLog to AsciiDoc
+
+=== ansifilter 2.10
+
+19.02.2018
+
+ - fixed parsing of "K" sequence (https://github.com/andre-simon/ansifilter/issues/12)
+ - fixed memory leak in BIN parser (https://github.com/andre-simon/ansifilter/issues/13)
+
+
+=== ansifilter 2.9
+
+20.11.2017
+
+ - fixed parsing of "(B" reset sequence (https://github.com/andre-simon/ansifilter/issues/10)
+ - CLI: added --no-version-info option
+ - GUI: layout adjustments
+
+
+=== ansifilter 2.8.1
+
+07.08.2017
+
+ - minor version number increase because of 2.8 packaging error
+
+
+=== ansifilter 2.8
+
+06.08.2017
+
+ - fixed reading from stdin (https://github.com/andre-simon/ansifilter/issues/8)
+
+
+=== ansifilter 2.7
+
+03.08.2017
+
+ - fixed processing of very small input files (https://github.com/andre-simon/ansifilter/issues/7)
+ - added -fPIC to CXXFLAGS in src/makefile (https://github.com/andre-simon/ansifilter/issues/6)
+
+
+=== ansifilter 2.6
+
+25.07.2017
+
+ - added support for Tundra 24bit ANSI art (--art-tundra option)
+ - fixed Pango output (patch by VLambret, https://github.com/andre-simon/ansifilter/pull/5)
+ - added EXTRA_CXXFLAGS in src/makefile (thanks to Helmut K. C. Tessarek)
+
+
+=== ansifilter 2.5
+
+21.06.2017
+
+ - CLI: added --no-trailing-nl option
+ - CLI: added support for environment variable ANSIFILTER_OPTIONS
+
+
+=== ansifilter 2.4
+
+27.12.2016
+
+ - fixed crash reading irregular escape codes (thanks to Jens Schleusener)
+
+
+=== ansifilter 2.3
+
+24.09.2016
+
+ - added support for true color escape codes
+
+
+=== ansifilter 2.2
+
+15.09.2016
+
+ - fixed wrong recognition of CSI delimiters within unicode characters
+ - CLI: fixed reading from stdin (thanks to Jens Schleusener)
+
+
+=== ansifilter 2.1
+
+12.09.2016
+
+ - fixed output height of some CP437 ASCII art files
+
+
+=== ansifilter 2.0
+
+20.07.2016
+
+ - new CSI parser
+ - CLI: new --art* options to parse ANSI and BIN/XBIN sequences used for ASCII art 
+  (suggested by Phillip Li)  
+ - GUI: added ASCII art options
+
+
+=== ansifilter 1.18
+
+29.06.2016
+
+ - fixed RTF output of UTF-8 input; needs input encoding set to utf-8 
+ - GUI: fixed issue with color map setting
+
+
+=== ansifilter 1.17
+
+17.05.2016
+
+ - fixed BBCode output (thanks to Karsten)
+ - fixed gcc 6 warnings about deprecated auto_ptr usage
+
+
+=== ansifilter 1.16
+
+15.04.2016
+
+ - fixed Pango output (patch by Dominik Schmidt)
+ - fixed gcc 6 warnings about deprecated auto_ptr usage
+ - src/makefile: added -std=c++11 because of auto_ptr to unique_ptr transition
+
+
+=== ansifilter 1.15
+
+06.01.2016
+
+ - fixed TeX and LaTeX output
+ - CLI: added map option
+ - GUI: added map path input field
+ - GUI: fixed memory of selected output format
+
+
+=== ansifilter 1.14
+
+03.12.2015
+
+ - fixed parsing of grep escape sequences (thanks to Manfred Hokamp)
+ - GUI: added drag and drop (suggested by Manfred Hokamp)
+ - GUI: added format selection and watch file checkbox
+
+
+=== ansifilter 1.13
+
+26.10.2015
+
+ - fixed missing close tags in HTML output
+ - fixed TeX output for cweb documents (patch by Ingo Krabbe)
+ - HTML and LaTeX output size reduced 
+ - HTML output adjusted to HTML5 doctype
+ - added TCL extension in src/tcl (thanks to Martin Heinrich)
+
+
+=== ansifilter 1.12
+
+23.03.2015
+
+ - added options --line-numbers, --wrap-no-numbers, --anchors 
+  (suggested by Jens Schleusener)
+
+
+=== ansifilter 1.11
+
+20.10.2014
+
+ - fixed bold and italic in LaTeX output (patch by Antonio Dominguez)
+
+ 
+=== ansifilter 1.10
+
+01.09.2014
+
+
+ - added Pango output and fixed minor bugs (patches by Dominik Schmidt)
+
+
+=== ansifilter 1.9
+
+22.8.2014
+
+ - fixed LaTeX code indentation (thanks to Maria)
+
+
+=== ansifilter 1.8
+
+16.04.2014
+
+ - added support for Erase Line, Save and Restore Cursor sequences
+  (thanks to Kovács Zoltán)
+
+
+=== ansifilter 1.7
+
+04.01.2012
+
+ - added --wrap option to wrap long lines
+ - fixed tab output in plain text mode
+
+
+=== ansifilter 1.6
+
+31.03.2011
+
+ - fixed tab output
+ - added support for aixterm codes
+ - added bbcode output
+ - brightened default colours
+
+ 
+=== ansifilter 1.5
+
+12.11.2010
+
+ - fixed parsing of grep escape sequences (thanks to  Alexander Lucas)
+
+
+=== ansifilter 1.4
+
+18.08.2010
+
+ - fixed parsing of xterm escape sequences (thanks to Mark Ziesemer)
+
+
+=== ansifilter 1.3
+
+20.07.2009
+
+ - fixed gcc 4.3 compilation (thanks to Jens Schleusener)
+ - license changed from GPLv2 to GPLv3
+
+
+=== ansifilter 1.2
+
+22.09.2008
+
+ - added option -L, --latex for LaTeX output (patch by Hans Meine)
+ - added option -P, --tex for TeX output
+ - fixed RTF invalid format error
+ - removed useless files
+
+
+=== ansifilter 1.1
+
+27.05.2008
+
+ - fixed RTF background color output
+
+
+=== ansifilter 1.0
+
+01.04.2008
+
+ - added support for xterm 256 colour sequences
+ - getopt_long function replaced by arg_Parser (patch by Antonio Diaz Diaz)
+
+
+=== ansifilter 0.3
+
+12.12.2007
+
+- some more unknown sequences are ignored (\033[*h, \033[*;)
+
+
+=== ansifilter 0.2
+
+06.11.2007
+
+ - added option --tail (suggested by Emmanuel Oga)
+ - 256 color sequences are ignored
+
+
+=== ansifilter 0.1
+
+25.10.2007
+
+ - initial release

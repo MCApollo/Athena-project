@@ -1,0 +1,66 @@
+.\" returns the base of a filename.
+.TH "FILEBASE" "1" "Dec. 23, 2003" "LAFFEY Computer Imaging" "Aardvark Shell Utils"
+.SH "NAME"
+.LP 
+.B filebase
+\- returns the base of a filename (everything before the last '.').
+.SH "USAGE"
+.LP 
+.B filebase
+<filename>
+.SH "DESCRIPTION"
+.LP 
+.B filebase
+truncates all characters after the last occurence of '.' (period) in a
+filename, including the period itself, and prints the resulting filename to
+the standard output.
+.P
+If the input filename does not contain a period the entire filename  is echoed
+back unchanged.
+.P
+If the input filename contains a '/' (slash) only the portion after the last 
+slash is considered to be the filename.
+.P
+If no command line arguments are given then
+.B filebase
+will read from standard input, and thus it can be used in pipes. Standard
+input will be processed one line at a time, which each filename on each line
+being processed separately.
+.SH "EXAMPLES"
+
+        > filebase foo.txt
+        foo
+        >
+        > filebase foo.txt.gz
+        foo.txt
+        >
+
+.SH "RETURN VALUES"
+.B filebase
+returns zero on success, non-zero on failure. Note that the absence of a
+period in the input string does NOT consitute a non-zero return value.
+
+.SH "SEE ALSO"
+basename(1) dirname(1) fileext(1) realpath(1)
+
+.SH "BUGS"
+Report bugs to <software@laffeycomputer.com>
+
+.SH "CONTRIBUTORS"
+Original code:
+.RS
+Joe Laffey <software@laffeycomputer.com>
+.RE
+
+.SH "UPDATES"
+.B filebase
+is part of the
+.B Aardvark Shell Utilities
+.P
+Official 
+.B Aardvark Shell Utilities
+website:
+.RS
+http://www.laffeycomputer.com/shellutils.html
+.RE
+

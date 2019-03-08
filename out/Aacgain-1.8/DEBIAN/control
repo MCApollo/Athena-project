@@ -1,0 +1,9 @@
+Package: com.mc.aacgain
+Name: Aacgain
+Version: 1.8
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://aacgain.altosdesign.com/
+Description: Athena Project | Compiled for ARM64.
+	AAC-supporting version of mp3gain

@@ -1,0 +1,14 @@
+name='Acpica'
+description='OS-independent implementation of the ACPI specification'
+url='https://acpica.org/sites/acpica/files/acpica-unix-20180810.tar.gz'
+homepage='https://www.acpica.org/'
+version='20180810'
+
+brew(){
+	export HOST=_APPLE
+	LDFLAGS=-lpthread
+	export UNAME_S=Darwin
+	export CFLAGS=-Wno-error=unknown-warning-option
+	pkg:make PREFIX=$PKGPREFIX
+	pkg:make DESTDIR=$pkgdir install PREFIX=$PKGPREFIX
+}

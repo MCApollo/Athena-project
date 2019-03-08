@@ -1,0 +1,16 @@
+name='AflFuzz'
+description='American fuzzy lop: Security-oriented fuzzer'
+url='http://lcamtuf.coredump.cx/afl/releases/afl-2.52b.tgz'
+homepage='http://lcamtuf.coredump.cx/afl/'
+version='2.52'
+
+brew(){
+	# Doesn't work due to shmget (IPC/sys v memory) not working
+	# export LLVM_CONFIG=/usr/bin/llvm-config-*
+	sed -i 's/shell uname/shell echo Darwin/' llvm_mode/Makefile
+	sed -i 's/test_build all_done//' llvm_mode/Makefile
+	sed -i 's/error/warning/' afl-as.c
+	pkg:setenv
+	make PREFIX=$PKGPREFIX AFL_NO_X86=1
+	LLVM_CONFIG="true" make DESTDIR=$pkgdir install PREFIX=$PKGPREFIX AFL_NO_X86=1
+}

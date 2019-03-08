@@ -1,21 +1,10 @@
-# aha.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aha.rb
-# Converted on 02-02-2019
-
-name='aha'
-url=('https://github.com/theZiz/aha/archive/0.5.tar.gz')
+name='Aha'
 description='ANSI HTML adapter'
-version='0.5' # Guessed version.
-priority='optional'
+url='https://github.com/theZiz/aha/archive/0.5.tar.gz'
 homepage='https://github.com/theZiz/aha'
-tags='purpose::console'
-section='Utilities'
+version='0.5'
 
-###### Install ######
-# system "make", "install", "PREFIX=#{prefix}"
-
-package(){
-	cd $name-$version
+brew(){
 	pkg:setenv
-	make install PREFIX=/usr/local DESTDIR=$pkgdir
+	make DESTDIR=$pkgdir install PREFIX=$PKGPREFIX
 }

@@ -1,0 +1,11 @@
+name='Acme'
+description='Crossassembler for multiple environments'
+url='https://svn.code.sf.net/p/acme-crossass/code-0/trunk'
+homepage='https://sourceforge.net/projects/acme-crossass/'
+version='1.0-u'
+
+brew(){
+	# SVN doesn't work
+	make -C src DESTDIR=$pkgdir install # BINDIR=#{bin}
+	doc.install docs/*
+}

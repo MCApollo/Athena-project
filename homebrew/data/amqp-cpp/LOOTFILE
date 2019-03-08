@@ -1,0 +1,13 @@
+name='AmqpCpp'
+description='C++ library for communicating with a RabbitMQ message broker'
+url='https://github.com/CopernicaMarketingSoftware/AMQP-CPP/archive/v4.1.3.tar.gz'
+homepage='https://github.com/CopernicaMarketingSoftware/AMQP-CPP'
+version='4.1.3'
+depends=('openssl')
+build=('cmake')
+
+brew(){
+	cmake -DBUILD_SHARED=ON -DAMQP-CPP_LINUX_TCP=ON -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} # -DCMAKE_MACOSX_RPATH=1
+	make
+	make DESTDIR=$pkgdir install
+}

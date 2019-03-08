@@ -1,32 +1,15 @@
-# aiccu.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aiccu.rb
-# Converted on 02-02-2019
-
-name='aiccu'
-url=('https://deb.debian.org/debian/pool/main/a/aiccu/aiccu_20070115.orig.tar.gz')
+name='Aiccu'
 description='Automatic IPv6 Connectivity Client Utility'
-version='20070115'
-priority='optional'
+url='https://deb.debian.org/debian/pool/main/a/aiccu/aiccu_20070115.orig.tar.gz'
 homepage='https://www.sixxs.net/tools/aiccu/'
+version='20070115'
+patches=(':local#tmpkdt36yhf.patch')
 
-# A diff file was written to aiccu.diff
-# --> Patch the file before building.
-
-###### Install ######
-# inreplace "doc/aiccu.conf", "daemonize true", "daemonize false"
-# system "make", "prefix=#{prefix}"
-# system "make", "install", "prefix=#{prefix}"
-# etc.install "doc/aiccu.conf"
-
-package(){
-	cd $name-$version
-	pkg:setenv
-	for p in ../*.diff; do patch -p1 < $p; done
-	sed -i "s/-D_GNU_SOURCE/-D_GNU_SOURCE $(pkg:extrainclude | sed 's_/_\\/_g') -DSYSTEM_ALLOW_IOS/" unix-console/Makefile # Adds include path for netinet headers
-	sed -i "s/strip \$@/$STRIP \$@/" unix-console/Makefile
-	sed -i 's/daemonize true/daemonize false/' doc/aiccu.conf 
-	make prefix=/usr/local CC=$CC LD=$LD STRIP=$STRIP
-	make install DESTDIR=$pkgdir prefix=/usr/local CC=$CC LD=$LD STRIP=$STRIP
-	mkdir -p $pkgdir/etc
-	cp doc/aiccu.conf $pkgdir/etc
+brew(){
+	sed -i 's/daemonize true/daemonize false/' doc/aiccu.conf
+	sed -i "s/strip \$@/${TARGET}-strip \$@/" unix-console/Makefile
+	sed -i 's/shell uname/shell echo Darwin/' unix-console/Makefile
+	pkg:make prefix=$PKGPREFIX
+	pkg:make DESTDIR=$pkgdir install prefix=$PKGPREFIX
+	etc.install "doc/aiccu.conf"
 }

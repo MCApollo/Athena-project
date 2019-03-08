@@ -1,0 +1,9 @@
+Package: com.mc.admesh
+Name: Admesh
+Version: 0.98.3
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://github.com/admesh/admesh
+Description: Athena Project | Compiled for ARM64.
+	Processes triangulated solid meshes

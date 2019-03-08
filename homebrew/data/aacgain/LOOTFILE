@@ -1,0 +1,11 @@
+name='Aacgain'
+description='AAC-supporting version of mp3gain'
+url='https://aacgain.altosdesign.com/alvarez/aacgain-1.8.tar.bz2'
+homepage='https://aacgain.altosdesign.com/'
+version='1.8'
+
+brew(){
+	pkg:configsub
+	CXXFLAGS="-std=c++98" pkg:configure --disable-debug --disable-dependency-tracking
+	make DESTDIR=$pkgdir install
+}

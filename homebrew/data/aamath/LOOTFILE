@@ -1,36 +1,14 @@
-# aamath.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aamath.rb
-# Converted on 02-01-2019
-
-name='aamath'
-url=('http://fuse.superglue.se/aamath/aamath-0.3.tar.gz')
+name='Aamath'
 description='Renders mathematical expressions as ASCII art'
-version='0.3' # Guessed version.
-priority='optional'
+url='http://fuse.superglue.se/aamath/aamath-0.3.tar.gz'
 homepage='http://fuse.superglue.se/aamath/'
-depends=('ncurses')
-section='Utilities'
-tags='purpose::console'
+version='0.3'
+depends=('readline')
+patches=(':local#tmptj7viyrd.patch')
 
-###### Install ######
-# ENV.deparallelize
-# system "make"
-# bin.install "aamath"
-# man1.install "aamath.1"
-# prefix.install "testcases"
-
-build(){
-#	cd $name
-	patch -p1 < ../*.diff
-	sed -i "s/g++/${TARGET}-clang/" Makefile
-	sed -i "s/-ltermcap/-lncurses -lc++/" Makefile
-	pkg:setenv
-	make
-}
-
-package(){
-#	cd $name
-	mkdir -p $pkgdir/usr/local/{bin,share/man1}
-	cp aamath $pkgdir/usr/local/bin/
-	cp aamath.1 $pkgdir/usr/local/share/man1/
+brew(){
+	pkg:make
+	bin.install "aamath"
+	man1.install "aamath.1"
+	prefix.install "testcases"
 }

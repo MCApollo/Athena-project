@@ -1,0 +1,140 @@
+.TH AESPIPE 1 "February 23 2011" "LINUX" "COMMANDS"
+.SH NAME
+aespipe \- AES encrypting or decrypting pipe
+.SH SYNOPSIS
+.B aespipe
+[options] <inputfile >outputfile
+.SH DESCRIPTION
+.B aespipe
+reads from standard input and writes to standard output. It can be used to
+create and restore encrypted tar or cpio archives. It can be used to encrypt
+and decrypt loop-AES compatible encrypted disk images.
+.B aespipe
+encrypts and decrypts blocks of data. If you are looking for general purpose
+encrypting tool that preserves data size at byte granularity, then please
+take a look at GnuPG.
+
+The AES cipher is used in CBC (cipher block chaining) mode. Data is
+encrypted and decrypted in 512 byte chains.
+.B aespipe
+supports three key setup modes; single-key, multi-key-v2 and multi-key-v3
+modes. Single-key mode uses simple sector IV and one AES key to encrypt and
+decrypt all data sectors. Multi-key-v2 mode uses cryptographically more
+secure MD5 IV and 64 different AES keys to encrypt and decrypt data sectors.
+In multi-key mode first key is used for first sector, second key for second
+sector, and so on. Multi-key-v3 is same as multi-key-v2 except is uses one
+extra 65th key as additional input to MD5 IV computation. See -K option for
+more information about how to enable multi-key-v3 mode.
+
+Recommended key setup mode is multi-key-v3, which is based on gpg encrypted
+key files. In this mode, the passphrase is protected against optimized
+dictionary attacks via salting and key iteration of gpg. Passphrase length
+should be 20 characters or more.
+
+Single-key mode preserves input size at 16 byte granularity. Multi-key mode
+preserves input size at 512 byte granularity. If input size is not multiple
+of 16 or 512 bytes, input data is padded with null bytes so that both input
+and output sizes are multiples of 16 or 512 bytes.
+
+If "ulimit -l" is set to "unlimited" then
+.B aespipe
+attempts to lock its RAM so that encryption keys do not leak to unencrypted
+swap. If "ulimit -l" is something other than "unlimited" then
+.B aespipe
+will proceed without locked RAM.
+.SH OPTIONS
+.IP "\fB\-A \fIgpgAgentSocket\fP"
+Read passphrase of gpg encrypted key file from gpg-agent instead of the
+terminal. aespipe runs gpg to decrypt a key file, and gpg talks to gpg-agent
+using \fIgpgAgentSocket\fP. Usually this data is in GPG_AGENT_INFO
+environment variable. The environment that is passed to gpg is very minimal.
+Normally gpg passes some environment variables to gpg-agent, but in this
+case, there aren't any. For best results, you may want to configure
+gpg-agent so that it "keeps" and uses its own environment. Defining
+"keep-tty", "keep-display" and "pinentry-program" in
+$HOME/.gnupg/gpg-agent.conf configuration file is a good start.
+.IP "\fB\-C \fIitercountk\fP"
+Runs hashed passphrase through \fIitercountk\fP thousand iterations of AES-256
+before using it for data encryption. This consumes lots of CPU cycles at
+program start time but not thereafter. In combination with passphrase seed
+this slows down dictionary attacks. Iteration is not done in multi-key mode.
+.IP "\fB\-d\fP"
+Decrypt data. If this option is not specified, default operation is to
+encrypt data.
+.IP "\fB\-e \fIencryption\fP"
+Following \fIencryption\fP types are recognized: AES128 (default), AES192
+and AES256. Encryption type names are case insensitive. AES128 defaults to
+using SHA-256 passphrase hash, AES192 defaults to using SHA-384 passphrase hash,
+and AES256 defaults to using SHA-512 passphrase hash.
+.IP "\fB\-G \fIgpghome\fP"
+Set gpg home directory to \fIgpghome\fP, so that gpg uses public/private
+keys on \fIgpghome\fP directory. This is only used when gpgkey file needs to
+be decrypted using public/private keys. If gpgkey file is encrypted with
+symmetric cipher only, public/private keys are not required and this option
+has no effect.
+.IP "\fB\-H \fIphash\fP"
+Uses \fIphash\fP function to hash passphrase. Available hash functions are
+sha256, sha384, sha512 and rmd160. unhashed1 and unhashed2 functions also
+exist for compatibility with some obsolete implementations. Hash type names
+are case insensitive.
+.IP "\fB\-K \fIgpgkey\fP"
+Passphrase is piped to gpg so that gpg can decrypt file \fIgpgkey\fP which
+contains the real keys that are used to encrypt data. If decryption requires
+public/private keys and gpghome is not specified, all users use their own
+gpg public/private keys to decrypt \fIgpgkey\fP. Decrypted \fIgpgkey\fP
+should contain 1 or 64 or 65 keys, each key at least 20 characters and
+separated by newline. If decrypted \fIgpgkey\fP contains 64 or 65 keys, then
+aespipe is put to multi-key mode. 65th key, if present, is used as
+additional input to MD5 IV computation.
+.IP "\fB\-O \fIsectornumber\fP"
+Set IV offset in 512 byte units. Default is zero. Data is encrypted in 512
+byte CBC chains and each 512 byte chain starts with IV whose computation
+depends on offset within the data. This option can be used to start
+encryption or decryption in middle of some existing encrypted disk image.
+.IP "\fB\-p \fIfdnumber\fP"
+Read the passphrase from file descriptor \fIfdnumber\fP instead of the
+terminal. If -K option is not being used (no gpg key file), then aespipe
+attempts to read 65 keys from \fIpasswdfd\fP, each key at least 20
+characters and separated by newline. If aespipe successfully reads 64 or 65
+keys, then aespipe is put to multi-key mode. If aespipe encounters
+end-of-file before 64 keys are read, then only first key is used in
+single-key mode.
+.IP "\fB\-P \fIcleartextkey\fP"
+Read the passphrase from file \fIcleartextkey\fP instead of the terminal. If
+-K option is not being used (no gpg key file), then aespipe attempts to read
+65 keys from \fIcleartextkey\fP, each key at least 20 characters and
+separated by newline. If aespipe successfully reads 64 or 65 keys, then
+aespipe is put to multi-key mode. If aespipe encounters end-of-file before
+64 keys are read, then only first key is used in single-key mode. If both -p
+and -P options are used, then -p option takes precedence. These are
+equivalent:
+
+aespipe -p3 -K foo.gpg -e AES128 ...   3<someFileName
+
+aespipe -P someFileName -K foo.gpg -e AES128 ...
+
+In first line of above example, in addition to normal open file descriptors
+(0==stdin 1==stdout 2==stderr), shell opens the file and passes open file
+descriptor to started aespipe program. In second line of above example,
+aespipe opens the file itself.
+.IP "\fB\-q\fP"
+Be quiet and don't complain about write errors.
+.IP "\fB\-S \fIpseed\fP"
+Sets encryption passphrase seed \fIpseed\fP which is appended to user supplied
+passphrase before hashing. Using different seeds makes dictionary attacks
+slower but does not prevent them if user supplied passphrase is guessable.
+Seed is not used in multi-key mode.
+.IP "\fB\-T\fP"
+Asks passphrase twice instead of just once.
+.IP "\fB\-v\fP"
+Verbose mode. Prints diagnostics to stderr about key length, single/multi
+key mode, and selected code optimizations (x86/amd64/padlock/intelaes).
+.IP "\fB\-w \fInumber\fP"
+Wait \fInumber\fP seconds before asking passphrase.
+.SH RETURN VALUE
+.B aespipe
+returns 0 on success, nonzero on failure.
+.SH AVAILABILITY
+Source is available from http://loop-aes.sourceforge.net/
+.SH AUTHORS
+Jari Ruusu

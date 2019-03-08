@@ -1,0 +1,10 @@
+Package: com.mc.aardvarkshellutils
+Name: AardvarkShellUtils
+Version: 1.0
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: http://www.laffeycomputer.com/shellutils.html
+Conflicts: coreutils
+Description: Athena Project | Compiled for ARM64.
+	Utilities to aid shell scripts or command-line users

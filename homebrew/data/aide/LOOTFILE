@@ -1,46 +1,19 @@
-# aide.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aide.rb
-# Converted on 02-02-2019
-
-name='aide'
-url=('https://downloads.sourceforge.net/project/aide/aide/0.16/aide-0.16.tar.gz')
+name='Aide'
 description='File and directory integrity checker'
-version='0.16' # Guessed version.
-priority='optional'
+url='https://downloads.sourceforge.net/project/aide/aide/0.16/aide-0.16.tar.gz'
 homepage='https://aide.sourceforge.io/'
-depends=('libgcrypt' 'libgpg-error' 'pcre' 'curl')
-tags='purpose::console'
-section='Utilities'
+version='0.16'
+depends=('libgcrypt' 'libgpg-error' 'pcre')
+build=('autoconf' 'automake')
 
-###### Install ######
-# system "sh", "./autogen.sh" if build.head?
-# system "./configure", "--disable-lfs",
-# "--disable-static",
-# "--with-curl",
-# "--with-zlib",
-# "--sysconfdir=#{etc}",
-# "--prefix=#{prefix}"
-# system "make", "install"
-
-build(){
-	cd $name-$version
-	for path in /usr/bin /usr/local/bin; do
-		if test -f ${SDK-:/nonexist}/$path/curl-config; then
-			CURL_CONFIG=${SDK-:/nonexist}/$path/curl-config
+brew(){
+	# Untested
+	for p in /usr/bin /usr/local/bin; do
+		if test -f ${SDK:-/nonexist}/$p/curl-config; then
+			CURL_CONFIG=${SDK:-/nonexist}/$p/curl-config
 		fi
 	done
-
-	if [[ -z $CURL_CONFIG ]]; then
-		echo "No curl-config found (is SDK set in the config?)"
-		exit 1
-	fi
-
 	sed -i '1s/^/\#include "fopen.h"\n/' src/db.c # url_fclose is undefined
-	pkg:configure --disable-lfs --with-curl --with-zlib --with-sysroot=${SDK:-no} ac_cv_path_curlconfig=$CURL_CONFIG
-	make
-}
-
-package(){
-	cd $name-$version
+	ac_cv_path_curlconfig=${CURL_CONFIG:-/dev/null} pkg:configure --disable-lfs --disable-static --with-curl --with-zlib
 	make DESTDIR=$pkgdir install
 }

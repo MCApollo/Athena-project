@@ -1,0 +1,9 @@
+Package: com.mc.advancecomp
+Name: Advancecomp
+Version: 2.1
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.advancemame.it/comp-readme.html
+Description: Athena Project | Compiled for ARM64.
+	Recompression utilities for .PNG, .MNG, .ZIP, and .GZ files

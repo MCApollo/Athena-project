@@ -1,32 +1,13 @@
-# aescrypt.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aescrypt.rb
-# Converted on 02-02-2019
-
-name='aescrypt'
-url=('https://aescrypt.sourceforge.io/aescrypt-0.7.tar.gz')
+name='Aescrypt'
 description='Program for encryption/decryption'
-version='0.7' # Guessed version.
-priority='optional'
+url='https://aescrypt.sourceforge.io/aescrypt-0.7.tar.gz'
 homepage='https://aescrypt.sourceforge.io/'
-tags='purpose::console'
-section='Utilities'
+version='0.7'
 
-###### Install ######
-# system "./configure"
-# system "make"
-# bin.install "aescrypt", "aesget"
-
-build(){
-#	cd $name-$version
+brew(){
 	pkg:setenv
 	ac_cv_sizeof_int=4 ac_cv_sizeof_long=8 ac_cv_c_bigendian=no pkg:configure
 	make
-}
-
-package(){
-#	cd $name-$version
-	x=$(echo $pkgdir | sed 's_/_\\/_g')
-	mkdir -p $pkgdir/usr/local/bin
-	sed -i "s/\/usr\/local\//$x\/usr\/local\//" Makefile
-	make DESTDIR=$pkgdir install
+	mkdir -p ${pkgdir}/${PKGPREFIX}/bin
+	cp -f aescrypt aesget ${pkgdir}/${PKGPREFIX}/bin
 }

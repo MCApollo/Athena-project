@@ -1,43 +1,14 @@
-# aom.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aom.rb
-# Converted on 02-02-2019
-
-# Non-working
-
-name='aom'
-url=('https://aomedia.googlesource.com/aom.git')
+name='Aom'
 description='Codec library for encoding and decoding AV1 video streams'
-version='1.0'
-priority='optional'
+url='https://aomedia.googlesource.com/aom.git'
 homepage='https://aomedia.googlesource.com/aom'
-makedepends=('cmake' 'yasm')
-tags='purpose::library'
-section='Utilities'
+version='1.0.0-git-d14c5bb4'
+build=('cmake' 'yasm')
+resources=('bus_qcif_15fps.y4m#https://media.xiph.org/video/derf/y4m/bus_qcif_15fps.y4m')
 
-###### Resource ######
-# bus_qcif_15fps.y4m: https://media.xiph.org/video/derf/y4m/bus_qcif_15fps.y4m
-
-###### Install ######
-# mkdir "macbuild" do
-# system "cmake", "..", *std_cmake_args,
-# "-DENABLE_DOCS=off",
-# "-DENABLE_EXAMPLES=on",
-# "-DENABLE_TESTDATA=off",
-# "-DENABLE_TESTS=off",
-# "-DENABLE_TOOLS=off"
-# system "make", "install"
-# end
-
-build(){
-	cd $name
-	mkdir macbuild
-	cd macbuild
-	pkg:cmake .. -DENABLE_DOCS=off -DENABLE_EXAMPLES=on -DENABLE_TESTDATA=off -DENABLE_TESTS=off -DENABLE_TOOLS=off
-	make
-}
-
-package(){
-	cd $name
-	cd macbuild
+brew(){
+	# Untested - Clone fails
+	mkdir "macbuild" && cd macbuild
+	cmake .. -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} -DENABLE_DOCS=off -DENABLE_EXAMPLES=on -DENABLE_TESTDATA=off -DENABLE_TESTS=off -DENABLE_TOOLS=off
 	make DESTDIR=$pkgdir install
 }

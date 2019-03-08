@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ALURE
+Description: File-loading and utility functions for OpenAL
+Requires: openal
+Version: 1.2
+Libs: -L${libdir} -lalure-static 
+Cflags: -I${includedir} -DALURE_STATIC_LIBRARY

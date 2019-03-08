@@ -1,0 +1,9 @@
+Package: com.mc.ansifilter
+Name: Ansifilter
+Version: 2.13
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: http://www.andre-simon.de/doku/ansifilter/ansifilter.html
+Description: Athena Project | Compiled for ARM64.
+	Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode

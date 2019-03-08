@@ -1,0 +1,10 @@
+name='Abcde'
+description='Better CD Encoder'
+url='https://abcde.einval.com/download/abcde-2.9.3.tar.gz'
+homepage='https://abcde.einval.com'
+version='2.9.3'
+depends=('cd-discid' 'cdrtools' 'flac' 'glyr' 'id3v2' 'lame' 'mkcue' 'vorbis-tools')
+
+brew(){
+	make DESTDIR=$pkgdir install prefix=$PKGPREFIX sysconfdir=#{etc}
+}

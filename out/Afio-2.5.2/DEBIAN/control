@@ -1,0 +1,9 @@
+Package: com.mc.afio
+Name: Afio
+Version: 2.5.2
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: http://members.chello.nl/~k.holtman/afio.html
+Description: Athena Project | Compiled for ARM64.
+	Creates cpio-format archives

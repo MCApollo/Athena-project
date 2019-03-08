@@ -1,0 +1,325 @@
+Version 2.8.4, November 2016
+* Fixes several minor bugs.
+
+Version 2.8.3, March 2016
+* Fixes garbage collector bug.
+* Fixes "execve output" that caused a "too many open files" type error.
+* Fixes ncurses support on Ubuntu.
+
+Version 2.8.2, October 2015
+* Several bug fixes.
+* Cleaner interface for command line arguments 
+  through routines a68gargc and a68gargv.
+
+Version 2.8.1, January 2015
+* Update source code for recent versions of gcc, autoconf, automake and TeX.
+* Documentation updates.
+
+Version 2.8, October 2013
+* Fixes build issue on ARM.
+* Fixes reported bugs in version 2.7.
+
+Version 2.7, June 2013
+* Larger test set.
+* Fixes reported bugs in version 2.6.
+
+Version 2.6, November 2012
+* Larger test set.
+* Hyperlinked manual.
+* Fixes reported bugs in version 2.5.
+
+Version 2.5, October 2012
+* FHS 2.3 compliant.
+* Larger test set.
+* Fixes minor issues.
+* Adds routine "abend" (exits with runtime error).
+
+Version 2.4.1, June 2012
+* Fixes issue in transput library.
+* Fixes issue in garbage collector.
+* Documentation updates.
+* Better distribution lay-out.
+
+Version 2.4, June 2012
+* Adds pretty-printer.
+* Simplified garbage collector.
+* Adds procedure "read line" (calls GNU readline).
+* Adds procedure "on gc event".
+* Adds option --storage [=] n.
+* Fixes error in option --handles.
+* Removed the field-selector extension.
+
+Version 2.3.9, April 2012
+* Fixes curses build issue.
+* Documentation updates.
+
+Version 2.3.8, April 2012
+* Fixes build issues on Solaris and Cygwin.
+* Adds procedures "rows" and "columns".
+* Documentation updates.
+
+Version 2.3.7, February 2012
+* Fixes build issue occuring on some platforms.
+
+Version 2.3.6, February 2012
+* Source code maintenance.
+* Documentation updates.
+
+Version 2.3.5, December 2011
+* Fixes issues in 2.3.4.
+* Source code maintenance.
+* Documentation updates.
+
+Version 2.3.4, November 2011
+* Fixes issues in 2.3.3.
+* Source code maintenance.
+* Documentation updates.
+
+Version 2.3.3, October 2011
+* Adds code clause.
+* Fixes issues in 2.3.2.
+* Source code maintenance.
+* Documentation updates.
+
+Version 2.3.2, October 2011
+* Fixes issues in 2.3.1.
+* Source code maintenance.
+* Documentation updates.
+
+Version 2.3.1, September 2011
+* Adds building on NetBSD.
+* Fixes minor issues in 2.3.0.
+* Lint-free source code.
+
+Version 2.3.0, September 2011
+* Implements ghost elements for empty rows.
+* Implements non-local environs.
+* Fixes issues in 2.2.0.
+* Updates documentation.
+
+Version 2.2.0, July 2011
+* Improves the parser.
+* Improves handling of unclosed files.
+* Adds compilation of uniting.
+* Adds routine grep in substring.
+* Fixes minor issues in 2.1.2.
+* Updates documentation.
+
+Version 2.1.2, January 2011
+* Updates documentation.
+* Fixes reported problem in version 2.1.1.
+
+Version 2.1.1, January 2011
+* Adds configuration options to configure script.
+* Updates the documentation.
+* Fixes reported problems in version 2.1.0.
+* Improves error messages for options to a68g.
+
+Version 2.1.0, January 2011
+* Upgrades to the GNU build system using autoconf and automake.
+* Updates the memory management system.
+* Adds compilation of basic integer-case-clauses.
+* Adds compilation of LONG INT and LONG REAL units.
+* Adds optimisation options -O0, -O1, -O2 and -O3.
+* Adds option --clock.
+* Fixes reported problems in version 2.0.3.
+
+Version 2.0.3, November 2010
+* Adds compilation of basic loops; complex loops are interpreted.
+* Fixes reported build problem on platforms without the GNU Scientific Library.
+
+Version 2.0.2, November 2010
+* Adds option --script.
+* Adds Algol 68 comment syntax for shell interpreter call.
+* Updates documentation.
+* Regression fixes:
+1. A buffering problem could occur when using routines --set or --backspace
+2. Some minor errors in the compiler
+
+Version 2.0.1, September 2010
+* Fix minor inconsistencies between source code and documentation.
+
+Version 2.0.0, September 2010
+* Adds compiler for units to speed execution.
+* Adds options --optimise and --no-optimise.
+* Adds options --compile and --no-compile.
+* Adds options --object and --no-object.
+* Adds option --strict.
+* Improves parser.
+* Improves diagnostics.
+* Updates documentation.
+* Regression fixes:
+1. Zero-suppression sometimes failed in formatted transput.
+2. The default draw fill style was 1, not 0 as stated in the manual.
+
+Version 1.18.0, August 2009
+* Regression fixes:
+1. Rowing failed for some flexible rows.
+2. Generator failed for some structures.
+3. Garbage collector could crash under rare circumstances.
+4. Some flexible mode declarations were not accepted.
+5. Some modes were incorrectly marked as equivalent.
+6. Unnecessary size limitations in some matrix operations.
+7. Build error on Mac OS X.
+8. Alignment error on AMD64.
+* Adds field-selections as an alternative to selections.
+* Adds NEW as alternative to HEAP.
+* More efficient use of memory during compilation.
+* Documentation updates.
+* Upon request, re-post the HTML translation of the Revised Report.
+* Change to a common Linux-style version numbering
+  (former Mark j will now read Version 1.j.0, and 
+   former Mark j.k will now read Version 1.j.k)
+
+Version 1.17.0, May 2009
+* Adds C-style placeholders in formats.
+* Adds warnings when tags hide declarations with larger reach.
+* Regression fixes:
+1. The while-part range was not visible from deeper ranges in case 
+   a loop-clause was the sole unit of a routine-text.
+2. SKIP did not generate a value for some modes.
+* Lint-free source code.
+* Documentation updates.
+
+Version 1.16.0, April 2009
+* Regression fixes.
+* Documentation updates:
+1. Adds Revised Report to the LaTeX documentation.
+2. Discontinues HTML translation of the Revised Report.
+
+Version 1.15.1, January 2009
+* Adds Laplace transform.
+* Regression fixes and documentation updates.
+
+Version 1.15.0, December 2008
+* Regression fixes and documentation updates.
+* Improves diagnostics.
+
+Version 1.14.1, November 2008
+* Implements zero replicators as required by the Revised Report.
+* Decommissions (undocumented) VMS option syntax.
+
+Version 1.14.0, October 2008
+* Adds first edition of the Algol 68 Genie User Manual.
+* Adds Revised Report (HTML translation 1.2) to the documentation.
+* Adds option --link to the monitor.
+
+Version 1.13.0, June 2008
+* Adds procedures to interrogate files and directories.
+* Adds various operators and procedures.
+* Adds --apropos to command line options and monitor options.
+
+Version 1.12.0, May 2008
+* Improves code for the parallel clause.
+* Improves interpreter efficiency.
+* Improves breakpoint commands in the monitor.
+* Adds options UNTIL, FINISH and OUT to the monitor.
+* Adds Revised Report (HTML translation 1.1) to the documentation.
+
+Version 1.11.1, March 2008
+* Adds options RERUN, RESET and RESTART to monitor.
+* Adds Revised Report (HTML translation 1.0) to the documentation.
+
+Version 1.11.0, November 2007
+* Adds support for sound.
+* Adds Fourier transforms.
+* Adds pseudo operator DIAG.
+* Adds pseudo operator TRNSP.
+* Adds pseudo operator COL.
+* Adds pseudo operator ROW.
+* Improves diagnostics in formatted transput.
+* Improves monitor.
+
+Version 1.10.2, April 2007
+* Adds procedure "real".
+* Adds format pattern 'h'.
+* Adds operator OP SET = (INT, L BITS) L BITS.
+* Adds operator OP CLEAR = (INT, L BITS) L BITS.
+
+Version 1.10.1, December 2006
+* Improves interpreter efficiency.
+
+Version 1.10.0, August 2006
+* Adds basic linear algebra.
+* Adds procedures "arctan2", "long arctan2" and "long long arctan2".
+* Adds procedure "execve output".
+* Improves diagnostics.
+* Adds option --no-backtrace.
+
+Version 1.9.2, July 2006
+* Adds typographical display features.
+
+Version 1.9.1, May 2006
+* 64-bit safe interpreter.
+* Improves monitor/debugger.
+* Adds option --monitor (or --debug).
+* Adds procedure "monitor".
+
+Version 1.9.0, March 2006
+* Adds basic PostgreSQL support.
+* Adds procedure "utc time" (UNIX).
+* Adds procedure "local time" (UNIX).
+* Improves diagnostic messages.
+
+Version 1.8.1, November 2005
+* Adds procedure "sub in string" (UNIX).
+* Adds option --portcheck cf. standard hardware representation.
+* Adds option --pedantic.
+
+Version 1.8.0, July 2005
+* Adds procedure "http content" (UNIX).
+* Adds procedure "tcp request" (UNIX).
+* Adds procedure "grep in string" (UNIX).
+* Adds procedure "last char in string".
+* Adds procedure "string in string".
+* Adds keyword UNTIL to implement post checked loop.
+* Adds keyword DOWNTO to complement TO.
+* Adds keyword ANDTH as alternative for ANDF and keyword OREL as alternative for ORF.
+* Makes ~ a SKIP when used as a unit (cf. RR).
+
+Version 1.7.0, May 2005
+* Adds partial parameterisation similar to C. H. Lindsey's proposal.
+* Adds elementary and trigonometric functions for complex numbers, independent of GSL.
+
+Version 1.6.0, March 2005
+* Adds parallel clause on platforms that support POSIX threads.
+
+Version 1.5.0, October 2004
+* Improves interpreter efficiency.
+* Adds transput on STRING as well as FILE and PIPE.
+* Adds dynamic scope checking.
+* Adds basic preprocessor.
+* Adds curses support.
+
+Version 1.4.0, June 2004
+* Adds more GSL support.
+* Adds modes LONG BITS and LONG LONG BITS.
+* Makes parser accept ( .. ) as alternative for [ .. ].
+* Makes parser optionally treat { .. }, [ .. ] and ( .. ) as equivalent.
+* Makes parser accept loop clause as encloses clause.
+* Makes mode checker accept UNION with components relates through deflexing.
+* Changes to thread safe plotutils interface.
+
+Version 1.3.2, March 2004
+* Adds overflow checks for primitive modes.
+
+Version 1.3.1, January 2004
+* Adds optional system stack overflow handling to interpreter.
+* Improves multiprecision library.
+
+Version 1.3.0, September 2003
+* Adds formatted transput.
+* Improves speed of multiprecision library.
+
+Version 1.2.0, March 2003
+* Adds mode BYTES and LONG BYTES.
+* Adds mode FORMAT and parsing of FORMAT texts.
+* Adds straightening in unformatted transput.
+* Adds mode PIPE and UNIX support.
+* Changes to UNIX system level IO.
+
+Version 1.1.0, November 2002
+
+Version 1.0.0, September 2002
+
+Beta releases from November 2001 onward.

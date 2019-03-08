@@ -1,28 +1,12 @@
-# abcmidi.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/abcmidi.rb
-# Converted on 02-02-2019
-
-name='abcmidi'
-url=('https://www.ifdo.ca/~seymour/runabc/abcMIDI-2018.06.23.zip')
+name='Abcmidi'
 description='Converts abc music notation files to MIDI files'
-version='2018.06.23' # Guessed version.
-priority='optional'
+url='https://ifdo.ca/~seymour/runabc/abcMIDI-2019.02.08.zip'
 homepage='https://www.ifdo.ca/~seymour/runabc/top.html'
-tags='purpose::console'
-section='Utilities'
+version='2019.02.08'
 
-###### Install ######
-# rm "makefile"
-# system "./configure", "--disable-debug",
-# "--prefix=#{prefix}",
-# "--mandir=#{man}"
-# system "make", "install"
-
-build(){
-	pkg:configure
-	make
-}
-
-package(){
+brew(){
+	rm "makefile" || :	# Brew came with this
+	rm "Makefile" || :	# Makefile exists, but not `makefile`?
+	CFLAGS="-Wno-error=implicit-function-declaration" pkg:configure --disable-debug
 	make DESTDIR=$pkgdir install
 }

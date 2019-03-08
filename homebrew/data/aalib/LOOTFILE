@@ -1,38 +1,14 @@
-# aalib.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aalib.rb
-# Converted on 02-01-2019
-
-name='aalib'
-url=('https://downloads.sourceforge.net/aa-project/aalib-1.4rc5.tar.gz')
+name='Aalib'
 description='Portable ASCII art graphics library'
-version='1.4.0'
-priority='optional'
+url='https://downloads.sourceforge.net/aa-project/aalib-1.4rc5.tar.gz'
 homepage='https://aa-project.sourceforge.io/aalib/'
-# Patches
-# url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/6e23dfb/aalib/1.4rc5.patch')
+version='1.4'
+depends=('ncurses')
+patches=('p1#https://raw.githubusercontent.com/Homebrew/formula-patches/6e23dfb/aalib/1.4rc5.patch')
 
-###### Install ######
-# ENV.ncurses_define
-# system "./configure", "--disable-debug",
-# "--disable-dependency-tracking",
-# "--prefix=#{prefix}",
-# "--mandir=#{man}",
-# "--infodir=#{info}",
-# "--enable-shared=yes",
-# "--enable-static=yes",
-# "--without-x"
-# system "make", "install"
-
-build(){
-	cd $name-$version
-	patch -p1 < ../*.patch
+brew(){
 	pkg:configsub
 	pkg:setenv
-	ac_cv_prog_system="darwin" CFLAGS="-include string.h -include stdlib.h" STATIC="--enable-static" pkg:configure --without-x
-	make
-}
-
-package(){
-	cd $name-$version
+	ac_cv_prog_system="darwin" CFLAGS="-include string.h -include stdlib.h" SHARED=--enable-shared STATIC=--enable-static pkg:configure --disable-debug --disable-dependency-tracking --without-x
 	make DESTDIR=$pkgdir install
 }

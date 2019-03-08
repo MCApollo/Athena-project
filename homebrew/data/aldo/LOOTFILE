@@ -1,34 +1,13 @@
-# aldo.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/aldo.rb
-# Converted on 02-02-2019
-
-# Not tested!
-
-name='aldo'
-url=('https://savannah.nongnu.org/download/aldo/aldo-0.7.7.tar.bz2')
+name='Aldo'
 description='Morse code learning tool released under GPL'
-version='0.7.7' # Guessed version.
-priority='optional'
+url='https://savannah.nongnu.org/download/aldo/aldo-0.7.7.tar.bz2'
 homepage='https://www.nongnu.org/aldo/'
+version='0.7.7'
 depends=('libao')
-tags='purpose::console'
-section='Utilities'
+patches=(':local#tmpm026lc13.patch')
 
-# A diff file was written to aldo.diff
-# --> Patch the file before building.
-
-###### Install ######
-# system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
-# system "make", "install"
-
-build(){
-	cd $name-$version
-	patch -p1 < ../*.diff
-	pkg:configure
-	make
-}
-
-package(){
-	cd $name-$version
+brew(){
+	# Untested
+	pkg:configure --disable-dependency-tracking
 	make DESTDIR=$pkgdir install
 }

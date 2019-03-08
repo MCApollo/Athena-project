@@ -1,0 +1,10 @@
+Package: com.mc.aalib
+Name: Aalib
+Version: 1.4
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://aa-project.sourceforge.io/aalib/
+Depends: ncurses
+Description: Athena Project | Compiled for ARM64.
+	Portable ASCII art graphics library

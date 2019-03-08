@@ -1,0 +1,9 @@
+Package: com.mc.antiword
+Name: Antiword
+Version: 0.37
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: http://www.winfield.demon.nl/
+Description: Athena Project | Compiled for ARM64.
+	Utility to read Word (.doc) files

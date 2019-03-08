@@ -1,34 +1,12 @@
-# abook.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/abook.rb
-# Converted on 02-02-2019
-
-name='abook'
-url=('https://downloads.sourceforge.net/project/abook/abook/0.5.6/abook-0.5.6.tar.gz')
+name='Abook'
 description='Address book with mutt support'
-version='0.5.6' # Guessed version.
-priority='optional'
+url='https://downloads.sourceforge.net/project/abook/abook/0.5.6/abook-0.5.6.tar.gz'
 homepage='https://abook.sourceforge.io/'
-depends=('readline' 'ncurses')
-section='Utilities'
-tags='purpose::console'
+version='0.5.6'
+depends=('readline')
 
-###### Install ######
-# system "./configure", "--disable-debug",
-# "--disable-dependency-tracking",
-# "--prefix=#{prefix}",
-# "--mandir=#{man}"
-# system "make", "install"
-
-build(){
-        cd $name-$version
+brew(){
 	pkg:configsub
-        pkg:configure CFLAGS="-DSYSTEM_ALLOW_IOS" # system(cmd); edited header
-        make
+	pkg:configure --disable-debug --disable-dependency-tracking
+	make DESTDIR=$pkgdir install
 }
-
-package(){
-        cd $name-$version
-        make DESTDIR=$pkgdir install
-}
-
-

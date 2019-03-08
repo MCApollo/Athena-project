@@ -1,0 +1,9 @@
+Package: com.mc.a52dec
+Name: A52dec
+Version: 0.7.4
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://liba52.sourceforge.io/
+Description: Athena Project | Compiled for ARM64.
+	Library for decoding ATSC A/52 streams (AKA

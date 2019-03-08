@@ -1,0 +1,144 @@
+#!/usr/bin/env bash
+# Summary: Configure the shell environment for anyenv
+# Usage: eval "$(anyenv init - [<shell>])"
+
+set -e
+[ -n "$ANYENV_DEBUG" ] && set -x
+
+print=""
+no_rehash_arg=""
+for args in "$@"
+do
+  if [ "$args" = "-" ]; then
+    print=1
+    shift
+  fi
+
+  if [ "$args" = "--no-rehash" ]; then
+    no_rehash_arg="--no-rehash "
+    shift
+  fi
+done
+
+shell="$1"
+if [ -z "$shell" ]; then
+  shell="$(basename "$SHELL")"
+fi
+
+READLINK=$(type -p greadlink readlink | head -1)
+if [ -z "$READLINK" ]; then
+  echo "anyenv: cannot find readlink - are you missing GNU coreutils?" >&2
+  exit 1
+fi
+
+resolve_link() {
+  $READLINK "$1"
+}
+
+abs_dirname() {
+  local cwd="$(pwd)"
+  local path="$1"
+
+  while [ -n "$path" ]; do
+    cd "${path%/*}"
+    local name="${path##*/}"
+    path="$(resolve_link "$name" || true)"
+  done
+
+  pwd
+  cd "$cwd"
+}
+
+root="$(abs_dirname "$0")/.."
+
+if [ -z "$print" ]; then
+  case "$shell" in
+  bash )
+    profile='~/.bash_profile'
+    ;;
+  zsh )
+    profile='~/.zshrc'
+    ;;
+  ksh )
+    profile='~/.profile'
+    ;;
+  fish )
+    profile='~/.config/fish/config.fish'
+    ;;
+  * )
+    profile='your profile'
+    ;;
+  esac
+
+  { echo "# Load anyenv automatically by adding"
+    echo "# the following to ${profile}:"
+    echo
+    case "$shell" in
+    fish )
+      echo 'status --is-interactive; and source (anyenv init -|psub)'
+      ;;
+    * )
+      echo 'eval "$(anyenv init -)"'
+      ;;
+    esac
+    echo
+  } >&2
+
+  exit 1
+fi
+
+mkdir -p "${ANYENV_ROOT}/envs"
+
+case "$shell" in
+bash | zsh | fish )
+  echo "source \"$root/completions/anyenv.${shell}\""
+  ;;
+esac
+
+case "$shell" in
+fish )
+cat <<EOS
+function anyenv
+  set command \$argv[1]
+  set -e argv[1]
+
+  command anyenv "\$command" \$argv
+end
+EOS
+  ;;
+* )
+cat <<EOS
+anyenv() {
+  typeset command
+  command="\$1"
+  if [ "\$#" -gt 0 ]; then
+    shift
+  fi
+  command anyenv "\$command" "\$@"
+}
+EOS
+  ;;
+esac
+
+# Print stderr to show caveat of initialization.
+$(anyenv-install --list > /dev/null)
+
+for env in $(anyenv-envs); do
+  ENV_ROOT_VALUE=$(echo ${env}_ROOT | tr "[a-z]" "[A-Z]")
+  ENV_ROOT="${ANYENV_ROOT}/envs/${env}"
+
+  case "$shell" in
+  fish )
+    echo "set -x ${ENV_ROOT_VALUE} \"${ENV_ROOT}\""
+    export ${ENV_ROOT_VALUE}="${ENV_ROOT}"
+    echo "set -x PATH \$PATH \"${ENV_ROOT}/bin\""
+    ;;
+  * )
+    echo "export ${ENV_ROOT_VALUE}=\"${ENV_ROOT}\""
+    export ${ENV_ROOT_VALUE}="${ENV_ROOT}"
+    echo "export PATH=\"${ENV_ROOT}/bin:\$PATH\""
+    ;;
+  esac
+
+  echo "$(${ENV_ROOT}/bin/${env} init - ${no_rehash_arg}${shell})"
+done

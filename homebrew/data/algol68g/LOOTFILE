@@ -1,28 +1,11 @@
-# algol68g.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/algol68g.rb
-# Converted on 02-02-2019
-
-name='algol68g'
-url=('https://jmvdveer.home.xs4all.nl/algol68g-2.8.4.tar.gz')
+name='Algol68g'
 description='Algol 68 compiler-interpreter'
-version='2.8.4' # Guessed version.
-priority='optional'
+url='https://jmvdveer.home.xs4all.nl/algol68g-2.8.4.tar.gz'
 homepage='https://jmvdveer.home.xs4all.nl/algol.html'
-tags='purpose::console'
-section='Utilities'
+version='2.8.4'
 
-###### Install ######
-# system "./configure", "--prefix=#{prefix}"
-# system "make", "install"
-
-build(){
-	cd $name-$version
+brew(){
 	pkg:configsub
-	pkg:configure CFLAGS=-DSYSTEM_ALLOW_IOS # edited header
-	make
-}
-
-package(){
-	cd $name-$version
+	pkg:configure
 	make DESTDIR=$pkgdir install
 }

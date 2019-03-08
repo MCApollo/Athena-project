@@ -1,0 +1,9 @@
+Package: com.mc.abcmidi
+Name: Abcmidi
+Version: 2019.02.08
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.ifdo.ca/~seymour/runabc/top.html
+Description: Athena Project | Compiled for ARM64.
+	Converts abc music notation files to MIDI files

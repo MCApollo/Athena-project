@@ -1,0 +1,13 @@
+name='ActivemqCpp'
+description='C++ API for message brokers such as Apache ActiveMQ'
+url='https://www.apache.org/dyn/closer.cgi?path=activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.bz2'
+homepage='https://activemq.apache.org/cms/index.html'
+version='3.9.5'
+depends=('apr' 'openssl')
+build=('pkg-config')
+
+brew(){
+	pkg:configure
+	make
+	make DESTDIR=$pkgdir install
+}

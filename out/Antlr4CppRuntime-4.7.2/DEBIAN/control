@@ -1,0 +1,9 @@
+Package: com.mc.antlr4cppruntime
+Name: Antlr4CppRuntime
+Version: 4.7.2
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.antlr.org/
+Description: Athena Project | Compiled for ARM64.
+	ANother Tool for Language Recognition C++ Runtime Library

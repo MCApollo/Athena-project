@@ -1,0 +1,247 @@
+.\" Copyright (c) 2002, 2006  Jutta Degener
+.\"
+.TH ABNFGEN 1  "4 March 2002"
+.SH NAME
+abnfgen \- ABNF-based test case generator
+.SH SYNOPSIS
+.na
+.B abnfgen
+[
+.B \-hvclux_7
+] [
+.B \-d
+.I output-directory
+]
+.br
+.ti +8
+[
+.B \-y
+.I depth
+]
+[
+.B \-n
+.I ncases
+]
+.br
+.ti +8
+[
+.B \-p
+.I filename-pattern
+]
+[
+.B \-w
+.I prefix
+]
+[
+.B \-r
+.I seed
+]
+.br
+.ti +8
+[
+.B \-s
+.I start-symbol
+]
+[
+.B \-t
+.I tentative-file
+]
+.br
+.ti +8
+[
+.I files...
+]
+.br
+.ad
+.SH DESCRIPTION
+.LP
+ABNF ("Advanced Backus Naur Form")
+grammars are frequently used in RFCs to describe protocols or 
+presentation formats for Internet Standards.
+The \fIabnfgen\fP program produces text composed according to the rules of an
+ABNF grammar, given the grammar.
+Such text can then be used to test a parser that claims
+to implement the grammar.
+.SH OPTIONS
+.TP
+.B \-h
+Print a brief usage.
+.TP
+.B \-v
+Verbose mode.
+Print a trace of the expanded grammar rules to standard error.
+.TP
+.B \-w 
+Write seed.
+Begin each generated file with \fIprefix\fR, followed by the seed
+as a decimal number and a newline.
+.TP
+.B \-c
+Try for complete coverage.
+Rather than randomly picking productions, try to cover each
+leaf and branch of the grammar.
+.IP
+For repetitions with * where maximum and minimum are less than
+100 iterations apart, the repetition counts as fully covered
+when both maximum and minimum have been produced.
+(The stages in between are only tried once the extremes have
+been covered.)
+.IP
+For repetitions with * where maximum and minimum are more than 
+100 apart, only the minimum and some small number of repetitions
+are tried; doubling the \fB-c\fP removes that limit and causes
+the extremes to be tried even if the maximum is very large.
+.IP
+For character ranges with up to 256 elements, each elements
+must be produced for full coverage.
+For (Unicode) character ranges with more than 256 elements,
+every possible value modulo 256 is produced at least once for
+complete coverage.
+.IP
+A case-insensitive strings counts as fully covered once both
+an all-uppercase and an all-lowercase version have been produced.
+.TP
+.B \-y
+Descend freely through at most \fIdepth\fP nonterminal expansions
+or repetitions.
+After recursing that deeply, always pick that branch of the grammar that
+terminates most quickly.
+This can be used to limit expansion in grammars likely to
+recurse infinitely such as \fBa = a a a a | "x"\fP.
+The default depth is 100.
+.TP
+.B \-n
+Rather than generating output on standard output (the default),
+generate \fIncases\fP test files named ####.tst, where #### is 
+replaced with the test's running number from 1 to \fIncases\fP. 
+.TP
+.B \-p
+Name test cases using \fIfilename-pattern\fP.
+A sequence of # characters in the pattern is replaced with
+the running number of the test, padded to the specified size.
+.TP
+.B \-r
+Initialize the random generator using \fIseed\fP.
+For the same grammar and version of the software,
+the same seed always creates the same subtree.
+.TP
+.B \-s
+Start production with \fIstart-symbol\fP.
+(Default: the first nonterminal defined in the grammar file.)
+.TP
+.B \-t
+Read the nonterminals defined in \fItentative-file\fP
+and use them if they don't get defined in the regular input files.
+.TP
+.B \-u
+Reject any grammar that contains <>-enclosed prose.
+.TP
+.B \-x
+Exclude the core set of definitions.
+The RFC that defines the grammar also defines a core set of
+symbols like CRLF, DIGIT, SP and so on.
+Since version 0.9, abnfgen predefines these symbols as if
+their definition had been passed in with -t.
+Specify -x to suppress those predefinitions.
+.TP
+.B \-7
+Disable RFC 7405: do not interpret '%i"foo"' and '%s"foo"'
+as case-insensitive or case-sensitive literals, respectively.
+.TP
+.B \-l
+("legal") Disable extensions to RFCs 5234 and 7405: do not allow
+case-sensitive literals in single quotes, do not allow
+branch tagging with {}, and do not convert character constants
+from Unicode to UTF-8.
+.TP
+.B \-_
+Allow "_" as part of identifier names.
+ABNF doesn't (it allows "-" instead), but many other
+grammar systems do.
+.SH GRAMMAR
+The input grammar is a slight extension of ABNF with
+provisions for literal strings and control of the chance
+of descent into specific branches of the grammar.
+
+.IP "\fInonterminal\fR \fB=\fR \fIexpression\fR"
+The nonterminal expands to expression.
+.IP "\fInonterminal\fR \fB=/\fR \fIexpression\fR"
+Alternative to whatever else has been defined, the \fInonterminal\fP
+can also expand to \fIexpression\fP.
+.IP "\fIx\fP \fB/\fP \fIy\fP"
+Either x or y.
+.IP "\fIx\fP \fIy\fP"
+X followed by y.
+.IP \fB"abc"\fP
+The case-insensitive string \fBabc\fR.  That is, one of 
+ABC, ABc, AbC, Abc, aBC, aBc, abC, or abc.
+There is no way of quoting " in a string; in a pinch, use <"> 
+or %x22.
+.IP \fB%s"abc"\fR
+The case-sensitive string \fBabc\fR.  (An extension introduced in RFC 7405.)
+Support for \fB%i"abc"\fR and \fB%s"abc"\fR can be turned off with -7.
+.IP \fB%i"abc"\fR
+The case-insensitive string \fBabc\fR.
+Same as just \fB"abc"\fR. 
+(This is an extension introduced in RFC 7405, for consistency with \fB%s\fR.)
+Support for \fB%i"abc"\fR and \fB%s"abc"\fR can be turned off with -7.
+.IP "\fB'abc'\fR"
+The case-sensitive string \fBabc\fR.
+This is a home-made extension to ABNF (that predates RFC7405),
+and can be disabled using the \-l option.
+There is no way of quoting ' in a string; use '"'"'.
+(That is, leave the single-quoted string, enter a double-quoted
+string, the single quote, leave the double-quoted string, reenter
+the single-quoted string.)
+.IP \fB%\fIzN\fR
+The character with base \fIz\fR value \fIN\fR.
+Bases are: \fBx\fR (16),  \fBd\fR (10), and \fBb\fR (2).
+.IP \fB%\fIzM\fR-\fIN\fR
+Any character with values betwen \fIM\fR and \fIN\fR inclusive,
+base \fIz\fR.
+.IP "\fIM\fR\fB*\fR\fIN\fR \fIexpression\fR"
+Between (inclusive) \fIM\fR and \fIN\fR repetitions
+of \fIexpression\fR.
+The default for \fIM\fR is 0, for \fIN\fR infinity.
+.IP \fB[\fR\fIexpression\fR\fB]\fR
+Same as \fB0*1(\fR\fIexpression\fR\fB)\fR, that is, an 
+optional expression.
+.IP (\fIexpression\fR)
+Expands to \fIexpression\fR.
+(Use parentheses for grouping.)
+.SH "BRANCH CONTROL"
+Each alternative in the grammar has a weight assigned to it.
+Normally, these weights are all 1.
+The higher the weight, the more likely it is that
+a alternative is used when expanding the nonterminal
+it occurs in.
+Assign specific weights to an alternative by prefixing it
+with \fB{\fR\fIN\fR\fB}\fR, where \fIN\fR is an integer.
+For example
+.br
+.in +7
+nt = {30} nt x / x
+.br
+x = {2} 'a' / {3} 'b'
+.br
+.in -7
+should tend to produce output that is about 2/5th 'a',
+about 3/5th 'b', and fairly lengthy.
+.LP
+Repetition can be branch controlled with two chance parameters
+that govern whether to stop or continue on each step of the
+repetition.
+They're placed before the two counts around the *:
+.br
+.in +7
+nt = {1}1*{3}10 'X'
+.in -7
+will tend to produce somewhere around 3 Xs on average.
+This is an extension to RFC 5234 and can be disabled by
+specifying \-l on the command line.
+.SH BUGS
+Please send problems, bugs, questions, desirable enhancements, etc. to:
+.LP
+.RS
+jutta@pobox.com
+.RE

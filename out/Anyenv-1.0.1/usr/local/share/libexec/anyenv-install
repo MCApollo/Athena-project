@@ -1,0 +1,321 @@
+#!/usr/bin/env bash
+#
+# Summary: Install a **env
+#
+# Usage: anyenv install [-f|--force] [-s/--skip-existing] <**env>
+#        anyenv install -l|--list
+#        anyenv install --init       [git-url] [git-ref]
+#        anyenv install --force-init [git-url] [git-ref]
+#        anyenv install --update
+#
+#   -l/--list          List all available **envs
+#   -f/--force         Install even if the **env appears to be installed already
+#   -s/--skip-existing Skip if the version appears to be installed already
+#   --init             Initialize install manifests with specified git repo or anyenv/anyenv-install
+#   --force-init       Initialize install manifests without confirmation
+#   --update           Update install manifests
+#
+set -e
+[ -n "$ANYENV_DEBUG" ] && set -x
+
+ANYENV_DEFAULT_MANIFEST_GIT_REPO="https://github.com/anyenv/anyenv-install.git"
+
+if [ -z ${ANYENV_DEFINITION_ROOT+x} ]; then
+  # $XDG_CONFIG_HOME/anyenv/anyenv-install or ~/.config/anyenv/anyenv-install
+  ANYENV_DEFINITION_ROOT="${XDG_CONFIG_HOME:-${HOME}/.config}/anyenv/anyenv-install"
+fi
+
+list_definitions() {
+  if [ ! -d $ANYENV_DEFINITION_ROOT ]; then
+    return
+  fi
+  { for definition in "${ANYENV_DEFINITION_ROOT}/"*env; do
+      definition_name="${definition##*/}"
+      if [ "$definition_name" != "*" ] && \
+         grep -q "install_env " $definition
+      then
+        echo "$definition_name"
+      fi
+    done
+  } | sort
+}
+
+install_env() {
+  local destination="$DEFINITION"
+  local git_url="$1"
+  local git_ref="$2"
+
+  if [ ! -n "$git_url" ]; then
+    echoe "git_url is not specified."
+    echoe "USAGE: install_env git-url [git-ref]"
+    return 1
+  fi
+
+  mkdir -p "$BUILD_DIR"
+  pushd "$BUILD_DIR"
+  fetch_git "${destination}" "${git_url}" "${git_ref}"
+  popd
+
+  if [ -d "$PREFIX" ]; then
+    if [ -d "${PREFIX}/versions" ]; then
+      mv "${PREFIX}/versions" "${BUILD_DIR}/${ENV_NAME}/versions"
+    fi
+    if [ -f "${PREFIX}/version" ]; then
+      mv "${PREFIX}/version" "${BUILD_DIR}/${ENV_NAME}/version"
+    fi
+    mv "$PREFIX" "${BUILD_DIR}.prev"
+  fi
+  mv "${BUILD_DIR}/${ENV_NAME}" "$PREFIX"
+}
+
+install_plugin() {
+  local destination="$1"
+  local git_url="$2"
+  local git_ref="$3"
+
+  if [ ! -n "$destination" ] || [ ! -n "$git_url" ]; then
+    echoe "destination or git-url is not specified."
+    echoe "USAGE: install_plugin destination git-url [git-ref]"
+    return 1
+  fi
+
+  mkdir -p "${PREFIX}/plugins"
+  pushd "${PREFIX}/plugins"
+  fetch_git "${destination}" "${git_url}" "${git_ref}"
+  popd
+}
+
+fetch_git() {
+  local destination="$1"
+  local git_url="$2"
+  local git_ref="${3:-master}"
+
+  echo "Cloning ${git_url} ${git_ref} to ${destination}..."
+
+  if type git &>/dev/null; then
+    git clone --branch "$git_ref" "$git_url" "$destination"
+  else
+    echoe "error: please install \`git\` and try again"
+    exit 1
+  fi
+}
+
+usage() {
+  # We can remove the sed fallback once rbenv 0.4.0 is widely available.
+  anyenv-help install 2>/dev/null || sed -ne '/^#/!q;s/.//;s/.//;1,4d;p' < "$0"
+  [ -z "$1" ] || exit "$1"
+}
+
+definitions() {
+  local query="$1"
+  list_definitions | grep -F "$query" || true
+}
+
+echoe() {
+  local message="$1"
+  (>&2 echo -e "\e[33m${message}\e[0m")
+}
+
+initialize_manifest() {
+  git_url="${ARGUMENTS[0]:-$ANYENV_DEFAULT_MANIFEST_GIT_REPO}"
+  git_ref="${ARGUMENTS[1]}"
+  local force="$1"
+  if [ ! -d $ANYENV_DEFINITION_ROOT ]; then
+    echo "Manifest directory doesn't exist: ${ANYENV_DEFINITION_ROOT}"
+    if [ -n "$force" ]; then
+      fetch_git $ANYENV_DEFINITION_ROOT "$git_url" "$git_ref"
+    else
+      read -p "Do you want to checkout ${git_repo}? [y/N]: " answer
+      if [ "$answer" != "${answer#[Yy]}" ]; then
+        fetch_git $ANYENV_DEFINITION_ROOT "$git_url" "$git_ref"
+      else
+        echo "Canceled."
+        return 0
+      fi
+    fi
+    echo
+    echo "Completed!"
+  else
+    echoe "Manifest directory exists: ${ANYENV_DEFINITION_ROOT}"
+    return 1
+  fi
+}
+
+checkout_default_manifest() {
+  local git_repo="$1"
+  git clone $git_repo $ANYENV_DEFINITION_ROOT
+  echo
+  anyenv install --list
+}
+
+update_manifest() {
+  if [ ! -d $ANYENV_DEFINITION_ROOT ]; then
+    echo "Manifest directory doesn't exist: ${ANYENV_DEFINITION_ROOT}"
+    echo "Try anyenv install --init"
+    return 1
+  fi
+  echo "Updating manifest directory... (${ANYENV_DEFINITION_ROOT})"
+  pushd $ANYENV_DEFINITION_ROOT > /dev/null
+  git pull --no-rebase --ff
+  popd > /dev/null
+}
+
+indent() {
+  sed 's/^/  /'
+}
+
+parse_options() {
+  OPTIONS=()
+  ARGUMENTS=()
+  local arg option index
+
+  for arg in "$@"; do
+    if [ "${arg:0:1}" = "-" ]; then
+      if [ "${arg:1:1}" = "-" ]; then
+        OPTIONS[${#OPTIONS[*]}]="${arg:2}"
+      else
+        index=1
+        while option="${arg:$index:1}"; do
+          [ -n "$option" ] || break
+          OPTIONS[${#OPTIONS[*]}]="$option"
+          index=$(($index+1))
+        done
+      fi
+    else
+      ARGUMENTS[${#ARGUMENTS[*]}]="$arg"
+    fi
+  done
+}
+
+
+unset FORCE
+unset SKIP_EXISTING
+
+# Provide anyenv completions
+if [ "$1" = "--complete" ]; then
+  list_definitions
+  echo --help
+  echo --list
+  echo --force
+  echo --skip-existing
+  echo --init
+  echo --force-init
+  echo --update
+  exit 0
+fi
+
+if [ -z "$ANYENV_ROOT" ]; then
+  ANYENV_ROOT="${HOME}/.anyenv"
+fi
+
+parse_options "$@"
+for option in "${OPTIONS[@]}"; do
+  case "$option" in
+  "h" | "help" )
+    usage 0
+    ;;
+  "l" | "list" )
+    if [ ! -d $ANYENV_DEFINITION_ROOT ]; then
+      echoe "ANYENV_DEFINITION_ROOT(${ANYENV_DEFINITION_ROOT}) doesn't exist. You can initialize it by:"
+      echoe "> anyenv install --init"
+      exit 1
+    fi
+    definitions | indent
+    exit
+    ;;
+  "f" | "force" )
+    FORCE=true
+    ;;
+  "s" | "skip-existing" )
+    SKIP_EXISTING=true
+    ;;
+  "init" )
+    initialize_manifest
+    exit $?
+    ;;
+  "force-init" )
+    initialize_manifest force
+    exit $?
+    ;;
+  "update" )
+    update_manifest
+    exit $?
+    ;;
+  * )
+    usage 1
+    ;;
+  esac
+done
+
+unset ENV_NAME
+ANYENV_ENVS_ROOT="${ANYENV_ROOT}/envs"
+
+# The first argument contains the definition to install.
+# Show usage instructions if the definition is not specified.
+DEFINITION="${ARGUMENTS[0]}"
+[ -n "$DEFINITION" ] || usage 1
+
+# Set ENV_NAME from $DEFINITION, if it is not already set. Then
+# compute the installation prefix.
+[ -n "$ENV_NAME" ] || ENV_NAME="${DEFINITION##*/}"
+PREFIX="${ANYENV_ENVS_ROOT}/${ENV_NAME}"
+
+[ -d "${PREFIX}" ] && PREFIX_EXISTS=1
+
+
+DEFINITION_PATH="${ANYENV_DEFINITION_ROOT}/${DEFINITION}"
+if [ ! -e "$DEFINITION_PATH" ]; then
+  echo "anyenv-install: definition not found: ${DEFINITION}"
+  exit 2
+fi
+
+# If the installation prefix exists, prompt for confirmation unless
+# the --force option was specified.
+if [ -d "${PREFIX}/bin" ]; then
+  if [ -z "$FORCE" ] && [ -z "$SKIP_EXISTING" ]; then
+    echo "anyenv: $PREFIX already exists"
+    echo "Reinstallation keeps versions directories"
+    read -p "continue with installation? (y/N) "
+
+    case "$REPLY" in
+    y* | Y* ) ;;
+    * ) exit 1 ;;
+    esac
+  elif [ -n "$SKIP_EXISTING" ]; then
+    # Since we know the **env version is already installed, and are opting to
+    # not force installation of existing versions, we just `exit 0` here to
+    # leave things happy
+    exit 0
+  fi
+fi
+
+# Plan cleanup on unsuccessful installation.
+cleanup() {
+  [ -z "${PREFIX_EXISTS}" ] && rm -rf "$PREFIX"
+}
+
+trap cleanup SIGINT
+
+if [ -z "$TMPDIR" ]; then
+  TMP="/tmp"
+else
+  TMP="${TMPDIR%/}"
+fi
+
+SEED="$(date "+%Y%m%d%H%M%S").$$"
+CWD="$(pwd)"
+BUILD_DIR="${TMP}/${ENV_NAME}.${SEED}"
+
+STATUS=0
+source "$DEFINITION_PATH" || STATUS="$?"
+
+if [ "$STATUS" == "0" ]; then
+  echo ""
+  echo "Install $ENV_NAME succeeded!"
+  echo "Please reload your profile (exec \$SHELL -l) or open a new session."
+else
+  echo "Install $ENV_NAME failed"
+  cleanup
+fi
+
+exit "$STATUS"

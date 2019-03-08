@@ -1,37 +1,13 @@
-# alure.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/alure.rb
-# Converted on 02-02-2019
-
-name='alure'
-url=('https://kcat.strangesoft.net/alure-releases/alure-1.2.tar.bz2')
+name='Alure'
 description='Manage common tasks with OpenAL applications'
-version='1.2' # Guessed version.
-priority='optional'
+url='https://kcat.strangesoft.net/alure-releases/alure-1.2.tar.bz2'
 homepage='https://kcat.strangesoft.net/alure.html'
-makedepends=('cmake' 'pkg-config')
-tags='purpose::console'
-section='Utilities'
+version='1.2'
+build=('cmake' 'pkg-config')
+patches=('p1#https://raw.githubusercontent.com/Homebrew/formula-patches/eed63e836e/alure/unistd.patch')
 
-# Patches
-url+=('https://raw.githubusercontent.com/Homebrew/formula-patches/eed63e836e/alure/unistd.patch')
-
-###### Install ######
-# cd "build" do
-# system "cmake", "..", *std_cmake_args
-# system "make", "install"
-# end
-
-build(){
-	cd $name-$version
-	patch -p1 < ../*.patch
-	mkdir build-dir
-	cd build-dir
-	pkg:cmake ..
-	make
-}
-
-package(){
-	cd $name-$version
-	cd build-dir
+brew(){
+	cd "build" 
+	cmake .. -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE}
 	make DESTDIR=$pkgdir install
 }

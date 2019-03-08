@@ -1,0 +1,238 @@
+.Dd November  3, 2016
+.Dt A68G 1 PRM
+.Os LINUX
+.
+.Sh NAME
+a68g \- Algol 68 Genie, an Algol 68 compiler-interpreter
+.
+.Sh SYNOPSIS
+a68g
+.Op Fl -apropos | -help | -info Ar [string]
+.Op Fl -assertions | Fl -no-assertions
+.Op Fl -backtrace | Fl -no-backtrace
+.Op Fl -brackets
+.Op Fl -check | Fl -no-run
+.Op Fl -compile | Fl -no-compile
+.Op Fl -clock
+.Op Fl -debug | Fl -monitor
+.Op Fl -echo Ar string
+.Op Fl -execute Ar unit | -x Ar unit
+.Op Fl -exit | Fl -
+.Op Fl -extensive
+.Op Fl f | Fl -file Ar string
+.Op Fl -frame Ar number
+.Op Fl -handles Ar number
+.Op Fl -heap Ar number
+.Op Fl -listing
+.Op Fl -moids
+.Op Fl O | Fl O0 | Fl O1 | Fl O2 | Fl O3 
+.Op Fl -object | Fl -no-object
+.Op Fl -overhead Ar number
+.Op Fl -optimise | Fl -no-optimise
+.Op Fl -pedantic
+.Op Fl -portcheck | -no-portcheck 
+.Op Fl -pragmats | Fl -no-pragmats
+.Op Fl -precision Ar number
+.Op Fl -prelude-listing
+.Op Fl -pretty-print
+.Op Fl -print Ar unit | -p Ar unit
+.Op Fl -quiet
+.Op Fl -quote-stropping
+.Op Fl -reductions
+.Op Fl -rerun
+.Op Fl -run
+.Op Fl -script Ar string
+.Op Fl -source | Fl -no-source
+.Op Fl -stack Ar number
+.Op Fl -statistics
+.Op Fl -strict
+.Op Fl -terminal
+.Op Fl -time-limit Ar number
+.Op Fl -trace | Fl -no-trace
+.Op Fl -tree | Fl -no-tree
+.Op Fl -unused
+.Op Fl -upper-stropping
+.Op Fl -verbose
+.Op Fl -version
+.Op Fl -warnings | Fl -no-warnings
+.Op Fl -xref | Fl -no-xref
+.Ar filename
+.
+.Sh DESCRIPTION
+Algol 68 Genie (Algol68G) is an Algol 68 compiler-interpreter. It can be used for executing Algol 68 programs or scripts. Algol 68 is a rather lean orthogonal general-purpose language that is a beautiful means for denoting algorithms. Algol 68 was designed as a general-purpose programming language by IFIP Working Group 2.1 (Algorithmic Languages and Calculi) that has continuing responsibility for Algol 60 and Algol 68. 
+.Pp
+Algol 68 Genie and its documentation can be obtained from
+.Pp
+    http://jmvdveer.home.xs4all.nl/
+.
+.Sh OPTIONS
+Options are passed to a68g either from the file .a68g.rc in the working directory, the environment variable A68G_OPTIONS, the command-line or from pragmats. 
+.Pp
+Option precedence is as follows: pragmat options supersede command-line options, command-line options supersede options in environment variable A68G_OPTIONS, A68G_OPTIONS supersedes options in .a68g.rc. 
+.Pp
+Listing options, tracing options and -pragmat, -nopragmat, take their effect when they are encountered in a left-to-right pass of the program text, and can thus be used, for example, to generate a cross reference for a particular part of the program. 
+.Pp
+Where numeric arguments are required, suffices k, M or G are allowed for multiplication with 2 ** 10, 2 ** 20 or 2 ** 30 respectively.
+.Bl -tag -width Ds
+.
+.It Fl -apropos | -help | -info Ar [string]
+Print info on options if string is omitted, or print info on string otherwise.
+.
+.It Fl -assertions | Fl -no-assertions
+Control elaboration of assertions.
+.
+.It Fl -backtrace | Fl -no-backtrace
+Control whether a stack backtrace is done in case a runtime-error occurs.
+.
+.It Fl -brackets
+Consider [ .. ] and { .. } as being equivalent to ( .. ). Traditional Algol 68 syntax allows ( .. ) to replace [ .. ] in bounds and slices.
+.
+.It Fl -check | Fl -no-run
+Check syntax only, the interpreter does not start.
+.
+.It Fl -clock
+Report execution time excluding time needed for compilation.
+.
+.It Fl -compile | -no-compile
+Switch compilation of units on or off. Compilation omits many of the runtime checks offered by the interpreter proper. The program is not executed and a shell script is generated combining source code and its shared library. This shell script can be used as a pseudo-executable.
+.
+.It Fl -debug | Fl -monitor
+Start in the monitor. Invoke the monitor in case a runtime-error occurs; the program will pause in the monitor on the line that contains the error.
+.
+.It Fl -echo Ar string
+Echo string to standout.
+.
+.It Fl -execute Ar unit | Fl -x Ar unit
+Execute the Algol 68 unit. In this way one-liners can be executed from the command line.
+.
+.It Fl -exit | -
+Ignore further options.
+.
+.It Fl -extensive
+Generate an extensive listing.
+.
+.It Fl f | -file Ar string
+Accept string as filename in case it conflicts with shell syntax.
+.
+.It Fl -frame Ar number
+Set the frame stack size to
+.Ar number
+bytes.
+.
+.It Fl -handles Ar number
+Set the handle space size to
+.Ar number
+bytes.
+.
+.It Fl -heap Ar number
+Set the heap size to
+.Ar number
+bytes.
+.
+.It Fl -listing
+Generate a concise listing.
+.
+.It Fl -moids
+Generate an overview of modes in the listing file.
+.
+.It Fl -object | Fl -no-object
+Control the listing of C code in the listing file.
+.
+.It Fl -optimise | -no-optimise
+Switch compilation of units on or off. Compilation omits many of the runtime checks offered by the interpreter proper.
+This option is equivalent to -O2.
+.
+.It Fl O | O0 | O1 | O2 | O3
+Switch compilation of units on and pass the option to the back-end C compiler to set the optimiser level. 
+.
+.It Fl -overhead Ar number
+Set overhead for stack checking.
+.
+.It Fl -pedantic
+Equivalent to --warnings --portcheck
+.
+.It Fl -portcheck | Fl -no-portcheck
+Enable or disable portability warning messages.
+.
+.It Fl -pragmats | Fl -no-pragmats
+Control elaboration of pragmats.
+.
+.It Fl -precision Ar number
+Set the precision for LONG LONG modes to
+.Ar number
+significant digits.
+.
+.It Fl -prelude-listing
+Generate a listing of preludes.
+.
+.It Fl -pretty-print
+Pretty-print the source file.
+.
+.It Fl -print Ar unit | Fl -p Ar unit
+Print the value yielded by the Algol 68 unit. In this way one-liners can be executed from the command line.
+.
+.It Fl -quiet
+Suppress all warning messages.
+.
+.It Fl -quote-stropping
+Use quote stropping.
+.
+.It Fl -reductions
+Print reductions made by the parser.
+.
+.It Fl -rerun
+Use compiled code of a previous run.
+.
+.It Fl -run
+Override the --no-run option.
+.
+.It Fl -script Ar string
+Takes string as source file name and skips further option processing so these can be handled by the script.
+.
+.It Fl -source | Fl -no-source
+Control the listing of source lines in the listing file.
+.
+.It Fl -stack Ar number
+Set the stack size to
+.Ar number
+bytes.
+.
+.It Fl -statistics
+Generate statistics in the listing file.
+.
+.It Fl -strict
+Ignores extensions to Algol 68 syntax.
+.
+.It Fl -time-limit Ar number
+Interrupt the interpreter after
+.Ar number
+seconds, generating a time limit exceeded error.
+.
+.It Fl -trace | Fl -no-trace
+Control tracing of the running program.
+.
+.It Fl -tree | Fl -no-tree
+Control listing of the syntax tree in the listing file.
+.
+.It Fl -unused
+Generate an overview of unused tags in the listing file.
+.
+.It Fl -upper-stropping
+Use upper stropping, which is the default stropping regime.
+.
+.It Fl -verbose
+Use verbose mode.
+.
+.It Fl -version
+Print the version of the running image of a68g.
+.
+.It Fl -warnings | Fl -no-warnings
+Enable warning messages or suppress suppressible warning messages.
+.
+.It Fl -xref | Fl -no-xref
+Control generation of a cross-reference in the listing file.
+.
+.El
+.
+.Sh AUTHOR
+Author of Algol 68 Genie is Marcel van der Veer <algol68g@xs4all.nl>.

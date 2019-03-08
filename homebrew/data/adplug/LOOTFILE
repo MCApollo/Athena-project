@@ -1,0 +1,13 @@
+name='Adplug'
+description='Free, hardware independent AdLib sound player library'
+url='https://github.com/adplug/adplug/releases/download/adplug-2.3.1/adplug-2.3.1.tar.bz2'
+homepage='https://adplug.github.io'
+version='2.3.1'
+depends=('libbinio')
+build=('pkg-config')
+resources=('ksms#http://advsys.net/ken/ksmsongs.zip')
+
+brew(){
+	pkg:configure --disable-debug --disable-dependency-tracking
+	make DESTDIR=$pkgdir install
+}

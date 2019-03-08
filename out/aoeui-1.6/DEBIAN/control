@@ -1,9 +1,0 @@
-Package: com.mc.aoeui
-Name: aoeui
-Version: 1.6
-Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
-Priority: optional
-Architecture: iphoneos-arm
-Homepage: https://code.google.com/archive/p/aoeui/
-Description: Athena Project | Compiled for ARM64.
-	Lightweight text editor optimized for Dvorak and QWERTY keyboards

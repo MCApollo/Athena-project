@@ -1,0 +1,1776 @@
+'br
+.TH AFIO 1
+.SH NAME
+afio \- manipulate archives and files
+.SH SYNOPSIS
+.B ...
+|
+.B afio \-o
+[
+.I options
+] archive  : write (create) archive
+.br
+.B afio \-i
+[
+.I options
+] archive  : install (unpack) archive
+.br
+.B afio \-t
+[
+.I options
+] archive  : list table-of-contents of archive
+.br
+.B afio \-r
+[
+.I options
+] archive  : verify archive against filesystem
+.br
+.B afio \-p
+[
+.I options
+] directory [ ... ] : copy files
+.PP
+.SH DESCRIPTION
+.I Afio
+manipulates groups of files, copying them within the (collective)
+filesystem or between the filesystem and an
+.I afio
+archive.
+.PP
+With
+.BR \-o ,
+reads pathnames from the standard input
+and writes an
+.IR archive .
+.PP
+With
+.BR \-t ,
+reads an
+.I archive
+and writes a table-of-contents to the standard output.
+.PP
+With
+.BR \-i ,
+installs the contents of an
+.I archive
+relative to the working directory.
+.PP
+With
+.BR \-p ,
+reads pathnames from the standard input
+and copies the files to each
+.IR directory .
+Cannot be combined with the
+.B \-Z
+option.
+.PP
+With
+.BR \-r ,
+reads
+.IR archive
+and verifies it against the filesystem.  This is useful for verifying
+tape archives, to ensure they have no bit errors.  The verification
+compares file contents, but not permission bits and non-file
+filesystem entities, so it cannot be used as a reliable tool to detect
+every possible change made to a filesystem.
+.PP
+Creates missing directories as necessary, with permissions
+to match their parents.
+.PP
+Removes leading slashes from pathnames,
+making all paths relative to the current directory.
+This is a safety feature to prevent inadvertent overwriting
+of system files when doing restores.  To suppress this safety
+feature, the
+.BR \-A
+option must be used while writing an archive, but also when
+reading (installing), verifying, and cataloging an existing archive.
+.PP
+Supports compression while archiving, with the
+.BR \-Z
+option.  Will compress individual files in the archive, not the
+entire archive datastream, which makes
+.I afio
+compressed archives much more robust than
+.I `tar\ zc'
+type archives.
+.PP
+Supports multi-volume archives during interactive operation
+(i.e., when
+.I /dev/tty
+is accessible and
+.I SIGINT
+is not being ignored).
+.PP
+.SH OPTIONS
+.TP 13
+.BI "\-@ " address
+Send email to
+.I address
+when a volume change (tape change, floppy change) is needed, and also when
+the entire operation is complete.  Uses
+.IR sendmail (1)
+to send the mail.
+.TP
+.B \-a
+Preserve the last access times (atimes) of the files read when
+making or verifying an archive.
+.B Warning:
+if this option is used,
+.I afio
+will change the last inode changed times (ctimes) of these files.
+Thus, this option cannot be used together with an incremental backup
+scheme that relies on the ctimes being preserved.
+.TP
+.BI \-b "\ size"
+Read or write
+.IR size -character
+archive blocks.
+Suffices of
+.BR b ,
+.BR k ,
+.B m
+and
+.B g
+denote multiples of
+.IR 512 ,
+.IR kilobytes ,
+.IR megabytes
+and
+.IR gigabytes ,
+respectively.
+Defaults to
+.I 5120
+for compatibility with
+.IR cpio (1).
+In some cases, notably when using
+.I ftape
+with some tape drives,
+.B \-b 10k
+is needed for compatibility.  Note that
+.B \-b 10k
+is the default block size used by
+.IR tar (1),
+so it is usually a good choice if the tape setup is known to work
+with
+.IR tar (1).
+.TP
+.BI \-c "\ count"
+Buffer
+.I count
+archive blocks between I/O operations. A large
+.I count
+is recommended for efficient use with streaming magnetic tape drives, in
+order to reduce the number of tape stops and restarts.
+.TP
+.B \-d
+Don't create missing directories.
+.TP
+.BI \-e "\ bound"
+Pad the archive to a multiple of
+.I bound
+characters.
+Recognizes the same suffices as
+.BR \-s .
+Defaults to
+.I 1x\^
+(the
+.B \-b
+block size)
+for compatibility with
+.IR cpio (1).
+.TP
+.B \-f
+Spawn a child process to actually write to the archive; provides
+a clumsy form of double-buffering.
+Requires
+.B \-s
+for multi-volume archive support.
+.TP
+.B \-g
+Change to input file directories. Avoids quadratic filesystem
+behavior with long similar pathnames. Requires all absolute
+pathnames, including those for the
+.B \-o
+.I archive
+and the
+.B \-p
+.IR directories .
+.TP
+.B \-h
+Follow symbolic links, treating them as ordinary files and directories.
+.TP
+.B \-j
+Don't generate sparse filesystem blocks on restoring files.
+By default,
+.I afio
+creates sparse filesystem blocks (with
+.IR lseek (2))
+when possible when restoring files from an archive,
+but not if these files were stored in a compressed form.   Unless stored in
+a compressed form, sparse files are not archived efficiently:
+they will take space equal to the full file length.
+(The sparse file handling in
+.I afio
+does not make much sense except in a historical way.)
+.TP
+.B \-k
+Rather
+than complaining about unrecognizable input,
+skip unreadable data (or partial file contents) at the
+.I beginning
+of the archive file being read, and search for the next valid archive header.
+This option is needed to deal with certain types of backup media damage.
+It is also useful to support quick
+selective restores from multi-volume archives, or
+from searchable block devices, if the volume or location of the file to be
+restored is known in advance (see the
+.B \-B
+option).
+If, for example, a selective restore is done with
+the fourth volume of a multi-volume afio archive,
+then the
+.B \-k
+option needs to be used, else
+.I afio
+will complain about the input not being a well-formed archive.
+.TP
+.B \-l
+With
+.BR \-o ,
+write file contents with each hard link.
+.sp
+With
+.BR \-t ,
+report hard links.
+.sp
+With
+.BR \-p ,
+attempt to link files rather than copying them.
+.TP
+.B \-m
+Mark output files with a common current timestamp
+(rather than with input file modification times).
+.TP
+.B \-n
+Protect newer existing files (comparing file modification times).
+.TP
+.BI \-s "\ size"
+Restrict each portion of a multi-volume archive to
+.I size
+characters. This
+option recognizes the same size suffices as
+.BR \-b .
+Also, the suffix
+.B x
+denotes a multiple of the
+.B \-b
+block size (and must follow any
+.B \-b
+specification).
+.I size
+can be a single size or a  comma-seperated list of sizes,
+for example '2m,5m,8m', to specify different sizes for the
+subsequent volumes.  If there are more volumes than sizes, the last
+specified size is used for all remaining volumes.
+If this option is used, the special character sequences
+.B %V
+and
+.B %S
+in the input/output filename or command string are replaced by the
+current volume number and volume size.  Use
+.B %%
+to produce a single % character.
+The
+.B \-s
+option is useful
+with finite-length devices which do not return short
+counts at end of media (sigh); output to magnetic tape typically
+falls into this category.   When an archive is being read or written, using
+.B \-s
+causes
+.I afio
+to prompt for the next volume if the specified volume length is reached.
+The
+.B \-s
+option will also cause
+.I afio
+to prompt if there is a premature EOF while reading the input.
+The special case
+.B \-s 0
+will activate this prompting for the next volume on premature EOF without
+setting a volume length.
+When writing an archive,
+.I afio
+will prompt for the next volume on end-of-media, even without
+.B \-s 0
+being supplied, if the device is capable of reporting end-of-media.
+If the volume
+.I size
+specified is not a multiple of the block size set with the
+.B \-b
+option, then
+.I afio(1)
+will silently round down the volume size to the nearest multiple of
+the block size.  This rounding down can be suppressed using the
+.B \-9
+option: if
+.B \-9
+is used,
+.I afio(1)
+will write a small block of data, smaller than the
+.B \-b
+size, at the  end of the volume to completely fill it to the  specified
+size.  Some devices are not able to handle such small block writes.
+.TP
+.B \-u
+Report files with unseen links.
+.TP
+.B \-v
+Verbose. Report pathnames (to stderr) as they are processed. When used with
+.BR \-t ,
+gives an
+.I "ls \-l"
+style report (including link information) to stdout instead.
+When used twice
+.RB ( \-vv )
+with
+.BR \-o ,
+gives an
+.I "ls \-l"
+style report to stdout while writing the archive. (But this use of
+.B \-vv
+will not work if the archive is also being written to stdout.)
+.TP
+.BI \-w "\ filename"
+Treats each line in
+.I filename
+as an
+.B \-y
+pattern, see
+.BR \-y .
+.TP
+.B \-x
+Retain file ownership and setuid/setgid permissions.
+This is the default for the super-user; he may use
+.B \-X
+to override it.
+.TP
+.BI \-y "\ pattern"
+Restrict processing of files to names matching shell wildcard pattern
+.IR pattern .
+Use this flag once for each pattern to be recognized.
+With the possible exception of the presence of a leading slash, the
+complete file name as appearing in the archive table-of-contents must
+match the pattern, for example the file name 'etc/passwd' is matched
+by the pattern '*passwd' but NOT by the pattern 'passwd'.  See
+.B `man 7 glob'
+for more information on shell wildcard pattern matching.
+The only difference with shell wildcard pattern matching is that in
+.I afio
+the wildcards will also match '/' characters in file
+names.  For example the pattern '/usr/src/*' will match the
+file name '/usr/src/linux/Makefile', and any other file name
+starting with '/usr/src'. Unless the
+.B \-S
+option is given, any leading slash in the pattern or the filename is
+ignored when matching,
+e.g.
+.I /etc/passwd
+will match
+.IR etc/passwd .
+Use
+.B \-Y
+to supply patterns which are
+.I not
+to be processed.
+.B \-Y
+overrides
+.B \-y
+if a filename matches both.
+See also
+.BR \-w\  and\  \-W .
+See also the
+.B \-7
+option, which can be used to modify the meaning of
+.BR \-y ", " \-Y ", " \-w ", and " \-W
+when literal matching without wildcard processing is needed.
+.B Note:
+if
+.I afio
+was compiled without using the GNU fnmatch library, then the full
+shell wildcard pattern syntax cannot be used,
+and matching support is limited to patterns which are a full
+literal file name and patterns which end in '*'.
+.TP
+.B \-z
+Print execution statistics. This is meant for human consumption;
+use by other programs is officially discouraged.
+.TP
+.B \-A
+Do not turn absolute paths into relative paths. That is don't remove
+the leading slash.  Applies to the path names written in an archive,
+but also to the path names read out of an archive during read (install),
+verify, and cataloging operations.
+.TP
+.B \-B
+If the
+.B \-v
+option is used, prints the byte offset of the start of each file in
+the archive.
+If your tape drive can start reading at any position in an
+archive, the output of
+.B \-B
+can be useful for doing quick selective restores.
+.TP
+.BI \-D "\ controlscript"
+Set the control script name to
+.IR controlscript ,
+see the section on
+.B control files
+below.
+.TP
+.BI \-E "\ [+]filename" " | \-E CS | \-E CI"
+While creating an archive with compressed files using the
+.B \-Z
+option, disable (attempts at) compression for files with
+particular extensions.
+This option can be used to speed up the creation of the archive, by
+making
+.I afio
+avoid trying to use
+.I gzip
+on files that contain compressed data already.
+By default, if no specific
+.B \-E
+option is given, all files with the extensions
+'br the two START_ and END_ comments below are used by the makefile to create
+'br the compiled-in defaults for the \-E option.
+'br NOTE: the awk script called by in the makefile disregards all
+'br FIRST words on each line below,
+'br i.e. it disregards the .I typesetting commands and the word and.
+'br so BE CAREFUL TO TAKE THIS INTO ACCOUNT if you edit the text below,
+'br else the awk script might miss some extensions, or take some
+'br common words you add as default extensions.
+'br START_EXT_LIST
+.I  .Z .z .gz .bz2 .tgz
+.I  .arc .zip .rar .lzh .lha
+.I  .uc2 .tpz .taz .tgz .rpm .zoo .deb
+.I  .gif .jpeg .jpg .tif .tiff .png .pdf
+.I .arj .avi .bgb .cab .cpn .hqx .jar
+.I .mp3 .mpg .mpq .pic .pkz .psn .sit .ogg
+and
+.I .smk
+'br END_EXT_LIST
+will not be compressed.
+Also by default, the file extension matching is case-insensitive (to do the
+right thing with respect to MS-DOS based filesystems).
+The
+.BI \-E "\ filename"
+form of this option will replace the default list of file extensions
+by reading a new list of file extensions, separated by whitespace, from
+.IR filename .
+.I filename
+may contain comments preceded by a #.  The extensions in
+.I filename
+should usually all start with a dot, but they do not need to start with a
+dot, for example the extension 'tz' will match the file name 'hertz'.
+The
+.BI \-E "\ +filename"
+form (with a + sign in front of
+.IR filename )
+can be
+used to specify extensions in addition to the built-in
+default list, instead of replacing the whole default list.
+To make extension matching case-sensitive, add the special option form
+.B \-E CS
+to the command line.  The form
+.B \-E CI
+invokes the (default) case-insensitive comparison.
+See also the
+.B \-6
+option, which offers an additional way to suppress compression.
+.TP
+.B \-F
+This is a floppy disk,
+.B \-s
+is required.  Causes floppy writing in
+.B O_SYNC
+mode under Linux.  With kernel version 1.1.54 and above, this allows
+.I afio
+to detect some floppy errors while writing.
+Uses shared memory if compiled in otherwise mallocs as needed (a 3b1
+will not be able to malloc the needed memory w/o shared memory),
+.I afio
+assumes either way you can malloc/shmalloc a chunck of memory
+the size of one disk. Examples: 795k: 3.5" (720k drive), 316k (360k drive)
+.nf
+At the end of each disk this message occurs:
+ Ready for disk [#] on [output]
+ (remove the disk when the light goes out)
+ Type "go" (or "GO") when ready to proceed
+ (or "quit" to abort):
+.fi
+.TP
+.BI \-G "\ factor"
+Specifies the
+.IR gzip (1)
+compression speed factor, used when compressing files with the
+.B \-Z
+option.
+Factor 1 is the fastest with least compression, 9 is slowest with best
+compression.
+The default value is 6.  See also the
+.IR gzip (1)
+manual page.
+If you have a slow machine or a fast backup medium, you may want to
+specify a low value for
+.I factor
+to speed up the backup.  On large (>200k) files,
+.B \-G 1
+typically zips twice as fast as
+.BR "\-G 6" ,
+while still achieving a better result than
+.IR compress "(1)."
+The zip speed for small files is mainly determined by the invocation time
+of
+.I gzip
+(1), see the
+.B \-T
+option.
+.TP
+.BI "\-H " promptscript
+Specify a script to run, in stead of using the normal prompt, before
+advancing to the next archive volume.  The script will be run with the
+volume number, archive specification, and  the reason for changing to
+the next volume as arguments.  The script
+should exit with 0 for OK and 1 for abort, other exit codes will be
+treated as fatal errors. As of
+.I afio
+version 2.5.2, the promptscript can be a file name containing spaces
+or other special characters.
+.TP
+.B \-J
+Try to continue after a media write error when doing a backup (normal
+behavior is to abort with a fatal error).
+.TP
+.B \-K
+Verify the output against what is in the memory copy of the disk (\-F required).
+If the writing or verifying fails the following menu pops up
+.nf
+    [Writing/Verify] of disk [disk #] has FAILED!
+	Enter 1 to RETRY this disk
+	Enter 2 to REFORMAT this disk before a RETRY
+
+	Enter quit to ABORT this backup
+.fi
+Currently,
+.I afio
+will not process the answers 1 and 2 in the right way.  The menu above
+is only useful in that it signifies that something is wrong.
+.TP
+.BI "\-L " Log_file_path
+Specify the name of the file to log errors and the final totals to.
+.TP
+.BI \-M "\ size
+Specifies the maximum amount of memory to use for the temporary storage of
+compression results when using the
+.B \-Z
+option. The default is
+.B \-M 250m
+(250 megabytes).  If the compressed version of a file is larger than
+this (or if
+.I afio
+runs out of virtual memory),
+.IR gzip (1)
+is run twice of the file,
+the first time to determine the length of the result, the second time
+to get the compressed data itself.
+.TP
+.BI \-P "\ progname"
+Use the program
+.I progname
+instead of the standard
+.IR gzip (1)
+for compression and decompression with the
+.B \-Z
+option. For example, use the options
+.B \-Z \-P bzip2
+to write and install archives using
+.IR bzip2 (1)
+compression.  If
+.I progname
+does not have command line options (\-c, \-d, and \-<number>) in the style of
+.IR gzip (1)
+then the
+.B \-Q
+option can be used to supply the right options.
+The compression program used must have the property that, if the output
+file size exceeds the value of the
+.B \-M
+option,
+then when the compression program is run for a second time on the same input,
+it must produce an output with exactly the same size.  (See also the
+.B \-M
+option description.)  The GnuPG
+.RB ( gpg )
+encryption program does not satisfy this lenght-preserving criterion unless
+its built-in compression is disabled (see examples in the afio source script3/
+directory).
+See also the
+.BR \-Q ,
+.B \-U
+and
+.B \-3
+options.
+.TP
+.BI \-Q "\ opt"
+Pass the option
+.I "opt"
+to the compression or decompression program used with the
+.B \-Z
+option. For passing multiple options, use
+.B \-Q
+multiple times.  If no
+.B \-Q
+flag is present, the standard options are passed.  The standard
+options are
+.B \-c \-6
+when the program is called for compression and
+.B \-c \-d
+when the program is called for decompression.  Use the special case
+.B \-Q
+""
+if no options at all are to be passed to the program.
+.TP
+.BI \-R "\ Disk format command string"
+This is the command that is run when you enter 2 to reformat the disk after
+a failed verify.
+The default (fdformat /dev/fd0H1440) can be changed
+to a given system's default by editing the Makefile.
+You are also prompted for formatting whenever a disk change
+is requested.
+.TP
+.BI \-S
+Do not ignore a leading slash in the pattern or the file name when matching
+.B \-y
+and
+.B \-Y
+patterns. See also
+.BR \-A .
+.TP
+.BI \-T "\ threshold"
+Only compress a file when using the
+.B \-Z
+option if its length is at least
+.IR threshold .
+The default is
+.BR "\-T 0k" .
+This is useful if you have a slow machine or a fast backup medium.
+Specifying
+.B "\-T 3k"
+typically halves the number of invocations of
+.IR gzip (1),
+saving some 30% computation time, while creating an archive
+that is only 5% longer.  The combination
+.B \-T 8k \-G 1
+typically saves 70% computation time and gives a 20% size increase.
+The latter combination may be a good alternative to not using
+.B \-Z
+at all.  These figures of course depend heavily on the kind of files
+in the archive and the processor - i/o speed ratio on your machine.
+See also the
+.B \-2
+option.
+.TP
+.B \-U
+If used with the
+.B \-Z
+option, forces compressed versions to be stored of all files, even if
+the compressed versions are bigger than the original versions, and
+disregarding any (default) values of the
+.B \-T
+and
+.B \-2
+options.  This is useful when the
+.B \-P
+and
+.B \-Q
+options are used to replace the compression program
+.I gzip
+with an encryption program in order to make an archive with encrypted files.
+Due to internal limitations of
+.IR afio ,
+use of this flag forces the writing of file content with each hard
+linked file, rather than only once for every set of hard linked files.
+.B WARNING:
+use of the \-U option
+will also cause compression (or whatever operation the
+.B \-P
+option indicates) on files larger than 2 GB, if these
+are present in the input.  Not all compression programs might handle
+such huge files correctly (recent Linux versions of gzip, bzip2, and
+gpg have all been tested and seem to work OK). If your setup is
+obscure, some testing might be warranted.
+.TP
+.BI \-W "\ filename"
+Treats each line in
+.I filename
+as an
+.B \-Y
+pattern, see
+.BR \-Y .
+.TP
+.BI \-Y "\ pattern"
+Do
+.I not
+process files whose names match shell wildcard pattern
+.IR pattern .
+See also
+.BR "\-y " and " \-W" .
+.TP
+.B \-Z
+Compress the files that go into the archive when creating an archive,
+or uncompress them again when installing an archive.
+.I afio \-Z
+will compress each file in the archive individually, while keeping the archive
+headers uncompressed.  Compared to
+.I tar zc
+style archives,
+.I afio \-Z
+archives are therefore much more fault-tolerant
+against read errors on the backup medium.
+When creating an archive with the
+.I \-Z
+option,
+.I afio
+will run
+.I gzip
+on each file encountered, and, if the result is smaller than the original,
+store the compressed version of the file.
+Requires
+.IR gzip (1)
+to be in your path.  Mainly to speed up
+.I afio
+operation, compression is not attempted on a file if:
+1) the file is very small (see the
+.B \-T
+option),
+2) the file is very large (see the
+.B \-2
+option),
+3) the file has a certain extension, so it probably contains
+compressed data already (see the
+.B \-E
+option),
+4) the file pathname matches a certain pattern, as set by the
+.B \-6
+option,
+5) the file has hard links (this due to an internal limitation of afio,
+but this limitation does not apply if the
+.B \-l
+option is also used).
+Regardless of the above, if the
+.B \-U
+option is used then the compression program is always run, and the
+compressed result is always stored.
+When installing an archive with compressed files, the
+.B \-Z
+option needs to be used in order to make afio automatically uncompress
+the files that it compressed earlier.
+The
+.B \-P
+option can be used to do the (un)compression with programs other than
+.IR gzip ,
+see the
+.B \-P
+(and
+.B \-Q
+and
+.BR \-3 )
+options in this manpage for details.
+See also the
+.BR \-G
+option which provides yet another way to tune the compression process.
+.TP
+.B \-0
+Use filenames terminated with '\\0' instead
+of '\\n'. When used as follows:
+.IR "find ... \-print0 | afio \-o \-0 ..." ,
+it ensures that any input filename can be handled,
+even a file name containing newlines.  When used as
+.IR "afio \-t \-0 ... | ..." ,
+this allows the table of contents output to be parsed unambiguosly
+even if the filenames contain newlines.  The
+.B \-0
+option also affects the parsing of the files supplied by
+.B "\-w file"
+and
+.B "\-W file"
+options: if the option
+.B \-0
+precedes them in the command line then the pattern lines contained in the
+.BR file s
+should be terminated with '\\0' in stead of '\\n'.  A second use of
+.B \-0
+toggles the option. This can be useful when using multiple pattern files
+or when combining with the
+.B \-t
+option.
+.TP
+.BI \-1 "\ warnings-to-ignore"
+Control if
+.IR afio (1)
+should exit with a nonzero code after printing certain warning messages,
+and if certain warning messages should be printed at all.
+This option is sometimes useful when calling
+.IR afio (1)
+from inside a backup script or program.
+.IR afio (1)
+will exit with a nonzero code on encountering
+various 'hard' errors, and also (with the default value of the
+.B \-1
+option) when it has printed
+certain warning messages during execution.
+.I warnings-to-ignore
+is a list of letters which determines the behavior related to warning messages.
+The default value for this option is
+.BR "\-1 mc" .
+For
+.I afio
+versions 2.4.3 and earlier, the default was
+.BR "\-1 a" .
+For
+.I afio
+versions 2.4.4 and 2.4.5, the default was
+.BR "\-1 ''" .
+The defined
+.I warnings-to-ignore
+letters are as follows.
+.B a
+is for for ignoring
+.IR a ll
+possible warnings on exit: if this letter is used,
+the printing of a warning message will
+never cause a nonzero exit code.
+.B m
+is for ignoring in the exit code any warning about
+.IR m issing
+files, which will be printed when, on
+creating an archive, a file whose name was read from the standard
+input is not found.
+.B c
+is for ignoring in the exit code the warning that the
+archive being created will not be not fully compatible with
+.IR c pio
+or afio versions 2.4.7 or lower.
+.B C
+is the same as
+.IR c ,
+but in addition the warning message will not even be printed.
+.B M
+will suppress the printing of all warning messages asssociated with
+.IR M ultivolume
+archive handling, messages like "Output limit reached" and
+"Continuing".
+.B d
+is for ignoring in the exit code any warnings about changed
+files, which will be printed when, on creating an archive, a file that
+is being archived changes while it is being written into the archive,
+where the changing is detected by examining the file modification time
+stamp.
+.B r
+is for ignoring certain warnings during the verify (\-r) operation.
+If this letter is used, some verification errors that are
+very probably due to changes in the filesystem, during or after
+the backup was made,
+are ignored in determining the exit code.
+The two verification errors that are ignored are:
+1) a file in the archive is no
+longer present on the filesystem, and 2) the file contents in the
+archive and on the filesystem are different, but the file lengths
+or the file modification times are also different, so the
+difference in contents is probably due to the file on the file
+system having been changed.
+.B s
+is for ignoring in the exit code the warning printed when the
+protection code (as described in the section about the
+.B -8
+option) rewrites a suspicious path name for a file or symlink
+that is being unpacked.
+.B l
+is for ignoring in the exit code the warning printed when the
+.B -8 nosymlinks
+option is used and a symlink is encountered.
+.B n
+is for ignoring in the exit code a particular class of
+.IR n o-such-file
+warnings: it ignores these warnings when they happen after the file has already
+been successfully opened. This unusual warning situation can occur
+when archiving files on Windows smbfs filesystems -- due to a Windows problem,
+smbfs files with non-ASCII characters in their names
+can sometimes be opened but not read.  When the
+.B \-Z
+option is used, the
+.I n
+letter function is (currently) only implemented for files with sizes
+smaller than indicated by the
+.B \-T
+option, so in that case the
+.B \-T
+option is also needed for this letter to have any effect.
+.TP
+.BI "\-2 " maximum-file-size-to-compress
+Do not compress any files which
+are larger than this size when making a compressed archive
+with the
+.B \-Z
+option. The default value is
+.BR "\-2 200m"
+(200 Megabytes). This maximum size cutoff lowers the risk that a major portion
+of a large file
+will be irrecoverable due to small media errors.   If a media error occurs
+while reading a file that
+.I afio
+has stored in a compressed form, then
+.I afio
+and
+.I gzip
+will not be able to restore the entire remainder of that file.
+This is usually an acceptable risk for small files. However for very
+large files the risk of loosing a large amount of data because
+of this effect will usually be too big.  The special case
+.B "\-2 0"
+eliminates any maximum size cutoff.
+.TP
+.BI "\-3 " filedescriptor-nr
+Rewind the filedescriptor before invoking the (un)compression program
+if using the
+.B \-Z
+option. This
+is useful when the
+.B \-P
+and
+.B \-Q
+options are used to replace the compression program
+.I gzip
+with some types of encryption programs in order to make or read an archive
+with encrypted files.  The rewinding is needed to interface
+correctly with some encryption programs that read their key from an open
+filedescriptor.  If the
+.B \-P
+program name matches 'pgp' or 'gpg', then the
+.B \-3
+option
+.I must
+be used to avoid
+.IR afio (1)
+reporting an error.  Use the special case
+.B "\-3 0"
+to suppress the error message without rewinding any file descriptor.
+The
+.B "\-3 0"
+option may also be needed to successfully read back encrypted archives
+made with
+.I afio
+version 2.4.5 and older.
+.TP
+.B \-4
+(Deprecated, the intended effect of this option is now
+archived by default as long as the
+.B \-5
+option is not used.  This option could still be useful for compatibility
+with machines running an older version of
+.IR afio .)
+Write archive with the `extended ASCII' format headers which use 4-byte
+inode numbers.  Archives using the extended ASCII format headers
+are
+.B not
+compatible with any other archiver.  This option was useful for reliably
+creating and restoring sets of files with many internal
+hard links, for example a news spool.
+.TP
+.B \-5
+Refuse to create an archive that is incompatible with
+.IR cpio (1).
+If this option is used,
+.I afio
+will never write any `large ASCII' file headers that are incompatible with
+.IR cpio (1),
+but fail with an error code instead.
+See the ARCHIVE PORTABILITY section above for more information on the
+use of `large ASCII' file headers.
+.TP
+.B \-6 "\ filename"
+While creating an archive with compressed files using the
+.B \-Z
+option, disable (attempts at) compression for files that match
+particular shell patterns.
+This option can be used to speed up the creation of the archive, by
+making
+.I afio
+avoid trying to use
+.I gzip
+on files that contain compressed data already.
+Reads shell wildcard patterns from
+.IR filename ,
+treating each line in the file as a pattern.
+Files whose names match these patterns are not to be compressed when using the
+.B \-Z
+option.  Pattern matching is done in exactly the same way as described for
+the
+.B \-y
+option.  See also the
+.B \-E
+option: the (default) settings of the
+.B \-E
+option will further restrict compression attempts.
+The
+.B \-E
+option controls compression attempts based on file extensions;
+the
+.B \-6
+option is mainly intended as a method for excluding all
+files in certain subdirectory trees from compression..
+.TP
+.B \-7
+Switch between shell wildcard pattern matching and exact name matching (without interpreting any wildcard characters) for the patterns supplied in the
+.BR \-y ", " \-Y ", " \-w ", and " \-W
+options.  If the
+.B \-7
+option is used in front of any option
+.BR \-y ", " \-Y ", " \-w ", or " \-W ,
+then the patterns supplied in these options are not intrerpreted as
+wildcard patterns, but as character strings that must match exactly
+to the file name, except possibly in leading slashes.
+This option can be useful for handling the exceptional cases where file
+names in the archive, or the names of files to be archived, contain
+wildcard characters themselves.  For example,
+.I find /tmp \-print0 | afio \-ov \-Y '*.jpg' \-7 \-Y '/tmp/a[12]*4' \-0 archive
+can be used to archive files all files under /tmp, even files with a '\\n' character in the name, except for .jpg files and the file with the exact name
+.IR /tmp/a[12]*4 .
+A second use of
+.B \-7
+toggles the matching for subsequently occuring
+.BR \-y ", " \-Y ", " \-w ", and " \-W
+back to shell wildcard pattern matching.
+.TP
+.BI \-8 "\ directive"
+Modify various behavior regarding symlinks.
+The directive
+.IR nosymlinks
+applies to both archive creation and archive unpacking.  During
+archive creation, it suppresses the inclusion of any symlink entry in
+the archive.  In unpacking, it suppresses the unpacking of any symlink
+entry in the archive.  This directive does not affect the
+interpretation of existing symlinks on the filesystem during the path
+resolution process where afio resolves the directory name components
+in front of the last / in a path name.  The directive
+.IR allowinsecurepaths
+applies to the security of archive unpacking. As of version 2.5.2,
+afio has protection mechanisms that apply to the unpacking of
+potentially untrusted archives.  On unpacking, afio will by default
+(since version 2.5.2) inspect every pathname in the archive to detect
+the occurrence of a .. subpath in it. If one or more of these are
+present this is almost almost certainly due to the archive having been
+constructed by an attacker.  The goal of the attack would be to have
+the afio unpacking operation over-write system or user
+files with new contents, via the use of using specially constructed
+path names like ../../../../../etc/password
+or ../../../../../home/a_user/.bashrc that resolve to the location of
+such configuration files.  Therefore, if any .. subpaths are detected
+in a path name in an archive being unpacked, afio issues a warning,
+and then rewrites every '..' in the path name to 'XX', and the archive
+entry is unpacked to the rewritten path name instead.  The
+.IR allowinsecurepaths
+directive disables the above rewriting of likely-insecure path names.
+Note that afio, while unpacking an archive, will also protect against
+that archive including potentially insecure path names that start with
+a leading /, by stripping off the leading / before using the path name
+is used, which has the effect of the archive entry relative to the
+current working directory.  This stripping behavior can be disabled
+with the
+.B \-A
+option.  The directive
+.IR allowinsecuresymlinks
+applies to a further the protection mechanism that applies to the
+unpacking of potentially untrusted archives.  On unpacking, afio will
+by default (since version 2.5.2) inspect every symlink destination in
+the archive to detect the occurrence of a leading / or a .. subpath in
+it.  If a leading / or ..  subpaths are detected in the symlink
+destination, afio issues a warning, rewrites them to X or XX, and the
+result is used as the unpacked symlink destination instead.  The
+.IR allowinsecuresymlinks
+directive disables this protective rewriting behavior.  Some further
+background: an attacking archive with an insecure symlink will
+typically include, as an entry after the insecure symlink, a file
+entry with a path that follows the insecure symlink leading to a
+location in the filesystem where a system or user configuration file
+can be overwritten.  An archive with an insecure symlink may be
+created most easily an attacker who has the entire archive creation
+process under their control.  However, in another case, the attacker is
+an untrusted end user on a multi-user system, where a trusted system
+administrator is creating a backup of a live file system containing
+directories under control of the untrusted end user.  The untrusted
+end user can potentially exploit race conditions in the backup
+process, by creating temporary symlinks and files in their own home
+directory, resulting in in archive contents that would modify system
+configuration files when later unpacked if the protection mechanism
+were disabled using the
+.IR allowinsecuresymlinks
+directive.  The above described protection mechanisms are limited to
+symlinks. A untrusted archive attack that uses specially constructed
+hard link entries in the archive is theoretically possible with some
+archivers, but is not possible with afio, because of the special way
+that afio represents hard links in an archive.
+.TP
+.B \-9
+Do not round down any
+.B \-s
+volume sizes to the nearest
+.B \-b
+block size.  See the
+.B \-s
+option.
+.PP
+.SH ARCHIVE PORTABILITY
+.I afio
+archives are portable between different types of UNIX systems,
+as they contain only ASCII-formatted
+header information.
+.PP
+Except in special cases discussed below,
+.I afio
+will create archives with the same format as ASCII
+.IR cpio (1)
+archives.
+Therefore
+.IR cpio (1)
+can usually be used to restore an
+.I afio
+archive in the case that
+.I afio
+is not available on a system. (With most
+.I cpio
+versions, to unpack an ASCII format archive, use
+.IR "cpio \-c" ,
+and for GNU
+.IR cpio (1)
+use
+.IR "cpio \-H odc" .)
+When unpacking with
+.IR cpio ,
+any compressed files inside an
+.I "afio \-Z"
+archive are not uncompressed by
+.IR cpio ,
+but will be created on the file system as compressed files with a .z
+extension.
+.PP
+Unfortunately, the ASCII cpio archive format cannot represent some
+files and file properties that can be present in a modern UNIX filesystem.
+If afio creates an
+archive with such things, then it uses an afio-specific 'large ASCII' header
+for the files concerned.
+Archives with large ASCII headers cannot be unpacked completely by
+.I cpio
+or
+.I afio
+versions before 2.4.8.
+.PP
+When creating an archive, the `large ASCII' header is used by
+.I afio
+to cover the following situations:
+.RS 3
+.TP 3
+.B o
+A file has a size larger than 2 GB
+.TP
+.B o
+The archive contains more than 64K files which have hard links
+.TP
+.B o
+A file, directory, or special file has a UID or GID value
+larger than 65535.
+.RE
+.PP
+The
+.BR \-5
+option can be used to always preserve
+.I cpio
+compatibility, it will cause
+.I afio
+to fail rather than produce an incompatible archive in the cases above.
+.PP
+Archives made using the (deprecated)
+.BR \-4
+option are also
+.BR not
+compatible with
+.IR cpio ,
+but they are compatible with
+.I afio
+versions 2.4.4 and later.
+.PP
+.SH ARCHIVE FILE FORMAT
+An
+.I afio
+archive file has a simple format. The archive starts with
+a file header for the first file,
+followed by the contents of the first file (which will either
+be the exact contents byte-for-byte,
+or the exact contents in some compressed format).
+The data of the first file is immediately followed by
+the file header of the second file,
+and so on.  At the end, there is a special `end of archive' header, usually
+followed by some padding bytes.
+.PP
+A multi-volume
+.I afio
+archive is simply a normal archive split up into multiple parts. There
+are no special volume-level data headers.  This means that that
+volumes can be split and merged by external programs, as long as the
+data stays in the correct order.  It also implies that the contents of
+a single file can cross volume boundaries.
+Selective restores of files at known volume locations can be done
+by feeding only the needed volumes to
+.IR afio ,
+provided that the
+.B \-k
+option is used.
+.PP
+The contents of hard linked files are (unless the
+.B \-l
+option is used) only stored once in the archive.
+The file headers for the second, third, and later occurrence of a hard
+linked file have no data after them.  This makes selective
+restores of hard-liked files difficult:
+if later occurrences are to be restored correctly,
+the first occurrence always needs to be selected too.
+.PP
+.SH NOTES
+Special-case archive names:
+.RS 3
+.TP 3
+.B o
+Specify
+.I \-
+to read or write the standard input or output, respectively.
+This disables multi-volume archive handling.
+.TP
+.B o
+Prefix a command string to be executed with an exclamation mark
+.RI ( ! ).
+The command is executed once for each archive volume,
+with its standard input or output piped to
+.IR afio .
+It is expected to produce a zero exit code when all is well.
+.TP
+.B o
+Use
+.I system:file
+to access an archive in
+.I file
+on
+.IR system .
+This is really just a special case of pipelining.
+It requires a 4.2BSD-style remote shell
+.RI ( rsh (1C))
+and a remote copy of
+.IR afio .
+.TP
+.B o
+A more elaborate case of the above is
+.I [user@]host[%rsh][=afio]:file
+where the optional
+.I user@
+component specifies the user name on the remote host, the optional
+.I %rsh
+specifies the (local) name of the remote shell command to use,
+and the optional
+.I =afio
+specifies the name of the remote copy of the afio command.
+.TP
+.B o
+Anything else specifies a local file or device.
+An output file will be created if it does not already exist.
+.TP
+.B o
+When the
+.B \-s
+option is used to invoke multi-volume archive processing, any
+.B %V
+in the file/device name or command string is subsisuted by the current
+volume number, and any
+.B %S
+by the current volume size. Use
+.B %%
+to produce a single % character.
+.RE
+.PP
+Recognizes obsolete binary
+.IR cpio (1)
+archives (including those from machines with reversed byte order),
+but cannot write them.
+.PP
+Recovers from archive corruption by searching for a valid magic
+number. This is rather simplistic, but, much like a disassembler,
+almost always works.
+.PP
+.SH CONTROL FILES
+.I Afio
+archives can contain so-called control files.  Unlike normal archive
+entries, a control file in not unpacked to the filesystem.  A control
+file has a
+.I label
+and some
+.IR data .
+When
+.I afio
+encounters a control file in the archive it is reading, it will feed the
+.I label
+and
+.I data
+to a so-called control script.  The control script is supplied by
+the user.  It can perform special actions based on the
+.I label
+and
+.I data
+it receives from
+.IR afio .
+.PP
+.B Control file labels.
+The control file mechanism can be used for many things.  Examples are
+putting archive descriptions at the beginning of the archive and
+embedding lists of files to move before unpacking the rest or the
+archive.
+.PP
+To distinguish between different uses, the
+.I label
+of a control file should indicate the program that made the control
+file and the purpose of the control file data.  It should have the
+form
+.PP
+.nf
+   programname.kindofdata
+.fi
+.PP
+where
+.I programname
+is the name of the backup program that generated the control file, and
+.I kindofdata
+is the meaning of the control file data.  Some examples are
+.PP
+.nf
+   tbackup.movelist  tbackup.updatescript
+   blebberfiler.archivecontents
+   backup_script_of_Joe_User.archivedescription
+.fi
+.PP
+The user-supplied control script should look at the label to decide
+what to do with the control data.  This way, control files with
+unknown labels can be ignored, and afio archives maintain some degree
+of portability between different programs that restore or index them.
+.PP
+Control file labels that are intended to be portable between different
+backup programs could be defined in the future.
+.PP
+.B Making control files.
+When making an archive, afio reads a stream containing the names of the
+files (directories, ...) to put in the archive.  This stream may also
+contain `control file generators', which are lines with the following
+format:
+.PP
+.nf
+    //--sourcename label
+.fi
+.PP
+Here, the //-- sequence signals that a control file is to be made,
+.I sourcename
+is the path to a file containing the control file data, and
+.I label
+is the control file label.  The
+.I sourcename
+must be a regular file or a symlink to a regular file.
+.PP
+A control file will show up as
+.PP
+.nf
+   //--CONTROL_FILE/label
+.fi
+.PP
+in an archive listing, where
+.I label
+is the control file label.
+.PP
+.B Control scripts.
+A control script is supplied to afio with the
+.PP
+.BI "  \-D " controlscript
+.PP
+command line option.  The
+.I controlscript
+must be an executable program.  The script is
+run whenever
+.I afio
+encounters a control file while doing a
+.B \-i \-t
+or
+.B \-r
+operation.  Afio will supply the control file
+.I label
+as an argument to the script.  The script should read the control file
+.I data
+from its standard input.  If the script exits with a non-zero exit
+status,
+.I afio
+will issue a warning message.
+.PP
+If a control file is encountered and no
+.B \-D
+option is given,
+.I afio
+will issue a warning message.  To suppress the warning message and
+ignore all control scripts,
+.B \-D
+""
+can be used.
+.PP
+An example of a control script is
+.PP
+.nf
+  #!/bin/sh
+  if [ $1 = "afio_example.headertext" ]; then
+    #the headertext control file is supposed to be packed as the first
+    #entry of the archive
+    echo Archive header:
+    cat -
+    echo Unpack this archive? y/n
+    #stdout is still connected to the tty, read the reply from stdout
+    read yn <&1
+    if [ "$yn" = n ]; then
+      #abort
+      kill $PPID
+    fi
+  else
+    echo Ignoring unknown control file.
+    cat - >/dev/null
+  fi
+.fi
+.PP
+.I Afio
+never compresses the control file data when storing it in an archive,
+even when the
+.B \-Z
+option is used.  When a control file is encountered by
+.I cpio(1)
+or an
+.I afio
+with a version number below 2.4.1, the data will be unpacked to the
+filesystem, and named
+.I CONTROL_FILE/label
+where
+.I label
+is the control file label.
+.SH BUGS
+There are too many options.
+.PP
+Restricts pathnames to 1023 characters,
+and 255 meaningful elements (where each element is a pathname
+component separated by a /).
+.PP
+Does not use the same default block size as
+.IR tar (1).
+.IR tar (1)
+uses 10 KB,
+.I afio
+uses 5 KB by default. Some tape drives only work with a 10 KB block size,
+in that case the
+.I afio
+option
+.B \-b 10k
+is needed to make the tape work.
+.PP
+There is no sequence information within multi-volume archives.
+Input sequence errors generally masquerade as data corruption.
+A solution would probably be mutually exclusive with
+.IR cpio (1)
+compatibility.
+.PP
+The
+.I afio
+code for handling floppies
+.RB ( \-F
+and
+.BR \-f " and " \-K
+options) has buggy error handling.
+.I afio
+does not allow  one to retry a failed floppy write on a different floppy,
+and it cannot recover from a verify error.
+If the floppy handling code is used and write or verify errors do occur,
+it is best to restart
+.I afio
+completely.
+Making backups to floppies should really be done with a more specialised
+backup program that wraps
+.IR afio .
+.PP
+The Linux floppy drivers below kernel version 1.1.54 do not
+allow
+.I afio
+to find out about floppy write errors while writing.  If you
+are running a kernel below 1.1.54,
+.I afio
+will happily fail to write to
+(say) a write protected disk and not report anything wrong!  The only
+way to find out about write errors in this case is by watching the
+kernel messages, or by switching on the verify
+.RB ( \-K )
+option.
+.PP
+The remote archive facilites (host:/file archive names) have not been
+exhaustively tested. These facilities have seen a lot of real-life use
+though.  However, there may be bugs in the code for error handling and
+error reporting with remote archives.
+.PP
+An archive created with a command like
+.I "'find /usr/src/linux \-print | afio \-o ...'"
+will not contain the ownership and permissions of the
+.I /usr
+and
+.I /usr/src
+directories. If these directories are missing when restoring the archive,
+.I afio
+will recreate them with some default ownership and permissions.
+.PP
+Afio can not restore time stamps on symlinks.  Also,
+on operating systems without an
+.IR lchown (2)
+system call, afio can not restore owner/group
+information on symlinks. (Linux has lchown since kernel version 2.1.86.)
+.PP
+Afio tries to restore modification time stamps of directories in the
+archive correctly.  However, if it exits prematurely, then the
+modification times will not be restored correctly.
+.PP
+A restore using decompression will fail if the
+.I gzip
+binary used by
+.I afio
+is overwritten, by
+.I afio
+or by another program, during the restore.  The restore will also fail if
+any shared libraries needed to start
+.I gzip
+are overwritten during the restore.
+.I afio
+should not normally be used to overwrite the system files on a running
+system.  If it is used in this way, a flag like
+.I \-Y /bin/gzip
+can often be added to prevent failure.
+.PP
+The
+.B \-r
+option verifies the file contents of the files in the archive
+against the files on the filesystem, but does not cross-check details
+like permission bits on files, nor does it cross-check that archived
+directories or other non-file entities still exist on the filesystem.
+.PP
+There are several problems with archiving hard links.
+1) Due to internal limitations, files with hard links cannot be stored
+in compressed form, unless the
+.B \-l
+or
+.B \-U
+options are used which force each hard linked file to be stored separately.
+2) Archives which contain hard links and which were
+made with older (pre-2.4.8) versions of
+.I afio
+or with
+.I cpio
+can not always be correctly unpacked.  This is really a problem in the
+archives and not in the current version of
+.IR afio .
+The risk of incorrect unpacking will be greater if the number of files
+or hard links in the archives is larger.
+3) In a selective restore, if the selection predicates do not select
+the first copy of a file with archive-internal hard links, then all
+subsequent copies, if selected, will not be correctly restored.  4)
+Unless the
+.B \-4
+option is used, the inode number fields in the archive headers for
+files with hard links of the archive will sometimes not contain the
+actual (least significant 16 bits of) the inode number of the original
+file.
+.PP
+Some Linux kernels no not allow one to create a hard link to a symbolic link.
+.I afio
+will try to re-create such hard links when unpacking an archive,
+but might fail due to kernel restrictions.
+.PP
+Due to internal limitations of
+.IR afio ,
+the use of the
+.B \-U
+option forces the writing of file content with each hard linked file,
+rather than only once for every set of hard linked files.
+.PP
+When it is run without super-user privileges,
+.I afio
+is not able to unpack a file into a directory for which it has no write
+permissions, even if it just created that directory itself.  This can be a
+problem when trying to restore directory structures
+created by some source code control tools like RCS.
+.PP
+When block or character device files are packed into an archive on one
+operating system (e.g. Linux) and unpacked on another operating
+system, which uses different sizes for the major and minor device
+number data types (e.g. Solaris), the major and minor numbers of the
+device files will not be restored correctly.  This can be a problem if
+the operating systems share a cross-mounted filesystem.  A workaround
+is to use
+.IR tar (1)
+for the device files.
+.PP
+.SH "SECURITY CONSIDERATIONS"
+Security considerations arise when unpacking archives from untrusted
+sources.  The recommended technique is to unpack such archives into a
+temporary, empty destination directory, unaccessible to other system users,
+while running
+.I afio
+as a normal user, so without superuser privileges.  As of version 2.5.2,
+.I afio
+has security measures, enabled by default, to guard against a class
+of attacks where specially constructed path
+names and/or symlink destinations in an archive cause
+.I afio
+to to create or modify system or user files outside of the destination
+directory.  See the
+.B \-8
+option for a more detailed description of these attacks and
+measures.
+.PP
+On UNIX multi-user systems with untrusted users, there are several
+known attacks where, unless the system administrator is very careful,
+end users can exploit backup and restore activites on the user
+filesystems to subvert data or operational security.  See e.g. the
+security section of the GNU
+.I tar
+manual, at
+.EX
+http://www.gnu.org/software/tar/manual/html_node/Security.html
+.EE
+for a description of some issues and precautions.
+.PP
+An archive from an untrusted source  could in theory contain mal-formatted
+data designed to implement a buffer overflow attack when
+.I afio
+reads the archive during a
+.B \-t
+or
+.B \-i
+operation. While the
+.I afio
+archive procesing code is fairly robust, and has passed some automated
+code checking tools, no formal review has been done to guarantee the
+absense of buffer overflow attack vulnerabilities.  Running
+.I afio
+in a sandboxed virtual machine or from inside
+.IR chroot (8)
+will improve the security of handling archives from untrusted sources,
+but the most secure option is to never touch such archives at all.
+.PP
+.SH "EXAMPLES"
+Create an archive with compressed files:
+.br
+.I "find .... | afio \-o \-v \-Z /dev/fd0H1440"
+.PP
+Install (unpack) an archive with compressed files:
+.br
+.I "afio \-i \-v \-Z archive"
+.PP
+Install (unpack) an archive with compressed files, protecting newer existing
+files:
+.br
+.I "afio \-i \-v \-Z \-n archive"
+.PP
+Create an archive with compressed files on floppy disks:
+.br
+.I "find .... | afio \-o \-v \-s 1440k \-F \-Z /dev/fd0H1440"
+.PP
+Create an archive with all file contents encrypted by pgp:
+.br
+.I "export PGPPASSFD=3"
+.br
+.I "find .... | afio \-ovz \-Z \-U \-P pgp \-Q \-fc \-Q +verbose=0 \-3 3 archive 3<passphrasefile"
+.PP
+Create an archive on recordable CDs using the
+.I cdrecord
+utility to write each CD:
+.br
+.I "find .... | afio \-o \-b 2048 \-s325000x \-v '!cdrecord .... \-'"
+.PP
+Extract a single named file from an archive on /dev/tape:
+.br
+.I "afio \-i \-v \-Z \-y /home/me/thedir/thefile /dev/tape"
+.br
+(If these do not exist yet,
+.I afio
+will also create the enclosing directories
+.I "home/me/myfiledir"
+under current working directory.)
+.PP
+Extract files matching a pattern from an archive on /dev/tape:
+.br
+.I afio \-i \-v \-Z \-y '/home/me/*' /dev/tape
+.br
+(If these do not exist yet,
+.I afio
+will also create the enclosing directories
+.I "home/me"
+under current working directory.)
+.PP
+If your filesystem cannot handle files larger than 2GB, but you want
+to make an archive on that filesystem that is larger than 2GB,
+you use the following trick to split the archive into multiple
+files of each 1 GB:
+.br
+.I find /home | afio \-o ... \- | split \-b1024m \- archive.
+.br
+the files will be called archive.aa, archive.ab, etc.  You can restore
+the whole archive using:
+.br
+.I cat archive.* | afio \-i ... \-
+.br
+The wildcard expansion by the shell will ensure that
+.I cat
+will read the parts in the right (alphabetic) order.
+.PP
+.SH "SEE ALSO"
+cpio(1), find(1), tar(1), compress(1), gzip(1).
+.SH WEB SITE AND INTERNET RESOURCES
+The afio home page is at
+http://members.chello.nl/~k.holtman/afio.html
+.br
+See the home page for information on submitting questions, bug
+reports, patches, etc.
+.br
+.SH AUTHORS
+Mark Brukhartz
+.br
+Jeff Buhrt
+.br
+Dave Gymer
+.br
+Andrew Stevens
+.br
+Koen Holtman
+.B (current maintainer)
+.I koen.holtman@ieee.org
+.br
+Anders Baekgaard
+.br
+Too many other people to list here have contributed code, patches, ideas,
+and bug reports.  Many of these are mentioned in the HISTORY
+file that is included with the sources.
+.

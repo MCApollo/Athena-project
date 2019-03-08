@@ -1,21 +1,12 @@
-# align.rb
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/align.rb
-# Converted on 02-02-2019
-
-name='align'
-url=('https://www.cs.indiana.edu/~kinzler/align/align-1.7.5.tgz')
+name='Align'
 description='Text column alignment filter'
-version='1.7.5' # Guessed version.
-priority='optional'
+url='https://www.cs.indiana.edu/~kinzler/align/align-1.7.5.tgz'
 homepage='https://www.cs.indiana.edu/~kinzler/align/'
-tags='purpose::console'
-section='Utilities'
+version='1.7.5'
+conflicts=('speech-tools')
 
-###### Install ######
-# system "make", "install", "BINDIR=#{bin}"
-
-package(){
-#	cd $name-$version
-	mkdir -p $pkgdir/usr/local/bin
-	pkg:make install BINDIR=$pkgdir/usr/local/bin
+brew(){
+	BINDIR=${pkgdir}/${PKGPREFIX}/bin
+	mkdir -p $BINDIR
+	make DESTDIR=$pkgdir install BINDIR=$BINDIR
 }

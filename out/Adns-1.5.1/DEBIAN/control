@@ -1,0 +1,9 @@
+Package: com.mc.adns
+Name: Adns
+Version: 1.5.1
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.chiark.greenend.org.uk/~ian/adns/
+Description: Athena Project | Compiled for ARM64.
+	C/C++ resolver library and DNS resolver utilities
