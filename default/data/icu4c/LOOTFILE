@@ -1,0 +1,28 @@
+name='icu4c'
+version='63.1'
+description='C/C++ and Java libraries for Unicode and globalization'
+section='Development'
+url='https://ssl.icu-project.org/files/icu4c/63.1/icu4c-63_1-src.tgz'
+priority='optional'
+homepage='https://ssl.icu-project.org/'
+tags='purpose::library'
+
+build(){
+	cd source
+	_message "Building for the host, go grab some snacks. We'll be here for awhile"
+	sleep 3
+	mkdir host_build; pushd host_build
+	../runConfigureICU `uname -s`
+	make
+	popd
+	_message "Building for ${TARGET}"
+	PKG_CONFIG=false STATIC=--enable-static pkg:configure --disable-samples --disable-tests \
+		--with-cross-build=$PWD/host_build # --with-library-bits=64
+	#	PKG_CONFIG=false to prevent the host system from messing with the build
+	make
+}
+
+package(){
+	cd source
+	make DESTDIR=$pkgdir install
+}

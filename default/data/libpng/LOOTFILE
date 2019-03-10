@@ -1,0 +1,17 @@
+name='libpng'
+version='1.6.36'
+description='Library for manipulating PNG images'
+section='Development'
+url="https://downloads.sourceforge.net/libpng/libpng-${version}.tar.xz"
+priority='optional'
+homepage='http://www.libpng.org/pub/png/libpng.html'
+tags='purpose::library'
+
+build(){
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

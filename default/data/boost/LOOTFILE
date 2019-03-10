@@ -1,0 +1,18 @@
+name='boost'
+version='1.68.0'
+description='Collection of portable C++ source lbraries'
+section='Development'
+url='https://dl.bintray.com/boostorg/release/1.68.0/source/boost_1_68_0.tar.bz'
+priority='optional'
+homepage='https://www.boost.org/'
+tags='purpose::library'
+depends=('icu4c' 'xz')
+
+build(){
+	./bootstrap.sh --prefix=${PKGPREFIX:-/usr/local}
+	echo "using clang: arm64: ${TARGET}-clang++;" >>
+}
+
+package(){
+	# Make install
+}

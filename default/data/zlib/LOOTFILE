@@ -1,0 +1,19 @@
+name='zlib'
+version='1.2.11'
+description='General-purpose lossless data-compression library'
+section='Development'
+url="https://zlib.net/zlib-${version}.tar.gz"
+priority='optional'
+homepage='https://zlib.net/'
+tags='purpose::library'
+
+build(){
+	pkg:setenv
+	export CHOST=${TARGET}
+	./configure
+	make AR="${TARGET}-libtool"
+}
+
+package(){
+	make AR="${TARGET}-libtool" DESTDIR=$pkgdir install
+}
