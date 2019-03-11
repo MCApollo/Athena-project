@@ -1,0 +1,8 @@
+package net
+//go:cgo_import_dynamic __error __error ""
+//go:cgo_import_dynamic freeaddrinfo freeaddrinfo ""
+//go:cgo_import_dynamic gai_strerror gai_strerror ""
+//go:cgo_import_dynamic getaddrinfo getaddrinfo ""
+//go:cgo_import_dynamic getnameinfo getnameinfo ""
+//go:cgo_import_dynamic dyld_stub_binder dyld_stub_binder ""
+//go:cgo_import_dynamic _ _ "/usr/lib/libSystem.B.dylib"

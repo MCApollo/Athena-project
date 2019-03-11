@@ -1,0 +1,27 @@
+--- a/tools/build/src/tools/clang.jam	2018-08-01 15:50:55.000000000 -0500
++++ b/tools/build/src/tools/clang.jam	2019-03-09 22:50:30.536048163 -0600
+@@ -17,16 +17,16 @@
+ 
+ rule init ( * : * )
+ {
+-    if [ os.name ] = MACOSX
+-    {
++#    if [ os.name ] = MACOSX
++#    {
+         toolset.using clang-darwin : 
+           $(1) : $(2) : $(3) : $(4) : $(5) : $(6) : $(7) : $(8) : $(9) ;
+-    }
+-    else
+-    {
+-        toolset.using clang-linux : 
+-          $(1) : $(2) : $(3) : $(4) : $(5) : $(6) : $(7) : $(8) : $(9) ;
+-    }
++#    }
++#    else
++#    {
++#        toolset.using clang-linux : 
++#          $(1) : $(2) : $(3) : $(4) : $(5) : $(6) : $(7) : $(8) : $(9) ;
++#    }
+ }
+ 
+ 

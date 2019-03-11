@@ -2,17 +2,31 @@ name='boost'
 version='1.68.0'
 description='Collection of portable C++ source lbraries'
 section='Development'
-url='https://dl.bintray.com/boostorg/release/1.68.0/source/boost_1_68_0.tar.bz'
+url='https://dl.bintray.com/boostorg/release/1.68.0/source/boost_1_68_0.tar.bz2'
 priority='optional'
 homepage='https://www.boost.org/'
 tags='purpose::library'
-depends=('icu4c' 'xz')
+depends=('icu4c' ':xz' 'libiconv')
+#	xz --> lzma, libiconv is optional.
+makedepends=('python')
 
 build(){
-	./bootstrap.sh --prefix=${PKGPREFIX:-/usr/local}
-	echo "using clang: arm64: ${TARGET}-clang++;" >>
+	./bootstrap.sh --without-libraries=python --prefix=${PKGPREFIX:-/usr/local}
+	for x in ${srcdir}/*.diff; do patch -p1 < $x; done
+	sed -i "s/\$(<:B)/$(echo ${PKGPREFIX:-/usr/local}/lib | sed 's_/_\\/_g')\/\$(<:B)/" -i tools/build/src/tools/darwin.jam
+	#	darwin.jam has this:
+	#	-install_name "$(<:B)$(<:S)"
+	#	The sed command with make it "/usr/local/lib/$(<:B)$(<:S)"
+	[[ -z $SDK ]] && { _error "Define 'SDK' in the config."; exit; }
+	echo "using darwin : : ${TARGET}-clang++ : <root>${SDK} <archiver>${TARGET}-libtool <target-os>darwin ;" >> project-config.jam
+	_message "This is going to take awhile."; sleep 3
+	./bjam -j2 --without-python --build-dir=build --stage-dir=build/stage --prefix=${pkgdir}/${PKGPREFIX:-/usr/local} --toolset=darwin link=shared threading=multi,single --layout=tagged stage || _warning "./bjam exit with a exit code $?"
+	#			 link=shared.static
 }
 
 package(){
-	# Make install
+	./bjam -j2 --without-python --build-dir=build --stage-dir=build/stage --prefix=${pkgdir}/${PKGPREFIX:-/usr/local} --toolset=darwin link=shared  threading=multi,single --layout=tagged install || _warning "./bjam exit with a exit code $?"
+	# Fix the id install name (Hacky workaround for boost having no DESTDIR).
+	_cd ${pkgdir}/${PKGPREFIX:-/usr/local}/lib
+	for dylib in *.dylib; do ${TARGET}-install_name_tool -id ${PKGPREFIX:-/usr/local}/lib/${dylib} ${dylib}; done
 }

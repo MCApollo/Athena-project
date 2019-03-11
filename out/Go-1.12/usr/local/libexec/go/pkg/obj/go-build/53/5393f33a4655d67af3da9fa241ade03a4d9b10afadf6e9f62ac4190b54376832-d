@@ -1,0 +1,14 @@
+./fd.go
+./fd_fsync_darwin.go
+./fd_mutex.go
+./fd_opendir_ios.go
+./fd_poll_runtime.go
+./fd_posix.go
+./fd_unix.go
+./fd_writev_darwin.go
+./hook_unix.go
+./sockopt.go
+./sockopt_unix.go
+./sockoptip.go
+./sys_cloexec.go
+./writev.go

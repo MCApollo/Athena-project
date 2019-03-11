@@ -1,0 +1,7 @@
+package plugin
+//go:cgo_import_dynamic dlerror dlerror ""
+//go:cgo_import_dynamic dlopen dlopen ""
+//go:cgo_import_dynamic dlsym dlsym ""
+//go:cgo_import_dynamic realpath$DARWIN_EXTSN realpath$DARWIN_EXTSN ""
+//go:cgo_import_dynamic dyld_stub_binder dyld_stub_binder ""
+//go:cgo_import_dynamic _ _ "/usr/lib/libSystem.B.dylib"

@@ -1,0 +1,11 @@
+Package: com.mc.bzip2
+Name: bzip2
+Version: 1.0.6
+Section: Archiving
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://en.wikipedia.org/wiki/Bzip2
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	Freely availabe high-quality data compressor

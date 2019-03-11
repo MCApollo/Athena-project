@@ -1,0 +1,77 @@
+name='Go'
+version='1.12'
+description='Open source programming language to build simple/reliable/efficient software'
+section='Scripting'
+url="https://dl.google.com/go/go${version}.src.tar.gz"
+priority='optional'
+homepage='https://golang.org'
+tags='purpose::console'
+depends=(':com.mc.SDK')
+makedepends=('go')
+# com.mc.SDK provides an SDK/ on device compiler env.
+
+prepare(){
+	_warning "Due to patches, this will be installed to /usr/local"
+	sleep 3
+}
+
+build(){
+	export GOARCH=arm64
+	export GOOS=darwin
+#	export GOROOT=$(dirname $(pwd))
+	export GOROOT_FINAL=/usr/local/libexec/go
+	export PATH=$GOROOT/bin:$PATH
+	export CGO_ENABLED=1
+	export CC_FOR_TARGET="${TARGET}-clang"
+	export CXX_FOR_TARGET="${TARGET}-clang++"
+	for x in ${srcdir}/*.patch; do patch -p2 < $x; done
+	#	Prebuild patches
+	_cd src/
+	GOROOT_FINAL=$GOROOT_FINAL ./make.bash --no-clean
+}
+
+package(){
+	cat << EOF > x.ent
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>platform-application</key>
+        <true/>
+        <key>com.apple.private.skip-library-validation</key>
+        <true/>
+</dict>
+</plist>
+EOF
+	for x in ${srcdir}/*.diff; do patch -p2 < $x; done
+	rm -f AUTHORS CONTRIBUT* favicon.ico LICENSE PATENTS README.md robots.txt VERSION
+	rm -rf api
+	ln -rsf bin/darwin_arm64/* bin/
+	for dir in $(find . -iname *_amd64); do rm -rf $dir; done
+
+	mkdir -p ${pkgdir}/usr/local/{bin,libexec/go}
+	cp -r ./* ${pkgdir}/usr/local/libexec/go
+
+	_cd ${pkgdir}/usr/local/bin
+# Go wrapper
+	echo '
+#!/bin/bash
+export CC="${CC-clang}"
+export CXX="${CXX-clang++}"
+X="--sysroot=/usr/SDK -I/usr/local/include -I/usr/include -L/usr/local/lib -L/usr/lib -F/usr/SDK/System/Library/Frameworks/ -framework CoreFoundation"
+Z="--sysroot=/usr/SDK -I/usr/local/include -I/usr/include -L/usr/local/lib -L/usr/lib -F/usr/SDK/System/Library/Frameworks/ -framework CoreFoundation -Wno-unused-command-line-argument"
+export CFLAGS="${CFLAGS-$Z} -g -O2"
+export CXXFLAGS="${CXXFLAGS-$Z} -g -O2"
+export LDFLAGS="${LDFLAGS-$X} -g -O2"
+export CGO_CFLAGS="${CFLAGS-$Z} -g -O2"
+export CGO_CPPFLAGS="${CPPFLAGS-$Z} -g -O2"
+export CGO_CXXFLAGS="${CXXFLAGS-$Z} -g -O2"
+export CGO_LDFLAGS="${LDFLAGS-$X} -g -O2"
+export GOBIN="${GOBIN-/usr/local/libexec/go/bin/}"
+export GOTMPDIR="${GOTMPDIR-/usr/tmp/}"
+exec /usr/local/libexec/go/bin/go "$@"
+'	> go
+	chmod +x go
+
+	ln -rs ../libexec/go/bin/darwin_arm64/gofmt .
+	chown -R 0:0 ${pkgdir} # For fakeroot
+}

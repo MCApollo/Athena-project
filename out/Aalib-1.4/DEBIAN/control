@@ -5,6 +5,6 @@ Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
 Priority: optional
 Architecture: iphoneos-arm
 Homepage: https://aa-project.sourceforge.io/aalib/
-Depends: ncurses
+Depends: com.mc.ncurses
 Description: Athena Project | Compiled for ARM64.
 	Portable ASCII art graphics library

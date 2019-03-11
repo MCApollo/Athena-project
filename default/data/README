@@ -1,0 +1,19 @@
+Credit goes to Sam Bingner:
+https://git.bingner.com/elucubratus.git/tree/data
+https://twitter.com/sbingner?lang=en
+
+And saurik for build system that is based on:
+http://svn.telesphoreo.org/trunk/data/
+
+I often reference those links to avoid wasting time on already solved problems.
+I used saurik's stuff a lot when Bingner haven't released his stuff publicly, so thanks saurik.
+
+Perl and OpenSSL are heavily based on those sources.
+
+=========================================
+
+I'm rebuilding libs that might be featured on Unc0ver and
+Electra due to the fact that it's easier to compile with my own libs and
+compatibility reasons. Often static files and pkg-config files are removed.
+
+It might be possible to support lower iOS jailbreaks, but lzma is outdated so therefore is the issue/barrier.

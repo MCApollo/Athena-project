@@ -1,0 +1,17 @@
+
+#!/bin/bash
+export CC="${CC-clang}"
+export CXX="${CXX-clang++}"
+X="--sysroot=/usr/SDK -I/usr/local/include -I/usr/include -L/usr/local/lib -L/usr/lib -F/usr/SDK/System/Library/Frameworks/ -framework CoreFoundation"
+Z="--sysroot=/usr/SDK -I/usr/local/include -I/usr/include -L/usr/local/lib -L/usr/lib -F/usr/SDK/System/Library/Frameworks/ -framework CoreFoundation -Wno-unused-command-line-argument"
+export CFLAGS="${CFLAGS-$Z} -g -O2"
+export CXXFLAGS="${CXXFLAGS-$Z} -g -O2"
+export LDFLAGS="${LDFLAGS-$X} -g -O2"
+export CGO_CFLAGS="${CFLAGS-$Z} -g -O2"
+export CGO_CPPFLAGS="${CPPFLAGS-$Z} -g -O2"
+export CGO_CXXFLAGS="${CXXFLAGS-$Z} -g -O2"
+export CGO_LDFLAGS="${LDFLAGS-$X} -g -O2"
+export GOBIN="${GOBIN-/usr/local/libexec/go/bin/}"
+export GOTMPDIR="${GOTMPDIR-/usr/tmp/}"
+exec /usr/local/libexec/go/bin/go "$@"
+

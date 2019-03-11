@@ -1,0 +1,9 @@
+package pty
+//go:cgo_import_dynamic __error __error ""
+//go:cgo_import_dynamic close close ""
+//go:cgo_import_dynamic grantpt grantpt ""
+//go:cgo_import_dynamic posix_openpt posix_openpt ""
+//go:cgo_import_dynamic ptsname ptsname ""
+//go:cgo_import_dynamic unlockpt unlockpt ""
+//go:cgo_import_dynamic dyld_stub_binder dyld_stub_binder ""
+//go:cgo_import_dynamic _ _ "/usr/lib/libSystem.B.dylib"

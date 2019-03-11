@@ -9,15 +9,14 @@ tags='purpose::library'
 
 build(){
 	cd source
-	_message "Building for the host, go grab some snacks. We'll be here for awhile"
-	sleep 3
+	_message "Building for the host, go grab some snacks. We'll be here for awhile"; sleep 3
 	mkdir host_build; pushd host_build
 	../runConfigureICU `uname -s`
 	make
 	popd
-	_message "Building for ${TARGET}"
+	_message "Building for ${TARGET}"; sleep 3
 	PKG_CONFIG=false STATIC=--enable-static pkg:configure --disable-samples --disable-tests \
-		--with-cross-build=$PWD/host_build # --with-library-bits=64
+		--with-cross-build=$PWD/host_build --enable-rpath # --with-library-bits=64
 	#	PKG_CONFIG=false to prevent the host system from messing with the build
 	make
 }

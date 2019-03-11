@@ -1,0 +1,11 @@
+--- a/tools/build/src/tools/features/os-feature.jam	2018-08-01 15:50:55.000000000 -0500
++++ b/tools/build/src/tools/features/os-feature.jam	2019-03-10 00:02:45.701830454 -0600
+@@ -34,7 +34,7 @@
+     local host-os ;
+     if [ os.name ] in $(.os-names:U)
+     {
+-        host-os = [ os.name ] ;
++        host-os = darwin ;
+     }
+     else
+     {

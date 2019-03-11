@@ -1,0 +1,13 @@
+./build.go
+./buildgo.go
+./buildruntime.go
+./buildtool.go
+./doc.go
+./imports.go
+./main.go
+./sys_default.go
+./test.go
+./util.go
+./util_gc.go
+./cpuid_default.s
+./vfp_default.s

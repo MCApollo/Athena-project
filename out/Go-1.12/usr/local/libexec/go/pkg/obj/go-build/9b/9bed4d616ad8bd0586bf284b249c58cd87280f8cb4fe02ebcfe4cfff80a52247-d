@@ -1,0 +1,4 @@
+./switch.go
+./switch_posix.go
+./switch_unix.go
+./sys_unix.go

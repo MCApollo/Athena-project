@@ -1,0 +1,8 @@
+./build.go
+./help.go
+./import.go
+./init.go
+./list.go
+./load.go
+./query.go
+./search.go

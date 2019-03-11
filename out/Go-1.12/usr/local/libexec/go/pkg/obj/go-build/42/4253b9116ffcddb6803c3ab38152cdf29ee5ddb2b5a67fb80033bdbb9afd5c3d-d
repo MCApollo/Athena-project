@@ -1,0 +1,8 @@
+./arch.go
+./arch_arm64.go
+./intrinsics.go
+./stubs.go
+./sys.go
+./zgoarch_arm64.go
+./zgoos_darwin.go
+./zversion.go

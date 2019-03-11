@@ -1,0 +1,11 @@
+./cftype.go
+./context.go
+./doc.go
+./egltype.go
+./fix.go
+./gotypes.go
+./jnitype.go
+./main.go
+./netipv6zone.go
+./printerconfig.go
+./typecheck.go

@@ -1,0 +1,12 @@
+#!/bin/bash
+# MCApollo | postrm
+
+case "$1" in
+	purge|remove)
+		rm -rf /usr/local/libexec/go/ 2>/dev/null
+	;;
+	*)
+	;;
+esac
+
+exit 0

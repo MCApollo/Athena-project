@@ -1,0 +1,20 @@
+name='bzip2'
+version='1.0.6'
+description='Freely availabe high-quality data compressor'
+section='Archiving'
+url="https://ftp.osuosl.org/pub/clfs/conglomeration/bzip2/bzip2-${version}.tar.gz"
+priority='optional'
+homepage='https://en.wikipedia.org/wiki/Bzip2'
+tags='purpose::library'
+
+prepare(){
+	_warning "bzip2 is in the dyld cache"
+	_warning "/DO NOT/ install this to /usr"
+	sleep 10
+}
+
+package(){
+	sed -i 's/$(PREFIX)\/man/$(PREFIX)\/share\/man/' Makefile
+	mkdir -p $pkgdir/${PKGPREFIX:-/usr/local}/{bin,lib,share/man/man1,include}
+	pkg:make install AR=${TARGET}-ar RANLIB=${TARGET}-ranlib PREFIX=$pkgdir/${PKGPREFIX:-/usr/local}
+}

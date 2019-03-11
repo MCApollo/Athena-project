@@ -1,0 +1,25 @@
+name='xz'
+version='5.2.4'
+description='Geral-purpose data compression with high compression ratio'
+section='Archiving'
+url="https://downloads.sourceforge.net/project/lzmautils/xz-${version}.tar.gz"
+priority='optional'
+homepage='https://tukaani.org/xz/'
+tags='purpose::library'
+replaces=('lzma (<< 1:0)')
+conficts=('xz')
+
+prepare(){
+	_warning "/DO NOT/ replace xz on a jailbroken device with your own version"
+	_warning "XZ/LZMA are apart of the dyld cache. If you're prefix is to /usr, this will break the cache if installed"
+	_warning "All other xz packages will install to /usr/local to prevent this."
+	sleep 10
+}
+
+build(){
+	pkg:configure
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

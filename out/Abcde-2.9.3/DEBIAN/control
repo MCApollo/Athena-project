@@ -5,6 +5,6 @@ Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
 Priority: optional
 Architecture: iphoneos-arm
 Homepage: https://abcde.einval.com
-Depends: com.mccd-discid, cdrtools, flac, glyr, id3v2, lame, mkcue, vorbis-tools
+Depends: com.mc.cd-discid, com.mc.cdrtools, com.mc.flac, com.mc.glyr, com.mc.id3v2, com.mc.lame, com.mc.mkcue, com.mc.vorbis-tools
 Description: Athena Project | Compiled for ARM64.
 	Better CD Encoder

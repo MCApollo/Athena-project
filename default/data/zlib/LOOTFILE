@@ -7,6 +7,12 @@ priority='optional'
 homepage='https://zlib.net/'
 tags='purpose::library'
 
+prepare(){
+	_warning "Zlib is apart of the dyld cache"
+	_warning "/DO NOT/ install this to /usr or it will break things"
+	sleep 10
+}
+
 build(){
 	pkg:setenv
 	export CHOST=${TARGET}

@@ -1,0 +1,7 @@
+./etype_string.go
+./identity.go
+./pkg.go
+./scope.go
+./sym.go
+./type.go
+./utils.go

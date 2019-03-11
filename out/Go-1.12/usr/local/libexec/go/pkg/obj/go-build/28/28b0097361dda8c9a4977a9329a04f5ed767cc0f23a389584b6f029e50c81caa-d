@@ -1,0 +1,4 @@
+./atomic_arm64.go
+./stubs.go
+./asm_arm64.s
+./atomic_arm64.s

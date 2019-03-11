@@ -1,0 +1,11 @@
+Package: com.mc.libpng
+Name: libpng
+Version: 1.6.36
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: http://www.libpng.org/pub/png/libpng.html
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	Library for manipulating PNG images

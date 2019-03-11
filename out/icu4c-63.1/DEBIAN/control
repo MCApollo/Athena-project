@@ -1,0 +1,11 @@
+Package: com.mc.icu4c
+Name: icu4c
+Version: 63.1
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://ssl.icu-project.org/
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	C/C++ and Java libraries for Unicode and globalization

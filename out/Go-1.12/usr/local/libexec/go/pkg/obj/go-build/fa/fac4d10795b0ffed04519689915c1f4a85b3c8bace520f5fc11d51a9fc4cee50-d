@@ -1,0 +1,8 @@
+./comment.go
+./doc.go
+./example.go
+./exports.go
+./filter.go
+./lazyre.go
+./reader.go
+./synopsis.go

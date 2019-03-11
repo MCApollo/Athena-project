@@ -1,0 +1,18 @@
+name='libpcap'
+version='1.9.0'
+description='Portable library for network traffic capture'
+section='Development'
+url="https://www.tcpdump.org/release/libpcap-${version}.tar.gz"
+priority='optional'
+homepage='https://www.tcpdump.org/'
+tags='purpose::library'
+
+build(){
+	sed -i 's/-arch x86_64 -arch i386//' configure
+	pkg:configure --with-pcap=bpf
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}
