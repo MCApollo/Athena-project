@@ -1,0 +1,17 @@
+name='Bash-Completion'
+version='2.8'
+description='Programmable completion for Bash'
+section='Terminal Support'
+url="https://github.com/scop/bash-completion/releases/download/${version}/bash-completion-${version}.tar.xz"
+priority='optional'
+homepage='https://github.com/scop/bash-completion'
+tags='purpose::console'
+depends=('bash')
+
+build(){
+	pkg:configure
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

@@ -1,0 +1,19 @@
+name='libtiff'
+version='4.0.10'
+description='TIFF library and utilities'
+section='Development'
+url="https://download.osgeo.org/libtiff/tiff-${version}.tar.gz"
+priority='optional'
+homepage='http://libtiff.maptools.org/'
+tags='purpose::library'
+depends=('libjpeg' ':xz' 'zlib')
+
+build(){
+	pkg:patch
+	pkg:configure --without-x
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

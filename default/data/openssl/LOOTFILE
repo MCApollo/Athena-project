@@ -6,13 +6,15 @@ section='Networking'
 priority='optional'
 homepage='https://openssl.org/'
 tags='purpose::library'
-depends=()
 
 build(){
-	./Configure ${TARGET} --prefix=${PKGPREFIX} shared
-	make AR="${TARGET}-ar -r"
+	pkg:patch 2
+	sed -i "s/SED_REPLACE_ME/aarch64-apple-darwin*/" config
+	sed -i "s/SED_REPLACE_ME/${TARGET}-clang/" Configurations/15-ios.conf
+	./Configure -D__DARWIN_UNIX0 iphoneos-cross --prefix=${PKGPREFIX} --openssldir=${PKGPREFIX}/lib/ssl shared
+	make AR="${TARGET}-ar" RANLIB="${TARGET}-ranlib"
 }
 
 package(){
-	# Make install
+	make AR="${TARGET}-ar" RANLIB="${TARGET}-ranlib" DESTDIR=$pkgdir install
 }

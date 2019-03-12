@@ -1,0 +1,26 @@
+name='tesseract'
+version='4.0.0'
+description='OCR (Optical Character Recognition) engine'
+section='Development'
+url="https://github.com/tesseract-ocr/tesseract/archive/${version}.tar.gz"
+priority='optional'
+homepage='https://github.com/tesseract-ocr/'
+tags='purpose::console'
+depends=('libtiff' 'leptonica')
+
+# Train data
+resource=('https://github.com/tesseract-ocr/tessdata_fast/raw/4.0.0/eng.traineddata' 'https://github.com/tesseract-ocr/tessdata_fast/raw/4.0.0/osd.traineddata' 'https://github.com/USCDataScience/counterfeit-electronics-tesseract/raw/319a6eeacff181dad5c02f3e7a3aff804eaadeca/Training%20Tesseract/snum.traineddata')
+
+build(){
+	./autogen.sh
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+	for data in ${resource[@]}; do
+		x=$(_download ${data})
+		mv ${x} ${pkgdir}/${PKGPREFIX}/share/tessdata
+	done
+}

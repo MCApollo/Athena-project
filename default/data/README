@@ -2,11 +2,11 @@ Credit goes to Sam Bingner:
 https://git.bingner.com/elucubratus.git/tree/data
 https://twitter.com/sbingner?lang=en
 
-And saurik for build system that is based on:
+And saurik for the build system that is based on:
 http://svn.telesphoreo.org/trunk/data/
 
-I often reference those links to avoid wasting time on already solved problems.
-I used saurik's stuff a lot when Bingner haven't released his stuff publicly, so thanks saurik.
+I often reference those links to avoid wasting time on already solved problems;
+I used Saurik's stuff a lot when Bingner haven't released his stuff publicly (true OG).
 
 Perl and OpenSSL are heavily based on those sources.
 
@@ -17,3 +17,16 @@ Electra due to the fact that it's easier to compile with my own libs and
 compatibility reasons. Often static files and pkg-config files are removed.
 
 It might be possible to support lower iOS jailbreaks, but lzma is outdated so therefore is the issue/barrier.
+gzip should be fine, I don't know how the compression plays out.
+
+
+=======================================
+
+Toolchain not provided (yet?) nor the extra things needed to make everything work.
+
+Speed up building (be warned some things don't like be built in parallel):
+CORES=$(grep -c ^processor /proc/cpuinfo)
+export MAKEFLAGS="-j $CORES"
+
+
+

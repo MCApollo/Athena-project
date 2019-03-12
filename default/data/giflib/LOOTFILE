@@ -1,0 +1,18 @@
+name='giflib'
+version='5.1.4'
+description='Library and utilities for processing GIFs'
+section='Development'
+url="https://downloads.sourceforge.net/project/giflib/giflib-${version}.tar.bz2"
+priority='optional'
+homepage='https://giflib.sourceforge.io/'
+tags='purpose::library'
+
+build(){
+	pkg:patch
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

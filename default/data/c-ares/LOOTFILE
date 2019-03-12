@@ -1,0 +1,17 @@
+name='c-ares'
+version='1.15.0'
+description='Asynchronous DNS library'
+section='Development'
+url="https://c-ares.haxx.se/download/c-ares-${version}.tar.gz"
+priority='optional'
+homepage='https://c-ares.haxx.se/'
+tags='purpose::library'
+
+build(){
+	pkg:configure --disable-debug
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

@@ -1,0 +1,22 @@
+name='openjpeg'
+version='2.3.0'
+description='Library for JPEG-2000 image manipulation'
+section='Development'
+url="https://github.com/uclouvain/openjpeg/archive/v${version}.tar.gz"
+priority='optional'
+homepage='https://www.openjpeg.org/'
+tags='purpose::library'
+depends=('libpng' 'libtiff' 'littlecms2')
+makedepends=('cmake' 'doxygen')
+
+build(){
+	if command -v doxygen; then
+		DOC=-DBUILD_DOC=ON
+	fi
+	pkg:cmake . $DOC
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

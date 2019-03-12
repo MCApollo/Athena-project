@@ -1,0 +1,18 @@
+name='littleCMS2'
+version='2-2.9'
+description='Color management engine supporting ICC profiles'
+section='Development'
+url="https://downloads.sourceforge.net/project/lcms/lcms/2.9/lcms${version}.tar.gz"
+priority='optional'
+homepage='http://www.littlecms.com/'
+tags='purpose::library'
+depends=('libjpeg' 'libtiff')
+
+build(){
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

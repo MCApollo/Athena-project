@@ -1,0 +1,165 @@
+diff -Naur a/openssl-1.1.1b/config b//openssl-1.1.1b/config
+--- a/openssl-1.1.1b/config	2019-02-26 08:15:30.000000000 -0600
++++ b/openssl-1.1.1b/config	2019-03-11 22:35:05.541452875 -0500
+@@ -461,52 +461,53 @@
+ 	OUT="irix-mips3-$CC"
+ 	;;
+   ppc-apple-rhapsody) OUT="rhapsody-ppc-cc" ;;
+-  ppc-apple-darwin*)
+-	ISA64=`(sysctl -n hw.optional.64bitops) 2>/dev/null`
+-	if [ "$ISA64" = "1" -a -z "$KERNEL_BITS" ]; then
+-	    echo "WARNING! If you wish to build 64-bit library, then you have to"
+-	    echo "         invoke '$THERE/Configure darwin64-ppc-cc' *manually*."
+-	    if [ "$DRYRUN" = "false" -a -t 1 ]; then
+-	      echo "         You have about 5 seconds to press Ctrl-C to abort."
+-	      (trap "stty `stty -g`; exit 0" 2 0; stty -icanon min 0 time 50; read waste) <&1
+-	    fi
+-	fi
+-	if [ "$ISA64" = "1" -a "$KERNEL_BITS" = "64" ]; then
+-	    OUT="darwin64-ppc-cc"
+-	else
+-	    OUT="darwin-ppc-cc"
+-	fi ;;
+-  i?86-apple-darwin*)
+-	ISA64=`(sysctl -n hw.optional.x86_64) 2>/dev/null`
+-	if [ "$ISA64" = "1" -a -z "$KERNEL_BITS" ]; then
+-	    echo "WARNING! If you wish to build 64-bit library, then you have to"
+-	    echo "         invoke 'KERNEL_BITS=64 $THERE/config $options'."
+-	    if [ "$DRYRUN" = "false" -a -t 1 ]; then
+-	      echo "         You have about 5 seconds to press Ctrl-C to abort."
+-	      (trap "stty `stty -g`; exit 1" 2; stty -icanon min 0 time 50; read waste; exit 0) <&1 || exit
+-	    fi
+-	fi
+-	if [ "$ISA64" = "1" -a "$KERNEL_BITS" = "64" ]; then
+-	    OUT="darwin64-x86_64-cc"
+-	else
+-	    OUT="darwin-i386-cc"
+-	fi ;;
+-  x86_64-apple-darwin*)
+-	if [ "$KERNEL_BITS" = "32" ]; then
+-	    OUT="darwin-i386-cc"
+-	else
+-	    OUT="darwin64-x86_64-cc"
+-	fi ;;
+-  armv6+7-*-iphoneos)
+-	__CNF_CFLAGS="$__CNF_CFLAGS -arch%20armv6 -arch%20armv7"
+-	__CNF_CXXFLAGS="$__CNF_CXXFLAGS -arch%20armv6 -arch%20armv7"
++#  ppc-apple-darwin*)
++#	ISA64=`(sysctl -n hw.optional.64bitops) 2>/dev/null`
++#	if [ "$ISA64" = "1" -a -z "$KERNEL_BITS" ]; then
++#	    echo "WARNING! If you wish to build 64-bit library, then you have to"
++#	    echo "         invoke '$THERE/Configure darwin64-ppc-cc' *manually*."
++#	    if [ "$DRYRUN" = "false" -a -t 1 ]; then
++#	      echo "         You have about 5 seconds to press Ctrl-C to abort."
++#	      (trap "stty `stty -g`; exit 0" 2 0; stty -icanon min 0 time 50; read waste) <&1
++#	    fi
++#	fi
++#	if [ "$ISA64" = "1" -a "$KERNEL_BITS" = "64" ]; then
++#	    OUT="darwin64-ppc-cc"
++#	else
++#	    OUT="darwin-ppc-cc"
++#	fi ;;
++#  i?86-apple-darwin*)
++#	ISA64=`(sysctl -n hw.optional.x86_64) 2>/dev/null`
++#	if [ "$ISA64" = "1" -a -z "$KERNEL_BITS" ]; then
++#	    echo "WARNING! If you wish to build 64-bit library, then you have to"
++#	    echo "         invoke 'KERNEL_BITS=64 $THERE/config $options'."
++#	    if [ "$DRYRUN" = "false" -a -t 1 ]; then
++#	      echo "         You have about 5 seconds to press Ctrl-C to abort."
++#	      (trap "stty `stty -g`; exit 1" 2; stty -icanon min 0 time 50; read waste; exit 0) <&1 || exit
++#	    fi
++#	fi
++#	if [ "$ISA64" = "1" -a "$KERNEL_BITS" = "64" ]; then
++#	    OUT="darwin64-x86_64-cc"
++#	else
++#	    OUT="darwin-i386-cc"
++#	fi ;;
++#  x86_64-apple-darwin*)
++#	if [ "$KERNEL_BITS" = "32" ]; then
++#	    OUT="darwin-i386-cc"
++#	else
++#	    OUT="darwin64-x86_64-cc"
++#	fi ;;
++#  armv6+7-*-iphoneos)
++#	__CNF_CFLAGS="$__CNF_CFLAGS -arch%20armv6 -arch%20armv7"
++#	__CNF_CXXFLAGS="$__CNF_CXXFLAGS -arch%20armv6 -arch%20armv7"
++#	OUT="iphoneos-cross" ;;
++#  *-*-iphoneos)
++#	__CNF_CFLAGS="$__CNF_CFLAGS -arch%20${MACHINE}"
++#	__CNF_CXXFLAGS="$__CNF_CXXFLAGS -arch%20${MACHINE}"
++#	OUT="iphoneos-cross" ;;
++#  arm64-*-iphoneos|*-*-ios64)
++   SED_REPLACE_ME)
+ 	OUT="iphoneos-cross" ;;
+-  *-*-iphoneos)
+-	__CNF_CFLAGS="$__CNF_CFLAGS -arch%20${MACHINE}"
+-	__CNF_CXXFLAGS="$__CNF_CXXFLAGS -arch%20${MACHINE}"
+-	OUT="iphoneos-cross" ;;
+-  arm64-*-iphoneos|*-*-ios64)
+-	OUT="ios64-cross" ;;
+   alpha-*-linux2)
+         ISA=`awk '/cpu model/{print$4;exit(0);}' /proc/cpuinfo`
+ 	case ${ISA:-generic} in
+diff -Naur a/openssl-1.1.1b/Configurations/15-ios.conf b/openssl-1.1.1b/Configurations/15-ios.conf
+--- a/openssl-1.1.1b/Configurations/15-ios.conf	2019-02-26 08:15:30.000000000 -0600
++++ b/openssl-1.1.1b/Configurations/15-ios.conf	2019-03-11 22:26:05.092604525 -0500
+@@ -9,54 +9,13 @@
+     "ios-common" => {
+         template         => 1,
+         inherit_from     => [ "darwin-common" ],
+-        sys_id           => "iOS",
+-        disable          => [ "engine", "async" ],
++	perlasm_scheme   => "macosx",
++#        sys_id           => "iOS",
++#        disable          => [ "engine", "async" ],
+     },
+-    "ios-xcrun" => {
+-        inherit_from     => [ "ios-common", asm("armv4_asm") ],
+-        # It should be possible to go below iOS 6 and even add -arch armv6,
+-        # thus targeting iPhone pre-3GS, but it's assumed to be irrelevant
+-        # at this point.
+-        CC               => "xcrun -sdk iphoneos cc",
+-        cflags           => add("-arch armv7 -mios-version-min=6.0.0 -fno-common"),
+-        perlasm_scheme   => "ios32",
+-    },
+-    "ios64-xcrun" => {
+-        inherit_from     => [ "ios-common", asm("aarch64_asm") ],
+-        CC               => "xcrun -sdk iphoneos cc",
+-        cflags           => add("-arch arm64 -mios-version-min=7.0.0 -fno-common"),
+-        bn_ops           => "SIXTY_FOUR_BIT_LONG RC4_CHAR",
+-        perlasm_scheme   => "ios64",
+-    },
+-    "iossimulator-xcrun" => {
+-        inherit_from     => [ "ios-common" ],
+-        CC               => "xcrun -sdk iphonesimulator cc",
+-    },
+-# It takes three prior-set environment variables to make it work:
+-#
+-# CROSS_COMPILE=/where/toolchain/is/usr/bin/ [note ending slash]
+-# CROSS_TOP=/where/SDKs/are
+-# CROSS_SDK=iPhoneOSx.y.sdk
+-#
+-# Exact paths vary with Xcode releases, but for couple of last ones
+-# they would look like this:
+-#
+-# CROSS_COMPILE=`xcode-select --print-path`/Toolchains/XcodeDefault.xctoolchain/usr/bin/
+-# CROSS_TOP=`xcode-select --print-path`/Platforms/iPhoneOS.platform/Developer
+-# CROSS_SDK=iPhoneOS.sdk
+-#
+     "iphoneos-cross" => {
+         inherit_from     => [ "ios-common" ],
+-        cflags           => add("-isysroot \$(CROSS_TOP)/SDKs/\$(CROSS_SDK) -fno-common"),
+-    },
+-    "ios-cross" => {
+-        inherit_from     => [ "ios-xcrun" ],
+-        CC               => "cc",
+-        cflags           => add("-isysroot \$(CROSS_TOP)/SDKs/\$(CROSS_SDK)"),
+-    },
+-    "ios64-cross" => {
+-        inherit_from     => [ "ios64-xcrun" ],
+-        CC               => "cc",
+-        cflags           => add("-isysroot \$(CROSS_TOP)/SDKs/\$(CROSS_SDK)"),
++	CC               => "SED_REPLACE_ME",	
++        cflags           => add("-fno-common"),
+     },
+ );

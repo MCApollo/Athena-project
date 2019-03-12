@@ -1,0 +1,19 @@
+name='leptonica'
+version='1.77.0'
+description='Image processing and image analysis library'
+section='Development'
+url="https://github.com/DanBloomberg/leptonica/releases/download/${version}/leptonica-${version}.tar.gz"
+priority='optional'
+homepage='http://www.leptonica.org/'
+tags='purpose::library'
+depends=('giflib' 'libjpeg' 'libpng' 'libtiff' 'openjpeg' 'webp')
+makedepends=('pkg-config')
+
+build(){
+	pkg:configure --with-libwebp --with-libopenjpeg
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

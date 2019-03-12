@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo ===========================
+echo
+echo Install extra testdata from:
+echo 	https://github.com/tesseract-ocr/tessdata_fast/archive/4.0.0.tar.gz
+echo
+echo ===========================
+
+exit 0

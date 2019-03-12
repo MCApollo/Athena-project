@@ -1,0 +1,20 @@
+name='aom'
+version='1.0.0'
+description='Codec library for encoding and decoding AV1 video streams'
+section='Development'
+url='https://aomedia.googlesource.com/aom.git -b v1.0.0'
+priority='optional'
+homepage='https://aomedia.googlesource.com/aom'
+tags='purpose::library'
+makedepends=('cmake' 'yasm')
+
+build(){
+	mkdir macbuild && _cd macbuild
+	pkg:cmake .. -DENABLE_DOCS=off -DENABLE_EXAMPLES=on -DENABLE_TESTDATA=off -DENABLE_TESTS=off -DENABLE_TOOLS=on -DCONFIG_RUNTIME_CPU_DETECT=0 -DCONFIG_SHARED=1
+	make
+}
+
+package(){
+	cd macbuild
+	make DESTDIR=$pkgdir install
+}
