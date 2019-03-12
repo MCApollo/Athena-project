@@ -6,7 +6,7 @@ And saurik for the build system that is based on:
 http://svn.telesphoreo.org/trunk/data/
 
 I often reference those links to avoid wasting time on already solved problems;
-I used Saurik's stuff a lot when Bingner haven't released his stuff publicly (true OG).
+I used Saurik's stuff a lot when Bingner hadn't released his stuff publicly (true OG).
 
 Perl and OpenSSL are heavily based on those sources.
 
@@ -24,7 +24,7 @@ gzip should be fine, I don't know how the compression plays out.
 
 Toolchain not provided (yet?) nor the extra things needed to make everything work.
 
-Speed up building (be warned some things don't like be built in parallel):
+Speed up building (be warned some things don't like being built in parallel):
 CORES=$(grep -c ^processor /proc/cpuinfo)
 export MAKEFLAGS="-j $CORES"
 
