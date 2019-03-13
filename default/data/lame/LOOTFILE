@@ -1,0 +1,20 @@
+name='lame'
+version='3.100'
+description='High quality MPEG Audio Layer III (MP3) encoder'
+section='Development'
+url="https://downloads.sourceforge.net/sourceforge/lame/lame-${version}.tar.gz"
+priority='optional'
+homepage='https://lame.sourceforge.io/'
+tags='purpose::console'
+
+build(){
+	# Fix undefined symbol error _lame_init_old
+	# https://sourceforge.net/p/lame/mailman/message/36081038
+	sed -i '/lame_init_old/d' include/libmp3lame.sym
+	pkg:configure --enable-nasm
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

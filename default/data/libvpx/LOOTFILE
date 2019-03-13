@@ -1,0 +1,26 @@
+name='libvpx'
+version='1.8.0'
+description='VP8/VP9 video codec'
+section='Development'
+url="https://github.com/webmproject/libvpx/archive/v${version}.tar.gz"
+priority='optional'
+homepage='https://www.webmproject.org/code/'
+tags='purpose::library'
+makedepends=('yasm')
+
+build(){
+	sed -i '/die \"--enable-shared/c\true/' configure
+	#	Skip a check
+	sed -i 's/arm64-darwin-gcc/aarch64-darwin-gcc/' configure
+	#	Bypassing xcrun/xcodebuild usage
+	mkdir macbuild && _cd macbuild
+	pkg:setenv
+	export LD=$CC
+	../configure --target=aarch64-darwin-gcc
+	make
+}
+
+package(){
+	_cd macbuild
+	make DESTDIR=$pkgdir install
+}

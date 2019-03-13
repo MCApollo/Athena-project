@@ -1,0 +1,19 @@
+name='pcre2'
+version='10.32'
+description='Perl compatible regular expressions library with a new API'
+section='Development'
+url="https://ftp.pcre.org/pub/pcre/pcre2-${version}.tar.bz2"
+priority='optional'
+homepage='https://www.pcre.org/'
+tags='purpose::library'
+
+build(){
+	pkg:configure --enable-pcre2-16 --enable-pcre2-32	\
+		--enable-pcre2grep-libz --enable-pcre2grep-libbz2 \
+		--enable-jit --enable-utf
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

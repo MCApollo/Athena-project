@@ -1,0 +1,17 @@
+name='GMP'
+version='6.1.2'
+description='GNU multiple precision arithmetic library'
+section='Development'
+url="https://gmplib.org/download/gmp/gmp-${version}.tar.xz"
+priority='optional'
+homepage='https://gmplib.org/'
+tags='purpose::library'
+
+build(){
+	pkg:configure --enable-cxx --with-pic --disable-assembly
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

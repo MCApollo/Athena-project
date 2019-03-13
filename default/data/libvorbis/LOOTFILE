@@ -1,0 +1,19 @@
+name='libvorbis'
+version='1.3.6'
+description='Vorbis General Audio Compression Codec'
+section='Development'
+url="https://downloads.xiph.org/releases/vorbis/libvorbis-${version}.tar.xz"
+priority='optional'
+homepage='https://xiph.org/vorbis/'
+tags='purpose::library'
+depends=('libogg')
+makedepends=('pkg-config')
+
+build(){
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

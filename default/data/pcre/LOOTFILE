@@ -1,0 +1,20 @@
+name='pcre'
+version='8.43'
+description='Perl compatible regular expressions library'
+section='Development'
+url="https://ftp.pcre.org/pub/pcre/pcre-${version}.tar.bz2"
+priority='optional'
+homepage='https://www.pcre.org/'
+tags='purpose::library'
+
+build(){
+	pkg:configure --enable-jit --enable-utf --enable-pcre8 \
+		--enable-pcre16 --enable-pcre32 --enable-unicode-properties \
+		--enable-pcregrep-libz --enable-pcregrep-libbz2
+		
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

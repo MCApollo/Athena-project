@@ -1,0 +1,18 @@
+name='frei0r'
+version='1.6.1'
+description='Minimalistic plugin API for video effects'
+section='Development'
+url="https://files.dyne.org/frei0r/releases/frei0r-plugins-${version}.tar.gz"
+priority='optional'
+homepage='https://frei0r.dyne.org/'
+tags='purpose::console'
+makedepends=('pkg-config')
+
+build(){
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

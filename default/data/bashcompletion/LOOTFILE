@@ -6,7 +6,7 @@ url="https://github.com/scop/bash-completion/releases/download/${version}/bash-c
 priority='optional'
 homepage='https://github.com/scop/bash-completion'
 tags='purpose::console'
-depends=('bash')
+depends=(':bash')
 
 build(){
 	pkg:configure
