@@ -1,0 +1,12 @@
+Package: com.mc.speex
+Name: speex
+Version: 1.2.0
+Section: Multimedia
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://speex.org/
+Tags: purpose::library
+Depends: com.mc.libogg
+Description: Athena Project | Compiled for ARM64.
+	Audio codec designed for speech

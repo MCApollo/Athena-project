@@ -1,0 +1,12 @@
+Package: com.mc.leptonica
+Name: leptonica
+Version: 1.77.0
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: http://www.leptonica.org/
+Tags: purpose::library
+Depends: com.mc.giflib, com.mc.libjpeg, com.mc.libpng, com.mc.libtiff, com.mc.openjpeg, com.mc.webp
+Description: Athena Project | Compiled for ARM64.
+	Image processing and image analysis library

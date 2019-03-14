@@ -1,0 +1,11 @@
+Package: com.mc.frei0r
+Name: frei0r
+Version: 1.6.1
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://frei0r.dyne.org/
+Tags: purpose::console
+Description: Athena Project | Compiled for ARM64.
+	Minimalistic plugin API for video effects

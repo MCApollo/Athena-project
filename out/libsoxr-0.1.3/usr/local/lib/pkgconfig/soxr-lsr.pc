@@ -1,0 +1,5 @@
+Name: soxr-lsr
+Description: High quality, one-dimensional sample-rate conversion library (with libsamplerate-like bindings)
+Version: 0.1.3
+Libs: -L/usr/local/lib -lsoxr-lsr
+Cflags: -I/usr/local/include

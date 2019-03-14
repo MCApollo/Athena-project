@@ -1,0 +1,30 @@
+name='rubberband'
+version='1.8.2'
+description='Audio time stretcher tool and library'
+section='Development'
+url="https://breakfastquay.com/files/releases/rubberband-${version}.tar.bz2"
+priority='optional'
+homepage='https://breakfastquay.com/rubberband/'
+tags='purpose::library'
+depends=('libsamplerate' 'libsndfile')
+
+build(){
+	pkg:make -f Makefile.osx ARCHFLAGS= OPTFLAGS="-DNDEBUG -ffast-math -freciprocal-math -O3 -ftree-vectorize"
+}
+
+package(){
+	shopt -s extglob
+	# According to homebrew, `make install` is broken
+	x=${pkgdir}/${PKGPREFIX:-/usr/local}
+	mkdir -p $x/{bin,lib/pkgconfig,include}
+	cp bin/rubberband ${x}/bin	# binary
+	cp -r rubberband ${x}/include	# include
+	# dylibs
+	ln -rs lib/librubberband.dylib lib/librubberband.2.1.1.dylib
+	ln -rs lib/librubberband.2.1.1.dylib lib/librubberband.2.dylib
+	cp -r lib/* ${x}/lib
+	# pkgconfig
+	cp rubberband.pc.in rubberband.pc
+	sed -i "s|%PREFIX%|${PKGPREFIX:-/usr/local}|" rubberband.pc
+	cp rubberband.pc ${x}/lib/pkgconfig
+}

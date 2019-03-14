@@ -1,0 +1,12 @@
+Package: com.mc.freetype
+Name: freetype
+Version: 2.9.1
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.freetype.org/
+Tags: purpose::library
+Depends: com.mc.libpng
+Description: Athena Project | Compiled for ARM64.
+	Software library to render fonts

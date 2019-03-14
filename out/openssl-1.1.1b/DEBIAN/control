@@ -1,0 +1,11 @@
+Package: com.mc.openssl
+Name: openssl
+Version: 1.1.1b
+Section: Networking
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://openssl.org/
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	Cryptography and SSL/TLS Toolkit

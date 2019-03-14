@@ -1,0 +1,11 @@
+Package: com.mc.snappy
+Name: snappy
+Version: 1.1.7
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://google.github.io/snappy/
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	Compression/decompression library

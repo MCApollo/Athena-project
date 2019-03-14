@@ -1,0 +1,17 @@
+name='opus'
+version='1.3'
+description='Audio codec'
+section='Development'
+url="https://archive.mozilla.org/pub/opus/opus-${version}.tar.gz"
+priority='optional'
+homepage='https://www.opus-codec.org/'
+tags='purpose::library'
+
+build(){
+	pkg:configure --disable-doc
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

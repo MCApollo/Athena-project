@@ -1,0 +1,11 @@
+Package: com.mc.libsoxr
+Name: libsoxr
+Version: 0.1.3
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://sourceforge.net/projects/soxr/
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	High quality, one-dimenstional sample-rate conversion library

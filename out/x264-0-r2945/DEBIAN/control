@@ -1,0 +1,11 @@
+Package: com.mc.x264
+Name: x264
+Version: 0-r2945
+Section: Multimedia
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.videolan.org/developers/x264.html
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	H.264/AVC encoder

@@ -1,0 +1,17 @@
+name='opencoreamr'
+version='0.1.5'
+description='Audio codecs extracted from an Android open source project'
+section='Development'
+url="https://downloads.sourceforge.net/opencore-amr/opencore-amr-${version}.tar.gz"
+priority='optional'
+homepage='https://opencore-amr.sourceforge.io'
+tags='purpose::library'
+
+build(){
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

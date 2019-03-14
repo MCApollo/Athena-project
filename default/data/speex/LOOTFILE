@@ -1,0 +1,19 @@
+name='speex'
+version='1.2.0'
+description='Audio codec designed for speech'
+section='Multimedia'
+url="https://downloads.xiph.org/releases/speex/speex-${version}.tar.gz"
+priority='optional'
+homepage='https://speex.org/'
+tags='purpose::library'
+depends=('libogg')
+makedepends=('pkg-config')
+
+build(){
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

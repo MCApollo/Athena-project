@@ -1,0 +1,12 @@
+Package: com.mc.rubberband
+Name: rubberband
+Version: 1.8.2
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://breakfastquay.com/rubberband/
+Tags: purpose::library
+Depends: com.mc.libsamplerate, com.mc.libsndfile
+Description: Athena Project | Compiled for ARM64.
+	Audio time stretcher tool and library

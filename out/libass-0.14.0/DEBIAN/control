@@ -1,0 +1,12 @@
+Package: com.mc.libass
+Name: libass
+Version: 0.14.0
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://github.com/libass/libass
+Tags: purpose::library
+Depends: com.mc.freetype, com.mc.fribidi
+Description: Athena Project | Compiled for ARM64.
+	Subtitle renderer for the ASS/SSA subtitle format

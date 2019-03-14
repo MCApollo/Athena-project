@@ -1,0 +1,11 @@
+Package: com.mc.lame
+Name: lame
+Version: 3.100
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://lame.sourceforge.io/
+Tags: purpose::console
+Description: Athena Project | Compiled for ARM64.
+	High quality MPEG Audio Layer III (MP3) encoder

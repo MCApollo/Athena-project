@@ -1,0 +1,28 @@
+name='libevent'
+version='2.1.8'
+description='Asynchronous event library'
+section='Development'
+url="https://github.com/libevent/libevent/archive/release-${version}-stable.tar.gz"
+priority='optional'
+homepage='https://libevent.org/'
+tags='purpose::library'
+depends=('openssl')
+makedepends=('autoconf' 'automake' 'doxygen')
+conficts=('pincaster') # -> both install `event_rpcgen.py` binaries
+
+build(){
+	if command -v doxygen &>/dev/null; then
+		sed -i 's/GENERATE_MAN = NO/GENERATE_MAN = YES/' Doxyfile
+	fi
+	pkg:configure --disable-debug-mode
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+	if command -v doxygen &>/dev/null; then
+		make doxygen
+		mkdir -p ${pkgdir}/${PKGPREFIX:-/usr/local}/man/man3
+		cp doxygen/man/man3/*.3 ${pkgdir}/${PKGPREFIX:-/usr/local}/man/man3
+	fi
+}

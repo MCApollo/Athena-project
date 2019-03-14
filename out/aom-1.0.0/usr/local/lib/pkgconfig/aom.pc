@@ -1,0 +1,14 @@
+# libaom pkg-config.
+prefix=/usr/local
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: aom
+Description: Alliance for Open Media AV1 codec library v1.0.0-1449-gcf6a19d06.
+Version: 1.0.0
+Requires:
+Conflicts:
+Libs: -L${libdir} -laom
+Libs.private: -lm -lpthread
+Cflags: -I${includedir}

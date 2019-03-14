@@ -1,0 +1,13 @@
+Package: com.mc.rtmpdump
+Name: rtmpdump
+Version: 2.4
+Section: Networking
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://rtmpdump.mplayerhq.hu/
+Tags: purpose::console
+Depends: com.mc.openssl
+Conflicts: com.mc.com.mc.openssl
+Description: Athena Project | Compiled for ARM64.
+	Tool for downloading RTMP streaming media

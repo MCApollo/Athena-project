@@ -1,0 +1,21 @@
+name='rtmpdump'
+version='2.4'
+description='Tool for downloading RTMP streaming media'
+section='Networking'
+url="https://mirrors.ocf.berkeley.edu/debian/pool/main/r/rtmpdump/rtmpdump_2.4+20151223.gitfa8646d.1.orig.tar.gz"
+priority='optional'
+homepage='https://rtmpdump.mplayerhq.hu/'
+tags='purpose::console'
+depends=('openssl')
+conflicts=('fivstreamer') # -> both install `rtmpsrv` `rtmpsuck` and `streams` binary
+
+prepare(){
+	pkg:patch
+	# Patch took taked from
+	# https://github.com/Rechi/inputstream.rtmp
+}
+
+package(){
+	# Use XCFLAGS/XLDFLAGS for those env vars
+	pkg:make SYS=darwin DESTDIR=$pkgdir prefix=${PKGPREFIX:-/usr/local} install
+}

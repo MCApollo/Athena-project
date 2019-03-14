@@ -1,0 +1,11 @@
+Package: com.mc.opencoreamr
+Name: opencoreamr
+Version: 0.1.5
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://opencore-amr.sourceforge.io
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	Audio codecs extracted from an Android open source project

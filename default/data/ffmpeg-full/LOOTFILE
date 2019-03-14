@@ -1,0 +1,27 @@
+name='ffmpeg'
+version='4.4.1-1'
+description="Play, record, convert, and stream audio and video
+	Downgrade for a version with less dependencies
+	This is a close match to homebrew's version (omitting fontconfig, sdl2, libbluray)"
+#	fontconfig, sdl2 --> Meant for GUIs, sdl2 will try to compile iOS features
+#	libbluray depends on ant/java and fontconfig to build.
+section='Multimedia'
+url="https://ffmpeg.org/releases/ffmpeg-4.1.1.tar.xz"
+priority='optional'
+homepage='https://ffmpeg.org/'
+tags='purpose::console'
+# Oh boy...
+depends=('aom' 'frei0r' 'lame' 'libsoxr' 'libvorbis'
+	'libvpx' 'opencore-amr' 'openjpeg' 'opus' 'rtmpdump' 'rubberband'
+	'snappy' 'speex' 'tesseract' 'theora' 'x264' 'x265' ':xz' 'libass' 'freetype')
+
+flags='--enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --enable-ffplay --enable-gpl --enable-libaom --enable-libmp3lame --enable-libopus --enable-librubberband --enable-libsnappy --enable-libtesseract --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-libxvid --enable-lzma --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librtmp --enable-libspeex --enable-videotoolbox --disable-libjack --disable-indev=jack --enable-libaom --enable-libsoxr'
+
+build(){
+	./configure --enable-cross-compile --arch=${TARGET%%-*} --target-os=darwin --prefix=${PKGPREFIX:-/usr/local} --cross-prefix=${TARGET}- ${flags} --enable-nonfree
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

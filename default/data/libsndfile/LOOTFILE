@@ -1,0 +1,20 @@
+name='libsndfile'
+version='1.0.28'
+description='C library for files containing sampled sound'
+section='Development'
+url="http://www.mega-nerd.com/libsndfile/files/libsndfile-${version}.tar.gz"
+priority='optional'
+homepage='http://www.mega-nerd.com/libsndfile/'
+tags='purpose::library'
+depends=('flac' 'libogg' 'libvorbis')
+makedepends=('pkg-config' 'autoconf' 'automake')
+
+build(){
+	autoreconf -fvi
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

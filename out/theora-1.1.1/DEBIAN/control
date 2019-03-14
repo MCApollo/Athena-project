@@ -1,0 +1,12 @@
+Package: com.mc.theora
+Name: theora
+Version: 1.1.1
+Section: Multimedia
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.theora.org/
+Tags: purpose::console
+Depends: com.mc.libogg, com.mc.libvorbis
+Description: Athena Project | Compiled for ARM64.
+	Open video compression format

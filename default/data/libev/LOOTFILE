@@ -1,0 +1,18 @@
+name='libev'
+version='4.24'
+description='Asynchronous event library'
+section='Development'
+url="http://dist.schmorp.de/libev/Attic/libev-${version}.tar.gz"
+priority='optional'
+homepage='http://software.schmorp.de/pkg/libev.html'
+tags='purpose::library'
+
+build(){
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+	mv ${pkgdir}/${PKGPREFIX:-/usr/local}/include/{event.h,ev-event.h}
+}

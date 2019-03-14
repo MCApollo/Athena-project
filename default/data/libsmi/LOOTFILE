@@ -1,0 +1,17 @@
+name='libsmi'
+version='0.5.0'
+description='Library to Access SMI MIB Information'
+section='Development'
+url="https://www.ibr.cs.tu-bs.de/projects/libsmi/download/libsmi-${version}.tar.gz"
+priority='optional'
+homepage='https://www.ibr.cs.tu-bs.de/projects/libsmi/'
+tags='purpose::library'
+
+build(){
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

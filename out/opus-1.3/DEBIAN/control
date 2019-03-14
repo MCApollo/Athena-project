@@ -1,0 +1,11 @@
+Package: com.mc.opus
+Name: opus
+Version: 1.3
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.opus-codec.org/
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	Audio codec

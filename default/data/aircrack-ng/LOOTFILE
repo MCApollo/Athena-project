@@ -1,0 +1,21 @@
+name='aircrack-ng'
+version='1.5.2'
+description='Next-generation aircrack with lots of new features'
+section='Networking'
+url="https://download.aircrack-ng.org/aircrack-ng-${version}.tar.gz"
+priority='optional'
+homepage='https://aircrack-ng.org/'
+tags='purpose::console'
+depends=('readline' 'pcre' 'sqlite')
+makedepends=('automake' 'autoconf' 'libtool')
+
+build(){
+	pkg:patch
+	NOCONFIGURE=1 ./autogen.sh
+	arm_neon_cxxflags=no ax_cv_neon_cflags=no pkg:configure --with-experimental
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

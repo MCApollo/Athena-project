@@ -1,0 +1,29 @@
+name='x264'
+version='0-r2945'
+description='H.264/AVC encoder'
+section='Multimedia'
+url='https://git.videolan.org/git/x264.git -b stable'
+priority='optional'
+homepage='https://www.videolan.org/developers/x264.html'
+tags='purpose::library'
+makedepends=('nasm')
+
+#
+gas='https://github.com/FFmpeg/gas-preprocessor/raw/master/gas-preprocessor.pl'
+
+
+prepare(){
+	wget ${gas}
+	chmod +x ${gas##*/}
+}
+
+build(){
+	pkg:setenv
+	SHARED=--enable-shared STATIC=--enable-static pkg:configure --disable-lsmash --enable-strip --disable-asm \
+		--cross-prefix=${TARGET}-
+	make AS="./gas-preprocessor.pl -as-type clang -- ${TARGET}-clang -c"
+}
+
+package(){
+	make AS="./gas-preprocessor.pl -as-type clang -- ${TARGET}-clang -c" DESTDIR=$pkgdir install
+}

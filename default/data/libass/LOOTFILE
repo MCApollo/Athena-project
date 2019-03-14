@@ -1,0 +1,20 @@
+name='libass'
+version='0.14.0'
+description='Subtitle renderer for the ASS/SSA subtitle format'
+section='Development'
+url="https://github.com/libass/libass/releases/download/${version}/libass-${version}.tar.xz"
+priority='optional'
+homepage='https://github.com/libass/libass'
+tags='purpose::library'
+depends=('freetype' 'fribidi')
+makedepends=('nasm')
+
+build(){
+	pkg:configure --disable-harfbuzz
+	# Omitting harfbuzz support (for now?)
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

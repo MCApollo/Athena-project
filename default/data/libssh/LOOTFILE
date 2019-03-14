@@ -1,0 +1,21 @@
+name='libssh'
+version='0.8.6'
+description='C library SSHv1/SSHv2 client and server protocols'
+section='Development'
+url='https://www.libssh.org/files/0.8/libssh-0.8.6.tar.xz'
+priority='optional'
+homepage='https://www.libssh.org/'
+tags='purpose::library'
+depends=('openssl')
+makedepends=('cmake')
+
+build(){
+	mkdir build && _cd build
+	pkg:cmake .. -DWITH_STATIC_LIB=ON -DWITH_SYMBOL_VERSIONING=OFF
+	make
+}
+
+package(){
+	_cd build
+	make DESTDIR=$pkgdir install
+}

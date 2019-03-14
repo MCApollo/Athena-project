@@ -1,0 +1,12 @@
+Package: com.mc.bash-completion
+Name: Bash-Completion
+Version: 2.8
+Section: Terminal Support
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://github.com/scop/bash-completion
+Tags: purpose::console
+Depends: com.mc.bash
+Description: Athena Project | Compiled for ARM64.
+	Programmable completion for Bash

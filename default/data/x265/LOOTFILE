@@ -1,0 +1,49 @@
+name='x265'
+version='3.0'
+description='H.265/HEVC encoder'
+section='Multimedia'
+url="https://bitbucket.org/multicoreware/x265/downloads/x265_${version}.tar.gz"
+priority='optional'
+homepage='http://x265.org'
+tags='purpose::library'
+makedepends=('cmake' 'nasm')
+
+args="-DLINKED_10BIT=ON -DLINKED_12BIT=ON -DEXTRA_LINK_FLAGS=-L. -DEXTRA_LIB=x265_main10.a;x265_main12.a"
+high_bit="-DHIGH_BIT_DEPTH=ON -DEXPORT_C_API=OFF -DENABLE_SHARED=OFF -DENABLE_CLI=OFF"
+
+
+prepare(){
+	_message "Running cmakke 3 times to get a 8bit, 10bit, and 12bit binaries."
+	sleep 3
+}
+
+build(){
+	mkdir 10bit 12bit 8bit
+	buildpath=${PWD}
+	
+	pushd 10bit
+		pkg:cmake ${buildpath}/source ${high_bit}
+		make
+		mv libx265.a ${buildpath}/8bit/libx265_main10.a
+	popd
+	
+	
+	pushd 12bit
+		pkg:cmake ${buildpath}/source -DMAIN12=ON ${high_bit}
+		make
+		mv libx265.a ${buildpath}/8bit/libx265_main12.a
+	popd
+
+	cd 8bit
+		pkg:cmake ${buildpath}/source ${args}
+		make
+		mv libx265.a libx265_main.a
+		${TARGET}-libtool -static -o libx265.a libx265_main.a \
+			libx265_main10.a libx265_main12.a
+	# Hand it off to package()
+}
+
+package(){
+	cd 8bit
+		make DESTDIR=$pkgdir install
+}

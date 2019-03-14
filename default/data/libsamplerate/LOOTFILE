@@ -1,0 +1,20 @@
+name='libsamplerate'
+version='0.1.9'
+description='Library for sample rate conversion of audio data'
+section='Development'
+url="http://www.mega-nerd.com/SRC/libsamplerate-${version}.tar.gz"
+priority='optional'
+homepage='http://www.mega-nerd.com/SRC'
+tags='purpose::library'
+depends=('libsndfile')
+
+build(){
+	sed -i 's/__MACH__/XXX/' examples/audio_out.c
+	pkg:configsub Cfg/config.sub
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

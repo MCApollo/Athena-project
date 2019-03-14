@@ -1,0 +1,23 @@
+name='snappy'
+version='1.1.7'
+description='Compression/decompression library'
+section='Development'
+url="https://github.com/google/snappy/archive/${version}.tar.gz"
+priority='optional'
+homepage='https://google.github.io/snappy/'
+tags='purpose::library'
+makedepends=('cmake' 'pkg-config')
+
+build(){
+	pkg:patch
+	pkg:cmake .
+	make
+}
+
+package(){
+	# First run in for static libs, second is for shared
+	make DESTDIR=$pkgdir install
+	make clean
+	pkg:cmake . -DBUILD_SHARED_LIBS=ON
+	make DESTDIR=$pkgdir install
+}

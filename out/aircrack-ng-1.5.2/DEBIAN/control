@@ -1,0 +1,12 @@
+Package: com.mc.aircrack-ng
+Name: aircrack-ng
+Version: 1.5.2
+Section: Networking
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://aircrack-ng.org/
+Tags: purpose::console
+Depends: com.mc.readline, com.mc.pcre, com.mc.sqlite
+Description: Athena Project | Compiled for ARM64.
+	Next-generation aircrack with lots of new features

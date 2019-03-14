@@ -1,0 +1,11 @@
+Package: com.mc.gettext
+Name: gettext
+Version: 0.19.8.1
+Section: Development
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.gnu.org/software/gettext/
+Tags: purpose::library
+Description: Athena Project | Compiled for ARM64.
+	GNU internationalization (i18n) and localization (l10n) library

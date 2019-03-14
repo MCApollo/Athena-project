@@ -1,0 +1,17 @@
+name='jemalloc'
+version='5.1.8'
+description='malloc implementation emphasizing fragmentation avoidance'
+section='Development'
+url="https://github.com/jemalloc/jemalloc/releases/download/${version}/jemalloc-${version}.tar.bz2"
+priority='optional'
+homepage='http://jemalloc.net/'
+tags='purpose::library'
+
+build(){
+	pkg:configure --with-jemalloc-prefix=
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

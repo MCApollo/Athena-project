@@ -1,0 +1,18 @@
+name='freetype'
+version='2.9.1'
+description='Software library to render fonts'
+section='Development'
+url="https://downloads.sourceforge.net/project/freetype/freetype2/${version}/freetype-${version}.tar.bz2"
+priority='optional'
+homepage='https://www.freetype.org/'
+tags='purpose::library'
+depends=('libpng')
+
+build(){
+	pkg:configure --without-harfbuzz
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}
