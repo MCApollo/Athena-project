@@ -1,0 +1,11 @@
+Package: com.mc.tcsh
+Name: tcsh
+Version: 6.20.00
+Section: Terminal Support
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://web.archive.org/web/20170609182511/www.tcsh.org/Home
+Tags: purpose::console
+Description: Athena Project | Compiled for ARM64.
+	Enhanced, fully compatible version of the Berkeley C shell

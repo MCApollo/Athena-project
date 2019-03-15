@@ -1,0 +1,19 @@
+name='tcsh'
+version='6.20.00'
+description='Enhanced, fully compatible version of the Berkeley C shell'
+section='Terminal Support'
+url='ftp://ftp.astron.com/pub/tcsh/tcsh-6.20.00.tar.gz'
+priority='optional'
+homepage='https://web.archive.org/web/20170609182511/www.tcsh.org/Home'
+tags='purpose::console'
+#depends=()
+
+build(){
+	pkg:patch
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}
