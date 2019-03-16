@@ -1,0 +1,20 @@
+name='fish'
+version='3.0.2'
+description='User-friendly command-line shell for UNIX-like operating systems'
+section='Terminal Support'
+url="https://github.com/fish-shell/fish-shell/releases/download/${version}/fish-${version}.tar.gz"
+priority='optional'
+homepage='https://fishshell.com'
+tags='purpose::console'
+depends=('pcre2')
+#makedepends=('cmake') -> ./configure exists
+
+build(){
+	pkg:patch
+	pkg:configure ac_cv_file__proc_self_stat=no	# pkg:cmake .
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

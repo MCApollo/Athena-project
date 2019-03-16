@@ -1,0 +1,51 @@
+.TH "wait" 1 "Tue Feb 19 2019" "Version 3.0.2" "fish" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+\fBwait\fP - wait for jobs to complete
+.PP
+.SS "Synopsis"
+.PP
+.nf
+
+\fBwait\fP [-n | --any] [PID | PROCESS_NAME] \&.\&.\&.
+.fi
+.PP
+.SS "Description"
+\fCwait\fP waits for child jobs to complete\&.
+.PP
+.IP "\(bu" 2
+If a pid is specified, the command waits for the job that the process with the pid belongs to\&.
+.IP "\(bu" 2
+If a process name is specified, the command waits for the jobs that the matched processes belong to\&.
+.IP "\(bu" 2
+If neither a pid nor a process name is specified, the command waits for all background jobs\&.
+.IP "\(bu" 2
+If the \fC-n\fP / \fC--any\fP flag is provided, the command returns as soon as the first job completes\&. If it is not provided, it returns after all jobs complete\&.
+.PP
+.SS "Example"
+.PP
+.nf
+
+\fBsleep\fP 10 &
+\fBwait\fP $last_pid
+.fi
+.PP
+ spawns \fCsleep\fP in the background, and then waits until it finishes\&. 
+.PP
+.nf
+
+\fBfor\fP i \fBin\fP (\fBseq\fP 1 5); \fBsleep\fP 10 &; \fBend\fP
+\fBwait\fP
+.fi
+.PP
+ spawns five jobs in the background, and then waits until all of them finishes\&. 
+.PP
+.nf
+
+\fBfor\fP i \fBin\fP (\fBseq\fP 1 5); \fBsleep\fP 10 &; \fBend\fP
+hoge &
+\fBwait\fP sleep
+.fi
+.PP
+ spawns five jobs and \fChoge\fP in the background, and then waits until all \fCsleep\fPs finishes, and doesn't wait for \fChoge\fP finishing\&. 

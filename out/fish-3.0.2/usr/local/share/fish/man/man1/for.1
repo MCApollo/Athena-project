@@ -1,0 +1,47 @@
+.TH "for" 1 "Tue Feb 19 2019" "Version 3.0.2" "fish" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+\fBfor\fP - perform a set of commands multiple times\&.
+.PP
+.SS "Synopsis"
+.PP
+.nf
+
+\fBfor\fP VARNAME \fBin\fP [VALUES\&.\&.\&.]; COMMANDS\&.\&.\&.; \fBend\fP
+.fi
+.PP
+.SS "Description"
+\fCfor\fP is a loop construct\&. It will perform the commands specified by \fCCOMMANDS\fP multiple times\&. On each iteration, the local variable specified by \fCVARNAME\fP is assigned a new value from \fCVALUES\fP\&. If \fCVALUES\fP is empty, \fCCOMMANDS\fP will not be executed at all\&. The \fCVARNAME\fP is visible when the loop terminates and will contain the last value assigned to it\&. If \fCVARNAME\fP does not already exist it will be set in the local scope\&. For our purposes if the \fCfor\fP block is inside a function there must be a local variable with the same name\&. If the \fCfor\fP block is not nested inside a function then global and universal variables of the same name will be used if they exist\&.
+.SS "Example"
+.PP
+.nf
+
+\fBfor\fP i \fBin\fP foo bar baz; \fBecho\fP $i; \fBend\fP
+.fi
+.PP
+.PP
+.PP
+.nf
+  would output:
+foo
+bar
+baz
+.fi
+.PP
+.SS "Notes"
+The \fCVARNAME\fP was local to the for block in releases prior to 3\&.0\&.0\&. This means that if you did something like this:
+.PP
+.PP
+.nf
+
+\fBfor\fP var \fBin\fP a b c
+    \fBif\fP break_from_loop
+        \fBbreak\fP
+    \fBend\fP
+\fBend\fP
+\fBecho\fP $var
+.fi
+.PP
+.PP
+The last value assigned to \fCvar\fP when the loop terminated would not be available outside the loop\&. What \fCecho $var\fP would write depended on what it was set to before the loop was run\&. Likely nothing\&. 

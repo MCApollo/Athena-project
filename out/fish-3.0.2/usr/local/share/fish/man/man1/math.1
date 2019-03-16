@@ -1,0 +1,125 @@
+.TH "math" 1 "Tue Feb 19 2019" "Version 3.0.2" "fish" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+\fBmath\fP - Perform mathematics calculations
+.PP
+.SS "Synopsis"
+.PP
+.nf
+
+\fBmath\fP [-sN | --scale=N] [--] EXPRESSION
+.fi
+.PP
+.SS "Description"
+\fCmath\fP is used to perform mathematical calculations\&. It supports all the usual operations such as addition, subtraction, etc\&. As well as functions like \fCabs()\fP, \fCsqrt()\fP and \fClog2()\fP\&.
+.PP
+By default, the output is as a float with trailing zeroes trimmed\&. To get a fixed representation, the \fC--scale\fP option can be used, including \fC--scale=0\fP for integer output\&.
+.PP
+Keep in mind that parameter expansion takes before expressions are evaluated\&. This can be very useful in order to perform calculations involving shell variables or the output of command substitutions, but it also means that parenthesis and the asterisk glob character have to be escaped or quoted\&.
+.PP
+\fCmath\fP ignores whitespace between arguments and takes its input as multiple arguments (internally joined with a space), so \fCmath 2 +2\fP and \fCmath '2 +    2'\fP work the same\&. \fCmath 2 2\fP is an error\&.
+.PP
+The following options are available:
+.PP
+.IP "\(bu" 2
+\fC-sN\fP or \fC--scale=N\fP sets the scale of the result\&. \fCN\fP must be an integer\&. A scale of zero causes results to be rounded down to the nearest integer\&. So \fC3/2\fP returns \fC1\fP rather than \fC2\fP which \fC1\&.5\fP would normally round to\&. This is for compatibility with \fCbc\fP which was the basis for this command prior to fish 3\&.0\&.0\&. Scale values greater than zero causes the result to be rounded using the usual rules to the specified number of decimal places\&.
+.PP
+.SS "Return Values"
+If the expression is successfully evaluated and doesn't over/underflow or return NaN the return \fCstatus\fP is zero (success) else one\&.
+.SS "Syntax"
+\fCmath\fP knows some operators, constants, functions and can (obviously) read numbers\&.
+.PP
+For numbers, \fC\&.\fP is always the radix character regardless of locale - \fC2\&.5\fP, not \fC2,5\fP\&. Scientific notation (\fC10e5\fP) is also available\&.
+.SS "Operators"
+\fCmath\fP knows the following operators:
+.PP
+.IP "\(bu" 2
+\fC+\fP for addition and \fC-\fP for subtraction\&.
+.IP "\(bu" 2
+\fC*\fP for multiplication, \fC/\fP for division\&.
+.IP "\(bu" 2
+\fC^\fP for exponentiation\&.
+.IP "\(bu" 2
+\fC%\fP for modulo\&.
+.IP "\(bu" 2
+\fC(\fP and \fC)\fP for grouping\&.
+.PP
+.PP
+They are all used in an infix manner - \fC5 + 2\fP, not \fC+ 5 2\fP\&.
+.SS "Constants"
+\fCmath\fP knows the following constants:
+.PP
+.IP "\(bu" 2
+\fCe\fP - Euler's number\&.
+.IP "\(bu" 2
+\fCpi\fP - You know that one\&. Half of Tau\&. (Tau is not implemented)
+.PP
+.PP
+Use them without a leading \fC$\fP - \fCpi - 3\fP should be about 0\&.
+.SS "Functions"
+\fCmath\fP supports the following functions:
+.PP
+.IP "\(bu" 2
+\fCabs\fP
+.IP "\(bu" 2
+\fCacos\fP
+.IP "\(bu" 2
+\fCasin\fP
+.IP "\(bu" 2
+\fCatan\fP
+.IP "\(bu" 2
+\fCatan2\fP
+.IP "\(bu" 2
+\fCceil\fP
+.IP "\(bu" 2
+\fCcos\fP
+.IP "\(bu" 2
+\fCcosh\fP
+.IP "\(bu" 2
+\fCexp\fP - the base-e exponential function
+.IP "\(bu" 2
+\fCfac\fP - factorial
+.IP "\(bu" 2
+\fCfloor\fP
+.IP "\(bu" 2
+\fCln\fP
+.IP "\(bu" 2
+\fClog\fP or \fClog10\fP - the base-10 logarithm
+.IP "\(bu" 2
+\fCncr\fP
+.IP "\(bu" 2
+\fCnpr\fP
+.IP "\(bu" 2
+\fCpow(x,y)\fP returns x to the y (and can be written as \fCx ^ y\fP)
+.IP "\(bu" 2
+\fCround\fP - rounds to the nearest integer, away from 0
+.IP "\(bu" 2
+\fCsin\fP
+.IP "\(bu" 2
+\fCsinh\fP
+.IP "\(bu" 2
+\fCsqrt\fP
+.IP "\(bu" 2
+\fCtan\fP
+.IP "\(bu" 2
+\fCtanh\fP
+.PP
+.PP
+All of the trigonometric functions use radians\&.
+.SS "Examples"
+\fCmath 1+1\fP outputs 2\&.
+.PP
+\fCmath $status - 128\fP outputs the numerical exit status of the last command minus 128\&.
+.PP
+\fCmath 10 / 6\fP outputs \fC1\&.666667\fP\&.
+.PP
+\fCmath -s0 10\&.0 / 6\&.0\fP outputs \fC1\fP\&.
+.PP
+\fCmath -s3 10 / 6\fP outputs \fC1\&.666\fP\&.
+.PP
+\fCmath 'sin(pi)'\fP outputs \fC0\fP\&.
+.SS "Compatibility notes"
+Fish 1\&.x and 2\&.x releases relied on the \fCbc\fP command for handling \fCmath\fP expressions\&. Starting with fish 3\&.0\&.0 fish uses the tinyexpr library and evaluates the expression without the involvement of any external commands\&.
+.PP
+You don't need to use \fC--\fP before the expression even if it begins with a minus sign which might otherwise be interpreted as an invalid option\&. If you do insert \fC--\fP before the expression it will cause option scanning to stop just like for every other command and it won't be part of the expression\&. 

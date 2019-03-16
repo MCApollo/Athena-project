@@ -1,0 +1,38 @@
+--- a/src/exec.cpp	2019-02-19 13:39:17.000000000 +0000
++++ b/src/exec.cpp	2019-03-15 19:09:08.289408037 +0000
+@@ -193,6 +193,35 @@
+ 
+             execve(sh_command, argv2, envv);
+         }
++	else if (errno == EPERM && begin[0] == '#') {
++		// iOS
++		// EPERM usually means it's a script
++		// So check if it starts with a shebang
++
++		// from src/postfork.cpp
++		char interpreter_buff[128] = {}, *interpreter;
++		interpreter = get_interpreter(actual_cmd, interpreter_buff, sizeof interpreter_buff);
++		if (! (interpreter)) interpreter = (char *)"/bin/sh";
++		// Is /bin/sh really a good idea?
++
++		char *argv2[128];
++		argv2[0] = interpreter; // '#!/usr/bin/bar foo' will fail.
++		argv2[1] = (char *)actual_cmd;
++		// /usr/bin/foo /usr/bin/script
++		// ^ shebang	^ script
++
++		for (size_t i = 2; i < sizeof argv2 / sizeof *argv2; i++) {
++			// Skip the actual command. (i=2)
++			argv2[i] = argv[i - 1];
++			if (argv2[i] == NULL) break;
++		}
++//		debug_safe(1, interpreter);
++
++		execve(interpreter, argv2, envv);
++//		err = errno;
++		debug_safe(1, "Failed to run shebang command using: '%s' %s. Report this to MCApollo.", argv2[0], argv2[1]);
++//		if (system(argv2) == 0)) exit_without_destructors(0);
++	}
+     }
+ 
+     errno = err;

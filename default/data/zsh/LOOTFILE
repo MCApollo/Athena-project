@@ -1,0 +1,30 @@
+name='zsh'
+version='5.7.1'
+description='UNIX shell (command interpreter)'
+section='Terminal Support'
+url="https://downloads.sourceforge.net/project/zsh/zsh/5.7.1/zsh-5.7.1.tar.xz"
+priority='optional'
+homepage='https://www.zsh.org/'
+tags='purpose::console'
+depends=('ncurses' 'pcre')
+
+build(){
+	pkg:patch
+	pkg:configure			\
+	--enable-cap			\
+	--enable-maildir-support	\
+	--enable-multibyte		\
+	--enable-pcre			\
+	--enable-zsh-secure-free	\
+	--enable-unicode9		\
+	--enable-etcdir=/etc		\
+	--with-tcsetpgrp		\
+	--enable-function-subdirs	\
+	ac_cv_c_stack_direction=-1 zsh_cv_rlimit_vmem_is_rss=no zsh_cv_rlimit_vmem_is_as=no zsh_cv_rlimit_rss_is_as=yes zsh_cv_sys_fifo=no zsh_cv_sys_link=yes zsh_cv_sys_killesrch=yes zsh_cv_sys_sigsuspend=yes zsh_cv_sys_tcsetpgrp=yes zsh_cv_sys_getpwnam_faked=no zsh_cv_sys_elf=no zsh_cv_func_dlsym_needs_underscore=no zsh_cv_path_utmpx=/var/run/utmpx
+	# ^ saurik's
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

@@ -1,0 +1,11 @@
+--- a/src/postfork.cpp	2019-02-19 13:39:17.000000000 +0000
++++ b/src/postfork.cpp	2019-03-15 19:09:08.289408037 +0000
+@@ -501,7 +501,7 @@
+             break;
+         }
+ 
+-        case ENOEXEC: {
++        case ENOEXEC || EPERM: {
+             const char *err = safe_strerror(errno);
+             debug_safe(0, "exec: %s", err);
+ 

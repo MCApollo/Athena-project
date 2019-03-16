@@ -1,0 +1,62 @@
+.TH "contains" 1 "Tue Feb 19 2019" "Version 3.0.2" "fish" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+\fBcontains\fP - test if a word is present in a list
+.PP
+.SS "Synopsis"
+.PP
+.nf
+
+\fBcontains\fP [OPTIONS] KEY [VALUES\&.\&.\&.]
+.fi
+.PP
+.SS "Description"
+\fCcontains\fP tests whether the set \fCVALUES\fP contains the string \fCKEY\fP\&. If so, \fCcontains\fP exits with status 0; if not, it exits with status 1\&.
+.PP
+The following options are available:
+.PP
+.IP "\(bu" 2
+\fC-i\fP or \fC--index\fP print the word index
+.PP
+.PP
+Note that, like GNU tools and most of fish's builtins, \fCcontains\fP interprets all arguments starting with a \fC-\fP as options to contains, until it reaches an argument that is \fC--\fP (two dashes)\&. See the examples below\&.
+.SS "Example"
+If $animals is a list of animals, the following will test if it contains a cat:
+.PP
+.PP
+.nf
+
+\fBif\fP \fBcontains\fP cat $animals
+   \fBecho\fP Your animal list is evil!
+\fBend\fP
+.fi
+.PP
+.PP
+This code will add some directories to $PATH if they aren't yet included:
+.PP
+.PP
+.nf
+
+\fBfor\fP i \fBin\fP ~/bin /usr/local/bin
+    \fBif\fP \fBnot\fP \fBcontains\fP $i $PATH
+        \fBset\fP PATH $PATH $i
+    \fBend\fP
+\fBend\fP
+.fi
+.PP
+.PP
+While this will check if \fChasargs\fP was run with the \fC-q\fP option:
+.PP
+.PP
+.nf
+
+\fBfunction\fP hasargs
+    \fBif\fP \fBcontains\fP -- -q $argv
+        \fBecho\fP '$argv contains a -q option'
+    \fBend\fP
+\fBend\fP
+.fi
+.PP
+.PP
+The \fC--\fP here stops \fCcontains\fP from treating \fC-q\fP to an option to itself\&. Instead it treats it as a normal string to check\&. 

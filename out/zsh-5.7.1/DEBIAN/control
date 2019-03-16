@@ -1,0 +1,12 @@
+Package: com.mc.zsh
+Name: zsh
+Version: 5.7.1
+Section: Terminal Support
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Priority: optional
+Architecture: iphoneos-arm
+Homepage: https://www.zsh.org/
+Tags: purpose::console
+Depends: com.mc.ncurses, com.mc.pcre
+Description: Athena Project | Compiled for ARM64.
+	UNIX shell (command interpreter)

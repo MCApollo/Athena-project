@@ -1,0 +1,33 @@
+.TH "continue" 1 "Tue Feb 19 2019" "Version 3.0.2" "fish" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+\fBcontinue\fP - skip the remainder of the current iteration of the current inner loop
+.PP
+.SS "Synopsis"
+.PP
+.nf
+
+LOOP_CONSTRUCT; [COMMANDS\&.\&.\&.;] \fBcontinue\fP; [COMMANDS\&.\&.\&.;] \fBend\fP
+.fi
+.PP
+.SS "Description"
+\fCcontinue\fP skips the remainder of the current iteration of the current inner loop, such as a \fCfor\fP loop or a \fCwhile\fP loop\&. It is usually added inside of a conditional block such as an \fCif\fP statement or a \fCswitch\fP statement\&.
+.SS "Example"
+The following code removes all tmp files that do not contain the word smurf\&.
+.PP
+.PP
+.nf
+
+\fBfor\fP i \fBin\fP *\&.tmp
+    \fBif\fP \fBgrep\fP smurf $i
+        \fBcontinue\fP
+    \fBend\fP
+      This 'rm' is skipped over if 'continue' is executed\&.
+    \fBrm\fP $i
+      As is this 'echo'
+    \fBecho\fP $i
+\fBend\fP
+.fi
+.PP
+ 
