@@ -1,0 +1,49 @@
+name='glib'
+version='2.60.0'
+description='Core application library for C'
+section='Development'
+url="https://download.gnome.org/sources/glib/2.60/glib-${version}.tar.xz"
+priority='optional'
+homepage='https://developer.gnome.org/glib/'
+tags='purpose::library'
+depends=('gettext' 'libffi' 'pcre')
+makedepends=('meson' 'ninja')
+# ugh meson/ninja.
+# pip3 install meson | Ubuntu hosts a lower version than required
+
+prepare(){
+	pkg:patch
+cat << EOF >> cross_file.txt
+[host_machine]
+system = 'darwin'
+cpu_family = 'arm'
+cpu = 'arm64'
+endian = 'little'
+
+[binaries]
+c       = '${TARGET}-clang'
+cpp     = '${TARGET}-clang++'
+ar      = '${TARGET}-ar'
+strip   = '${TARGET}-strip'
+pkgconfig = '${TARGET}-pkg-config'
+objc	= '${TARGET}-clang'
+objcpp	= '${TARGET}-clang++'
+
+EOF
+}
+
+
+
+build(){
+	cross_file=${PWD}/cross_file.txt
+	mkdir build; _cd build
+	# Use Clang, or we have to install gcc's objc stuff
+		meson --cross-file ${cross_file} --prefix=${PKGPREFIX:-/usr/local}	\
+			-Diconv=native	-Dbsymbolic_functions=false
+		ninja -v
+}
+
+package(){
+	_cd build
+	DESTDIR=$pkgdir ninja install -v 
+}

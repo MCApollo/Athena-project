@@ -1,0 +1,19 @@
+name='htop'
+version='2.2.0'
+description='Improved top (interactive process viewer)'
+section='Administration'
+url="https://hisham.hm/htop/releases/2.2.0/htop-2.2.0.tar.gz"
+priority='optional'
+homepage='https://hisham.hm/htop/'
+tags='purpose::console'
+depends=('ncurses')
+makedepends=('pkg-config')
+
+build(){
+	pkg:configure --disable-linux-affinity
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

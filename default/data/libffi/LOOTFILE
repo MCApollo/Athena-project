@@ -14,4 +14,6 @@ build(){
 
 package(){
 	make DESTDIR=$pkgdir install
+	ln -rfs ${pkgdir}/${PREFIX:-/usr/local}/lib/libffi-3.2.1/include ${pkgdir}/${PREFIX:-/usr/local}/ || \
+		_warning "Failed to symlink headers"
 }
