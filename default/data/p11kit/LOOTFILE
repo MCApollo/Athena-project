@@ -1,0 +1,23 @@
+name='p11kit'
+version='0.23.15'
+description='Library to load and enumerate PKCS#11 modules'
+section='Development'
+url="https://github.com/p11-glue/p11-kit/releases/download/${version}/p11-kit-${version}.tar.gz"
+priority='optional'
+homepage='https://p11-glue.freedesktop.org'
+tags='purpose::library'
+depends=('libffi')
+makedepends=('pkg-config')
+
+build(){
+	export FAKED_MODE=1
+	pkg:configure --with-module-config=/etc/pkcs11/modules \
+		--disable-trust-module	\
+		--without-libtasn1
+	make
+}
+
+package(){
+	export FAKED_MODE=1
+	make DESTDIR=$pkgdir install
+}

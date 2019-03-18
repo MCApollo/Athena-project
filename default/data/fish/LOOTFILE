@@ -6,7 +6,7 @@ url="https://github.com/fish-shell/fish-shell/releases/download/${version}/fish-
 priority='optional'
 homepage='https://fishshell.com'
 tags='purpose::console'
-depends=('pcre2')
+depends=('pcre2' 'ncurses')
 #makedepends=('cmake') -> ./configure exists
 
 build(){

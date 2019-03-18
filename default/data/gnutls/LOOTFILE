@@ -1,19 +1,28 @@
-name=
-version=
-description=
-section=
-url=
+name='gnutls'
+version='3.6.6'
+description='GNU Transport Layer Security (TLS) Library'
+section='Development'
+url="https://gnupg.org/ftp/gcrypt/gnutls/v3.6/gnutls-3.6.6.tar.xz"
 priority='optional'
-homepage=
-tags='purpose:: '
-depends=()
-#makedepends=()
-#conficts=()
+homepage='https://gnutls.org/'
+tags='purpose::library'
+depends=('gmp' 'libtasn1' 'libunistring' 'nettle' 'p11-kit' 'unbound')
+makedepends=('pkg-config')
+
+#prepare(){
+#	pkg:patch
+#}
 
 build(){
-	# Run ./configure and make
+	pkg:configure --with-default-trust-store-file=/etc/openssl/cert.pem	\
+	--disable-guile		\
+	--disable-heartbeat-support	\
+	--with-p11-kit		\
+	--enable-openssl-compatibility	\
+	--disable-hardware-acceleration
+	make AS=${TARGET}-as
 }
 
 package(){
-	# Make install
+	make DESTDIR=$pkgdir install
 }

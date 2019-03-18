@@ -1,0 +1,21 @@
+name='ffmpeg' # Small version
+version='4.4.1'
+description="Play, record, convert, and stream audio and video
+	libs: lame, libvorbis, libvpx, x264, x265, libass"
+section='Multimedia'
+url="https://ffmpeg.org/releases/ffmpeg-4.1.1.tar.xz"
+priority='optional'
+homepage='https://ffmpeg.org/'
+tags='purpose::console'
+depends=('lame' 'libvorbis' 'libvpx' 'x264' 'x265' ':xz' 'libass')
+
+flags='--enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-gpl --enable-libmp3lame --enable-libvpx --enable-libx264 --enable-libx265 --enable-lzma --enable-libvorbis --enable-libass'
+
+build(){
+	./configure --enable-cross-compile --arch=${TARGET%%-*} --target-os=darwin --prefix=${PKGPREFIX:-/usr/local} --cross-prefix=${TARGET}- ${flags} --enable-nonfree
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

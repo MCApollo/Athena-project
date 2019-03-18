@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "======================"
+echo
+echo "	sysconfigdir: /etc/zsh"
+echo "	Checkout /etc/zsh/on-my-zsh.install for the command to install Oh-My-Zsh."
+echo
+echo "======================"
+
+exit 0

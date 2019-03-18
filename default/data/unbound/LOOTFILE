@@ -1,0 +1,19 @@
+name='unbound'
+version='1.9.1'
+description='Validating, recursive, caching DNS resolver'
+section='Networking'
+url="https://nlnetlabs.nl/downloads/unbound/unbound-${version}.tar.gz"
+priority='optional'
+homepage='https://www.unbound.net'
+tags='purpose::library'
+depends=('libevent' 'openssl' 'libexpat')
+
+build(){
+	pkg:configure	--with-libevent=${SDK:-/nonexist}/${PKGPREFIX:-/usr/local} --with-ssl=${SDK:-/nonexist}/${PKGPREFIX:-/usr/local} --with-libexpat=${SDK:-/nonexist}/${PKGPREFIX:-/usr/local}
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}
+

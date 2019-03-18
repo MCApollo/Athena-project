@@ -2,7 +2,7 @@ name='zsh'
 version='5.7.1'
 description='UNIX shell (command interpreter)'
 section='Terminal Support'
-url="https://downloads.sourceforge.net/project/zsh/zsh/5.7.1/zsh-5.7.1.tar.xz"
+url="https://downloads.sourceforge.net/project/zsh/zsh/${version}/zsh-${version}.tar.xz"
 priority='optional'
 homepage='https://www.zsh.org/'
 tags='purpose::console'
@@ -20,11 +20,32 @@ build(){
 	--enable-etcdir=/etc		\
 	--with-tcsetpgrp		\
 	--enable-function-subdirs	\
+	--enable-additional-fpath	\
+	--enable-etcdir=/etc/zsh	\
+	--enable-zshenv=/etc/zsh/zshenv \
+	--enable-zlogin=/etc/zsh/zlogin \
+	--enable-zlogout=/etc/zsh/zlogout	\
+	--enable-zprofile=/etc/zsh/zprofile	\
+	--enable-zshrc=/etc/zsh/zshrc	\
+	--enable-fndir=${PKGPREFIX:-/usr/local}/share/zsh/functions		\
+	--enable-scriptdir=${PKGPREFIX:-/usr/local}/share/zsh/scripts		\
+	--enable-site-scriptdir=${PKGPREFIX:-/usr/local}/share/zsh/site-scripts	\
+	--enable-runhelpdir=${PKGPREFIX:-/usr/local}/share/zsh/help		\
+	--enable-site-fdir=${PKGPREFIX:-/usr/local}/share/zsh/site-functions	\
+	DL_EXT=budle			\
 	ac_cv_c_stack_direction=-1 zsh_cv_rlimit_vmem_is_rss=no zsh_cv_rlimit_vmem_is_as=no zsh_cv_rlimit_rss_is_as=yes zsh_cv_sys_fifo=no zsh_cv_sys_link=yes zsh_cv_sys_killesrch=yes zsh_cv_sys_sigsuspend=yes zsh_cv_sys_tcsetpgrp=yes zsh_cv_sys_getpwnam_faked=no zsh_cv_sys_elf=no zsh_cv_func_dlsym_needs_underscore=no zsh_cv_path_utmpx=/var/run/utmpx
 	# ^ saurik's
+	sed -i 's/$(libdir)\/$(tzsh)\/$(VERSION)/$(libdir)/' Makefile Src/Makefile
+	echo "name=zsh/newuser modfile=Src/Modules/newuser.mdd link=no auto=yes load=no functions=Scripts/newuser Functions/Newuser/*" >> config.modules
 	make
 }
 
 package(){
-	make DESTDIR=$pkgdir install
+	make DESTDIR=$pkgdir install install.fns install.man
+	# Hacky, (also avoiding a hidden file by doing it this way).
+	mkdir -p ${pkgdir}/${PKGPREFIX:-/usr/local}/share/zsh/functions/Newuser
+	cp -r ./Functions/Newuser/* ${pkgdir}/${PKGPREFIX:-/usr/local}/share/zsh/functions/Newuser/
+	
+	mkdir -p ${pkgdir}/etc/zsh/
+	cp ${LOOTDIR:-/nonexist}/{on-my-zsh.install,newuser.zshrc.recommended,zlogin,zlogout,zprofile,zshenv,zshrc} ${pkgdir}/etc/zsh/ || _warning "Failed to install config files."
 }

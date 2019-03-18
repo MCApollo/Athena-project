@@ -1,0 +1,17 @@
+name='libtasn1'
+version='4.13'
+description='ASN.1 structure parser library'
+section='Development'
+url="https://ftp.gnu.org/gnu/libtasn1/libtasn1-${version}.tar.gz"
+priority='optional'
+homepage='https://www.gnu.org/software/libtasn1/'
+tags='purpose::library'
+
+build(){
+	pkg:configure 
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

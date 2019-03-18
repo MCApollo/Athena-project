@@ -1,0 +1,17 @@
+name='libunistring'
+version='0.9.10'
+description='C string library for manipulating Unicode strings'
+section='Development'
+url="https://ftp.gnu.org/gnu/libunistring/libunistring-${version}.tar.xz"
+priority='optional'
+homepage='https://www.gnu.org/software/libunistring/'
+tags='purpose::library'
+
+build(){
+	pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}

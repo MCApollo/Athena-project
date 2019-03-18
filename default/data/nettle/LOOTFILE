@@ -1,0 +1,23 @@
+name='nettle'
+version='3.4.1'
+description='Low-level cryptographic library'
+section='Development'
+url="https://ftp.gnu.org/gnu/nettle/nettle-${version}.tar.gz"
+priority='optional'
+homepage='https://www.lysator.liu.se/~nisse/nettle/'
+tags='purpose::library'
+depends=('gmp')
+
+prepare(){
+	# Part of the testing:
+	sed -i 's/libnettle.so/libnettle.dylib/' testsuite/dlopen-test.c
+}
+
+build(){
+	SHARED=--enable-shared pkg:configure
+	make
+}
+
+package(){
+	make DESTDIR=$pkgdir install
+}
