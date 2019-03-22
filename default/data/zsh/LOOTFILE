@@ -47,5 +47,5 @@ package(){
 	cp -r ./Functions/Newuser/* ${pkgdir}/${PKGPREFIX:-/usr/local}/share/zsh/functions/Newuser/
 	
 	mkdir -p ${pkgdir}/etc/zsh/
-	cp ${LOOTDIR:-/nonexist}/{on-my-zsh.install,newuser.zshrc.recommended,zlogin,zlogout,zprofile,zshenv,zshrc} ${pkgdir}/etc/zsh/ || _warning "Failed to install config files."
+	cp ${LOOTDIR:-/nonexist}/{oh-my-zsh.install,newuser.zshrc.recommended,zlogin,zlogout,zprofile,zshenv,zshrc} ${pkgdir}/etc/zsh/ || _warning "Failed to install config files."
 }
