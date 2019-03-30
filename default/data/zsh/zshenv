@@ -14,5 +14,5 @@
 
 if [[ -z "$PATH" || "$PATH" == "/bin:/usr/bin" ]]
 then
-	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
+	export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games'
 fi
